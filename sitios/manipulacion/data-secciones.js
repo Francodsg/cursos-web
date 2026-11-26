@@ -429,7 +429,7 @@ pelis:[
 ["Luz que agoniza (1944)","La película que dio nombre al gaslighting."]
 ]};
 
-// Recursos de ayuda. Revisados con fuentes oficiales en noviembre de 2026; los números pueden cambiar: confirma siempre en la web oficial.
+// Recursos de ayuda. Recopilados en noviembre de 2026; PENDIENTES de verificación con cada servicio oficial (plan 6, §11.4).
 window.AYUDA = [
 {p:"Emergencias", r:[["Peligro inmediato","112 (Unión Europea y muchos otros países) · 911 (EE. UU., México, Argentina y gran parte de América)","24 h"],["Directorio internacional de líneas de apoyo emocional","findahelpline.com","Según el país"]]},
 {p:"España", r:[["016: atención a víctimas de violencia contra las mujeres","016 · WhatsApp 600 000 016 · 016-online@igualdad.gob.es · No aparece en la factura, pero sí en el registro de llamadas del teléfono: bórralo si es necesario","24 h, gratuito"],["024: línea de atención a la conducta suicida","024","24 h, gratuito"],["ANAR: ayuda a niños, niñas y adolescentes","900 20 20 10","24 h, gratuito"],["017: INCIBE, Tu Ayuda en Ciberseguridad (estafas, fraudes en línea)","017","Todos los días"],["Denuncia de estafas","Policía Nacional (091), Guardia Civil (062) o comisaría más cercana","24 h"]]},

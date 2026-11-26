@@ -525,7 +525,7 @@ function pageAyuda(){
   return crumbs([["Inicio",""],["Pedir ayuda"]]) + `<h1>Pedir ayuda</h1>
   <div class="cw big"><b>Si estás en peligro inmediato, llama al número de emergencias de tu país: 112 en Europa, 911 en EE. UU., México, Argentina y gran parte de América.</b></div>
   <p class="lead">No necesitas estar seguro de que lo que vives «es suficiente» para llamar: estos servicios orientan, escuchan y te ayudan a decidir. Este sitio es educativo y no sustituye la ayuda psicológica, médica ni legal.</p>
-  <p class="meta">Teléfonos revisados con fuentes oficiales en noviembre de 2026. Pueden cambiar: confírmalos en la web oficial de cada servicio. Si un número no funciona, avísanos desde <a href="${H("contacto")}">Contacto</a>.</p>
+  <p class="meta">Teléfonos recopilados en noviembre de 2026 y pendientes de verificación con cada servicio oficial. Pueden cambiar: confírmalos en la web oficial de cada servicio. Si un número no funciona, avísanos desde <a href="${H("contacto")}">Contacto</a>.</p>
   ${W.AYUDA.map(c => `<section class="panel"><h2>${esc(c.p)}</h2><div class="tablewrap"><table><thead><tr><th>Servicio</th><th>Teléfono o web</th><th>Horario</th></tr></thead><tbody>${c.r.map(r => `<tr><td>${esc(r[0])}</td><td><b>${esc(r[1])}</b></td><td>${esc(r[2])}</td></tr>`).join("")}</tbody></table></div></section>`).join("")}
   <h2>Si usas un dispositivo compartido</h2><ul><li>Este sitio no guarda nada salvo tu progreso del curso en este navegador (puedes borrarlo en <a href="${H("progreso")}">Progreso</a>).</li><li>Usa una ventana privada o de incógnito si te preocupa que alguien vea tu historial.</li><li>Borra del registro de llamadas los números a los que llames si es necesario.</li></ul>`;
 }
