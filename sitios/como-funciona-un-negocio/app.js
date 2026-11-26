@@ -223,7 +223,7 @@ function pageLesson(mid, n){
  <h2>Empresa real</h2>${md(X.r)}${X.f ? `<p class="meta">Fuente: ${inl(X.f)}</p>` : ""}
  <div class="box warn"><h3>Errores frecuentes</h3><ul>${X.err.map(e => `<li>${inl(e)}</li>`).join("")}</ul></div>
  <h2>Actividad práctica</h2>${md(X.a)}${X.sol ? `<details class="panel"><summary><b>Ver solución o pauta de autoevaluación</b></summary>${md(X.sol)}</details>` : ""}
- <h2>Mini-quiz</h2><p class="meta">4 preguntas. Con 3 aciertos o más la lección queda completada.${P.mq[id] != null ? " Tu mejor resultado: " + P.mq[id] + " %." : ""}</p>${quizHTML(X.q, "mq-" + id, {cb: sc => { P.mq[id] = Math.max(P.mq[id] || 0, sc); if (sc >= 75) P.done[id] = true; save(); updDone(); }})}
+ <h2>Mini-quiz</h2><p class="meta">4 preguntas. Con 3 aciertos o más la lección queda completada.${P.mq[id] != null ? " Tu mejor resultado: " + P.mq[id] + " %." : ""}</p>${quizHTML(X.q.map(q => shuffleOpts(normQ(q))), "mq-" + id, {cb: sc => { P.mq[id] = Math.max(P.mq[id] || 0, sc); if (sc >= 75) P.done[id] = true; save(); updDone(); }})}
  ${X.t && X.t.length ? `<h2>Términos del glosario</h2><div class="tags">${X.t.map(glossLink).join("")}</div>` : ""}`;
  return `${crumbs([["","Inicio"],["curso","Curso"],["nivel/" + m.n, "Nivel " + m.n],["m/" + m.id, m.id],["","Lección " + n]])}
  <div class="layout">${side}<article class="prose">
@@ -251,7 +251,7 @@ function examQs(n){
  const banks = lvMods(n).filter(hasQuiz).map(m => shuffle(BANCOS[m.id] || []));
  const E = EXAMENES[n] || {extra:[], prob:[]}; const picked = [];
  let k = 0; while (picked.length < 15 && banks.some(b => b.length)) { const b = banks[k++ % banks.length]; if (b.length) picked.push(b.pop()); }
- return shuffle(picked.concat(E.extra || []).map(normQ)).slice(0, 25).map(shuffleOpts).concat(E.prob || []);
+ return shuffle(picked.concat(E.extra || []).map(normQ)).slice(0, 25).map(shuffleOpts).concat((E.prob || []).map(normQ).map(shuffleOpts));
 }
 function pageExam(n){
  const l = C.niveles.find(x => x.n === n); if (!l) return notFound();
@@ -264,7 +264,7 @@ function pageFinal(){
  const F = EXAMENES.final || {extra:[], prob:[]};
  let qs = [];
  C.niveles.forEach(l => { const pool = shuffle(lvMods(l.n).filter(hasQuiz).flatMap(m => BANCOS[m.id] || []).concat((EXAMENES[l.n] || {}).extra || [])); qs = qs.concat(pool.slice(0, 10)); });
- qs = shuffle(qs.map(normQ)).map(shuffleOpts).concat(F.prob || []);
+ qs = shuffle(qs.map(normQ)).map(shuffleOpts).concat((F.prob || []).map(normQ).map(shuffleOpts));
  return `${crumbs([["","Inicio"],["curso","Curso"],["","Evaluación final"]])}<h1>Evaluación final</h1>
  <p class="meta">${qs.length} preguntas: 40 de todo el curso (10 por nivel) + 2 problemas numéricos + 1 caso integrador · tiempo sugerido ${hm(C.finalMin)} · se aprueba con 70 %. ${P.ex.final != null ? "Mejor resultado: " + P.ex.final + " %." : ""}</p>
  <div class="prose">${quizHTML(qs, "final", {cb: sc => { P.ex.final = Math.max(P.ex.final || 0, sc); save(); }})}</div>`;

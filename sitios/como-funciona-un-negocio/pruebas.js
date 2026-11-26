@@ -49,7 +49,7 @@ for (const k of ["1","2","3","4","final"]) { const x = E[k]; if (!x) { if (!parc
 // 4. Casos
 const casoIds = new Set(CASOS.map(c => c.id)); t(casoIds.size === CASOS.length, "Casos con identificador único");
 CASOS.forEach(c => { t(!!M.find(m => m.id === c.mod), c.id + ": módulo existe"); for (const k of ["t","ctx","dil","resp"]) t(c[k] && c[k].length > 20, c.id + ": campo " + k); t(["real","ficticio"].includes(c.tipo), c.id + ": tipo"); t(c.preg && c.preg.length >= 3, c.id + ": 3 o más preguntas"); t(c.lec && c.lec.length >= 2, c.id + ": lecciones"); if (c.tipo === "real") t(!!c.fuentes, c.id + ": caso real con fuentes"); if (c.les) { const [mid, n] = c.les.split("-"); const m = M.find(x => x.id === mid); t(m && +n <= m.L.length, c.id + ": lección enlazada existe"); } });
-M.forEach(m => { if (m.caso && (CASOS.length || !parcial)) t(casoIds.has(m.caso), m.id + ": su caso «" + m.caso + "» existe"); });
+M.forEach(m => { if (m.caso && (!parcial || LECC[m.id + "-1"])) t(casoIds.has(m.caso), m.id + ": su caso «" + m.caso + "» existe"); });
 
 // 5. Glosario
 if (G.length || !parcial) {
