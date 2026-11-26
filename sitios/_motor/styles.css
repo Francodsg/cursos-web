@@ -73,7 +73,7 @@ th{color:var(--muted);font-weight:600}
 .lvlhead .dot{width:.8rem;height:.8rem;border-radius:50%;background:var(--c)}
 @media (max-width:760px){
   .layout{grid-template-columns:1fr}
-  .side{position:static;max-height:none}
+  .side{position:static;max-height:none;order:2}
   .search input{width:8rem}
   h1{font-size:1.5rem}
 }
