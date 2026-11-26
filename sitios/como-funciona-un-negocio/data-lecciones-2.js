@@ -3833,3 +3833,2361 @@ q: [["La cadena de suministro es…",["La red de empresas que llevan un producto
 t: ["Cadena de suministro","Trazabilidad","Efecto látigo","Inventario administrado por el proveedor","Desarrollo de proveedores"]
 }
 });
+// ===== M11. Ventas y clientes =====
+Object.assign(window.LECC, {
+"M11-1": {
+s: `Lupita contrata a Karla como ejecutiva de ventas para conseguir oficinas. Al mes, Karla pregunta: «¿Cuál es mi meta? ¿Cómo me van a pagar si consigo clientes? ¿A quién le reporto lo que vendo?». Lupita no lo había pensado.`,
+o: ["Describir qué hace el área de ventas.","Distinguir los tipos de puestos de ventas.","Diseñar metas y esquemas de comisiones sencillos."],
+x: `## El área que trae el dinero
+El área de **ventas** se encarga de convertir a personas interesadas en clientes que compran, y de que los clientes actuales sigan comprando. Es la parte del negocio que **trae el dinero**: sin ventas, ninguna otra área tiene sentido. En un changarro, vende el dueño en el mostrador; en una pyme, puede haber vendedores de mostrador, ejecutivos que visitan empresas y un gerente de ventas; en una empresa grande, una dirección comercial con cientos o miles de vendedores organizados por región, canal o tipo de cliente.
+
+## Ventas y marketing: hermanos distintos
+Ventas y marketing trabajan juntos, pero no son lo mismo (lección M12-1):
+- **Marketing** atrae y prepara: hace que el cliente conozca el negocio, se interese y quiera comprar.
+- **Ventas** convierte y cierra: atiende al cliente interesado, resuelve dudas y concreta la compra.
+
+En un negocio pequeño, ambas cosas las hace la misma persona. Al crecer, se separan, y conviene que se coordinen bien.
+
+## Tipos de puestos de ventas
+| Puesto | Qué hace | Ejemplo |
+|---|---|---|
+| Vendedor de mostrador o piso | Atiende al cliente que llega | La cajera de Tortas Lupita |
+| Vendedor de ruta | Visita a clientes con una ruta fija y levanta pedidos | El vendedor de refrescos que visita tienditas |
+| Ejecutivo de cuenta | Busca y atiende a clientes empresas | Karla, que consigue oficinas |
+| Vendedor telefónico o digital | Vende por teléfono, chat o en línea | Quien atiende los pedidos de WhatsApp |
+| Gerente de ventas | Dirige al equipo, fija metas, da seguimiento | En una pyme, el dueño o un gerente |
+| Gerente de cuentas clave | Atiende a los clientes más grandes e importantes | El responsable de un supermercado como cliente |
+
+## Las funciones del área de ventas
+1. **Prospectar:** buscar posibles clientes (prospectos).
+2. **Calificar:** identificar cuáles tienen necesidad, capacidad de pago y poder de decisión.
+3. **Vender:** presentar la oferta, resolver dudas y cerrar (lección M11-5).
+4. **Atender y retener:** dar seguimiento, resolver problemas, lograr que vuelvan a comprar (lecciones M11-7 y M11-8).
+5. **Pronosticar:** estimar cuánto se venderá en las próximas semanas o meses; ese pronóstico es el punto de partida del presupuesto (lección M8-7) y de las compras.
+6. **Informar:** contar a la dirección qué piden los clientes, qué hace la competencia y qué problemas hay.
+
+## Las metas de ventas
+Un vendedor necesita saber qué se espera de él. Las metas deben ser SMART (lección M7-2) y pueden ser de varios tipos:
+- **De resultado:** ventas en pesos, número de clientes nuevos, margen generado.
+- **De actividad:** número de visitas, llamadas o propuestas enviadas (son indicadores adelantados: anticipan resultados).
+- **De calidad:** clientes que repiten, quejas, cobranza a tiempo.
+
+Combinar metas de actividad y de resultado ayuda: si un vendedor no llega a su meta de ventas, las metas de actividad permiten ver si el problema es que no visita suficientes clientes o que no logra convertirlos.
+
+## Cómo pagar a los vendedores
+Hay tres esquemas básicos:
+- **Sueldo fijo:** da estabilidad; conviene cuando las ventas dependen de muchos factores que el vendedor no controla o cuando el trabajo incluye mucho servicio.
+- **Comisión pura:** el vendedor gana un porcentaje de lo que vende; motiva mucho, pero puede llevar a vender a cualquier precio o a clientes que no pagan.
+- **Mixto:** sueldo base más comisión o bonos por metas. Es el más común.
+
+Algunas reglas para diseñar comisiones:
+- **Paga sobre lo cobrado, no solo sobre lo vendido**, para que al vendedor le importe que el cliente pague.
+- **Considera el margen:** si un producto deja más margen, puede pagar una comisión mayor; evita premiar descuentos excesivos.
+- **Que sea sencillo:** el vendedor debe poder calcular su comisión.
+- **Revisa que sea rentable:** la comisión debe salir del margen extra que genera la venta.
+- **Respeta la ley laboral:** en México, las comisiones forman parte del salario y tienen efectos en prestaciones y cuotas; conviene revisarlo con el contador.
+
+## El ejemplo de Karla
+Lupita diseña el esquema de Karla:
+- Sueldo base: 9,000 pesos al mes.
+- Comisión: 3 % de las ventas **cobradas** a oficinas nuevas durante sus primeros seis meses como clientes.
+- Meta de actividad: 40 visitas o llamadas a oficinas por mes.
+- Meta de resultado: 3 oficinas nuevas al mes, con un pedido mínimo de 4,000 pesos mensuales cada una.
+- Reporta a Lupita cada lunes en la junta semanal.
+
+Si Karla consigue 3 oficinas de 6,000 pesos al mes, al sexto mes estará generando 18 oficinas × 6,000 = 108,000 pesos al mes en ventas nuevas (si ninguna se va), con una comisión de 3,240 pesos. El margen de esas ventas (60 %, unos 64,800 pesos) cubre de sobra su costo.
+
+## El pronóstico de ventas
+Un buen equipo de ventas ayuda a todo el negocio porque **anticipa**. Un pronóstico sencillo combina:
+- Lo que se vendió en el mismo periodo del año anterior.
+- La tendencia de los últimos meses.
+- Los pedidos ya confirmados.
+- Las oportunidades en proceso, multiplicadas por su probabilidad de cerrarse.
+- Los cambios conocidos (una nueva sucursal, una promoción, un competidor).
+
+## Ventas en las empresas gigantes
+Las grandes empresas organizan a sus vendedores por territorio, canal o tipo de cliente; usan sistemas para registrar cada oportunidad (Módulo 15) y gerentes que revisan metas y avances semana a semana. Las empresas de consumo, como las embotelladoras, tienen miles de vendedores de ruta que visitan tienditas con una frecuencia planeada. Pero los fundamentos son los mismos que los de Karla: saber a quién vender, con qué metas, cómo se paga y cómo se reporta.`,
+k: `**Ventas:** convertir interesados en clientes y lograr que sigan comprando. Funciones: **prospectar, calificar, vender, retener, pronosticar e informar**. Metas de **actividad**, **resultado** y **calidad**. Pago: fijo, comisión o **mixto**; comisiona sobre lo **cobrado** y cuida el margen.`,
+ch: `Un vendedor de una distribuidora de dulces visita 40 tienditas por semana con una ruta fija; gana un sueldo base más 2 % de lo que cobra, y su meta incluye no tener clientes con más de 15 días de atraso.`,
+gi: `Las embotelladoras de refrescos tienen miles de vendedores y repartidores que visitan cientos de miles de tiendas con una frecuencia planeada, apoyados por sistemas que sugieren qué pedido levantar en cada punto de venta.`,
+e: `Lupita verifica que el esquema de Karla sea rentable al sexto mes:
+
+| Concepto | Cálculo | Pesos al mes |
+|---|---|---|
+| Ventas nuevas (18 oficinas × 6,000) | — | 108,000 |
+| Margen (60 %) | 108,000 × 0.6 | 64,800 |
+| Sueldo de Karla | — | 9,000 |
+| Comisión (3 %) | 108,000 × 0.03 | 3,240 |
+| Margen después del costo de ventas | 64,800 − 12,240 | 52,560 |
+
+Aunque solo la mitad de las oficinas se quedara, el esquema seguiría siendo muy rentable.`,
+r: `En el sector de bebidas, empresas como Coca-Cola FEMSA describen en sus informes un modelo de servicio a clientes del canal tradicional (tienditas) basado en visitas frecuentes de vendedores, herramientas digitales para levantar pedidos y segmentación de clientes.`,
+f: `Coca-Cola FEMSA, informe anual integrado (coca-colafemsa.com).`,
+err: ["Contratar vendedores sin metas claras.","Pagar comisiones sobre ventas que nunca se cobran.","Premiar el volumen aunque se venda con descuentos que destruyen el margen.","No pedir al área de ventas un pronóstico."],
+a: `Diseña el puesto de un vendedor para el negocio que observas: tipo de puesto, metas de actividad y de resultado, esquema de pago y cómo reportará. Calcula si su costo se paga con el margen que generaría.`,
+sol: `Para revisar la rentabilidad, multiplica las ventas esperadas por el margen y resta sueldo y comisiones; debe quedar un excedente claro.`,
+q: [["La principal función del área de ventas es…",["Convertir interesados en clientes y lograr que sigan comprando","Llevar la contabilidad","Hacer el organigrama"],0,"Es la que trae el dinero."],
+["Una meta de actividad para un vendedor es…",["Número de visitas o llamadas al mes","Utilidad neta de la empresa","Número de empleados"],0,"Anticipa los resultados."],
+["¿Por qué conviene pagar comisión sobre lo cobrado?",["Para que al vendedor le importe que el cliente pague","Para pagar menos siempre","Porque lo prohíbe la ley"],0,"Evita vender a quien no paga."],
+["El esquema de pago más común para vendedores es…",["Mixto: sueldo base más comisión o bonos","Solo propinas","Ninguno"],0,"Combina estabilidad y motivación."]],
+t: ["Ventas","Prospecto","Comisión","Pronóstico de ventas","Meta de ventas"]
+},
+"M11-2": {
+s: `Karla visita una oficina y ofrece «las mejores tortas de la zona». La encargada responde: «Lo que necesito es que llegue a tiempo para la junta de las 13:00, con factura y sin que yo tenga que organizar nada». Karla aprende que no se vende un producto: se resuelve el problema de alguien.`,
+o: ["Describir al cliente con un perfil concreto.","Identificar necesidades y motivos de compra racionales y emocionales.","Reconocer quién usa, quién decide, quién influye y quién paga."],
+x: `## Conocer al cliente
+Vender empieza por **entender al cliente**: quién es, qué necesita, qué le preocupa, cómo decide y qué valora. Un vendedor que conoce bien a su cliente no «empuja» un producto: ayuda a resolver un problema. Por eso, antes de hablar del producto, conviene escuchar y preguntar.
+
+## El perfil del cliente
+Un **perfil del cliente** (a veces llamado *buyer persona* en el lenguaje del marketing) es una descripción concreta de un cliente típico de un segmento (lección M4-3). No es un promedio estadístico, sino un retrato útil para decidir. Incluye:
+- **Datos generales:** edad, ocupación, ubicación, nivel de ingresos (si es persona); giro, tamaño, número de empleados (si es empresa).
+- **Necesidades:** qué problema quiere resolver.
+- **Objetivos:** qué quiere lograr.
+- **Frustraciones:** qué le molesta o preocupa.
+- **Cómo compra:** dónde se informa, cuándo compra, cómo paga, con qué frecuencia.
+- **Qué valora:** precio, rapidez, calidad, trato, seguridad, prestigio.
+- **Objeciones típicas:** por qué podría no comprar.
+
+## Ejemplo: el perfil de «Mariana, encargada de oficina»
+| Elemento | Descripción |
+|---|---|
+| Quién es | Mariana, 35 años, asistente de dirección en un despacho de 25 personas en la colonia Centro |
+| Necesidad | Comida para juntas y para el personal los viernes |
+| Objetivo | Que todo salga bien sin que su jefe se queje y sin dedicarle mucho tiempo |
+| Frustraciones | Pedidos que llegan tarde o incompletos; proveedores que no dan factura; tener que perseguir a varios proveedores |
+| Cómo compra | Por WhatsApp; pide cotización; necesita autorización de su jefe para gastos mayores a 3,000 pesos; paga con transferencia contra factura |
+| Qué valora | Puntualidad, que no haya errores, factura correcta, buen sabor |
+| Objeciones | «Ya tenemos un proveedor», «Es más caro que la fonda» |
+
+Con este perfil, Karla cambia su discurso: en lugar de «las mejores tortas», ofrece «su pedido listo a las 12:45, con factura, y usted solo me escribe una vez a la semana».
+
+## Necesidades y motivos de compra
+La gente compra por **motivos** que pueden ser:
+- **Racionales:** precio, ahorro de tiempo, calidad, durabilidad, garantía, conveniencia.
+- **Emocionales:** tranquilidad, prestigio, pertenencia, placer, miedo a equivocarse, quedar bien con otros.
+
+En la práctica, casi todas las compras combinan ambos. Mariana compra tortas por razones racionales (precio, puntualidad, factura) y emocionales (quedar bien con su jefe, no estresarse). Un buen vendedor atiende a los dos tipos de motivos.
+
+Una idea útil es la de los **trabajos por hacer** (en inglés, *jobs to be done*), popularizada por Clayton Christensen: el cliente «contrata» un producto para hacer un trabajo en su vida. Mariana no contrata tortas: contrata «que la junta salga bien sin que yo me preocupe».
+
+## Quién participa en la compra
+En muchas compras, especialmente entre empresas, participan varias personas con papeles distintos:
+- **Usuario:** quien usa el producto (los empleados que comen las tortas).
+- **Influenciador:** quien opina e influye (el jefe que comentó que la fonda tardaba).
+- **Decisor:** quien elige (Mariana, para pedidos pequeños; su jefe, para los grandes).
+- **Comprador:** quien hace la compra formal (Mariana).
+- **Pagador:** quien paga (el área de administración del despacho).
+- **Guardián:** quien controla el acceso a los demás (la recepcionista que contesta el teléfono).
+
+Un vendedor que solo habla con una persona puede perder la venta porque otra se opone. Conviene saber quién es quién y qué le importa a cada uno.
+
+## Cómo conocer mejor a los clientes
+- **Pregunta:** «¿Qué es lo más importante para usted cuando pide comida para su oficina?», «¿Qué le ha fallado con otros proveedores?».
+- **Escucha más de lo que hablas.**
+- **Observa:** qué piden, cuándo, cuánto, cómo pagan.
+- **Registra:** anota lo que aprendes de cada cliente (Módulo 15, CRM).
+- **Pide retroalimentación** después de cada pedido.
+- **Revisa las quejas:** dicen mucho de lo que el cliente valora.
+
+## El cliente cambia
+Los clientes cambian: de necesidades, de presupuesto, de persona encargada. Lo que valoraban hace un año puede no ser lo que valoran hoy. Por eso conocer al cliente no es un ejercicio de una vez, sino una práctica continua.
+
+## En empresas gigantes
+Las grandes empresas invierten mucho en conocer a sus clientes: estudios de mercado, encuestas, análisis de datos de compras, programas de lealtad que registran qué compra cada persona, grupos de enfoque. Pero la pregunta central es la misma que se hizo Karla: ¿qué problema le estoy resolviendo a esta persona y qué le importa realmente?
+
+## El viaje del cliente
+Otra herramienta útil es el **mapa del viaje del cliente**: una línea de tiempo con todos los momentos en que el cliente tiene contacto con el negocio, desde que siente la necesidad hasta después de la compra. Para Mariana serían: darse cuenta de que hay junta el viernes, buscar opciones, pedir cotización, pedir autorización a su jefe, hacer el pedido, recibirlo, pagar la factura y comentar cómo salió. En cada momento conviene preguntarse qué siente el cliente, qué le preocupa y qué podría hacer el negocio para facilitarle las cosas. Muchas veces, la diferencia entre ganar o perder a un cliente no está en el producto, sino en uno de esos momentos: una cotización que tardó dos días, una factura con errores o un repartidor que no encontró la oficina. Dibujar el viaje permite descubrir esos momentos y mejorarlos uno por uno.`,
+k: `Conocer al cliente: **perfil** concreto (necesidades, objetivos, frustraciones, cómo compra, qué valora, objeciones). Motivos **racionales y emocionales**; el cliente «contrata» un producto para hacer un **trabajo** (Christensen). En la compra participan **usuario, influenciador, decisor, comprador, pagador y guardián**.`,
+ch: `En una papelería, la mamá que compra útiles en agosto quiere terminar rápido la lista escolar y no gastar de más: la papelería que le arma la lista completa en una bolsa resuelve su «trabajo».`,
+gi: `Clayton Christensen y su equipo contaron el caso de una cadena de comida rápida que descubrió que muchas personas compraban malteadas por la mañana para hacer más llevadero un trayecto largo en auto; entender ese «trabajo» cambió la forma de pensar el producto.`,
+e: `Karla mapea quién participa en la compra del despacho de Mariana:
+
+| Papel | Persona | Qué le importa | Qué hace Karla |
+|---|---|---|---|
+| Usuario | Empleados | Sabor y cantidad | Degustación gratis el primer viernes |
+| Influenciador | El jefe | Que no haya retrasos en las juntas | Garantía: si llega tarde, el pedido es gratis |
+| Decisor y comprador | Mariana | Puntualidad, factura, poco trabajo | Pedido fijo semanal por WhatsApp |
+| Pagador | Administración | Factura correcta y precio claro | Factura con los datos exactos y precio fijo |
+| Guardián | Recepcionista | No ser molestada | Solo escribir a Mariana, no llamar a recepción |
+
+Con el mapa, el despacho firma un pedido semanal de 25 tortas.`,
+r: `Clayton Christensen, profesor de la Escuela de Negocios de Harvard, desarrolló la teoría de los «trabajos por hacer» y la explicó en el libro «Competing Against Luck» (2016) y en artículos de Harvard Business Review, donde cuenta, entre otros, el ejemplo de las malteadas compradas para acompañar trayectos matutinos.`,
+f: `Clayton M. Christensen y otros, «Competing Against Luck» (2016); «Know Your Customers' Jobs to Be Done», Harvard Business Review (2016).`,
+err: ["Hablar del producto antes de entender al cliente.","Describir al cliente como «todo el mundo».","Hablar solo con una persona en una compra de empresa.","Ignorar los motivos emocionales de compra."],
+a: `Escribe el perfil de un cliente típico del negocio que observas con los siete elementos de la lección. Después identifica qué «trabajo» contrata ese cliente y quién participa en su decisión de compra.`,
+sol: `Si no sabes algo del perfil, es una señal para preguntar a clientes reales. Las mejores respuestas salen de conversaciones, no de suposiciones.`,
+q: [["Un perfil del cliente sirve para…",["Entender a un cliente típico y decidir cómo atenderlo","Calcular impuestos","Elegir proveedores"],0,"Es un retrato concreto y útil."],
+["«Quedar bien con su jefe» es un motivo de compra…",["Emocional","Racional","Fiscal"],0,"Se relaciona con emociones y relaciones."],
+["En una compra de empresa, quien autoriza el gasto suele ser el…",["Decisor","Usuario","Guardián"],0,"El usuario usa el producto; el decisor elige."],
+["La idea de los «trabajos por hacer» se asocia con…",["Clayton Christensen","Henri Fayol","Adam Smith"],0,"El cliente «contrata» un producto para hacer un trabajo."]],
+t: ["Perfil del cliente","Motivos de compra","Trabajos por hacer","Decisor de compra","Centro de compra"]
+},
+"M11-3": {
+s: `Cada día pasan unas 1,000 personas frente a Tortas Lupita, pero solo 120 compran. Toño se pregunta: ¿dónde se quedan las otras 880? ¿No nos ven, no les interesa, no les convence el precio o se van por la fila?`,
+o: ["Describir las etapas del embudo de ventas.","Calcular la conversión entre etapas.","Identificar en qué etapa conviene mejorar."],
+x: `## El embudo de ventas
+El **embudo de ventas** es una forma de representar el camino que recorren las personas desde que se enteran de que un negocio existe hasta que se vuelven clientes frecuentes. Se llama embudo porque en cada etapa **se van quedando** personas: muchas entran arriba y pocas salen abajo.
+
+Una de las primeras versiones de esta idea es el modelo **AIDA** (atención, interés, deseo, acción), atribuido al publicista estadounidense Elias St. Elmo Lewis a finales del siglo XIX. Hoy se usan muchas variantes. Una versión práctica para un negocio es:
+
+| Etapa | Qué pasa | Ejemplo en Tortas Lupita |
+|---|---|---|
+| 1. Alcance | La persona se entera de que existes | Pasa frente al local, ve una publicación, alguien le cuenta |
+| 2. Interés | Pone atención | Se detiene a ver el menú o el letrero |
+| 3. Consideración | Evalúa si le conviene | Revisa precios, ve la fila, compara con otras opciones |
+| 4. Compra | Compra por primera vez | Pide una torta |
+| 5. Recompra | Vuelve a comprar | Regresa al día siguiente o a la semana |
+| 6. Lealtad y recomendación | Se vuelve cliente frecuente y recomienda | Viene varias veces por semana y trae a sus compañeros |
+
+## La conversión
+La **tasa de conversión** es el porcentaje de personas que pasan de una etapa a la siguiente:
+
+**Conversión = personas que pasan a la siguiente etapa ÷ personas en la etapa actual × 100**
+
+También se usa la conversión total: **compradores ÷ personas alcanzadas × 100**.
+
+## El embudo de Tortas Lupita
+Toño observa un día normal en la acera y cuenta:
+
+| Etapa | Personas | Conversión desde la etapa anterior |
+|---|---|---|
+| Pasan frente al local (alcance) | 1,000 | — |
+| Miran el menú o el letrero (interés) | 400 | 40 % |
+| Se acercan al mostrador o a la fila (consideración) | 180 | 45 % |
+| Compran | 120 | 67 % |
+
+**Conversión total:** 120 ÷ 1,000 = **12 %**. Si el ticket promedio es de 85 pesos (con refresco y alguna torta extra en pedidos de oficina), las ventas de mostrador de ese día son 120 × 85 = **10,200 pesos**.
+
+## ¿Dónde se pierden más personas?
+Al mirar cada etapa:
+- **De alcance a interés (40 %):** 600 personas pasan sin mirar. Quizá el letrero es pequeño, el menú no se ve desde la calle o muchas no buscan comida a esa hora.
+- **De interés a consideración (45 %):** de las 400 que miran, 220 no se acercan. Quizá los precios no están visibles, el local no se ve limpio o no hay algo que llame la atención.
+- **De consideración a compra (67 %):** de las 180 que se acercan, 60 se van. Quizá por la fila o porque no aceptan tarjeta.
+
+Cada pérdida sugiere una acción distinta:
+- Mejorar el **alcance e interés:** letrero más visible, menú grande en la calle, olor a pan tostado, promoción visible.
+- Mejorar la **consideración:** precios claros, foto de las tortas, local limpio y ordenado.
+- Mejorar la **compra:** fila más rápida (lección M9-4), pago con tarjeta y transferencia.
+
+## El efecto de mejorar una etapa
+Una mejora pequeña en una etapa se multiplica en el resultado final. Si Toño logra que la conversión de consideración a compra suba de 67 % a 80 % (agilizando la fila y aceptando tarjeta):
+- 180 × 80 % = 144 compradores en lugar de 120.
+- 24 compradores más al día × 85 pesos = 2,040 pesos más al día.
+- Al mes (26 días): unos 53,000 pesos más en ventas, sin traer a nadie nuevo a la calle.
+
+## El embudo en ventas a empresas
+Para clientes empresa, el embudo suele tener etapas como:
+1. **Prospecto:** una empresa que podría ser cliente.
+2. **Contacto:** se habló con la persona adecuada.
+3. **Calificado:** tiene necesidad, presupuesto y poder de decisión.
+4. **Propuesta:** se envió una cotización.
+5. **Negociación.**
+6. **Cierre:** firma o primer pedido.
+7. **Cliente activo y recurrente.**
+
+Karla registra a cada oficina en la etapa en que está. Si ve que muchas se quedan en «propuesta», el problema puede ser el precio o la forma de presentarla; si se quedan en «contacto», quizá no habla con quien decide.
+
+## El embudo digital
+En internet, el embudo es aún más fácil de medir: impresiones de una publicación (alcance), clics (interés), visitas al menú o al perfil (consideración), mensajes o pedidos (compra). Las herramientas digitales muestran estas cifras automáticamente (Módulo 12).
+
+## Más allá de la primera compra
+El embudo no termina en la compra. Para muchos negocios, la parte más valiosa son las etapas de **recompra** y **lealtad**: un cliente que regresa cada semana vale mucho más que uno que compra una sola vez (lección M11-8). Por eso, algunos autores prefieren hablar de un ciclo en lugar de un embudo: los clientes leales recomiendan y traen a nuevos clientes a la parte de arriba.
+
+## En las empresas gigantes
+Las empresas grandes miden su embudo con enorme detalle: cuántas personas ven un anuncio, cuántas entran a la tienda o al sitio web, cuántas agregan un producto al carrito, cuántas pagan y cuántas regresan. Las tiendas en línea, por ejemplo, analizan en qué paso del proceso de pago se van los clientes y lo simplifican. La lógica es exactamente la del conteo de Toño en la acera.`,
+k: `**Embudo de ventas:** alcance → interés → consideración → compra → recompra → lealtad (basado en el modelo **AIDA**). **Conversión** = los que pasan ÷ los que estaban. Conversión total = compradores ÷ alcanzados. Encuentra la etapa donde se pierde más gente; una mejora pequeña en una etapa se **multiplica** en el resultado.`,
+ch: `Una estética mide: 300 personas ven su publicación, 60 le escriben, 25 agendan y 20 llegan. Descubre que muchas no agendan porque no ven precios; al publicarlos, sube la conversión.`,
+gi: `Las tiendas en línea grandes analizan cada paso de su proceso de compra (ver producto, agregar al carrito, pagar) y prueban cambios para reducir el número de clientes que abandonan el carrito.`,
+e: `Toño calcula el efecto de dos mejoras en el embudo:
+
+| Escenario | Interés | Consideración | Compra | Compradores | Ventas del día (× 85) |
+|---|---|---|---|---|---|
+| Actual | 400 (40 %) | 180 (45 %) | 120 (67 %) | 120 | 10,200 |
+| Mejor compra (80 %) | 400 | 180 | 144 | 144 | 12,240 |
+| Mejor interés (50 %) + mejor compra | 500 | 225 | 180 | 180 | 15,300 |
+
+Mejorar dos etapas aumenta las ventas de mostrador 50 % con la misma gente pasando por la calle.`,
+r: `El modelo AIDA se atribuye a Elias St. Elmo Lewis, publicista estadounidense que a finales del siglo XIX describió las etapas que una buena venta o un buen anuncio debía lograr: atraer la atención, despertar el interés, crear deseo y llevar a la acción.`,
+f: `Historia del modelo AIDA en textos de marketing, por ejemplo, Philip Kotler y Gary Armstrong, «Fundamentos de marketing».`,
+err: ["Mirar solo las ventas finales sin medir las etapas.","Gastar en atraer más gente cuando el problema está en la compra (fila, pagos).","Olvidar las etapas de recompra y lealtad.","No registrar en qué etapa está cada cliente empresa."],
+a: `Observa durante una hora el negocio que estudias (o uno de tu colonia) y cuenta cuántas personas pasan, cuántas miran, cuántas se acercan y cuántas compran. Calcula las conversiones y propón una mejora para la etapa más débil.`,
+sol: `Si la etapa más débil es la compra, revisa la fila, las formas de pago y la atención; si es el interés, revisa el letrero, el menú visible y la vitrina.`,
+q: [["Si 1,000 personas pasan y 120 compran, la conversión total es…",["12 %","120 %","1.2 %"],0,"120 ÷ 1,000."],
+["El modelo AIDA significa…",["Atención, interés, deseo, acción","Ahorro, inversión, deuda, activo","Análisis, ideas, diseño, ajuste"],0,"Atribuido a Elias St. Elmo Lewis."],
+["Si 180 personas se acercan y la conversión a compra sube de 67 % a 80 %, compran…",["144","120","180"],0,"180 × 0.8."],
+["¿Por qué conviene medir cada etapa del embudo?",["Para saber dónde se pierden más personas y qué mejorar","Para pagar menos impuestos","Para despedir vendedores"],0,"Cada pérdida sugiere una acción distinta."]],
+t: ["Embudo de ventas","Modelo AIDA","Tasa de conversión","Prospecto","Recompra"]
+},
+"M11-4": {
+s: `Lupita quiere más clientes, pero no sabe dónde buscarlos. Toño propone anuncios en redes, Karla quiere visitar oficinas, un vecino sugiere repartir volantes y un cliente fiel dice: «Yo ya les traje a cinco compañeros». ¿Cuál es el mejor camino?`,
+o: ["Conocer los principales canales para conseguir clientes.","Comparar su costo y su efectividad.","Diseñar un plan sencillo de adquisición de clientes."],
+x: `## Muchas formas de llegar
+Conseguir clientes nuevos (la **adquisición de clientes**) puede hacerse por muchos caminos. No todos sirven igual para todos los negocios, y cada uno tiene un costo distinto. La clave es elegir los que usan tus clientes y medir cuánto cuesta cada cliente que llega por cada camino.
+
+## 1. La ubicación
+Para un negocio de calle, la **ubicación** es el primer canal de adquisición: el local mismo «se anuncia» a quienes pasan. Un buen letrero, una vitrina atractiva, un menú visible desde la calle y un local limpio convierten a los transeúntes en clientes (lección M11-3). Elegir dónde abrir es una de las decisiones más importantes de un negocio físico (lección M20-2).
+
+## 2. La recomendación (boca a boca)
+Un cliente satisfecho que recomienda el negocio es el canal más **creíble** y **barato** que existe: la gente confía más en un amigo que en un anuncio. Para estimularlo:
+- **Dar una experiencia que valga la pena contar.**
+- **Pedirlo:** «Si te gustó, recomiéndanos».
+- **Premiarlo:** programas de referidos («trae a un amigo y ambos tienen 10 % de descuento»).
+- **Facilitarlo:** tarjetas para compartir, número de WhatsApp fácil de pasar.
+
+Una forma de medir qué tan dispuestos están los clientes a recomendar es el **Net Promoter Score (NPS)**, propuesto por Fred Reichheld en 2003: se pregunta «Del 0 al 10, ¿qué tan probable es que nos recomiendes?» y se resta el porcentaje de quienes responden 0 a 6 (detractores) al de quienes responden 9 o 10 (promotores).
+
+## 3. Las reseñas y los mapas en internet
+Hoy muchas personas buscan «tortas cerca de mí» en un mapa o un buscador. Tener un perfil completo en Google Maps (con fotos, horario, menú y teléfono) y buenas reseñas es, para un negocio local, casi tan importante como el letrero. Pedir a los clientes satisfechos que dejen una reseña y responder con amabilidad a todas (incluidas las negativas) ayuda mucho.
+
+## 4. Las redes sociales
+Publicar fotos y videos del producto, promociones y la vida del negocio en redes sociales puede atraer clientes con poco costo. Funciona mejor cuando es **constante**, **local** (dirigido a la zona) y **auténtico**. También se pueden pagar anuncios dirigidos a personas de cierta zona y edad (Módulo 12).
+
+## 5. La venta directa (vendedores)
+Para clientes empresa, como las oficinas, lo más efectivo suele ser la **venta directa**: un vendedor que identifica empresas, contacta a la persona adecuada, presenta una propuesta y da seguimiento (lección M11-5). Es más caro por cliente, pero cada cliente empresa puede valer mucho.
+
+## 6. Alianzas
+Asociarse con otros negocios que tienen los mismos clientes: un gimnasio que recomienda la torta saludable, una escuela que ofrece las tortas en sus eventos, un edificio de oficinas que incluye un descuento en su bienvenida a inquilinos.
+
+## 7. Distribuidores e intermediarios
+Vender a través de otros: plataformas de reparto, tiendas que revenden la salsa, cafeterías que ofrecen las tortas. Permiten llegar a muchos clientes, pero se comparte el margen (lección M4-4).
+
+## 8. Promociones, eventos y degustaciones
+Dejar probar el producto es una de las formas más efectivas de convencer: degustaciones en oficinas, participación en ferias o eventos de la colonia, promociones de bienvenida.
+
+## 9. Publicidad tradicional
+Volantes, lonas, anuncios en radio local o periódicos de la zona. Pueden funcionar, pero son difíciles de medir; conviene usar un código o una promoción específica para saber cuántos clientes llegan por ahí.
+
+## Comparar canales: el costo por cliente
+Para elegir, hay que medir el **costo de adquisición por cliente (CAC)** de cada canal: lo que se gastó en el canal ÷ los clientes nuevos que trajo (lección M11-9).
+
+| Canal | Gasto al mes | Clientes nuevos | Costo por cliente |
+|---|---|---|---|
+| Volantes | 1,500 | 15 | 100 |
+| Anuncios en redes | 2,000 | 40 | 50 |
+| Programa de referidos (descuentos) | 1,200 | 60 | 20 |
+| Visitas de Karla (parte de su sueldo y comisión) | 6,000 | 3 oficinas | 2,000 por oficina |
+
+A simple vista, las visitas de Karla parecen carísimas. Pero cada oficina compra unos 6,000 pesos al mes durante muchos meses, mientras que un cliente de volante quizá compra 45 pesos un par de veces. El costo por cliente hay que compararlo con **lo que deja cada cliente** durante su relación con el negocio (valor de vida, lección M11-8).
+
+## El plan de adquisición
+Un plan sencillo responde:
+1. ¿Qué **segmentos** quiero atraer? (oficinistas, oficinas, estudiantes).
+2. ¿Qué **canales** usan esos segmentos?
+3. ¿Cuánto puedo **gastar** en cada canal?
+4. ¿Cómo voy a **medir** cuántos clientes llegan por cada canal? (preguntar «¿cómo nos conociste?», códigos de promoción, enlaces distintos).
+5. ¿Cuándo voy a **revisar** y ajustar?
+
+## El plan de Tortas Lupita
+- **Oficinistas de la zona:** letrero y menú visibles, perfil en mapas con fotos y reseñas, anuncios en redes dirigidos a 1 kilómetro alrededor.
+- **Oficinas:** visitas de Karla con degustación gratis.
+- **Estudiantes:** promoción visible a la hora de salida.
+- **Todos:** programa de referidos y tarjeta de sellos.
+
+Toño agrega una pregunta en la caja: «¿Cómo nos conociste?». Al mes descubren que la mitad de los clientes nuevos llegaron por recomendación de otro cliente. Deciden reforzar el programa de referidos y dejar los volantes.`,
+k: `Canales de **adquisición**: ubicación, **recomendación** (el más creíble y barato; se mide con el **NPS**), reseñas y mapas, redes sociales, venta directa, alianzas, distribuidores, degustaciones y publicidad tradicional. Compara canales por su **costo por cliente (CAC)** frente a lo que deja cada cliente. Pregunta siempre «¿cómo nos conociste?».`,
+ch: `Una tintorería deja tarjetas en los edificios cercanos con un código de descuento distinto para cada edificio; así sabe qué edificios le traen más clientes.`,
+gi: `Muchas empresas grandes miden su Net Promoter Score, la métrica propuesta por Fred Reichheld en 2003, para seguir qué tan dispuestos están sus clientes a recomendarlas.`,
+e: `Toño calcula el NPS de Tortas Lupita con 100 respuestas:
+
+| Respuesta | Clientes | Tipo |
+|---|---|---|
+| 9 o 10 | 62 | Promotores |
+| 7 u 8 | 26 | Pasivos |
+| 0 a 6 | 12 | Detractores |
+
+NPS = % promotores − % detractores = 62 − 12 = **50**. Es un buen resultado. Llama a los detractores para entender qué falló.`,
+r: `Fred Reichheld presentó el Net Promoter Score en el artículo «The One Number You Need to Grow» (Harvard Business Review, 2003). Desde entonces, muchas empresas lo usan como indicador de lealtad, aunque también ha recibido críticas por simplificar demasiado la satisfacción del cliente.`,
+f: `Frederick F. Reichheld, «The One Number You Need to Grow», Harvard Business Review (2003).`,
+err: ["Usar todos los canales sin medir cuál funciona.","Comparar canales solo por costo por cliente sin ver cuánto deja cada cliente.","Olvidar pedir recomendaciones y reseñas.","No preguntar a los clientes cómo conocieron el negocio."],
+a: `Durante una semana, pregunta (o imagina que preguntas) a los clientes nuevos del negocio que observas cómo lo conocieron. Calcula qué porcentaje llega por cada canal y propón en cuál invertir más.`,
+sol: `Si la recomendación es el canal principal, conviene reforzarla con un programa de referidos y cuidando la experiencia; es más barato que la publicidad.`,
+q: [["El canal de adquisición más creíble suele ser…",["La recomendación de otro cliente","Un volante","Un anuncio en la radio"],0,"La gente confía en sus conocidos."],
+["El NPS se calcula como…",["% de promotores − % de detractores","Ventas − costos","Clientes ÷ empleados"],0,"Propuesto por Fred Reichheld en 2003."],
+["Si gastas 2,000 en un canal y llegan 40 clientes nuevos, el costo por cliente es…",["50","80","2,040"],0,"2,000 ÷ 40."],
+["¿Por qué un costo por cliente alto puede convenir?",["Si cada cliente deja mucho dinero durante su relación con el negocio","Nunca conviene","Porque se paga menos impuesto"],0,"Hay que comparar con su valor de vida."]],
+t: ["Adquisición de clientes","Recomendación (boca a boca)","Net Promoter Score (NPS)","Programa de referidos","Reseñas en línea"]
+},
+"M11-5": {
+s: `Karla visita una oficina, habla diez minutos de lo ricas que son las tortas, deja un menú y se va. Nunca le llaman. En otra visita, pregunta, escucha, propone una solución a la medida y cierra un pedido semanal. ¿Qué hizo distinto?`,
+o: ["Seguir las etapas del proceso de venta.","Hacer preguntas que descubran necesidades.","Manejar objeciones y cerrar la venta de forma ética."],
+x: `## Vender es ayudar a decidir
+Vender bien no es convencer a alguien de comprar algo que no necesita, sino **ayudarle a decidir** si lo que ofreces resuelve su problema. Un buen vendedor escucha más de lo que habla, pregunta antes de proponer y es honesto cuando su producto no es lo adecuado. A largo plazo, esa forma de vender genera confianza, recompra y recomendaciones.
+
+## Las etapas del proceso de venta
+Aunque cambia según el tipo de negocio, una venta suele seguir estas etapas:
+1. **Preparación:** conocer al cliente antes del contacto (a qué se dedica, cuántas personas tiene, qué compra hoy).
+2. **Apertura:** presentarse, generar confianza, explicar el motivo de la visita en pocas palabras.
+3. **Descubrimiento:** hacer preguntas para entender sus necesidades, problemas y forma de decidir.
+4. **Presentación:** mostrar cómo el producto resuelve **su** problema (beneficios, no solo características).
+5. **Manejo de objeciones:** escuchar las dudas y responderlas con honestidad.
+6. **Cierre:** pedir la decisión o el siguiente paso concreto.
+7. **Seguimiento:** cumplir lo prometido y mantener la relación.
+
+## Preguntar para descubrir
+La etapa más importante (y la que más se salta) es el **descubrimiento**. El investigador Neil Rackham estudió miles de visitas de ventas y publicó en 1988 el libro «SPIN Selling», donde propuso cuatro tipos de preguntas:
+- **De situación:** para entender el contexto. «¿Cuántas personas trabajan aquí? ¿Cómo resuelven hoy la comida de las juntas?».
+- **De problema:** para descubrir dificultades. «¿Qué es lo que más le complica de pedir comida? ¿Ha tenido retrasos?».
+- **De implicación:** para entender las consecuencias del problema. «¿Qué pasa cuando la comida llega tarde a una junta con clientes?».
+- **De necesidad-beneficio:** para que el cliente diga el valor de resolverlo. «¿Qué tan útil le sería tener el pedido listo cada viernes sin tener que organizarlo?».
+
+Cuando el cliente expresa con sus propias palabras el problema y el valor de la solución, la venta deja de ser «convencer» y se vuelve «ayudar».
+
+## Beneficios, no solo características
+- **Característica:** lo que el producto es o tiene. «Usamos pan de panadería».
+- **Ventaja:** lo que permite. «El pan está fresco cada mañana».
+- **Beneficio:** lo que gana el cliente. «Sus empleados comen bien y usted queda bien con su jefe».
+
+Los clientes compran beneficios. Una forma práctica de pasar de características a beneficios es preguntarse después de cada característica: «¿Y eso qué le da al cliente?».
+
+## Manejar objeciones
+Una **objeción** es una duda o una razón para no comprar. No es un ataque: es información. Las objeciones más comunes son de precio, de confianza, de necesidad («no lo necesitamos»), de tiempo («ahora no») o de competencia («ya tenemos proveedor»). Un método sencillo:
+1. **Escuchar completo** sin interrumpir.
+2. **Reconocer:** «Entiendo, es importante cuidar el presupuesto».
+3. **Preguntar para entender:** «¿Más caro comparado con qué?».
+4. **Responder** con información concreta.
+5. **Confirmar:** «¿Eso resuelve su duda?».
+
+Ejemplo:
+- Objeción: «Es más caro que la fonda».
+- Respuesta: «Entiendo. La fonda cobra 10 pesos menos por persona. Nosotros entregamos a tiempo garantizado, con factura y armado por persona, y usted no tiene que ir por él. ¿Cuánto tiempo le dedica hoy a organizar la comida de cada viernes?».
+
+## Cerrar
+Muchos vendedores hacen todo bien y no cierran porque **no piden la decisión**. Cerrar es simplemente proponer el siguiente paso concreto:
+- «¿Le parece si empezamos este viernes con 20 tortas?».
+- «¿Le envío la cotización hoy y la revisamos el lunes?».
+- «¿Qué necesitaría para tomar la decisión?».
+
+Si el cliente no está listo, el cierre puede ser un paso intermedio: una degustación, una cita con el jefe, un pedido de prueba.
+
+## El seguimiento
+La venta no termina con el sí. El seguimiento incluye:
+- **Cumplir** exactamente lo prometido (la hora, la factura, el pedido completo).
+- **Preguntar** cómo salió el primer pedido.
+- **Resolver** rápido cualquier problema.
+- **Mantener el contacto** sin ser invasivo.
+
+Muchas ventas a empresas se pierden después del primer pedido por un mal seguimiento.
+
+## Vender con ética
+Algunas prácticas destruyen la confianza y, en muchos casos, son ilegales o abusivas:
+- Prometer lo que no se puede cumplir.
+- Ocultar costos («la entrega es gratis», y luego se cobra).
+- Presionar con urgencias falsas («solo hoy»).
+- Hablar mal de la competencia sin fundamento.
+- Ofrecer regalos o pagos a quien decide para que elija tu producto (en empresas y gobierno, esto puede ser corrupción; Módulo 27).
+
+La ética no es un lujo: un cliente engañado no regresa y lo cuenta a otros.
+
+## La visita exitosa de Karla
+En la segunda oficina, Karla:
+1. Investigó antes: un despacho de 30 personas con juntas frecuentes.
+2. Se presentó en 30 segundos.
+3. Preguntó cómo resolvían la comida de las juntas, qué les fallaba y qué pasaba cuando algo salía mal.
+4. Propuso un pedido fijo cada viernes, con factura y entrega garantizada.
+5. Respondió la objeción de precio mostrando el ahorro de tiempo y la garantía.
+6. Cerró con una degustación el viernes siguiente.
+7. Llamó el lunes para preguntar cómo les fue. El despacho firmó un pedido semanal.`,
+k: `Proceso de venta: **preparación, apertura, descubrimiento, presentación, objeciones, cierre y seguimiento**. Pregunta antes de proponer (**SPIN**: situación, problema, implicación, necesidad-beneficio; Neil Rackham, 1988). Vende **beneficios**, no solo características. Trata las **objeciones** como información. **Pide la decisión.** Vende con **ética**.`,
+ch: `Un vendedor de una tienda de colchones pregunta cómo duerme el cliente, si le duele la espalda y con quién comparte la cama antes de mostrar un modelo; vende menos colchones caros innecesarios y recibe más recomendaciones.`,
+gi: `Muchas empresas que venden a otras empresas capacitan a sus vendedores en métodos basados en preguntas, como SPIN, que surgieron de investigaciones con miles de visitas de ventas reales.`,
+e: `Karla compara sus resultados antes y después de cambiar su forma de vender:
+
+| Indicador | Antes (hablar del producto) | Después (preguntar y proponer) |
+|---|---|---|
+| Visitas al mes | 40 | 40 |
+| Propuestas enviadas | 8 | 15 |
+| Oficinas nuevas | 1 | 4 |
+| Conversión de visita a cliente | 2.5 % | 10 % |
+
+Con el mismo número de visitas, cuadruplicó los clientes nuevos.`,
+r: `Neil Rackham y su equipo de Huthwaite analizaron más de 35,000 llamadas de ventas en varios países durante los años setenta y ochenta; sus resultados, publicados en «SPIN Selling» (1988), mostraron que en las ventas grandes las preguntas sobre problemas e implicaciones se asociaban con más éxito que las técnicas de cierre agresivas.`,
+f: `Neil Rackham, «SPIN Selling» (1988).`,
+err: ["Hablar del producto sin preguntar nada.","Responder una objeción antes de entenderla.","No pedir la decisión.","Prometer lo que no se puede cumplir para cerrar."],
+a: `Prepara una visita de ventas para un posible cliente del negocio que observas: escribe dos preguntas de cada tipo SPIN, tres beneficios (no características) y tus respuestas a dos objeciones probables. Practícala con alguien.`,
+sol: `Si tus beneficios suenan a características, pregúntate «¿y eso qué le da al cliente?» hasta llegar a algo que le importe a la persona.`,
+q: [["¿Cuál es la etapa del proceso de venta que más se salta?",["El descubrimiento (preguntar)","El saludo","La despedida"],0,"Preguntar antes de proponer."],
+["En SPIN, «¿Qué pasa cuando la comida llega tarde a una junta?» es una pregunta de…",["Implicación","Situación","Cierre"],0,"Explora las consecuencias del problema."],
+["«Sus empleados comen bien y usted queda bien con su jefe» es…",["Un beneficio","Una característica","Una objeción"],0,"Es lo que gana el cliente."],
+["Cerrar una venta significa…",["Proponer el siguiente paso concreto o pedir la decisión","Presionar con urgencias falsas","Despedirse"],0,"Muchos vendedores no lo hacen."]],
+t: ["Proceso de venta","Método SPIN","Objeción","Cierre de venta","Beneficio y característica"]
+},
+"M11-6": {
+s: `En el mostrador, una persona decide en segundos si compra una torta. Con las oficinas, Karla tarda semanas: cotizaciones, autorizaciones, facturas, crédito. Toño se da cuenta de que vender a personas y vender a empresas son dos mundos distintos.`,
+o: ["Distinguir la venta a consumidores (B2C) de la venta a empresas (B2B).","Comparar su ciclo de venta, decisión y condiciones.","Adaptar la forma de vender a cada tipo de cliente."],
+x: `## Dos tipos de clientes
+- **B2C** (del inglés *business to consumer*, de negocio a consumidor): el negocio vende a **personas** que compran para sí mismas o su familia. La tortería con el cliente de mostrador, la tienda de ropa, el cine, la farmacia.
+- **B2B** (*business to business*, de negocio a negocio): el negocio vende a **otras empresas** u organizaciones, que compran para usar en su operación o para revender. Tortas Lupita con las oficinas, el proveedor de pan con Tortas Lupita, el fabricante de empaques, el despacho contable.
+
+Muchos negocios hacen ambas cosas. Y también existe la venta al gobierno (a veces llamada **B2G**), que tiene reglas propias, como las licitaciones.
+
+## Las grandes diferencias
+| Aspecto | Venta a personas (B2C) | Venta a empresas (B2B) |
+|---|---|---|
+| Número de clientes | Muchos | Pocos |
+| Monto por compra | Bajo | Alto |
+| Quién decide | Una persona o una familia | Varias personas (usuario, decisor, pagador) |
+| Tiempo para decidir | Minutos u horas | Días, semanas o meses |
+| Motivos | Más emocionales e inmediatos | Más racionales: costo, confiabilidad, riesgo |
+| Relación | A veces breve | Normalmente de largo plazo |
+| Precio | De lista, igual para todos | Negociado, con descuentos por volumen |
+| Pago | De contado | A crédito, contra factura |
+| Documentos | Ticket o factura simple | Cotización, orden de compra, contrato, factura, complemento de pago |
+| Cómo se llega | Ubicación, publicidad, redes, recomendación | Venta directa, referencias, ferias del sector, licitaciones |
+| Riesgo de perder un cliente | Bajo (es uno de muchos) | Alto (puede ser una parte grande de las ventas) |
+
+## Vender a personas
+En B2C, el reto es atraer a muchas personas, convencerlas rápido y lograr que regresen. Las claves:
+- **Visibilidad y conveniencia:** estar donde está el cliente.
+- **Experiencia:** trato, rapidez, ambiente, limpieza.
+- **Precio claro** y formas de pago fáciles.
+- **Marca:** que el cliente recuerde y confíe.
+- **Lealtad:** programas, promociones, trato personal.
+
+## Vender a empresas
+En B2B, el reto es entender a la organización, ganarse su confianza y cumplir de forma impecable. Las claves:
+- **Conocer el proceso de compra** de la empresa: quién decide, quién autoriza, qué documentos piden (lección M11-2).
+- **Formalidad:** estar registrado ante el SAT, emitir facturas correctas (CFDI 4.0 con los datos exactos), tener la opinión de cumplimiento al día, a veces estar dado de alta como proveedor en su sistema.
+- **Confiabilidad:** cumplir siempre en tiempo, cantidad y calidad; un error puede costar el cliente.
+- **Propuestas por escrito:** cotizaciones claras con precio, condiciones, vigencia y entregas.
+- **Crédito y cobranza:** las empresas suelen pagar a 15, 30 o más días; hay que planear el flujo (lecciones M8-5 y M8-6).
+- **Relación de largo plazo:** atender, dar seguimiento, proponer mejoras.
+
+## El riesgo de la concentración
+En B2B, unos pocos clientes pueden representar una gran parte de las ventas. Si el cliente más grande se va, el golpe es enorme. Una regla de prudencia común es vigilar que **ningún cliente represente más de una cierta proporción de las ventas** (por ejemplo, un 20 % o 30 %, según el negocio). Si Tortas Lupita llegara a depender de una sola empresa grande para la mitad de sus ventas, estaría en una situación muy frágil.
+
+## Requisitos de los clientes grandes
+Cuando se le vende a una empresa grande, es común que pida:
+- Constancia de situación fiscal y opinión de cumplimiento.
+- Alta en su portal de proveedores.
+- Contrato con condiciones (penalizaciones por retraso, confidencialidad).
+- Seguro de responsabilidad civil.
+- Certificaciones (de higiene, de calidad).
+- Plazos de pago largos (30, 60 o más días).
+- Precios fijos por un periodo.
+
+Estos requisitos pueden ser una barrera para un negocio pequeño, pero también una oportunidad: quien los cumple tiene menos competencia (lección M18-7).
+
+## Vender al gobierno
+La venta al gobierno suele hacerse por **licitaciones** o procedimientos de compra regulados (lección M10-3). Exige cumplir requisitos formales estrictos, presentar documentos en tiempo y forma, y aceptar plazos de pago que a veces son largos. Puede ser una fuente importante de ventas, pero hay que conocer bien las reglas.
+
+## Tortas Lupita en los dos mundos
+Tortas Lupita vende B2C en el mostrador y B2B a oficinas. Para cada uno organiza distinto:
+- **B2C:** precios en el menú, pago de contado o con tarjeta, tarjeta de sellos, rapidez en el mostrador.
+- **B2B:** Karla como ejecutiva, cotización por escrito, pedido fijo semanal, factura con datos exactos, crédito de 7 días, reporte mensual a cada oficina y una garantía de puntualidad.
+
+Además, Lupita se pone una regla: ninguna oficina puede representar más del 10 % de las ventas totales, para no depender de un solo cliente.
+
+## Las empresas gigantes
+Muchas empresas gigantes son principalmente B2B: fabricantes de autopartes, empresas de software para corporaciones, constructoras, proveedores de maquinaria. Otras son principalmente B2C: cadenas de tiendas, bancos de consumo, marcas de alimentos. Y muchas hacen ambas: un banco atiende personas y empresas con áreas distintas, cada una con su propia forma de vender.`,
+k: `**B2C:** venta a personas: muchos clientes, montos bajos, decisión rápida y más emocional, pago de contado. **B2B:** venta a empresas: pocos clientes, montos altos, varios decisores, ciclo largo, precio negociado, crédito y documentos formales. En B2B cuida la **formalidad**, la **confiabilidad** y la **concentración** de clientes.`,
+ch: `Una panadería vende a personas en su mostrador (B2C) y a tres cafeterías por pedido con factura y crédito de 15 días (B2B); para las cafeterías tiene precios por volumen y entrega a domicilio.`,
+gi: `Los bancos grandes tienen áreas separadas para banca de personas (cuentas, tarjetas, créditos de consumo) y banca de empresas (créditos corporativos, servicios de tesorería), con vendedores, productos y procesos distintos.`,
+e: `Toño revisa la concentración de las ventas a oficinas:
+
+| Cliente | Ventas al mes | % de las ventas totales (236,000) |
+|---|---|---|
+| Despacho A | 24,000 | 10.2 % |
+| Oficina B | 12,000 | 5.1 % |
+| Oficina C | 8,000 | 3.4 % |
+| Otras 6 oficinas | 20,000 | 8.5 % |
+| **Total oficinas** | **64,000** | **27.1 %** |
+
+El Despacho A ya supera ligeramente el límite de 10 %. No le van a vender menos, pero Karla se enfoca en conseguir más oficinas para reducir la dependencia.`,
+r: `Las grandes empresas en México suelen pedir a sus proveedores darse de alta en un portal de proveedores y presentar la opinión de cumplimiento de obligaciones fiscales emitida por el SAT, documento que acredita que el proveedor está al corriente con sus obligaciones.`,
+f: `SAT, opinión del cumplimiento de obligaciones fiscales (sat.gob.mx).`,
+err: ["Vender a empresas con la misma informalidad que en el mostrador.","Depender de uno o dos clientes grandes.","No planear el flujo de efectivo al vender a crédito a empresas.","Emitir facturas con datos incorrectos del cliente."],
+a: `Si el negocio que observas vende a personas y a empresas, haz una tabla con las diferencias en cómo vende a cada uno. Si solo vende a personas, describe qué requisitos tendría que cumplir para empezar a vender a empresas.`,
+sol: `Los requisitos más comunes para vender a empresas son: registro fiscal, facturación correcta, opinión de cumplimiento, cotizaciones por escrito y capacidad de dar crédito.`,
+q: [["B2B significa…",["Venta de negocio a negocio","Venta a personas","Venta al gobierno"],0,"Business to business."],
+["En la venta B2B, normalmente…",["Participan varias personas en la decisión","Decide una persona en segundos","No hay facturas"],0,"Usuario, decisor, pagador, etc."],
+["¿Cuál es un riesgo típico de la venta B2B?",["Depender de pocos clientes grandes","Tener demasiados clientes pequeños","No poder vender"],0,"Si se va uno grande, el golpe es enorme."],
+["Para vender a una empresa grande suele pedirse…",["Opinión de cumplimiento y facturas correctas","Nada","Solo un menú"],0,"La formalidad es indispensable."]],
+t: ["B2C","B2B","B2G","Concentración de clientes","Portal de proveedores"]
+},
+"M11-7": {
+s: `Un cliente reclama a gritos que su torta llegó sin aguacate. La cajera se defiende: «No fue mi culpa». El cliente se va furioso y escribe una reseña de una estrella. Otro día, con un error parecido, Toño se disculpa, le prepara otra torta y le regala un agua. Ese cliente se vuelve uno de los más fieles.`,
+o: ["Explicar por qué el servicio al cliente es parte del producto.","Aplicar un protocolo para atender quejas.","Convertir las quejas en mejoras y en lealtad."],
+x: `## El servicio también se vende
+El **servicio al cliente** es todo lo que hace un negocio para atender a sus clientes antes, durante y después de la compra: el trato, la rapidez, la información, la solución de problemas. Para el cliente, el servicio es parte del producto: una torta excelente servida con mala cara se recuerda como una mala experiencia.
+
+## Las quejas son un regalo
+Cuando algo sale mal, la mayoría de los clientes **no se queja**: simplemente se va y no regresa (y a veces lo cuenta a otros). Por eso, cuando un cliente se queja, está dando al negocio una **segunda oportunidad** y una información valiosa: dice qué está fallando. Un negocio que aprende de sus quejas mejora más rápido que uno que no las escucha.
+
+## La paradoja de la recuperación del servicio
+Algunos estudios han observado un fenómeno llamado **paradoja de la recuperación del servicio**: un cliente que tuvo un problema y fue atendido de forma excelente puede quedar **más satisfecho y leal** que un cliente que nunca tuvo problemas. La razón es que la buena respuesta demuestra que el negocio se preocupa por él. No significa que convenga cometer errores, sino que **cómo se responde a un error** puede convertirlo en una oportunidad.
+
+## Un protocolo para atender quejas
+Un método sencillo, con cinco pasos, que todo el equipo puede aprender:
+1. **Escuchar sin interrumpir:** dejar que el cliente explique, mirarlo, no defenderse.
+2. **Reconocer y disculparse:** «Tiene razón, lo siento mucho, eso no debió pasar». Disculparse no es aceptar culpas legales; es mostrar empatía.
+3. **Resolver rápido:** preparar otra torta, devolver el dinero, corregir el pedido. Mientras más rápido, mejor.
+4. **Compensar cuando corresponde:** un detalle que muestre que el negocio valora al cliente (un agua, un descuento en la siguiente compra).
+5. **Registrar y aprender:** anotar la queja, su causa y la solución, para que no se repita.
+
+Algunas cosas que **nunca** deben hacerse: discutir con el cliente, culpar a otro empleado frente a él, minimizar el problema («no es para tanto») o pedirle que regrese otro día para resolverlo.
+
+## Dar poder al equipo
+Para resolver rápido, las personas que atienden deben tener **autoridad** para hacerlo sin pedir permiso (lección M6-7). En Tortas Lupita, cualquier empleado puede rehacer una torta o regalar una bebida por una queja; los encargados pueden devolver el dinero. La cadena de hoteles Ritz-Carlton es conocida por permitir que sus empleados gasten hasta una cantidad determinada (se ha citado la cifra de 2,000 dólares por huésped) para resolver el problema de un cliente sin pedir autorización.
+
+## Las quejas en internet
+Hoy muchas quejas llegan como **reseñas** en mapas, redes o plataformas de reparto. Algunas recomendaciones:
+- **Responder siempre**, con amabilidad y rapidez, aunque la reseña sea injusta.
+- **Agradecer** la retroalimentación.
+- **Disculparse** y ofrecer una solución por un canal privado (WhatsApp, teléfono).
+- **No discutir en público** ni revelar datos del cliente.
+- **Corregir** el problema real; si se repiten las mismas quejas, hay un problema de proceso.
+
+Las personas que leen las reseñas suelen fijarse tanto en la respuesta del negocio como en la queja.
+
+## Medir el servicio
+Indicadores útiles:
+- **Número de quejas** (por cada 1,000 ventas, para comparar meses).
+- **Tipos de queja:** tiempo, calidad, error en el pedido, trato, precio.
+- **Tiempo de respuesta** a quejas y reseñas.
+- **Calificación promedio** en reseñas.
+- **NPS** (lección M11-4).
+- **Clientes recuperados:** quienes se quejaron y volvieron.
+
+## Del caso a la mejora
+Cada queja debe llevar a una pregunta: **¿por qué pasó y cómo evitamos que vuelva a pasar?** Si varios clientes se quejan de tortas sin aguacate, el problema no es un cocinero distraído: quizá el aguacate se acaba a cierta hora (inventario, lección M9-6) o la comanda no indica bien los ingredientes (proceso, lección M9-2). Aplicar los cinco porqués (lección M9-7) a las quejas frecuentes es una de las formas más efectivas de mejorar un negocio.
+
+## La protección al consumidor
+En México, la **Procuraduría Federal del Consumidor (Profeco)** atiende las quejas de los consumidores contra los negocios y vigila que se respeten sus derechos: precios exhibidos, información veraz, garantías, cumplimiento de lo prometido, cobros correctos. Un negocio que atiende bien las quejas rara vez llega a la Profeco. El Módulo 14 trata estos temas con más detalle.
+
+## El cambio en Tortas Lupita
+Lupita capacita a todo el equipo en el protocolo de cinco pasos y en la regla de autoridad. Además, crea una hoja de quejas: cada semana revisan las más frecuentes en la junta. En dos meses, las quejas por errores en el pedido bajan a la mitad y la calificación en mapas sube de 4.2 a 4.6.
+
+## Prevenir es mejor que remediar
+El mejor servicio es el que evita que haya quejas: confirmar el pedido antes de entregarlo, avisar si habrá un retraso y preguntar «¿todo bien?» antes de que el cliente se vaya.`,
+k: `El **servicio** es parte del producto. Las **quejas son un regalo**: la mayoría de los clientes insatisfechos no se queja, se va. **Paradoja de la recuperación:** una buena respuesta a un error puede aumentar la lealtad. Protocolo: **escuchar, disculparse, resolver rápido, compensar, registrar y aprender**. Da **autoridad** al equipo para resolver. Responde siempre las reseñas.`,
+ch: `Una zapatería que cambia sin discutir un par defectuoso, aunque el cliente no traiga el ticket, gana un cliente fiel y una reseña de cinco estrellas.`,
+gi: `Ritz-Carlton es conocida por permitir a sus empleados gastar una cantidad determinada por huésped para resolver problemas sin pedir autorización, como parte de su cultura de servicio.`,
+e: `Toño compara el costo de atender bien una queja con el valor del cliente:
+
+| Concepto | Pesos |
+|---|---|
+| Costo de rehacer la torta y regalar un agua | 16 + 3 = 19 |
+| Gasto del cliente por visita | 46 |
+| Visitas al mes de un cliente frecuente | 8 |
+| Valor del cliente en un año (46 × 8 × 12) | 4,416 |
+
+Gastar 19 pesos para conservar a un cliente que deja más de 4,000 pesos al año (y que además recomienda) es una de las mejores inversiones del negocio.`,
+r: `La paradoja de la recuperación del servicio fue descrita por Michael McCollough y Sundar Bharadwaj en 1992. Estudios posteriores han encontrado que el efecto existe en algunos casos, sobre todo cuando el problema no es grave y la respuesta es rápida y generosa, aunque no se presenta siempre.`,
+f: `M. McCollough y S. Bharadwaj (1992); The Ritz-Carlton Leadership Center, materiales sobre empoderamiento de empleados; Profeco (gob.mx/profeco).`,
+err: ["Discutir con el cliente o culpar a otros frente a él.","No dar autoridad al equipo para resolver.","Ignorar las reseñas negativas.","Resolver el caso y no buscar la causa."],
+a: `Escribe el protocolo de atención de quejas del negocio que observas (cinco pasos, qué puede hacer cada puesto sin pedir permiso). Busca tres reseñas negativas reales de un negocio cualquiera y redacta una respuesta para cada una.`,
+sol: `Una buena respuesta a una reseña agradece, se disculpa, no discute, ofrece una solución por un canal privado y es breve.`,
+q: [["¿Qué hace la mayoría de los clientes insatisfechos?",["Se va sin quejarse","Se queja siempre","Pide hablar con el gerente"],0,"Por eso las quejas son valiosas."],
+["El primer paso para atender una queja es…",["Escuchar sin interrumpir","Defenderse","Pedirle que regrese otro día"],0,"Dejar que el cliente explique."],
+["La paradoja de la recuperación del servicio dice que…",["Una buena respuesta a un error puede aumentar la lealtad","Equivocarse siempre es bueno","Las quejas no importan"],0,"Depende de cómo se responda."],
+["¿Por qué dar autoridad al equipo para resolver quejas?",["Para resolver rápido sin esperar autorización","Para gastar más","Para no capacitar"],0,"La rapidez es clave."]],
+t: ["Servicio al cliente","Queja","Paradoja de la recuperación del servicio","Profeco","Reseñas en línea"]
+},
+"M11-8": {
+s: `Toño hace cuentas: conseguir un cliente nuevo con anuncios cuesta unos 50 pesos, pero un cliente que viene dos veces por semana durante un año deja miles. «Entonces», dice, «lo más rentable no es conseguir clientes, sino conservarlos».`,
+o: ["Explicar por qué retener clientes es tan valioso.","Calcular el valor de vida del cliente.","Diseñar acciones para aumentar la lealtad y la recompra."],
+x: `## Conseguir no basta: hay que conservar
+Muchos negocios dedican casi todo su esfuerzo a conseguir clientes nuevos y muy poco a conservar a los que ya tienen. Pero un cliente que regresa es mucho más valioso: ya conoce el negocio, compra con más frecuencia, gasta más con el tiempo, cuesta menos atenderlo y recomienda a otros. Conservarlo suele costar menos que conseguir uno nuevo.
+
+En 1990, Frederick Reichheld y W. Earl Sasser publicaron en Harvard Business Review un estudio, «Zero Defections», en el que estimaron, para varias industrias de servicios, que reducir en 5 puntos la tasa de clientes que se van podía aumentar las utilidades de forma muy importante (en sus ejemplos, entre 25 % y 85 %, según la industria). Las cifras exactas dependen del negocio, pero la idea se volvió central en la administración: **la lealtad de los clientes es una fuente enorme de utilidades**.
+
+## La retención y el abandono
+- **Tasa de retención:** porcentaje de clientes que siguen comprando después de un periodo.
+- **Tasa de abandono** (en inglés, *churn*): porcentaje de clientes que dejan de comprar en un periodo.
+
+Retención + abandono = 100 %. Si de 100 oficinas clientes, al cabo de un año siguen 80, la retención anual es 80 % y el abandono 20 %.
+
+En negocios de mostrador es más difícil medirlo, porque no siempre se sabe quién es cada cliente. Por eso ayudan los programas de lealtad, las tarjetas de sellos y los registros de clientes frecuentes.
+
+## El valor de vida del cliente
+El **valor de vida del cliente** (en inglés, LTV, *lifetime value*) es una estimación de cuánto deja un cliente durante todo el tiempo que compra en el negocio. Una forma sencilla de calcularlo en **margen** (lo que realmente le queda al negocio):
+
+**Valor de vida = ticket promedio × compras por periodo × margen × número de periodos que dura el cliente**
+
+Ejemplo, un oficinista frecuente de Tortas Lupita:
+- Ticket promedio: 85 pesos (torta más refresco y, a veces, una torta para llevar).
+- Compras al mes: 4.
+- Margen bruto: 55 %.
+- Meses que dura como cliente: 12.
+
+Valor de vida = 85 × 4 × 0.55 × 12 = **2,244 pesos** de margen.
+
+Para una oficina con pedido semanal de 6,000 pesos al mes, con margen de 60 % y una duración de 18 meses: 6,000 × 0.6 × 18 = **64,800 pesos**.
+
+Saber esto cambia las decisiones: vale la pena regalar una bebida para conservar al oficinista, y vale mucho la pena que Karla visite cada mes a la oficina para asegurarse de que está contenta.
+
+## Por qué se van los clientes
+Los clientes se van por muchas razones:
+- **Una mala experiencia** que no se resolvió.
+- **Indiferencia:** sienten que al negocio no le importa si regresan.
+- **Mejor oferta** de la competencia (precio, conveniencia, calidad).
+- **Cambio en su vida:** se mudan, cambian de trabajo, cambian de hábitos.
+- **Errores repetidos.**
+- **Falta de novedad:** se aburren del mismo producto.
+
+Algunas causas no se pueden controlar (una mudanza), pero muchas sí.
+
+## Cómo aumentar la lealtad
+1. **Cumplir siempre:** la base de la lealtad es la confianza; un servicio constante es más importante que los regalos.
+2. **Reconocer al cliente:** saludarlo por su nombre, recordar su pedido.
+3. **Programas de lealtad:** tarjeta de sellos, puntos, beneficios para clientes frecuentes.
+4. **Comunicación oportuna:** avisar de novedades, sin saturar.
+5. **Pedir opinión** y actuar sobre ella.
+6. **Atender bien las quejas** (lección M11-7).
+7. **Sorprender de vez en cuando:** un detalle inesperado.
+8. **Facilitar la recompra:** pedido fijo semanal, «lo de siempre» por WhatsApp, suscripción (lección M4-5).
+9. **Detectar a tiempo a quien se está yendo:** la oficina que bajó sus pedidos, el cliente que dejó de venir.
+
+## Programas de lealtad: cuidado con los costos
+Un programa de lealtad cuesta: descuentos, productos gratis, administración. Funciona si:
+- Premia la **frecuencia** (lo que el negocio quiere).
+- Es **sencillo** de entender y usar.
+- Su costo es **menor** que el margen adicional que genera.
+- Da **información** sobre los clientes (en los programas digitales).
+
+La tarjeta de sellos de Tortas Lupita (la décima torta gratis) cuesta, en ingredientes, 16 pesos por cada 9 tortas vendidas a un cliente frecuente: alrededor de 4 % del precio. Si gracias a ella el cliente viene una vez más al mes, el programa se paga solo.
+
+## Hacer crecer al cliente
+Además de conservarlo, se puede lograr que el cliente compre más:
+- **Venta cruzada:** ofrecer otros productos (agua fresca, postre, la salsa en frasco).
+- **Venta de mayor valor:** ofrecer una opción más completa (torta grande, combo).
+- **Ampliar el uso:** que la oficina que pide los viernes también pida para las juntas del martes.
+
+## La lealtad en empresas gigantes
+Las grandes empresas tienen programas de lealtad muy elaborados. **Starbucks Rewards**, por ejemplo, combina puntos, pedidos anticipados desde una aplicación y ofertas personalizadas, y la empresa ha informado que sus miembros representan una parte muy importante de sus ventas en Estados Unidos. Las aerolíneas tienen programas de viajero frecuente; los supermercados, tarjetas de puntos. Todos buscan lo mismo que la tarjeta de sellos de Lupita: que el cliente regrese.`,
+k: `Conservar clientes suele ser más rentable que conseguirlos (Reichheld y Sasser, 1990). **Retención** + **abandono** = 100 %. **Valor de vida (LTV) = ticket × compras por periodo × margen × periodos.** Aumenta la lealtad cumpliendo siempre, reconociendo al cliente, con **programas de lealtad** rentables y **facilitando la recompra**. Haz crecer al cliente con **venta cruzada**.`,
+ch: `Una tintorería llama a los clientes que no han venido en dos meses con un descuento de regreso; recupera a uno de cada cuatro.`,
+gi: `Starbucks ha informado que los miembros de su programa Starbucks Rewards generan una proporción muy importante de sus ventas en Estados Unidos; el programa combina puntos, pedidos por la aplicación y ofertas personalizadas.`,
+e: `Toño calcula cuánto vale reducir el abandono de oficinas de 30 % a 15 % al año (con 20 oficinas que compran 6,000 al mes cada una, margen de 60 %):
+
+| Escenario | Oficinas al final del año (sin nuevas) | Margen mensual al final del año |
+|---|---|---|
+| Abandono de 30 % | 14 | 14 × 6,000 × 0.6 = 50,400 |
+| Abandono de 15 % | 17 | 17 × 6,000 × 0.6 = 61,200 |
+
+Reducir el abandono a la mitad deja 10,800 pesos más de margen al mes, sin conseguir ni una oficina nueva.`,
+r: `Frederick Reichheld y W. Earl Sasser Jr. publicaron «Zero Defections: Quality Comes to Services» en Harvard Business Review en 1990, donde mostraron con ejemplos de varias industrias que pequeñas reducciones en el abandono de clientes podían aumentar mucho las utilidades. Starbucks informa sobre su programa de lealtad en sus reportes a inversionistas.`,
+f: `F. Reichheld y W. E. Sasser, «Zero Defections», Harvard Business Review (1990); Starbucks Corporation, reportes trimestrales y Form 10-K.`,
+err: ["Dedicar todo el esfuerzo a conseguir clientes y olvidar a los actuales.","Crear un programa de lealtad que cuesta más de lo que genera.","No detectar a tiempo a los clientes que se están yendo.","Creer que los regalos sustituyen a un buen servicio constante."],
+a: `Calcula el valor de vida de dos tipos de cliente del negocio que observas (uno ocasional y uno frecuente) con la calculadora CAC/LTV. Propón dos acciones para aumentar la retención del cliente frecuente.`,
+sol: `Compara el valor de vida con lo que cuesta conseguir a cada cliente: si el frecuente vale 20 veces más, conviene invertir en conservarlo.`,
+q: [["La tasa de abandono (churn) es…",["El porcentaje de clientes que dejan de comprar en un periodo","El número de quejas","El margen"],0,"Retención + abandono = 100 %."],
+["Con ticket de 50, 4 compras al mes, margen de 50 % y 10 meses, el valor de vida es…",["1,000 pesos","2,000 pesos","200 pesos"],0,"50 × 4 × 0.5 × 10."],
+["¿Por qué suele ser rentable retener clientes?",["Compran más con el tiempo, cuestan menos de atender y recomiendan","Porque no pagan","Porque no hay competencia"],0,"La lealtad es fuente de utilidades."],
+["La venta cruzada consiste en…",["Ofrecer otros productos al mismo cliente","Vender a la competencia","Bajar precios"],0,"Por ejemplo, el agua fresca con la torta."]],
+t: ["Retención de clientes","Tasa de abandono (churn)","Valor de vida del cliente (LTV)","Programa de lealtad","Venta cruzada"]
+},
+"M11-9": {
+s: `Lupita quiere saber, con números, si su negocio atrae, convierte y conserva bien a sus clientes. Toño prepara un tablero de ventas con seis indicadores y la calculadora del curso. Por primera vez, las ventas dejan de ser «buenas» o «malas» y se vuelven números que se pueden mejorar.`,
+o: ["Calcular las principales métricas de ventas.","Relacionar el costo de adquirir un cliente con su valor de vida.","Construir un tablero de ventas sencillo."],
+x: `## Medir las ventas
+Las ventas totales dicen cuánto se vendió, pero no por qué ni cómo mejorar. Las **métricas de ventas** descomponen el resultado en piezas que se pueden entender y mejorar. Las más útiles para un negocio son seis.
+
+## 1. Ticket promedio
+**Ticket promedio = ventas ÷ número de tickets (compras)**
+
+Indica cuánto gasta cada cliente en cada compra (lección M5-2). Se mejora con combos, venta cruzada y productos de mayor valor.
+
+## 2. Tasa de conversión
+**Conversión = compradores ÷ personas que tuvieron contacto con el negocio × 100**
+
+Indica qué porcentaje de las personas que pasan, entran, preguntan o reciben una propuesta termina comprando (lección M11-3).
+
+Ejemplo del plan del curso: si 1,000 personas pasan frente al local y 120 compran, la conversión es **12 %**. Con un ticket promedio de 85 pesos, las ventas son 120 × 85 = **10,200 pesos**.
+
+## 3. Costo de adquisición de clientes (CAC)
+**CAC = gasto en marketing y ventas ÷ número de clientes nuevos**
+
+Indica cuánto cuesta, en promedio, conseguir un cliente nuevo. Incluye publicidad, promociones de bienvenida, sueldos y comisiones de vendedores dedicados a conseguir clientes, degustaciones, etc. Ejemplo: si en un mes se gastan 6,000 pesos y llegan 120 clientes nuevos, el CAC es **50 pesos**.
+
+## 4. Valor de vida del cliente (LTV)
+**LTV = ticket promedio × compras por periodo × margen × periodos que dura el cliente**
+
+Indica cuánto margen deja un cliente durante toda su relación con el negocio (lección M11-8). Ejemplo: 85 × 4 × 0.55 × 12 = **2,244 pesos**.
+
+## 5. La relación LTV / CAC
+**Relación = LTV ÷ CAC**
+
+Es una de las métricas más importantes para decidir cuánto invertir en conseguir clientes:
+- **Menor que 1:** cada cliente cuesta más de lo que deja. El negocio pierde dinero al crecer.
+- **Entre 1 y 3:** se recupera la inversión, pero con poco margen para otros gastos.
+- **Mayor que 3:** relación sana; muchas empresas usan 3 como referencia mínima deseable, aunque depende del negocio.
+- **Mucho mayor (por ejemplo, 40):** quizá se está invirtiendo muy poco en crecer; podría convenir gastar más en atraer clientes.
+
+En el ejemplo: 2,244 ÷ 50 = **44.9**. Tortas Lupita gasta muy poco para conseguir clientes en relación con lo que valen. Le conviene invertir más en atraer oficinistas de la zona.
+
+Otra métrica relacionada es el **tiempo de recuperación del CAC**: cuántos meses tarda un cliente en dejar suficiente margen para pagar lo que costó conseguirlo. Con 85 × 4 × 0.55 = 187 pesos de margen al mes y un CAC de 50, se recupera en menos de un mes.
+
+## 6. Retención y abandono
+**Retención = clientes que siguen al final del periodo ÷ clientes al inicio × 100** (sin contar a los nuevos).
+
+Indica qué tan bien se conservan los clientes. En negocios de suscripción, contratos o pedidos fijos (como las oficinas), es fácil de medir; en el mostrador, se estima con la tarjeta de sellos o con registros de clientes frecuentes.
+
+## Otras métricas útiles
+- **Clientes nuevos por mes** y por canal.
+- **Frecuencia de compra:** cuántas veces compra un cliente en un periodo.
+- **Ventas por vendedor** y conversión por vendedor.
+- **Ciclo de venta:** cuánto tarda en cerrarse una venta a empresas.
+- **NPS** y calificación en reseñas (lecciones M11-4 y M11-7).
+- **Participación de los productos** en las ventas (mezcla).
+
+## El tablero de ventas de Tortas Lupita
+| Métrica | Fórmula | Mes actual | Meta | Estado |
+|---|---|---|---|---|
+| Ventas totales | — | 236,000 | 250,000 | Amarillo |
+| Ticket promedio de mostrador | Ventas ÷ tickets | 46 | 48 | Amarillo |
+| Conversión de mostrador | Compradores ÷ personas que pasan | 12 % | 14 % | Amarillo |
+| Clientes nuevos de mostrador | Pregunta «¿es su primera vez?» | 120 | 150 | Amarillo |
+| CAC | Gasto ÷ clientes nuevos | 50 | Menos de 80 | Verde |
+| Oficinas activas | Conteo | 9 | 12 | Rojo |
+| Retención de oficinas (trimestral) | Oficinas que siguen ÷ oficinas al inicio | 89 % | 90 % | Amarillo |
+
+Con este tablero, en la junta semanal se ve de inmediato dónde actuar: este mes, conseguir más oficinas.
+
+## Cuidado con las métricas
+- **Las métricas se pueden manipular:** si se premia la conversión, alguien podría dejar de contar a quienes no compran. Hay que revisar cómo se mide.
+- **Los promedios esconden diferencias:** el ticket promedio puede subir porque llegó un pedido enorme de una oficina, no porque los clientes de mostrador gasten más.
+- **El LTV es una estimación:** depende de supuestos (¿cuánto dura un cliente?); conviene ser conservador.
+- **No todo se mide en números:** las conversaciones con clientes siguen siendo indispensables.
+
+## En las empresas gigantes
+Las empresas de suscripción y de tecnología siguen con mucha atención el CAC, el LTV y el abandono, porque de ellos depende si su crecimiento es rentable. Los inversionistas de empresas emergentes suelen pedir estas métricas antes de invertir (Módulo 19). Las cadenas de tiendas, por su parte, siguen el tráfico de clientes, la conversión y el ticket promedio por tienda, cada día. Con la calculadora «Costo por cliente (CAC) y valor de vida (LTV)» del curso puedes hacer estos cálculos con tus propios números.`,
+hr: "caclt",
+k: `Métricas clave: **ticket promedio**, **conversión** (compradores ÷ contactos), **CAC** (gasto ÷ clientes nuevos), **LTV** (ticket × frecuencia × margen × duración), **LTV/CAC** (más de 3 se considera sano) y **retención**. Ejemplo del plan: 1,000 pasan, 120 compran, ticket 85 → **conversión 12 %** y **ventas 10,200**. Cuidado con promedios y manipulación.`,
+ch: `Un gimnasio de barrio calcula que conseguir un socio le cuesta 400 pesos en publicidad y que cada socio deja 300 pesos de margen al mes durante 8 meses (2,400): su relación LTV/CAC es 6.`,
+gi: `Las empresas de suscripción, como las plataformas de video o de software, informan o siguen de cerca métricas como el número de suscriptores, el ingreso promedio por usuario y el abandono, porque determinan si su crecimiento es rentable.`,
+e: `Toño calcula las métricas de un mes con la calculadora:
+
+| Dato | Valor |
+|---|---|
+| Gasto en marketing y ventas | 6,000 |
+| Clientes nuevos | 120 |
+| Ticket promedio | 85 |
+| Compras por cliente al mes | 4 |
+| Margen bruto | 55 % |
+| Meses que dura un cliente | 12 |
+| **CAC** | 6,000 ÷ 120 = **50** |
+| **LTV** | 85 × 4 × 0.55 × 12 = **2,244** |
+| **LTV / CAC** | **44.9** |
+
+Conclusión: puede aumentar con confianza su inversión en atraer clientes de la zona.`,
+r: `Los inversionistas de capital emprendedor suelen analizar la relación entre el valor de vida del cliente y el costo de adquisición para evaluar si una empresa emergente crece de forma rentable; una referencia que aparece con frecuencia en la industria es que el LTV sea al menos tres veces el CAC.`,
+f: `David Skok, «SaaS Metrics 2.0» (forEntrepreneurs); materiales de capital emprendedor sobre métricas de unidad.`,
+err: ["Mirar solo las ventas totales.","Calcular el LTV con ventas en lugar de margen.","Olvidar incluir sueldos de vendedores en el CAC.","Confiar en un LTV con supuestos demasiado optimistas."],
+a: `Con la calculadora «CAC y LTV», calcula las métricas del negocio que observas (estima los datos que no tengas). Arma un tablero de ventas con cinco métricas, su meta y su estado.`,
+sol: `Si tu LTV/CAC es menor que 1, revisa primero la retención y el margen antes de gastar más en publicidad.`,
+q: [["Si 1,000 personas pasan y 120 compran con ticket de 85, las ventas son…",["10,200 pesos","8,500 pesos","120,000 pesos"],0,"120 × 85."],
+["El CAC se calcula como…",["Gasto en marketing y ventas ÷ clientes nuevos","Ventas ÷ clientes","Margen × clientes"],0,"Costo de adquisición de clientes."],
+["Una relación LTV/CAC menor que 1 significa que…",["Cada cliente cuesta más de lo que deja","El negocio es muy rentable","No hay clientes"],0,"Crecer así pierde dinero."],
+["¿Por qué el LTV debe calcularse con margen?",["Porque lo que importa es lo que le queda al negocio, no lo que vende","Porque es más grande","Porque lo pide el SAT"],0,"Las ventas incluyen costos."]],
+t: ["Métricas de ventas","Costo de adquisición de clientes (CAC)","Valor de vida del cliente (LTV)","Relación LTV/CAC","Tasa de conversión","Ticket promedio"]
+}
+});
+// ===== M12. Marketing =====
+Object.assign(window.LECC, {
+"M12-1": {
+s: `Toño cree que marketing es «hacer anuncios». Karla dice que su trabajo de ventas se facilita cuando la gente ya conoce Tortas Lupita. Lupita se pregunta dónde termina una cosa y empieza la otra.`,
+o: ["Definir qué es el marketing.","Distinguir marketing y ventas, y cómo se complementan.","Reconocer las tareas del área de marketing en negocios de distinto tamaño."],
+x: `## ¿Qué es el marketing?
+El **marketing** (o mercadotecnia) es el conjunto de actividades para **entender a los clientes**, **crear una oferta** que les dé valor, **comunicarla** y **llevarla** hasta ellos, de forma que el negocio gane y el cliente quede satisfecho. Philip Kotler, uno de los autores más influyentes en la materia, lo resume como el proceso de crear, comunicar y entregar valor a los clientes y de construir relaciones rentables con ellos.
+
+Muchas personas creen que marketing es solo publicidad. La publicidad es una parte pequeña. El marketing empieza **antes** de tener el producto (¿qué necesita el cliente?, ¿qué ofrece la competencia?) y continúa **después** de la venta (¿quedó contento?, ¿regresará?).
+
+## Marketing y ventas
+| Aspecto | Marketing | Ventas |
+|---|---|---|
+| Pregunta central | ¿A quién le vendemos, qué y por qué nos elegirían? | ¿Cómo convertimos a este cliente en comprador? |
+| Horizonte | Mediano y largo plazo | Corto plazo |
+| Alcance | Muchos clientes (segmentos) | Clientes individuales |
+| Tareas | Investigar, segmentar, posicionar, diseñar oferta, fijar precio, comunicar, construir marca | Prospectar, presentar, negociar, cerrar, dar seguimiento |
+| Resultado | Clientes que conocen, prefieren y buscan al negocio | Pedidos y cobros |
+
+Peter Drucker escribió que el objetivo del marketing es hacer **innecesaria** la venta: conocer tan bien al cliente que el producto «se venda solo». En la práctica, casi siempre hacen falta ambas cosas, pero la idea muestra la relación: un buen marketing hace mucho más fácil el trabajo de ventas.
+
+## Las tareas del marketing
+1. **Investigar el mercado:** quiénes son los clientes, qué necesitan, qué ofrece la competencia (lección M12-2).
+2. **Segmentar y elegir a quién atender** (lección M12-3).
+3. **Posicionar:** decidir qué lugar se quiere ocupar en la mente del cliente.
+4. **Diseñar la oferta** con las 4P: producto, precio, plaza y promoción (lección M12-4).
+5. **Construir y cuidar la marca** (lección M12-5).
+6. **Comunicar:** publicidad, redes sociales, relaciones públicas, promociones (lecciones M12-6 y M12-7).
+7. **Medir** los resultados y ajustar (lección M12-8).
+8. **Cuidar la relación** con los clientes (con ventas y servicio al cliente).
+
+## Marketing según el tamaño del negocio
+- **Changarro:** el marketing es intuitivo: el dueño conoce a sus clientes, cuida su letrero y su trato, y depende del boca a boca.
+- **Pyme:** alguien se encarga (a veces el dueño) de las redes sociales, las promociones, el diseño de menús y letreros, y quizá se contrata a una agencia o a un independiente.
+- **Empresa grande:** una dirección de marketing con áreas de investigación de mercado, gerentes de marca, publicidad, medios digitales, promociones, comunicación, y presupuestos de millones.
+
+## El marketing como forma de pensar
+Más que un área, el marketing es una **forma de pensar el negocio desde el cliente**. Las empresas que la adoptan se preguntan primero «¿qué necesita el cliente?» y después «¿qué podemos ofrecerle?». Las que no la adoptan empiezan por «¿qué sabemos hacer?» y luego buscan a quién vendérselo.
+
+Theodore Levitt, profesor de Harvard, publicó en 1960 un artículo famoso, «Miopía en el marketing», en el que advertía que muchas empresas fracasan porque se definen por su producto y no por la necesidad que satisfacen. Su ejemplo: los ferrocarriles de Estados Unidos perdieron terreno porque se veían como empresas «de trenes» y no «de transporte», y dejaron que los autos, camiones y aviones se quedaran con sus clientes. Para Tortas Lupita, la pregunta sería: ¿somos un negocio «de tortas» o un negocio que resuelve «comer bien y rápido cerca del trabajo»? La segunda definición abre más posibilidades (desayunos, ensaladas, comida para juntas).
+
+## Marketing ético
+El marketing tiene un enorme poder para influir en las decisiones de las personas. Por eso conlleva responsabilidades:
+- **Decir la verdad:** no prometer lo que el producto no cumple.
+- **Respetar a los clientes vulnerables:** niños, personas mayores.
+- **Cuidar los datos personales** de los clientes (Módulo 14).
+- **Cumplir las reglas** de publicidad y etiquetado.
+
+En México, la Ley Federal de Protección al Consumidor y la Profeco vigilan la publicidad engañosa, y existen normas específicas de etiquetado de alimentos y bebidas.
+
+## El plan de Lupita
+Lupita decide que el marketing de Tortas Lupita tendrá tres objetivos para el año: que más oficinistas de la zona conozcan el local, que los clientes de mostrador vengan con más frecuencia y que las oficinas encuentren fácil hacer pedidos. Asigna a Toño la responsabilidad de marketing (con apoyo de una diseñadora independiente) y le pide coordinarse cada semana con Karla, que se ocupa de las ventas a oficinas. En las siguientes lecciones construirán juntos el plan.
+
+## El marketing en números
+Para el negocio, el marketing es una inversión que debe dar resultados medibles: más clientes que conocen la marca, más clientes que la eligen, más clientes que regresan y un costo razonable por cada cliente conseguido. Por eso, aunque tiene mucho de creatividad, el buen marketing también tiene mucho de disciplina: objetivos claros, presupuesto, calendario y medición. Un error frecuente en negocios pequeños es hacer marketing «cuando hay tiempo» o «cuando las ventas bajan»; los resultados suelen ser mejores cuando se hace de forma constante, con un plan sencillo y revisado cada mes. En la lección M12-8 verás cómo medir si el marketing está funcionando y cuánto devuelve cada peso invertido.`,
+k: `**Marketing:** entender al cliente, crear una oferta con valor, comunicarla y entregarla, con relaciones rentables (Kotler). No es solo publicidad. **Marketing** piensa en segmentos y en el largo plazo; **ventas**, en clientes concretos y el cierre. Drucker: el marketing busca hacer **innecesaria** la venta. **Miopía en el marketing** (Levitt, 1960): definirse por el producto y no por la necesidad.`,
+ch: `Una estética de barrio hace marketing sin saberlo: pregunta a sus clientas qué servicios quieren, pone fotos de sus trabajos en redes, tiene precios visibles y manda un mensaje de cumpleaños con un descuento.`,
+gi: `Las grandes empresas de consumo, como Procter & Gamble, se hicieron famosas por organizarse alrededor de gerentes de marca responsables de entender a los consumidores y de toda la estrategia de cada producto.`,
+e: `Toño distribuye las tareas de marketing y ventas en Tortas Lupita:
+
+| Tarea | Marketing (Toño) | Ventas (Karla) |
+|---|---|---|
+| Encuesta a clientes de la zona | ✓ | |
+| Menú, fotos y letreros | ✓ | |
+| Redes sociales y perfil en mapas | ✓ | |
+| Promoción de la tarjeta de sellos | ✓ | |
+| Lista de oficinas por visitar | Apoya con datos | ✓ |
+| Visitas, propuestas y cierres | | ✓ |
+| Material para las oficinas (folleto, menú de paquetes) | ✓ | Usa |
+| Revisión semanal de resultados | ✓ | ✓ |`,
+r: `Theodore Levitt publicó «Marketing Myopia» en Harvard Business Review en 1960. El artículo, uno de los más reproducidos de la revista, usó el caso de los ferrocarriles estadounidenses para argumentar que las empresas deben definirse por las necesidades de sus clientes y no por sus productos.`,
+f: `Theodore Levitt, «Marketing Myopia», Harvard Business Review (1960); Philip Kotler y Gary Armstrong, «Fundamentos de marketing»; Peter Drucker, «Management: Tasks, Responsibilities, Practices» (1973).`,
+err: ["Creer que marketing es solo hacer anuncios.","Que marketing y ventas no se hablen.","Definir el negocio por el producto y no por la necesidad.","Hacer publicidad engañosa."],
+a: `Describe el negocio que observas de dos formas: por su producto («vendemos…») y por la necesidad que resuelve («ayudamos a… a…»). Después lista tres tareas de marketing que hoy no hace y que podría empezar.`,
+sol: `Si la definición por necesidad te abre ideas de nuevos productos o clientes, evitaste la miopía de marketing.`,
+q: [["El marketing incluye…",["Entender al cliente, diseñar la oferta, comunicarla y entregarla","Solo poner anuncios","Solo cobrar"],0,"Es mucho más que publicidad."],
+["La diferencia principal entre marketing y ventas es que…",["Marketing piensa en segmentos y en el largo plazo; ventas, en el cierre con cada cliente","Son exactamente lo mismo","Ventas hace los anuncios"],0,"Se complementan."],
+["La «miopía en el marketing» consiste en…",["Definirse por el producto y no por la necesidad del cliente","Ver mal los anuncios","Gastar mucho en publicidad"],0,"Según Theodore Levitt (1960)."],
+["¿Qué autor dijo que el objetivo del marketing es hacer innecesaria la venta?",["Peter Drucker","Adam Smith","Henri Fayol"],0,"La idea: conocer tan bien al cliente que el producto se venda solo."]],
+t: ["Marketing","Miopía en el marketing","Publicidad engañosa"]
+},
+"M12-2": {
+s: `Lupita quiere lanzar desayunos, pero no sabe si habría clientes. Toño propone una encuesta. Karla sugiere contar cuánta gente pasa a las 8:00. Un amigo dice: «Contrata a una empresa de estudios de mercado». Eso cuesta decenas de miles de pesos. ¿Se puede investigar sin gastar tanto?`,
+o: ["Distinguir fuentes de información secundarias y primarias.","Diseñar una investigación de mercado barata.","Evitar errores comunes al preguntar a los clientes."],
+x: `## ¿Para qué investigar el mercado?
+La **investigación de mercado** busca información para tomar mejores decisiones: ¿hay suficientes clientes?, ¿qué quieren?, ¿cuánto pagarían?, ¿qué ofrece la competencia?, ¿funcionará este producto nuevo? Sin investigación, las decisiones se basan en suposiciones o en lo que «le parece» al dueño. Con ella, se reduce el riesgo de gastar dinero en algo que nadie quiere.
+
+No hace falta contratar a una empresa grande. Muchos negocios pequeños pueden obtener información muy útil con poco dinero, si saben qué preguntar y a quién.
+
+## Fuentes secundarias: lo que ya existe
+Las **fuentes secundarias** son datos que otros ya recolectaron. Son baratas o gratuitas y conviene revisarlas primero:
+- **INEGI:** los Censos Económicos y de Población, la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH), la Encuesta Nacional de Ocupación y Empleo y, muy útil para negocios locales, el **DENUE** (Directorio Estadístico Nacional de Unidades Económicas), un mapa en línea donde se pueden ver los negocios registrados en una zona por tipo de actividad. Con él, Lupita puede saber cuántas oficinas, escuelas y restaurantes hay a un kilómetro de su local.
+- **Cámaras y asociaciones empresariales:** publican estudios de su sector.
+- **Informes de empresas en bolsa:** describen tendencias de su industria.
+- **Prensa económica y estudios universitarios.**
+- **Internet:** las páginas, menús, precios y reseñas de la competencia.
+
+## Fuentes primarias: lo que tú recolectas
+Las **fuentes primarias** son datos que el negocio obtiene directamente para su pregunta. Las formas más baratas:
+1. **Observación:** contar cuántas personas pasan a cierta hora, cuántas entran a la competencia, qué compran, cuánto esperan. Es barata y muy confiable, porque mide lo que la gente **hace**, no lo que **dice**.
+2. **Entrevistas:** conversaciones de 10 a 15 minutos con clientes o posibles clientes, con preguntas abiertas («¿Dónde desayunas los días de trabajo? ¿Qué te gustaría que hubiera?»).
+3. **Encuestas:** cuestionarios breves en papel o en línea, con preguntas cerradas para contar respuestas («¿Cuántos días a la semana desayunas fuera de casa? 0 / 1–2 / 3–4 / 5»).
+4. **Cliente misterioso:** visitar a la competencia (o el propio negocio) como cliente para evaluar la experiencia.
+5. **Prueba piloto:** vender el producto nuevo durante una o dos semanas en pequeño y medir cuánto se vende. Es la forma más confiable de saber si algo funciona.
+6. **Datos propios:** las ventas por producto, hora y día que registra el sistema de punto de venta (Módulo 15).
+
+## Lo que la gente dice y lo que la gente hace
+Un problema conocido de las encuestas es que **la gente dice una cosa y hace otra**. Muchas personas responden «sí, compraría desayunos saludables» y luego siguen comprando tamales. Por eso:
+- Prefiere preguntar por el **comportamiento pasado** («¿qué desayunaste ayer y dónde?») que por el futuro («¿comprarías…?»).
+- Combina la encuesta con **observación** y con una **prueba piloto**.
+- Desconfía de las respuestas «de cortesía»: a nadie le gusta decirle a la dueña que su idea no le interesa.
+
+## Cómo hacer una buena encuesta
+- **Define primero la decisión** que quieres tomar («¿lanzo desayunos?, ¿a qué precio?»).
+- **Pocas preguntas:** de 5 a 10; una encuesta larga se abandona.
+- **Preguntas claras y neutrales:** «¿Qué tan probable es que…?» y no «¿Verdad que te encantaría…?».
+- **Una idea por pregunta.**
+- **Opciones de respuesta completas** que no se traslapen.
+- **Pregunta a las personas adecuadas:** si quieres vender desayunos a oficinistas, encuesta a oficinistas a las 8:00, no a estudiantes a las 14:00.
+- **Suficientes respuestas:** para tener una idea general en un negocio local, varias decenas de respuestas bien elegidas suelen dar una orientación útil; para conclusiones más precisas, hacen falta más y un muestreo cuidadoso.
+
+## La investigación de Tortas Lupita para los desayunos
+| Método | Qué hicieron | Qué encontraron |
+|---|---|---|
+| DENUE (INEGI) | Contaron oficinas y escuelas en 1 km | 85 oficinas y 3 escuelas |
+| Observación | Contaron personas de 7:30 a 9:30 frente al local, 3 días | 600 personas por mañana; 1 de cada 3 con café o pan en la mano |
+| Cliente misterioso | Visitaron dos cafeterías cercanas | Desayunos de 70 a 95 pesos; filas largas a las 8:30 |
+| Encuesta | 60 oficinistas, 6 preguntas | 45 % desayuna fuera 3 o más días; precio aceptable: 50 a 65 pesos; quieren rapidez |
+| Prueba piloto | Dos semanas con 3 desayunos a 55 pesos | Promedio de 70 desayunos diarios a partir de la segunda semana |
+
+Con esta información, gastando muy poco, Lupita decide lanzar los desayunos.
+
+## Investigar de forma continua
+La investigación no es solo para grandes decisiones. Un negocio que pregunta con regularidad a sus clientes, observa a su competencia y revisa sus propios datos se entera antes que nadie de los cambios del mercado. Una caja de sugerencias, una pregunta en la caja («¿qué le gustaría que tuviéramos?») y una visita trimestral a la competencia ya son investigación de mercado.
+
+## En las empresas gigantes
+Las grandes empresas invierten mucho en investigación: estudios de consumidores en varios países, grupos de enfoque, paneles de hogares que registran sus compras, pruebas de productos en tiendas seleccionadas antes de lanzarlos a todo el país, análisis de millones de transacciones. Pero también usan los métodos sencillos: muchas cadenas prueban un producto nuevo en unas cuantas tiendas antes de llevarlo a todas, exactamente como hizo Lupita con sus desayunos.`,
+k: `**Investigación de mercado:** información para decidir mejor. **Fuentes secundarias:** lo que ya existe (INEGI y su **DENUE**, cámaras, informes, competencia en internet). **Primarias:** observación, entrevistas, encuestas, **cliente misterioso**, **prueba piloto** y datos propios. La gente dice una cosa y hace otra: pregunta por el **comportamiento pasado** y prueba en pequeño.`,
+ch: `Antes de abrir una lavandería, una emprendedora cuenta los edificios de departamentos de la zona en el DENUE, observa cuántas personas usan la lavandería más cercana un sábado y pregunta a 30 vecinos cuánto pagan hoy.`,
+gi: `Las grandes cadenas suelen probar productos nuevos en un grupo de tiendas antes de lanzarlos a todo el país, y empresas de consumo usan paneles de hogares que registran sus compras para medir el mercado.`,
+e: `Toño estima la demanda de desayunos con la observación y la encuesta:
+
+| Paso | Cálculo | Resultado |
+|---|---|---|
+| Personas que pasan en la mañana | — | 600 |
+| Oficinistas (estimado por observación) | 600 × 60 % | 360 |
+| Desayunan fuera 3 o más días (encuesta) | 360 × 45 % | 162 |
+| Podrían elegir Tortas Lupita (supuesto conservador) | 162 × 35 % | 57 desayunos al día |
+| Resultado real de la prueba piloto | — | 70 desayunos al día |
+
+La prueba piloto confirmó (y superó) la estimación.`,
+r: `El INEGI ofrece en línea el DENUE, un directorio con la ubicación y la actividad de millones de establecimientos del país, que se puede consultar en un mapa y filtrar por tipo de negocio y zona. Es una herramienta gratuita muy usada para estudios de mercado y de ubicación.`,
+f: `INEGI, Directorio Estadístico Nacional de Unidades Económicas (DENUE) (inegi.org.mx/app/mapa/denue).`,
+err: ["Decidir sin ninguna información.","Hacer encuestas largas y con preguntas que inducen la respuesta.","Creer todo lo que la gente dice en una encuesta.","Preguntar a las personas equivocadas."],
+a: `Elige una decisión del negocio que observas (un producto nuevo, un horario, un precio). Diseña una investigación barata con al menos tres métodos (por ejemplo, DENUE, observación y encuesta de 6 preguntas). Si puedes, aplícala.`,
+sol: `Revisa que tus preguntas pregunten por lo que la gente hizo y no solo por lo que haría. Siempre que puedas, termina con una prueba piloto.`,
+q: [["El DENUE del INEGI sirve para…",["Ver los negocios registrados en una zona por actividad","Calcular impuestos","Pagar la nómina"],0,"Es un directorio en línea con mapa."],
+["Contar cuántas personas pasan frente al local es un método de…",["Observación","Encuesta","Fuente secundaria"],0,"Mide lo que la gente hace."],
+["¿Cuál es una pregunta mejor para una encuesta?",["«¿Qué desayunaste ayer y dónde?»","«¿Verdad que te encantaría desayunar aquí?»","«¿Comprarías todo lo que te ofrezca?»"],0,"Pregunta por el comportamiento pasado y es neutral."],
+["La forma más confiable de saber si un producto nuevo funciona suele ser…",["Una prueba piloto","Preguntarle a un amigo","Adivinar"],0,"Se mide lo que realmente se vende."]],
+t: ["Investigación de mercado","Fuentes secundarias","Fuentes primarias","DENUE","Cliente misterioso","Prueba piloto","Encuesta"]
+},
+"M12-3": {
+s: `En la misma cuadra hay una cadena de comida rápida, una cafetería de especialidad y la fonda de Doña Tere. Lupita se pregunta: ¿cómo quiere que la recuerden sus clientes? ¿Como la más barata, la más rápida, la más sabrosa o la más «de casa»?`,
+o: ["Aplicar el proceso de segmentación, mercado meta y posicionamiento.","Construir un mapa de posicionamiento.","Redactar una declaración de posicionamiento."],
+x: `## Tres pasos para decidir a quién y cómo
+El marketing suele organizar sus decisiones estratégicas en tres pasos:
+1. **Segmentar:** dividir el mercado en grupos de clientes con necesidades parecidas (lección M4-3).
+2. **Elegir el mercado meta:** decidir a qué segmento o segmentos se va a atender.
+3. **Posicionar:** definir qué lugar quiere ocupar el negocio en la mente de esos clientes, frente a la competencia.
+
+## 1. Segmentar
+Los criterios más comunes para segmentar son:
+- **Geográficos:** dónde viven o trabajan (zona, ciudad, región).
+- **Demográficos:** edad, sexo, ingreso, ocupación, tamaño de la familia.
+- **Psicográficos:** estilo de vida, valores, intereses (personas que cuidan su salud, que buscan experiencias, que priorizan el ahorro).
+- **Conductuales:** cómo y cuándo compran, cuánto, con qué frecuencia, qué beneficio buscan (rapidez, precio, calidad).
+- **Para empresas:** giro, tamaño, ubicación, forma de comprar.
+
+Un buen segmento es **medible** (se puede estimar su tamaño), **accesible** (se puede llegar a él), **suficientemente grande** (para que valga la pena), **distinto** (responde de forma diferente a otros) y **atendible** (el negocio puede ofrecerle algo).
+
+## 2. Elegir el mercado meta
+No se puede ser todo para todos. Hay varias estrategias:
+- **Masiva:** una sola oferta para todo el mercado (pocos negocios pueden hacerlo).
+- **Diferenciada:** ofertas distintas para varios segmentos (una cadena con marcas para distintos niveles de precio).
+- **Concentrada (de nicho):** una oferta para un solo segmento, atendido muy bien. Es la estrategia más común en negocios pequeños.
+- **Local o individual:** ofertas muy personalizadas.
+
+Tortas Lupita elige una estrategia concentrada: **oficinistas y trabajadores de la zona Centro que necesitan comer bien, rápido y a un precio accesible**, con un segmento secundario (estudiantes en la tarde) y un canal especial para oficinas.
+
+## 3. Posicionar
+El **posicionamiento** es el lugar que una marca ocupa en la mente de los clientes en comparación con la competencia. Al Ries y Jack Trout popularizaron la idea en su libro «Posicionamiento: la batalla por su mente» (1981): como los clientes reciben miles de mensajes, recuerdan a las marcas por **una idea simple y distinta**. Algunos ejemplos clásicos: una marca de autos asociada con la seguridad, una tienda asociada con los precios bajos, una cafetería asociada con la experiencia.
+
+Un buen posicionamiento es:
+- **Claro:** se puede decir en una frase.
+- **Distinto:** no lo puede decir cualquier competidor.
+- **Relevante:** le importa al cliente meta.
+- **Creíble y sostenible:** el negocio puede cumplirlo siempre.
+
+## El mapa de posicionamiento
+Una herramienta visual es el **mapa de posicionamiento** (o mapa perceptual): un plano con dos ejes que representan atributos importantes para el cliente, donde se ubica a cada competidor. Para la cuadra de Lupita, con los ejes «precio» y «rapidez»:
+
+| Competidor | Precio | Rapidez | Lugar en el mapa |
+|---|---|---|---|
+| Cadena de comida rápida | Medio | Muy alta | Rápido y estándar |
+| Cafetería de especialidad | Alto | Baja | Experiencia, para sentarse |
+| Fonda de Doña Tere | Bajo | Baja | Comida de casa, sin prisa |
+| Tortas Lupita | Bajo-medio | Alta | **Comida sabrosa y rápida a buen precio** |
+
+El mapa muestra un espacio libre: nadie ofrece al mismo tiempo **sabor «de casa»** y **rapidez** a **precio accesible**. Ese es el lugar que Tortas Lupita quiere ocupar.
+
+## La declaración de posicionamiento
+Una forma de escribir el posicionamiento (para uso interno, no como eslogan) es:
+
+**«Para [mercado meta], [marca] es [categoría] que [beneficio principal], porque [razón para creer].»**
+
+Para Tortas Lupita:
+«Para los trabajadores del Centro que tienen poco tiempo, Tortas Lupita es la tortería que da comida sabrosa como de casa, lista en tres minutos y a buen precio, porque preparamos al momento con ingredientes frescos cada mañana y con un proceso rápido».
+
+Esta frase guía todas las decisiones: el menú (pocas opciones bien hechas), el proceso (rápido), el precio (accesible), la comunicación (fotos de ingredientes frescos y del tiempo de espera) y el trato (cercano, «de casa»).
+
+## Errores de posicionamiento
+- **Sin posicionamiento claro:** el cliente no sabe por qué elegirte.
+- **Posicionamiento confuso:** prometer «lo más barato» y «lo más gourmet» a la vez.
+- **Posicionamiento que no se cumple:** prometer rapidez y tener filas de 20 minutos.
+- **Reposicionarse demasiado seguido:** cambiar de idea cada año confunde a los clientes.
+- **Copiar el posicionamiento del líder:** es difícil ganarle en su propio terreno.
+
+## Reposicionarse
+A veces, una marca necesita **reposicionarse**: cambiar la idea que los clientes tienen de ella, porque el mercado cambió o porque su posicionamiento ya no funciona. Es un proceso lento y caro, que requiere cambiar no solo la publicidad, sino también el producto, el precio, el servicio y la experiencia.
+
+## En las empresas gigantes
+Las grandes empresas con muchas marcas posicionan cada una para un segmento distinto. Una empresa de autos puede tener marcas para jóvenes, para familias y de lujo; una cadena de hoteles, marcas económicas, de negocios y de lujo. Cada marca tiene su propio posicionamiento, y la empresa cuida que no se «roben» clientes entre sí.`,
+k: `**Segmentar** (geográfico, demográfico, psicográfico, conductual) → **mercado meta** (masivo, diferenciado, **concentrado o de nicho**) → **posicionar**: el lugar que ocupas en la mente del cliente frente a la competencia (Ries y Trout, 1981). Usa un **mapa de posicionamiento** y una declaración: para [meta], [marca] es [categoría] que [beneficio], porque [razón].`,
+ch: `Una panadería de barrio se posiciona como «el pan recién salido a las 7:00 y a las 18:00»; sus clientes saben exactamente cuándo ir y por qué elegirla.`,
+gi: `Las cadenas hoteleras internacionales manejan varias marcas con posicionamientos distintos (económico, de negocios, de lujo) para atender a segmentos diferentes sin confundirlos.`,
+e: `Toño revisa si las acciones de Tortas Lupita son coherentes con su posicionamiento («sabroso como de casa, rápido y a buen precio»):
+
+| Acción propuesta | ¿Coherente? | Decisión |
+|---|---|---|
+| Agregar 20 tipos de torta al menú | No: hace más lento el proceso | Mantener 5 a 7 tipos |
+| Subir el precio a 75 pesos con ingredientes gourmet | No: rompe «buen precio» | Descartar |
+| Pedidos por WhatsApp para recoger sin fila | Sí: refuerza «rápido» | Implementar |
+| Fotos de Lupita preparando la salsa | Sí: refuerza «de casa» | Implementar |
+| Pantalla con el tiempo de espera | Sí: hace visible la rapidez | Implementar |`,
+r: `Al Ries y Jack Trout publicaron «Positioning: The Battle for Your Mind» en 1981, después de una serie de artículos en la revista Advertising Age a principios de los setenta. El libro popularizó la idea de que las marcas compiten por ocupar un lugar simple y distinto en la mente de los consumidores.`,
+f: `Al Ries y Jack Trout, «Posicionamiento: la batalla por su mente» (1981).`,
+err: ["Querer atender a todos los segmentos a la vez.","No tener una idea clara y distinta.","Prometer un posicionamiento que la operación no puede cumplir.","Cambiar de posicionamiento cada poco tiempo."],
+a: `Elige dos atributos importantes para los clientes del negocio que observas y dibuja un mapa de posicionamiento con al menos cuatro competidores. Identifica un espacio libre y escribe una declaración de posicionamiento.`,
+sol: `Elige atributos que de verdad le importen al cliente (no los que le gustan al dueño). Si todos los competidores están en el mismo lugar, puede haber una oportunidad en otro.`,
+q: [["El posicionamiento es…",["El lugar que una marca ocupa en la mente del cliente frente a la competencia","La ubicación del local","El número de sucursales"],0,"Según Ries y Trout."],
+["Una estrategia de mercado meta concentrada (de nicho) consiste en…",["Atender muy bien a un solo segmento","Atender a todo el mundo igual","No tener clientes"],0,"Es la más común en negocios pequeños."],
+["Un mapa de posicionamiento sirve para…",["Ver visualmente dónde está cada competidor según dos atributos","Calcular impuestos","Dibujar rutas de reparto"],0,"Ayuda a encontrar espacios libres."],
+["¿Cuál es un error de posicionamiento?",["Prometer rapidez y tener filas de 20 minutos","Tener una idea clara","Ser distinto a la competencia"],0,"El posicionamiento debe cumplirse."]],
+t: ["Segmentación","Mercado meta","Posicionamiento","Mapa de posicionamiento","Nicho de mercado","Declaración de posicionamiento"]
+},
+"M12-4": {
+s: `Para lanzar los desayunos, Lupita tiene que decidir qué incluir, a qué precio, dónde y cómo venderlos, y cómo darlos a conocer. Toño le dice que esas cuatro decisiones tienen nombre: las 4P del marketing.`,
+o: ["Explicar las 4P del marketing: producto, precio, plaza y promoción.","Conocer las 3P adicionales de los servicios.","Diseñar la mezcla de marketing de un producto concreto."],
+x: `## La mezcla de marketing
+Una vez que el negocio sabe a quién atiende y cómo quiere posicionarse (lección M12-3), tiene que tomar decisiones concretas sobre su oferta. En 1960, el profesor estadounidense E. Jerome McCarthy propuso agruparlas en cuatro categorías, conocidas como las **4P** (por sus nombres en inglés: *product, price, place, promotion*). Juntas forman la **mezcla de marketing**. Todas deben ser coherentes entre sí y con el posicionamiento.
+
+## 1. Producto
+El **producto** es lo que se ofrece al cliente para satisfacer su necesidad: un bien, un servicio o una combinación. Las decisiones de producto incluyen:
+- **Características y calidad:** ingredientes, tamaño, sabor, presentación.
+- **Variedad:** cuántas opciones (el menú).
+- **Marca y empaque:** nombre, imagen, envoltura.
+- **Servicios adicionales:** garantía, entrega, atención.
+
+Un producto se puede ver en niveles: el **beneficio central** (calmar el hambre rápido), el **producto básico** (la torta) y el **producto ampliado** (empaque práctico, pedido por WhatsApp, factura, garantía de puntualidad para oficinas).
+
+## 2. Precio
+El **precio** es lo que el cliente paga. Las decisiones incluyen:
+- **Nivel de precio** (por costo, competencia y valor; lección M5-8).
+- **Descuentos y promociones** (lección M5-9).
+- **Condiciones de pago:** contado, tarjeta, crédito a oficinas.
+- **Precios por volumen** o paquetes.
+
+El precio debe ser coherente con el posicionamiento: un producto que se presenta como «premium» con precio de oferta confunde; uno «accesible» con precio alto aleja a su cliente meta.
+
+## 3. Plaza (distribución)
+La **plaza** se refiere a **dónde y cómo** llega el producto al cliente: los canales (lección M4-4), la ubicación, los horarios, la entrega, la cobertura. Decisiones típicas:
+- ¿Se vende en el local, por WhatsApp, en plataformas de reparto, en tiendas de terceros?
+- ¿En qué horario?
+- ¿Con entrega a domicilio o para recoger?
+- ¿En cuántos puntos de venta?
+
+## 4. Promoción (comunicación)
+La **promoción** es cómo se da a conocer el producto y se motiva la compra. Incluye:
+- **Publicidad:** anuncios pagados (lección M12-7).
+- **Promoción de ventas:** descuentos, combos, degustaciones, programas de lealtad.
+- **Relaciones públicas:** notas en medios, participación en eventos de la comunidad.
+- **Venta personal:** la labor de Karla con las oficinas.
+- **Marketing digital y redes sociales** (lección M12-6).
+- **Comunicación en el punto de venta:** letreros, menú, vitrina.
+
+## Las 3P adicionales de los servicios
+Para los servicios, en 1981 Bernard Booms y Mary Jo Bitner propusieron agregar tres P más (las **7P**):
+5. **Personas:** quienes atienden son parte del servicio (su trato, su preparación, su aspecto).
+6. **Procesos:** cómo se presta el servicio (rapidez, facilidad, pasos para el cliente).
+7. **Evidencia física (o ambiente):** lo que el cliente ve y toca (limpieza, decoración, uniformes, empaques, el local).
+
+En un negocio como Tortas Lupita, que es mitad producto y mitad servicio, las 7P son muy útiles: una torta excelente pierde valor si la atiende alguien de mal humor, en un local sucio y con un proceso lento.
+
+## La mezcla de marketing de los desayunos
+| P | Decisión |
+|---|---|
+| Producto | Tres opciones: torta de huevo con chorizo, molletes y yogur con fruta y granola; café de olla incluido; empaque para llevar |
+| Precio | 55 pesos con café; 45 sin café; paquete para oficinas de 10 desayunos a 500 pesos |
+| Plaza | En el local de 7:30 a 10:30; pedidos por WhatsApp para recoger sin fila; entrega a oficinas a partir de 10 desayunos |
+| Promoción | Letrero en la calle desde las 7:00; publicación diaria en redes con foto del desayuno; degustación en 10 oficinas; desayuno de prueba a mitad de precio la primera semana para quien traiga a un compañero |
+| Personas | Turno de mañana capacitado en rapidez y trato amable |
+| Procesos | Menú corto; tres estaciones; pedido y pago en un solo paso |
+| Evidencia física | Local limpio y ventilado; olor a café; vasos con el logo |
+
+## La coherencia
+Las P deben reforzarse entre sí. Si el producto es rápido y práctico, la plaza debe facilitar la compra rápida, el precio debe ser accesible y la promoción debe comunicar rapidez. Si una P contradice a las demás (por ejemplo, un desayuno «rápido» que solo se vende en una plataforma de reparto que tarda 40 minutos), la mezcla falla.
+
+## Más allá de las 4P
+Algunos autores proponen ver las 4P desde el punto de vista del cliente, con las **4C**: **cliente** (sus necesidades, en lugar del producto), **costo** (todo lo que le cuesta al cliente, no solo el precio), **conveniencia** (en lugar de plaza) y **comunicación** (un diálogo, en lugar de promoción). Es una forma útil de recordar que cada decisión debe pensarse desde quien compra.
+
+## En las empresas gigantes
+Las grandes empresas de consumo definen una mezcla de marketing para cada producto y cada país. Una misma bebida puede tener presentaciones, precios, canales y campañas distintas en distintos mercados. Los gerentes de marca son responsables de que las P de su producto sean coherentes y logren sus objetivos de ventas y de participación de mercado.`,
+k: `**4P** (McCarthy, 1960): **producto** (qué se ofrece), **precio** (cuánto y cómo se paga), **plaza** (dónde y cómo llega), **promoción** (cómo se comunica). En servicios, **7P**: más **personas, procesos y evidencia física** (Booms y Bitner, 1981). Las P deben ser **coherentes** entre sí y con el posicionamiento. Visto desde el cliente: **4C**.`,
+ch: `Una paletería artesanal define su mezcla: paletas de fruta natural (producto), 25 pesos (precio), en su local y en dos tiendas de la colonia (plaza) y una pizarra con el sabor del día y fotos en redes (promoción).`,
+gi: `Las grandes marcas de bebidas adaptan su mezcla de marketing a cada país: tamaños de envase, precios, canales (tienditas, supermercados, restaurantes) y campañas publicitarias distintas según el mercado.`,
+e: `Lupita calcula los resultados esperados de los desayunos con su mezcla de marketing:
+
+| Concepto | Cálculo | Resultado mensual |
+|---|---|---|
+| Desayunos en el local | 70 al día × 26 × 55 | 100,100 |
+| Paquetes de oficina | 8 paquetes por semana × 4.3 × 500 | 17,200 |
+| Ventas totales de desayunos | — | 117,300 |
+| Costo de ingredientes (35 %) | 117,300 × 0.35 | 41,055 |
+| Costos adicionales del turno de mañana | — | 30,000 |
+| Margen después de costos adicionales | 117,300 − 41,055 − 30,000 | 46,245 |
+
+Si la prueba piloto se mantiene, los desayunos agregarían más de 46,000 pesos al mes.`,
+r: `E. Jerome McCarthy presentó el marco de las 4P en su libro «Basic Marketing: A Managerial Approach» (1960). En 1981, Bernard Booms y Mary Jo Bitner propusieron ampliar el modelo a 7P para los servicios, agregando personas, procesos y evidencia física.`,
+f: `E. J. McCarthy, «Basic Marketing» (1960); B. Booms y M. J. Bitner, «Marketing Strategies and Organization Structures for Service Firms» (1981).`,
+err: ["Decidir las P por separado, sin coherencia.","Olvidar las personas, los procesos y el ambiente en un servicio.","Pensar la promoción antes que el producto y el precio.","Copiar la mezcla de un competidor con otro posicionamiento."],
+a: `Diseña la mezcla de marketing (7P) de un producto o servicio del negocio que observas, en una tabla. Revisa que las siete P sean coherentes con su posicionamiento.`,
+sol: `Una prueba sencilla: lee cada P y pregúntate si refuerza la frase de posicionamiento. Si alguna la contradice, cámbiala.`,
+q: [["¿Cuáles son las 4P del marketing?",["Producto, precio, plaza y promoción","Personas, procesos, planta y pago","Planear, presupuestar, pagar y producir"],0,"Propuestas por McCarthy en 1960."],
+["La «plaza» se refiere a…",["Dónde y cómo llega el producto al cliente","El precio","La publicidad"],0,"Canales, ubicación, horarios y entrega."],
+["Las 3P adicionales de los servicios son…",["Personas, procesos y evidencia física","Precio, plaza y publicidad","Producto, pago y proveedor"],0,"Propuestas por Booms y Bitner."],
+["¿Por qué deben ser coherentes las P?",["Porque se refuerzan entre sí; si una contradice a las demás, la mezcla falla","Porque lo pide la ley","No necesitan serlo"],0,"Deben apoyar el mismo posicionamiento."]],
+t: ["Mezcla de marketing (4P)","7P de los servicios","Evidencia física","Producto ampliado","Plaza (distribución)"]
+},
+"M12-5": {
+s: `Una agencia ofrece a Lupita «hacerle una marca» con un logo moderno y un nombre en inglés: «Lupi's Gourmet Sandwiches». Sus clientes de años se ríen: «¡Pero si todos te conocemos como Tortas Lupita!». ¿Qué es realmente una marca?`,
+o: ["Explicar qué es una marca y qué la compone.","Distinguir entre logo, identidad y experiencia de marca.","Proponer acciones para construir y proteger una marca."],
+x: `## Una marca es una promesa
+Una **marca** es mucho más que un nombre y un logo. Es el conjunto de ideas, sentimientos y expectativas que una persona asocia con un negocio o un producto. En palabras sencillas, es **una promesa**: lo que el cliente espera recibir cada vez que elige esa marca. Cuando la promesa se cumple una y otra vez, se crea **confianza**; cuando se rompe, la marca se daña.
+
+Una frase atribuida a Jeff Bezos resume la idea: «Tu marca es lo que la gente dice de ti cuando no estás en la habitación».
+
+## Las partes de una marca
+1. **Nombre:** cómo se llama. Debe ser fácil de pronunciar, recordar y escribir, y no estar registrado por otro.
+2. **Identidad visual:** logo, colores, tipografía, estilo de fotos, uniformes, empaques.
+3. **Promesa:** qué beneficio ofrece y en qué es distinta (sale del posicionamiento, lección M12-3).
+4. **Personalidad y tono:** cómo «habla» la marca: cercana, formal, divertida, seria.
+5. **Experiencia:** lo que el cliente vive en cada contacto con la marca: el trato, el sabor, la rapidez, el local, los mensajes, la entrega.
+6. **Reputación:** lo que la gente dice (reseñas, recomendaciones, notas en medios).
+
+El logo es la parte más visible, pero la **experiencia** es la que más construye (o destruye) la marca.
+
+## El valor de una marca
+Una marca fuerte tiene **valor**:
+- Los clientes la **eligen** sin comparar tanto.
+- Están dispuestos a **pagar un poco más**.
+- Son más **leales**.
+- **Recomiendan**.
+- Facilitan **lanzar productos nuevos** con el mismo nombre.
+- Hacen que el negocio **valga más** si algún día se vende o se franquicia (Módulo 21).
+
+A este valor se le llama **capital de marca** (en inglés, *brand equity*). Las marcas más conocidas del mundo, como Coca-Cola, Apple o Google, aparecen en clasificaciones de consultoras especializadas (como Interbrand o Kantar) con valores estimados de miles de millones de dólares.
+
+## La marca de un negocio pequeño
+Un negocio pequeño no necesita una gran agencia para tener una marca fuerte. Necesita:
+- **Coherencia:** el mismo nombre, colores y estilo en el letrero, el menú, las bolsas, las redes y los uniformes.
+- **Una promesa clara** que se cumpla siempre.
+- **Una historia auténtica:** de dónde viene, quién está detrás, qué la hace especial. La historia de Lupita y su receta de salsa es más poderosa que un nombre en inglés.
+- **Consistencia en la experiencia:** que la torta sepa igual cada día y que el trato sea siempre amable.
+- **Cuidar la reputación:** responder reseñas, resolver quejas (lección M11-7).
+
+## El error de la agencia
+La propuesta de «Lupi's Gourmet Sandwiches» tiene varios problemas:
+- **Rompe el reconocimiento** que ya existe: los clientes conocen y buscan «Tortas Lupita».
+- **No es coherente con el posicionamiento:** «gourmet» sugiere caro y lento, lo contrario de «sabroso, rápido y a buen precio».
+- **Pierde autenticidad:** la marca es la historia de Lupita; un nombre en inglés la borra.
+- **Puede confundir:** los clientes podrían creer que es otro negocio.
+
+Cambiar el nombre de una marca que ya tiene reconocimiento es muy costoso y arriesgado; solo se justifica en casos muy concretos (por ejemplo, un problema legal o una mala reputación imposible de recuperar).
+
+## Mejorar sin perder la esencia
+Lupita decide **renovar** su identidad sin cambiar su esencia:
+- Conserva el nombre «Tortas Lupita».
+- Una diseñadora redibuja el logo con un estilo más limpio, pero reconocible, inspirado en el letrero original.
+- Define dos colores y los usa en todo: letrero, menú, bolsas, uniformes, redes.
+- Escribe su promesa: «Sabor de casa, en tres minutos».
+- Agrega una foto de Lupita preparando la salsa en el menú y en las redes.
+
+## Proteger la marca
+Una marca es un activo y hay que protegerla:
+- **Registrarla** ante el Instituto Mexicano de la Propiedad Industrial (IMPI), para tener el derecho exclusivo de usarla en su giro y poder impedir que otros la copien (lección M14-3). El caso del módulo, «alguien registra la marca Tortas Lupita antes que ella», muestra lo que puede pasar si no se registra a tiempo.
+- **Registrar el dominio de internet** y los nombres en redes sociales.
+- **Cuidar la calidad** en todas las sucursales o franquicias: una mala experiencia en una sucursal daña a toda la marca.
+
+## Marcas en empresas gigantes
+Las grandes empresas pueden tener una sola marca para todo (como una marca corporativa) o un **portafolio de marcas**, cada una dirigida a un segmento distinto. Grupo Bimbo, por ejemplo, maneja muchas marcas de pan y pastelitos en distintos países. Algunas empresas usan una **marca paraguas** para todos sus productos; otras, marcas independientes, para que un problema con un producto no afecte a los demás (Módulo 26).
+
+## La marca como cultura
+Una marca fuerte empieza por dentro: si los empleados conocen y creen en la promesa, la cumplen sin que se lo pidan. Por eso la marca está ligada a la cultura (lección M7-6). En Tortas Lupita, «sabor de casa, en tres minutos» se convierte en una frase que todo el equipo repite en la junta diaria.`,
+k: `**Marca:** el conjunto de ideas y expectativas que el cliente asocia con un negocio; es una **promesa**. Partes: nombre, identidad visual, promesa, personalidad, **experiencia** y reputación. El **capital de marca** hace que te elijan, paguen más y recomienden. Claves en un negocio pequeño: **coherencia**, promesa clara, historia auténtica y experiencia constante. **Regístrala** ante el IMPI.`,
+ch: `Una carnicería de barrio con tres generaciones conserva su nombre familiar, renueva su letrero con los mismos colores de siempre y pone en la pared fotos de la fundación: sus clientes sienten que es «la de siempre, pero mejor».`,
+gi: `Consultoras como Interbrand publican cada año clasificaciones de las marcas más valiosas del mundo, en las que aparecen marcas como Apple, Microsoft, Google y Coca-Cola con valores estimados de decenas o cientos de miles de millones de dólares.`,
+e: `Lupita compara el costo de cambiar de nombre con el de renovar la identidad:
+
+| Concepto | Cambiar a «Lupi's Gourmet» | Renovar «Tortas Lupita» |
+|---|---|---|
+| Diseño y letreros | 35,000 | 18,000 |
+| Bolsas, menús y uniformes nuevos | 12,000 | 12,000 |
+| Pérdida estimada de clientes por confusión (3 meses) | 5 % de ventas ≈ 35,000 | 0 |
+| Riesgo legal (nombre nuevo no registrado) | Alto | Bajo (se registra el nombre actual) |
+| **Costo total estimado** | **82,000 + riesgo** | **30,000** |
+
+Renovar sin perder la esencia cuesta menos de la mitad y protege lo que ya ganó.`,
+r: `Interbrand publica desde 2000 su ranking «Best Global Brands», que estima el valor de las marcas más importantes del mundo con base en su desempeño financiero, su influencia en la decisión de compra y su fortaleza. En las ediciones recientes, marcas de tecnología como Apple, Microsoft y Google ocupan los primeros lugares.`,
+f: `Interbrand, «Best Global Brands» (interbrand.com); IMPI, información sobre registro de marcas (gob.mx/impi).`,
+err: ["Creer que la marca es solo el logo.","Cambiar un nombre reconocido sin una razón poderosa.","Usar colores, estilos y mensajes distintos en cada lugar.","No registrar la marca."],
+a: `Describe la marca del negocio que observas con sus seis partes (nombre, identidad, promesa, personalidad, experiencia, reputación). Revisa si es coherente en el letrero, el menú, los empaques y las redes, y propón tres mejoras que no cambien su esencia.`,
+sol: `La mejora más barata y efectiva suele ser la coherencia: usar los mismos colores, logo y tono en todos los puntos de contacto.`,
+q: [["Una marca es sobre todo…",["Una promesa: lo que el cliente espera recibir","Solo el logo","El nombre del dueño"],0,"Se construye cumpliendo esa promesa."],
+["¿Qué parte de la marca construye más la confianza?",["La experiencia del cliente en cada contacto","El color del logo","El nombre en inglés"],0,"La experiencia es lo que el cliente vive."],
+["El capital de marca se refiere a…",["El valor que una marca fuerte aporta al negocio","El dinero en el banco","El capital social de la empresa"],0,"Hace que los clientes elijan, paguen más y recomienden."],
+["¿Ante qué institución se registra una marca en México?",["El IMPI","El IMSS","La Profeco"],0,"Instituto Mexicano de la Propiedad Industrial."]],
+t: ["Marca","Identidad de marca","Capital de marca","Promesa de marca","Portafolio de marcas","IMPI"]
+},
+"M12-6": {
+s: `Toño abre una cuenta en redes sociales y publica tres fotos borrosas en un mes. Nadie las ve. Mientras tanto, la cafetería de enfrente aparece primero cuando alguien busca «desayunos cerca de mí» en el mapa del celular. Toño entiende que el marketing digital es más que «tener redes».`,
+o: ["Conocer las herramientas básicas del marketing digital para un negocio local.","Usar un perfil en mapas, WhatsApp Business y redes sociales de forma ordenada.","Planear contenido y anuncios segmentados por zona."],
+x: `## El cliente busca en el celular
+Hoy, una gran parte de las personas busca negocios, compara opciones, lee opiniones y hace pedidos desde su celular. En México, según la encuesta del INEGI sobre disponibilidad y uso de tecnologías de la información en los hogares (ENDUTIH), más de tres cuartas partes de la población de seis años o más usa internet, y la mayoría lo hace desde el teléfono. Para un negocio, estar presente y bien presentado en internet ya no es opcional: es parte de la «vitrina».
+
+El **marketing digital** es el uso de herramientas digitales para atraer, convencer y conservar clientes. Para un negocio local, las herramientas más útiles son cinco.
+
+## 1. El perfil en mapas y buscadores
+Cuando alguien busca «tortas cerca de mí» o «desayunos en el Centro», los buscadores y los mapas muestran los negocios cercanos con su calificación, fotos y horario. Tener un **perfil de negocio** completo y actualizado (por ejemplo, en Google Maps) es, para un negocio local, una de las acciones digitales más rentables. Incluye:
+- Nombre exacto, dirección y ubicación en el mapa.
+- Horarios reales (y días festivos).
+- Teléfono y número de WhatsApp.
+- Fotos de calidad: fachada, interior, productos, equipo.
+- Menú y precios.
+- Categoría correcta («tortería», «restaurante de desayunos»).
+- **Reseñas:** pedirlas a los clientes satisfechos y responderlas todas.
+
+## 2. WhatsApp Business
+Es una aplicación gratuita para negocios que permite:
+- Un **perfil de empresa** con horario, dirección y descripción.
+- Un **catálogo** con productos y precios.
+- **Respuestas rápidas** para preguntas frecuentes («¿Cuál es el menú de hoy?»).
+- **Mensaje de bienvenida** y de ausencia (fuera de horario).
+- **Etiquetas** para organizar a los clientes (nuevo, oficina, pedido pendiente).
+- **Listas de difusión** para enviar avisos a clientes que aceptaron recibirlos.
+
+Para muchos negocios pequeños en México, WhatsApp es el canal principal de pedidos.
+
+## 3. Redes sociales
+Las redes sociales sirven para que el negocio se dé a conocer, muestre su producto y su personalidad, y mantenga el contacto con sus clientes. Cada una tiene su estilo y su público; no hace falta estar en todas. Para un negocio de comida, suelen funcionar bien las redes visuales, con fotos y videos cortos.
+
+Lo que funciona en redes para un negocio local:
+- **Constancia:** publicar con regularidad (por ejemplo, tres veces por semana) es mejor que publicar mucho una semana y nada en un mes.
+- **Fotos y videos reales y de buena calidad:** luz natural, el producto bien presentado, el proceso de preparación.
+- **Contenido útil o interesante,** no solo anuncios: la historia del negocio, cómo se prepara la salsa, el equipo, clientes contentos (con su permiso), novedades.
+- **Interacción:** responder comentarios y mensajes rápido.
+- **Llamado a la acción:** decir qué hacer («pide por WhatsApp», «ven hoy»).
+
+## 4. Anuncios segmentados
+Las plataformas digitales permiten pagar anuncios que se muestran solo a ciertas personas: por ubicación (por ejemplo, a un kilómetro del local), edad, intereses y horario. Para un negocio local, la **segmentación geográfica** es lo más valioso: no tiene sentido pagar para que vea el anuncio alguien que vive en otra ciudad. Se puede empezar con presupuestos pequeños, medir resultados (lección M12-8) y ajustar.
+
+## 5. El sitio web o la página propia
+Una página web sencilla con menú, ubicación, horarios y forma de pedir da seriedad, sobre todo para clientes empresa. No siempre es indispensable para un negocio pequeño, pero ayuda; y si el negocio crece, permite tener pedidos en línea propios sin depender de plataformas de terceros.
+
+## Un plan de contenido sencillo
+| Día | Contenido | Formato |
+|---|---|---|
+| Lunes | Menú de la semana y promoción | Foto |
+| Miércoles | Cómo se prepara algo (la salsa, el pan tostado) | Video corto |
+| Viernes | Cliente o equipo (con permiso) o reseña destacada | Foto con texto |
+| Diario (historias) | Torta del día, tiempo de espera, avisos | Foto rápida |
+
+Media hora al día, con constancia, suele dar mejores resultados que una gran campaña esporádica.
+
+## Cuidado con los datos y la reputación
+- **Pide permiso** antes de enviar mensajes promocionales y respeta a quien no quiera recibirlos.
+- **Cuida los datos personales** de los clientes (lección M14-4).
+- **No compres seguidores falsos:** no compran tortas.
+- **Responde con calma** a las críticas públicas (lección M11-7).
+- **No publiques** información privada de clientes ni fotos sin permiso.
+
+## Lo digital y lo físico se complementan
+El marketing digital no sustituye al letrero, al trato en el mostrador ni a la recomendación de boca en boca: los **amplifica**. Un cliente satisfecho que deja una reseña con foto convierte la experiencia física en una recomendación que verán cientos de personas.
+
+## El plan digital de Tortas Lupita
+- Completan el perfil en mapas con 25 fotos, menú, horarios y WhatsApp; piden reseñas con un letrero en la caja.
+- Activan WhatsApp Business con catálogo, respuestas rápidas y etiquetas para oficinas.
+- Publican tres veces por semana en una red social visual y suben historias diarias.
+- Invierten 1,500 pesos al mes en anuncios dirigidos a personas a 1 kilómetro, entre semana de 7:00 a 13:00.
+- Miden cada mes: búsquedas y visitas al perfil, mensajes recibidos, pedidos por WhatsApp y clientes que dicen «los vi en internet».
+
+En tres meses, el perfil en mapas pasa de 200 a 1,800 vistas al mes y los pedidos por WhatsApp se triplican.`,
+k: `**Marketing digital local:** perfil completo en **mapas** con fotos, horario y **reseñas**; **WhatsApp Business** (catálogo, respuestas rápidas, etiquetas); **redes sociales** con constancia, contenido real y llamado a la acción; **anuncios segmentados por zona**; página web sencilla. Pide permiso, cuida los datos y mide resultados. Lo digital **amplifica** lo físico.`,
+ch: `Un taller mecánico sube a su perfil en mapas fotos de su local limpio y responde cada reseña; pasa a ser el primero que aparece en su colonia cuando alguien busca «taller mecánico».`,
+gi: `Las grandes cadenas combinan aplicaciones propias, comercio electrónico, publicidad digital segmentada y programas de lealtad con datos de millones de clientes para personalizar ofertas.`,
+e: `Toño mide el efecto del plan digital en tres meses:
+
+| Indicador | Mes 0 | Mes 3 |
+|---|---|---|
+| Vistas del perfil en mapas | 200 | 1,800 |
+| Reseñas (calificación) | 18 (4.2) | 96 (4.6) |
+| Mensajes de WhatsApp de clientes nuevos | 20 | 110 |
+| Pedidos por WhatsApp al mes | 150 | 460 |
+| Gasto en anuncios | 0 | 1,500 |
+
+Con 310 pedidos más al mes y un ticket de 85 pesos, las ventas por WhatsApp suben unos 26,350 pesos al mes.`,
+r: `El INEGI publica la Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH). En sus resultados recientes, más de tres cuartas partes de la población de seis años o más en México usaba internet, y el teléfono celular era el dispositivo más usado para conectarse.`,
+f: `INEGI, ENDUTIH (inegi.org.mx); Google, ayuda de Perfil de Negocio; Meta, información de WhatsApp Business.`,
+err: ["Abrir redes y publicar sin constancia.","Tener el perfil en mapas incompleto o con horarios equivocados.","Pagar anuncios sin segmentar por zona.","Enviar mensajes promocionales a quien no los pidió."],
+a: `Revisa la presencia digital del negocio que observas: busca su perfil en mapas, sus redes y su WhatsApp. Haz una lista de lo que falta o está mal, y diseña un plan de contenido de una semana.`,
+sol: `Prioriza el perfil en mapas (horario, fotos, reseñas) y el WhatsApp con catálogo: suelen tener más impacto inmediato que las redes para un negocio local.`,
+q: [["Para un negocio local, una de las acciones digitales más rentables suele ser…",["Tener un perfil completo en mapas con fotos, horario y reseñas","Comprar seguidores","Publicar una vez al año"],0,"Es la nueva «vitrina»."],
+["WhatsApp Business permite…",["Catálogo, respuestas rápidas y etiquetas de clientes","Emitir CFDI","Pagar nómina"],0,"Es gratuito y muy usado por negocios pequeños."],
+["En anuncios digitales para un negocio local conviene…",["Segmentar por ubicación cercana al local","Mostrar el anuncio en todo el mundo","No medir"],0,"Así no se paga por personas que no pueden venir."],
+["En redes sociales funciona mejor…",["La constancia con contenido real y útil","Publicar mucho una semana y nada después","Solo anuncios"],0,"La regularidad construye audiencia."]],
+t: ["Marketing digital","Perfil de negocio en mapas","WhatsApp Business","Anuncios segmentados","Plan de contenido"]
+},
+"M12-7": {
+s: `Una radio local ofrece a Lupita un paquete de anuncios por 12,000 pesos al mes. Una imprenta, 5,000 volantes por 1,500. Una plataforma digital dice que con 2,000 pesos llega a 50,000 personas. Lupita no sabe cuánto gastar ni dónde. ¿Cómo se decide el presupuesto de marketing?`,
+o: ["Conocer métodos para fijar el presupuesto de marketing.","Comparar medios publicitarios según alcance, costo y precisión.","Elegir una combinación de medios para un negocio local."],
+x: `## La publicidad: comunicar pagando
+La **publicidad** es la comunicación pagada para dar a conocer un negocio, un producto o una promoción a muchas personas. Es una parte de la promoción (lección M12-4), junto con la venta personal, las promociones, las relaciones públicas y el marketing digital orgánico (lo que se publica sin pagar). La pregunta que todo dueño se hace es: **¿cuánto gastar y en qué?**
+
+## Una frase famosa
+Al comerciante estadounidense John Wanamaker se le atribuye una frase de finales del siglo XIX: «La mitad del dinero que gasto en publicidad se desperdicia; el problema es que no sé cuál mitad». Aunque no hay certeza de que la haya dicho así, refleja un problema real: la publicidad es difícil de medir. Por eso conviene decidir el presupuesto con un método y medir los resultados (lección M12-8).
+
+## Métodos para fijar el presupuesto
+1. **Porcentaje de las ventas:** se destina un porcentaje fijo de las ventas (actuales o esperadas). Es sencillo y controla el gasto. Muchos negocios pequeños destinan un porcentaje de un solo dígito de sus ventas al marketing, pero varía mucho según el giro, la etapa y la competencia. Su defecto: cuando las ventas bajan, se gasta menos, justo cuando quizá haría falta más.
+2. **Objetivo y tarea:** se define un objetivo («conseguir 300 clientes nuevos en tres meses»), se estiman las acciones necesarias y se calcula cuánto cuestan. Es el método más lógico, porque conecta el gasto con un resultado.
+3. **Paridad con la competencia:** gastar parecido a lo que gastan los competidores. Da una referencia, pero cada negocio tiene objetivos distintos.
+4. **Lo que se pueda:** gastar lo que sobre. Es el método más común en negocios pequeños y el menos recomendable, porque no conecta el gasto con un objetivo.
+
+Lo recomendable es combinar: partir del **objetivo y tarea**, verificar que el monto sea razonable como **porcentaje de las ventas** y ajustar con los resultados.
+
+## Los medios publicitarios
+| Medio | Alcance | Costo | Precisión (llegar al cliente correcto) | Facilidad para medir |
+|---|---|---|---|---|
+| Letrero, fachada, vitrina | Local, permanente | Bajo (inversión inicial) | Alta (quien pasa) | Media |
+| Volantes | Local | Bajo | Media | Baja (salvo con código) |
+| Perifoneo o lonas | Local | Bajo | Baja | Baja |
+| Radio local | Ciudad | Medio-alto | Baja-media | Baja |
+| Periódico o revista local | Ciudad o zona | Medio | Media | Baja |
+| Espectaculares | Ciudad | Alto | Baja | Baja |
+| Anuncios digitales segmentados | De muy local a nacional | Bajo a alto (flexible) | Alta | Alta |
+| Influenciadores locales | Variable | Variable | Media-alta | Media |
+| Patrocinios de eventos locales | Comunidad | Bajo-medio | Media | Baja |
+
+Para un negocio local, los medios con **alta precisión** y **costo bajo** suelen ser los mejores: el propio local, los anuncios digitales segmentados por zona y la presencia en la comunidad.
+
+## Conceptos útiles: alcance y frecuencia
+- **Alcance:** cuántas personas distintas ven el anuncio.
+- **Frecuencia:** cuántas veces, en promedio, lo ve cada persona.
+
+Una persona suele necesitar ver un mensaje varias veces antes de recordarlo y actuar. Por eso, para un negocio pequeño, suele ser mejor **llegar muchas veces a pocas personas cercanas** (alta frecuencia en la zona) que llegar una vez a muchas personas lejanas.
+
+## El mensaje
+Además del medio, importa el mensaje. Un buen anuncio:
+- **Llama la atención** (una buena foto del producto).
+- **Dice un beneficio claro** («Desayuno completo en 3 minutos, 55 pesos»).
+- **Es coherente** con la marca y el posicionamiento.
+- **Tiene un llamado a la acción** («Pide por WhatsApp», «Ven antes de las 10:30»).
+- **Permite medir** (un código, un número de WhatsApp específico, una promoción exclusiva).
+- **Es verdadero:** la publicidad engañosa es ilegal y destruye la confianza.
+
+## El presupuesto de Tortas Lupita
+Con el método de objetivo y tarea, Lupita define: «Conseguir 300 clientes nuevos de desayunos en tres meses».
+
+| Acción | Costo mensual |
+|---|---|
+| Anuncios digitales a 1 km, de 7:00 a 10:00 | 1,500 |
+| Lona en la fachada con el desayuno y el precio (costo prorrateado) | 500 |
+| Degustaciones en 10 oficinas (ingredientes) | 1,200 |
+| Diseño de publicaciones (diseñadora independiente) | 1,000 |
+| Promoción «trae a un compañero» (desayunos a mitad de precio) | 800 |
+| **Total** | **5,000** |
+
+Con ventas totales de unas 350,000 pesos al mes (incluidos los desayunos), el presupuesto equivale a 1.4 % de las ventas: razonable. Descarta la radio (cara y poco precisa para su zona) y los volantes masivos.
+
+## Cuándo invertir más o menos
+- **Más:** al abrir, al lanzar un producto, cuando llega un competidor o cuando la relación entre el costo por cliente y su valor de vida es muy favorable (lección M11-9).
+- **Menos:** cuando la capacidad está llena (no tiene sentido atraer clientes que van a hacer fila y irse) o cuando una acción no está dando resultados.
+
+## La publicidad en las empresas gigantes
+Las grandes empresas de consumo invierten cantidades enormes en publicidad: campañas en televisión, digitales, patrocinios deportivos, espectaculares. Muchas trabajan con agencias de publicidad y de medios, y miden con estudios de recordación y de ventas. Coca-Cola, por ejemplo, ha informado en sus reportes anuales gastos publicitarios de miles de millones de dólares al año. Pero los principios son los mismos: objetivo claro, mensaje coherente, medio adecuado y medición.`,
+k: `**Publicidad:** comunicación pagada. Métodos de presupuesto: **porcentaje de ventas**, **objetivo y tarea** (el más lógico), paridad con la competencia y «lo que se pueda» (el menos recomendable). Elige medios por **alcance, costo, precisión y facilidad para medir**. Mejor **frecuencia alta en la zona** que alcance lejano. Mensaje con beneficio claro, llamado a la acción y forma de medir.`,
+ch: `Una lavandería de colonia patrocina las playeras del equipo de futbol infantil del barrio por 3,000 pesos al año; todos los padres del barrio conocen su nombre.`,
+gi: `Coca-Cola informa en su reporte anual (Form 10-K) sus gastos de publicidad, que en años recientes han sido de varios miles de millones de dólares; es una de las empresas que más invierte en publicidad en el mundo.`,
+e: `Lupita compara el costo por cliente nuevo de dos medios después de un mes:
+
+| Medio | Gasto | Clientes nuevos que llegaron (por código o pregunta) | Costo por cliente |
+|---|---|---|---|
+| Anuncios digitales a 1 km | 1,500 | 60 | 25 |
+| Radio local (prueba de un mes) | 12,000 | 40 | 300 |
+
+Con un valor de vida de unos 2,200 pesos por cliente, ambos medios «se pagan», pero los anuncios digitales son 12 veces más eficientes. Decide no renovar la radio.`,
+r: `La frase sobre «la mitad del dinero que gasto en publicidad» se atribuye con frecuencia a John Wanamaker, fundador de grandes almacenes en Filadelfia en el siglo XIX, aunque los historiadores no han encontrado pruebas definitivas de que la haya dicho. Coca-Cola reporta cada año su gasto en publicidad en su informe anual.`,
+f: `The Coca-Cola Company, informe anual (Form 10-K), nota sobre gastos de publicidad; historia de la frase atribuida a John Wanamaker en textos de marketing.`,
+err: ["Gastar «lo que sobre» sin objetivo.","Elegir un medio por su alcance total y no por su precisión.","Hacer anuncios sin llamado a la acción ni forma de medir.","Seguir pagando un medio que no da resultados."],
+a: `Con el método de objetivo y tarea, arma un presupuesto de marketing de un mes para el negocio que observas: define un objetivo concreto, las acciones, su costo y cómo medirás cada una. Calcula qué porcentaje de las ventas representa.`,
+sol: `Si el presupuesto supera con mucho lo que el negocio puede pagar, reduce las acciones menos precisas primero y conserva las que permiten medir resultados.`,
+q: [["El método de «objetivo y tarea» consiste en…",["Definir un objetivo, las acciones necesarias y su costo","Gastar lo que sobre","Copiar a la competencia"],0,"Conecta el gasto con un resultado."],
+["Para un negocio local, suele ser mejor…",["Llegar muchas veces a pocas personas cercanas","Llegar una vez a millones de personas lejanas","No anunciarse"],0,"La frecuencia en la zona ayuda a recordar."],
+["Un buen anuncio debe incluir…",["Un beneficio claro y un llamado a la acción","Mucho texto","Información falsa"],0,"Y una forma de medir."],
+["¿Cuándo conviene invertir menos en publicidad?",["Cuando la capacidad ya está llena","Al abrir","Al lanzar un producto"],0,"Atraer clientes que harán fila y se irán no ayuda."]],
+t: ["Publicidad","Presupuesto de marketing","Alcance y frecuencia","Llamado a la acción","Medios publicitarios"]
+},
+"M12-8": {
+s: `Después de tres meses de marketing, Lupita pregunta: «¿Funcionó? ¿Qué parte del dinero sirvió?». Toño tiene muchos datos (vistas, «me gusta», mensajes), pero no sabe cuáles importan. Es hora de medir el marketing en serio.`,
+o: ["Distinguir métricas de alcance, interacción y resultado.","Calcular el retorno de la inversión en marketing.","Usar códigos, preguntas y pruebas A/B para saber qué funciona."],
+x: `## Medir para no desperdiciar
+El marketing cuesta dinero, y como todo gasto, debe medirse por lo que produce. Medir permite saber **qué acciones funcionan**, en cuáles **invertir más** y cuáles **dejar**. Hoy, gracias a las herramientas digitales, se puede medir mucho más que antes; el reto es medir **lo que importa**.
+
+## Tres niveles de métricas
+1. **Alcance (exposición):** cuántas personas vieron el mensaje.
+   - Impresiones (veces que se mostró un anuncio).
+   - Alcance (personas distintas).
+   - Vistas del perfil en mapas.
+   - Personas que pasaron frente al letrero.
+2. **Interacción (interés):** cuántas personas reaccionaron.
+   - Clics, «me gusta», comentarios, veces compartido.
+   - Mensajes recibidos.
+   - Solicitudes de cómo llegar o llamadas desde el perfil en mapas.
+   - **Tasa de clics (CTR):** clics ÷ impresiones × 100.
+3. **Resultado (negocio):** cuántas ventas y clientes generó.
+   - Pedidos y ventas atribuidos a la acción.
+   - Clientes nuevos.
+   - **Costo por resultado:** gasto ÷ número de resultados (por ejemplo, costo por pedido o por cliente nuevo).
+   - **Retorno de la inversión.**
+
+Los «me gusta» y las vistas son útiles para saber si el mensaje llega, pero **no pagan la renta**. Las métricas más importantes son las de resultado. Una publicación con pocos «me gusta» que trae 30 pedidos vale más que una con miles de «me gusta» y ningún pedido.
+
+## El retorno de la inversión en marketing
+El **retorno de la inversión** (en inglés, ROI, *return on investment*) compara lo que se ganó con lo que se invirtió:
+
+**ROI = (margen generado − inversión) ÷ inversión × 100**
+
+Es importante usar el **margen** (lo que queda después del costo del producto), no las ventas, porque las ventas incluyen el costo de los ingredientes.
+
+Ejemplo: los anuncios de desayunos costaron 1,500 pesos y generaron 300 desayunos extra en el mes a 55 pesos (16,500 de ventas) con un margen de 65 % (10,725).
+ROI = (10,725 − 1,500) ÷ 1,500 × 100 = **615 %**. Por cada peso invertido, se recuperó el peso y se ganaron 6.15 pesos más.
+
+En publicidad digital también se usa el **ROAS** (retorno sobre el gasto publicitario): ventas generadas ÷ gasto en anuncios. En el ejemplo: 16,500 ÷ 1,500 = 11. Es más fácil de calcular, pero no considera el margen.
+
+## El reto de la atribución
+La **atribución** es saber qué acción provocó cada venta. Es difícil, porque un cliente puede ver un anuncio, pasar frente al letrero, leer una reseña y luego comprar porque un compañero lo invitó. Algunas formas sencillas de atribuir:
+- **Preguntar:** «¿Cómo nos conociste?» en la caja o en el primer mensaje de WhatsApp.
+- **Códigos de promoción distintos** por canal («DESAYUNO1» en anuncios, «DESAYUNO2» en volantes).
+- **Números o enlaces distintos:** un número de WhatsApp en la lona y otro en los anuncios; un enlace con marca para cada publicación.
+- **Comparar antes y después:** ventas de desayunos en las semanas con anuncios contra las semanas sin anuncios (con cuidado de otros factores, como días festivos).
+- **Zonas de prueba:** anunciarse en una zona y no en otra, y comparar.
+
+Ningún método es perfecto, pero combinados dan una buena idea.
+
+## Las pruebas A/B
+Una **prueba A/B** compara dos versiones de algo para ver cuál funciona mejor: dos anuncios con distinta foto, dos textos para un mensaje, dos precios para un combo, dos diseños de menú. Se muestra la versión A a un grupo y la B a otro, en condiciones parecidas, y se mide cuál genera más resultados. Reglas básicas:
+- **Cambiar una sola cosa a la vez** (si cambias la foto y el texto, no sabes cuál hizo la diferencia).
+- **Probar con suficientes personas** para que la diferencia no sea casualidad.
+- **Medir el resultado que importa** (pedidos, no solo clics).
+
+Las empresas digitales hacen miles de pruebas A/B. Un ejemplo conocido es la campaña presidencial de Barack Obama en 2008, cuyo equipo probó distintas imágenes y botones en su página de registro; su responsable de análisis, Dan Siroker, contó después que la combinación ganadora aumentó notablemente la tasa de registro.
+
+## Un tablero de marketing
+| Métrica | Mes 1 | Mes 2 | Mes 3 |
+|---|---|---|---|
+| Alcance de anuncios | 18,000 | 21,000 | 24,000 |
+| Clics o mensajes | 210 | 280 | 330 |
+| Pedidos atribuidos (código o pregunta) | 120 | 190 | 300 |
+| Gasto | 1,500 | 1,500 | 1,500 |
+| Costo por pedido | 12.5 | 7.9 | 5.0 |
+| Margen generado (55 × 65 % por pedido) | 4,290 | 6,793 | 10,725 |
+| ROI | 186 % | 353 % | 615 % |
+
+La tendencia muestra que los anuncios funcionan cada vez mejor (el público ya conoce la marca y las publicaciones mejoraron).
+
+## Errores comunes al medir
+- **Medir vanidad:** seguidores y «me gusta» sin relación con ventas.
+- **No tener forma de atribuir:** gastar sin códigos, preguntas ni comparaciones.
+- **Calcular el ROI con ventas en lugar de margen.**
+- **Sacar conclusiones con pocos datos** (dos días buenos no prueban nada).
+- **No considerar el valor de vida:** un cliente nuevo que regresa muchas veces vale mucho más que su primer pedido (lección M11-8).
+- **Medir y no actuar.**
+
+## Cierre del módulo
+El marketing de Tortas Lupita pasó de «tener redes» a un sistema: entender al cliente con investigación barata, elegir a quién atender, posicionarse con una idea clara, diseñar una mezcla coherente, cuidar la marca, usar las herramientas digitales con constancia, fijar el presupuesto con objetivos y medir lo que importa. Con eso, cada peso de marketing tiene una razón de ser y un resultado que se puede ver.`,
+k: `Métricas de **alcance** (impresiones, vistas), **interacción** (clics, mensajes, **CTR**) y **resultado** (pedidos, clientes, **costo por resultado**). **ROI = (margen − inversión) ÷ inversión**; **ROAS** = ventas ÷ gasto publicitario. **Atribución** con preguntas, códigos, números distintos y comparaciones. **Pruebas A/B:** cambia una sola cosa y mide el resultado que importa.`,
+ch: `Una pizzería pone un código distinto en sus volantes de cada colonia; descubre que una colonia genera el triple de pedidos y concentra ahí sus volantes.`,
+gi: `Las empresas de comercio electrónico hacen constantemente pruebas A/B en sus sitios y aplicaciones (colores de botones, fotos, textos, procesos de pago) y miden cuál versión genera más ventas.`,
+e: `Toño calcula el ROI de las degustaciones en oficinas:
+
+| Concepto | Cálculo | Resultado |
+|---|---|---|
+| Costo (ingredientes y tiempo) | — | 1,200 + 800 = 2,000 |
+| Oficinas que firmaron pedido | — | 3 |
+| Margen mensual por oficina | 6,000 × 60 % | 3,600 |
+| Margen del primer mes (3 oficinas) | 3 × 3,600 | 10,800 |
+| ROI del primer mes | (10,800 − 2,000) ÷ 2,000 | 440 % |
+
+Y si las oficinas se quedan 18 meses, el margen total es de 194,400 pesos. Las degustaciones son, con mucho, la mejor inversión de marketing del negocio.`,
+r: `Dan Siroker, quien dirigió el área de análisis digital de la campaña de Barack Obama en 2008, describió cómo el equipo probó varias combinaciones de imágenes y botones en la página de registro de la campaña, y cómo la versión ganadora aumentó de forma importante el número de personas que se registraban.`,
+f: `Dan Siroker, «How Obama Raised $60 Million by Running a Simple Experiment» (Optimizely, 2010).`,
+err: ["Medir solo «me gusta» y seguidores.","Calcular el ROI con ventas en lugar de margen.","Cambiar varias cosas a la vez en una prueba A/B.","Concluir con muy pocos datos."],
+a: `Elige una acción de marketing del negocio que observas (o diseña una). Define cómo vas a atribuir sus resultados (código, pregunta o número distinto), qué métricas de los tres niveles medirás y cómo calcularás el ROI. Diseña una prueba A/B sencilla para mejorarla.`,
+sol: `Si no hay forma de saber cuántas ventas trajo la acción, todavía no está lista para lanzarse: agrega un código o una pregunta.`,
+q: [["¿Qué métrica es de resultado?",["Pedidos generados por la acción","Número de «me gusta»","Impresiones"],0,"Las de resultado se relacionan con ventas y clientes."],
+["El ROI de marketing se calcula como…",["(Margen generado − inversión) ÷ inversión","Ventas ÷ clientes","Clics ÷ impresiones"],0,"Usa el margen, no las ventas."],
+["En una prueba A/B conviene…",["Cambiar una sola cosa a la vez","Cambiar todo","No medir"],0,"Así se sabe qué hizo la diferencia."],
+["Una forma sencilla de atribuir ventas a un canal es…",["Usar un código de promoción distinto por canal","Adivinar","Contar seguidores"],0,"También preguntar «¿cómo nos conociste?»."]],
+t: ["Retorno de la inversión (ROI)","ROAS","Atribución","Prueba A/B","Tasa de clics (CTR)","Métricas de vanidad"]
+}
+});
+// ===== M13. Recursos humanos =====
+Object.assign(window.LECC, {
+"M13-1": {
+s: `En un año, Tortas Lupita contrató a 14 personas y se le fueron 10. Lupita pasa horas buscando reemplazos, enseñando lo mismo una y otra vez y resolviendo pleitos entre empleados. Toño le dice: «Necesitamos ocuparnos de las personas tanto como de las tortas».`,
+o: ["Describir qué hace el área de recursos humanos.","Conocer el ciclo de vida del empleado.","Reconocer cómo cambia la función de RH según el tamaño del negocio."],
+x: `## Las personas hacen el negocio
+Un negocio puede tener el mejor producto, el mejor local y los mejores proveedores, pero si no tiene a las personas adecuadas, bien preparadas y motivadas, no funciona. El área de **recursos humanos** (RH, también llamada gestión de personas, capital humano o talento) se encarga de **atraer, contratar, desarrollar, motivar, pagar y conservar** a las personas que trabajan en el negocio, y de cumplir con las obligaciones laborales.
+
+## El ciclo de vida del empleado
+La forma más clara de entender RH es seguir el camino de una persona en el negocio:
+
+| Etapa | Qué incluye | Lección |
+|---|---|---|
+| 1. Planear | Cuántas personas se necesitan, en qué puestos y cuándo | M13-1 |
+| 2. Reclutar | Atraer candidatos | M13-2 |
+| 3. Seleccionar | Elegir al mejor candidato | M13-2 |
+| 4. Contratar | Contrato, alta en la seguridad social, prestaciones | M13-3 |
+| 5. Integrar (inducción) | Bienvenida y primeros días | M13-4 |
+| 6. Capacitar y desarrollar | Aprender y crecer | M13-4 |
+| 7. Pagar | Sueldo, prestaciones, nómina | M13-5 |
+| 8. Evaluar y motivar | Retroalimentación, reconocimiento | M13-6 |
+| 9. Conservar | Clima, cultura, oportunidades | M13-7 |
+| 10. Salida | Renuncia, despido, jubilación | M13-8 |
+
+En cada etapa, el negocio puede hacerlo bien o mal, y cada error tiene un costo: contratar a la persona equivocada, perder a un buen empleado, tener una demanda laboral.
+
+## Planear: cuántas personas y cuándo
+Antes de contratar, conviene preguntarse:
+- **¿Qué trabajo hay que hacer?** (con base en las ventas esperadas y en los procesos, Módulo 9).
+- **¿Cuántas horas de trabajo hacen falta y cuándo?** (horas pico, días fuertes, temporadas).
+- **¿Qué puestos y perfiles?** (descripciones de puesto, lección M6-8).
+- **¿Tiempo completo, medio tiempo o por temporada?**
+- **¿Cuánto cuesta cada persona y lo paga el negocio?** (lección M13-5).
+
+Una herramienta sencilla es una tabla de horas por día y por puesto: cuántas personas se necesitan en cada hora del día. En Tortas Lupita, la hora de 13:00 a 14:30 necesita cuatro cocineros; de 16:00 a 18:00, solo uno. Planear así evita tener gente de más en horas flojas o de menos en horas pico.
+
+## RH según el tamaño del negocio
+- **Changarro:** el dueño contrata a familiares o conocidos, enseña de palabra y paga en efectivo. No hay «área» de RH.
+- **Microempresa y pyme:** el dueño o una administradora se ocupa de RH con apoyo del contador (nómina) y, a veces, de un abogado laboral. Empiezan a escribirse descripciones de puesto, contratos y reglas.
+- **Empresa mediana:** hay un jefe o gerente de RH que lleva reclutamiento, nómina, capacitación y relaciones laborales.
+- **Gran empresa:** una dirección de personas con áreas especializadas: atracción de talento, compensaciones, capacitación y desarrollo, relaciones laborales (incluida la relación con sindicatos), bienestar, cultura, sistemas de RH y análisis de datos de personas.
+
+## RH como socio del negocio
+Durante mucho tiempo, RH se vio solo como un área administrativa: hacer la nómina y archivar contratos. En 1997, el profesor Dave Ulrich propuso que RH debe ser también un **socio estratégico**: ayudar al negocio a lograr sus objetivos a través de las personas (tener el talento que la estrategia necesita, construir la cultura adecuada, preparar a los futuros líderes). Para un negocio pequeño, esto significa algo muy concreto: si la estrategia de Tortas Lupita es la **rapidez**, RH debe contratar personas ágiles, capacitarlas en el proceso rápido y premiar el cumplimiento del tiempo.
+
+## El marco legal
+En México, la relación de trabajo está regulada principalmente por la **Ley Federal del Trabajo** (LFT), que establece derechos de los trabajadores y obligaciones de los patrones: contrato, salario mínimo, jornada, descanso, vacaciones, aguinaldo, seguridad social, capacitación, reparto de utilidades, seguridad e higiene, y reglas para la terminación de la relación. También participan el IMSS, el Infonavit, el SAT (por la retención de impuestos) y, en caso de conflictos, los centros de conciliación y los tribunales laborales. Este curso explica estos temas de forma educativa; las reglas cambian y cada caso conviene revisarlo con un especialista.
+
+## El costo de no cuidar a las personas
+El caso de Tortas Lupita (14 contrataciones y 10 salidas en un año) tiene costos muy concretos:
+- **Tiempo del dueño** buscando, entrevistando y enseñando.
+- **Errores y lentitud** de las personas nuevas mientras aprenden.
+- **Clientes afectados** por el mal servicio.
+- **Cansancio y molestia** del equipo que se queda y tiene que cubrir.
+- **Riesgos legales** si las salidas no se manejan bien.
+
+En la lección M13-7 verás cómo calcular el costo de la rotación. Por ahora basta con saber que cuidar a las personas no es un lujo: es una decisión de negocio.
+
+## El plan de Lupita
+Lupita decide dedicar dos horas a la semana a RH, con apoyo de la administradora: planear las horas por puesto, escribir las descripciones de puesto que faltan, ordenar los contratos y el alta en el IMSS, crear un proceso de bienvenida y hacer una conversación individual al mes con cada empleado. En las siguientes lecciones construirá cada pieza.`,
+k: `**Recursos humanos:** atraer, contratar, desarrollar, motivar, pagar y conservar a las personas, y cumplir con las obligaciones laborales. **Ciclo de vida del empleado:** planear → reclutar → seleccionar → contratar → integrar → capacitar → pagar → evaluar → conservar → salida. RH como **socio estratégico** (Dave Ulrich, 1997). Marco legal en México: **Ley Federal del Trabajo**.`,
+ch: `En una panadería familiar, la dueña se ocupa de RH: busca panaderos por recomendación, les enseña durante dos semanas, los da de alta en el IMSS con ayuda del contador y les paga cada sábado.`,
+gi: `Las grandes empresas tienen direcciones de personas con miles de colaboradores a su cargo, sistemas de gestión del talento, programas de liderazgo y áreas de relaciones laborales que negocian con sindicatos.`,
+e: `Toño arma la tabla de horas por puesto de un día entre semana en el local:
+
+| Horario | Cocineros necesarios | Caja | Reparto |
+|---|---|---|---|
+| 7:00–11:00 (desayunos) | 2 | 1 | 0 |
+| 11:00–13:00 | 2 | 1 | 1 |
+| 13:00–14:30 (pico) | 4 | 2 | 1 |
+| 14:30–16:00 | 2 | 1 | 1 |
+| 16:00–18:00 | 1 | 1 | 0 |
+
+Con la tabla, deciden contratar a dos cocineros de medio tiempo (11:00 a 15:00) en lugar de un cocinero más de tiempo completo, y cubren el pico sin pagar horas ociosas.`,
+r: `Dave Ulrich propuso en «Human Resource Champions» (1997) que el área de recursos humanos cumpla cuatro papeles: socio estratégico, experto administrativo, defensor de los empleados y agente de cambio. Su modelo influyó en la organización de RH en muchas empresas grandes.`,
+f: `Dave Ulrich, «Human Resource Champions» (1997); Ley Federal del Trabajo (México).`,
+err: ["Ver RH solo como «hacer la nómina».","Contratar sin planear cuántas personas y en qué horarios se necesitan.","Ignorar las obligaciones laborales.","Creer que la rotación es «normal» y no tiene costo."],
+a: `Haz la tabla de horas por puesto de un día típico del negocio que observas. Compárala con el personal que realmente trabaja en cada hora y propón un ajuste.`,
+sol: `Si en horas flojas sobra personal y en horas pico falta, considera turnos escalonados o medio tiempo para cubrir el pico.`,
+q: [["El área de recursos humanos se encarga de…",["Atraer, contratar, desarrollar, pagar y conservar a las personas","Comprar insumos","Fijar precios"],0,"Y cumplir las obligaciones laborales."],
+["¿Cuál es el orden correcto de las primeras etapas del ciclo del empleado?",["Planear, reclutar, seleccionar, contratar","Contratar, planear, despedir","Pagar, reclutar, planear"],0,"Primero se planea qué se necesita."],
+["¿Qué propuso Dave Ulrich?",["Que RH sea también un socio estratégico del negocio","Que no haya RH","Que RH solo haga nómina"],0,"Ayudar al negocio a lograr sus objetivos a través de las personas."],
+["En México, la relación de trabajo se regula principalmente por…",["La Ley Federal del Trabajo","La Ley del IVA","El Código de Comercio solamente"],0,"Junto con las leyes de seguridad social."]],
+t: ["Recursos humanos","Ciclo de vida del empleado","Ley Federal del Trabajo","Planeación de personal"]
+},
+"M13-2": {
+s: `Lupita contrata a un cocinero porque «le cayó bien» en la entrevista. A las dos semanas descubre que no sabe trabajar bajo presión y que llega tarde. Toño propone otra forma: definir qué se busca, preguntar lo mismo a todos y pedir una prueba práctica.`,
+o: ["Diseñar el perfil y la vacante de un puesto.","Elegir fuentes de reclutamiento.","Realizar una selección con entrevista estructurada y prueba práctica."],
+x: `## Reclutar y seleccionar: dos pasos distintos
+- **Reclutar** es **atraer** candidatos interesados y adecuados para un puesto.
+- **Seleccionar** es **elegir**, entre los candidatos, a la persona que mejor encaja.
+
+Ambos pasos empiezan con la misma pregunta: **¿qué buscamos exactamente?**
+
+## 1. El perfil del puesto
+El perfil sale de la descripción de puesto (lección M6-8) y define:
+- **Funciones principales** del puesto.
+- **Conocimientos y experiencia** necesarios (por ejemplo, seis meses en cocina).
+- **Habilidades** (rapidez, trabajo bajo presión, atención al detalle, trato con clientes).
+- **Actitudes y valores** que encajan con la cultura (puntualidad, trabajo en equipo, honestidad).
+- **Condiciones:** horario, sueldo, prestaciones, ubicación.
+
+Conviene separar lo **indispensable** (sin esto, no) de lo **deseable** (suma, pero no es obligatorio).
+
+## 2. La vacante
+El anuncio de la vacante debe ser claro y honesto:
+- Nombre del puesto.
+- Qué hará la persona (en pocas líneas).
+- Requisitos indispensables.
+- Horario, sueldo (o rango) y prestaciones.
+- Cómo postularse.
+- Algo atractivo del negocio (buen ambiente, capacitación, crecimiento).
+
+Ser claro sobre el sueldo y el horario ahorra tiempo a todos: evita entrevistar a personas que no aceptarían las condiciones. Y la vacante no debe discriminar (por edad, sexo, apariencia, estado civil, religión u otros motivos); en México, la ley prohíbe la discriminación en el empleo.
+
+## 3. Las fuentes de reclutamiento
+| Fuente | Ventaja | Desventaja |
+|---|---|---|
+| Recomendaciones de empleados | Candidatos confiables, que conocen el negocio | Puede limitar la diversidad; conflictos si no funciona |
+| Letrero en el local | Barato, gente de la zona | Alcance limitado |
+| Bolsas de trabajo en línea | Muchos candidatos | Muchos no cumplen el perfil |
+| Redes sociales y grupos locales | Barato, rápido | Variable |
+| Escuelas técnicas y universidades | Jóvenes con formación | Poca experiencia |
+| Servicio Nacional de Empleo | Gratuito, apoyo del gobierno | Variable según la zona |
+| Promoción interna | Motiva, conoce la cultura | Hay que cubrir el puesto que deja |
+
+## 4. La selección
+Un proceso sencillo y eficaz para un negocio pequeño:
+1. **Filtro inicial:** revisar solicitudes o hacer una llamada breve para confirmar requisitos indispensables, horario y sueldo.
+2. **Entrevista estructurada:** las mismas preguntas para todos, preparadas antes.
+3. **Prueba práctica:** que la persona haga una parte real del trabajo.
+4. **Referencias:** llamar a uno o dos empleadores anteriores.
+5. **Decisión** con base en los criterios definidos.
+
+## La entrevista estructurada
+Las investigaciones sobre selección de personal han encontrado que las **entrevistas estructuradas** (preguntas iguales para todos, con criterios para calificar las respuestas) predicen mejor el desempeño que las entrevistas libres, en las que el entrevistador «platica» y decide por la impresión. Google, por ejemplo, después de analizar sus procesos, adoptó entrevistas estructuradas, como contó Laszlo Bock, su director de personas, en el libro «La nueva fórmula del trabajo» (2015).
+
+Tipos de preguntas útiles:
+- **De comportamiento pasado:** «Cuéntame de una vez que tuviste que atender a muchos clientes al mismo tiempo. ¿Qué hiciste?». Lo que alguien hizo antes predice lo que hará.
+- **De situación:** «Si llega un cliente molesto porque su torta está fría, ¿qué haces?».
+- **Sobre el puesto:** horario, transporte, disponibilidad real.
+
+Califica cada respuesta con una escala sencilla (1 a 5) y compara candidatos con la misma tabla.
+
+## La prueba práctica
+Para muchos puestos operativos, la mejor prueba es **ver a la persona trabajar**: preparar tres tortas con la receta, atender un cobro simulado, armar un pedido. Una prueba de 30 a 60 minutos dice más que muchas preguntas. (Si la prueba dura más tiempo o se vuelve trabajo real, debe pagarse).
+
+## Los sesgos al seleccionar
+Algunos errores comunes:
+- **Primera impresión:** decidir en los primeros minutos.
+- **Afinidad:** preferir a quien se parece a uno.
+- **Efecto halo:** que una cualidad (es simpático) haga ignorar otras (no tiene experiencia).
+- **Contratar por urgencia** al primero que llega.
+- **Discriminar** por características que no tienen que ver con el trabajo.
+
+La entrevista estructurada, la prueba práctica y la comparación con criterios ayudan a reducirlos.
+
+## El nuevo proceso de Tortas Lupita
+| Etapa | Qué hacen |
+|---|---|
+| Perfil | Cocinero: indispensable 6 meses en cocina, disponibilidad de 7:00 a 15:00; deseable curso de manejo higiénico |
+| Vacante | Letrero en el local y publicación en grupos de empleo de la zona, con sueldo y horario |
+| Filtro | Llamada de 5 minutos |
+| Entrevista estructurada | 6 preguntas iguales, calificadas de 1 a 5 |
+| Prueba práctica | Preparar 3 tortas en hora pico simulada (40 minutos) |
+| Referencias | Una llamada al empleo anterior |
+| Decisión | La persona con mejor puntaje total |
+
+Con este proceso, de las siguientes cinco contrataciones, cuatro siguen en el negocio seis meses después.
+
+## La decisión y el aviso a los candidatos
+Al terminar, conviene avisar a todos los candidatos el resultado, también a los que no fueron elegidos. Es una cortesía que habla bien del negocio y deja la puerta abierta: el segundo lugar de hoy puede ser la siguiente contratación. Además, conviene guardar las tablas de selección: si dentro de unos meses la persona elegida no funciona, servirán para revisar qué falló en el proceso (¿el perfil estaba mal definido?, ¿la prueba práctica no reflejaba el trabajo real?) y mejorarlo para la siguiente vez.`,
+k: `**Reclutar** = atraer candidatos; **seleccionar** = elegir al mejor. Parte de un **perfil** (indispensable y deseable) y una **vacante** clara y sin discriminación. Selección: filtro, **entrevista estructurada** (mismas preguntas, con criterios), **prueba práctica**, referencias y decisión. Cuida los **sesgos**: primera impresión, afinidad, efecto halo, urgencia.`,
+ch: `Una estética pide a cada candidata hacer un corte a una clienta voluntaria y pregunta a todas lo mismo sobre cómo atienden a una clienta inconforme; elige con una tabla de puntajes.`,
+gi: `Google analizó sus procesos de contratación y concluyó que las entrevistas estructuradas y las pruebas de trabajo predicen mejor el desempeño que las preguntas de ingenio que usaba antes, según contó Laszlo Bock.`,
+e: `Toño compara a tres candidatos con la tabla de selección (1 a 5):
+
+| Criterio | Peso | Candidato A | Candidato B | Candidato C |
+|---|---|---|---|---|
+| Experiencia en cocina | 25 % | 4 | 3 | 5 |
+| Rapidez en la prueba | 30 % | 3 | 5 | 4 |
+| Respuestas sobre clientes | 20 % | 4 | 4 | 3 |
+| Disponibilidad de horario | 15 % | 5 | 5 | 2 |
+| Referencias | 10 % | 3 | 4 | 4 |
+| **Puntaje** | | **3.75** | **4.20** | **3.75** |
+
+Aunque C tiene más experiencia, B gana (4.20 frente a 3.75 de A y C) por su rapidez y su disponibilidad, que son críticas para el puesto.`,
+r: `Laszlo Bock, quien fue director de personas de Google, describió en «Work Rules!» (2015; en español, «La nueva fórmula del trabajo») cómo la empresa usó datos para mejorar su selección, privilegiando las entrevistas estructuradas y las evaluaciones del trabajo real.`,
+f: `Laszlo Bock, «Work Rules!» (2015); Ley Federal para Prevenir y Eliminar la Discriminación (México).`,
+err: ["Contratar por simpatía o por urgencia.","Hacer preguntas distintas a cada candidato.","No ver trabajar a la persona antes de contratarla.","Publicar vacantes con requisitos discriminatorios."],
+a: `Diseña el proceso de selección para un puesto del negocio que observas: perfil (indispensable y deseable), texto de la vacante, seis preguntas de entrevista estructurada y una prueba práctica. Prepara la tabla para calificar.`,
+sol: `Revisa que al menos la mitad de tus preguntas sean de comportamiento pasado («cuéntame de una vez que…») y que la prueba práctica refleje una tarea real del puesto.`,
+q: [["Reclutar significa…",["Atraer candidatos","Despedir","Pagar la nómina"],0,"Seleccionar es elegir entre ellos."],
+["Una entrevista estructurada consiste en…",["Hacer las mismas preguntas a todos, con criterios para calificar","Platicar libremente","Preguntar lo que se ocurra"],0,"Predice mejor el desempeño."],
+["«Cuéntame de una vez que atendiste a muchos clientes a la vez» es una pregunta de…",["Comportamiento pasado","Situación hipotética","Salario"],0,"Lo que alguien hizo antes predice lo que hará."],
+["El efecto halo es…",["Que una cualidad haga ignorar otras","Contratar a un familiar","Un tipo de contrato"],0,"Es un sesgo de selección."]],
+t: ["Reclutamiento","Selección de personal","Entrevista estructurada","Prueba práctica","Sesgo de selección","Vacante"]
+},
+"M13-3": {
+s: `El nuevo cocinero empieza el lunes. Lupita pregunta al contador: «¿Basta con que le pague cada semana?». El contador responde: «No. Necesita contrato por escrito, alta en el IMSS desde el primer día y todas las prestaciones de ley». Lupita toma nota.`,
+o: ["Conocer los elementos básicos de un contrato de trabajo en México.","Identificar las prestaciones mínimas de ley.","Cumplir con el alta en la seguridad social y la nómina."],
+x: `## La relación de trabajo
+En México, cuando una persona trabaja para otra de forma subordinada (sigue sus instrucciones, en un horario, a cambio de un salario), existe una **relación de trabajo**, aunque no haya contrato firmado. La **Ley Federal del Trabajo** (LFT) protege al trabajador en esa relación y le da derechos mínimos que no se pueden renunciar. Esta lección resume los principales de forma educativa; los montos, plazos y reglas cambian (por ejemplo, el salario mínimo cada año, y reformas como la de vacaciones de 2023), así que siempre hay que revisar la norma vigente y asesorarse con un contador o abogado laboral.
+
+## El contrato individual de trabajo
+La ley pide que las condiciones de trabajo consten **por escrito**. El contrato debe incluir, entre otros:
+- Datos del trabajador y del patrón.
+- Si la relación es por **tiempo indeterminado** (la regla general), por **tiempo determinado** o por **obra determinada** (solo cuando la naturaleza del trabajo lo justifica), o de **temporada**.
+- El **puesto** y las funciones.
+- El **lugar** de trabajo.
+- La **jornada** y el horario.
+- El **salario**, la forma y el día de pago.
+- La **capacitación** que recibirá.
+- Los **días de descanso** y las vacaciones.
+- Otras condiciones acordadas.
+
+La ley permite un **periodo de prueba** (en los contratos por tiempo indeterminado, en general de hasta 30 días, con más tiempo para ciertos puestos de dirección o técnicos) y un **periodo de capacitación inicial**, siempre por escrito y con todas las prestaciones.
+
+## Las prestaciones mínimas de ley
+| Prestación | Idea general |
+|---|---|
+| Salario mínimo | No se puede pagar menos del salario mínimo vigente que fija la CONASAMI cada año (hay uno general y otro para la zona libre de la frontera norte) |
+| Jornada y descanso | Jornada máxima legal y al menos un día de descanso por cada seis de trabajo; tiempo extra pagado con recargo |
+| Aguinaldo | Al menos 15 días de salario al año, pagados antes del 20 de diciembre (proporcional si no se trabajó el año completo) |
+| Vacaciones | Desde la reforma de 2023, al menos 12 días en el primer año, aumentando con la antigüedad |
+| Prima vacacional | Al menos 25 % del salario de los días de vacaciones |
+| Días de descanso obligatorio | Ciertos días festivos establecidos por la ley; si se trabajan, se pagan con recargo |
+| Seguridad social | Inscripción en el IMSS desde el primer día, con aportaciones del patrón y del trabajador |
+| Vivienda | Aportación al Infonavit (5 % del salario base de cotización, pagada por el patrón) |
+| Retiro | Aportaciones al Sistema de Ahorro para el Retiro (SAR) en la cuenta del trabajador |
+| Reparto de utilidades (PTU) | Participación de los trabajadores en las utilidades de la empresa, según las reglas de la ley |
+| Capacitación | Derecho a recibir capacitación para su trabajo |
+
+Además, el patrón **retiene** al trabajador el ISR que corresponda a su salario y lo entrega al SAT, y emite un **recibo de nómina electrónico** (CFDI de nómina, lección M8-10).
+
+## El alta en el IMSS desde el primer día
+Inscribir al trabajador en el **IMSS** desde el primer día es una obligación y una protección para ambos:
+- El trabajador tiene servicio médico, incapacidades pagadas, guardería para sus hijos, pensión y otros beneficios.
+- El patrón queda protegido: si el trabajador sufre un accidente de trabajo y está inscrito, el IMSS atiende y paga; si no está inscrito, el patrón puede tener que pagar todo, además de multas y cuotas atrasadas.
+
+Para inscribir trabajadores, el negocio necesita primero su **registro patronal** (lección M3-8).
+
+## La subcontratación
+Desde la reforma de 2021, en México está **prohibida la subcontratación de personal** (que una empresa ponga a sus trabajadores a trabajar para otra en las actividades principales de esta). Solo se permite la subcontratación de **servicios u obras especializados** que no formen parte de la actividad principal del cliente, y las empresas que los prestan deben estar registradas ante la Secretaría del Trabajo (en el registro conocido como REPSE). Para un negocio como Tortas Lupita, esto significa que sus cocineros, cajeros y repartidores deben ser sus propios trabajadores, no personal «prestado» por otra empresa.
+
+## Trabajadores por honorarios: cuidado
+Algunos negocios intentan evitar las prestaciones contratando a personas «por honorarios» (como si fueran independientes) aunque en realidad trabajan con horario, bajo instrucciones y de forma permanente. Si existe subordinación, la ley puede considerar que hay una relación de trabajo, con todos sus derechos. Los honorarios son para servicios profesionales independientes, como el contador externo o la diseñadora que trabaja por proyecto.
+
+## El expediente del trabajador
+Para cada persona conviene tener un expediente con:
+- Contrato firmado.
+- Identificación, CURP, RFC, número de seguridad social, comprobante de domicilio.
+- Constancia de alta en el IMSS.
+- Descripción de puesto.
+- Registros de capacitación.
+- Recibos de nómina.
+- Registros de vacaciones y faltas.
+- Evaluaciones.
+
+Además de ordenar el trabajo, el expediente es la mejor defensa ante un conflicto laboral.
+
+## Los primeros días del cocinero
+Para el nuevo cocinero, Lupita y la administradora preparan:
+- Contrato por tiempo indeterminado con periodo de prueba de 30 días, por escrito.
+- Alta en el IMSS el mismo lunes.
+- Sueldo por encima del mínimo vigente, pagado por transferencia cada semana con su recibo electrónico.
+- Expediente completo.
+- Explicación clara de sus prestaciones: aguinaldo, vacaciones, prima vacacional, días festivos.
+
+El cocinero comenta que es la primera vez que un trabajo le explica sus derechos el primer día. Esa confianza también es parte de la cultura.`,
+k: `Hay **relación de trabajo** cuando alguien trabaja subordinado a cambio de salario, aunque no haya contrato. Contrato **por escrito** (tiempo indeterminado como regla; periodo de prueba limitado). **Prestaciones mínimas:** salario mínimo vigente, jornada y descanso, **aguinaldo** (al menos 15 días), **vacaciones** (al menos 12 días el primer año desde 2023) y **prima vacacional** (25 %), días festivos, **IMSS desde el primer día**, Infonavit, SAR, PTU y capacitación. Subcontratación de personal **prohibida** desde 2021.`,
+ch: `Una tortillería con tres trabajadores los inscribe en el IMSS desde el primer día; cuando uno se lastima la mano, el IMSS lo atiende y le paga la incapacidad, sin que la dueña tenga que cubrir el hospital.`,
+gi: `Las grandes empresas tienen áreas de nómina y relaciones laborales que administran miles de contratos, calculan prestaciones, pagan cuotas de seguridad social y, cuando hay sindicato, negocian contratos colectivos de trabajo.`,
+e: `La administradora calcula las prestaciones anuales mínimas del cocinero (sueldo diario de 400 pesos, primer año):
+
+| Prestación | Cálculo | Pesos |
+|---|---|---|
+| Aguinaldo (15 días) | 15 × 400 | 6,000 |
+| Vacaciones (12 días, ya incluidas en el sueldo anual) | 12 × 400 | 4,800 |
+| Prima vacacional (25 % de las vacaciones) | 4,800 × 25 % | 1,200 |
+
+Además del sueldo de todo el año, el negocio debe prever el aguinaldo y la prima vacacional, más las cuotas de seguridad social (lección M13-5). Son datos ilustrativos: el contador calcula los montos exactos.`,
+r: `En abril de 2021 se publicó en México la reforma en materia de subcontratación laboral, que prohibió la subcontratación de personal y estableció un registro (REPSE) para las empresas que prestan servicios especializados. Al año siguiente, en 2023, entró en vigor la reforma que aumentó las vacaciones mínimas a 12 días desde el primer año de trabajo.`,
+f: `Diario Oficial de la Federación, reforma en materia de subcontratación (23 de abril de 2021) y reforma a los artículos 76 y 78 de la LFT sobre vacaciones (27 de diciembre de 2022); CONASAMI, salarios mínimos vigentes.`,
+err: ["No dar de alta al trabajador en el IMSS desde el primer día.","No tener contrato por escrito.","Contratar «por honorarios» a quien trabaja con horario y bajo instrucciones.","Olvidar prever el aguinaldo y la prima vacacional."],
+a: `Arma la lista de verificación de contratación para un nuevo empleado del negocio que observas: documentos, contrato, alta en el IMSS, expediente y explicación de prestaciones. Consulta en el sitio de la CONASAMI el salario mínimo vigente.`,
+sol: `Revisa que la lista incluya el registro patronal (si no existe), el alta en el IMSS el primer día y la entrega de una copia del contrato al trabajador.`,
+q: [["¿Cuándo debe darse de alta a un trabajador en el IMSS?",["Desde el primer día de trabajo","Después de tres meses","Solo si lo pide"],0,"Es una obligación y una protección."],
+["El aguinaldo mínimo en México es de…",["15 días de salario","5 días","Un mes siempre"],0,"Pagado antes del 20 de diciembre."],
+["Desde la reforma de 2023, las vacaciones mínimas del primer año son de…",["12 días","6 días","30 días"],0,"Y aumentan con la antigüedad."],
+["Desde 2021, en México la subcontratación de personal…",["Está prohibida, salvo servicios especializados registrados","Es obligatoria","No tiene reglas"],0,"Las empresas de servicios especializados deben estar en el REPSE."]],
+t: ["Contrato individual de trabajo","Prestaciones de ley","Aguinaldo","Vacaciones","Prima vacacional","IMSS","Infonavit","PTU (reparto de utilidades)","Subcontratación"]
+},
+"M13-4": {
+s: `El primer día, la nueva cajera llega y nadie la esperaba. Le dan un mandil y le dicen «aprende viendo». A la semana renuncia. Lupita se pregunta cuánto talento ha perdido así y decide preparar un buen primer día.`,
+o: ["Diseñar un proceso de inducción para nuevos empleados.","Planear la capacitación inicial y continua.","Medir si la capacitación funciona."],
+x: `## Los primeros días importan mucho
+Los primeros días y semanas de una persona en un trabajo son decisivos: en ese tiempo decide si se queda, aprende cómo se hacen las cosas y se forma una idea de la cultura del negocio. Muchas renuncias ocurren en los primeros meses, a menudo porque la persona no se sintió bienvenida, no entendió qué se esperaba de ella o no recibió la capacitación necesaria.
+
+## La inducción
+La **inducción** (o integración, en inglés *onboarding*) es el proceso de recibir a una persona nueva y ayudarle a integrarse al negocio. Tiene tres objetivos:
+1. **Que se sienta bienvenida.**
+2. **Que entienda el negocio:** su historia, su propósito, sus valores, su forma de trabajar.
+3. **Que sepa qué hacer:** su puesto, sus tareas, sus reglas, a quién preguntar.
+
+## Un buen primer día
+Lista de lo que debe pasar el primer día:
+- **Alguien la espera** y la presenta con el equipo.
+- **Recibe su uniforme**, su lugar para guardar sus cosas y lo necesario para trabajar.
+- **Conoce el local:** dónde está cada cosa, las salidas de emergencia, el botiquín.
+- **Conoce la historia y los valores** del negocio (en 10 minutos, con entusiasmo).
+- **Recibe su descripción de puesto** y sus horarios.
+- **Conoce las reglas básicas:** puntualidad, uso del celular, higiene, cómo pedir permiso, a quién avisar si falta.
+- **Firma su contrato** y entrega sus documentos (lección M13-3).
+- **Tiene un «padrino» o «madrina»:** un compañero con experiencia que la acompaña las primeras semanas.
+- **Hace algo real**, aunque sea pequeño, para que se sienta útil.
+- **Al final del día,** alguien le pregunta cómo le fue.
+
+## El plan de las primeras semanas
+| Momento | Qué pasa |
+|---|---|
+| Día 1 | Bienvenida, recorrido, reglas, padrino, primeras tareas sencillas |
+| Semana 1 | Aprende los procedimientos principales de su puesto con su padrino |
+| Semana 2 | Hace el trabajo con supervisión cercana |
+| Semana 4 | Trabaja sola; conversación con su jefe sobre cómo va |
+| Mes 3 | Evaluación del periodo de inducción; se definen siguientes pasos |
+
+## La capacitación
+La **capacitación** es el proceso de enseñar a las personas los conocimientos y habilidades que necesitan para hacer bien su trabajo. Además de ser útil para el negocio, en México es un **derecho del trabajador** y una obligación del patrón según la Ley Federal del Trabajo.
+
+Hay dos grandes tipos:
+- **Capacitación inicial:** lo que la persona necesita para empezar (recetas, procesos, caja, higiene, atención al cliente).
+- **Capacitación continua:** para mejorar, aprender nuevas tareas, adaptarse a cambios o prepararse para crecer (manejo de un sistema nuevo, liderazgo para un futuro encargado).
+
+## Cómo capacitar bien en un negocio pequeño
+Un método clásico y muy eficaz para tareas prácticas viene de un programa de entrenamiento usado en Estados Unidos durante la Segunda Guerra Mundial (*Training Within Industry*), y se resume en cuatro pasos:
+1. **Preparar:** explicar qué se va a aprender y por qué importa.
+2. **Mostrar:** el instructor hace la tarea despacio, explicando cada paso y los puntos clave.
+3. **Practicar:** la persona hace la tarea mientras el instructor observa y corrige.
+4. **Dar seguimiento:** la persona trabaja sola, y el instructor revisa de vez en cuando y resuelve dudas.
+
+A esto se suma el uso de los **procedimientos escritos** con fotos (lección M9-9): la persona puede consultarlos cuando tenga dudas.
+
+## Qué capacitar en Tortas Lupita
+| Tema | Para quién | Cómo |
+|---|---|---|
+| Recetas y procedimientos | Cocina | Mostrar y practicar con el procedimiento escrito |
+| Manejo higiénico de alimentos | Todos los que tocan alimentos | Curso (existen cursos gratuitos o de bajo costo de autoridades sanitarias y cámaras) |
+| Caja, cobro y corte | Caja | Práctica con supervisión |
+| Atención al cliente y quejas | Todos | Juego de roles con el protocolo (lección M11-7) |
+| Seguridad (gas, extintores, primeros auxilios) | Todos | Práctica una vez al año |
+| Liderazgo y supervisión | Encargados | Curso externo o lecturas y conversación mensual |
+
+## Medir la capacitación
+Para saber si la capacitación funciona, se pueden revisar cuatro niveles (propuestos por Donald Kirkpatrick en los años cincuenta):
+1. **Reacción:** ¿a la persona le pareció útil?
+2. **Aprendizaje:** ¿aprendió? (una prueba práctica).
+3. **Comportamiento:** ¿lo aplica en su trabajo diario? (observación).
+4. **Resultados:** ¿mejoró algún indicador? (menos errores, menos tiempo, menos quejas, menos merma).
+
+En un negocio pequeño, basta con comparar indicadores antes y después: tiempo de preparación, errores de caja, quejas.
+
+## La capacitación como inversión
+Algunos dueños temen capacitar porque «si los preparo, se van a ir a otro lado». Pero el riesgo contrario es peor: no capacitar y que se queden personas que hacen mal su trabajo. Además, la capacitación es una de las razones por las que las personas se quedan en un empleo: sienten que crecen.
+
+## En las empresas gigantes
+Las grandes empresas tienen universidades corporativas y programas de formación para miles de personas. McDonald's, por ejemplo, abrió en 1961 su «Hamburger University», un centro de capacitación para gerentes que con los años se extendió a varios países. Muchas cadenas tienen programas para que un empleado de piso pueda llegar a gerente de tienda. La lógica es la misma que la del padrino de la nueva cajera: enseñar bien desde el primer día.`,
+k: `**Inducción:** bienvenida, entender el negocio y saber qué hacer; con **padrino** y plan de las primeras semanas. **Capacitación** inicial y continua (también un **derecho** del trabajador en México). Método de cuatro pasos: **preparar, mostrar, practicar, dar seguimiento**. Mide con los cuatro niveles de Kirkpatrick: reacción, aprendizaje, comportamiento y resultados.`,
+ch: `Una ferretería asigna a cada vendedor nuevo un compañero con experiencia durante dos semanas y le da una lista de los 50 productos más vendidos con su ubicación y su precio; los nuevos aprenden en la mitad de tiempo.`,
+gi: `McDonald's fundó en 1961 la Hamburger University para capacitar a sus gerentes; con los años abrió campus en varios países y se convirtió en un ejemplo conocido de universidad corporativa.`,
+e: `Lupita compara los resultados de la nueva inducción con la anterior:
+
+| Indicador | Sin inducción | Con inducción y padrino |
+|---|---|---|
+| Personas que se van en el primer mes | 4 de 10 | 1 de 10 |
+| Días para trabajar sola en caja | 12 | 5 |
+| Errores de caja en el primer mes | 18 | 5 |
+| Costo de la inducción (horas del padrino) | 0 | 1,500 por persona |
+
+Con 10 contrataciones al año, evitar 3 salidas tempranas ahorra mucho más que los 15,000 pesos que cuesta la inducción.`,
+r: `McDonald's inauguró la Hamburger University en 1961, en un sótano de un restaurante en Elk Grove Village, Illinois. Con el tiempo se convirtió en un centro de formación de gerentes con presencia internacional, y la empresa informa que miles de personas han pasado por sus programas.`,
+f: `McDonald's Corporation, información corporativa sobre Hamburger University; Donald Kirkpatrick, «Evaluating Training Programs» (1994).`,
+err: ["Recibir a una persona nueva sin que nadie la espere.","Capacitar solo diciendo «aprende viendo».","No dar seguimiento después de la primera semana.","No capacitar por miedo a que la persona se vaya."],
+a: `Diseña el primer día y el plan de las primeras cuatro semanas para un puesto del negocio que observas. Escribe cómo enseñarías una tarea clave con los cuatro pasos (preparar, mostrar, practicar, dar seguimiento).`,
+sol: `Un buen plan tiene un responsable (padrino), tareas concretas por semana y una conversación al final del primer mes.`,
+q: [["La inducción busca que la persona nueva…",["Se sienta bienvenida, entienda el negocio y sepa qué hacer","Firme sin leer","Trabaje sola desde el primer minuto"],0,"Son sus tres objetivos."],
+["Un «padrino» en la inducción es…",["Un compañero con experiencia que acompaña al nuevo","El dueño del negocio","Un cliente"],0,"Ayuda a integrarse y aprender."],
+["Los cuatro pasos para enseñar una tarea práctica son…",["Preparar, mostrar, practicar, dar seguimiento","Leer, olvidar, repetir, salir","Contratar, pagar, evaluar, despedir"],0,"Método muy eficaz para tareas prácticas."],
+["En México, la capacitación es…",["Un derecho del trabajador y una obligación del patrón","Opcional siempre","Prohibida"],0,"Según la Ley Federal del Trabajo."]],
+t: ["Inducción","Capacitación","Padrino (mentor)","Universidad corporativa"]
+},
+"M13-5": {
+s: `Lupita le paga al cocinero 9,000 pesos al mes y cree que eso cuesta. Al final del año, entre aguinaldo, vacaciones, cuotas del IMSS y otros pagos, descubre que le costó bastante más. ¿Cuánto cuesta realmente un empleado?`,
+o: ["Distinguir sueldo bruto, sueldo neto y costo total para el negocio.","Calcular de forma aproximada el costo real de un empleado.","Entender cómo funciona la nómina."],
+x: `## Tres números distintos
+Cuando se habla de lo que gana o cuesta un empleado, hay tres números que se confunden:
+- **Sueldo bruto:** lo que se acuerda pagar antes de descuentos (por ejemplo, 9,000 pesos al mes).
+- **Sueldo neto:** lo que el trabajador recibe en su cuenta después de las **retenciones** (el ISR que le corresponde y su parte de las cuotas del IMSS).
+- **Costo total para el negocio:** el sueldo bruto **más** todo lo que el patrón paga adicionalmente: prestaciones (aguinaldo, prima vacacional), cuotas patronales de seguridad social (IMSS, Infonavit, SAR) e impuesto sobre nómina estatal, entre otros.
+
+Para el trabajador, lo importante es el neto. Para el negocio, lo importante es el **costo total**, porque es lo que hay que cubrir con el margen de las ventas.
+
+## Los componentes del costo total
+De forma general y aproximada (los porcentajes cambian según el salario, la clase de riesgo de trabajo de la empresa, el año y el estado):
+1. **Sueldo** de todo el año (incluye los días de descanso y de vacaciones, que se pagan).
+2. **Aguinaldo:** al menos 15 días de salario.
+3. **Prima vacacional:** al menos 25 % de los días de vacaciones.
+4. **Cuotas patronales al IMSS:** por enfermedades y maternidad, invalidez y vida, riesgos de trabajo, guarderías y prestaciones sociales, entre otros. Su porcentaje depende del salario y del riesgo de la actividad.
+5. **Aportaciones al Infonavit** (5 % del salario base de cotización) y al **SAR** (retiro, cesantía y vejez; las aportaciones patronales para cesantía y vejez han ido aumentando gradualmente en los últimos años por una reforma).
+6. **Impuesto sobre nómina** del estado (normalmente entre 2 % y 4 % de los salarios).
+7. **Otros:** uniformes, capacitación, prestaciones adicionales que el negocio decida dar (vales, bonos), reparto de utilidades si hay utilidades.
+
+Como referencia muy general, para salarios bajos y medios, el costo total para el negocio suele estar varias decenas de puntos porcentuales por encima del sueldo bruto. Por eso la calculadora del curso permite ajustar los porcentajes: es una herramienta educativa, y el cálculo exacto lo hace el contador con el sistema de nómina.
+
+## El ejemplo con la calculadora
+Con la calculadora «Costo real de un empleado» y estos datos ilustrativos:
+- Sueldo mensual bruto: 9,000 pesos.
+- Aguinaldo: 15 días.
+- Vacaciones: 12 días; prima vacacional de 25 %.
+- Cuotas patronales de IMSS, Infonavit y SAR (aproximación): 25 % del sueldo anual.
+- Impuesto sobre nómina: 3 %.
+
+| Concepto | Pesos al año |
+|---|---|
+| Sueldos (12 meses) | 108,000 |
+| Aguinaldo (300 × 15) | 4,500 |
+| Prima vacacional (300 × 12 × 25 %) | 900 |
+| Cuotas de seguridad social (25 % de 108,000) | 27,000 |
+| Impuesto sobre nómina (3 % de 113,400) | 3,402 |
+| **Costo total** | **143,802** |
+| **Costo mensual promedio** | **11,984** |
+
+El empleado de «9,000 pesos» cuesta, en este ejemplo, unos **12,000 pesos al mes** (alrededor de 33 % más que su sueldo).
+
+## ¿Qué es la nómina?
+La **nómina** es el proceso de calcular y pagar los sueldos de los trabajadores en cada periodo (semana, catorcena, quincena o mes). Incluye:
+1. Registrar los **días y horas** trabajados (asistencia, faltas, horas extra).
+2. Calcular las **percepciones:** sueldo, horas extra, bonos, comisiones, prestaciones.
+3. Calcular las **deducciones:** ISR retenido, cuota obrera del IMSS, préstamos (por ejemplo, del Infonavit o de la empresa), pensión alimenticia si un juez la ordenó.
+4. Pagar el **neto** (de preferencia por transferencia).
+5. Emitir el **recibo de nómina electrónico** (CFDI de nómina).
+6. Pagar las **cuotas** y entregar las **retenciones** en sus fechas.
+
+En un negocio pequeño, el contador suele calcular la nómina con un sistema; la administradora reúne la información de asistencia y paga.
+
+## Pagar bien y a tiempo
+- **Paga siempre a tiempo:** nada destruye más la confianza que un sueldo atrasado.
+- **Explica el recibo:** que cada persona entienda sus percepciones y deducciones.
+- **Paga por transferencia:** deja registro y es más seguro que el efectivo.
+- **Revisa que el salario de cotización sea el real:** registrar ante el IMSS un salario menor al que se paga es ilegal y deja al trabajador con menos protección (por ejemplo, en incapacidades o pensión).
+
+## Sueldo, productividad y decisiones
+Conocer el costo real permite tomar mejores decisiones:
+- **¿Conviene contratar?** El margen extra que genera la persona debe ser mayor que su costo total (lección M2-4).
+- **¿Tiempo completo o medio tiempo?** Según las horas que realmente se necesitan (lección M13-1).
+- **¿Cuánto puedo subir sueldos?** Cada aumento tiene un efecto multiplicado en prestaciones y cuotas.
+- **¿Qué precio necesito?** El costo de personal es uno de los grandes gastos de operación (lección M8-2).
+
+## Más allá del sueldo: la compensación total
+Las personas no trabajan solo por el sueldo. La **compensación total** incluye también prestaciones adicionales (comida, vales, seguro de gastos médicos), horarios flexibles, capacitación, oportunidades de crecimiento y buen ambiente. Un negocio pequeño que no puede pagar los sueldos más altos puede competir por talento con otras cosas: comida incluida, horarios que permitan estudiar, trato digno y posibilidades de ascenso.
+
+## En las empresas gigantes
+Las grandes empresas tienen áreas de **compensaciones** que diseñan tabuladores de sueldos por puesto, comparan sus sueldos con el mercado mediante encuestas salariales, diseñan bonos por resultados y administran prestaciones para miles de personas. En muchas, el costo de personal es uno de los rubros más grandes de su estado de resultados.`,
+hr: "empleado",
+k: `**Sueldo bruto** (acordado), **neto** (lo que recibe el trabajador tras retenciones) y **costo total** (bruto + aguinaldo + prima vacacional + cuotas IMSS, Infonavit y SAR + impuesto sobre nómina + otros). Ejemplo ilustrativo: 9,000 pesos de sueldo → unos **12,000** de costo mensual. **Nómina:** registrar, calcular percepciones y deducciones, pagar, timbrar el CFDI de nómina y enterar cuotas y retenciones.`,
+ch: `Un taller con dos ayudantes descubre con su contador que cada uno le cuesta un tercio más que su sueldo; decide subir un poco el precio de la mano de obra para que el negocio siga siendo rentable.`,
+gi: `Las grandes empresas comparan sus sueldos con el mercado mediante encuestas salariales y diseñan tabuladores por puesto; el costo de personal aparece como uno de los gastos principales en sus estados financieros.`,
+e: `Lupita usa la calculadora para decidir si contrata a un cocinero más para la hora pico:
+
+| Concepto | Pesos al mes |
+|---|---|
+| Costo total del cocinero (calculadora) | 11,984 |
+| Tortas extra que permite vender en la hora pico | 30 al día × 26 = 780 |
+| Margen extra (780 × 24) | 18,720 |
+| **Beneficio neto de contratarlo** | **6,736** |
+
+La contratación conviene. Si solo permitiera vender 15 tortas más al día (9,360 de margen), no se pagaría.`,
+r: `En México, la reforma a la Ley del Seguro Social publicada en diciembre de 2020 estableció un aumento gradual, entre 2023 y 2030, de las aportaciones patronales para el seguro de cesantía en edad avanzada y vejez, con el objetivo de mejorar las pensiones de los trabajadores. Esto incrementa poco a poco el costo de la nómina para los patrones.`,
+f: `Diario Oficial de la Federación, reforma a la Ley del Seguro Social y a la Ley del SAR (16 de diciembre de 2020); IMSS, información para patrones (imss.gob.mx).`,
+err: ["Creer que el empleado cuesta lo mismo que su sueldo.","Registrar ante el IMSS un salario menor al real.","Pagar tarde la nómina.","Contratar sin comparar el costo total con el margen que generará la persona."],
+a: `Con la calculadora «Costo real de un empleado», calcula el costo total de dos puestos del negocio que observas (con sueldos aproximados). Compáralo con el margen extra que genera cada puesto y escribe una conclusión.`,
+sol: `Recuerda que los porcentajes de la calculadora son aproximados y editables; para cifras exactas, pide a un contador un cálculo con el sistema de nómina.`,
+q: [["El sueldo neto es…",["Lo que recibe el trabajador después de retenciones","Lo que cuesta al negocio","El sueldo antes de descuentos"],0,"Para el negocio importa el costo total."],
+["¿Cuál de estos forma parte del costo total de un empleado para el negocio?",["Cuotas patronales al IMSS e impuesto sobre nómina","El IVA de las ventas","La renta del local"],0,"Además de sueldo y prestaciones."],
+["Si el sueldo diario es de 300 pesos, el aguinaldo mínimo es de…",["4,500 pesos","300 pesos","9,000 pesos"],0,"15 días × 300."],
+["¿Por qué es un error registrar un salario menor al real ante el IMSS?",["Es ilegal y deja al trabajador con menos protección","Porque se paga más","No es un error"],0,"Afecta incapacidades y pensión."]],
+t: ["Sueldo bruto","Sueldo neto","Costo total del empleado","Nómina","Cuotas patronales","Compensación total"]
+},
+"M13-6": {
+s: `Rosa, la cajera, es la más rápida y amable, pero gana lo mismo que todos y nadie se lo dice. Un día comenta que está pensando en irse «a donde la valoren». Lupita se da cuenta de que nunca ha hablado con su equipo sobre cómo hacen su trabajo.`,
+o: ["Diseñar una evaluación del desempeño sencilla y justa.","Dar retroalimentación útil.","Aplicar ideas sobre motivación al día a día del negocio."],
+x: `## ¿Para qué evaluar el desempeño?
+La **evaluación del desempeño** es el proceso de revisar, con criterios claros, qué tan bien hace una persona su trabajo. No es un examen para castigar, sino una conversación para:
+- **Reconocer** lo que se hace bien.
+- **Corregir** lo que no está funcionando.
+- **Acordar** metas y apoyos para mejorar.
+- **Decidir** con justicia aumentos, bonos, ascensos o, si hace falta, salidas.
+- **Desarrollar** a las personas.
+
+Sin evaluación, las decisiones sobre las personas se toman por impresiones, y los mejores empleados sienten que da igual esforzarse.
+
+## Qué evaluar
+Una evaluación útil combina dos cosas:
+1. **Resultados:** los indicadores del puesto (lección M6-8). Para un cocinero: tiempo de preparación, tortas rehechas, merma de su estación. Para una cajera: errores de caja, tiempo de atención, quejas.
+2. **Comportamientos:** cómo hace el trabajo, ligado a los valores del negocio: puntualidad, trabajo en equipo, trato al cliente, limpieza, iniciativa.
+
+Ejemplo de formato para la cajera:
+
+| Criterio | Indicador o ejemplo | Calificación (1 a 5) |
+|---|---|---|
+| Rapidez | Tiempo promedio de cobro | 5 |
+| Exactitud | Diferencias en el corte de caja | 5 |
+| Trato al cliente | Comentarios, quejas, observación | 5 |
+| Puntualidad | Retardos en el periodo | 4 |
+| Trabajo en equipo | Apoya en la hora pico | 5 |
+| Iniciativa | Propone mejoras | 4 |
+
+## Cada cuánto
+- **Conversaciones breves y frecuentes:** retroalimentación en el momento, cuando algo sale muy bien o muy mal.
+- **Conversación uno a uno mensual:** 15 a 20 minutos con cada persona (lección M7-5).
+- **Evaluación formal** cada seis meses o cada año, con el formato.
+
+Muchas empresas han descubierto que las evaluaciones una vez al año, sin conversaciones durante el año, sirven poco: la retroalimentación llega demasiado tarde.
+
+## Cómo dar retroalimentación
+Una retroalimentación útil es:
+- **Específica:** «Hoy atendiste a los 20 clientes de la fila en 15 minutos sin un solo error» en lugar de «buen trabajo».
+- **Sobre hechos y comportamientos, no sobre la persona:** «Llegaste 20 minutos tarde tres veces esta semana» en lugar de «eres irresponsable».
+- **Oportuna:** cerca del momento.
+- **Equilibrada:** reconocer lo bueno con frecuencia, no solo señalar errores.
+- **Orientada al futuro:** «¿Qué necesitas para llegar a tiempo?».
+- **En privado** cuando es para corregir; puede ser en público cuando es para reconocer.
+
+Una estructura sencilla para corregir es: **situación** (cuándo y dónde), **comportamiento** (qué pasó exactamente), **impacto** (qué efecto tuvo) y **acuerdo** (qué se hará distinto).
+
+## ¿Qué motiva a las personas?
+La **motivación** es lo que impulsa a una persona a esforzarse. Hay varias teorías clásicas útiles para un negocio:
+- **Jerarquía de necesidades de Abraham Maslow (1943):** las personas buscan satisfacer necesidades en orden aproximado: fisiológicas (salario para vivir), seguridad (estabilidad, prestaciones), pertenencia (buen equipo), reconocimiento y autorrealización (crecer, aprender). Un sueldo justo es la base, pero no basta.
+- **Teoría de los dos factores de Frederick Herzberg (1959):** hay **factores de higiene** (sueldo, condiciones, trato del jefe, reglas) que, si faltan, generan insatisfacción, pero que por sí solos no motivan; y **factores motivadores** (logro, reconocimiento, trabajo interesante, responsabilidad, crecimiento) que sí generan motivación. Pagar a tiempo evita la molestia; reconocer y dar responsabilidad motiva.
+- **Motivación intrínseca y extrínseca:** la extrínseca viene de recompensas externas (dinero, premios); la intrínseca, del interés por el trabajo mismo, el sentido de propósito, la autonomía y el dominio de una habilidad. Autores como Daniel Pink (en «La sorprendente verdad sobre qué nos motiva», 2009) resumieron investigaciones que sugieren que, en muchos trabajos, la autonomía, el dominio y el propósito pesan mucho.
+
+## Formas prácticas de motivar en un negocio pequeño
+- **Pagar justo y a tiempo** (higiene: sin esto, nada funciona).
+- **Reconocer** en voz alta y con frecuencia.
+- **Dar responsabilidad:** que Rosa entrene a las cajeras nuevas.
+- **Escuchar ideas** y aplicarlas (Kaizen, lección M9-7).
+- **Mostrar el propósito:** cómo su trabajo ayuda a los clientes y al negocio.
+- **Ofrecer crecimiento:** un camino de cajera a encargada de turno.
+- **Bonos ligados a resultados claros**, cuando sea posible (por ejemplo, por cero diferencias de caja en el mes).
+- **Cuidar el ambiente:** trato respetuoso, reglas claras, equidad.
+
+## Los errores que desmotivan
+- Tratar igual a quien se esfuerza y a quien no.
+- Prometer y no cumplir.
+- Regañar en público.
+- Cambiar las reglas sin explicar.
+- Ignorar las ideas del equipo.
+- Favoritismo con familiares o amigos.
+
+## El caso de Rosa
+Lupita tiene su primera conversación formal con Rosa: le reconoce con ejemplos concretos su rapidez y su trato, le pregunta qué le gustaría hacer y le ofrece ser la **capacitadora de las cajeras nuevas** con un aumento y un bono trimestral si las nuevas cajeras cumplen sus indicadores. Rosa se queda, y las cajeras que ella entrena aprenden en la mitad del tiempo.
+
+## Ser justos
+La evaluación pierde todo su valor si no es justa: los mismos criterios para todos, incluidos los familiares, y decisiones explicadas.`,
+k: `**Evaluación del desempeño:** revisar con criterios claros **resultados** y **comportamientos** para reconocer, corregir, decidir y desarrollar. Retroalimentación **específica, sobre hechos, oportuna, equilibrada y en privado** para corregir (situación, comportamiento, impacto, acuerdo). Motivación: **Maslow**, **Herzberg** (higiene frente a motivadores), intrínseca y extrínseca.`,
+ch: `En una papelería, la dueña tiene una conversación mensual de 15 minutos con cada empleado: qué salió bien, qué mejorar y qué necesita. La rotación baja a casi cero.`,
+gi: `Varias grandes empresas, como Adobe, Deloitte y Microsoft, anunciaron en la década de 2010 cambios para reemplazar o complementar sus evaluaciones anuales con conversaciones más frecuentes entre jefes y colaboradores.`,
+e: `Lupita calcula si conviene el bono de Rosa como capacitadora:
+
+| Concepto | Antes | Con Rosa como capacitadora |
+|---|---|---|
+| Días para que una cajera nueva trabaje sola | 10 | 5 |
+| Errores de caja de cajeras nuevas en su primer mes | 15 | 4 |
+| Costo de los errores (promedio 80 pesos c/u) | 1,200 | 320 |
+| Bono de Rosa (por trimestre) | — | 1,500 |
+
+Con 4 cajeras nuevas al año, el ahorro en errores (unos 3,500 pesos) y en tiempo de capacitación (5 días menos por cajera) cubre una buena parte de los 6,000 pesos anuales del bono. Y lo más importante: conserva a su mejor cajera, cuyo reemplazo costaría unos 7,000 pesos (lección M13-7), además de su experiencia.`,
+r: `Frederick Herzberg publicó en 1959, con Mausner y Snyderman, «The Motivation to Work», basado en entrevistas a ingenieros y contadores, donde distinguió entre factores de higiene y factores motivadores. Décadas después, empresas como Adobe (2012) y Deloitte (2015) anunciaron que reemplazaban sus evaluaciones anuales tradicionales por conversaciones más frecuentes.`,
+f: `F. Herzberg, B. Mausner y B. Snyderman, «The Motivation to Work» (1959); A. Maslow, «A Theory of Human Motivation» (1943); Daniel Pink, «Drive» (2009).`,
+err: ["Evaluar solo una vez al año y sin conversaciones intermedias.","Dar retroalimentación vaga o sobre la persona en lugar de sobre hechos.","Corregir en público.","Creer que el dinero es lo único que motiva."],
+a: `Diseña el formato de evaluación de un puesto del negocio que observas: tres criterios de resultado y tres de comportamiento, con su indicador. Escribe una retroalimentación de reconocimiento y otra de corrección con la estructura situación-comportamiento-impacto-acuerdo.`,
+sol: `Revisa que cada criterio tenga un indicador o un ejemplo observable; si no se puede observar, no se puede evaluar con justicia.`,
+q: [["La evaluación del desempeño sirve para…",["Reconocer, corregir, decidir con justicia y desarrollar","Castigar","Despedir a todos"],0,"Es una conversación con criterios claros."],
+["Una retroalimentación útil es…",["Específica y sobre hechos","Vaga y sobre la persona","Siempre en público"],0,"«Atendiste a 20 clientes en 15 minutos sin errores»."],
+["Según Herzberg, el sueldo es un factor…",["De higiene: si falta, genera insatisfacción","Motivador principal","Irrelevante"],0,"Los motivadores son logro, reconocimiento, crecimiento."],
+["¿Cuál de estas acciones suele motivar?",["Reconocer en voz alta y dar responsabilidad","Regañar en público","Prometer y no cumplir"],0,"Son factores motivadores."]],
+t: ["Evaluación del desempeño","Retroalimentación","Motivación","Jerarquía de necesidades de Maslow","Teoría de los dos factores","Motivación intrínseca"]
+},
+"M13-7": {
+s: `Toño calcula que el año pasado entraron 14 personas y salieron 10, con una plantilla promedio de 9. «Es una puerta giratoria», dice. ¿Cuánto les cuesta que la gente se vaya y qué pueden hacer para que se quede?`,
+o: ["Calcular la tasa de rotación y su costo.","Reconocer las causas más comunes de rotación.","Proponer acciones para mejorar el clima laboral y la retención."],
+x: `## La rotación de personal
+La **rotación de personal** mide qué tanto entran y salen las personas de un negocio. Una forma común de calcularla:
+
+**Rotación anual = número de salidas en el año ÷ número promedio de empleados × 100**
+
+En Tortas Lupita: 10 salidas ÷ 9 empleados en promedio × 100 = **111 %**. Es como si toda la plantilla se hubiera renovado más de una vez en el año.
+
+Algo de rotación es normal y sano (personas que se jubilan, que cambian de ciudad, que encuentran un trabajo mejor relacionado con sus estudios, o que no funcionaban en el puesto). Pero una rotación muy alta es un síntoma de problemas. En restaurantes y comercio, la rotación suele ser mayor que en otros sectores; aun así, conviene compararse con negocios parecidos y, sobre todo, con uno mismo en el tiempo.
+
+## El costo de la rotación
+Cada salida cuesta, aunque no aparezca como una línea en el estado de resultados:
+- **Reclutamiento y selección:** anuncios, tiempo de entrevistas.
+- **Capacitación:** tiempo del padrino y del jefe enseñando.
+- **Baja productividad** mientras la persona nueva aprende.
+- **Errores** del periodo de aprendizaje (merma, errores de caja, quejas).
+- **Sobrecarga** del equipo que cubre el puesto vacante (horas extra, cansancio).
+- **Clientes perdidos** por mal servicio.
+- **Pagos de salida** (finiquito, y en algunos casos liquidación; lección M13-8).
+
+Estimación de Tortas Lupita por cada salida:
+
+| Concepto | Pesos |
+|---|---|
+| Reclutamiento y selección (tiempo y anuncios) | 1,200 |
+| Capacitación (horas del padrino y del jefe) | 1,500 |
+| Productividad reducida del nuevo (primer mes) | 2,500 |
+| Errores y merma extra | 800 |
+| Horas extra del equipo mientras se cubre el puesto | 1,000 |
+| **Costo estimado por salida** | **7,000** |
+
+Con 10 salidas al año: **70,000 pesos**, más los clientes perdidos, que son difíciles de medir.
+
+## ¿Por qué se va la gente?
+Las causas más comunes:
+1. **El jefe:** trato injusto, gritos, falta de reconocimiento. Una frase muy repetida en RH dice que «la gente no deja empresas, deja jefes».
+2. **Sueldo y prestaciones** por debajo del mercado o pagos atrasados.
+3. **Horarios** difíciles o cambiantes.
+4. **Falta de crecimiento:** no ver un futuro en el negocio.
+5. **Mal ambiente:** conflictos, favoritismo, chismes.
+6. **Sobrecarga de trabajo** constante.
+7. **Mala selección:** la persona no tenía el perfil o no sabía bien en qué consistía el puesto.
+8. **Mala inducción:** llegó y nadie la recibió (lección M13-4).
+9. **Distancia o transporte** largos y caros.
+
+## Escuchar: la entrevista de salida
+Una herramienta sencilla es la **entrevista de salida**: cuando alguien renuncia, preguntarle con respeto por qué se va, qué le gustó y qué cambiaría. Muchas veces las personas son más honestas al irse. Si varias mencionan lo mismo (el jefe del turno de la tarde, los horarios del sábado), ahí está el problema.
+
+También conviene preguntar **antes** de que se vayan: conversaciones uno a uno (lección M13-6) y encuestas breves y anónimas de clima laboral.
+
+## El clima laboral
+El **clima laboral** es la percepción que tienen las personas del ambiente en el trabajo: si se sienten respetadas, seguras, escuchadas, reconocidas, si saben qué se espera de ellas, si se llevan bien con sus compañeros. Un buen clima reduce la rotación, mejora el servicio y hace más fácil cualquier cambio.
+
+Una encuesta de clima sencilla puede tener preguntas como (respuesta del 1 al 5):
+- Sé claramente qué se espera de mí en mi trabajo.
+- Tengo lo que necesito para hacer bien mi trabajo.
+- En la última semana recibí reconocimiento por un buen trabajo.
+- Mi jefe me trata con respeto.
+- Mis opiniones se toman en cuenta.
+- Tengo oportunidades de aprender y crecer.
+- Recomendaría este lugar a un amigo para trabajar.
+
+La empresa de investigación Gallup popularizó un conjunto de doce preguntas parecidas para medir el **compromiso** de los empleados, y sus estudios han relacionado un mayor compromiso con mejores resultados en productividad, servicio al cliente y menor rotación.
+
+## Los riesgos psicosociales en México
+En México, la norma oficial **NOM-035-STPS-2018** obliga a los centros de trabajo a identificar y prevenir los **factores de riesgo psicosocial** (como cargas de trabajo excesivas, jornadas muy largas, violencia laboral o falta de control sobre el trabajo) y a promover un entorno organizacional favorable. Sus obligaciones varían según el número de trabajadores. Para un negocio pequeño, cumplirla empieza por lo básico: una política contra la violencia laboral, mecanismos para recibir quejas y atención a las cargas de trabajo.
+
+## Acciones para retener
+| Causa | Acción |
+|---|---|
+| Mal trato del jefe | Capacitar a los encargados en liderazgo; medir la rotación por jefe |
+| Sueldo bajo | Comparar con el mercado; ajustar donde sea posible; bonos por resultados |
+| Horarios | Horarios estables publicados con anticipación; turnos que permitan estudiar |
+| Falta de crecimiento | Un camino claro: ayudante → cocinero → jefe de cocina → encargado |
+| Mala inducción | Proceso de bienvenida y padrino (lección M13-4) |
+| Mal ambiente | Reglas claras, cero tolerancia a la violencia, juntas con respeto |
+| Sobrecarga | Planear el personal por hora (lección M13-1) |
+
+## El plan de Tortas Lupita
+Después de las entrevistas de salida, descubren dos causas principales: el trato del encargado del turno vespertino y los horarios del sábado que cambiaban cada semana. Lupita capacita al encargado (y le pone la rotación como indicador), publica los horarios con dos semanas de anticipación, crea el camino de crecimiento y hace una encuesta de clima cada trimestre. Al año siguiente, la rotación baja de 111 % a 45 %, y el ahorro estimado supera los 40,000 pesos.`,
+k: `**Rotación anual = salidas ÷ promedio de empleados × 100.** Cada salida cuesta (reclutar, capacitar, baja productividad, errores, sobrecarga, clientes perdidos). Causas frecuentes: **el jefe**, sueldo, horarios, falta de crecimiento, ambiente, sobrecarga, mala selección e inducción. Escucha con **entrevistas de salida** y **encuestas de clima**. En México, la **NOM-035** pide prevenir riesgos psicosociales.`,
+ch: `Una cocina económica descubre en sus entrevistas de salida que las meseras se van por los horarios del domingo; al rotar los domingos de forma justa y publicada, la rotación baja a la mitad.`,
+gi: `Gallup ha publicado durante años estudios sobre el compromiso de los empleados en el mundo, basados en preguntas como las de su encuesta Q12, y ha encontrado relación entre el compromiso y la productividad, la satisfacción de los clientes y la rotación.`,
+e: `Toño calcula el ahorro por reducir la rotación:
+
+| Concepto | Año anterior | Año siguiente |
+|---|---|---|
+| Empleados promedio | 9 | 9 |
+| Salidas | 10 | 4 |
+| Rotación | 111 % | 44 % |
+| Costo estimado (7,000 por salida) | 70,000 | 28,000 |
+| **Ahorro** | | **42,000** |
+
+Además, las quejas de clientes del turno vespertino bajan a la mitad.`,
+r: `Gallup publica su informe «State of the Global Workplace», que estima el nivel de compromiso de los empleados en distintos países y regiones. En México, la Secretaría del Trabajo y Previsión Social emitió la NOM-035-STPS-2018 sobre factores de riesgo psicosocial, cuyas obligaciones entraron en vigor de forma escalonada entre 2019 y 2020.`,
+f: `Gallup, «State of the Global Workplace» (gallup.com); Diario Oficial de la Federación, NOM-035-STPS-2018.`,
+err: ["Creer que la rotación alta es inevitable y no tiene costo.","No preguntar a las personas por qué se van.","Ignorar el papel de los jefes en la rotación.","Medir el clima y no actuar sobre los resultados."],
+a: `Calcula la rotación anual del negocio que observas (o estímala) y el costo de cada salida con la tabla de esta lección. Diseña una encuesta de clima de seis preguntas y propón dos acciones para retener a las personas.`,
+sol: `Si no tienes datos exactos, estima: incluso una cifra aproximada del costo por salida ayuda a ver que retener a las personas es una inversión.`,
+q: [["Si hubo 6 salidas en el año y el promedio de empleados fue 12, la rotación es…",["50 %","72 %","6 %"],0,"6 ÷ 12 × 100."],
+["¿Cuál es una causa muy frecuente de que las personas se vayan?",["El trato del jefe","El color del uniforme","El nombre del negocio"],0,"«La gente no deja empresas, deja jefes»."],
+["La entrevista de salida sirve para…",["Entender por qué se va la persona y qué mejorar","Cobrarle","Retenerla a la fuerza"],0,"Las personas suelen ser honestas al irse."],
+["En México, la NOM-035 se refiere a…",["Factores de riesgo psicosocial en el trabajo","El IVA","Los precios de los alimentos"],0,"Pide identificarlos y prevenirlos."]],
+t: ["Rotación de personal","Clima laboral","Entrevista de salida","Compromiso de los empleados","NOM-035","Camino de crecimiento"]
+},
+"M13-8": {
+s: `Un repartidor llega tarde por sexta vez y además se salta entregas. Toño, molesto, le dice: «¡Estás despedido, vete ya!». Al día siguiente llega un aviso de un centro de conciliación laboral. Lupita entiende que las salidas también deben hacerse bien.`,
+o: ["Distinguir renuncia, despido justificado y despido injustificado.","Conocer, de forma general, la diferencia entre finiquito y liquidación.","Manejar las salidas y los conflictos con orden, legalidad y respeto."],
+x: `## Todas las relaciones terminan
+Tarde o temprano, toda relación de trabajo termina: por renuncia, por despido, por jubilación, por terminar el contrato o la obra, o por otras causas. Cómo se maneja la salida importa: por respeto a la persona, por el ambiente del equipo que se queda, por la reputación del negocio y por los riesgos legales. Esta lección es una **introducción educativa** a las reglas generales en México; cada caso tiene particularidades y conviene asesorarse con un abogado laboral antes de despedir a alguien.
+
+## Las formas de terminar
+1. **Renuncia voluntaria:** el trabajador decide irse. Conviene que la presente **por escrito**, firmada, con fecha. Se le paga su **finiquito**.
+2. **Despido justificado (rescisión con causa):** el patrón termina la relación por alguna de las causas que establece la Ley Federal del Trabajo (por ejemplo, ciertas faltas graves: actos de violencia, faltas de probidad u honradez, faltas injustificadas en ciertos supuestos, desobediencia grave, entre otras). Hay requisitos formales: entregar un **aviso escrito** con la causa y la fecha, y documentar los hechos. Si el patrón no puede probar la causa, el despido puede considerarse injustificado.
+3. **Despido injustificado:** el patrón termina la relación sin una causa legal (o sin poder probarla). El trabajador puede reclamar su reinstalación o una indemnización, además de otros pagos.
+4. **Terminación por mutuo acuerdo:** ambas partes acuerdan terminar, normalmente con un convenio que conviene formalizar ante la autoridad laboral.
+5. **Otras:** fin de un contrato por tiempo u obra determinados (cuando legalmente procede), jubilación, incapacidad, muerte del trabajador.
+
+## Finiquito y liquidación
+- **Finiquito:** lo que se le debe al trabajador al terminar la relación, por cualquier causa: salarios pendientes, la **parte proporcional del aguinaldo**, las **vacaciones** no disfrutadas y su **prima vacacional**, y otras prestaciones pendientes. En algunos casos incluye la **prima de antigüedad** (doce días de salario por año trabajado, con un tope de salario; aplica, por ejemplo, en despidos y también en renuncias de trabajadores con al menos quince años de antigüedad).
+- **Liquidación:** cuando el despido es injustificado, además del finiquito, la ley contempla una **indemnización** (en general, tres meses de salario y, en ciertos supuestos, veinte días de salario por año trabajado), la prima de antigüedad y, si hay juicio, posibles salarios que se dejaron de pagar durante el proceso, con los límites que marca la ley.
+
+Por eso un despido injustificado puede costar mucho más que el finiquito. Y por eso no se debe despedir «en caliente».
+
+## La justicia laboral desde 2019
+Con la reforma laboral de 2019, la solución de conflictos laborales en México cambió:
+- Antes de ir a juicio, la mayoría de los conflictos deben pasar por una **etapa de conciliación** obligatoria ante los **centros de conciliación** (el Centro Federal de Conciliación y Registro Laboral para asuntos federales y centros locales en cada estado).
+- Si no hay acuerdo, el conflicto se resuelve ante **tribunales laborales** del poder judicial.
+
+La conciliación busca que las partes lleguen a un acuerdo justo, más rápido y barato que un juicio. Un negocio que llega a la conciliación con su expediente en orden (contrato, alta en el IMSS, recibos de nómina, registros de asistencia, actas de las faltas) está en una posición mucho mejor que uno sin papeles.
+
+## Cómo manejar los problemas antes de despedir
+La mayoría de los despidos se pueden evitar o, al menos, manejar mejor:
+1. **Reglas claras desde el inicio:** reglamento o reglas internas conocidas por todos (puntualidad, faltas, uso del celular, higiene).
+2. **Retroalimentación temprana:** hablar del problema la primera vez, no la sexta (lección M13-6).
+3. **Documentar:** registrar los hechos (retardos, faltas, incidentes) con fecha y, cuando corresponda, levantar un acta con testigos.
+4. **Medidas progresivas:** conversación, llamada de atención por escrito y, si la ley y el reglamento lo permiten, otras medidas disciplinarias.
+5. **Escuchar la versión de la persona:** a veces hay causas que se pueden resolver (un problema de transporte, de salud o familiar).
+6. **Decidir con calma** y asesoría, nunca en caliente.
+
+## Cómo hacer una salida con respeto
+Cuando la salida es inevitable:
+- **En privado**, con un testigo de confianza si es despido.
+- **Con claridad y brevedad:** explicar la decisión y su motivo sin humillar.
+- **Con los documentos listos:** aviso escrito (si es rescisión), cálculo del finiquito, recibo para firmar.
+- **Pagando lo que corresponde**, en tiempo.
+- **Cuidando la dignidad:** no exhibir a la persona frente al equipo ni a los clientes.
+- **Comunicando al equipo** lo necesario, sin detalles personales.
+- **Dando de baja** al trabajador en el IMSS en el plazo que corresponde.
+
+## Los conflictos entre compañeros
+No todos los conflictos son entre el negocio y un trabajador; también hay conflictos entre compañeros (por tareas, horarios, malentendidos o faltas de respeto). Para manejarlos:
+- **Intervenir pronto**, antes de que crezcan.
+- **Escuchar a ambas partes por separado** y luego juntas.
+- **Centrarse en los hechos y en el trabajo**, no en las personalidades.
+- **Buscar un acuerdo concreto** y dar seguimiento.
+- **Cero tolerancia a la violencia y al acoso:** tener una política clara, un canal para denunciar y actuar de inmediato (lección M13-7).
+
+## El caso del repartidor
+Lupita detiene el conflicto: habla con el repartidor, revisa los registros (seis retardos y tres entregas no realizadas, sin actas) y consulta a un abogado laboral. Como no hay documentos de las faltas ni reglamento firmado, un despido «justificado» sería difícil de probar. En la conciliación llegan a un acuerdo de terminación con el pago correspondiente. Desde entonces, Tortas Lupita tiene reglas internas firmadas por cada empleado, registra la asistencia y documenta cada incidente. Toño aprende la lección: **nunca más despedir en caliente**.
+
+## Cierre del módulo
+Gestionar personas es una de las tareas más importantes y delicadas de un negocio: planear, atraer, elegir, contratar con legalidad, recibir, capacitar, pagar bien, evaluar, motivar, conservar y, cuando toca, despedir con orden y respeto. Un negocio que cuida a su gente tiene menos rotación, mejor servicio, menos conflictos y más capacidad de crecer.`,
+k: `Formas de terminar: **renuncia** (por escrito), **despido justificado** (causa legal, aviso escrito y pruebas), **despido injustificado**, mutuo acuerdo y otras. **Finiquito:** lo que se debe (salarios, aguinaldo y vacaciones proporcionales, prima vacacional y, en ciertos casos, prima de antigüedad). **Liquidación:** finiquito + **indemnización** en despidos injustificados. Desde 2019: **conciliación** obligatoria y **tribunales laborales**. Documenta, escucha y **nunca despidas en caliente**.`,
+ch: `Una tienda de abarrotes tiene un reglamento de una hoja firmado por sus dos empleados y una libreta de asistencia; cuando un empleado empieza a faltar, la dueña habla con él, registra cada falta y lo resuelve sin llegar a un conflicto.`,
+gi: `Las grandes empresas tienen áreas de relaciones laborales con abogados especializados, políticas disciplinarias detalladas, canales de denuncia y, cuando hay sindicato, contratos colectivos que establecen procedimientos para los conflictos.`,
+e: `La administradora calcula un finiquito ilustrativo por renuncia (sueldo diario de 400 pesos; renuncia el 30 de junio; trabajó todo el semestre; le quedan 12 días de vacaciones; última quincena pagada):
+
+| Concepto | Cálculo | Pesos |
+|---|---|---|
+| Aguinaldo proporcional (15 días × 181/365) | 15 × 181 ÷ 365 × 400 | 2,975 |
+| Vacaciones no disfrutadas (12 días) | 12 × 400 | 4,800 |
+| Prima vacacional (25 %) | 4,800 × 25 % | 1,200 |
+| **Finiquito estimado** | | **8,975** |
+
+Es un cálculo educativo y simplificado; el contador o abogado debe calcular los montos exactos según el caso.`,
+r: `La reforma laboral publicada en el Diario Oficial de la Federación el 1 de mayo de 2019 transformó la justicia laboral en México: creó el Centro Federal de Conciliación y Registro Laboral y los centros de conciliación locales, estableció la conciliación prejudicial obligatoria y trasladó los juicios laborales a tribunales del poder judicial.`,
+f: `Diario Oficial de la Federación, reforma a la Ley Federal del Trabajo (1 de mayo de 2019); Centro Federal de Conciliación y Registro Laboral (centrolaboral.gob.mx).`,
+err: ["Despedir «en caliente» y sin documentos.","No tener reglas internas ni registro de asistencia.","No pagar el finiquito completo y a tiempo.","Humillar a la persona al despedirla."],
+a: `Escribe las reglas internas básicas (una hoja) del negocio que observas: puntualidad, faltas, uso del celular, higiene, conducta. Después escribe los pasos que seguirías antes de despedir a alguien por retardos frecuentes.`,
+sol: `Los pasos deben incluir: conversación temprana, registro de cada retardo, llamada de atención por escrito, escuchar a la persona y consulta con un asesor antes de decidir.`,
+q: [["El finiquito es…",["Lo que se le debe al trabajador al terminar la relación, por cualquier causa","Solo la indemnización por despido","Un impuesto"],0,"Incluye proporcionales de aguinaldo, vacaciones y prima."],
+["La liquidación incluye, además del finiquito…",["Una indemnización en caso de despido injustificado","Nada","El IVA"],0,"Por eso un despido injustificado cuesta más."],
+["Desde la reforma de 2019, antes de un juicio laboral normalmente hay que pasar por…",["Una etapa de conciliación","La Profeco","El SAT"],0,"Ante los centros de conciliación."],
+["¿Qué ayuda más a manejar un conflicto laboral?",["Tener reglas claras y documentar los hechos","Despedir en caliente","No tener contrato"],0,"El expediente en orden es la mejor defensa."]],
+t: ["Renuncia","Despido justificado","Despido injustificado","Finiquito","Liquidación","Indemnización","Prima de antigüedad","Conciliación laboral"]
+}
+});
