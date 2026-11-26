@@ -1,0 +1,7 @@
+{"title":"Administración de Empresas: de la idea a la dirección estratégica","short":"Curso de Administración","sub":"Gestión, finanzas, marketing, personas, operaciones, estrategia y emprendimiento, con casos reales y herramientas prácticas.",
+"lastLevel":4,"fillLesson":"Ronda de la simulación","catalogKey":"Casos","catalogName":"Casos de estudio","peopleKeys":["Autores clave","Autores y referencias"],"peopleName":"Autores","toolset":"admin",
+"areaMap":{"FUN":"FUN","ADM":"ADM","FIN":"FIN","MKT":"MKT","RH":"RH","OPE":"OPE","EST":"EST","EMP":"EMP","ECO":"TRA","DIG":"TRA","DER":"TRA","DIR":"TRA","GOB":"TRA","SIM":"INT","PROY":"INT"},
+"areas":{"FUN":["Fundamentos","#7a6f5c","🏢"],"ADM":["Gestión y dirección","#1d3557","🧭"],"FIN":["Finanzas y contabilidad","#2e7d32","📈"],"MKT":["Marketing","#c62828","📣"],"RH":["Recursos humanos","#e07a1f","👥"],"OPE":["Operaciones","#607080","⚙️"],"EST":["Estrategia","#6a3d9a","♟️"],"EMP":["Emprendimiento","#b38f00","🚀"],"TRA":["Transversales","#138a8a","🧩"],"INT":["Integración","#a07800","🏆"]},
+"levelNames":["Propedéutica: entender la empresa","Básico","Intermedio","Avanzado","Integración y dirección"],
+"legend":"Café Raíz es la empresa ficticia que acompaña los ejemplos de todo el curso.",
+"footer":"Contenido educativo: no es asesoría legal, fiscal ni de inversión. Progreso guardado solo en tu navegador."}

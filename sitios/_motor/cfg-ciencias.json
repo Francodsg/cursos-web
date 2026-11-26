@@ -1,0 +1,7 @@
+{"title":"Ciencias: del método científico a las fronteras del conocimiento","short":"Curso de Ciencias","sub":"Física, química, biología, astronomía, Tierra, ecología, salud y datos: de lo básico a lo avanzado.",
+"lastLevel":4,"fillLesson":"Sesión","catalogKey":"Experimentos","catalogName":"Experimentos","peopleKeys":["Científicos clave"],"peopleName":"Científicos","toolset":"ciencias",
+"areaMap":{"FUN":"FUN","MAT":"FUN","FIS":"FIS","QUI":"QUI","BIO":"BIO","AST":"AST","TIE":"TIE","ECO":"ECO","SAL":"SAL","DAT":"DAT","FRO":"FRO","PROY":"FRO"},
+"areas":{"FUN":["Fundamentos","#7a6f5c","🔬"],"FIS":["Física","#1f5fa8","⚛️"],"QUI":["Química","#c2620c","⚗️"],"BIO":["Biología","#2e7d32","🧬"],"AST":["Astronomía","#5b3c99","🪐"],"TIE":["Ciencias de la Tierra","#7b5536","⛰️"],"ECO":["Ecología y ambiente","#5f9c2f","🌿"],"SAL":["Cuerpo humano y salud","#b3261e","❤️"],"DAT":["Datos y computación","#555","📊"],"FRO":["Fronteras e integración","#a07800","✨"]},
+"levelNames":["Propedéutica: pensar como científico","Básico","Intermedio","Avanzado","Fronteras e integración"],
+"legend":"🏠 casa · 🧪 laboratorio escolar · 💻 simulación · 🟢 sin riesgo · 🟡 precaución, con adulto · 🔴 solo laboratorio supervisado, nunca en casa",
+"footer":"Contenido educativo. Los experimentos 🟡 requieren un adulto; los 🔴 solo se hacen en laboratorio supervisado. Progreso guardado solo en tu navegador."}
