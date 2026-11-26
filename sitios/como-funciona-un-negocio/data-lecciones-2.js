@@ -1,2 +1,3835 @@
 // Texto completo de las lecciones del Nivel 2.
 window.LECC = window.LECC || {};
+// ===== M6. Estructura y organigrama =====
+Object.assign(window.LECC, {
+"M6-1": {
+s: `Tortas Lupita ya tiene local y seis empleados. El lunes, dos personas fueron a comprar pan y nadie compró gas. El martes, la cajera y el repartidor discutieron porque ninguno sabía quién debía contestar el WhatsApp. Lupita entiende que necesita algo más que buena voluntad: necesita estructura.`,
+o: ["Explicar para qué sirve la estructura de un negocio.","Distinguir división del trabajo, coordinación, autoridad y responsabilidad.","Reconocer los síntomas de un negocio sin estructura."],
+x: `## ¿Qué es la estructura?
+La **estructura** de un negocio es la forma en que se reparte el trabajo entre las personas y se coordina para lograr un resultado común. Responde preguntas sencillas pero fundamentales: **¿quién hace qué?**, **¿a quién reporta cada quien?**, **¿quién decide qué cosas?** y **¿cómo se comunican las partes?** Cuando hay una o dos personas, estas respuestas están en la cabeza del dueño. Cuando hay seis, sesenta o seis mil, tienen que estar claras para todos.
+
+## Dividir el trabajo
+La primera función de la estructura es **dividir el trabajo**. En 1776, el economista escocés Adam Smith describió en «La riqueza de las naciones» una fábrica de alfileres: una persona sola, haciendo todo el proceso, apenas lograba unos cuantos alfileres al día; diez personas, cada una especializada en una parte (estirar el alambre, cortarlo, afilarlo, ponerle la cabeza), producían miles. La **especialización** permite que cada persona se vuelva más hábil en su tarea, que no pierda tiempo cambiando de actividad y que se usen herramientas especiales para cada paso.
+
+En Tortas Lupita, dividir el trabajo significa que una persona prepara las tortas, otra cobra, otra entrega los pedidos y otra se encarga de las compras. Cada una se vuelve más rápida y comete menos errores en su parte.
+
+## Coordinar
+Pero dividir el trabajo crea un nuevo problema: **coordinar** las partes. Si el cocinero no sabe cuántos pedidos hay, si la cajera no avisa que se acabaron las bolsas o si el repartidor sale sin revisar las direcciones, el negocio se traba. La estructura establece cómo se coordinan las personas:
+- **Supervisión directa:** un jefe da instrucciones y revisa.
+- **Estandarización de procesos:** todos siguen el mismo procedimiento escrito.
+- **Estandarización de resultados:** se fijan metas y cada quien decide cómo alcanzarlas.
+- **Ajuste mutuo:** las personas se comunican y se ponen de acuerdo directamente.
+
+El estudioso de las organizaciones Henry Mintzberg describió estos mecanismos y explicó que las organizaciones pequeñas se coordinan sobre todo por ajuste mutuo y supervisión directa, mientras que las grandes dependen cada vez más de la estandarización.
+
+## Autoridad y responsabilidad
+La estructura también define la **autoridad** (el derecho a tomar decisiones y dar instrucciones) y la **responsabilidad** (la obligación de cumplir una tarea y rendir cuentas por el resultado). Una regla clásica de la administración dice que la autoridad y la responsabilidad deben ir juntas: si a alguien se le hace responsable del inventario, debe tener autoridad para hacer pedidos. Si no, se le exige algo que no puede controlar.
+
+Otra regla clásica, la **unidad de mando**, propuesta por el ingeniero francés Henri Fayol a principios del siglo XX, dice que cada persona debe recibir órdenes de un solo jefe. Cuando dos jefes dan instrucciones contradictorias, el empleado no sabe a quién hacer caso. (Más adelante verás que algunas estructuras modernas rompen esta regla a propósito).
+
+## Los síntomas de un negocio sin estructura
+Cuando la estructura falta o no está clara, aparecen síntomas reconocibles:
+- **Tareas duplicadas:** dos personas compran pan el mismo día.
+- **Tareas huérfanas:** nadie compra el gas, porque cada quien creía que lo haría otro.
+- **Conflictos de autoridad:** «¿quién te dijo que hicieras eso?».
+- **Todo llega al dueño:** cualquier duda, por pequeña que sea, termina en él.
+- **Nadie rinde cuentas:** cuando algo sale mal, no hay un responsable claro.
+- **Información que se pierde:** el pedido de la oficina llegó al WhatsApp, pero nadie lo vio.
+- **Calidad variable:** cada quien hace las cosas a su manera.
+
+## Estructura formal e informal
+Hay que distinguir dos estructuras que conviven en todo negocio:
+- **Estructura formal:** la que está definida y escrita: puestos, jefes, funciones, organigrama.
+- **Estructura informal:** las relaciones reales entre las personas: quién le pide favores a quién, quién tiene influencia aunque no tenga cargo, quién sabe resolver ciertos problemas.
+
+En los negocios familiares, la estructura informal suele pesar mucho: el hijo mayor manda aunque formalmente sea cocinero, o la tía que lleva más años es la que realmente decide. No se puede eliminar la estructura informal, pero sí conviene que la formal esté clara para evitar confusiones.
+
+## La estructura sigue a la estrategia
+El historiador de los negocios Alfred Chandler estudió a grandes empresas de Estados Unidos y concluyó que **la estructura sigue a la estrategia**: cuando una empresa cambia lo que quiere lograr (por ejemplo, entrar a nuevos mercados o producir nuevos productos), tarde o temprano tiene que cambiar su forma de organizarse. Un puesto de tortas, un local con empleados y una cadena de sucursales necesitan estructuras distintas, porque hacen cosas distintas.
+
+## No hay una estructura perfecta
+Ninguna estructura resuelve todos los problemas. Cada forma de organizarse tiene ventajas y costos, y lo que funciona para una empresa puede fallar en otra. En este módulo verás las estructuras más comunes, desde el changarro hasta las corporaciones, y aprenderás a leer y dibujar organigramas. Al final podrás diseñar la estructura de Tortas Lupita en cada etapa de su crecimiento.
+
+## La decisión de Lupita
+Lupita hace una lista de todas las tareas del local y le asigna un responsable a cada una: compras (Toño), cocina (dos cocineros), caja y WhatsApp (la cajera), entregas (el repartidor), limpieza (por turnos). Además, decide que Toño será el encargado del local y que todos le reportan a él, mientras ella se ocupa de los números, los proveedores y la relación con las oficinas. En dos semanas, las compras duplicadas y los pedidos perdidos desaparecen.`,
+k: `**Estructura:** cómo se divide el trabajo, se coordina, se asigna autoridad y responsabilidad. Principios clásicos: **especialización** (Adam Smith), **unidad de mando** y **autoridad con responsabilidad** (Henri Fayol). «La estructura sigue a la estrategia» (Alfred Chandler).`,
+ch: `En una fonda familiar sin estructura, la abuela, la hija y el sobrino toman pedidos al mismo tiempo y a veces cobran dos veces la misma mesa. Al asignar un responsable de cobro, el problema desaparece.`,
+gi: `En una empresa como Toyota, la división del trabajo y la coordinación por procesos estandarizados permiten que miles de personas en una planta ensamblen autos con la misma calidad cada día.`,
+e: `Lupita lista las tareas del local y les asigna responsable:
+
+| Tarea | Antes | Ahora |
+|---|---|---|
+| Comprar pan y carne | «El que pueda» | Toño, a las 6:30 |
+| Comprar gas | Nadie | Toño, cada lunes |
+| Preparar tortas | Todos | Cocinero 1 y Cocinero 2 |
+| Cobrar y contestar WhatsApp | Cajera y repartidor | Cajera |
+| Entregar pedidos | Repartidor | Repartidor |
+| Revisar inventario | Nadie | Toño, al cierre |
+| Pagar proveedores | Lupita | Lupita |
+
+Resultado: cada tarea tiene un solo responsable y cada persona sabe a quién reporta.`,
+r: `Alfred Chandler, en su libro «Estrategia y estructura» (1962), estudió cómo empresas como DuPont y General Motors cambiaron su organización en los años veinte para manejar nuevos productos y mercados, y formuló la idea de que la estructura sigue a la estrategia.`,
+f: `Adam Smith, «La riqueza de las naciones» (1776), libro I, cap. 1; Henri Fayol, «Administración industrial y general» (1916); Alfred D. Chandler Jr., «Strategy and Structure» (1962).`,
+err: ["Creer que la estructura es solo para empresas grandes.","Dar responsabilidad sin autoridad.","Que dos jefes den órdenes contradictorias.","Ignorar la estructura informal."],
+a: `Haz la lista de todas las tareas de un negocio que conozcas (o de tu casa) y asigna un responsable a cada una. Marca las tareas duplicadas y las huérfanas que encuentres.`,
+sol: `Una tarea bien asignada tiene un solo responsable, una frecuencia (diaria, semanal) y una forma de revisar que se cumplió.`,
+q: [["La división del trabajo permite…",["Que cada persona se especialice y sea más productiva","Que nadie sea responsable","Eliminar la coordinación"],0,"Ejemplo clásico: la fábrica de alfileres de Adam Smith."],
+["La unidad de mando significa que…",["Cada persona recibe órdenes de un solo jefe","Todos mandan","No hay jefes"],0,"Principio de Henri Fayol."],
+["Una «tarea huérfana» es…",["Una tarea que nadie hace porque cada quien creía que la haría otro","Una tarea muy fácil","Una tarea del dueño"],0,"Es un síntoma de falta de estructura."],
+["La idea «la estructura sigue a la estrategia» es de…",["Alfred Chandler","Adam Smith","Milton Friedman"],0,"Estudió grandes empresas de Estados Unidos."]],
+t: ["Estructura organizacional","División del trabajo","Unidad de mando","Autoridad","Estructura informal"]
+},
+"M6-2": {
+s: `Toño consigue el organigrama de la cadena de supermercados donde trabaja su primo. Ve cajas, líneas continuas, líneas punteadas y una caja de lado que dice «Asesoría jurídica». No entiende nada. ¿Cómo se lee un organigrama?`,
+o: ["Leer un organigrama: niveles, líneas de mando y puestos de apoyo.","Distinguir puestos de línea y de staff.","Dibujar un organigrama sencillo."],
+x: `## ¿Qué es un organigrama?
+Un **organigrama** es un dibujo de la estructura formal de una organización. Muestra los puestos o áreas (normalmente en cajas) y las relaciones entre ellos (con líneas). Es como un mapa: no cuenta todo lo que pasa en el negocio, pero ayuda a entender rápidamente quién es quién, quién reporta a quién y cómo está dividido el trabajo.
+
+## Los elementos básicos
+- **Cajas:** representan puestos (director general, cajera) o áreas (Finanzas, Ventas). A veces llevan el nombre de la persona.
+- **Líneas continuas verticales:** indican **autoridad formal** o línea de mando: el puesto de arriba es el jefe del puesto de abajo.
+- **Líneas horizontales:** conectan puestos del mismo nivel que reportan al mismo jefe.
+- **Líneas punteadas:** indican relaciones de coordinación, asesoría o reporte funcional, sin autoridad directa. Por ejemplo, el contador de una sucursal reporta directamente al gerente de la sucursal, pero sigue los lineamientos del director de finanzas (línea punteada).
+- **Cajas a un lado de la línea principal:** suelen ser puestos de **staff** o apoyo (asesoría legal, auditoría, asistente de dirección).
+
+## Niveles jerárquicos
+La posición vertical indica el **nivel jerárquico**. En general:
+1. **Alta dirección:** director general y, en empresas grandes, el consejo de administración por encima.
+2. **Mandos medios:** gerentes de área, gerentes regionales, jefes de departamento.
+3. **Supervisión:** supervisores, encargados de turno, jefes de equipo.
+4. **Operación:** quienes hacen directamente el trabajo: cocineros, vendedores, cajeros, operarios.
+
+Mientras más niveles tiene un organigrama, más «alto» o vertical es; mientras menos, más «plano».
+
+## Puestos de línea y de staff
+Una distinción importante:
+- **Puestos de línea:** forman parte de la cadena principal que produce y vende. Tienen autoridad para dar órdenes en esa cadena. Ejemplo: gerente de operaciones → encargado de sucursal → cocinero.
+- **Puestos de staff (apoyo o asesoría):** ayudan a los de línea con conocimiento especializado, pero normalmente no dan órdenes a la cadena principal. Ejemplo: asesor legal, auditor interno, área de calidad, asistente de dirección.
+
+En un restaurante, el chef y el gerente son línea; el nutriólogo que diseña los menús saludables es staff. En una empresa grande, áreas como Jurídico, Auditoría o Planeación suelen dibujarse como staff de la dirección general.
+
+## Cómo leer un organigrama paso a paso
+1. **Empieza arriba:** ¿quién es la máxima autoridad?
+2. **Mira el primer nivel:** ¿en qué grandes áreas se divide la organización? (por funciones, regiones, productos).
+3. **Sigue una línea hacia abajo:** ¿cuántos niveles hay hasta llegar a la operación?
+4. **Busca el staff:** ¿qué áreas de apoyo dependen directamente de la dirección?
+5. **Revisa las líneas punteadas:** ¿hay relaciones de coordinación entre áreas?
+6. **Cuenta cuántas personas reportan a cada jefe:** eso es el tramo de control (lección M6-7).
+
+## Formas de dibujarlo
+- **Vertical:** la autoridad va de arriba hacia abajo. Es el más común.
+- **Horizontal:** la autoridad va de izquierda a derecha. Útil cuando hay muchos niveles.
+- **Circular:** la dirección en el centro y los niveles en círculos concéntricos; transmite la idea de cercanía.
+- **De lista o sangría:** como un índice con niveles; práctico en documentos.
+
+## Lo que el organigrama no dice
+El organigrama muestra la estructura **formal**, pero no:
+- Cómo fluye realmente la información.
+- Quién tiene influencia sin tener cargo.
+- Qué tan bien funciona cada área.
+- Los procesos que cruzan varias áreas (como atender un pedido, que pasa por ventas, cocina, caja y reparto).
+
+Por eso se complementa con **descripciones de puestos** (lección M6-8) y con **diagramas de procesos** (Módulo 9).
+
+## El organigrama de Tortas Lupita en el local
+- **Nivel 1:** Lupita, directora general.
+- **Staff:** contador externo (línea punteada, porque no es empleado).
+- **Nivel 2:** Toño, encargado del local.
+- **Nivel 3:** cocinero 1, cocinero 2, cajera y repartidor (reportan a Toño).
+
+Es un organigrama sencillo, de tres niveles, en el que Lupita tiene un solo subordinado directo (Toño) y Toño tiene cuatro. Puedes cargarlo en el **constructor de organigramas** del curso («Etapa 2») y modificarlo.
+
+## Un organigrama vivo
+El organigrama debe actualizarse cuando cambian los puestos o las personas. Un organigrama viejo, pegado en la pared con nombres de personas que ya se fueron, confunde más de lo que ayuda. En empresas grandes, el área de Recursos Humanos suele mantenerlo actualizado en un sistema; en una pyme, basta con revisarlo cada vez que se contrata a alguien o se crea un puesto.
+
+## Errores comunes al dibujar un organigrama
+Al dibujar un organigrama por primera vez, es común cometer algunos errores: poner a una persona con dos jefes con línea continua (sin que sea una matriz pensada), dibujar a los familiares por su parentesco y no por su puesto, olvidar a los asesores externos que influyen mucho en las decisiones (como el contador), o dibujar niveles que no existen en la realidad para «verse más grandes». Un buen organigrama es honesto: refleja cómo está organizado el negocio hoy, aunque sea sencillo. Si al dibujarlo descubres que una persona reporta a tres jefes o que un área no tiene responsable, ya encontraste un problema que vale la pena resolver.`,
+k: `**Organigrama:** dibujo de la estructura formal. Cajas = puestos o áreas; **líneas continuas** = autoridad; **líneas punteadas** = coordinación o asesoría. **Línea:** cadena que produce y vende. **Staff:** apoyo especializado sin mando directo. Niveles: alta dirección, mandos medios, supervisión y operación.`,
+ch: `El organigrama de una papelería familiar: la dueña arriba; debajo, su hija (encargada) y, debajo de ella, dos vendedores. El contador externo aparece al lado con línea punteada.`,
+gi: `Las grandes empresas que cotizan en bolsa suelen publicar en su informe anual o en su página de inversionistas la lista de su equipo directivo, que muestra el primer nivel de su organigrama: director general y directores de cada área o región.`,
+e: `Toño dibuja el organigrama del local en forma de lista:
+
+- Lupita, directora general
+  - (staff, línea punteada) Contador externo
+  - Toño, encargado del local
+    - Cocinero 1
+    - Cocinero 2
+    - Cajera
+    - Repartidor
+
+Cuenta: 3 niveles, 7 personas, Toño con 4 subordinados directos.`,
+r: `Grupo Bimbo presenta en su sitio de inversionistas y en su informe anual a su equipo directivo: director general, directores de cada región (por ejemplo, Norteamérica, México, Latinoamérica y Europa, Asia y África) y directores de áreas corporativas como finanzas y recursos humanos. Es el primer nivel de su organigrama.`,
+f: `Grupo Bimbo, informe anual integrado y sección de gobierno corporativo (grupobimbo.com).`,
+err: ["Dibujar el organigrama con nombres en lugar de puestos y no actualizarlo.","Confundir puestos de staff con jefes de línea.","Creer que el organigrama muestra cómo fluye realmente el trabajo.","Tener un organigrama con más niveles de los necesarios."],
+a: `Dibuja el organigrama de un negocio u organización que conozcas (escuela, trabajo, tienda) usando el constructor de organigramas del curso. Identifica niveles, puestos de línea y de staff.`,
+sol: `Revisa que cada puesto tenga un solo jefe con línea continua y que los asesores externos aparezcan con línea punteada o al lado.`,
+q: [["En un organigrama, una línea continua vertical indica…",["Autoridad formal (quién es jefe de quién)","Amistad","Asesoría externa"],0,"Es la línea de mando."],
+["Un asesor legal que apoya a la dirección sin mandar a la operación es un puesto de…",["Staff","Línea","Operación"],0,"Da apoyo especializado."],
+["¿Qué NO muestra un organigrama?",["Quién tiene influencia sin tener cargo","Quién reporta a quién","Las áreas de la organización"],0,"La estructura informal no aparece."],
+["Los gerentes de área suelen estar en el nivel de…",["Mandos medios","Operación","Consejo de administración"],0,"Entre la alta dirección y la supervisión."]],
+t: ["Organigrama","Puesto de línea","Puesto de staff","Nivel jerárquico","Mandos medios"]
+},
+"M6-3": {
+s: `En el puesto original, Lupita hacía todo y Toño ayudaba «en lo que se ofreciera». Funcionaba bien con dos personas. Pero Lupita se pregunta por qué tantos changarros siguen así durante décadas y por qué les cuesta tanto cambiar.`,
+o: ["Describir la estructura simple típica del changarro.","Reconocer sus ventajas y sus límites.","Identificar cuándo un changarro necesita una estructura más formal."],
+x: `## La estructura simple
+En un changarro, la estructura es casi invisible: el dueño está en el centro y todos los demás (familiares, ayudantes) trabajan directamente con él. No hay áreas, ni gerentes, ni manuales. Henry Mintzberg llamó a este tipo de organización **estructura simple**: poca especialización, pocas reglas escritas, casi ninguna jerarquía intermedia y un dueño que coordina todo mediante **supervisión directa**.
+
+Si se dibujara su organigrama, sería una caja arriba (el dueño) y unas cuantas cajas abajo, todas conectadas directamente a él. Muchas veces ni siquiera hay puestos definidos: «el muchacho» ayuda en lo que haga falta.
+
+## Cómo funciona por dentro
+- **Decisiones:** todas las importantes (y muchas pequeñas) las toma el dueño, a veces en el momento.
+- **Roles:** flexibles; la misma persona atiende, cobra, limpia y va por mercancía.
+- **Comunicación:** cara a cara, en el día a día.
+- **Reglas:** pocas y no escritas: «así se hace aquí».
+- **Control:** el dueño ve todo con sus propios ojos.
+- **Familia:** muchas veces los ayudantes son hijos, sobrinos o cónyuges, y los roles del negocio se mezclan con los familiares.
+
+## Las ventajas de la estructura simple
+1. **Rapidez:** no hay que pedir permiso a nadie; si el dueño ve una oportunidad, actúa.
+2. **Flexibilidad:** se cambia el horario, el producto o el precio de un día para otro.
+3. **Costos bajos:** no hay sueldos de gerentes ni áreas administrativas.
+4. **Claridad de mando:** todos saben quién decide.
+5. **Cercanía con el cliente:** el dueño atiende personalmente y escucha a sus clientes.
+6. **Compromiso:** en los negocios familiares, todos sienten el negocio como propio.
+
+## Los límites
+La estructura simple funciona muy bien mientras el negocio es pequeño. Pero tiene límites claros:
+1. **Todo depende del dueño.** Si se enferma, viaja o se cansa, el negocio se detiene o se desordena.
+2. **El dueño es el cuello de botella.** Su tiempo y su atención son finitos; el negocio no puede crecer más allá de lo que él puede supervisar.
+3. **Falta de especialización.** Nadie se vuelve experto en finanzas, compras o marketing, porque todos hacen de todo.
+4. **Riesgo de errores repetidos.** Sin procesos escritos, cada quien hace las cosas a su manera y los errores se repiten.
+5. **Difícil incorporar a personas nuevas.** Lo que «todos saben» no está escrito; un empleado nuevo tarda en aprender.
+6. **Conflictos familiares.** Sin roles claros, las discusiones del negocio se mezclan con las de la familia.
+7. **Poca información.** Lo que no está en la cabeza del dueño, no está en ningún lado.
+
+## ¿Por qué tantos changarros no cambian?
+Hay varias razones por las que muchos negocios se quedan con la estructura simple:
+- **Funciona lo suficiente:** el negocio da para vivir y no se ve la necesidad de cambiar.
+- **Miedo a perder el control:** delegar significa confiar en otros y aceptar que harán las cosas de otra manera.
+- **Falta de tiempo:** el dueño está tan ocupado operando que no tiene tiempo para organizar.
+- **Falta de conocimiento:** no sabe cómo escribir un procedimiento o cómo dividir funciones.
+- **Costos:** contratar a un encargado o a un administrador cuesta dinero.
+- **Decisión de vida:** algunos dueños prefieren un negocio pequeño que puedan manejar solos (lección M18-8).
+
+No es un error quedarse pequeño si es una decisión consciente. El problema es quedarse pequeño **por no saber cómo crecer** o crecer **sin cambiar la estructura**.
+
+## Señales de que el changarro necesita más estructura
+- El dueño trabaja más de 60 horas a la semana y aun así no le alcanza el tiempo.
+- Las ventas crecen, pero también los errores y las quejas.
+- Se pierden pedidos o mercancía y nadie sabe por qué.
+- Hay empleados que no saben qué hacer si el dueño no está.
+- Se discute con frecuencia sobre quién debía hacer qué.
+- El dueño no puede tomar vacaciones sin que el negocio sufra.
+
+## Los primeros pasos para salir de la estructura simple
+No hace falta convertirse en una empresa grande de golpe. Los primeros pasos son sencillos:
+1. **Definir roles:** escribir qué hace cada persona y quién la sustituye si falta.
+2. **Nombrar a un encargado:** alguien de confianza que pueda tomar decisiones cotidianas cuando el dueño no está.
+3. **Escribir los procesos clave:** cómo se prepara el producto principal, cómo se cobra, cómo se cierra la caja.
+4. **Separar familia y negocio:** reglas claras sobre sueldos, horarios y decisiones para los familiares que trabajan.
+5. **Registrar la información:** ventas, gastos, inventario, en libreta, hoja de cálculo o sistema.
+
+Con esos cinco pasos, el negocio sigue siendo pequeño y ágil, pero deja de depender por completo de la memoria y la presencia del dueño.
+
+## Tortas Lupita en el puesto
+En el puesto, Tortas Lupita era una estructura simple perfecta: Lupita decidía y cocinaba, Toño ayudaba en todo. Funcionaba porque eran dos personas que se conocían de toda la vida. Cuando abrieron el local con seis empleados, la misma estructura empezó a fallar: los empleados no sabían a quién preguntar y Lupita no podía estar en la cocina, en la caja y con los proveedores al mismo tiempo. Por eso tuvieron que pasar a una estructura funcional (lección M6-4).`,
+k: `**Estructura simple** (Mintzberg): el dueño en el centro, poca especialización, pocas reglas, coordinación por **supervisión directa**. Ventajas: rapidez, flexibilidad, bajo costo. Límites: **todo depende del dueño**, poca especialización y poca información. Primeros pasos para salir: roles, encargado, procesos escritos, separar familia y negocio, registrar información.`,
+ch: `Un taller de reparación de celulares con el dueño y su sobrino: el dueño recibe, diagnostica, compra piezas y cobra; el sobrino repara. Si el dueño se va una semana, el taller cierra.`,
+gi: `Muchas empresas gigantes tuvieron una estructura simple en sus inicios: Amazon empezó en 1994 en el garaje de Jeff Bezos, con un puñado de personas que hacían de todo, desde programar hasta empacar libros.`,
+e: `Lupita aplica la lista de señales al puesto y al local:
+
+| Señal | Puesto | Local |
+|---|---|---|
+| El dueño trabaja más de 60 h a la semana | Sí | Sí |
+| Errores y quejas crecen con las ventas | No | Sí |
+| Se pierden pedidos | No | Sí |
+| Empleados sin saber qué hacer si falta el dueño | No aplica | Sí |
+| Discusiones sobre quién debía hacer qué | No | Sí |
+
+En el puesto, la estructura simple funcionaba. En el local, cinco de cinco señales indican que hace falta más estructura.`,
+r: `Amazon fue fundada por Jeff Bezos en 1994 y comenzó a operar desde un garaje en Bellevue, Washington, con muy pocas personas que realizaban todas las tareas. La empresa ha contado esta historia en sus materiales corporativos.`,
+f: `Amazon, información corporativa sobre su historia (aboutamazon.com).`,
+err: ["Creer que la estructura simple funciona igual con 20 personas que con 2.","Pensar que delegar es perder el control.","No escribir nada porque «todos saben».","Mezclar roles familiares y de negocio sin reglas."],
+a: `Si conoces un changarro, entrevista a su dueño: ¿qué pasaría si faltara dos semanas?, ¿qué tareas solo puede hacer él?, ¿quién podría sustituirlo? Propón los dos primeros pasos para reducir su dependencia.`,
+sol: `Los dos primeros pasos más útiles suelen ser nombrar a un encargado con autoridad para lo cotidiano y escribir el proceso de cierre de caja e inventario.`,
+q: [["¿Quién describió la «estructura simple» de las organizaciones?",["Henry Mintzberg","Adam Smith","Michael Porter"],0,"Mintzberg estudió las configuraciones organizacionales."],
+["La coordinación en una estructura simple se basa sobre todo en…",["La supervisión directa del dueño","Manuales detallados","Comités"],0,"El dueño ve y decide todo."],
+["Una ventaja de la estructura simple es…",["Rapidez para decidir","Mucha especialización","Muchos niveles de mando"],0,"No hay que pedir permiso."],
+["¿Cuál es una señal de que hace falta más estructura?",["Los empleados no saben qué hacer si falta el dueño","Hay pocos clientes","El negocio está cerrado"],0,"Indica dependencia total del dueño."]],
+t: ["Estructura simple","Supervisión directa","Encargado","Cuello de botella"]
+},
+"M6-4": {
+s: `Con el local funcionando, Lupita piensa en abrir más horas y agregar pedidos para oficinas. Toño propone organizarse «por áreas»: cocina, atención y caja, compras y administración. Así nace la primera estructura funcional de Tortas Lupita.`,
+o: ["Describir la estructura funcional.","Analizar sus ventajas y desventajas.","Diseñar una estructura funcional para una pyme."],
+x: `## Organizarse por funciones
+La **estructura funcional** agrupa a las personas según la **función** o tipo de trabajo que realizan: todos los que venden en Ventas, todos los que producen en Operaciones, todos los que llevan las cuentas en Finanzas, y así. Es la forma más común de organizar a una pyme y también se usa dentro de muchas empresas grandes. Cada área tiene un jefe que reporta a la dirección general.
+
+## Las áreas típicas
+| Área | Qué hace | En Tortas Lupita (local) |
+|---|---|---|
+| Dirección general | Decide el rumbo, coordina las áreas | Lupita |
+| Operaciones o producción | Produce el producto o presta el servicio | Cocina (2 cocineros) |
+| Ventas y atención | Atiende y vende a los clientes | Cajera y repartidor |
+| Compras y almacén | Consigue insumos y controla el inventario | Toño |
+| Administración y finanzas | Cuentas, pagos, cobros, nómina, impuestos | Lupita + contador externo |
+| Marketing | Atrae clientes y cuida la marca | Lupita (redes sociales) |
+| Recursos humanos | Contratación, capacitación, nómina | Lupita |
+
+En un negocio pequeño, una persona puede encabezar varias funciones (como Lupita, que dirige, lleva las finanzas y hace marketing). Lo importante es que cada función tenga un responsable claro.
+
+## Las ventajas de la estructura funcional
+1. **Especialización:** cada área desarrolla conocimiento y habilidades propias. Los cocineros se vuelven expertos en cocina; quien lleva las compras aprende a negociar.
+2. **Eficiencia:** se evitan duplicidades; hay un solo responsable de compras para todo el negocio.
+3. **Claridad:** cada persona sabe a qué área pertenece y quién es su jefe.
+4. **Desarrollo profesional:** las personas pueden crecer dentro de su área (de ayudante de cocina a jefe de cocina).
+5. **Control:** la dirección puede medir el desempeño de cada área.
+6. **Economías de escala internas:** el área de compras compra para todo el negocio, con mejores precios.
+
+## Las desventajas
+1. **Silos:** cada área se concentra en sus propios objetivos y se olvida del objetivo común. Compras quiere el pan más barato; Cocina quiere el pan de mejor calidad; Ventas quiere que siempre haya de todo. Si nadie coordina, chocan.
+2. **Lentitud en procesos que cruzan áreas:** un pedido de oficina pasa por ventas (lo toma), cocina (lo prepara), caja (lo cobra) y reparto (lo entrega). Si cada área trabaja por su lado, el pedido se atora en los cambios de mano.
+3. **Sobrecarga de la dirección:** todas las áreas reportan a la dirección general, que tiene que coordinarlas y resolver conflictos.
+4. **Visión limitada:** las personas conocen bien su área, pero poco el negocio completo.
+5. **Dificultad para crecer en varios productos o regiones:** si la empresa abre sucursales en otras ciudades o lanza productos muy distintos, una sola área de Ventas o de Operaciones puede no dar abasto.
+
+## Cómo reducir los silos
+Algunas prácticas sencillas ayudan a que las áreas trabajen juntas:
+- **Objetivos compartidos:** además de metas por área, metas comunes (por ejemplo, «tiempo de entrega de pedidos de oficina menor a 30 minutos»).
+- **Juntas de coordinación:** una reunión semanal breve con los responsables de cada área.
+- **Responsable de proceso:** alguien que vigila un proceso completo (de que entra el pedido a que se entrega), aunque cruce áreas.
+- **Rotación:** que las personas conozcan otras áreas (el repartidor ayuda un día en caja).
+- **Información compartida:** un tablero con los indicadores clave visible para todos.
+
+## Cuándo conviene la estructura funcional
+La estructura funcional funciona mejor cuando:
+- El negocio tiene **un producto principal** o una línea parecida de productos.
+- Opera en **un solo lugar o región**.
+- El entorno es relativamente **estable**.
+- Se busca **eficiencia y especialización**.
+
+Cuando el negocio crece en muchas regiones, productos o tipos de clientes, suele pasar a una estructura por divisiones (lección M6-5) o a una combinación.
+
+## Diseñar la estructura funcional de una pyme
+Pasos prácticos:
+1. **Lista de funciones:** todo lo que el negocio necesita hacer.
+2. **Agrupa** las funciones parecidas en áreas.
+3. **Asigna un responsable** a cada área, aunque una persona encabece varias.
+4. **Define quién reporta a quién** y dibuja el organigrama.
+5. **Escribe** las responsabilidades de cada área y sus indicadores principales.
+6. **Define cómo se coordinan** las áreas (juntas, procesos compartidos).
+7. **Revisa** cada seis meses o cuando el negocio cambie.
+
+## El organigrama funcional de Tortas Lupita
+Cuando Tortas Lupita abre su local ampliado con nueve personas y pedidos a oficinas, queda así:
+- **Dirección general:** Lupita.
+- **Operaciones (cocina y local):** Toño, encargado; debajo, jefe de cocina, dos cocineros y un ayudante.
+- **Ventas y atención:** cajera y una ejecutiva de pedidos para oficinas.
+- **Reparto:** repartidor (reporta a Ventas).
+- **Administración y finanzas:** una auxiliar administrativa de medio tiempo, con el contador externo como apoyo.
+
+Lupita deja de cocinar y dedica su tiempo a dirigir, revisar números, negociar con proveedores y conseguir clientes corporativos. Es el gran salto de «hacer» a «dirigir».
+
+## Una señal de alerta
+Si la dirección general pasa la mayor parte de su tiempo resolviendo conflictos entre áreas, la estructura funcional necesita mejores mecanismos de coordinación.`,
+k: `**Estructura funcional:** agrupa por tipo de trabajo (operaciones, ventas, compras, finanzas, marketing, RH), cada área con un jefe que reporta a la dirección. Ventajas: especialización, eficiencia, claridad. Desventajas: **silos**, lentitud en procesos que cruzan áreas y sobrecarga de la dirección. Ideal para un producto principal en un solo lugar.`,
+ch: `Una panadería mediana se organiza en Producción (panaderos), Ventas (mostrador y repartidores) y Administración (cuentas y compras). La dueña dirige y coordina a los tres jefes.`,
+gi: `Dentro de muchas grandes empresas, el corporativo se organiza por funciones: dirección de finanzas, de recursos humanos, jurídica, de tecnología, aunque las unidades de negocio se organicen por región o producto.`,
+e: `Toño detecta un silo: Compras consigue un pan 1 peso más barato, pero Cocina se queja de que se desmorona y Ventas recibe quejas de clientes.
+
+| Área | Objetivo propio | Efecto del pan barato |
+|---|---|---|
+| Compras | Bajar el costo | Ahorra 1 peso por torta (3,600 al mes) |
+| Cocina | Tortas firmes y rápidas | Más tiempo por torta y desperdicio |
+| Ventas | Clientes contentos | 3 quejas diarias |
+
+Lupita fija un objetivo común: «calidad aprobada por Cocina al menor costo». Compras consigue otro proveedor que cumple la calidad con un ahorro de 0.50 pesos.`,
+r: `Henri Fayol, ingeniero y director de una empresa minera francesa, propuso a principios del siglo XX que toda empresa realiza seis grupos de funciones: técnicas, comerciales, financieras, de seguridad, contables y administrativas. Su clasificación es una de las bases de la estructura funcional.`,
+f: `Henri Fayol, «Administración industrial y general» (1916).`,
+err: ["Crear tantas áreas como personas en un negocio pequeño.","Dejar que cada área persiga solo sus propios objetivos.","No tener a nadie responsable de los procesos que cruzan áreas.","Mantener la estructura funcional cuando el negocio ya opera en muchas regiones o productos."],
+a: `Diseña la estructura funcional de un negocio que conozcas: lista sus funciones, agrúpalas en áreas, asigna responsables y dibuja el organigrama. Identifica un posible silo y propón cómo evitarlo.`,
+sol: `Un buen diseño tiene pocas áreas (4 a 6 en una pyme), un responsable por área y al menos un objetivo común que obligue a coordinarse.`,
+q: [["La estructura funcional agrupa a las personas por…",["El tipo de trabajo que hacen","La región donde viven","Su edad"],0,"Ventas, operaciones, finanzas, etc."],
+["Un «silo» ocurre cuando…",["Cada área persigue sus propios objetivos sin coordinarse","Las áreas colaboran","No hay áreas"],0,"Es la principal desventaja de la estructura funcional."],
+["La estructura funcional conviene más cuando…",["Hay un producto principal y un solo lugar","Hay muchos países y productos","No hay clientes"],0,"Busca eficiencia y especialización."],
+["Una forma de reducir los silos es…",["Fijar objetivos compartidos entre áreas","Prohibir que las áreas se hablen","Eliminar la dirección"],0,"Obliga a coordinarse."]],
+t: ["Estructura funcional","Silos","Área funcional","Objetivo compartido"]
+},
+"M6-5": {
+s: `Años después, Tortas Lupita tiene sucursales en tres ciudades y una línea de salsas envasadas que se vende en supermercados. El área de Ventas no sabe si atender primero a los restaurantes de Puebla o a los supermercados de la capital. La estructura funcional ya no alcanza.`,
+o: ["Describir la estructura por divisiones (producto, región, cliente).","Comparar sus ventajas y desventajas con la funcional.","Elegir el tipo de división adecuado para un caso."],
+x: `## Organizarse por divisiones
+En la **estructura por divisiones** (también llamada divisional o multidivisional), la empresa se divide en unidades relativamente independientes, cada una responsable de un **producto**, una **región** o un **tipo de cliente**. Cada división tiene sus propias funciones (ventas, operaciones, a veces finanzas y recursos humanos) y un director que responde por sus resultados. La dirección general se concentra en la estrategia, en asignar recursos entre divisiones y en controlar sus resultados.
+
+## Tres formas de dividir
+1. **Por producto o línea de negocio:** cada división se ocupa de un producto o grupo de productos. Ejemplo: Tortas Lupita podría tener una división de Restaurantes y otra de Productos envasados.
+2. **Por región geográfica:** cada división atiende un territorio. Ejemplo: división Centro, división Bajío, división Norte. Las empresas internacionales suelen dividirse por continentes o países.
+3. **Por tipo de cliente o mercado:** cada división atiende a un segmento distinto. Ejemplo: un banco con banca de personas, banca de empresas y banca de gobierno; una empresa de tecnología con divisiones para consumidores y para corporaciones.
+
+Muchas empresas combinan: primero por región y, dentro de cada región, por producto.
+
+## Un poco de historia
+La estructura multidivisional se popularizó en los años veinte del siglo pasado. En General Motors, Alfred P. Sloan organizó la empresa en divisiones por marca (Chevrolet, Pontiac, Buick, Cadillac, entre otras), cada una dirigida a un segmento de precio, con su propia operación, mientras las oficinas centrales controlaban las finanzas y la estrategia. DuPont hizo algo parecido con sus distintos productos químicos. Alfred Chandler estudió estos casos y los usó para explicar que la estructura sigue a la estrategia: cuando las empresas diversificaron sus productos y mercados, la estructura funcional ya no era suficiente.
+
+## Las ventajas
+1. **Enfoque:** cada división se concentra en su producto, región o cliente, y lo conoce a fondo.
+2. **Responsabilidad clara por resultados:** cada división tiene sus propios ingresos, costos y utilidades; se sabe cuál gana y cuál pierde.
+3. **Rapidez y adaptación local:** la división del Norte puede adaptar su menú o sus precios a su región sin esperar a la oficina central.
+4. **Formación de directores:** los directores de división aprenden a manejar un negocio completo; es una escuela para futuros directores generales.
+5. **Crecimiento más fácil:** para entrar a una nueva región o lanzar un nuevo producto, se crea una nueva división.
+6. **La dirección general se libera** de la operación diaria y puede pensar en la estrategia.
+
+## Las desventajas
+1. **Duplicación de recursos:** cada división tiene su propio equipo de ventas, operaciones o administración; puede haber tres áreas de compras que compran lo mismo por separado.
+2. **Costos más altos:** más directores, más estructura.
+3. **Competencia entre divisiones:** las divisiones pueden pelear por recursos o incluso por los mismos clientes.
+4. **Pérdida de economías de escala:** si cada división compra por su cuenta, se negocia peor.
+5. **Visión fragmentada:** cada división ve su negocio y no el de toda la empresa.
+
+Para reducir la duplicación, muchas empresas mantienen algunas funciones **centralizadas** en el corporativo (compras de insumos comunes, sistemas, finanzas, legal) que dan servicio a todas las divisiones. A esto se le llama **servicios compartidos** (Módulo 23).
+
+## Comparación con la estructura funcional
+| Aspecto | Funcional | Por divisiones |
+|---|---|---|
+| Se agrupa por | Tipo de trabajo | Producto, región o cliente |
+| Ideal para | Un producto, un lugar | Varios productos, regiones o clientes |
+| Fortaleza | Eficiencia y especialización | Enfoque y adaptación |
+| Debilidad | Silos y lentitud | Duplicación y costos |
+| ¿Quién responde por utilidades? | Solo la dirección general | Cada director de división |
+
+## Cómo elegir la división
+- Si los **productos** son muy distintos (restaurantes y salsas envasadas tienen clientes, procesos y márgenes muy diferentes), conviene dividir **por producto**.
+- Si las **regiones** tienen clientes, leyes, gustos o logística muy distintos, conviene dividir **por región**.
+- Si los **clientes** necesitan atención muy distinta (personas frente a grandes empresas), conviene dividir **por cliente**.
+
+## La nueva estructura de Tortas Lupita
+Con tres ciudades y una línea de salsas, Tortas Lupita se reorganiza:
+- **Dirección general:** Lupita.
+- **División Restaurantes:** director de restaurantes (Toño), con gerentes regionales para cada ciudad y, debajo, los gerentes de sucursal.
+- **División Productos envasados:** directora de productos, con producción en la cocina central, ventas a supermercados y logística.
+- **Servicios compartidos:** administración y finanzas, recursos humanos y compras de insumos comunes (carne, pan, empaques) para ambas divisiones.
+
+Ahora cada división sabe cuánto vende y cuánto gana, y la dirección puede decidir en cuál invertir más.
+
+## Cuándo dar el paso
+Pasar de una estructura funcional a una por divisiones es una decisión importante y costosa: implica nombrar nuevos directores, separar la información por división y redefinir quién decide qué. Por eso conviene darlo cuando hay señales claras: productos o regiones con clientes, márgenes y procesos muy distintos; un área funcional que no da abasto para atender a todos; o una dirección general que ya no puede seguir el detalle de cada negocio. Un paso intermedio útil es empezar por **medir** los resultados de cada producto o región por separado, aunque la estructura siga siendo funcional; si los números muestran negocios muy distintos, la división se vuelve evidente.`,
+k: `**Estructura por divisiones:** unidades casi independientes por **producto**, **región** o **cliente**, cada una con sus funciones y un director responsable de sus **resultados**. Ventajas: enfoque, adaptación, responsabilidad clara. Desventajas: **duplicación** y costos. Se combina con **servicios compartidos**. Pionera: General Motors con Alfred Sloan.`,
+ch: `Una distribuidora de abarrotes que atiende a tienditas y a restaurantes crea dos equipos de ventas distintos: uno para el canal tradicional y otro para restaurantes, cada uno con su gerente.`,
+gi: `Grupo Bimbo informa sus resultados por regiones: Norteamérica, México, Latinoamérica y Europa, Asia y África. Cada región tiene su dirección y sus propios resultados, mientras el corporativo coordina la estrategia y algunas funciones comunes.`,
+e: `Toño compara los resultados por división (cifras anuales, millones de pesos):
+
+| División | Ventas | Utilidad de operación | Margen |
+|---|---|---|---|
+| Restaurantes | 120 | 14.4 | 12 % |
+| Productos envasados | 30 | 5.1 | 17 % |
+| Servicios compartidos (costo) | — | −3.0 | — |
+| **Total** | **150** | **16.5** | **11 %** |
+
+Con la estructura funcional no se veía que los envasados, aunque venden menos, tienen mejor margen. Ahora la dirección decide invertir en una segunda línea de salsas.`,
+r: `Alfred P. Sloan, presidente de General Motors desde 1923, reorganizó la empresa en divisiones por marca y segmento de precio, con oficinas centrales que controlaban las finanzas y la estrategia. Su modelo se volvió referencia para grandes empresas de todo el mundo y lo narró en su libro «Mis años con General Motors».`,
+f: `Alfred P. Sloan, «My Years with General Motors» (1964); Grupo Bimbo, informe anual, información por segmentos geográficos.`,
+err: ["Crear divisiones cuando el negocio todavía tiene un solo producto y un solo lugar.","Duplicar todas las funciones en cada división sin servicios compartidos.","Dejar que las divisiones compitan por los mismos clientes.","No medir los resultados de cada división por separado."],
+a: `Elige una empresa grande que conozcas y averigua (en su página o informe anual) si está organizada por productos, regiones o clientes. Dibuja su primer nivel de divisiones y explica por qué crees que eligió esa forma.`,
+sol: `Las empresas que operan en muchos países suelen dividirse por región; las que tienen negocios muy distintos, por producto o línea de negocio.`,
+q: [["En una estructura por divisiones, cada división…",["Tiene sus propias funciones y responde por sus resultados","No tiene director","Solo hace contabilidad"],0,"Es casi un negocio dentro del negocio."],
+["¿Quién popularizó la estructura multidivisional en General Motors?",["Alfred P. Sloan","Henry Ford","Adam Smith"],0,"En los años veinte del siglo XX."],
+["Una desventaja de la estructura por divisiones es…",["La duplicación de recursos","Que nadie responde por utilidades","La falta de enfoque"],0,"Cada división puede tener sus propias áreas."],
+["Un banco con divisiones de personas, empresas y gobierno se divide por…",["Tipo de cliente","Región","Producto químico"],0,"Atiende segmentos distintos."]],
+t: ["Estructura por divisiones","Unidad de negocio","Servicios compartidos","Duplicación de recursos"]
+},
+"M6-6": {
+s: `Tortas Lupita quiere lanzar un menú de desayunos en todas sus sucursales. Toño arma un equipo con alguien de cocina, alguien de compras, alguien de marketing y un gerente de sucursal. Al mes, la gente del equipo se queja: «Tengo dos jefes: el de mi área y el del proyecto».`,
+o: ["Describir la estructura matricial y sus dos líneas de mando.","Explicar las estructuras por proyectos y planas.","Evaluar cuándo conviene cada una."],
+x: `## Más allá de la pirámide
+Las estructuras funcional y divisional son pirámides: cada persona tiene un jefe y la autoridad baja en línea recta. Pero hay situaciones en las que esta forma no basta: proyectos que necesitan gente de muchas áreas, empresas que deben atender al mismo tiempo productos y regiones, o negocios que necesitan moverse muy rápido. Para esos casos existen otras estructuras.
+
+## La estructura matricial
+En la **estructura matricial**, cada persona pertenece a dos ejes al mismo tiempo: por ejemplo, a un **área funcional** (cocina, marketing, finanzas) y a un **proyecto, producto o región**. Por eso tiene **dos jefes**: el jefe de su área (que cuida su desarrollo y su especialidad) y el jefe del proyecto o producto (que coordina el trabajo para lograr un resultado concreto).
+
+Se puede imaginar como una tabla: las columnas son las áreas funcionales y las filas son los proyectos o productos; cada persona está en el cruce de una fila y una columna.
+
+| | Cocina | Compras | Marketing | Operación de sucursales |
+|---|---|---|---|---|
+| Proyecto Desayunos | Chef A | Comprador B | Diseñadora C | Gerente D |
+| Proyecto Pedidos en línea | — | — | Diseñadora C | Gerente E |
+| Proyecto Nueva ciudad | Chef F | Comprador B | — | Gerente G |
+
+**Ventajas:**
+- Combina la especialización de las áreas con el enfoque de los proyectos o productos.
+- Aprovecha mejor a las personas: un especialista puede trabajar en varios proyectos.
+- Favorece la comunicación entre áreas.
+- Responde mejor a entornos complejos.
+
+**Desventajas:**
+- Rompe la **unidad de mando**: dos jefes pueden dar instrucciones contradictorias.
+- Genera conflictos de prioridades y de poder entre jefes.
+- Exige mucha comunicación y reuniones.
+- Puede ser confusa para quienes no están acostumbrados.
+
+Para que funcione, hay que dejar claro **qué decide cada jefe**: por ejemplo, el jefe de proyecto decide qué se hace y cuándo; el jefe de área decide cómo se hace técnicamente y evalúa el desempeño.
+
+## La estructura por proyectos
+En la **estructura por proyectos**, la empresa se organiza alrededor de proyectos con un inicio y un fin. Cada proyecto tiene un **gerente de proyecto** con autoridad completa y un equipo dedicado. Cuando el proyecto termina, el equipo se disuelve y las personas pasan a otro proyecto. Es típica de constructoras, despachos de arquitectura, consultoras, productoras de cine, agencias de publicidad y empresas de desarrollo de software.
+
+Muchas empresas usan **equipos de proyecto temporales** dentro de su estructura normal: para lanzar un producto, abrir una sucursal o implementar un sistema. Es lo que hizo Toño con el menú de desayunos.
+
+## La estructura plana
+La **estructura plana** tiene muy pocos niveles jerárquicos entre la dirección y la operación, o casi ninguno. Las personas tienen más autonomía y se coordinan directamente entre sí. Es común en empresas pequeñas, en empresas emergentes y en algunas empresas de tecnología o creativas.
+
+**Ventajas:** comunicación rápida, decisiones ágiles, más autonomía y motivación, menos costos de gerentes.
+
+**Desventajas:** puede haber confusión sobre quién decide; los conflictos tardan en resolverse; a medida que la empresa crece, se vuelve difícil coordinar sin jefes; a veces aparecen «jefes informales» que no rinden cuentas.
+
+Un ejemplo famoso es **Valve**, una empresa de videojuegos de Estados Unidos que publicó en 2012 un manual para nuevos empleados en el que describía una organización sin jefes formales, donde las personas elegían en qué proyectos trabajar. Otro caso conocido es el de **Zappos**, una tienda en línea de zapatos que en 2013–2014 adoptó un sistema llamado holocracia, con roles y círculos autogestionados en lugar de jerarquía tradicional; la empresa reportó que una parte de sus empleados prefirió irse cuando se implementó, lo que muestra lo difícil que puede ser este cambio.
+
+## Comparación
+| Estructura | Idea central | Funciona mejor cuando… | Principal riesgo |
+|---|---|---|---|
+| Matricial | Dos jefes: área y proyecto o producto | Hay que combinar especialidad y enfoque en entornos complejos | Conflictos entre jefes |
+| Por proyectos | La empresa se organiza en proyectos temporales | El trabajo se hace por proyectos con inicio y fin | Inestabilidad para las personas entre proyectos |
+| Plana | Pocos o ningún nivel intermedio | La empresa es pequeña o necesita mucha agilidad y creatividad | Confusión sobre quién decide al crecer |
+
+## Estructuras combinadas
+En la práctica, muchas empresas mezclan: una estructura funcional o divisional como base, con equipos de proyecto para iniciativas especiales y algunos equipos con mucha autonomía. Lo importante no es tener la estructura «de moda», sino la que ayude a cumplir la estrategia con el menor costo y la menor confusión posible.
+
+## La solución de Tortas Lupita
+Para el proyecto de desayunos, Toño aclara las reglas: durante seis semanas, cada integrante dedica dos días a la semana al proyecto; el jefe del proyecto (Toño) decide prioridades y fechas; el jefe de cada área decide cómo se hace técnicamente y evalúa el desempeño. Hay una junta semanal de 30 minutos. Al terminar el proyecto, el equipo se disuelve y cada quien regresa a su área. Las quejas desaparecen porque ahora está claro qué decide cada jefe.`,
+k: `**Matricial:** cada persona tiene **dos jefes** (área y proyecto o producto); combina especialidad y enfoque, pero rompe la unidad de mando. **Por proyectos:** equipos temporales con un gerente de proyecto. **Plana:** pocos niveles, más autonomía, pero difícil al crecer. En la práctica se **combinan**.`,
+ch: `Un despacho de arquitectura de 12 personas trabaja por proyectos: para cada obra arma un equipo con un arquitecto líder, un dibujante y un ingeniero; al terminar, el equipo se rearma para la siguiente obra.`,
+gi: `Muchas empresas multinacionales usan matrices: un gerente de marketing en México reporta al director del país y, con línea punteada, al director global de marketing de la marca.`,
+e: `Toño define las reglas de la matriz del proyecto Desayunos:
+
+| Decisión | ¿Quién decide? |
+|---|---|
+| Qué platillos se lanzan y cuándo | Jefe del proyecto (Toño) |
+| Receta y técnica de preparación | Jefe de cocina |
+| Proveedores de los nuevos insumos | Jefe de compras |
+| Evaluación de desempeño de cada persona | Su jefe de área, con opinión del jefe del proyecto |
+| Tiempo dedicado | 2 días por semana durante 6 semanas |
+
+Con las reglas escritas, cada persona sabe a quién hacer caso en cada tema.`,
+r: `Valve publicó en 2012 su «Handbook for New Employees», en el que describía una organización plana, sin jefes formales, donde los empleados elegían sus proyectos. Zappos adoptó la holocracia en 2013–2014; su director general ofreció una compensación a quienes no quisieran seguir con el nuevo modelo, y un porcentaje de los empleados decidió salir.`,
+f: `Valve Corporation, «Handbook for New Employees» (2012); notas de prensa económica sobre la holocracia en Zappos (2015).`,
+err: ["Crear una matriz sin aclarar qué decide cada jefe.","Copiar una estructura plana de una empresa de moda sin considerar el tamaño propio.","Dejar los equipos de proyecto sin fecha de fin.","Cambiar de estructura con frecuencia y confundir a todos."],
+a: `Piensa en un proyecto que tu negocio o escuela podría hacer (lanzar un producto, organizar un evento). Arma una matriz: qué áreas participan, quién representa a cada una y qué decide el jefe del proyecto frente a los jefes de área.`,
+sol: `La matriz funciona si las reglas de decisión están escritas y hay una junta breve y regular para resolver conflictos de prioridades.`,
+q: [["En una estructura matricial, cada persona tiene…",["Dos jefes: el de su área y el del proyecto o producto","Ningún jefe","Diez jefes"],0,"Combina dos ejes."],
+["¿Qué principio rompe la estructura matricial?",["La unidad de mando","La especialización","La división del trabajo"],0,"Hay dos líneas de mando."],
+["Una constructora que forma un equipo para cada obra usa una estructura…",["Por proyectos","Simple","Funcional pura"],0,"Equipos temporales con un gerente de proyecto."],
+["Un riesgo de la estructura plana al crecer es…",["Confusión sobre quién decide","Demasiados niveles","Exceso de burocracia"],0,"Sin jefes, coordinar se vuelve difícil."]],
+t: ["Estructura matricial","Estructura por proyectos","Estructura plana","Gerente de proyecto","Holocracia"]
+},
+"M6-7": {
+s: `Toño supervisa a 14 personas en dos turnos. No le alcanza el tiempo para revisar a nadie y todos le preguntan todo. Lupita, en cambio, solo tiene un subordinado. ¿Cuánta gente puede dirigir bien una persona? ¿Y quién debe decidir qué?`,
+o: ["Explicar el tramo de control y su relación con los niveles del organigrama.","Distinguir centralización y descentralización.","Aplicar una matriz sencilla de delegación."],
+x: `## El tramo de control
+El **tramo de control** (o amplitud de control) es el número de personas que reportan directamente a un jefe. Si Toño tiene 14 personas a su cargo, su tramo es 14; si Lupita solo tiene a Toño, su tramo es 1.
+
+No hay un número mágico. El tramo adecuado depende de:
+- **Qué tan parecido es el trabajo** de los subordinados: si todos hacen tareas similares (cajeros, cocineros), un jefe puede supervisar a más personas.
+- **Qué tan experimentados son:** personas con experiencia necesitan menos supervisión.
+- **Qué tan estandarizados están los procesos:** con procedimientos escritos, hay menos dudas.
+- **Qué tan cerca están físicamente:** es más fácil supervisar a quienes están en el mismo lugar.
+- **Cuánto tiempo dedica el jefe a otras tareas** (planear, vender, negociar).
+- **Qué tan complejo y cambiante es el trabajo.**
+
+Como referencia general, en trabajos operativos parecidos y estandarizados, un supervisor puede manejar 10, 15 o más personas; en trabajos complejos o directivos, el tramo suele ser menor, quizá de 4 a 8.
+
+## Tramo y niveles: dos caras de la misma moneda
+El tramo de control y el número de niveles del organigrama están relacionados:
+- **Tramos estrechos** (pocos subordinados por jefe) → **más niveles** → organigrama alto. Más control y supervisión cercana, pero más costo en jefes, comunicación más lenta y más distancia entre la dirección y la operación.
+- **Tramos amplios** (muchos subordinados por jefe) → **menos niveles** → organigrama plano. Comunicación más rápida, menos costo, más autonomía, pero menos supervisión y riesgo de jefes saturados.
+
+Por ejemplo, una empresa de 1,000 personas con tramos de 5 necesita unos cinco niveles; con tramos de 10, unos tres.
+
+## El problema de Toño
+Toño tiene un tramo de 14 en dos turnos, con personas de distintas tareas (cocina, caja, reparto, limpieza). No puede atender a todas. La solución no es que trabaje más horas, sino **cambiar la estructura**: nombrar a un jefe de cocina y a una encargada del turno vespertino. Así, Toño pasa a tener tres o cuatro subordinados directos, y cada uno de ellos supervisa a su equipo.
+
+## Centralización y descentralización
+Otra pregunta clave de la estructura es **dónde se toman las decisiones**:
+- **Centralización:** las decisiones importantes (y a veces las pequeñas) se toman arriba, en la dirección.
+- **Descentralización:** las decisiones se delegan a niveles más bajos, cerca de donde ocurre el trabajo.
+
+| Aspecto | Centralización | Descentralización |
+|---|---|---|
+| Ventajas | Control, consistencia, visión de conjunto, aprovechar la experiencia de la dirección | Rapidez, adaptación local, motivación, libera a la dirección |
+| Desventajas | Lentitud, sobrecarga de la dirección, poca iniciativa abajo | Riesgo de inconsistencia, errores por falta de experiencia, pérdida de control |
+| Conviene cuando… | Las decisiones son críticas o se necesita uniformidad | Se necesita rapidez y conocimiento local |
+
+Ninguna organización es totalmente centralizada o descentralizada. La pregunta es **qué decisiones** se centralizan y cuáles se delegan. Por ejemplo, una cadena puede centralizar la receta, el precio y la marca (para que todas las sucursales sean iguales), y descentralizar los horarios del personal y la atención de quejas (para responder rápido).
+
+## Delegar: el arte de soltar
+**Delegar** es asignar a otra persona la autoridad para tomar ciertas decisiones o hacer ciertas tareas, manteniendo la responsabilidad final. Delegar no es «aventar» el trabajo; requiere:
+1. **Elegir** qué delegar (empezar por tareas repetitivas y decisiones de bajo riesgo).
+2. **Elegir** a quién (alguien con capacidad e interés).
+3. **Explicar** el resultado esperado y los límites («puedes aprobar compras de hasta 2,000 pesos»).
+4. **Dar** la información y los recursos necesarios.
+5. **Acordar** cómo y cuándo se revisará.
+6. **Aceptar** que la otra persona lo hará a su manera, aunque no sea idéntica a la tuya.
+7. **Reconocer** y retroalimentar.
+
+## La matriz de delegación
+Una herramienta práctica es una tabla que diga, para cada tipo de decisión, quién decide y hasta qué límite:
+
+| Decisión | Empleado | Encargado de turno | Toño | Lupita |
+|---|---|---|---|---|
+| Regalar una torta por una queja | Sí | Sí | Sí | Sí |
+| Compra de insumos hasta 2,000 pesos | No | Sí | Sí | Sí |
+| Compra de insumos de más de 2,000 pesos | No | No | Sí | Sí |
+| Contratar a un empleado | No | Propone | Decide | Se le informa |
+| Cambiar un precio | No | No | Propone | Decide |
+| Firmar un contrato con una oficina | No | No | Propone | Decide |
+| Pedir un crédito | No | No | No | Decide |
+
+Con esta matriz, cada persona sabe hasta dónde puede decidir sin preguntar. Se ahorran muchas consultas innecesarias y se reduce el riesgo de decisiones fuera de lugar.
+
+## Las grandes empresas
+En las empresas grandes, este tipo de reglas se llaman **políticas de autorización** o **niveles de aprobación**: un gerente puede aprobar gastos hasta cierto monto; por encima, necesita al director; y por encima de otro monto, al comité de dirección o incluso al consejo de administración (Módulo 24). Son la versión formal de la matriz de delegación de Tortas Lupita.`,
+k: `**Tramo de control:** número de subordinados directos de un jefe. Tramos **estrechos** → más niveles; tramos **amplios** → organigrama plano. **Centralizar** = decidir arriba; **descentralizar** = decidir cerca del trabajo. **Delegar** con límites claros; usa una **matriz de delegación**.`,
+ch: `Una tienda de ropa con dueña y 8 vendedoras nombra a una vendedora con experiencia como encargada de turno; la dueña pasa de supervisar a 8 personas a tener 2 subordinadas directas.`,
+gi: `Las grandes empresas tienen políticas de niveles de aprobación: cuánto puede gastar cada nivel sin pedir autorización, qué decisiones van al comité de dirección y cuáles requieren al consejo de administración.`,
+e: `Toño rediseña su tramo de control:
+
+| Situación | Subordinados directos de Toño | Niveles |
+|---|---|---|
+| Antes | 14 (todos) | Lupita → Toño → 14 personas |
+| Después | 3 (jefe de cocina, encargada vespertina, cajera principal) | Lupita → Toño → 3 jefes → 11 personas |
+
+Toño recupera unas 10 horas a la semana, que dedica a revisar costos y a atender pedidos de oficinas.`,
+r: `En las grandes empresas que cotizan en bolsa, el consejo de administración aprueba políticas sobre qué operaciones requieren su autorización (por ejemplo, inversiones o deudas por encima de cierto monto). En México, la Ley del Mercado de Valores establece varias decisiones que corresponden al consejo de las sociedades anónimas bursátiles.`,
+f: `Ley del Mercado de Valores (México), artículos sobre las funciones del consejo de administración de las S.A.B.`,
+err: ["Creer que un jefe puede supervisar bien a cualquier número de personas.","Delegar sin explicar el resultado esperado ni los límites.","Centralizar todo «para no equivocarse».","Delegar una tarea y quitársela al primer error."],
+a: `Haz una matriz de delegación para el negocio que observas: lista ocho decisiones frecuentes y define quién puede tomar cada una y hasta qué límite. Identifica una decisión que hoy toma el dueño y que podría delegar.`,
+sol: `Empieza delegando decisiones repetitivas y de bajo riesgo (resolver una queja, compras pequeñas). Las decisiones de alto impacto (precios, créditos, contratos grandes) suelen quedarse en la dirección.`,
+q: [["El tramo de control es…",["El número de personas que reportan directamente a un jefe","El horario de trabajo","El número de áreas"],0,"Se mide por subordinados directos."],
+["Si los tramos de control son estrechos, el organigrama tiende a ser…",["Alto, con más niveles","Plano","Inexistente"],0,"Hacen falta más jefes."],
+["Descentralizar significa…",["Delegar decisiones a niveles cercanos al trabajo","Que todo decida la dirección","Cerrar sucursales"],0,"Aumenta la rapidez y la adaptación local."],
+["Al delegar, es importante…",["Explicar el resultado esperado y los límites","No dar información","Revisar cada minuto"],0,"Delegar no es aventar el trabajo."]],
+t: ["Tramo de control","Centralización","Descentralización","Delegar","Matriz de delegación"]
+},
+"M6-8": {
+s: `Tortas Lupita contrata a un nuevo cocinero. El primer día pregunta: «¿Qué tengo que hacer exactamente? ¿Quién es mi jefe? ¿Cómo sé si lo estoy haciendo bien?». Toño se da cuenta de que no tiene nada escrito.`,
+o: ["Elaborar una descripción de puesto.","Distinguir manual de organización y manual de procedimientos.","Usar descripciones y manuales para contratar, capacitar y evaluar."],
+x: `## Del organigrama al puesto
+El organigrama muestra las cajas, pero no dice qué hay dentro de cada una. Para eso existen las **descripciones de puesto** y los **manuales**. Son documentos que convierten la estructura en instrucciones claras para cada persona.
+
+## La descripción de puesto
+Una **descripción de puesto** (o perfil de puesto) es un documento breve que explica qué hace una persona en un puesto, para qué existe ese puesto y qué se necesita para ocuparlo. Una buena descripción incluye:
+1. **Nombre del puesto:** cocinero, cajera, encargado de sucursal.
+2. **Área y jefe directo:** a quién reporta.
+3. **Personas a su cargo** (si las hay).
+4. **Objetivo del puesto:** en una o dos frases, para qué existe. Ejemplo: «Preparar las tortas con la receta y los tiempos estándar, cuidando la higiene y el inventario de su estación».
+5. **Funciones principales:** de cinco a diez actividades, empezando por las más importantes.
+6. **Indicadores de desempeño:** cómo se sabe si lo hace bien (tiempo de preparación, quejas, merma).
+7. **Autoridad:** qué puede decidir sin preguntar.
+8. **Requisitos:** escolaridad, experiencia, conocimientos, habilidades.
+9. **Condiciones de trabajo:** horario, turno, lugar, uso de uniforme, esfuerzo físico.
+10. **Relaciones:** con quién se coordina dentro y fuera del negocio.
+
+## Para qué sirve la descripción de puesto
+- **Contratar mejor:** se sabe qué perfil buscar y qué preguntar en la entrevista (Módulo 13).
+- **Capacitar:** el nuevo empleado sabe qué se espera de él desde el primer día.
+- **Evaluar:** los indicadores permiten medir el desempeño con criterios claros, no por impresiones.
+- **Evitar conflictos:** cada quien sabe qué le toca y qué no.
+- **Definir sueldos:** puestos con más responsabilidad y requisitos suelen pagar más.
+- **Cumplir la ley:** en muchos países, la descripción ayuda a demostrar las condiciones de trabajo acordadas.
+
+## El manual de organización
+El **manual de organización** reúne la información de la estructura completa del negocio:
+- Historia breve, misión, visión y valores.
+- Organigrama general y de cada área.
+- Objetivo y funciones de cada área.
+- Descripciones de todos los puestos.
+- Reglas generales (horarios, uniformes, comunicación).
+
+En una pyme puede ser un documento de 15 o 20 páginas; en una gran empresa, un conjunto de documentos en un sistema.
+
+## El manual de procedimientos
+El **manual de procedimientos** describe **cómo** se hacen las tareas, paso a paso. Mientras la descripción de puesto dice «qué» hace una persona, el procedimiento dice «cómo» se hace una tarea específica, sin importar quién la haga. Ejemplos:
+- Cómo preparar cada tipo de torta (receta, cantidades, tiempo).
+- Cómo abrir y cerrar el local.
+- Cómo hacer el corte de caja.
+- Cómo recibir mercancía de un proveedor.
+- Cómo atender una queja.
+
+Los procedimientos se estudian a fondo en el Módulo 9 (lección M9-9). Aquí lo importante es entender que ambos documentos se complementan.
+
+## Ejemplo: descripción de puesto del cocinero
+| Elemento | Contenido |
+|---|---|
+| Puesto | Cocinero |
+| Área / jefe directo | Cocina / Jefe de cocina |
+| Objetivo | Preparar las tortas con la receta y el tiempo estándar (3 minutos), con higiene y sin desperdicio |
+| Funciones | 1) Preparar tortas según comanda; 2) Mantener limpia su estación; 3) Revisar al inicio del turno que haya insumos; 4) Avisar al jefe de cocina cuando un insumo llegue a su punto de reorden; 5) Cumplir las normas de higiene; 6) Apoyar en la limpieza al cierre |
+| Indicadores | Tiempo promedio de preparación; quejas por tortas mal preparadas; merma de su estación |
+| Autoridad | Rehacer una torta con defecto sin pedir permiso |
+| Requisitos | Secundaria; 6 meses de experiencia en cocina; curso de manejo higiénico de alimentos (deseable) |
+| Condiciones | Turno matutino de 7:00 a 15:00, de lunes a sábado; uniforme y cofia |
+| Relaciones | Cajera (comandas), repartidor (pedidos), jefe de cocina |
+
+## Cómo hacerlas sin complicarse
+Muchos negocios pequeños creen que estos documentos son cosa de empresas grandes. No tiene por qué ser así:
+1. **Empieza por los puestos clave** (los que más impactan al cliente o los que más rotan).
+2. **Pide a cada persona que escriba lo que hace** en un día normal; luego revísalo con el jefe.
+3. **Usa una plantilla** de una página con los diez elementos.
+4. **Sé concreto:** «preparar tortas en 3 minutos» es mejor que «ser eficiente».
+5. **Revisa cada año** o cuando el puesto cambie.
+6. **Úsalas de verdad:** en la contratación, la capacitación y la evaluación. Un manual que nadie consulta no sirve.
+
+## La estructura completa
+Con lo visto en este módulo, una organización bien estructurada tiene:
+1. Una **estrategia** clara (qué quiere lograr).
+2. Una **estructura** adecuada (funcional, divisional, matricial o combinada).
+3. Un **organigrama** actualizado.
+4. Un **tramo de control** razonable y reglas de **delegación**.
+5. **Descripciones de puesto** para cada puesto.
+6. **Procedimientos** escritos para las tareas clave.
+
+Así, cuando llega un nuevo cocinero a Tortas Lupita, recibe su descripción de puesto, conoce a su jefe, aprende la receta con el procedimiento escrito y sabe cómo se medirá su trabajo. Y Toño ya no tiene que explicar todo de memoria cada vez.`,
+k: `**Descripción de puesto:** nombre, jefe, objetivo, funciones, indicadores, autoridad, requisitos, condiciones y relaciones. **Manual de organización:** la estructura completa (organigramas, áreas y puestos). **Manual de procedimientos:** cómo se hace cada tarea, paso a paso. Sirven para **contratar, capacitar y evaluar**.`,
+ch: `Una estética escribe una descripción de una página para la recepcionista: agendar citas, cobrar, confirmar por WhatsApp un día antes y llevar el registro de clientas. Las nuevas recepcionistas aprenden en dos días en lugar de dos semanas.`,
+gi: `Las grandes cadenas de comida rápida son famosas por sus manuales de operación, que describen con gran detalle cada puesto y cada procedimiento, de modo que un restaurante funcione igual en cualquier ciudad del mundo.`,
+e: `Toño mide el efecto de usar descripciones de puesto en la capacitación de nuevos empleados:
+
+| Indicador | Sin descripción | Con descripción y procedimientos |
+|---|---|---|
+| Días para que un cocinero nuevo trabaje solo | 15 | 6 |
+| Quejas en el primer mes del nuevo cocinero | 12 | 4 |
+| Preguntas diarias a Toño | 20 | 6 |
+
+Al contratar a cuatro personas al año, el ahorro en tiempo y errores es grande.`,
+r: `McDonald's ha sido estudiado por la estandarización de sus operaciones: Ray Kroc, quien convirtió la cadena en una franquicia mundial a partir de 1955, insistía en manuales detallados para que la experiencia fuera igual en todos los restaurantes. Esa disciplina se ha documentado en libros de historia empresarial.`,
+f: `Ray Kroc, «Grinding It Out: The Making of McDonald's» (1977); John F. Love, «McDonald's: Behind the Arches» (1986).`,
+err: ["Escribir descripciones de puesto vagas («apoyar en lo que se necesite»).","Hacer manuales larguísimos que nadie lee.","No actualizar las descripciones cuando cambia el puesto.","Tener descripciones pero no usarlas para evaluar."],
+a: `Escribe la descripción de puesto de un puesto clave del negocio que observas con la plantilla de diez elementos. Después escribe el procedimiento de una tarea que hace ese puesto, en no más de diez pasos.`,
+sol: `Revisa que la descripción tenga indicadores medibles y que el procedimiento pueda seguirlo una persona nueva sin preguntar.`,
+q: [["¿Qué documento explica qué hace una persona en un puesto y cómo se mide su desempeño?",["La descripción de puesto","El estado de resultados","El acta constitutiva"],0,"Incluye funciones, indicadores y requisitos."],
+["El manual de procedimientos describe…",["Cómo se hace cada tarea, paso a paso","El organigrama de la competencia","Los impuestos"],0,"Complementa a la descripción de puesto."],
+["¿Cuál es un indicador de desempeño concreto para un cocinero?",["Tiempo promedio de preparación","Ser buena persona","Llegar contento"],0,"Debe ser medible."],
+["¿Por dónde conviene empezar a escribir descripciones de puesto?",["Por los puestos clave o que más rotan","Por el puesto del dueño","Por ninguno"],0,"Son los que más impacto tienen."]],
+t: ["Descripción de puesto","Manual de organización","Manual de procedimientos","Indicador de desempeño"]
+}
+});
+// ===== M7. Dirección: quién conduce el negocio =====
+Object.assign(window.LECC, {
+"M7-1": {
+s: `Un banco le ofrece a Lupita un crédito si contrata a un «director general profesional». Ella se ofende: «¡El negocio es mío!». Toño le explica que ser dueña y dirigir el día a día no son lo mismo.`,
+o: ["Distinguir entre propiedad y dirección.","Describir qué hace un director general.","Reconocer los roles de un directivo según Mintzberg."],
+x: `## Dos papeles distintos
+En un negocio hay dos papeles que muchas veces ocupa la misma persona, pero que son distintos:
+- **El dueño (propietario o accionista):** es quien puso el dinero, asume el riesgo y tiene derecho a las utilidades. Decide, en última instancia, qué se hace con el negocio: si se vende, si se cierra, si entra un socio, quién lo dirige.
+- **El director general (o gerente general):** es quien **conduce el negocio día a día**: fija prioridades, coordina las áreas, toma las decisiones operativas y tácticas, y responde por los resultados ante los dueños.
+
+En un changarro, ambos papeles son de la misma persona. En una empresa gigante suelen estar separados: los dueños son miles de accionistas representados por un consejo de administración, y el director general (en inglés, CEO, *chief executive officer*) es un profesional contratado. En medio, hay muchas pymes en las que el dueño es también director, pero empieza a apoyarse en gerentes.
+
+## ¿Qué hace un director general?
+El director general tiene cinco grandes responsabilidades:
+1. **Definir el rumbo:** junto con los dueños, decide hacia dónde va el negocio: qué vender, a quién, cómo crecer (estrategia).
+2. **Organizar:** diseña la estructura y elige a las personas clave.
+3. **Asignar recursos:** decide en qué se gasta y se invierte el dinero, el tiempo y el talento.
+4. **Coordinar y dirigir:** hace que las áreas trabajen juntas, resuelve conflictos, motiva.
+5. **Controlar y rendir cuentas:** vigila los resultados, corrige el rumbo e informa a los dueños.
+
+Un buen director general no hace el trabajo de todos: hace que el trabajo de todos sume en la misma dirección.
+
+## Los roles del directivo según Mintzberg
+En los años setenta, Henry Mintzberg observó directamente cómo trabajaban varios directores generales y describió diez **roles** que cumplen, agrupados en tres tipos:
+
+| Tipo | Rol | Ejemplo en Tortas Lupita |
+|---|---|---|
+| Interpersonales | Figura representativa | Lupita firma contratos y recibe a clientes importantes |
+| | Líder | Motiva al equipo, da el ejemplo |
+| | Enlace | Se relaciona con proveedores, vecinos, otros empresarios |
+| Informativos | Monitor | Revisa números, escucha quejas, observa a la competencia |
+| | Difusor | Comunica al equipo lo que pasa y lo que se decidió |
+| | Portavoz | Habla del negocio con el banco, la prensa, la cámara empresarial |
+| Decisorios | Emprendedor | Lanza el menú de desayunos |
+| | Gestor de problemas | Resuelve cuando falla el refrigerador o renuncia un cocinero |
+| | Asignador de recursos | Decide en qué invertir |
+| | Negociador | Negocia precios con proveedores y contratos con oficinas |
+
+Mintzberg también descubrió que el trabajo directivo real es fragmentado: muchas tareas cortas, interrupciones constantes, mucha comunicación verbal y poco tiempo para pensar con calma. Por eso es tan importante que el directivo se organice (lección M7-5).
+
+## ¿Por qué separar propiedad y dirección?
+Separar al dueño del director tiene ventajas:
+- **Profesionalización:** un director con experiencia puede manejar mejor un negocio grande.
+- **Continuidad:** el negocio no depende de que el dueño esté o no.
+- **Atraer inversión:** bancos e inversionistas confían más en una dirección profesional.
+- **Libertad para el dueño:** puede dedicarse a otras cosas o a la estrategia.
+
+Pero también tiene riesgos:
+- **El director puede no pensar como dueño:** tomar decisiones que le convienen a él (un sueldo alto, metas fáciles) más que al negocio. A esto se le llama **problema de agencia** (Módulo 24).
+- **Pérdida de cultura:** el director nuevo puede cambiar lo que hacía especial al negocio.
+- **Conflictos:** el dueño puede seguir metiéndose en todo y desautorizar al director.
+
+Por eso, cuando se separan los papeles, se necesitan reglas: metas claras, informes periódicos, límites de autoridad y, en empresas grandes, un consejo de administración que vigile.
+
+## Etapas intermedias
+No hace falta pasar de golpe del dueño que hace todo al director profesional. Hay etapas intermedias:
+1. **Dueño-operador:** hace todo (el puesto de Lupita).
+2. **Dueño-director con encargado:** el dueño dirige y un encargado maneja la operación diaria (el local con Toño).
+3. **Dueño-director con equipo de gerentes:** cada área tiene un gerente; el dueño coordina (Tortas Lupita con sucursales).
+4. **Dueño-presidente con director general profesional:** el dueño preside el consejo y un director contratado dirige (Grupo Lupita).
+5. **Dueño-accionista:** el dueño solo participa como accionista y en el consejo; ya no interviene en la operación.
+
+Cada etapa exige que el dueño **suelte** algo de control a cambio de que el negocio pueda crecer.
+
+## La respuesta de Lupita
+Lupita acepta que su papel está cambiando: seguirá siendo la dueña y decidirá el rumbo, pero ya no puede ser la cocinera, la cajera y la directora al mismo tiempo. En lugar de un director externo, propone al banco un plan: Toño será el gerente de operaciones, contratarán a una administradora con experiencia y ella se dedicará a dirigir con números mensuales que compartirá con el banco. El banco acepta.
+
+## Una pregunta para el dueño
+Pregúntate cada cierto tiempo: «¿Estoy haciendo hoy el trabajo de dueño, el de director o el de empleado?». La respuesta suele sorprender.`,
+k: `**Dueño:** pone el dinero, asume el riesgo y decide en última instancia. **Director general:** conduce el negocio día a día y responde por los resultados. Roles del directivo (Mintzberg): **interpersonales, informativos y decisorios**. Separar propiedad y dirección profesionaliza, pero exige reglas para evitar el **problema de agencia**.`,
+ch: `En una ferretería familiar, el padre es el dueño y la hija mayor es la gerente: ella decide compras y horarios; él aprueba las inversiones grandes y revisa los números cada mes.`,
+gi: `En Walmart, la familia Walton ha sido un accionista muy importante durante décadas, mientras la empresa es dirigida por directores generales profesionales que rinden cuentas al consejo de administración.`,
+e: `Lupita reparte sus roles entre ella y su equipo:
+
+| Rol | Antes (todo Lupita) | Ahora |
+|---|---|---|
+| Figura representativa y negociadora con bancos | Lupita | Lupita |
+| Monitor de números | Nadie | Administradora prepara; Lupita revisa |
+| Gestor de problemas diarios | Lupita | Toño (gerente de operaciones) |
+| Líder del equipo de cocina | Lupita | Jefe de cocina |
+| Emprendedora (nuevos productos) | Lupita | Lupita con Toño |
+| Asignadora de recursos | Lupita | Lupita |
+
+Lupita conserva los roles de dirección y delega los de operación.`,
+r: `Henry Mintzberg publicó en 1973 «The Nature of Managerial Work», basado en la observación directa de directores generales. Su descripción de los diez roles directivos y del carácter fragmentado del trabajo gerencial sigue siendo una de las más citadas en administración.`,
+f: `Henry Mintzberg, «The Nature of Managerial Work» (1973); Walmart Inc., informe anual y declaración de representación (proxy statement).`,
+err: ["Creer que ser dueño obliga a hacer todo personalmente.","Contratar un director y seguir dando órdenes por encima de él.","Separar propiedad y dirección sin metas ni informes.","Pensar que el director no necesita rendir cuentas."],
+a: `Elige un negocio que conozcas e identifica quién es el dueño y quién dirige el día a día. Usa la tabla de los diez roles de Mintzberg para ver quién cumple cada rol. ¿Hay algún rol que nadie cumpla?`,
+sol: `Los roles que más se descuidan en negocios pequeños son el de monitor (nadie revisa números) y el de difusor (nadie comunica al equipo lo que se decidió).`,
+q: [["¿Qué distingue al dueño del director general?",["El dueño pone el dinero y decide en última instancia; el director conduce el día a día","Son exactamente lo mismo","El director siempre es más rico"],0,"Propiedad frente a dirección."],
+["Según Mintzberg, negociar con proveedores es un rol…",["Decisorio","Interpersonal","Informativo"],0,"El negociador es un rol decisorio."],
+["El problema de agencia aparece cuando…",["El director toma decisiones que le convienen a él más que a los dueños","El dueño dirige","No hay clientes"],0,"Por eso se necesitan reglas y vigilancia."],
+["¿Cuál es una etapa intermedia antes del director profesional?",["Dueño-director con un equipo de gerentes","Cerrar el negocio","Vender todo"],0,"El dueño coordina y los gerentes operan."]],
+t: ["Director general","Propiedad y dirección","Roles directivos","Problema de agencia","CEO"]
+},
+"M7-2": {
+s: `Toño le pregunta a su mamá: «¿Qué queremos que sea Tortas Lupita en cinco años?». Lupita contesta: «Que nos vaya bien». Toño insiste: «Eso no es un plan».`,
+o: ["Redactar misión, visión y valores de un negocio.","Escribir objetivos SMART.","Relacionar el plan con las decisiones diarias."],
+x: `## Planear: decidir hoy hacia dónde ir
+**Planear** es decidir por adelantado qué se quiere lograr y cómo se va a lograr. Es la primera función de la administración, porque sin un destino claro no se puede organizar, dirigir ni controlar. Planear no es adivinar el futuro: es pensar con anticipación para no ir a donde lleve la corriente.
+
+En un negocio, la planeación responde cuatro preguntas:
+1. **¿Para qué existimos?** (misión)
+2. **¿A dónde queremos llegar?** (visión)
+3. **¿Cómo nos vamos a comportar en el camino?** (valores)
+4. **¿Qué resultados concretos queremos y cuándo?** (objetivos)
+
+## La misión
+La **misión** describe para qué existe el negocio: qué hace, para quién y qué lo hace distinto. Es el presente. Una buena misión es breve, clara y concreta; debe servir para decidir.
+
+- Vaga: «Ser una empresa de excelencia comprometida con la calidad».
+- Concreta: «Preparamos tortas abundantes y sabrosas, al momento y a buen precio, para que los trabajadores del Centro coman bien sin perder tiempo».
+
+Con la segunda, el equipo puede responder preguntas como «¿vendemos comida que tarda 20 minutos?» (no, va contra «sin perder tiempo») o «¿subimos el precio al doble?» (no, va contra «a buen precio»).
+
+## La visión
+La **visión** describe lo que el negocio quiere llegar a ser en el futuro, en un plazo de varios años. Debe ser ambiciosa, pero creíble, y dar una dirección.
+
+- Vaga: «Ser líderes del mercado».
+- Concreta: «En 2030, ser la tortería favorita de la ciudad, con 10 sucursales y una salsa que se venda en supermercados».
+
+## Los valores
+Los **valores** son los principios que guían cómo se comportan las personas del negocio, incluso cuando nadie las ve. Deben ser pocos (tres a cinco), concretos y vividos, no solo escritos en la pared. Para que sean útiles, conviene explicar qué significan en la práctica:
+
+| Valor | Qué significa en Tortas Lupita |
+|---|---|
+| Frescura | Nunca usamos ingredientes del día anterior en las tortas |
+| Rapidez | Ninguna torta tarda más de 3 minutos en el mostrador |
+| Trato de familia | Saludamos a cada cliente y recordamos a los frecuentes |
+| Honestidad | Cobramos lo justo y reconocemos nuestros errores |
+
+## Los objetivos SMART
+La misión, la visión y los valores dan dirección; los **objetivos** la convierten en resultados concretos. Un método muy usado para escribir buenos objetivos es **SMART**, propuesto por George Doran en 1981. Un objetivo SMART es:
+- **S (específico):** dice claramente qué se quiere lograr.
+- **M (medible):** se puede medir con un número.
+- **A (alcanzable):** es retador, pero posible con los recursos disponibles.
+- **R (relevante):** contribuye a la misión y la visión.
+- **T (con tiempo):** tiene una fecha límite.
+
+| Objetivo vago | Objetivo SMART |
+|---|---|
+| Vender más | Aumentar las ventas mensuales del local de 160,000 a 180,000 pesos para diciembre de este año |
+| Mejorar el servicio | Reducir el tiempo promedio de entrega en el mostrador de 5 a 3 minutos antes del 30 de junio |
+| Tener más clientes de oficinas | Conseguir 5 contratos de paquetes semanales con oficinas antes del 31 de marzo |
+| Gastar menos | Reducir la merma de 6 % a 3 % del costo de ingredientes en los próximos tres meses |
+
+## Niveles de planeación
+La planeación se hace en distintos niveles y plazos:
+- **Estratégica (3 a 5 años):** hacia dónde va el negocio en su conjunto. La hace la dirección.
+- **Táctica (1 año):** cómo contribuye cada área a la estrategia. La hacen los gerentes.
+- **Operativa (semanas o meses):** qué se hace cada día o semana. La hacen supervisores y equipos.
+
+Los planes deben encadenarse: cada objetivo operativo debe ayudar a uno táctico, y cada táctico, a uno estratégico. Si la visión es tener 10 sucursales, el objetivo táctico de este año puede ser abrir la segunda, y el operativo de este mes, encontrar el local.
+
+## Del plan a la acción
+Un objetivo solo sirve si se convierte en acciones con responsable y fecha:
+
+| Objetivo | Acción | Responsable | Fecha |
+|---|---|---|---|
+| 5 contratos con oficinas antes del 31 de marzo | Hacer lista de 30 oficinas cercanas | Ejecutiva de ventas | 15 de enero |
+| | Preparar menú y precios de paquetes | Lupita | 20 de enero |
+| | Visitar 10 oficinas por semana | Ejecutiva de ventas | Febrero y marzo |
+| | Ofrecer degustación gratis | Toño | Febrero |
+
+## Errores comunes al planear
+- Planear y luego guardar el plan en un cajón.
+- Tener demasiados objetivos (diez prioridades equivalen a ninguna).
+- Objetivos que nadie puede medir.
+- No revisar el avance.
+- Copiar la misión y visión de otra empresa.
+- Planear sin consultar a quienes harán el trabajo.
+
+## El plan de Tortas Lupita
+Lupita y Toño se sientan una tarde y escriben, en una sola hoja, la misión, la visión, cuatro valores y tres objetivos SMART para el año. La pegan en la cocina y la revisan cada mes en la junta mensual. Por primera vez, todo el equipo sabe hacia dónde van.`,
+k: `**Misión:** para qué existimos (presente). **Visión:** qué queremos ser (futuro). **Valores:** cómo nos comportamos. **Objetivos SMART:** específicos, medibles, alcanzables, relevantes y con tiempo (George Doran, 1981). Planeación **estratégica, táctica y operativa**, encadenadas y convertidas en acciones con responsable y fecha.`,
+ch: `Una estética escribe su objetivo SMART: «Pasar de 40 a 60 clientas frecuentes (que vienen al menos una vez al mes) antes de diciembre». Con eso decide lanzar una tarjeta de lealtad.`,
+gi: `Las grandes empresas publican en sus informes anuales su propósito o misión, sus valores y sus objetivos estratégicos, por ejemplo, metas de crecimiento, de reducción de emisiones o de participación de mercado para cierto año.`,
+e: `Lupita convierte «que nos vaya bien» en tres objetivos SMART para el año:
+
+| Objetivo SMART | Indicador | Hoy | Meta | Fecha |
+|---|---|---|---|---|
+| Aumentar ventas del local | Ventas mensuales | 160,000 | 180,000 | Diciembre |
+| Reducir merma | Merma / costo de ingredientes | 6 % | 3 % | Junio |
+| Clientes corporativos | Contratos de paquetes con oficinas | 0 | 5 | Marzo |
+
+Cada objetivo tiene un responsable: Lupita (ventas), Toño (merma) y la ejecutiva de ventas (oficinas).`,
+r: `El acrónimo SMART fue propuesto por George T. Doran en un artículo de 1981 en la revista «Management Review», titulado «There's a S.M.A.R.T. way to write management's goals and objectives». Desde entonces se ha vuelto una de las herramientas de planeación más usadas en empresas de todos los tamaños.`,
+f: `George T. Doran, «There's a S.M.A.R.T. way to write management's goals and objectives», Management Review (1981).`,
+err: ["Escribir una misión tan general que sirva para cualquier negocio.","Tener objetivos sin número ni fecha.","Tener demasiadas prioridades.","Hacer el plan y no revisarlo nunca."],
+a: `Redacta la misión, la visión, tres valores (con su significado práctico) y tres objetivos SMART para el negocio que observas. Para un objetivo, escribe cuatro acciones con responsable y fecha.`,
+sol: `Revisa cada objetivo con las cinco letras SMART. Si no puedes medirlo o no tiene fecha, reescríbelo.`,
+q: [["La misión de un negocio describe…",["Para qué existe hoy","Cuánto vende","Sus impuestos"],0,"Es el presente."],
+["La visión describe…",["Lo que el negocio quiere llegar a ser en el futuro","El organigrama","Los proveedores"],0,"Es el destino a varios años."],
+["¿Cuál es un objetivo SMART?",["Reducir la merma de 6 % a 3 % antes del 30 de junio","Gastar menos","Ser los mejores"],0,"Es específico, medible y con fecha."],
+["La planeación táctica normalmente tiene un plazo de…",["Alrededor de un año","Un día","Veinte años"],0,"La estratégica es de 3 a 5 años; la operativa, de semanas o meses."]],
+t: ["Misión","Visión","Valores","Objetivos SMART","Planeación estratégica"]
+},
+"M7-3": {
+s: `Ya hay un plan con objetivos. Pero a mitad de año, Toño descubre que la merma no bajó: nadie se encargó de medirla y los cocineros no sabían que era un objetivo. «Planear no basta», piensa. «Hay que organizar, dirigir y controlar».`,
+o: ["Describir el proceso administrativo: planear, organizar, dirigir y controlar.","Explicar el ciclo de mejora continua (planear, hacer, verificar, actuar).","Aplicar el ciclo a un problema concreto."],
+x: `## El proceso administrativo
+Desde los trabajos de Henri Fayol a principios del siglo XX, se suele describir la administración como un ciclo de funciones que se repite:
+1. **Planear:** definir objetivos y cómo lograrlos (lección M7-2).
+2. **Organizar:** asignar tareas, recursos y responsabilidades; diseñar la estructura.
+3. **Dirigir:** guiar, motivar y comunicarse con las personas para que hagan el trabajo.
+4. **Controlar:** medir los resultados, compararlos con lo planeado y corregir.
+
+Fayol hablaba de cinco funciones (prever, organizar, mandar, coordinar y controlar); los libros de administración modernos las suelen agrupar en estas cuatro. No son pasos que se hacen una vez y se terminan, sino un ciclo continuo: los resultados del control alimentan el siguiente plan.
+
+## Organizar
+Organizar es convertir el plan en una forma concreta de trabajar:
+- **Dividir el trabajo** en tareas.
+- **Asignar responsables** a cada tarea.
+- **Dar recursos:** dinero, tiempo, herramientas, información.
+- **Definir autoridad:** qué puede decidir cada persona.
+- **Coordinar:** cómo se conectan las tareas entre sí.
+
+Para el objetivo de reducir la merma, organizar significaría: decidir quién la mide (el jefe de cocina), cómo (pesar los ingredientes que sobran cada día), con qué (una báscula y un formato) y quién revisa (Toño, cada semana).
+
+## Dirigir
+Dirigir es la parte más humana de la administración: lograr que las personas hagan lo necesario y quieran hacerlo bien. Incluye:
+- **Comunicar** el objetivo y por qué importa («cada punto de merma son 1,500 pesos al mes»).
+- **Motivar:** reconocer el buen trabajo, involucrar al equipo en las soluciones.
+- **Liderar:** dar el ejemplo, resolver conflictos, apoyar.
+- **Capacitar:** enseñar cómo hacerlo («así se porciona el jamón para que rinda»).
+
+Un plan bien organizado puede fracasar si nadie lo comunica o si el equipo no lo entiende ni lo siente propio. Los temas de liderazgo y motivación se profundizan en la lección M7-6 y en el Módulo 13.
+
+## Controlar
+Controlar es comprobar si se está logrando lo planeado y corregir a tiempo. Tiene cuatro pasos:
+1. **Establecer estándares:** qué se espera (merma de 3 %).
+2. **Medir el desempeño real:** cuánto es la merma hoy.
+3. **Comparar** lo real con el estándar: ¿hay una diferencia?
+4. **Corregir:** si hay diferencia, investigar la causa y actuar.
+
+El control no es desconfianza ni castigo: es información para mejorar. Sin control, los problemas se descubren cuando ya es tarde.
+
+## El ciclo de mejora continua: PHVA
+Una versión muy práctica del proceso administrativo es el ciclo **PHVA** (planear, hacer, verificar, actuar), también conocido como ciclo de Deming o de Shewhart. Lo popularizó el estadístico estadounidense W. Edwards Deming, quien trabajó con empresas japonesas después de la Segunda Guerra Mundial y tuvo gran influencia en la gestión de la calidad.
+- **Planear:** identificar un problema, analizar su causa y proponer una solución.
+- **Hacer:** probar la solución, de preferencia en pequeño.
+- **Verificar:** medir si funcionó.
+- **Actuar:** si funcionó, hacerla estándar; si no, aprender y volver a planear.
+
+Este ciclo se repite una y otra vez. Cada vuelta mejora un poco el negocio. Es la base de la mejora continua que verás en el Módulo 9.
+
+## Aplicando el ciclo a la merma
+| Paso | Qué hicieron en Tortas Lupita |
+|---|---|
+| Planear | Meta: merma de 3 %. Causa probable: porciones de jamón y queso más grandes que la receta y aguacate que se echa a perder. Solución: porcionar con báscula y comprar aguacate cada dos días. |
+| Hacer | Durante dos semanas, solo en el turno matutino, porcionan con báscula y cambian la compra de aguacate. |
+| Verificar | La merma del turno matutino baja de 6 % a 3.5 %; la del vespertino sigue en 6 %. |
+| Actuar | Hacen estándar la báscula en ambos turnos, capacitan al turno vespertino y ajustan el formato de registro. Siguiente vuelta: atacar el desperdicio de pan. |
+
+## Funciones en todos los niveles
+Las cuatro funciones las realizan todos los que dirigen, en distinta medida:
+- La **dirección general** dedica más tiempo a planear y controlar a nivel de todo el negocio.
+- Los **gerentes** organizan y dirigen sus áreas.
+- Los **supervisores** dedican más tiempo a dirigir y controlar el trabajo diario.
+
+Incluso un empleado que organiza su propia estación de trabajo y revisa su desempeño está aplicando el ciclo.
+
+## Las funciones en una empresa gigante
+En una empresa grande, cada función tiene herramientas formales: planes estratégicos de cinco años, presupuestos anuales, estructuras con miles de puestos, programas de liderazgo, sistemas de indicadores en tiempo real y auditorías. Pero la lógica es exactamente la misma que en Tortas Lupita: decidir qué lograr, organizar a la gente, guiarla y verificar si se logró.
+
+## La lección de Toño
+El objetivo de la merma falló porque se planeó, pero no se organizó (nadie era responsable de medir), no se dirigió (los cocineros no lo sabían) y no se controló (nadie revisaba). Con el ciclo completo, la merma baja en dos meses.`,
+k: `**Proceso administrativo:** planear, organizar, dirigir y controlar (a partir de Henri Fayol). **Controlar:** estándar → medir → comparar → corregir. **Ciclo PHVA** (planear, hacer, verificar, actuar), popularizado por W. Edwards Deming: la base de la mejora continua.`,
+ch: `Una tienda de abarrotes aplica el PHVA a las quejas por pan duro: planea comprar menos pan por la tarde, lo prueba una semana, verifica que bajan las quejas y lo hace regla.`,
+gi: `Toyota aplica el ciclo PHVA en sus plantas: los equipos de trabajo identifican problemas, prueban soluciones, miden resultados y estandarizan lo que funciona, una y otra vez.`,
+e: `Toño mide la merma antes y después del ciclo PHVA:
+
+| Mes | Merma (% del costo de ingredientes) | Costo de ingredientes | Pesos perdidos |
+|---|---|---|---|
+| Antes | 6 % | 64,000 | 3,840 |
+| Mes 1 (prueba en un turno) | 4.8 % | 64,000 | 3,072 |
+| Mes 2 (ambos turnos) | 3 % | 64,000 | 1,920 |
+
+Ahorro mensual: 3,840 − 1,920 = 1,920 pesos, es decir, más de 23,000 pesos al año.`,
+r: `W. Edwards Deming dio conferencias en Japón a partir de 1950 sobre control estadístico de la calidad y mejora continua. En su honor, la Unión de Científicos e Ingenieros de Japón creó el Premio Deming, que todavía se otorga a empresas por su gestión de la calidad.`,
+f: `W. Edwards Deming, «Out of the Crisis» (1982); Unión de Científicos e Ingenieros de Japón (JUSE), Premio Deming.`,
+err: ["Planear sin organizar ni asignar responsables.","Creer que controlar es castigar.","Medir sin comparar con un estándar.","Aplicar una solución en todo el negocio sin probarla en pequeño."],
+a: `Elige un problema del negocio que observas (quejas, tiempos, desperdicio) y aplica el ciclo PHVA: escribe el plan, cómo lo probarías, cómo medirías el resultado y qué harías si funciona o no.`,
+sol: `Un buen PHVA tiene un indicador numérico antes y después, y una prueba pequeña y corta antes de extender la solución.`,
+q: [["¿Cuáles son las cuatro funciones del proceso administrativo?",["Planear, organizar, dirigir y controlar","Comprar, vender, cobrar y pagar","Abrir, operar, cerrar y limpiar"],0,"Se basan en el trabajo de Henri Fayol."],
+["El ciclo PHVA significa…",["Planear, hacer, verificar, actuar","Pagar, hacer, vender, ahorrar","Producir, hornear, vender, abrir"],0,"Ciclo de mejora continua."],
+["¿Quién popularizó el ciclo PHVA en Japón?",["W. Edwards Deming","Henry Ford","Adam Smith"],0,"A partir de 1950."],
+["El primer paso del control es…",["Establecer el estándar","Castigar al responsable","Cerrar el negocio"],0,"Sin estándar no se puede comparar."]],
+t: ["Proceso administrativo","Ciclo PHVA","Mejora continua","Control"]
+},
+"M7-4": {
+s: `Lupita revisa cada noche la caja, el cuaderno de pedidos, la libreta de merma y los mensajes de WhatsApp. Termina agotada y sin saber si el negocio va bien o mal. Toño le propone un tablero con solo siete números.`,
+o: ["Definir qué es un indicador clave de desempeño (KPI).","Elegir los KPI adecuados para un negocio.","Diseñar un tablero sencillo de seguimiento."],
+x: `## Medir lo que importa
+Un negocio genera muchísimos datos: ventas por hora, tortas por tipo, quejas, faltas, compras, pagos. Mirarlos todos es imposible y agotador. Lo que necesita la dirección es un puñado de números que le digan, de un vistazo, si el negocio va bien y dónde hay que actuar. Esos números son los **indicadores clave de desempeño**, conocidos como **KPI** por sus siglas en inglés (*key performance indicators*).
+
+## ¿Qué es un KPI?
+Un KPI es una medida que:
+- Está ligada a un **objetivo** importante del negocio.
+- Se puede **medir** con regularidad y de forma confiable.
+- Permite **actuar**: si el número empeora, sabes qué revisar.
+- Tiene una **meta** o valor de referencia.
+
+No todo número es un KPI. «Número de servilletas usadas» es un dato; «merma como porcentaje del costo de ingredientes» es un KPI, porque está ligado al objetivo de reducir costos y permite actuar.
+
+## Tipos de indicadores
+Conviene tener indicadores de distintas áreas, para ver el negocio completo:
+- **Financieros:** ventas, margen, utilidad, efectivo disponible.
+- **Clientes:** número de clientes, ticket promedio, quejas, calificación en reseñas, clientes frecuentes.
+- **Procesos:** tiempo de entrega, merma, productividad (tortas por hora por persona), pedidos con error.
+- **Personas:** rotación, faltas, horas de capacitación.
+
+Esta idea de mirar varias perspectivas, y no solo las finanzas, la formalizaron Robert Kaplan y David Norton en el **cuadro de mando integral** (Módulo 17).
+
+## Indicadores de resultado y de causa
+Otra distinción útil:
+- **Indicadores de resultado (o rezagados):** muestran lo que ya pasó. Ejemplo: utilidad del mes. Son importantes, pero cuando los ves, ya es tarde para cambiarlos.
+- **Indicadores de causa (o adelantados):** anticipan lo que va a pasar. Ejemplo: número de oficinas visitadas esta semana (anticipa contratos futuros), tiempo de espera en la fila (anticipa clientes que no regresarán).
+
+Un buen tablero combina ambos: los de resultado dicen si vamos bien; los de causa dicen qué hacer para ir mejor.
+
+## ¿Cuántos KPI?
+Pocos. Una regla práctica es tener entre **cinco y ocho** indicadores principales para la dirección. Cada área puede tener los suyos, pero el tablero del dueño debe caber en una hoja o en una pantalla. Si todo es prioridad, nada lo es.
+
+## El tablero de Tortas Lupita
+Toño propone este tablero semanal:
+
+| KPI | Por qué importa | Meta | Semana actual | Estado |
+|---|---|---|---|---|
+| Ventas de la semana | Resultado principal | 42,000 | 40,500 | Amarillo |
+| Ticket promedio | Cuánto gasta cada cliente | 48 | 46 | Amarillo |
+| Clientes por día | Atracción de clientes | 170 | 168 | Verde |
+| Merma (% del costo de ingredientes) | Control de costos | 3 % | 3.2 % | Amarillo |
+| Tiempo promedio en mostrador | Promesa de rapidez | 3 min | 4 min | Rojo |
+| Quejas | Satisfacción | Menos de 5 | 3 | Verde |
+| Efectivo disponible | Capacidad de pagar | 30,000 | 35,000 | Verde |
+
+El código de colores (verde, amarillo, rojo) permite ver de inmediato dónde actuar: esta semana, el tiempo en mostrador.
+
+## Cómo elegir los KPI de tu negocio
+1. **Parte de tus objetivos:** si el objetivo es reducir merma, necesitas un KPI de merma.
+2. **Piensa en tu propuesta de valor:** si prometes rapidez, mide el tiempo.
+3. **Incluye el efectivo:** siempre conviene saber cuánto dinero hay.
+4. **Combina resultado y causa.**
+5. **Asegúrate de poder medirlo** con poco esfuerzo; si medirlo es muy complicado, no se hará.
+6. **Define la meta** y la frecuencia (diaria, semanal, mensual).
+7. **Asigna un responsable** de cada indicador.
+
+## Errores comunes con los indicadores
+- **Medir demasiado:** tableros con 40 números que nadie lee.
+- **Medir lo fácil y no lo importante:** contar «me gusta» en redes en lugar de ventas.
+- **Indicadores sin meta:** sin referencia, un número no dice si es bueno o malo.
+- **Mirar sin actuar:** el tablero rojo que nadie atiende.
+- **Manipular el indicador:** si se premia «pocas quejas», alguien puede dejar de registrarlas. Por eso conviene combinar varios indicadores y revisar cómo se miden.
+- **Olvidar el contexto:** una semana con lluvia o con días festivos no es comparable con una normal.
+
+## Los tableros en empresas grandes
+Las grandes empresas tienen tableros en sistemas que se actualizan en tiempo real: ventas por tienda, por región, por producto; niveles de inventario; satisfacción de clientes. Los directores revisan los indicadores principales cada semana, y los consejos de administración, cada trimestre. Pero el principio es el mismo que el del tablero de Tortas Lupita: pocos números importantes, con metas, colores y responsables.
+
+## El resultado para Lupita
+Con el tablero, Lupita deja de revisar todo cada noche. Los lunes dedica 30 minutos a mirar los siete indicadores con Toño y decide una o dos acciones para la semana. Esta semana: un cocinero más en la hora pico para bajar el tiempo en mostrador.
+
+## Cómo se ve un tablero en la práctica
+El tablero no necesita un sistema caro: puede ser una hoja de cálculo con una pestaña por semana, una cartulina en la oficina o un pizarrón en la cocina. Lo importante es que se actualice siempre el mismo día y de la misma forma, para que los números sean comparables.`,
+k: `**KPI:** indicador ligado a un objetivo, medible, con meta y que permite actuar. Combina **financieros, clientes, procesos y personas**, y de **resultado** (lo que pasó) y **causa** (lo que viene). Usa **5 a 8** en el tablero de la dirección, con metas, colores y responsables.`,
+ch: `Un taller mecánico mide cada semana: autos atendidos, ticket promedio, autos que regresan por la misma falla, tiempo de entrega y efectivo disponible. Con cinco números sabe cómo va.`,
+gi: `Las cadenas de tiendas informan a sus inversionistas indicadores como las ventas en tiendas comparables, el número de tiendas nuevas, el margen y el flujo de efectivo; internamente siguen cientos más, organizados en tableros por nivel.`,
+e: `Toño calcula cuánto vale mejorar el KPI en rojo (tiempo en mostrador). Estima que, con 4 minutos de espera, se van sin comprar unos 12 clientes diarios en la hora pico:
+
+| Concepto | Cálculo | Resultado |
+|---|---|---|
+| Ventas perdidas por día | 12 × 46 (ticket) | 552 |
+| Ventas perdidas al mes (26 días) | 552 × 26 | 14,352 |
+| Margen perdido (60 %) | 14,352 × 0.6 | 8,611 |
+| Costo de un cocinero extra 3 horas al día | — | 4,500 al mes |
+
+Reforzar la hora pico le deja unos 4,100 pesos más de margen al mes.`,
+r: `Robert Kaplan y David Norton publicaron en 1992, en la revista Harvard Business Review, el artículo que presentó el «Balanced Scorecard» (cuadro de mando integral), que propone medir el desempeño desde cuatro perspectivas: financiera, clientes, procesos internos y aprendizaje y crecimiento.`,
+f: `R. Kaplan y D. Norton, «The Balanced Scorecard: Measures That Drive Performance», Harvard Business Review (1992).`,
+err: ["Tener demasiados indicadores.","Medir lo fácil en lugar de lo importante.","Indicadores sin meta ni responsable.","Premiar un indicador sin vigilar que no se manipule."],
+a: `Diseña el tablero de KPI del negocio que observas: elige de cinco a ocho indicadores, con su meta, frecuencia y responsable. Marca cuáles son de resultado y cuáles de causa.`,
+sol: `Revisa que el tablero incluya al menos un indicador de efectivo, uno de clientes y uno ligado a tu propuesta de valor.`,
+q: [["Un KPI es…",["Un indicador ligado a un objetivo, medible y con meta","Cualquier dato","Un tipo de impuesto"],0,"Permite actuar."],
+["¿Cuántos KPI principales se recomiendan para el tablero de la dirección?",["Entre 5 y 8","Más de 50","Solo 1"],0,"Pocos, para poder actuar."],
+["El número de oficinas visitadas por semana, que anticipa contratos futuros, es un indicador de…",["Causa (adelantado)","Resultado (rezagado)","Impuestos"],0,"Anticipa lo que va a pasar."],
+["¿Quiénes propusieron el cuadro de mando integral?",["Robert Kaplan y David Norton","Adam Smith y David Ricardo","Osterwalder y Pigneur"],0,"En 1992."]],
+t: ["Indicador clave de desempeño (KPI)","Tablero de control","Indicador adelantado","Indicador rezagado","Cuadro de mando integral"]
+},
+"M7-5": {
+s: `En Tortas Lupita todo se comunica «cuando se puede»: a gritos en la cocina, por mensajes sueltos o en el pasillo. Las decisiones se pierden y los problemas se repiten. Toño propone algo sencillo: reuniones cortas, siempre a la misma hora.`,
+o: ["Diseñar ritmos de gestión: juntas diarias, semanales y mensuales.","Organizar reuniones breves y útiles.","Mejorar la comunicación interna."],
+x: `## Los ritmos de gestión
+Un negocio funciona mejor cuando tiene **ritmos**: momentos fijos para revisar, decidir y comunicar. Así como el cuerpo tiene ritmo cardiaco, un negocio sano tiene un «pulso» de reuniones y revisiones que se repite. Sin ritmos, todo se resuelve en el momento, a la carrera, y las decisiones importantes nunca llegan porque siempre hay algo urgente.
+
+Los ritmos más comunes son:
+
+| Ritmo | Duración | Quiénes | Para qué |
+|---|---|---|---|
+| Diario | 5 a 15 minutos | El equipo de cada turno | Coordinar el día: qué hay, qué falta, qué cuidar |
+| Semanal | 30 a 60 minutos | Dirección y responsables de área | Revisar KPI, resolver problemas, decidir acciones |
+| Mensual | 1 a 2 horas | Dirección y responsables | Revisar resultados financieros y avance de objetivos |
+| Trimestral o anual | Medio día a dos días | Dirección (y dueños) | Revisar la estrategia y fijar objetivos |
+
+## La junta diaria
+Es breve, de pie si se puede, y antes de empezar el turno. Sirve para:
+- Repasar lo importante del día (pedidos grandes, faltantes, personal).
+- Avisar de cambios (nueva promoción, un proveedor que llega tarde).
+- Recordar un objetivo o un estándar («hoy cuidamos el tiempo en mostrador»).
+- Reconocer algo bueno del día anterior.
+
+En muchas empresas de tecnología se usa una versión llamada *stand-up* (porque se hace de pie): cada persona dice qué hizo ayer, qué hará hoy y qué le impide avanzar.
+
+## La junta semanal
+Es el corazón de la gestión. Una estructura sencilla:
+1. **Indicadores** (10 minutos): revisar el tablero de KPI (lección M7-4).
+2. **Problemas** (20 minutos): los dos o tres temas que están en rojo; causa y acción.
+3. **Acuerdos** (5 minutos): quién hace qué y para cuándo.
+4. **Seguimiento:** se empieza la siguiente junta revisando los acuerdos de la anterior.
+
+## La junta mensual
+Revisa los números del mes (estado de resultados, flujo de efectivo), el avance de los objetivos SMART y los temas que requieren decisiones más grandes: contratar, invertir, cambiar precios. Es también un buen momento para escuchar al equipo.
+
+## Reglas para reuniones útiles
+Las reuniones tienen mala fama porque muchas son largas, desordenadas e inútiles. Unas reglas sencillas las hacen valiosas:
+- **Hora y duración fijas:** empiezan y terminan a tiempo.
+- **Agenda breve:** se sabe de qué se va a hablar.
+- **Datos, no opiniones:** se parte de los indicadores.
+- **Pocas personas:** solo quienes deben decidir o actuar.
+- **Acuerdos escritos:** con responsable y fecha.
+- **Seguimiento:** se revisa si se cumplió lo acordado.
+- **Sin celulares** durante la junta (salvo emergencias).
+- **Todos hablan:** no solo el jefe.
+
+## La comunicación interna
+Además de las juntas, un negocio necesita canales para que la información llegue a quien la necesita:
+- **Pizarrón o tablero en la cocina:** pedidos del día, faltantes, metas, avisos.
+- **Grupo de mensajería del equipo:** para avisos breves, con reglas (horario, temas).
+- **Bitácora de turno:** el turno que sale deja escritos los pendientes al que entra.
+- **Manuales y procedimientos** (lección M6-8).
+- **Reuniones uno a uno:** conversaciones individuales del jefe con cada persona, cada mes, para hablar de su trabajo, sus dudas y su desarrollo.
+
+La comunicación debe ir en **dos sentidos**: de la dirección al equipo (decisiones, objetivos) y del equipo a la dirección (problemas, ideas, quejas de clientes). Los empleados que atienden al cliente saben cosas que el dueño no ve.
+
+## El tiempo del directivo
+Recuerda que Mintzberg observó que el trabajo directivo es fragmentado y lleno de interrupciones (lección M7-1). Los ritmos de gestión ayudan a proteger el tiempo: si los temas se juntan para la reunión semanal, el dueño no tiene que resolver cada cosa en el momento. También ayuda distinguir entre lo **urgente** (lo que grita) y lo **importante** (lo que construye el negocio). Una herramienta clásica es la **matriz de Eisenhower**:
+
+| | Urgente | No urgente |
+|---|---|---|
+| Importante | Hacer ya (se acabó el gas) | Planear y agendar (buscar proveedor de respaldo) |
+| No importante | Delegar (contestar un mensaje rutinario) | Eliminar (revisar redes sin propósito) |
+
+Los buenos directivos dedican más tiempo al cuadrante «importante, no urgente», porque ahí están las mejoras que evitan las urgencias de mañana.
+
+## Una práctica de empresa gigante
+Algunas grandes empresas tienen reglas particulares sobre sus reuniones. Amazon es conocida porque, en muchas de sus reuniones de dirección, en lugar de presentaciones con diapositivas, se prepara un **documento narrativo** (memorándum) de unas pocas páginas que todos leen en silencio al inicio de la junta, antes de discutir. Jeff Bezos explicó en sus cartas a los accionistas que escribir un documento completo obliga a pensar con más claridad.
+
+## Los ritmos de Tortas Lupita
+Toño implanta: junta diaria de 10 minutos a las 7:20 en la cocina; junta semanal los lunes a las 16:00 con Lupita, el jefe de cocina y la administradora; junta mensual el primer martes de cada mes. Además, una bitácora de turno y un pizarrón con los pedidos de oficinas. En un mes, los pedidos perdidos bajan a cero y Lupita deja de recibir mensajes a medianoche.`,
+k: `**Ritmos de gestión:** junta **diaria** (coordinar el día), **semanal** (KPI, problemas, acuerdos), **mensual** (números y objetivos) y **trimestral o anual** (estrategia). Reuniones útiles: hora fija, agenda, datos, acuerdos escritos y seguimiento. Comunicación en **dos sentidos**. Matriz de Eisenhower: urgente frente a importante.`,
+ch: `Una fonda hace una junta de 5 minutos antes de abrir: cuál es el guisado del día, qué se acabó ayer y quién cubre a la mesera que faltó.`,
+gi: `Amazon es conocida por usar, en muchas reuniones directivas, memorándums narrativos que se leen en silencio al inicio, en lugar de presentaciones con diapositivas.`,
+e: `Toño calcula cuánto tiempo de Lupita ahorran los ritmos de gestión:
+
+| Concepto | Antes | Después |
+|---|---|---|
+| Interrupciones diarias a Lupita | 25 | 8 |
+| Minutos por interrupción | 6 | 6 |
+| Minutos perdidos al día | 150 | 48 |
+| Tiempo en juntas (promedio diario) | 0 | 25 |
+| Tiempo neto recuperado al día | — | 77 minutos |
+
+Lupita recupera más de una hora diaria, que dedica a buscar clientes corporativos.`,
+r: `Jeff Bezos, fundador de Amazon, explicó en su carta a los accionistas de 2017 por qué la empresa prefiere memorándums narrativos de seis páginas en lugar de presentaciones con diapositivas en sus juntas de dirección: escribir un documento completo obliga a razonar mejor.`,
+f: `Amazon.com, carta anual a los accionistas de 2017 (ir.aboutamazon.com).`,
+err: ["Hacer juntas sin agenda, sin hora de fin y sin acuerdos.","Invitar a todos a todas las reuniones.","No revisar si se cumplieron los acuerdos anteriores.","Comunicar solo de arriba hacia abajo."],
+a: `Diseña los ritmos de gestión del negocio que observas: qué junta diaria, semanal y mensual tendría, quién asistiría, cuánto duraría y qué se revisaría. Escribe la agenda de la junta semanal.`,
+sol: `Una buena agenda semanal cabe en tres puntos: indicadores, problemas principales y acuerdos con responsable y fecha.`,
+q: [["¿Para qué sirve la junta diaria?",["Coordinar el día: qué hay, qué falta, qué cuidar","Revisar la estrategia de 5 años","Firmar contratos"],0,"Es breve y operativa."],
+["En la matriz de Eisenhower, buscar un proveedor de respaldo es…",["Importante y no urgente","Urgente y no importante","Ni importante ni urgente"],0,"Conviene planearlo antes de que sea una emergencia."],
+["Una regla para reuniones útiles es…",["Terminar con acuerdos escritos, con responsable y fecha","No tener agenda","Que hable solo el jefe"],0,"Sin acuerdos, la junta se pierde."],
+["La comunicación interna debe ir…",["En dos sentidos: de la dirección al equipo y del equipo a la dirección","Solo de arriba hacia abajo","Solo por escrito"],0,"Los empleados ven cosas que el dueño no ve."]],
+t: ["Ritmos de gestión","Junta semanal","Matriz de Eisenhower","Comunicación interna","Bitácora de turno"]
+},
+"M7-6": {
+s: `En la sucursal de Toño los empleados están contentos y casi nadie renuncia. En la del nuevo gerente, que grita y castiga, se van dos personas al mes. Lupita entiende que la forma de dirigir crea una «manera de ser» del negocio.`,
+o: ["Distinguir estilos de liderazgo y cuándo usarlos.","Explicar qué es la cultura de una organización.","Proponer acciones para construir una cultura sana."],
+x: `## ¿Qué es liderar?
+**Liderar** es influir en las personas para que trabajen juntas hacia un objetivo. No es lo mismo que mandar: un jefe puede dar órdenes porque tiene el puesto, pero un líder logra que la gente quiera hacer las cosas bien, incluso cuando el jefe no está. En un negocio, todos los que dirigen a otros (el dueño, los gerentes, los supervisores, el encargado de turno) necesitan liderar.
+
+## Estilos de liderazgo
+Desde los años treinta, el psicólogo Kurt Lewin y sus colegas estudiaron tres estilos básicos:
+- **Autoritario:** el jefe decide solo y da órdenes. Es rápido y útil en emergencias o con personas sin experiencia, pero si se usa siempre, desmotiva y frena la iniciativa.
+- **Participativo (democrático):** el jefe consulta al equipo y decide con sus aportaciones. Genera compromiso e ideas, pero es más lento.
+- **Liberal (laissez-faire):** el jefe deja que el equipo decida casi todo. Funciona con equipos muy expertos y motivados; con otros, genera desorden.
+
+Estudios posteriores, como el **liderazgo situacional** de Paul Hersey y Ken Blanchard, plantearon que no hay un estilo mejor para todo: el buen líder **adapta su estilo** a la situación y a la madurez de cada persona. A un cocinero nuevo hay que darle instrucciones claras y supervisarlo de cerca; a uno con años de experiencia, conviene consultarle y delegarle.
+
+| Situación | Estilo recomendado |
+|---|---|
+| Emergencia (se incendia la cocina) | Autoritario: instrucciones claras y rápidas |
+| Empleado nuevo sin experiencia | Directivo: explicar, mostrar, supervisar |
+| Empleado con experiencia, pero inseguro | De apoyo: escuchar, animar, acompañar |
+| Empleado experto y motivado | Delegar: dar el resultado esperado y confiar |
+| Decidir el nuevo menú | Participativo: escuchar a cocina y a quienes atienden |
+
+## Lo que hace un buen líder en un negocio
+Más allá de los estilos, hay prácticas que funcionan casi siempre:
+- **Dar el ejemplo:** si el jefe llega tarde, el equipo también.
+- **Ser claro:** explicar qué se espera y por qué.
+- **Reconocer:** decir en voz alta lo que se hizo bien.
+- **Corregir en privado y con respeto:** sin humillar.
+- **Escuchar:** las personas que atienden al cliente saben mucho.
+- **Ser justo:** las mismas reglas para todos, incluidos los familiares.
+- **Cumplir lo que promete:** la confianza se construye con hechos.
+- **Desarrollar a las personas:** enseñar, dar oportunidades de crecer.
+
+## ¿Qué es la cultura?
+La **cultura organizacional** es el conjunto de creencias, valores, costumbres y formas de comportarse que comparten las personas de una organización. Es «cómo se hacen las cosas aquí». Se nota en detalles: cómo se saluda a los clientes, cómo se tratan los errores, si la gente ayuda a sus compañeros, si se cumplen los horarios, si se puede opinar.
+
+El psicólogo Edgar Schein, uno de los grandes estudiosos del tema, propuso que la cultura tiene tres niveles:
+1. **Artefactos visibles:** lo que se ve: uniformes, decoración, rituales, cómo se habla.
+2. **Valores declarados:** lo que la organización dice que valora (lo que está en la pared).
+3. **Supuestos básicos:** las creencias profundas que la gente da por hecho, muchas veces sin decirlas («aquí el que se equivoca se queda callado», «el cliente siempre es lo primero»).
+
+Cuando los valores declarados no coinciden con los supuestos reales, la gente cree lo que ve, no lo que se dice.
+
+## Cómo se forma la cultura
+La cultura no se decreta: se construye con lo que hacen, sobre todo, los líderes:
+- **A qué ponen atención** y qué miden.
+- **Cómo reaccionan** ante los errores y las crisis.
+- **A quién contratan, premian, promueven y despiden.**
+- **Cómo se comportan** ellos mismos.
+- **Qué historias** se cuentan en el negocio.
+
+Si el dueño grita cuando algo sale mal, la cultura será de miedo: la gente esconderá los errores. Si el dueño pregunta «¿qué aprendimos?», la cultura será de mejora.
+
+## Por qué importa la cultura
+Una cultura sana:
+- Reduce la **rotación** (la gente se queda donde se siente bien).
+- Mejora el **servicio** (el trato a los clientes refleja el trato entre compañeros).
+- Facilita el **cambio** (la gente confía en que las decisiones tienen sentido).
+- Ahorra **supervisión** (las personas hacen lo correcto sin que las vigilen).
+
+Un dicho atribuido con frecuencia al consultor Peter Drucker resume la idea: «la cultura se come a la estrategia en el desayuno». Aunque no hay pruebas firmes de que Drucker lo haya dicho así, refleja algo que muchos directivos han vivido: una buena estrategia fracasa si la cultura va en contra.
+
+## El caso de las dos sucursales
+En la sucursal de Toño, los empleados saben que pueden equivocarse y aprender, que serán reconocidos y que las reglas son claras. En la del nuevo gerente, los errores se castigan con gritos y descuentos, y nadie se atreve a avisar de un problema. Lupita habla con el gerente, le da capacitación en liderazgo y le pone un indicador de rotación. Le explica que su trabajo no es solo vender, sino formar un equipo que quiera quedarse. Si no cambia, tendrá que salir: la cultura se defiende también con decisiones difíciles.`,
+k: `**Liderar:** influir para que las personas trabajen juntas hacia un objetivo. Estilos: **autoritario, participativo, liberal** (Lewin); el **liderazgo situacional** adapta el estilo a la persona y la situación. **Cultura:** «cómo se hacen las cosas aquí»; niveles de Schein: artefactos, valores declarados y **supuestos básicos**. La construyen los líderes con lo que hacen.`,
+ch: `En una carnicería de barrio, el dueño saluda a cada cliente por su nombre y regala un hueso para el perro. Sus empleados copian ese trato: es la cultura del negocio.`,
+gi: `Southwest Airlines se hizo famosa por una cultura de buen humor y trato cercano promovida por su cofundador Herb Kelleher, quien sostenía que si se cuida a los empleados, ellos cuidan a los clientes.`,
+e: `Lupita compara las dos sucursales durante un año:
+
+| Indicador | Sucursal de Toño | Sucursal del nuevo gerente |
+|---|---|---|
+| Empleados promedio | 8 | 8 |
+| Renuncias en el año | 2 | 24 |
+| Rotación anual | 25 % | 300 % |
+| Costo estimado por reemplazo (reclutar y capacitar) | 6,000 | 6,000 |
+| Costo anual de la rotación | 12,000 | 144,000 |
+| Calificación promedio en reseñas | 4.7 | 3.9 |
+
+La forma de liderar le cuesta a la segunda sucursal más de 130,000 pesos al año, además de clientes.`,
+r: `Herb Kelleher, cofundador y director general de Southwest Airlines durante muchos años, promovió una cultura centrada en los empleados. La aerolínea se volvió un caso de estudio sobre cómo la cultura puede ser una ventaja competitiva difícil de copiar.`,
+f: `Kevin y Jackie Freiberg, «Nuts! Southwest Airlines' Crazy Recipe for Business and Personal Success» (1996); Edgar Schein, «La cultura empresarial y el liderazgo».`,
+err: ["Usar siempre el mismo estilo con todas las personas.","Escribir valores en la pared que nadie practica.","Tolerar a un gerente que obtiene resultados maltratando a su equipo.","Creer que la cultura se cambia con un discurso."],
+a: `Describe la cultura del negocio que observas con los tres niveles de Schein: qué se ve, qué se dice y qué se cree realmente. Identifica una práctica del líder que fortalezca la cultura y otra que la debilite.`,
+sol: `La mejor pista de los supuestos básicos es observar qué pasa cuando alguien se equivoca o cuando un cliente se queja.`,
+q: [["El liderazgo situacional propone que…",["El líder adapte su estilo a la situación y a la persona","Siempre se use el estilo autoritario","No haya líderes"],0,"De Hersey y Blanchard."],
+["La cultura organizacional es…",["«Cómo se hacen las cosas aquí»","El organigrama","El estado de resultados"],0,"Creencias, valores y costumbres compartidos."],
+["Según Schein, el nivel más profundo de la cultura son…",["Los supuestos básicos","Los uniformes","El logo"],0,"Creencias que se dan por hecho."],
+["¿Qué construye más la cultura?",["Lo que hacen los líderes","Un cartel con valores","Un manual que nadie lee"],0,"La gente cree lo que ve."]],
+t: ["Liderazgo","Liderazgo situacional","Cultura organizacional","Rotación de personal"]
+},
+"M7-7": {
+s: `Lupita tiene tres sucursales y un equipo de gerentes, pero sigue revisando cada compra, cambiando recetas sin avisar y contestando el WhatsApp de cada sucursal. Toño le dice con cariño: «Mamá, si no sueltas, no vamos a crecer».`,
+o: ["Reconocer el síndrome del dueño que no suelta.","Explicar qué significa profesionalizar un negocio.","Diseñar un plan gradual para delegar."],
+x: `## El dueño que no suelta
+Muchos negocios dejan de crecer no por falta de clientes ni de dinero, sino porque el dueño **no suelta el control**. Sigue tomando todas las decisiones, revisa cada detalle, desautoriza a sus gerentes y se convierte en el cuello de botella del negocio. Es tan común que se le conoce como el **síndrome del fundador**.
+
+¿Por qué ocurre? Hay razones comprensibles:
+- **El negocio es su vida:** lo construyó con su esfuerzo y lo siente como un hijo.
+- **Nadie lo hace como él:** y es cierto, al principio; los demás todavía no saben.
+- **Miedo a perder el control** o a que se cometan errores caros.
+- **Identidad:** si deja de hacer, ¿quién es?
+- **Desconfianza:** quizá tuvo malas experiencias con empleados.
+- **Falta de herramientas:** no sabe cómo delegar sin perder el control.
+
+## Los síntomas
+- El dueño trabaja más horas que nadie y aun así no le alcanza el tiempo.
+- Los gerentes no deciden nada sin consultarlo.
+- Cuando el dueño no está, las decisiones se detienen.
+- Los buenos gerentes renuncian porque no tienen autoridad real.
+- El dueño cambia decisiones de sus gerentes frente al equipo.
+- El negocio crece hasta cierto tamaño y se estanca.
+- El dueño no ha tomado vacaciones en años.
+
+## El dilema del fundador
+El investigador Noam Wasserman, en su libro «Los dilemas del fundador», estudió miles de empresas emergentes y describió una disyuntiva frecuente: muchos fundadores tienen que elegir, en algún momento, entre ser **«ricos»** (dejar entrar socios, inversionistas y directivos profesionales para que la empresa crezca y valga más, aunque ellos tengan menos control) o ser **«reyes»** (conservar el control total, aunque la empresa crezca menos). Ninguna opción es mala en sí; el problema es no darse cuenta de que se está eligiendo.
+
+## Profesionalizar
+**Profesionalizar** un negocio significa pasar de una forma de operar basada en la persona del dueño a una basada en **sistemas, procesos y personas capaces**. Incluye:
+1. **Estructura clara:** organigrama, puestos y responsabilidades (Módulo 6).
+2. **Procesos escritos:** que el negocio funcione igual sin importar quién esté (Módulo 9).
+3. **Información confiable:** estados financieros mensuales, indicadores (Módulos 7 y 8).
+4. **Gerentes con autoridad real** y metas claras.
+5. **Reglas de decisión:** matriz de delegación y niveles de aprobación (lección M6-7).
+6. **Separación entre familia y negocio:** sueldos, puestos y reglas claras para los familiares (Módulo 18).
+7. **Órganos de gobierno:** en negocios medianos, un consejo consultivo con asesores externos (Módulo 24).
+
+Profesionalizar no significa que el dueño desaparezca ni que se vuelva «frío». Significa que el negocio deja de depender de su presencia diaria.
+
+## Cómo delegar sin perder el control
+Delegar no es «soltar todo de golpe». Es un proceso gradual:
+1. **Haz una lista** de todo lo que haces en una semana.
+2. **Clasifica** cada tarea: ¿solo yo puedo hacerla? ¿Otro podría hacerla con capacitación? ¿Otro podría hacerla ya?
+3. **Empieza por lo repetitivo** y de bajo riesgo.
+4. **Elige a la persona** y explícale el resultado esperado, los límites y cómo se revisará.
+5. **Acompaña al principio:** que lo haga contigo, luego solo con revisión, luego solo.
+6. **Controla por resultados, no por actividades:** revisa los indicadores, no cada paso.
+7. **Tolera errores pequeños:** son el precio del aprendizaje.
+8. **No desautorices en público:** si no estás de acuerdo con una decisión, habla en privado con el gerente.
+9. **Celebra** cuando las cosas salen bien sin ti.
+
+## Qué debe conservar el dueño
+Soltar la operación no significa soltar todo. Hay decisiones que el dueño debe conservar:
+- La **visión** y la **estrategia** del negocio.
+- La **elección de las personas clave** (gerentes principales).
+- Las **grandes decisiones de dinero:** inversiones, créditos, socios.
+- Los **valores** y la cultura.
+- La **revisión de resultados.**
+
+Es decir, el dueño pasa de **hacer** a **dirigir**, y después de dirigir a **gobernar** (decidir el rumbo y vigilar).
+
+## El plan de Lupita
+Toño y Lupita hacen la lista de sus tareas semanales. Descubren que el 60 % de su tiempo se va en tareas que otros podrían hacer. Arman un plan de tres meses:
+
+| Mes | Lupita deja de… | Lo hace ahora… | Lupita revisa… |
+|---|---|---|---|
+| 1 | Aprobar compras de menos de 5,000 pesos | Gerentes de sucursal | Reporte semanal de compras |
+| 1 | Contestar WhatsApp de cada sucursal | Encargados de turno | Quejas en la junta semanal |
+| 2 | Cambiar recetas sin avisar | Jefe de cocina central, con prueba y aprobación | Propuestas en la junta mensual |
+| 2 | Hacer la nómina | Administradora con el contador | Resumen mensual |
+| 3 | Supervisar el cierre de caja de cada sucursal | Gerentes, con arqueo sorpresa mensual | Diferencias de caja |
+
+Con las horas liberadas, Lupita se dedica a buscar la cuarta sucursal, a negociar con proveedores grandes y a preparar el crecimiento. Por primera vez en años, toma una semana de vacaciones y el negocio sigue funcionando.
+
+## Una idea para cerrar el módulo
+La dirección de un negocio empieza en una sola persona que hace todo y termina, en las empresas gigantes, en un sistema de órganos y personas: accionistas, consejo, director general, directores de área. En medio está el camino que recorre cada negocio que crece: aprender a planear, a organizar, a medir, a comunicar, a liderar y, sobre todo, a soltar.`,
+k: `**Síndrome del fundador:** el dueño no suelta y se vuelve cuello de botella. **Profesionalizar:** pasar de depender del dueño a depender de **sistemas, procesos y personas capaces**. Delegar es **gradual**: lista de tareas, empezar por lo repetitivo, acompañar, controlar por resultados. El dueño conserva visión, personas clave, grandes decisiones de dinero, valores y revisión.`,
+ch: `El dueño de una panadería deja de abrir a las 4:00 cuando su maestro panadero aprende a hacer la masa madre y el control de calidad; ahora él se dedica a conseguir clientes para pedidos de eventos.`,
+gi: `Muchos fundadores de grandes empresas pasaron, con los años, de dirigir la operación a presidir el consejo de administración, dejando la dirección general a un profesional; algunos lo hicieron con éxito y otros regresaron cuando sintieron que la empresa perdía el rumbo.`,
+e: `Lupita mide su semana antes y después del plan:
+
+| Uso de su tiempo (horas por semana) | Antes | Después de 3 meses |
+|---|---|---|
+| Operación diaria (compras, WhatsApp, cierres) | 38 | 8 |
+| Revisar indicadores y números | 2 | 6 |
+| Proveedores grandes y negociación | 4 | 8 |
+| Crecimiento (nueva sucursal, oficinas) | 1 | 12 |
+| Total | 45 + urgencias | 34 |
+
+Trabaja menos horas, pero dedica 5 veces más tiempo a hacer crecer el negocio.`,
+r: `Noam Wasserman, profesor de la Escuela de Negocios de Harvard, publicó en 2012 «The Founder's Dilemmas», basado en datos de miles de fundadores de empresas emergentes en Estados Unidos. Su análisis muestra que muchos fundadores enfrentan la disyuntiva de conservar el control o ceder parte de él para que la empresa crezca y valga más.`,
+f: `Noam Wasserman, «The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup» (2012).`,
+err: ["Delegar todo de golpe y luego quitarlo al primer error.","Desautorizar a los gerentes frente al equipo.","Controlar cada paso en lugar de los resultados.","Soltar también las decisiones que el dueño debe conservar."],
+a: `Haz la lista de tareas semanales de un dueño o directivo que conozcas (o la tuya). Clasifícalas en «solo yo», «otro con capacitación» y «otro ya». Arma un plan de delegación de tres meses con quién, qué y cómo se revisará.`,
+sol: `Revisa que el plan empiece por tareas repetitivas y que cada tarea delegada tenga un indicador o reporte para que el dueño controle por resultados.`,
+q: [["El síndrome del fundador se refiere a…",["El dueño que no suelta el control y frena el crecimiento","Un fundador que vende la empresa","Una enfermedad laboral"],0,"Se vuelve el cuello de botella."],
+["Profesionalizar un negocio significa…",["Que funcione con sistemas, procesos y personas capaces, no solo con el dueño","Despedir a la familia","Salir a bolsa"],0,"El negocio deja de depender de la presencia diaria del dueño."],
+["¿Qué decisión debe conservar normalmente el dueño?",["Las grandes decisiones de dinero y la estrategia","Contestar cada WhatsApp","Hacer cada cierre de caja"],0,"Lo operativo se delega; el rumbo se conserva."],
+["Al delegar, es mejor controlar…",["Por resultados, con indicadores","Cada paso de cada tarea","Nada"],0,"Así se da autonomía sin perder el control."]],
+t: ["Síndrome del fundador","Profesionalizar","Delegar","Consejo consultivo"]
+}
+});
+// ===== M8. Finanzas y contabilidad: cómo fluye el dinero II =====
+Object.assign(window.LECC, {
+"M8-1": {
+s: `Con el local formal, Lupita recibe cada mes un paquete del contador con hojas llenas de números. Lo guarda sin leerlo. Toño le pregunta: «¿Quién en el negocio se encarga de entender esto y de cuidar el dinero?». Nadie.`,
+o: ["Describir las funciones del área de finanzas y contabilidad.","Distinguir contabilidad, tesorería, planeación financiera y fiscal.","Reconocer cómo crece esta área con el tamaño del negocio."],
+x: `## El área que cuida el dinero
+En todo negocio hay alguien (o un área entera) que se encarga del dinero: de registrarlo, informar cómo va, asegurarse de que alcance para pagar, conseguir más cuando hace falta y cumplir con los impuestos. En un changarro es el dueño con su cuaderno; en una pyme, una administradora y un contador externo; en una empresa gigante, una **dirección de finanzas** con cientos de personas encabezada por el director de finanzas (en inglés, CFO, *chief financial officer*).
+
+## Las cinco funciones principales
+| Función | Qué hace | Pregunta que responde |
+|---|---|---|
+| Contabilidad | Registra todas las operaciones y prepara los estados financieros | ¿Qué pasó con el dinero? |
+| Tesorería | Administra el efectivo: cobros, pagos, bancos | ¿Tenemos dinero para pagar hoy y mañana? |
+| Planeación financiera | Prepara presupuestos y proyecciones; analiza resultados | ¿Qué va a pasar y qué debemos hacer? |
+| Financiamiento | Consigue dinero: créditos, socios, proveedores | ¿De dónde sacamos dinero para crecer? |
+| Fiscal | Calcula y paga impuestos; cumple obligaciones con la autoridad | ¿Estamos en regla? |
+
+En un negocio pequeño, varias funciones las hace la misma persona. Pero conviene saber que son distintas, porque cada una necesita atención.
+
+## Contabilidad: el registro de todo
+La **contabilidad** registra cada operación del negocio (ventas, compras, pagos, cobros, préstamos) de forma ordenada, para poder saber, en cualquier momento, cuánto se vendió, cuánto se gastó, cuánto se tiene y cuánto se debe. Sus productos principales son los **estados financieros**:
+- **Estado de resultados:** cuánto se ganó o perdió en un periodo (lección M8-2).
+- **Balance general:** qué tiene, qué debe y qué es de los dueños en una fecha (lección M8-3).
+- **Estado de flujos de efectivo:** cuánto efectivo entró y salió, y por qué (lección M8-4).
+
+Hay dos tipos de contabilidad:
+- **Financiera:** sigue reglas estándar (en México, las Normas de Información Financiera, NIF; en muchos países, las Normas Internacionales de Información Financiera, NIIF o IFRS) para informar a dueños, bancos, inversionistas y autoridades.
+- **Administrativa (o gerencial):** informes internos para decidir: costos por producto, resultados por sucursal, comparación con el presupuesto. No sigue reglas obligatorias; se diseña según lo que la dirección necesita.
+
+Además está la **contabilidad fiscal**, que aplica las reglas de los impuestos y que en México se envía de forma electrónica al SAT.
+
+## Tesorería: que nunca falte efectivo
+La **tesorería** se ocupa del día a día del dinero: depositar lo cobrado, pagar a proveedores y empleados en la fecha correcta, vigilar los saldos de los bancos, decidir qué pagar primero si el dinero no alcanza y, si sobra, dónde guardarlo de forma segura. Un negocio con utilidades puede quebrar por una mala tesorería: si no tiene efectivo el día de la nómina, tiene un problema grave aunque «gane dinero» en el papel.
+
+## Planeación financiera: mirar hacia adelante
+La contabilidad mira hacia atrás; la **planeación financiera** mira hacia adelante. Prepara el **presupuesto** anual (lección M8-7), proyecta el flujo de efectivo, analiza si conviene una inversión (Módulo 17) y compara lo real con lo planeado para avisar a tiempo de los problemas. En las empresas grandes, esta función se llama a veces «planeación y análisis financiero».
+
+## Financiamiento: conseguir dinero
+Cuando el negocio necesita dinero para crecer, para comprar equipo o para cubrir un hueco temporal, el área de finanzas busca las mejores opciones: crédito de proveedores, préstamos bancarios, arrendamiento, socios o inversionistas (lección M8-8 y Módulo 19). También negocia las condiciones y vigila que se pague a tiempo.
+
+## Fiscal: cumplir con la autoridad
+La función **fiscal** calcula los impuestos, presenta las declaraciones, emite y revisa facturas, y atiende cualquier requerimiento de la autoridad. En México, la mayoría de las pymes la encargan a un contador externo, pero el dueño debe entender lo básico (lección M8-10).
+
+## Cómo crece el área con el negocio
+| Etapa | Quién hace finanzas |
+|---|---|
+| Changarro | El dueño, con un cuaderno o una libreta |
+| Microempresa formal | El dueño + contador externo |
+| Pyme | Una administradora o contadora interna + contador externo para impuestos y auditoría |
+| Empresa mediana | Gerencia de administración y finanzas, con contabilidad, tesorería y nómina |
+| Gran empresa | Dirección de finanzas (CFO) con contraloría, tesorería, planeación financiera, fiscal, relación con inversionistas y auditoría interna |
+
+## El papel del dueño
+Aunque el negocio tenga contador, el dueño no puede delegar del todo la responsabilidad de entender sus números. El contador registra y cumple con los impuestos; pero las decisiones (subir precios, contratar, invertir, endeudarse) son del dueño. Por eso, este módulo te enseña a **leer** los estados financieros, no a hacer contabilidad. Con unas cuantas preguntas, cualquier dueño puede saber si su negocio va bien:
+1. ¿Cuánto vendimos y cuánto ganamos este mes? (estado de resultados)
+2. ¿Cuánto efectivo tenemos y cuánto vamos a tener en los próximos meses? (flujo de caja)
+3. ¿Cuánto nos deben y cuánto debemos? (balance)
+4. ¿Vamos como planeamos? (presupuesto)
+
+## La decisión de Lupita
+Lupita contrata a una administradora de medio tiempo con estudios de contabilidad. Su trabajo: registrar cada día ventas y gastos en el sistema, conciliar los bancos cada semana, preparar un flujo de caja de seis semanas y explicarle a Lupita, cada mes, el paquete del contador en una sola hoja. El paquete deja de quedarse en el cajón.`,
+k: `El área de finanzas tiene cinco funciones: **contabilidad** (registrar e informar), **tesorería** (efectivo), **planeación financiera** (presupuestos y proyecciones), **financiamiento** (conseguir dinero) y **fiscal** (impuestos). Contabilidad **financiera** (reglas como NIF o NIIF) y **administrativa** (para decidir). El dueño debe saber **leer** sus números.`,
+ch: `En una tienda de ropa, el dueño hace la tesorería (paga y cobra), un contador externo hace la contabilidad fiscal y nadie hace planeación: por eso cada enero se queda sin efectivo.`,
+gi: `En las grandes empresas, el director de finanzas (CFO) es uno de los puestos más importantes después del director general; firma los estados financieros junto con él y suele presentar los resultados a los inversionistas cada trimestre.`,
+e: `Lupita reparte las funciones financieras del local:
+
+| Función | Responsable | Frecuencia |
+|---|---|---|
+| Registro de ventas y gastos | Administradora (en el sistema) | Diaria |
+| Conciliación bancaria | Administradora | Semanal |
+| Pagos a proveedores y nómina | Administradora prepara, Lupita autoriza | Semanal y quincenal |
+| Flujo de caja proyectado | Administradora | Semanal (6 semanas hacia adelante) |
+| Estados financieros e impuestos | Contador externo | Mensual |
+| Revisión y decisiones | Lupita | Mensual (junta) |`,
+r: `En México, las empresas que cotizan en la Bolsa Mexicana de Valores deben presentar sus estados financieros con base en las Normas Internacionales de Información Financiera (NIIF), mientras que muchas empresas privadas usan las Normas de Información Financiera (NIF) emitidas por el CINIF.`,
+f: `Consejo Mexicano de Normas de Información Financiera (CINIF), NIF; disposiciones de la Comisión Nacional Bancaria y de Valores para emisoras.`,
+err: ["Creer que el contador decide por el dueño.","No tener a nadie a cargo del efectivo del día a día.","Mirar solo hacia atrás (contabilidad) y nunca hacia adelante (presupuesto y flujo).","Guardar los estados financieros sin leerlos."],
+a: `Para el negocio que observas, identifica quién realiza cada una de las cinco funciones financieras y con qué frecuencia. ¿Hay alguna que nadie haga? Propón quién podría hacerla.`,
+sol: `La función que más se descuida en negocios pequeños es la planeación financiera (presupuesto y flujo proyectado). Un flujo de caja de seis semanas en una hoja de cálculo es un buen primer paso.`,
+q: [["La tesorería se encarga de…",["Administrar el efectivo: cobros, pagos y bancos","Diseñar el logo","Contratar personal"],0,"Que nunca falte efectivo."],
+["La contabilidad administrativa sirve para…",["Informes internos para decidir","Cumplir solo con el SAT","Publicidad"],0,"No sigue reglas obligatorias."],
+["¿Qué significa CFO?",["Director de finanzas","Director de operaciones","Contador externo"],0,"Chief financial officer."],
+["¿Cuál de estos es un estado financiero?",["El balance general","El organigrama","El lienzo de modelo de negocio"],0,"Junto con el estado de resultados y el de flujos de efectivo."]],
+t: ["Contabilidad","Tesorería","Planeación financiera","Estados financieros","NIF","CFO"]
+},
+"M8-2": {
+s: `El contador entrega el estado de resultados del primer mes del local. Lupita ve «utilidad neta: 25,620» y se pregunta: «¿Solo eso? En el puesto ganaba más». Toño le propone leerlo línea por línea.`,
+o: ["Leer un estado de resultados completo.","Analizar cada línea en pesos y en porcentaje de las ventas.","Comparar periodos para encontrar qué cambió."],
+x: `## El estado de resultados
+El **estado de resultados** (también llamado estado de pérdidas y ganancias) muestra lo que pasó con el negocio durante un **periodo** (un mes, un trimestre, un año): cuánto vendió, cuánto le costó y cuánto ganó o perdió. Ya lo conoces por capas desde la lección M5-5; aquí lo verás completo, como lo entrega un contador, y aprenderás a analizarlo.
+
+## El estado de resultados del local de Tortas Lupita
+Primer mes del local formal (precios sin IVA; 5,400 tortas a 40 pesos):
+
+| Concepto | Pesos | % de ventas |
+|---|---|---|
+| Ventas netas | 216,000 | 100.0 % |
+| Costo de ventas (ingredientes y empaques) | 86,400 | 40.0 % |
+| **Utilidad bruta** | **129,600** | **60.0 %** |
+| Sueldos y prestaciones (Lupita, Toño y 6 empleados) | 60,000 | 27.8 % |
+| Renta del local | 15,000 | 6.9 % |
+| Luz, gas y agua | 6,000 | 2.8 % |
+| Contador y sistema de punto de venta | 3,000 | 1.4 % |
+| Publicidad y redes | 2,000 | 0.9 % |
+| Comisiones bancarias y de terminal | 2,500 | 1.2 % |
+| Depreciación del equipo | 1,500 | 0.7 % |
+| **Total de gastos de operación** | **90,000** | **41.7 %** |
+| **Utilidad de operación** | **39,600** | **18.3 %** |
+| Intereses del crédito | 3,000 | 1.4 % |
+| **Utilidad antes de impuestos** | **36,600** | **16.9 %** |
+| Impuesto sobre la renta (30 %) | 10,980 | 5.1 % |
+| **Utilidad neta** | **25,620** | **11.9 %** |
+
+## Cómo leerlo
+Una buena lectura sigue siempre el mismo orden:
+1. **Ventas:** ¿cuánto vendimos?, ¿es más o menos que el mes anterior o que lo planeado?
+2. **Margen bruto:** ¿el producto deja lo que debería? Aquí, 60 %, igual que en el puesto. El producto está sano.
+3. **Gastos de operación:** ¿cuáles son los más grandes y cómo se comparan con las ventas? Aquí pesan mucho los sueldos (27.8 %) y la renta (6.9 %). En el puesto, los gastos eran solo 17 % de las ventas; en el local son 41.7 %.
+4. **Margen de operación:** ¿el negocio, tal como está organizado, es rentable? 18.3 %, mucho menor que el 42.7 % del puesto, pero sano para un restaurante formal.
+5. **Gastos financieros e impuestos:** ¿cuánto se va en intereses y en impuestos? 1.4 % y 5.1 %.
+6. **Margen neto:** ¿cuánto les queda a los dueños? 11.9 %.
+
+## ¿Por qué el local gana menos que el puesto?
+Porque el local tiene una **estructura** mucho más cara: renta, seis empleados, servicios, contador, sistema, impuestos de una sociedad formal. A cambio, vende más (5,400 tortas frente a 3,640), puede atender a oficinas, tiene factura, acceso a crédito y puede crecer. La pregunta correcta no es «¿por qué gano menos?», sino **«¿qué tengo que hacer para que el local, con su estructura, gane más?»**. Las respuestas salen del propio estado de resultados:
+- Vender más con la misma estructura (cada torta extra deja 24 pesos de margen, porque los gastos fijos ya están pagados).
+- Revisar los gastos más grandes (sueldos: ¿hay personas de más en horas flojas?).
+- Mejorar el margen bruto (negociar insumos, reducir merma).
+
+## Análisis vertical y horizontal
+Hay dos formas clásicas de analizar un estado de resultados:
+- **Análisis vertical:** cada línea como porcentaje de las ventas del mismo periodo (la última columna de la tabla). Permite ver el «peso» de cada concepto y compararse con negocios del mismo giro.
+- **Análisis horizontal:** comparar cada línea entre periodos (este mes contra el anterior, este año contra el pasado). Permite ver qué creció, qué bajó y qué cambió.
+
+Ejemplo de análisis horizontal entre el mes 1 y el mes 3 del local:
+
+| Concepto | Mes 1 | Mes 3 | Cambio |
+|---|---|---|---|
+| Ventas | 216,000 | 236,000 | +9.3 % |
+| Costo de ventas | 86,400 | 96,760 | +12.0 % |
+| Margen bruto | 60.0 % | 59.0 % | −1 punto |
+| Gastos de operación | 90,000 | 91,000 | +1.1 % |
+| Utilidad de operación | 39,600 | 48,240 | +21.8 % |
+
+Las ventas crecieron 9.3 %, pero la utilidad de operación creció 21.8 %, porque los gastos casi no cambiaron: es el efecto del apalancamiento operativo (lección M5-3). Sin embargo, el costo de ventas creció más que las ventas: el margen bruto bajó un punto. Hay que revisar si subió algún insumo o si aumentó la merma.
+
+## Errores frecuentes al leer
+- **Mirar solo la última línea** (utilidad neta) sin entender de dónde viene.
+- **No comparar** con el mes anterior, con el presupuesto o con el mismo mes del año pasado.
+- **Olvidar la estacionalidad:** diciembre y enero no son comparables con meses normales.
+- **Confundir utilidad con efectivo:** la depreciación, por ejemplo, reduce la utilidad, pero no sale dinero.
+- **Ignorar los porcentajes:** 5,000 pesos de publicidad no dicen mucho; 2.3 % de las ventas, sí.
+
+## El estado de resultados en una empresa gigante
+Las empresas que cotizan en bolsa publican su estado de resultados cada trimestre. Su estructura es la misma: ingresos, costo de ventas, utilidad bruta, gastos de operación (a veces separados en gastos de venta y de administración), utilidad de operación, resultado financiero (intereses, efectos de tipo de cambio), impuestos y utilidad neta. Muchas añaden un indicador llamado **EBITDA** (utilidad de operación antes de depreciación y amortización), que se usa para comparar empresas con distintos niveles de inversión en equipo. Con lo que aprendiste en esta lección, puedes leer el estado de resultados de cualquier empresa del mundo.`,
+hr: "resultados",
+k: `El **estado de resultados** muestra un **periodo**: ventas → costo de ventas → **utilidad bruta** → gastos de operación → **utilidad de operación** → intereses → impuestos → **utilidad neta**. **Análisis vertical:** cada línea como % de ventas. **Análisis horizontal:** cambio entre periodos. Un local con más estructura vende más pero tiene menor margen que un puesto.`,
+ch: `Una papelería compara diciembre de este año con diciembre del año pasado (no con noviembre), porque su temporada fuerte es el regreso a clases y la de diciembre es floja.`,
+gi: `Walmart de México publica cada trimestre su estado de resultados con ingresos, costo de ventas, utilidad bruta, gastos generales, utilidad de operación, EBITDA y utilidad neta, junto con los porcentajes sobre ingresos.`,
+e: `Lupita calcula cuántas tortas extra al mes necesita para que la utilidad neta del local llegue a 40,000 pesos (con impuesto de 30 %):
+
+| Paso | Cálculo | Resultado |
+|---|---|---|
+| Utilidad antes de impuestos necesaria | 40,000 ÷ 0.70 | 57,143 |
+| Utilidad antes de impuestos actual | — | 36,600 |
+| Falta | 57,143 − 36,600 | 20,543 |
+| Tortas extra (24 pesos de margen cada una) | 20,543 ÷ 24 | 856 al mes |
+| Por día (26 días) | 856 ÷ 26 | 33 |
+
+Con 33 tortas más al día (por ejemplo, pedidos de oficinas), el local superaría la utilidad del puesto en términos de lo que queda a los dueños, además de los sueldos que ya se pagan.`,
+r: `Las emisoras de la Bolsa Mexicana de Valores publican trimestralmente sus estados financieros. En el caso de Walmart de México y Centroamérica, el reporte trimestral presenta ingresos, utilidad bruta, gastos generales, utilidad de operación, EBITDA y utilidad neta, con sus márgenes como porcentaje de los ingresos.`,
+f: `Walmart de México y Centroamérica, reportes trimestrales de resultados (walmex.mx).`,
+err: ["Mirar solo la utilidad neta.","No comparar contra el mes anterior, el presupuesto y el año anterior.","Comparar meses de temporadas distintas.","Analizar pesos sin porcentajes."],
+a: `Con la calculadora «Estado de resultados», arma dos meses del negocio que observas (o de Tortas Lupita con otros números). Haz el análisis vertical y horizontal y escribe tres conclusiones.`,
+sol: `Una buena conclusión dice qué cambió, por qué y qué acción tomar: «el margen bruto bajó 1 punto porque subió el aguacate; probaremos otro proveedor».`,
+q: [["El estado de resultados muestra…",["Lo que pasó durante un periodo","Lo que se tiene en una fecha","El organigrama"],0,"Ventas, costos y utilidades de un periodo."],
+["El análisis vertical expresa cada línea como…",["Porcentaje de las ventas del mismo periodo","Cambio contra el año anterior","Número de empleados"],0,"Muestra el peso de cada concepto."],
+["Si las ventas suben 9 % y la utilidad de operación sube 22 %, probablemente…",["Los gastos fijos casi no cambiaron","Los gastos se duplicaron","El margen bruto se duplicó"],0,"Es el apalancamiento operativo."],
+["¿Por qué el local tiene menor margen que el puesto?",["Porque tiene una estructura de gastos mucho más cara","Porque el producto es peor","Porque vende menos tortas"],0,"Renta, empleados, servicios e impuestos."]],
+t: ["Estado de resultados","Análisis vertical","Análisis horizontal","EBITDA","Utilidad de operación"]
+},
+"M8-3": {
+s: `El banco le pide a Lupita su «balance general». Ella pregunta: «¿No es lo mismo que el estado de resultados?». No: uno es una película del mes; el otro, una fotografía del día.`,
+o: ["Leer un balance general: activos, pasivos y capital.","Aplicar la ecuación contable.","Distinguir activos y pasivos circulantes y no circulantes."],
+x: `## Una fotografía del negocio
+El **balance general** (o estado de situación financiera) muestra, **en una fecha determinada**, lo que el negocio **tiene** (activos), lo que **debe** (pasivos) y lo que **pertenece a los dueños** (capital o patrimonio). Si el estado de resultados es una película de lo que pasó durante el mes, el balance es una fotografía tomada el último día del mes.
+
+## La ecuación contable
+Todo balance cumple siempre una ecuación:
+
+**Activos = Pasivos + Capital**
+
+Lo que tiene el negocio se financió con dinero de terceros (pasivos) o con dinero de los dueños (capital). Por eso los dos lados del balance siempre suman lo mismo; de ahí el nombre «balance».
+
+## Los activos: lo que el negocio tiene
+Los activos se ordenan de más a menos líquidos (de más fácil a más difícil de convertir en efectivo):
+- **Activos circulantes (o de corto plazo):** se convierten en efectivo en menos de un año.
+  - Efectivo y bancos.
+  - Cuentas por cobrar (lo que deben los clientes).
+  - Inventarios (insumos y productos).
+  - Pagos anticipados (por ejemplo, un seguro pagado por adelantado).
+- **Activos no circulantes (o de largo plazo):** se usan durante varios años.
+  - Equipo, maquinaria, mobiliario, vehículos (menos su depreciación acumulada).
+  - Inmuebles (si el negocio es dueño del local).
+  - Depósitos en garantía (por ejemplo, el de la renta).
+  - Activos intangibles (marcas, software, licencias).
+
+## Los pasivos: lo que el negocio debe
+- **Pasivos circulantes (de corto plazo):** se pagan en menos de un año.
+  - Cuentas por pagar a proveedores.
+  - Sueldos e impuestos por pagar.
+  - La parte del préstamo que vence este año.
+- **Pasivos no circulantes (de largo plazo):** se pagan en más de un año.
+  - Préstamos bancarios a varios años.
+
+## El capital: lo que es de los dueños
+- **Capital aportado:** lo que los dueños pusieron al crear el negocio o después.
+- **Utilidades acumuladas (o retenidas):** las utilidades de periodos anteriores que no se repartieron y se quedaron en el negocio.
+- **Utilidad del ejercicio:** la del año en curso.
+
+El capital es, en cierto sentido, lo que «quedaría» para los dueños si se vendieran todos los activos a su valor en libros y se pagaran todas las deudas.
+
+## El balance de Tortas Lupita, S.A. de C.V.
+Al final del tercer mes del local:
+
+| Activos | Pesos | Pasivos y capital | Pesos |
+|---|---|---|---|
+| Efectivo y bancos | 35,000 | Proveedores | 20,000 |
+| Cuentas por cobrar (oficinas) | 12,000 | Impuestos y sueldos por pagar | 12,000 |
+| Inventario de insumos | 8,000 | Parte del crédito que vence este año | 60,000 |
+| **Activo circulante** | **55,000** | **Pasivo circulante** | **92,000** |
+| Equipo y mobiliario (neto de depreciación) | 180,000 | Crédito bancario a largo plazo | 90,000 |
+| Depósito en garantía de la renta | 15,000 | **Total pasivo** | **182,000** |
+| | | Capital aportado (Lupita y Toño) | 50,000 |
+| | | Utilidades acumuladas | 18,000 |
+| | | **Total capital** | **68,000** |
+| **Total activos** | **250,000** | **Total pasivo + capital** | **250,000** |
+
+La ecuación se cumple: 250,000 = 182,000 + 68,000.
+
+## Qué dice este balance
+Al leerlo, Lupita y Toño notan varias cosas:
+1. **El negocio tiene más deudas que capital propio:** de cada 100 pesos de activos, 73 se financiaron con deuda (182,000 ÷ 250,000). Es mucho, por el crédito del equipo.
+2. **El pasivo circulante es mayor que el activo circulante** (92,000 frente a 55,000). Eso significa que en los próximos doce meses deberá pagar más de lo que hoy tiene en efectivo, cuentas por cobrar e inventario. No es una crisis, porque el negocio genera efectivo cada mes, pero es una señal de que debe cuidar su liquidez (lección M8-9).
+3. **La mayor parte de los activos es equipo:** el dinero está «inmovilizado» en la cocina.
+4. **Las utilidades acumuladas son pequeñas:** el negocio es nuevo.
+
+## Relación entre los estados financieros
+Los estados financieros están conectados:
+- La **utilidad neta** del estado de resultados se suma a las **utilidades acumuladas** del balance (si no se reparte).
+- El **efectivo** del balance cambia según el **estado de flujos de efectivo**.
+- La **depreciación** reduce la utilidad en el estado de resultados y el valor del equipo en el balance.
+- Si se vende a crédito, la venta aparece en el estado de resultados y la deuda del cliente en las **cuentas por cobrar** del balance.
+
+## Valor en libros no es valor de mercado
+El balance registra los activos, en general, por lo que costaron menos su depreciación, no por lo que valdrían si se vendieran hoy. Una marca muy conocida puede no aparecer en el balance (si no se compró a otro) y valer mucho. Por eso el capital en libros no es lo mismo que el valor del negocio (Módulo 19).
+
+## El balance en una empresa gigante
+Las grandes empresas publican balances con muchas más cuentas (inversiones, impuestos diferidos, activos por derecho de uso de locales arrendados, crédito mercantil por empresas compradas), pero la estructura y la ecuación son exactamente las mismas: activos = pasivos + capital. Con esta lección puedes leer el balance de cualquier empresa del mundo.`,
+k: `**Balance general:** fotografía en una fecha. **Activos = Pasivos + Capital.** Activos y pasivos **circulantes** (menos de un año) y **no circulantes**. Capital = aportaciones + utilidades acumuladas. Está conectado con el estado de resultados y el de flujos de efectivo. El valor en libros no es el valor de mercado.`,
+ch: `En una tienda de abarrotes, el activo principal es el inventario de mercancía y el pasivo principal son las deudas con los repartidores; el capital es lo que el dueño ha ido dejando en el negocio.`,
+gi: `Grupo Bimbo publica un balance con decenas de miles de millones de pesos en plantas, equipo y marcas adquiridas, y deuda emitida en varios países; la ecuación activos = pasivos + capital se cumple igual que en Tortas Lupita.`,
+e: `Toño comprueba la ecuación contable y calcula dos proporciones:
+
+| Cálculo | Resultado |
+|---|---|
+| Activos | 250,000 |
+| Pasivos + capital | 182,000 + 68,000 = 250,000 ✓ |
+| Proporción de deuda (pasivo ÷ activo) | 182,000 ÷ 250,000 = 72.8 % |
+| Activo circulante ÷ pasivo circulante | 55,000 ÷ 92,000 = 0.60 |
+
+Por cada peso que debe pagar en el próximo año, hoy tiene 60 centavos en activos de corto plazo. Debe cuidar el efectivo y no dar más crédito a oficinas por ahora.`,
+r: `Las Normas Internacionales de Información Financiera llaman al balance «estado de situación financiera». Las empresas que cotizan en la Bolsa Mexicana de Valores lo publican cada trimestre junto con el estado de resultados, el estado de flujos de efectivo y el estado de cambios en el capital.`,
+f: `IASB, NIC 1 «Presentación de estados financieros»; reportes trimestrales de emisoras en bmv.com.mx.`,
+err: ["Confundir el balance con el estado de resultados.","Creer que el capital en libros es lo que vale el negocio.","Ignorar los pasivos de corto plazo.","Olvidar que la utilidad no repartida aumenta el capital."],
+a: `Arma el balance aproximado del negocio que observas (o de tu propia economía familiar): lista activos, pasivos y capital, y verifica que la ecuación se cumpla. ¿Qué proporción de los activos está financiada con deuda?`,
+sol: `Si tu balance no cuadra, el capital es la diferencia: capital = activos − pasivos. Si te sale negativo, se debe más de lo que se tiene.`,
+q: [["La ecuación contable es…",["Activos = Pasivos + Capital","Ventas = Costos","Activos = Ventas − Gastos"],0,"Siempre se cumple."],
+["Las cuentas por cobrar son…",["Un activo: lo que deben los clientes","Un pasivo","Capital"],0,"Es dinero que el negocio va a recibir."],
+["El balance general muestra…",["La situación en una fecha","Lo que pasó durante el mes","El flujo de efectivo"],0,"Es una fotografía."],
+["Si un negocio tiene activos por 300,000 y pasivos por 200,000, su capital es…",["100,000","500,000","200,000"],0,"Capital = activos − pasivos."]],
+t: ["Balance general","Activo","Pasivo","Capital contable","Ecuación contable","Activo circulante","Pasivo circulante"]
+},
+"M8-4": {
+s: `El estado de resultados de marzo dice que Tortas Lupita ganó 30,000 pesos. Pero el día 15 no hay dinero para pagar la quincena. Lupita no entiende: «¿Cómo que gané si no tengo con qué pagar?».`,
+o: ["Explicar por qué utilidad y efectivo no son lo mismo.","Armar y leer un flujo de caja proyectado.","Distinguir los flujos de operación, inversión y financiamiento."],
+x: `## La pregunta más importante
+Hay una frase muy repetida entre financieros: **«las utilidades son una opinión; el efectivo es un hecho»**. Un negocio puede mostrar utilidades y, al mismo tiempo, no tener dinero para pagar. Y muchos negocios quiebran así: no por perder dinero en el papel, sino por quedarse sin efectivo.
+
+## ¿Por qué no coinciden utilidad y efectivo?
+El estado de resultados registra las ventas cuando se hacen y los gastos cuando se consumen, aunque el dinero entre o salga en otro momento. El efectivo, en cambio, solo se mueve cuando realmente se cobra o se paga. Las diferencias más comunes:
+- **Ventas a crédito:** se registran como venta hoy, pero el dinero llega dentro de 15 o 30 días.
+- **Compras de inventario:** salen como dinero hoy, pero se registran como costo cuando se vende el producto.
+- **Compras de equipo:** salen todas de golpe en efectivo, pero en la utilidad se reparten como depreciación durante años.
+- **Pagos de préstamos:** el pago del capital del préstamo sale como efectivo, pero no es un gasto en el estado de resultados (solo los intereses lo son).
+- **Impuestos y aguinaldos:** se acumulan durante el año y se pagan en ciertos meses.
+- **Retiros de los dueños:** salen como efectivo, pero no son gasto.
+
+## El caso de marzo
+En marzo, Tortas Lupita ganó 30,000 pesos en el papel. Pero:
+- Las oficinas le deben 25,000 pesos de pedidos a crédito (venta registrada, dinero no cobrado).
+- Compró una segunda plancha por 18,000 pesos en efectivo (en la utilidad solo aparece la depreciación del mes, unos 375 pesos).
+- Pagó 15,000 pesos del capital del crédito bancario (no aparece como gasto).
+- Lupita retiró 8,000 pesos para su casa.
+
+Resultado: aunque «ganó» 30,000, salió más efectivo del que entró, y el día 15 faltó dinero para la quincena.
+
+## El flujo de caja
+El **flujo de caja** (o flujo de efectivo) registra el dinero que **realmente entra y sale** en cada periodo y el **saldo** que queda. Su forma más sencilla es:
+
+**Saldo inicial + entradas − salidas = saldo final**
+
+y el saldo final de un periodo es el saldo inicial del siguiente.
+
+## El flujo proyectado: ver el futuro
+Lo más útil no es el flujo del pasado, sino el **flujo proyectado**: una estimación de las entradas y salidas de las próximas semanas o meses. Permite ver **antes** cuándo faltará dinero y actuar a tiempo: cobrar antes, pagar después, conseguir un crédito o posponer una compra.
+
+Flujo proyectado de seis meses de Tortas Lupita (cifras redondeadas):
+
+| Mes | Saldo inicial | Cobros | Pagos | Saldo final |
+|---|---|---|---|---|
+| 1 | 20,000 | 180,000 | 185,000 | 15,000 |
+| 2 | 15,000 | 190,000 | 185,000 | 20,000 |
+| 3 | 20,000 | 150,000 | 185,000 | **−15,000** |
+| 4 | −15,000 | 160,000 | 170,000 | −25,000 |
+| 5 | −25,000 | 200,000 | 175,000 | 0 |
+| 6 | 0 | 210,000 | 180,000 | 30,000 |
+
+El mes 3 (enero, mes flojo, con pago de impuestos anuales) el saldo se vuelve negativo, y no se recupera hasta el mes 5. Con este flujo en diciembre, Lupita puede prepararse: apartar dinero en los meses buenos, negociar con un proveedor pagar a 30 días en enero o tramitar una línea de crédito antes de necesitarla. Puedes reproducir este ejemplo en la calculadora «Flujo de caja de 6 meses».
+
+## Las tres partes del flujo de efectivo
+En los estados financieros formales, el **estado de flujos de efectivo** separa el dinero en tres grupos:
+1. **Flujo de operación:** el efectivo que genera (o consume) el negocio en su día a día: cobros a clientes menos pagos a proveedores, empleados, renta, impuestos.
+2. **Flujo de inversión:** el efectivo que se usa para comprar (o se obtiene al vender) equipo, locales u otras empresas.
+3. **Flujo de financiamiento:** el efectivo que entra por préstamos o aportaciones de los dueños, y el que sale por pagos de préstamos o reparto de utilidades.
+
+Un negocio sano genera, en general, **flujo de operación positivo**: su operación produce efectivo. Si durante mucho tiempo el flujo de operación es negativo y se tapa con préstamos, hay un problema serio, aunque el estado de resultados muestre utilidades.
+
+## Cómo mejorar el flujo de caja
+- **Cobrar antes:** anticipos, pago de contado, descuentos por pronto pago, plazos cortos.
+- **Pagar después (sin dañar la relación):** negociar plazos con proveedores.
+- **Reducir inventarios:** comprar con más frecuencia y en menor cantidad.
+- **Escalonar compras grandes:** arrendar equipo en lugar de comprarlo de contado.
+- **Apartar en meses buenos** para los meses flojos y los pagos grandes (impuestos, aguinaldos).
+- **Tener una línea de crédito** aprobada antes de necesitarla.
+- **Ordenar los retiros de los dueños** con un sueldo fijo.
+
+## La regla de oro
+Revisa tu flujo de caja **cada semana** y proyéctalo al menos **seis semanas o seis meses** hacia adelante. Es la herramienta financiera más importante para un negocio pequeño: el estado de resultados dice si ganas; el flujo de caja dice si sobrevives.`,
+hr: "flujo",
+k: `**Utilidad ≠ efectivo:** ventas a crédito, inventarios, compras de equipo, pagos de préstamos, impuestos y retiros hacen que no coincidan. **Flujo de caja:** saldo inicial + entradas − salidas = saldo final. Proyéctalo para ver **antes** cuándo faltará dinero. Tres flujos: **operación, inversión y financiamiento**.`,
+ch: `Un taller de costura recibe un pedido grande de uniformes: gana mucho en el papel, pero tiene que comprar toda la tela de contado y cobra hasta 60 días después de entregar. Sin un anticipo, se queda sin efectivo a mitad del pedido.`,
+gi: `La cadena estadounidense W. T. Grant, con más de mil tiendas, quebró en 1975. Años antes, su estado de resultados mostraba utilidades, pero su flujo de efectivo de operación ya era negativo, en parte por su crecimiento en ventas a crédito e inventarios. Su caso se volvió un ejemplo clásico de por qué hay que mirar el efectivo.`,
+e: `Toño reconstruye marzo: de la utilidad al efectivo.
+
+| Concepto | Pesos |
+|---|---|
+| Utilidad neta del mes | 30,000 |
+| + Depreciación (no sale efectivo) | 2,000 |
+| − Aumento de cuentas por cobrar a oficinas | −25,000 |
+| − Compra de la segunda plancha | −18,000 |
+| − Pago del capital del crédito | −15,000 |
+| − Retiro de Lupita | −8,000 |
+| **Cambio en el efectivo del mes** | **−34,000** |
+
+Ganó 30,000, pero su efectivo bajó 34,000. Por eso faltó dinero para la quincena.`,
+r: `El caso de W. T. Grant se analizó en el artículo «Cash Flows, Ratio Analysis and the W. T. Grant Company Bankruptcy» (Largay y Stickney, Financial Analysts Journal, 1980), que mostró que el flujo de efectivo de operación de la empresa fue negativo durante varios años antes de su quiebra, aunque reportaba utilidades.`,
+f: `J. A. Largay y C. P. Stickney, Financial Analysts Journal (1980).`,
+err: ["Creer que si hay utilidad hay efectivo.","Revisar el flujo solo cuando ya falta dinero.","Comprar equipo grande de contado sin proyectar el flujo.","Tapar con préstamos un flujo de operación negativo durante mucho tiempo."],
+a: `Usa la calculadora «Flujo de caja de 6 meses» con los cobros y pagos esperados del negocio que observas (o de tu casa). ¿En qué mes baja más el saldo? Propón dos acciones para evitar quedarte sin efectivo.`,
+sol: `Las acciones más rápidas suelen ser cobrar anticipos, negociar plazos con proveedores y apartar dinero en los meses buenos.`,
+q: [["¿Por qué un negocio puede tener utilidad y no tener efectivo?",["Porque vendió a crédito, compró equipo o pagó deudas","Porque la contabilidad está mal siempre","Porque no vendió nada"],0,"Utilidad y efectivo se registran en momentos distintos."],
+["La fórmula del flujo de caja es…",["Saldo inicial + entradas − salidas = saldo final","Ventas − costos","Activos − pasivos"],0,"Se encadena mes a mes."],
+["Comprar una plancha nueva es un flujo de…",["Inversión","Operación","Financiamiento"],0,"Compra de equipo."],
+["¿Cada cuánto se recomienda revisar el flujo de caja en un negocio pequeño?",["Cada semana","Cada cinco años","Nunca"],0,"Y proyectarlo varias semanas o meses."]],
+t: ["Flujo de caja","Flujo de efectivo de operación","Flujo de inversión","Flujo de financiamiento","Flujo de caja proyectado"]
+},
+"M8-5": {
+s: `Las oficinas piden más tortas y pagan cada quincena. Toño está feliz: «¡Duplicamos los pedidos!». Pero el efectivo baja cada semana. La administradora explica: «Estamos financiando a nuestros clientes con nuestro propio dinero».`,
+o: ["Definir capital de trabajo y capital de trabajo neto.","Calcular días de inventario, de cobro y de pago.","Explicar cómo el crecimiento consume capital de trabajo."],
+x: `## ¿Qué es el capital de trabajo?
+El **capital de trabajo** es el dinero que el negocio necesita para operar en el día a día: para tener inventario, para esperar a que los clientes paguen y para cubrir los gastos mientras el dinero «da la vuelta» (lección M5-1). En el balance se mide así:
+
+**Capital de trabajo neto = activo circulante − pasivo circulante**
+
+- Si es **positivo**, el negocio tiene más recursos de corto plazo (efectivo, cuentas por cobrar, inventario) que deudas de corto plazo.
+- Si es **negativo**, debe más en el corto plazo de lo que tiene; puede ser peligroso o, en algunos modelos (como los supermercados que cobran de contado y pagan a plazo), normal.
+
+## Las tres piezas del capital de trabajo operativo
+Para administrar el capital de trabajo, conviene mirar tres piezas:
+1. **Inventarios:** el dinero que está en insumos y productos.
+2. **Cuentas por cobrar:** el dinero que los clientes deben.
+3. **Cuentas por pagar:** el dinero que el negocio debe a sus proveedores (que, en cierto sentido, financian al negocio).
+
+**Capital de trabajo operativo = inventarios + cuentas por cobrar − cuentas por pagar**
+
+Este número dice cuánto dinero propio está «atrapado» en la operación.
+
+## Medir en días
+Es útil expresar cada pieza en **días**:
+- **Días de inventario** = inventario ÷ costo de ventas diario.
+- **Días de cobro** = cuentas por cobrar ÷ ventas a crédito diarias (o ventas totales diarias, para un cálculo aproximado).
+- **Días de pago** = cuentas por pagar ÷ compras diarias (o costo de ventas diario).
+
+Y con ellos se calcula el **ciclo de conversión del efectivo** (lección M5-1): días de inventario + días de cobro − días de pago.
+
+## El ejemplo de Tortas Lupita
+Antes del aumento de pedidos de oficinas (cifras mensuales):
+- Ventas: 216,000 (todas de contado). Ventas diarias: 216,000 ÷ 30 = 7,200.
+- Costo de ventas: 86,400. Costo diario: 2,880.
+- Inventario: 8,000 → días de inventario = 8,000 ÷ 2,880 ≈ **2.8 días**.
+- Cuentas por cobrar: 0 → **0 días**.
+- Proveedores: 20,000 → días de pago = 20,000 ÷ 2,880 ≈ **6.9 días**.
+- Ciclo: 2.8 + 0 − 6.9 ≈ **−4.2 días** (con decimales: 2.78 − 6.94). ¡Negativo! Los proveedores financian la operación.
+
+Después de duplicar los pedidos de oficinas (ahora 40 % de las ventas, a crédito de 15 días):
+- Ventas: 260,000. Ventas diarias: 8,667.
+- Cuentas por cobrar: 40 % × 260,000 × 15 ÷ 30 = **52,000** → días de cobro = 52,000 ÷ 8,667 ≈ **6 días**.
+- Costo diario: 3,467. Inventario: 10,000 → 2.9 días. Proveedores: 24,000 → 6.9 días.
+- Ciclo: 2.9 + 6 − 6.9 = **2 días**.
+
+El ciclo pasó de −4.2 a +2 días. En pesos, el negocio ahora tiene **52,000 pesos** prestados a sus clientes. Ese dinero salió de su caja: por eso el efectivo baja aunque las ventas suban.
+
+## El crecimiento consume efectivo
+Este es uno de los fenómenos más importantes y menos entendidos de los negocios: **crecer consume efectivo**. Cuando las ventas crecen, normalmente también crecen los inventarios y las cuentas por cobrar, y el negocio necesita más capital de trabajo. Si no lo tiene, puede quedarse sin dinero justo cuando más vende. A esto se le llama a veces «morir de éxito».
+
+## Cómo administrar el capital de trabajo
+**Inventarios:**
+- Comprar con más frecuencia y en menor cantidad.
+- Controlar la merma y los productos que no se mueven.
+- Usar punto de reorden (Módulo 9).
+
+**Cuentas por cobrar:**
+- Definir una política de crédito clara (a quién, cuánto, a qué plazo).
+- Facturar a tiempo y sin errores.
+- Cobrar con disciplina (lección M8-6).
+- Ofrecer descuentos por pronto pago cuando convenga.
+- Pedir anticipos en pedidos grandes.
+
+**Cuentas por pagar:**
+- Negociar plazos razonables con proveedores.
+- Pagar en la fecha acordada, ni antes (si no hay beneficio) ni después (para no dañar la relación).
+- Aprovechar descuentos por pronto pago si son más baratos que el costo del dinero.
+
+## Financiar el capital de trabajo
+Cuando el capital de trabajo crece, hay que financiarlo:
+- Con **utilidades** que se reinvierten.
+- Con **crédito de proveedores**.
+- Con una **línea de crédito revolvente** del banco (se usa y se paga según las necesidades).
+- Con **factoraje:** vender las cuentas por cobrar a una empresa financiera que adelanta el dinero a cambio de un descuento (lección M8-8).
+
+Lo que no conviene es financiar capital de trabajo permanente con deudas muy caras de corto plazo (como tarjetas de crédito) o, peor, con el dinero de los impuestos o de la nómina.
+
+## La decisión de Toño
+Toño y la administradora deciden: las oficinas nuevas pagarán a 7 días en lugar de 15; se ofrecerá un 2 % de descuento a quienes paguen el mismo día; se negocia con la carnicería pagar a 15 días; y se tramita una línea de crédito de 60,000 pesos para usar solo si es necesario. El efectivo deja de bajar y pueden seguir creciendo con oficinas.`,
+k: `**Capital de trabajo neto = activo circulante − pasivo circulante.** Operativo = inventarios + cuentas por cobrar − cuentas por pagar. Mídelo en **días** (inventario, cobro, pago). **Crecer consume efectivo:** más ventas a crédito e inventario requieren más capital de trabajo. Adminístralo y fináncialo con cuidado.`,
+ch: `Una distribuidora de dulces que vende a tienditas a 30 días y paga a su fabricante a 15 días necesita tener dinero propio para cubrir esos 15 días de diferencia en todas sus ventas.`,
+gi: `En los años noventa, Dell se hizo famosa por vender computadoras directamente a sus clientes, cobrar al momento y pagar a sus proveedores semanas después, con un ciclo de conversión del efectivo negativo: sus clientes y proveedores financiaban su crecimiento.`,
+e: `Toño calcula cuánto efectivo «absorben» las ventas a crédito según el plazo:
+
+| Plazo a oficinas | Ventas a crédito al mes | Cuentas por cobrar promedio |
+|---|---|---|
+| 15 días | 104,000 | 52,000 |
+| 7 días | 104,000 | 24,267 |
+| Contado | 104,000 | 0 |
+
+Cuentas por cobrar promedio = ventas a crédito al mes × días de plazo ÷ 30. Al bajar el plazo de 15 a 7 días, liberan unos 27,700 pesos de efectivo.`,
+r: `Dell Computer fue estudiada en escuelas de negocios por su modelo de venta directa y fabricación por pedido. En varios informes anuales de finales de los noventa, la empresa destacó su ciclo de conversión del efectivo negativo, que le permitía crecer con menos necesidad de financiamiento externo.`,
+f: `Dell Computer Corporation, informes anuales de finales de la década de 1990; estudios de caso de escuelas de negocios sobre el modelo de Dell.`,
+err: ["Celebrar el crecimiento de ventas sin revisar el efectivo.","Dar crédito a clientes sin política ni límites.","Tener inventario de más «por si acaso».","Financiar capital de trabajo con el dinero de los impuestos o la nómina."],
+a: `Calcula el capital de trabajo operativo y los días de inventario, cobro y pago del negocio que observas (con datos aproximados). ¿Qué pasaría con el efectivo si las ventas subieran 30 %? Propón dos acciones para liberar efectivo.`,
+sol: `Si las ventas suben 30 % y los días no cambian, el capital de trabajo operativo también sube alrededor de 30 %; ese dinero hay que conseguirlo antes de crecer.`,
+q: [["El capital de trabajo neto se calcula como…",["Activo circulante − pasivo circulante","Ventas − costos","Activos − capital"],0,"Mide los recursos de corto plazo."],
+["Si un negocio empieza a vender a crédito, su capital de trabajo necesario…",["Aumenta","Disminuye","No cambia"],0,"Financia a sus clientes."],
+["«Crecer consume efectivo» significa que…",["Al vender más, suben inventarios y cuentas por cobrar, y se necesita más dinero","Crecer siempre da efectivo","No hay que crecer"],0,"Por eso muchos negocios «mueren de éxito»."],
+["Con ventas a crédito de 90,000 al mes y plazo de 10 días, las cuentas por cobrar promedio son de unos…",["30,000","90,000","9,000"],0,"90,000 × 10 ÷ 30 = 30,000."]],
+t: ["Capital de trabajo","Días de cobro","Días de inventario","Días de pago","Factoraje","Línea de crédito"]
+},
+"M8-6": {
+s: `Una oficina le debe a Tortas Lupita 18,000 pesos desde hace dos meses. Cada vez que Toño llama, le dicen «la próxima semana». Otra oficina pidió crédito y nadie revisó si paga bien. Lupita decide poner reglas para vender a crédito.`,
+o: ["Diseñar una política de crédito para clientes.","Evaluar a un cliente antes de darle crédito.","Organizar la cobranza y medir la antigüedad de saldos."],
+x: `## Vender a crédito: una decisión de negocio
+Vender a crédito (permitir que el cliente pague después) puede aumentar las ventas, porque muchas empresas solo compran así. Pero también tiene costos y riesgos: el dinero tarda en llegar (necesitas más capital de trabajo), cobrar cuesta tiempo y algunos clientes no pagan. Por eso, dar crédito no debe ser un favor ni una costumbre, sino una **decisión con reglas**.
+
+## La política de crédito
+Una **política de crédito** es un conjunto de reglas escritas que responde:
+1. **¿A quién se le da crédito?** Solo a empresas o personas que cumplan ciertos requisitos.
+2. **¿Cuánto?** Un límite máximo por cliente.
+3. **¿A qué plazo?** 7, 15, 30 días.
+4. **¿Con qué documentos?** Contrato, orden de compra, factura, pagaré.
+5. **¿Qué pasa si no paga a tiempo?** Recordatorios, suspensión del crédito, intereses moratorios, cobranza formal.
+6. **¿Hay incentivos por pagar antes?** Descuentos por pronto pago.
+
+Ejemplo de política de Tortas Lupita para oficinas:
+- Crédito solo a empresas con más de un año de operación y RFC activo.
+- Límite inicial: 10,000 pesos por cliente; puede subir a 25,000 después de tres meses de pagos puntuales.
+- Plazo: 7 días a partir de la factura.
+- Descuento de 2 % si pagan el mismo día de la entrega.
+- Si un pago se retrasa más de 10 días, se suspende el crédito hasta que pague.
+- Pedidos de más de 5,000 pesos de clientes nuevos: 50 % de anticipo.
+
+## Evaluar a un cliente: las «cinco C» del crédito
+Los bancos y las áreas de crédito de las empresas suelen evaluar a un cliente con cinco criterios, conocidos como las **cinco C**:
+1. **Carácter:** ¿tiene fama de pagar? ¿Qué dicen otros proveedores? ¿Cuál es su historial en un buró de crédito?
+2. **Capacidad:** ¿genera suficiente dinero para pagar?
+3. **Capital:** ¿tiene patrimonio propio que respalde su operación?
+4. **Colateral (garantías):** ¿hay algo que respalde la deuda (un pagaré, un depósito, un aval)?
+5. **Condiciones:** ¿cómo está su sector y la economía? ¿Es un buen momento para darle crédito?
+
+Un negocio pequeño no necesita un análisis profundo para cada cliente, pero sí puede hacer preguntas sencillas, pedir referencias de otros proveedores y empezar con límites bajos.
+
+## La cobranza: un proceso, no una persecución
+La **cobranza** es el proceso de convertir las cuentas por cobrar en efectivo. Funciona mejor cuando es ordenada y amable, pero firme:
+1. **Factura a tiempo y sin errores:** muchas empresas no pagan facturas con datos equivocados.
+2. **Recordatorio antes del vencimiento:** un mensaje amable dos días antes.
+3. **Recordatorio el día del vencimiento.**
+4. **Llamada a los 3–5 días de retraso**, con la persona que autoriza los pagos.
+5. **Suspensión del crédito** a los 10 días de retraso (según la política).
+6. **Acuerdo de pago** por escrito si hay un retraso mayor.
+7. **Cobranza formal** (despacho de cobranza o abogado) como último recurso.
+
+La clave es la **constancia**: los clientes pagan primero a los proveedores que cobran con orden.
+
+## La antigüedad de saldos
+Una herramienta sencilla para controlar la cobranza es el **reporte de antigüedad de saldos**: una tabla que muestra cuánto debe cada cliente y desde cuándo.
+
+| Cliente | Al corriente | 1–15 días de retraso | 16–30 días | Más de 30 días | Total |
+|---|---|---|---|---|---|
+| Oficina A | 6,000 | 0 | 0 | 0 | 6,000 |
+| Oficina B | 3,000 | 2,000 | 0 | 0 | 5,000 |
+| Oficina C | 0 | 0 | 0 | 18,000 | 18,000 |
+| **Total** | **9,000** | **2,000** | **0** | **18,000** | **29,000** |
+
+De un vistazo se ve que el problema es la Oficina C: el 62 % de lo que le deben a Tortas Lupita tiene más de 30 días de retraso. Mientras más tiempo pasa, menos probable es cobrar.
+
+## Los costos del crédito
+Dar crédito cuesta:
+- **Costo del dinero:** el efectivo que no tienes mientras el cliente no paga podrías usarlo o te cuesta un préstamo.
+- **Costo administrativo:** facturar, llamar, conciliar.
+- **Cuentas incobrables:** el dinero que nunca se recupera; se convierte en pérdida.
+- **Descuentos por pronto pago.**
+
+Por eso, el precio para clientes a crédito puede ser un poco mayor que el de contado, o el descuento por pronto pago puede incentivar el contado.
+
+## ¿Conviene el descuento por pronto pago?
+Un descuento común se escribe «2/10, neto 30»: 2 % de descuento si se paga en 10 días; si no, el total a 30 días. Para el cliente, no aprovecharlo equivale a pagar 2 % por usar el dinero 20 días más, lo que es muy caro en términos anuales (alrededor de 36 % al año, porque hay unos 18 periodos de 20 días en un año). Para el vendedor, ofrecerlo conviene si recibir el dinero antes le ahorra más que el 2 % (por ejemplo, si le evita pedir un préstamo caro).
+
+## El caso de la Oficina C
+Lupita aplica el proceso: llama a la persona que autoriza los pagos, suspende nuevos pedidos y propone un acuerdo por escrito: 9,000 pesos esta semana y 9,000 la siguiente. La oficina paga. Desde entonces, todos los clientes nuevos firman la política de crédito.`,
+k: `Vender a crédito es una **decisión con reglas**: a quién, cuánto, a qué plazo, con qué documentos y qué pasa si no paga. Evalúa con las **cinco C**: carácter, capacidad, capital, colateral y condiciones. **Cobranza** ordenada y constante. Controla con la **antigüedad de saldos**. Un descuento «2/10, neto 30» equivale a un costo anual de alrededor de 36 %.`,
+ch: `Una tienda de materiales para construcción da crédito a albañiles conocidos con un límite de 3,000 pesos y un plazo de 15 días; anota todo en un cuaderno y no vende más a quien tiene un saldo vencido.`,
+gi: `Las grandes empresas tienen áreas de crédito y cobranza que evalúan a cada cliente, asignan límites, consultan burós de crédito y siguen indicadores como los días de cobro y el porcentaje de cartera vencida.`,
+e: `Lupita calcula el costo de financiar a la Oficina C durante dos meses:
+
+| Concepto | Cálculo | Resultado |
+|---|---|---|
+| Saldo vencido | — | 18,000 |
+| Costo de su línea de crédito bancaria | 18 % anual | 1.5 % mensual |
+| Costo de financiar 2 meses | 18,000 × 1.5 % × 2 | 540 |
+| Tiempo de cobranza (llamadas, mensajes) | 6 horas × 150 | 900 |
+| **Costo total del retraso** | | **1,440** |
+
+Además del riesgo de no cobrar nunca. Por eso conviene la política de crédito.`,
+r: `En México, Nacional Financiera (Nafin) opera desde hace años un programa de «cadenas productivas» que permite a pequeños proveedores de grandes empresas y del gobierno cobrar antes sus facturas mediante factoraje electrónico, sin esperar los plazos de pago de sus clientes.`,
+f: `Nacional Financiera, programa de Cadenas Productivas (nafin.com).`,
+err: ["Dar crédito por amistad, sin política ni límite.","No facturar a tiempo o con errores.","Cobrar solo cuando ya falta dinero.","Seguir vendiendo a un cliente que no paga."],
+a: `Escribe la política de crédito del negocio que observas (o de uno que imagines): a quién, cuánto, plazo, documentos, qué pasa si no paga y si habrá descuento por pronto pago. Arma un reporte de antigüedad de saldos con tres clientes ficticios.`,
+sol: `Una buena política cabe en media página y la conocen tanto el equipo como los clientes antes de darles crédito.`,
+q: [["¿Cuál de estas es una de las «cinco C» del crédito?",["Carácter","Color","Cantidad de empleados del vendedor"],0,"Carácter, capacidad, capital, colateral y condiciones."],
+["El reporte de antigüedad de saldos muestra…",["Cuánto debe cada cliente y desde cuándo","La edad de los clientes","Los precios"],0,"Permite priorizar la cobranza."],
+["«2/10, neto 30» significa…",["2 % de descuento si se paga en 10 días; si no, el total a 30 días","Pagar el doble","10 % de descuento"],0,"Es un descuento por pronto pago."],
+["¿Qué conviene hacer si un cliente se retrasa mucho?",["Suspender el crédito y acordar un plan de pago por escrito","Venderle más","Olvidarse"],0,"Según la política de crédito."]],
+t: ["Política de crédito","Cinco C del crédito","Cobranza","Antigüedad de saldos","Descuento por pronto pago","Cuentas incobrables"]
+},
+"M8-7": {
+s: `En diciembre, Toño propone hacer un presupuesto para el próximo año. Lupita duda: «¿Para qué adivinar? Nadie sabe qué va a pasar». Toño responde: «No es adivinar: es decidir qué queremos y cómo vamos a pagarlo».`,
+o: ["Explicar qué es un presupuesto y para qué sirve.","Armar un presupuesto anual sencillo de ventas, costos, gastos, inversiones y efectivo.","Reconocer los errores comunes al presupuestar."],
+x: `## ¿Qué es un presupuesto?
+Un **presupuesto** es un plan expresado en números: cuánto se espera vender, cuánto se gastará, cuánto se invertirá y cuánto efectivo habrá en un periodo futuro, normalmente un año dividido en meses. No es una predicción exacta: es la **traducción a pesos de los objetivos y decisiones** del negocio (lección M7-2). Si el objetivo es abrir una segunda sucursal, el presupuesto dice cuánto costará, de dónde saldrá el dinero y qué pasará con las utilidades y el efectivo.
+
+## ¿Para qué sirve?
+1. **Planear:** obliga a pensar con anticipación en ventas, gastos e inversiones.
+2. **Coordinar:** cada área sabe con cuánto cuenta y qué se espera de ella.
+3. **Asignar recursos:** decide en qué se gasta y en qué no.
+4. **Anticipar problemas de efectivo:** muestra los meses en que faltará dinero.
+5. **Controlar:** permite comparar lo real con lo planeado y corregir (Módulo 17).
+6. **Comunicar:** a socios, bancos e inversionistas les muestra que el negocio tiene un plan.
+
+## Las partes del presupuesto
+Un presupuesto completo tiene varias piezas encadenadas:
+1. **Presupuesto de ventas:** cuánto se venderá cada mes (unidades × precio), considerando la temporada, nuevos productos, nuevos clientes y cambios de precio. Es el punto de partida: casi todo lo demás depende de él.
+2. **Presupuesto de costos:** el costo de lo que se va a vender (a partir de las ventas y del costo unitario).
+3. **Presupuesto de gastos de operación:** sueldos, renta, servicios, publicidad, mantenimiento, etc., mes por mes.
+4. **Presupuesto de inversiones:** equipo, remodelaciones, nuevas sucursales, con su fecha.
+5. **Estado de resultados presupuestado:** combina los anteriores y muestra la utilidad esperada de cada mes.
+6. **Presupuesto de efectivo (flujo de caja proyectado):** cuándo entra y sale realmente el dinero, incluidos préstamos, pagos de deuda, impuestos y retiros de los dueños.
+
+## Cómo armarlo paso a paso
+1. **Parte de los datos del año anterior:** ventas por mes, costos, gastos.
+2. **Ajusta por lo que va a cambiar:** inflación esperada, aumentos de precio, nuevos productos, nuevos clientes, un local nuevo, el aumento del salario mínimo.
+3. **Empieza por las ventas**, mes por mes, con supuestos claros («enero vende 15 % menos que el promedio»).
+4. **Calcula los costos** con el costo unitario y la merma esperada.
+5. **Lista los gastos** mes por mes; no olvides los que se pagan una o dos veces al año (aguinaldos, permisos, seguros, impuestos anuales).
+6. **Agrega las inversiones** planeadas.
+7. **Arma el estado de resultados** presupuestado.
+8. **Arma el flujo de efectivo** y revisa los meses con saldo bajo o negativo.
+9. **Ajusta:** si el resultado no es aceptable, cambia decisiones (precios, gastos, fechas de inversión) y vuelve a calcular.
+10. **Comunícalo** al equipo y úsalo cada mes.
+
+## Un presupuesto anual resumido de Tortas Lupita
+Supuestos: precio promedio de 42 pesos (aumento de 5 %), costo variable de 16.80 (inflación de 5 %), ventas promedio de 5,800 tortas al mes, con enero y julio 15 % más bajos y diciembre 10 % más alto; gastos de operación de 94,000 al mes más aguinaldos en diciembre; inversión de 40,000 en una vitrina en abril.
+
+| Concepto | Total anual |
+|---|---|
+| Ventas (69,600 tortas aprox.) | 2,923,200 |
+| Costo de ventas (40 %) | 1,169,280 |
+| Utilidad bruta | 1,753,920 |
+| Gastos de operación (94,000 × 12) | 1,128,000 |
+| Aguinaldos y prestaciones de fin de año | 30,000 |
+| Utilidad de operación | 595,920 |
+| Intereses | 30,000 |
+| Utilidad antes de impuestos | 565,920 |
+| Impuestos (30 %) | 169,776 |
+| Utilidad neta presupuestada | 396,144 |
+
+Además, el flujo de efectivo mensual muestra que enero será el mes más apretado (ventas bajas, impuestos anuales y pago de vacaciones), por lo que deciden apartar 15,000 pesos al mes de agosto a diciembre.
+
+## Tipos de presupuesto
+- **Incremental:** se toma el del año anterior y se ajusta un porcentaje. Es rápido, pero puede arrastrar gastos innecesarios.
+- **Base cero:** cada gasto debe justificarse desde cero cada año, como si no existiera antes. Es más laborioso, pero ayuda a eliminar gastos que ya no tienen sentido. Algunas grandes empresas lo han usado para reducir costos.
+- **Flexible:** muestra qué pasaría con distintos niveles de ventas (por ejemplo, si se vende 10 % más o menos). Útil cuando hay mucha incertidumbre.
+- **Continuo o rodante:** cada mes se agrega un mes nuevo al final, para tener siempre doce meses hacia adelante.
+
+## Errores comunes
+- **Ventas demasiado optimistas** («este año sí vamos a vender el doble») sin un plan que lo explique.
+- **Olvidar gastos que no son mensuales:** aguinaldos, impuestos anuales, renovación de permisos, mantenimiento mayor.
+- **No separar utilidad y efectivo:** presupuestar solo el estado de resultados y no el flujo.
+- **Hacerlo y no usarlo:** el presupuesto sirve solo si cada mes se compara con lo real.
+- **Hacerlo solo el dueño:** sin la participación de quienes ejecutan, el presupuesto no se siente propio.
+- **No revisarlo** cuando cambian las condiciones (un nuevo competidor, una subida fuerte de costos).
+
+## El presupuesto como acuerdo
+En las empresas grandes, el presupuesto anual es un proceso de varios meses en el que cada área propone y negocia sus números con la dirección, y finalmente lo aprueba el consejo de administración. Se convierte en un **acuerdo**: cada director se compromete con sus metas de ventas, costos y gastos, y su desempeño se mide contra ellas. En Tortas Lupita, el presupuesto se hace en dos tardes de diciembre con Toño, la administradora y el jefe de cocina, y se revisa en la junta mensual.`,
+k: `**Presupuesto:** plan en números para un periodo futuro (normalmente un año por meses). Partes: **ventas** (punto de partida), costos, gastos, inversiones, estado de resultados presupuestado y **flujo de efectivo**. Tipos: incremental, **base cero**, flexible y rodante. Sirve solo si se **compara cada mes con lo real**.`,
+ch: `Una estética presupuesta: diciembre y mayo (bodas y graduaciones) venden el doble; enero, la mitad. Con eso decide cuándo contratar ayuda temporal y cuánto apartar para enero.`,
+gi: `Algunas grandes empresas de bebidas y alimentos han aplicado el presupuesto base cero para revisar cada gasto desde cero cada año; AB InBev y Kraft Heinz, asociadas con el fondo 3G Capital, son ejemplos citados con frecuencia en la prensa económica.`,
+e: `Toño calcula cuánto apartar para enero con el presupuesto de efectivo:
+
+| Concepto de enero | Pesos |
+|---|---|
+| Cobros esperados (15 % menos ventas) | 207,000 |
+| Pagos normales del mes | 200,000 |
+| Pago de impuestos anuales y otros pagos de inicio de año | 60,000 |
+| Saldo del mes | −53,000 |
+| Saldo inicial que se tendría sin apartar | 20,000 |
+| Saldo final sin apartar | −33,000 |
+
+Si apartan 15,000 pesos al mes de agosto a diciembre (75,000), enero cerrará con un saldo positivo de unos 42,000 pesos.`,
+r: `El presupuesto base cero se asocia con Peter Pyhrr, quien lo desarrolló en Texas Instruments a finales de los años sesenta y lo describió en un artículo de Harvard Business Review en 1970. Décadas después, empresas como AB InBev popularizaron de nuevo este enfoque para controlar sus costos.`,
+f: `Peter A. Pyhrr, «Zero-Base Budgeting», Harvard Business Review (1970); informes anuales de AB InBev.`,
+err: ["Hacer un presupuesto solo de ventas, sin flujo de efectivo.","Olvidar los gastos anuales o semestrales.","Presupuestar ventas sin un plan que las explique.","Guardar el presupuesto y no compararlo con lo real."],
+a: `Arma un presupuesto de seis meses para el negocio que observas (o para tu economía personal): ventas o ingresos por mes, gastos por mes (incluidos los no mensuales) e inversiones. Identifica el mes más difícil y decide cuánto apartar antes.`,
+sol: `Revisa que el presupuesto incluya al menos un gasto no mensual (aguinaldo, seguro, inscripción) y que el saldo de efectivo nunca quede negativo sin un plan para cubrirlo.`,
+q: [["¿Cuál es el punto de partida de casi todo presupuesto?",["El presupuesto de ventas","El organigrama","El inventario"],0,"Casi todo lo demás depende de las ventas."],
+["El presupuesto base cero…",["Justifica cada gasto desde cero cada año","Copia el año anterior","No tiene gastos"],0,"Ayuda a eliminar gastos innecesarios."],
+["¿Qué error es común al presupuestar?",["Olvidar gastos que no son mensuales, como aguinaldos","Incluir el flujo de efectivo","Revisarlo cada mes"],0,"Hay que incluirlos para no llevarse sorpresas."],
+["Un presupuesto sirve para controlar si…",["Se compara cada mes con lo real","Se guarda en un cajón","Solo lo ve el contador"],0,"Así se detectan desviaciones a tiempo."]],
+t: ["Presupuesto","Presupuesto base cero","Presupuesto flexible","Presupuesto de efectivo","Supuesto"]
+},
+"M8-8": {
+s: `Para comprar un horno y remodelar el local, Tortas Lupita necesita 300,000 pesos. El proveedor del horno ofrece pagar a 12 meses, el banco ofrece un crédito, una tía ofrece prestar sin intereses y un conocido quiere entrar como socio. ¿Qué conviene?`,
+o: ["Conocer las principales fuentes de financiamiento de un negocio.","Comparar su costo, plazo y riesgo.","Entender qué es el Costo Anual Total (CAT)."],
+x: `## ¿Por qué un negocio necesita financiamiento?
+Un negocio necesita dinero adicional cuando su propio efectivo no alcanza para:
+- **Capital de trabajo:** inventario, cuentas por cobrar, meses flojos (lección M8-5).
+- **Inversiones:** equipo, remodelación, vehículos, una nueva sucursal.
+- **Emergencias:** una descompostura, una caída fuerte de ventas.
+
+Conseguir dinero tiene un **costo** (intereses, comisiones o una parte de la empresa) y un **riesgo** (si no se puede pagar). Por eso, antes de pedir, conviene saber para qué se necesita, cuánto, por cuánto tiempo y cómo se va a pagar.
+
+## Las principales fuentes
+| Fuente | Cómo funciona | Ventaja | Desventaja |
+|---|---|---|---|
+| Reinversión de utilidades | Usar las ganancias del propio negocio | No cuesta intereses ni se comparte el negocio | Es lenta; puede no alcanzar |
+| Ahorro del dueño | Aportar dinero propio | Rápido, sin trámites | Arriesga el patrimonio personal |
+| Familia y amigos | Préstamo o aportación | Flexible, a veces sin interés | Riesgo de conflictos familiares si algo sale mal |
+| Crédito de proveedores | Pagar a plazo | Sin trámites bancarios | Plazos cortos; si te atrasas, pierdes al proveedor |
+| Crédito bancario | Préstamo con intereses | Montos mayores, plazos largos | Requisitos, garantías, intereses |
+| Arrendamiento (leasing) | Rentar el equipo con opción de compra | No pagas todo de golpe | El costo total puede ser mayor |
+| Factoraje | Vender tus facturas por cobrar a cambio de un adelanto | Efectivo rápido | Cobran un descuento |
+| Tarjeta de crédito empresarial | Crédito revolvente | Inmediato | Intereses muy altos si no se paga a tiempo |
+| Socios o inversionistas | Aportan dinero a cambio de una parte del negocio | No hay que pagar intereses | Compartes utilidades y decisiones (Módulo 19) |
+| Programas de gobierno y banca de desarrollo | Créditos con garantías o tasas preferentes | Condiciones mejores | Requisitos y trámites |
+
+## Deuda o capital
+Las fuentes se dividen en dos grandes grupos:
+- **Deuda:** se pide prestado y se devuelve con intereses en un plazo. El dueño conserva el 100 % del negocio, pero tiene la obligación de pagar aunque las ventas bajen.
+- **Capital:** un socio aporta dinero y se convierte en dueño de una parte. No hay que devolver el dinero ni pagar intereses, pero se comparten las utilidades y las decisiones para siempre.
+
+La lección M19-6 profundiza en esta elección. Como regla general, la deuda conviene para inversiones que generan flujo predecible; el capital, para proyectos con más riesgo o cuando el negocio no puede cargar más deuda.
+
+## El costo del dinero: tasa de interés y CAT
+El costo de un crédito no es solo la tasa de interés. También hay comisiones (por apertura, por administración), seguros obligatorios e IVA sobre los intereses. Para comparar créditos, en México existe el **Costo Anual Total (CAT)**, un indicador que el Banco de México obliga a informar y que incluye la tasa de interés y la mayoría de los costos y comisiones, expresados como porcentaje anual. Siempre compara créditos por su CAT, no solo por la tasa.
+
+También hay que distinguir entre:
+- **Tasa fija:** el interés no cambia durante el crédito.
+- **Tasa variable:** cambia según una tasa de referencia (en México, la TIIE); si las tasas suben, el pago sube.
+
+## La regla de oro: plazo del crédito según el uso
+Una regla básica de las finanzas es **financiar con el plazo adecuado**:
+- Lo que se usa por **varios años** (un horno, una remodelación) se financia a **largo plazo**, para que los pagos se cubran con las ganancias que genera durante esos años.
+- Lo que se usa por **meses** (inventario, una temporada) se financia a **corto plazo**.
+
+Financiar un horno de diez años con una tarjeta de crédito a pagar en tres meses es un error: los pagos serán enormes y ahogarán el flujo. Financiar inventario con un crédito a cinco años también: se seguirá pagando algo que ya se vendió.
+
+## ¿Cuánto puedo pedir prestado?
+Antes de pedir, calcula si el negocio puede pagar. Una prueba sencilla: el **pago mensual del crédito** no debería ser mayor que una parte prudente del **flujo de efectivo** que el negocio genera cada mes después de sus gastos normales. Si la utilidad de operación de Tortas Lupita más la depreciación es de unos 41,000 pesos al mes, un pago mensual de 15,000 es manejable; uno de 35,000 dejaría al negocio sin margen para cualquier imprevisto.
+
+## La decisión de Lupita
+Lupita compara sus opciones para los 300,000 pesos:
+
+| Opción | Costo | Plazo | Riesgo |
+|---|---|---|---|
+| Proveedor del horno (120,000 a 12 meses) | Incluido en el precio, unos 8 % más caro que de contado | 12 meses | Bajo |
+| Crédito bancario (180,000) | CAT de alrededor de 22 % | 36 meses | Medio: pagos fijos |
+| Préstamo de la tía sin intereses | 0 % | Sin plazo definido | Familiar: si no se paga, hay conflicto |
+| Socio que pone 300,000 por el 25 % del negocio | Ninguno en intereses, pero un 25 % de las utilidades para siempre | Para siempre | Pierde control |
+
+Decide combinar: el horno a crédito con el proveedor (12 meses) y la remodelación con el banco (36 meses). Agradece a la tía, pero prefiere no mezclar la familia con las deudas. Y deja la puerta abierta al socio para cuando abran sucursales (Módulo 19). Con los dos créditos, el pago mensual total es de unos 18,000 pesos el primer año, que el negocio puede cubrir con holgura.`,
+k: `Fuentes: **reinversión**, ahorro, familia, **proveedores**, **banco**, **arrendamiento**, **factoraje**, tarjeta, **socios** y banca de desarrollo. **Deuda** (se devuelve con intereses) frente a **capital** (se comparte el negocio). Compara créditos por su **CAT**. Financia a **largo plazo** lo que dura años y a **corto plazo** lo que dura meses.`,
+ch: `Un taller compra un elevador de autos con arrendamiento a 36 meses: paga una renta mensual que cubre con lo que gana al atender más coches, y al final puede comprarlo por un valor residual.`,
+gi: `Las grandes empresas se financian además en los mercados de valores: emiten bonos (deuda) que compran inversionistas, o venden acciones (capital) en la bolsa. Grupo Bimbo, por ejemplo, ha emitido bonos en México y en el extranjero.`,
+e: `Toño calcula el pago mensual aproximado del crédito bancario de 180,000 a 36 meses con una tasa de 2 % mensual (sin comisiones):
+
+| Concepto | Valor |
+|---|---|
+| Monto | 180,000 |
+| Tasa mensual | 2 % |
+| Plazo | 36 meses |
+| Pago mensual (fórmula de amortización) | ≈ 7,062 |
+| Total pagado | ≈ 254,232 |
+| Intereses totales | ≈ 74,232 |
+
+Más el pago del horno al proveedor (unos 10,800 al mes durante 12 meses), el total mensual es de unos 17,900 pesos el primer año y baja a unos 7,000 después.`,
+r: `El Banco de México regula la información del Costo Anual Total (CAT), que los bancos y otras entidades deben mostrar en sus créditos para que los clientes puedan compararlos. Banxico publica en su sitio información y herramientas para comparar créditos.`,
+f: `Banco de México, información sobre el Costo Anual Total (banxico.org.mx).`,
+err: ["Comparar créditos solo por la tasa y no por el CAT.","Financiar equipo de largo plazo con deudas de corto plazo.","Pedir prestado más de lo que el flujo puede pagar.","Mezclar préstamos familiares sin acuerdos claros."],
+a: `Elige una inversión que necesite el negocio que observas. Compara tres formas de financiarla (costo, plazo, riesgo) y elige una. Calcula si el pago mensual cabe en el flujo del negocio.`,
+sol: `Una buena decisión de financiamiento coincide el plazo con la vida útil de lo que se compra y deja un margen de efectivo para imprevistos después del pago mensual.`,
+q: [["El CAT sirve para…",["Comparar el costo total de distintos créditos","Calcular el IVA","Medir ventas"],0,"Incluye intereses y la mayoría de las comisiones."],
+["Un horno que durará diez años conviene financiarlo…",["A largo plazo","Con tarjeta a tres meses","Con el dinero de la nómina"],0,"El plazo debe coincidir con su vida útil."],
+["El factoraje consiste en…",["Vender tus facturas por cobrar a cambio de un adelanto","Rentar un equipo","Emitir acciones"],0,"Da efectivo rápido a cambio de un descuento."],
+["Financiarse con un socio implica…",["Compartir utilidades y decisiones","Pagar intereses fijos","No compartir nada"],0,"Es capital, no deuda."]],
+t: ["Financiamiento","Crédito bancario","Arrendamiento","Factoraje","Costo Anual Total (CAT)","Tasa de interés","Deuda","Capital"]
+},
+"M8-9": {
+s: `El banco revisa los estados financieros de Tortas Lupita y responde: «Su liquidez está algo justa y su endeudamiento es alto, pero su rentabilidad es buena». Lupita pregunta: «¿Y cómo sabe todo eso con tres hojas?». Con razones financieras.`,
+o: ["Calcular razones de liquidez, endeudamiento, rentabilidad y actividad.","Interpretar los resultados.","Usar las razones para tomar decisiones."],
+x: `## ¿Qué es una razón financiera?
+Una **razón financiera** (o indicador financiero) es una división entre dos números de los estados financieros que dice algo sobre la salud del negocio. Por sí solo, un número como «35,000 pesos de efectivo» dice poco; dividido entre lo que se debe pagar pronto, dice si el negocio puede cumplir. Las razones permiten comparar el negocio con su pasado, con su presupuesto y con otros negocios del mismo giro.
+
+Hay cuatro grandes familias:
+1. **Liquidez:** ¿puede pagar sus deudas de corto plazo?
+2. **Endeudamiento:** ¿qué tanto depende de la deuda?
+3. **Rentabilidad:** ¿cuánto gana en relación con lo que vende y con lo que invirtieron?
+4. **Actividad (eficiencia):** ¿qué tan rápido convierte inventario y cuentas por cobrar en efectivo?
+
+Usaremos el balance de la lección M8-3 y el estado de resultados de la lección M8-2 (cifras mensuales; para razones anuales se multiplican por 12 las cifras de resultados).
+
+## 1. Razones de liquidez
+**Razón circulante = activo circulante ÷ pasivo circulante**
+- Tortas Lupita: 55,000 ÷ 92,000 = **0.60**.
+- Significa que por cada peso que debe en el corto plazo, tiene 60 centavos en activos de corto plazo.
+- Como referencia general, en muchos negocios se considera cómodo un valor de 1 o más, aunque depende mucho del giro: los restaurantes y comercios que cobran de contado suelen operar con valores bajos.
+
+**Prueba ácida = (activo circulante − inventarios) ÷ pasivo circulante**
+- 47,000 ÷ 92,000 = **0.51**.
+- Excluye el inventario, porque no siempre se puede vender rápido.
+
+Interpretación: la liquidez de Tortas Lupita es **justa**. Puede operar porque genera efectivo todos los días, pero debe evitar nuevas deudas de corto plazo y cuidar su flujo.
+
+## 2. Razones de endeudamiento
+**Razón de endeudamiento = pasivo total ÷ activo total**
+- 182,000 ÷ 250,000 = **72.8 %**.
+- El 72.8 % de lo que tiene el negocio se financió con deuda.
+
+**Deuda sobre capital = pasivo total ÷ capital**
+- 182,000 ÷ 68,000 = **2.7 veces**.
+- Por cada peso de los dueños, hay 2.7 pesos de terceros.
+
+**Cobertura de intereses = utilidad de operación ÷ intereses**
+- 39,600 ÷ 3,000 = **13.2 veces**.
+- La utilidad de operación alcanza 13 veces para pagar los intereses: holgada.
+
+Interpretación: el negocio está **muy endeudado en proporción a su capital** (porque es nuevo y compró equipo con crédito), pero puede pagar sus intereses con facilidad. Conviene reinvertir utilidades para aumentar el capital antes de pedir más deuda.
+
+## 3. Razones de rentabilidad
+**Margen neto = utilidad neta ÷ ventas**
+- 25,620 ÷ 216,000 = **11.9 %**.
+
+**Rendimiento sobre activos (ROA) = utilidad neta anual ÷ activo total**
+- (25,620 × 12) ÷ 250,000 = 307,440 ÷ 250,000 = **123 %** anual.
+
+**Rendimiento sobre capital (ROE) = utilidad neta anual ÷ capital**
+- 307,440 ÷ 68,000 = **452 %** anual.
+
+Estos rendimientos son altísimos porque el negocio tiene pocos activos y poco capital en relación con lo que gana (un restaurante pequeño con buen margen y un capital todavía muy pequeño). En empresas grandes, un ROE de 10 % a 20 % anual suele considerarse bueno. La lección: **compara siempre con negocios parecidos** y mira la tendencia en el tiempo.
+
+## 4. Razones de actividad
+**Días de inventario = inventario ÷ costo de ventas diario**
+- 8,000 ÷ (86,400 ÷ 30) = 8,000 ÷ 2,880 = **2.8 días**.
+
+**Días de cobro = cuentas por cobrar ÷ ventas diarias**
+- 12,000 ÷ (216,000 ÷ 30) = 12,000 ÷ 7,200 = **1.7 días**.
+
+**Días de pago = proveedores ÷ costo de ventas diario**
+- 20,000 ÷ 2,880 = **6.9 días**.
+
+**Rotación de activos = ventas anuales ÷ activo total**
+- (216,000 × 12) ÷ 250,000 = **10.4 veces**: cada peso de activos genera 10.4 pesos de ventas al año.
+
+Interpretación: el negocio es muy **eficiente** en su operación: inventario fresco, cobro casi inmediato y proveedores que le dan unos días.
+
+## Resumen del diagnóstico
+| Familia | Razón | Tortas Lupita | Lectura |
+|---|---|---|---|
+| Liquidez | Razón circulante | 0.60 | Justa |
+| Endeudamiento | Pasivo ÷ activo | 72.8 % | Alta |
+| Endeudamiento | Cobertura de intereses | 13.2 veces | Holgada |
+| Rentabilidad | Margen neto | 11.9 % | Buena para el giro |
+| Actividad | Días de inventario | 2.8 | Muy buena |
+
+Es exactamente lo que dijo el banco.
+
+## Cómo usar las razones
+- **Tendencia:** calcula las mismas razones cada mes o trimestre; lo importante es hacia dónde van.
+- **Comparación:** con el presupuesto y con negocios del mismo giro (las cámaras empresariales y algunos estudios publican promedios).
+- **Combinación:** ninguna razón sola dice todo; un ROE alto con endeudamiento excesivo puede ser peligroso.
+- **Acción:** cada razón débil debe llevar a una pregunta y una acción («¿por qué subieron los días de cobro?»).
+
+## La fórmula DuPont
+Una forma clásica de entender el ROE la desarrolló la empresa DuPont a principios del siglo XX:
+
+**ROE = margen neto × rotación de activos × apalancamiento (activo ÷ capital)**
+
+Muestra que un negocio puede tener buen rendimiento para sus dueños por tres caminos: ganar mucho por cada venta, vender mucho con pocos activos o usar mucha deuda. El tercer camino es el más riesgoso.`,
+k: `Cuatro familias de razones: **liquidez** (razón circulante, prueba ácida), **endeudamiento** (pasivo ÷ activo, deuda ÷ capital, cobertura de intereses), **rentabilidad** (margen neto, ROA, ROE) y **actividad** (días de inventario, cobro, pago, rotación de activos). Mira la **tendencia** y compara con negocios del mismo giro. **DuPont:** ROE = margen × rotación × apalancamiento.`,
+ch: `Una ferretería calcula que sus días de inventario son 120: tiene dinero detenido en mercancía que tarda cuatro meses en venderse. Decide rematar los productos que no se mueven.`,
+gi: `Los analistas que siguen a las empresas de la Bolsa Mexicana de Valores calculan razones como el margen EBITDA, la deuda neta entre EBITDA y el ROE para comparar empresas del mismo sector.`,
+e: `Toño aplica la fórmula DuPont con datos anuales:
+
+| Componente | Cálculo | Resultado |
+|---|---|---|
+| Margen neto | 307,440 ÷ 2,592,000 | 11.9 % |
+| Rotación de activos | 2,592,000 ÷ 250,000 | 10.4 veces |
+| Apalancamiento | 250,000 ÷ 68,000 | 3.68 veces |
+| ROE | 0.119 × 10.4 × 3.68 | ≈ 4.52 (452 %) |
+
+Una parte del rendimiento tan alto viene del apalancamiento (la deuda). Si reinvierten utilidades y el capital crece, el ROE bajará, pero el negocio será más sólido.`,
+r: `La fórmula de análisis DuPont se atribuye a F. Donaldson Brown, ingeniero de la empresa química DuPont, que en la década de 1910 desarrolló un sistema para analizar el rendimiento de las inversiones descomponiéndolo en margen y rotación. Después se amplió para incluir el apalancamiento.`,
+f: `Historia del análisis DuPont en textos de finanzas corporativas, por ejemplo, Brealey, Myers y Allen, «Principios de finanzas corporativas».`,
+err: ["Calcular una sola razón y sacar conclusiones.","Comparar con negocios de otro giro.","Mirar un solo mes y no la tendencia.","Celebrar un ROE alto sin mirar el endeudamiento."],
+a: `Con el balance y el estado de resultados aproximados del negocio que observas, calcula una razón de cada familia. Escribe un diagnóstico de cuatro líneas, como lo haría un banco.`,
+sol: `Un buen diagnóstico menciona una fortaleza, una debilidad y una acción concreta para la debilidad.`,
+q: [["La razón circulante se calcula como…",["Activo circulante ÷ pasivo circulante","Ventas ÷ costos","Capital ÷ activos"],0,"Mide la liquidez."],
+["Si el pasivo total es 150,000 y el activo total 300,000, la razón de endeudamiento es…",["50 %","200 %","15 %"],0,"150,000 ÷ 300,000."],
+["El ROE mide…",["La utilidad en relación con el capital de los dueños","Las ventas por empleado","Los días de cobro"],0,"Rendimiento sobre capital."],
+["En la fórmula DuPont, el camino más riesgoso para aumentar el ROE es…",["Aumentar el apalancamiento (deuda)","Mejorar el margen","Mejorar la rotación"],0,"La deuda aumenta el riesgo."]],
+t: ["Razones financieras","Razón circulante","Prueba ácida","Razón de endeudamiento","ROE","ROA","Fórmula DuPont","Cobertura de intereses"]
+},
+"M8-10": {
+s: `Una oficina le pide a Lupita «factura con complemento de pago», otra le pide «factura global no, una a nombre de la empresa», y el contador le recuerda que el día 17 vencen las declaraciones. Lupita siente que los impuestos son un idioma aparte.`,
+o: ["Entender cómo funciona la factura electrónica (CFDI) en México.","Conocer las obligaciones fiscales periódicas de un negocio.","Organizar el trabajo con el contador para no tener sorpresas."],
+x: `## Los impuestos en el día a día
+En la lección M3-7 conociste los principales impuestos. Aquí verás cómo se viven **cada día, cada mes y cada año** en un negocio formal en México. Recuerda: esto es una guía educativa general; las reglas cambian y cada caso debe revisarlo un contador.
+
+## La factura electrónica: el CFDI
+En México, todas las facturas son electrónicas y se llaman **CFDI** (Comprobante Fiscal Digital por Internet). Un CFDI es un archivo (en formato XML, con una representación impresa en PDF) que se genera en un sistema, se envía al SAT para que lo «timbre» (lo valide y le asigne un folio fiscal) y se entrega al cliente. Desde 2023 es obligatoria la versión 4.0, que pide más datos del receptor (nombre, régimen fiscal y código postal exactos como aparecen en su constancia de situación fiscal).
+
+Tipos de CFDI más comunes:
+- **De ingreso:** la factura normal por una venta.
+- **De egreso (nota de crédito):** para devoluciones, descuentos o bonificaciones.
+- **Complemento de pago (recibo electrónico de pago):** cuando una factura se emitió para pagarse después (en parcialidades o a crédito), al recibir el pago se emite este complemento.
+- **De nómina:** el recibo de pago de cada empleado.
+- **Factura global:** las ventas a clientes que no piden factura (público en general) se pueden incluir en una factura global diaria, semanal o mensual, según las reglas aplicables.
+
+Para Tortas Lupita: a las oficinas que piden factura se les emite un CFDI a su nombre; a los clientes de mostrador que no la piden, sus ventas se incluyen en la factura global; y a las oficinas a crédito, al cobrar se emite el complemento de pago.
+
+## Las obligaciones periódicas
+| Frecuencia | Obligación (en términos generales) |
+|---|---|
+| Diaria o con cada operación | Emitir facturas; registrar ingresos y gastos |
+| Quincenal o semanal | Pagar nómina y emitir sus recibos (CFDI de nómina) |
+| Mensual (normalmente a más tardar el día 17 del mes siguiente) | Declarar y pagar el IVA y los pagos provisionales de ISR; enterar retenciones; pagar cuotas del IMSS y otras aportaciones según su calendario |
+| Mensual o bimestral | Pagar el impuesto sobre nómina estatal; aportaciones al Infonavit y SAR (bimestrales) |
+| Anual | Declaración anual (las personas morales, normalmente en marzo; las personas físicas, en abril); declaraciones informativas que apliquen |
+
+El calendario exacto depende del régimen y del tipo de contribuyente; el contador lo conoce y debe compartirlo con el dueño.
+
+## IVA cobrado menos IVA pagado
+Cada mes, el negocio calcula:
+- **IVA trasladado (cobrado):** el IVA de sus ventas.
+- **IVA acreditable (pagado):** el IVA de sus compras y gastos con factura.
+- **IVA a pagar = IVA trasladado − IVA acreditable.** Si sale negativo, hay un saldo a favor.
+
+Por eso es tan importante **pedir factura de todas las compras del negocio**: cada factura de gasto puede reducir el IVA a pagar (si cumple los requisitos) y, en muchos regímenes, también el ISR, porque es un gasto deducible.
+
+## El ISR provisional
+En la mayoría de los regímenes, el ISR no se paga una sola vez al año, sino en **pagos provisionales** mensuales, a cuenta del impuesto anual. En la declaración anual se calcula el impuesto definitivo y se restan los pagos provisionales: si se pagó de más, hay saldo a favor; si se pagó de menos, se paga la diferencia.
+
+## Las retenciones
+A veces el negocio debe **retener** impuestos a otros y entregarlos al SAT. El caso más común es la **retención de ISR a los empleados** sobre sus sueldos. También hay retenciones cuando se pagan ciertos servicios profesionales o arrendamientos a personas físicas. El dinero retenido no es del negocio: es del SAT, y no entregarlo a tiempo es una falta grave.
+
+## Herramientas y documentos clave
+- **e.firma:** la firma electrónica para trámites ante el SAT.
+- **Constancia de situación fiscal:** documento con los datos fiscales del contribuyente; los clientes la piden para facturar correctamente.
+- **Opinión de cumplimiento:** documento que dice si el contribuyente está al corriente con sus obligaciones; muchas empresas grandes y el gobierno la piden a sus proveedores.
+- **Buzón tributario:** el medio electrónico por el que el SAT envía notificaciones; hay que revisarlo y tener actualizados los medios de contacto.
+- **Contabilidad electrónica:** muchas empresas deben enviar cada mes al SAT ciertos datos de su contabilidad.
+- **Conservación de documentos:** las facturas y registros deben guardarse durante varios años (en general, cinco).
+
+## Cómo trabajar bien con el contador
+1. **Entrega a tiempo la información:** facturas de compras, estados de cuenta, nómina, todo antes de cierta fecha del mes.
+2. **Pide un resumen mensual sencillo:** cuánto se pagó de impuestos, por qué y qué viene.
+3. **Pide el calendario de obligaciones** del año.
+4. **Pregunta antes de decidir**, no después: contratar, comprar un vehículo, dar crédito, cambiar de régimen.
+5. **Aparta el dinero de los impuestos** cada semana en una cuenta separada (el IVA cobrado no es del negocio).
+6. **Revisa la opinión de cumplimiento** cada cierto tiempo.
+7. **No mezcles gastos personales** como si fueran del negocio: además de ser incorrecto, puede traer problemas en una revisión.
+
+## Un error que cuesta caro
+El error más frecuente en negocios pequeños es **usar el IVA cobrado como si fuera dinero propio** y no tenerlo el día 17. El IVA que se cobra a los clientes es dinero que se está guardando para el SAT. Si Tortas Lupita vende 216,000 pesos más IVA al mes, cobra 34,560 pesos de IVA; si sus compras con factura tienen 8,000 pesos de IVA acreditable, debe tener listos unos 26,560 pesos para el día 17. Apartar cada semana una parte evita sustos.
+
+## En las empresas gigantes
+Las grandes empresas tienen áreas fiscales completas, con abogados y contadores especializados, que planean los impuestos dentro de la ley, atienden auditorías de la autoridad, manejan los impuestos de cada país donde operan y vigilan los cambios en las leyes. Pero la lógica es la misma: facturar bien, registrar todo, pagar a tiempo y conservar los comprobantes.`,
+k: `**CFDI:** factura electrónica timbrada por el SAT (versión 4.0 obligatoria desde 2023): de ingreso, egreso, **complemento de pago**, nómina y **factura global**. Cada mes: IVA (**trasladado − acreditable**), pagos provisionales de ISR, retenciones y cuotas. Pide factura de tus compras, **aparta el IVA cobrado** y trabaja con un calendario del contador.`,
+ch: `Una estética formal aparta cada viernes el 16 % de lo que cobró con factura en una cuenta separada; el día 17 nunca le falta para el IVA.`,
+gi: `Las grandes empresas en México emiten millones de facturas electrónicas al año y deben conciliar automáticamente sus ventas, sus facturas y sus declaraciones; un error en el sistema puede afectar a miles de clientes.`,
+e: `La administradora calcula el IVA de un mes del local (ventas a la tasa general del 16 %):
+
+| Concepto | Cálculo | Pesos |
+|---|---|---|
+| Ventas sin IVA | — | 216,000 |
+| IVA trasladado (cobrado) | 216,000 × 16 % | 34,560 |
+| Compras y gastos con IVA (renta, gas, sistema, empaques, etc.) | 50,000 sin IVA | — |
+| IVA acreditable (pagado) | 50,000 × 16 % | 8,000 |
+| **IVA a pagar** | 34,560 − 8,000 | **26,560** |
+
+Decide apartar unos 6,640 pesos cada semana para tener el IVA listo el día 17. (Muchos alimentos básicos tienen tasa de 0 %, por eso los ingredientes casi no generan IVA acreditable).`,
+r: `El SAT hizo obligatoria la versión 4.0 del CFDI a partir del 1 de abril de 2023, después de un periodo de transición. La nueva versión exige que los datos del receptor coincidan con los de su constancia de situación fiscal, lo que obligó a muchos negocios a actualizar la información de sus clientes.`,
+f: `SAT, información sobre CFDI 4.0, complemento de pago y factura global (sat.gob.mx).`,
+err: ["Usar el IVA cobrado como dinero propio.","No pedir factura de las compras del negocio.","Entregar tarde la información al contador.","No revisar el buzón tributario."],
+a: `Si tienes negocio, pide a tu contador el calendario de tus obligaciones fiscales del año y anótalo. Si no tienes negocio, calcula el IVA a pagar de un mes de un negocio ficticio con ventas de 100,000 pesos y compras con IVA por 30,000 pesos.`,
+sol: `IVA trasladado: 16,000; IVA acreditable: 4,800; IVA a pagar: 11,200 pesos.`,
+q: [["¿Qué es un CFDI?",["La factura electrónica en México","Un tipo de crédito","Un impuesto estatal"],0,"Comprobante Fiscal Digital por Internet."],
+["Si cobraste 20,000 de IVA y pagaste 6,000 de IVA acreditable, el IVA a pagar es…",["14,000","26,000","6,000"],0,"20,000 − 6,000."],
+["El complemento de pago se emite cuando…",["Se recibe el pago de una factura emitida para pagarse después","Se contrata a un empleado","Se abre el local"],0,"También llamado recibo electrónico de pago."],
+["¿Qué error es muy frecuente en negocios pequeños?",["Gastar el IVA cobrado como si fuera dinero propio","Pedir factura de todo","Apartar para impuestos"],0,"El IVA cobrado se guarda para el SAT."]],
+t: ["Factura electrónica (CFDI)","Complemento de pago","Factura global","IVA acreditable","Pago provisional","Retención","Opinión de cumplimiento","Buzón tributario"]
+}
+});
+// ===== M9. Operaciones: procesos diarios, inventarios y calidad =====
+Object.assign(window.LECC, {
+"M9-1": {
+s: `Un cliente le dice a Lupita: «Sus tortas son las mejores, pero a veces tardan 3 minutos y a veces 12». Toño se da cuenta de que el problema no es la receta, sino la forma en que se hace el trabajo. Es un problema de operaciones.`,
+o: ["Definir qué son las operaciones de un negocio.","Describir el modelo de insumos, transformación y resultados.","Medir la productividad de una operación."],
+x: `## ¿Qué son las operaciones?
+Las **operaciones** son todas las actividades que convierten **insumos** (materiales, trabajo, energía, información) en **productos o servicios** para el cliente. Es la parte del negocio que «hace» lo que se vende: la cocina de un restaurante, la línea de producción de una fábrica, el mostrador y el almacén de una tienda, el taller de un mecánico, las aulas de una escuela. En casi todos los negocios, operaciones es el área con más personas, más costos y más impacto directo en lo que vive el cliente.
+
+## El modelo de transformación
+Una forma sencilla de entender cualquier operación es verla como un proceso de transformación:
+
+**Insumos → Transformación → Resultados**
+
+| Negocio | Insumos | Transformación | Resultados |
+|---|---|---|---|
+| Tortas Lupita | Pan, carne, verduras, gas, cocineros, recetas | Preparar, armar, empacar | Tortas listas para el cliente |
+| Taller mecánico | Auto descompuesto, refacciones, mecánicos, herramientas | Diagnosticar y reparar | Auto funcionando |
+| Escuela | Alumnos, maestros, materiales, aulas | Enseñar | Alumnos que aprendieron |
+| Fábrica de muebles | Madera, tornillos, barniz, máquinas, carpinteros | Cortar, ensamblar, barnizar | Muebles terminados |
+
+En los servicios, el cliente muchas veces **participa** en la transformación (el paciente en la consulta, el comensal en el restaurante), lo que hace que la operación sea más variable y difícil de controlar.
+
+## Las cuatro grandes preguntas de operaciones
+Quien dirige operaciones se ocupa, sobre todo, de cuatro cosas:
+1. **Calidad:** ¿el producto o servicio cumple lo prometido, siempre?
+2. **Rapidez:** ¿cuánto tarda el cliente en recibirlo?
+3. **Costo:** ¿cuánto cuesta producir cada unidad?
+4. **Flexibilidad:** ¿qué tan fácil es cambiar el producto, el volumen o los tiempos?
+
+Mejorar una suele afectar a otra: hacer todo a la medida aumenta la flexibilidad, pero también el costo y el tiempo; producir en grandes cantidades baja el costo, pero reduce la flexibilidad. Cada negocio elige en qué destacar según su propuesta de valor. Tortas Lupita prometió **rapidez** y **sabor constante** (calidad), con un costo razonable.
+
+## Las cuatro «V» de una operación
+Los profesores británicos Nigel Slack y sus colegas propusieron comparar operaciones con cuatro dimensiones:
+- **Volumen:** cuántas unidades se producen. Más volumen permite especializar y bajar costos.
+- **Variedad:** cuántos productos distintos se ofrecen. Más variedad exige más flexibilidad.
+- **Variación de la demanda:** qué tanto cambia la demanda entre horas, días o temporadas. Más variación complica planear el personal y el inventario.
+- **Visibilidad:** qué tanto ve el cliente la operación. Más visibilidad exige cuidar la imagen, el trato y la limpieza en todo momento.
+
+Tortas Lupita tiene volumen medio, variedad baja (5 tipos de torta), variación alta (hora pico de 13:00 a 14:30) y visibilidad alta (el cliente ve la cocina). Por eso sus retos principales son la hora pico y la limpieza visible.
+
+## La productividad
+La **productividad** mide cuánto resultado se obtiene con los recursos usados:
+
+**Productividad = resultados ÷ insumos**
+
+Se puede medir de muchas formas:
+- **Tortas por hora de trabajo:** si 4 personas trabajan 8 horas (32 horas) y preparan 480 tortas, la productividad es 15 tortas por hora-persona.
+- **Ventas por metro cuadrado:** útil en tiendas.
+- **Clientes atendidos por mesero:** útil en restaurantes.
+- **Unidades por máquina por hora:** útil en fábricas.
+
+Aumentar la productividad significa producir más con lo mismo o lo mismo con menos. Se logra con mejores procesos, mejor capacitación, mejores herramientas y menos desperdicio, no con «trabajar más duro» sin cambiar nada.
+
+## La variabilidad: el enemigo silencioso
+El cliente del inicio se quejaba de que las tortas tardaban «a veces 3 minutos y a veces 12». Ese es un problema de **variabilidad**: el proceso no da siempre el mismo resultado. La variabilidad tiene muchas causas: cocineros que trabajan distinto, ingredientes que se acaban a mitad del turno, pedidos que llegan todos juntos, la plancha que no calienta igual en todas partes. Reducir la variabilidad es uno de los grandes objetivos de operaciones, porque un cliente prefiere un servicio confiable a uno a veces excelente y a veces malo. Gran parte de este módulo trata de cómo lograrlo: procesos claros, rutinas, inventario controlado, estándares de calidad y procedimientos escritos.
+
+## Operaciones en una empresa gigante
+En una empresa grande, operaciones puede incluir decenas de plantas, centros de distribución y miles de personas, con áreas especializadas: planeación de la producción, ingeniería de procesos, calidad, mantenimiento, logística, seguridad industrial. Toyota, por ejemplo, desarrolló a lo largo de décadas un sistema de producción que se volvió referencia mundial por su forma de reducir desperdicios y variabilidad. Pero las preguntas son las mismas que en Tortas Lupita: ¿sale siempre bien?, ¿sale rápido?, ¿cuánto cuesta?, ¿podemos adaptarnos?
+
+## El diagnóstico de Toño
+Toño cronometra 50 tortas durante una semana: el tiempo promedio es de 5.4 minutos, pero va de 2.5 a 12. Descubre que los tiempos largos ocurren cuando falta un ingrediente en la estación, cuando entran muchos pedidos de WhatsApp al mismo tiempo que la fila y cuando el cocinero nuevo está solo. Ahora sabe qué atacar en las siguientes lecciones.`,
+k: `**Operaciones:** actividades que transforman **insumos** en **productos o servicios**. Se gestionan cuatro objetivos: **calidad, rapidez, costo y flexibilidad**. Las **cuatro V**: volumen, variedad, variación y visibilidad. **Productividad = resultados ÷ insumos.** La **variabilidad** es el enemigo de la confianza del cliente.`,
+ch: `En una lavandería, los insumos son ropa sucia, agua, jabón, energía y trabajo; la transformación es lavar, secar y doblar; el resultado, ropa limpia entregada a tiempo.`,
+gi: `Toyota desarrolló el Sistema de Producción Toyota para fabricar autos con alta calidad y poco desperdicio; su forma de trabajar se estudia en todo el mundo bajo el nombre de «manufactura esbelta» (lean).`,
+e: `Toño mide la productividad de la cocina en dos turnos:
+
+| Turno | Personas | Horas | Horas-persona | Tortas | Tortas por hora-persona |
+|---|---|---|---|---|---|
+| Matutino | 3 | 8 | 24 | 360 | 15 |
+| Vespertino | 2 | 6 | 12 | 120 | 10 |
+
+El turno vespertino es menos productivo: hay menos clientes y las personas esperan sin trabajo. Toño decide que el turno vespertino prepare la salsa y porcione ingredientes para el día siguiente en las horas flojas.`,
+r: `El Sistema de Producción Toyota, desarrollado por Taiichi Ohno y otros en las décadas posteriores a la Segunda Guerra Mundial, buscaba eliminar desperdicios (inventario de más, esperas, movimientos innecesarios, defectos) para producir con calidad y bajo costo. Su difusión en Occidente se aceleró con el libro «La máquina que cambió el mundo» (1990).`,
+f: `Taiichi Ohno, «El sistema de producción Toyota»; James Womack, Daniel Jones y Daniel Roos, «La máquina que cambió el mundo» (1990); Nigel Slack y otros, «Administración de operaciones».`,
+err: ["Creer que operaciones es solo «la cocina» y no un sistema.","Querer ser el mejor en calidad, rapidez, costo y flexibilidad al mismo tiempo.","Medir productividad sin considerar la calidad.","Ignorar la variabilidad y mirar solo promedios."],
+a: `Describe la operación del negocio que observas con el modelo insumos → transformación → resultados. Clasifícala con las cuatro V y mide un indicador de productividad sencillo durante un día.`,
+sol: `Si la variación de la demanda es alta (hora pico), el reto principal suele ser ajustar el personal y tener todo listo antes del pico.`,
+q: [["Las operaciones de un negocio son…",["Las actividades que transforman insumos en productos o servicios","Solo las ventas","Los impuestos"],0,"Es la parte que «hace» lo que se vende."],
+["¿Cuál NO es uno de los cuatro objetivos de operaciones?",["Popularidad en redes","Calidad","Costo"],0,"Son calidad, rapidez, costo y flexibilidad."],
+["Si 4 personas trabajan 8 horas y preparan 480 tortas, la productividad es…",["15 tortas por hora-persona","60 tortas por hora-persona","120 tortas por persona"],0,"480 ÷ 32 = 15."],
+["La variabilidad en un proceso significa que…",["El resultado no es siempre el mismo","El proceso es muy rápido","No hay clientes"],0,"Es enemiga de la confianza del cliente."]],
+t: ["Operaciones","Productividad","Variabilidad","Cuatro V de las operaciones","Manufactura esbelta (lean)"]
+},
+"M9-2": {
+s: `Toño intenta explicarle al nuevo cocinero cómo se atiende un pedido, pero cada vez lo cuenta distinto. Decide dibujarlo en una hoja: del cliente que pide al cliente que recibe. Al terminar, encuentra tres pasos que nadie había notado.`,
+o: ["Definir qué es un proceso y sus partes.","Dibujar un diagrama de flujo con los símbolos básicos.","Usar el diagrama para encontrar mejoras."],
+x: `## ¿Qué es un proceso?
+Un **proceso** es una secuencia de actividades que convierte una entrada en un resultado para un cliente (interno o externo). Atender un pedido, cobrar, comprar insumos, contratar a una persona, cerrar la caja: todo es un proceso. Cada proceso tiene:
+- **Un inicio:** lo que lo dispara (el cliente pide una torta).
+- **Entradas:** lo que se necesita (ingredientes, la comanda, el cocinero).
+- **Actividades:** los pasos que se siguen.
+- **Decisiones:** puntos en los que el camino cambia (¿hay ingredientes?, ¿paga en efectivo o con tarjeta?).
+- **Salidas:** el resultado (la torta entregada y cobrada).
+- **Un responsable** (o varios).
+- **Un cliente:** quien recibe el resultado.
+
+## ¿Por qué dibujar los procesos?
+Un proceso que solo existe en la cabeza de las personas es invisible: nadie puede ver dónde se atora, dónde se repiten pasos o dónde se cometen errores. Dibujarlo lo vuelve visible y permite:
+- **Entenderlo:** todos ven el mismo proceso.
+- **Enseñarlo:** el diagrama sirve para capacitar.
+- **Mejorarlo:** se ven pasos innecesarios, esperas y riesgos.
+- **Estandarizarlo:** se define una sola forma de hacer las cosas.
+
+## El diagrama de flujo
+El **diagrama de flujo** es la herramienta más común para dibujar un proceso. Usa unos cuantos símbolos:
+
+| Símbolo | Forma | Significado |
+|---|---|---|
+| Inicio o fin | Óvalo | Dónde empieza y dónde termina el proceso |
+| Actividad | Rectángulo | Un paso que alguien hace |
+| Decisión | Rombo | Una pregunta con respuestas (sí/no) que cambian el camino |
+| Documento | Rectángulo con base ondulada | Un papel o registro (comanda, factura) |
+| Espera | Forma de «D» | Un tiempo en que no pasa nada |
+| Flecha | Línea con punta | El orden de los pasos |
+
+No hace falta un programa especial: se puede dibujar en una hoja, en un pizarrón o con notas adhesivas en la pared.
+
+## El proceso de un pedido en mostrador
+Así quedó el diagrama de Toño, escrito como lista de pasos:
+1. **Inicio:** el cliente llega al mostrador.
+2. La cajera saluda y toma el pedido.
+3. **Decisión:** ¿el cliente paga ahora? Sí → cobra. No (pedido de oficina a crédito) → registra en la libreta.
+4. La cajera escribe la comanda y la pasa a la cocina.
+5. **Espera:** la comanda espera en la barra hasta que un cocinero la toma.
+6. El cocinero revisa la comanda.
+7. **Decisión:** ¿hay todos los ingredientes en la estación? No → va a la bodega por ellos (paso que nadie había notado).
+8. El cocinero prepara la torta.
+9. El cocinero la deja en la barra de salida.
+10. **Espera:** la torta espera a que la cajera la vea.
+11. La cajera llama al cliente y entrega.
+12. **Fin:** el cliente se va con su torta.
+
+Al dibujarlo, Toño vio tres problemas que nadie había notado:
+- **Espera en la barra (paso 5):** a veces la comanda tardaba un minuto en ser tomada porque los cocineros no la veían.
+- **Ir a la bodega (paso 7):** cuando faltaba un ingrediente, el cocinero dejaba la estación hasta dos minutos.
+- **Espera en la salida (paso 10):** la torta lista se enfriaba porque la cajera estaba cobrando a otro cliente.
+
+## Mejoras a partir del diagrama
+- Un **timbre** o una pantalla para avisar a la cocina de cada comanda nueva.
+- **Reabastecer la estación** antes de la hora pico, con una lista de verificación (lección M9-3), y una persona encargada de traer ingredientes de la bodega durante el pico.
+- **Separar** la caja de la entrega en la hora pico: una persona cobra y otra entrega.
+
+Con estos cambios, el tiempo promedio baja de 5.4 a 3.5 minutos.
+
+## Una herramienta complementaria: SIPOC
+Antes de dibujar el detalle, a veces conviene ver el proceso «desde lejos» con una tabla llamada **SIPOC** (por las siglas en inglés de proveedores, entradas, proceso, salidas y clientes):
+
+| Proveedores | Entradas | Proceso (5 a 7 pasos) | Salidas | Clientes |
+|---|---|---|---|---|
+| Panadería, carnicería, cajera | Pan, carne, comanda | Tomar pedido → cobrar → preparar → empacar → entregar | Torta entregada, ticket | Cliente de mostrador |
+
+Sirve para que todos tengan claro el alcance del proceso antes de entrar al detalle.
+
+## Los procesos que cruzan áreas
+Los procesos más importantes de un negocio suelen cruzar varias áreas. El pedido de una oficina pasa por ventas (lo toma), cocina (lo prepara), reparto (lo entrega) y administración (lo factura y lo cobra). Cuando cada área solo ve su parte, el proceso se atora en los cambios de mano. Una práctica útil es dibujar el diagrama en **carriles** (como una alberca): una columna por área, para ver claramente en qué momento el trabajo pasa de una a otra.
+
+## Las grandes empresas y sus procesos
+En una empresa grande hay cientos de procesos documentados, a veces con áreas dedicadas a su mejora. Uno de los ejemplos históricos más famosos es la **línea de ensamble móvil** de Ford en 1913: al rediseñar el proceso de armado del Modelo T, de modo que el auto avanzara por una línea y cada trabajador hiciera una tarea, el tiempo para ensamblar un chasis se redujo drásticamente, de más de doce horas a alrededor de hora y media. El producto no cambió; cambió el proceso.`,
+k: `**Proceso:** secuencia de actividades que convierte entradas en un resultado para un cliente. **Diagrama de flujo:** óvalo (inicio/fin), rectángulo (actividad), rombo (decisión), flechas (orden). Dibujar el proceso revela **esperas, pasos innecesarios y riesgos**. **SIPOC** da la vista general; los **carriles** muestran los cambios de mano entre áreas.`,
+ch: `Una estética dibuja el proceso de una cita: agendar, recibir, lavar, cortar, cobrar. Descubre que las clientas esperan 15 minutos entre el lavado y el corte porque solo hay una estilista libre.`,
+gi: `Ford introdujo en 1913 la línea de ensamble móvil para el Modelo T: el rediseño del proceso redujo de forma enorme el tiempo de ensamble y permitió bajar el precio del auto.`,
+e: `Toño mide el tiempo de cada paso antes y después de las mejoras:
+
+| Paso | Antes (min) | Después (min) |
+|---|---|---|
+| Tomar pedido y cobrar | 0.8 | 0.8 |
+| Espera de la comanda | 1.0 | 0.1 |
+| Ir por ingredientes | 0.6 (promedio) | 0 |
+| Preparar | 2.5 | 2.5 |
+| Espera en la salida | 0.5 | 0.1 |
+| **Total** | **5.4** | **3.5** |
+
+Sin cambiar la receta ni contratar a nadie, el tiempo baja 35 %.`,
+r: `Ford Motor Company introdujo en 1913, en su planta de Highland Park, la línea de ensamble móvil. La empresa ha documentado cómo el tiempo para ensamblar un chasis del Modelo T bajó de más de 12 horas a alrededor de hora y media, lo que permitió bajar el precio del auto y venderlo a millones de personas.`,
+f: `Ford Motor Company, historia corporativa (corporate.ford.com); The Henry Ford Museum, «Moving assembly line».`,
+err: ["Dibujar el proceso «como debería ser» y no como es en realidad.","Hacer diagramas tan detallados que nadie los entiende.","Olvidar las decisiones y las esperas.","Mejorar un paso sin ver el proceso completo."],
+a: `Dibuja el diagrama de flujo de un proceso del negocio que observas (atender a un cliente, recibir mercancía, cerrar la caja). Marca las esperas y los pasos que no agregan valor, y propón dos mejoras.`,
+sol: `Para encontrar las esperas, observa el proceso real con un reloj. Las mejoras más baratas suelen ser reordenar pasos, preparar antes y quitar traslados.`,
+q: [["En un diagrama de flujo, el rombo representa…",["Una decisión","Una actividad","El inicio"],0,"Una pregunta que cambia el camino."],
+["¿Por qué conviene dibujar un proceso?",["Para verlo, enseñarlo, mejorarlo y estandarizarlo","Para decorar la oficina","Porque lo pide el SAT"],0,"Lo invisible no se puede mejorar."],
+["SIPOC sirve para…",["Ver el proceso completo desde lejos: proveedores, entradas, proceso, salidas y clientes","Calcular impuestos","Dibujar el organigrama"],0,"Define el alcance antes del detalle."],
+["La línea de ensamble móvil de Ford (1913) es un ejemplo de…",["Mejora del proceso","Nuevo producto","Publicidad"],0,"El producto era el mismo; cambió el proceso."]],
+t: ["Proceso","Diagrama de flujo","SIPOC","Diagrama de carriles","Espera"]
+},
+"M9-3": {
+s: `Un martes, el local abrió con la plancha fría, sin salsa preparada y sin cambio en la caja. El jueves, alguien dejó el refrigerador mal cerrado y se perdió la carne. Toño concluye: «Necesitamos una lista para abrir y otra para cerrar».`,
+o: ["Organizar la rutina diaria en apertura, operación y cierre.","Diseñar listas de verificación (checklists).","Usar la rutina para reducir errores y olvidos."],
+x: `## La rutina diaria
+Todo negocio tiene una rutina que se repite cada día: abrir, operar y cerrar. Parece obvio, pero muchos problemas nacen de olvidos en esa rutina: la plancha que no se encendió a tiempo, el refrigerador mal cerrado, la caja sin cambio, la luz que se quedó prendida, la puerta sin candado. Cuando la rutina depende de la memoria de las personas, tarde o temprano alguien olvida algo, sobre todo en los días de prisa o cuando falta alguien.
+
+## Las tres fases del día
+**1. Apertura:** todo lo necesario para empezar a atender bien.
+- Revisar que el local esté seguro (cerraduras, gas, luz).
+- Encender equipos (plancha, refrigeradores, terminal de pago).
+- Recibir y revisar la mercancía del día.
+- Preparar ingredientes (porcionar, picar, preparar salsas).
+- Revisar la limpieza.
+- Preparar la caja con fondo de cambio.
+- Junta diaria de 10 minutos (lección M7-5).
+
+**2. Operación:** atender a los clientes y mantener todo funcionando.
+- Atender pedidos según el proceso (lección M9-2).
+- Reabastecer las estaciones antes de la hora pico.
+- Limpiar sobre la marcha.
+- Registrar faltantes y problemas en la bitácora.
+- Hacer cortes parciales de caja si hay mucho efectivo.
+
+**3. Cierre:** dejar todo listo y seguro para el día siguiente.
+- Corte de caja y depósito o resguardo del efectivo.
+- Inventario rápido de insumos clave y lista de compras.
+- Guardar y etiquetar alimentos con fecha.
+- Limpieza profunda de equipos y área.
+- Apagar equipos que no deben quedarse encendidos; revisar gas.
+- Revisar refrigeradores (temperatura y puertas cerradas).
+- Sacar la basura.
+- Cerrar con llave y revisar alarmas.
+- Anotar en la bitácora los pendientes para el turno siguiente.
+
+## La lista de verificación (checklist)
+Una **lista de verificación** es una lista breve de pasos que alguien marca conforme los cumple. Su objetivo no es enseñar a hacer el trabajo (para eso están los procedimientos), sino **evitar olvidos** en tareas que se hacen muchas veces y en las que un descuido puede costar caro.
+
+Las listas de verificación se volvieron famosas en la aviación. En 1935, durante una demostración, se estrelló un prototipo del bombardero B-17 de Boeing porque los pilotos, muy experimentados, olvidaron quitar un seguro de los controles. En lugar de concluir que el avión era «demasiado complicado», los pilotos crearon una lista de verificación para el despegue, el vuelo y el aterrizaje. Desde entonces, las listas son parte esencial de la seguridad aérea. El cirujano Atul Gawande contó esta historia en su libro «El efecto checklist», donde también mostró cómo una lista de verificación quirúrgica ayudó a reducir complicaciones en hospitales.
+
+## Cómo diseñar una buena lista de verificación
+1. **Corta:** de 5 a 10 puntos por fase; si es muy larga, nadie la usa.
+2. **Con lo importante:** incluye lo que, si se olvida, causa problemas graves o caros (el gas, el refrigerador, la caja).
+3. **Clara y concreta:** «Refrigerador a menos de 5 °C y puerta cerrada», no «revisar refrigeración».
+4. **En orden:** en la secuencia en que se hacen las cosas.
+5. **Visible:** pegada donde se usa (en la puerta, junto a la caja).
+6. **Con responsable y firma:** quién la hizo, a qué hora.
+7. **Revisada:** se actualiza cuando cambia algo o cuando un olvido muestra que falta un punto.
+
+## La lista de apertura de Tortas Lupita
+| # | Punto | Hora | ✓ | Iniciales |
+|---|---|---|---|---|
+| 1 | Revisar cerraduras y que no huela a gas | 6:45 | | |
+| 2 | Encender plancha y extractor | 6:50 | | |
+| 3 | Refrigeradores a menos de 5 °C | 6:50 | | |
+| 4 | Recibir y revisar pan y carne (cantidad y frescura) | 7:00 | | |
+| 5 | Preparar salsa y porcionar jamón y queso | 7:00–7:40 | | |
+| 6 | Caja con 1,000 pesos de cambio | 7:40 | | |
+| 7 | Terminal de pago encendida y con batería | 7:40 | | |
+| 8 | Barra y mostrador limpios | 7:45 | | |
+| 9 | Junta de 10 minutos | 7:50 | | |
+| 10 | Abrir puerta | 8:00 | | |
+
+## La bitácora de turno
+Además de las listas, la **bitácora** es un cuaderno (o un documento compartido) donde cada turno anota lo importante: faltantes, problemas con equipos, quejas de clientes, pedidos especiales para el día siguiente. Es la memoria del negocio y la forma de que la información no se pierda entre turnos o cuando cambia el personal.
+
+## Rutinas y supervisión
+Las listas ayudan, pero hay que revisarlas. El encargado o el gerente debe revisar de vez en cuando que se llenen con honestidad (no marcando todo al final del día sin hacerlo). Una forma sencilla es hacer verificaciones sorpresa: medir la temperatura del refrigerador y compararla con lo anotado.
+
+## En empresas grandes
+Las cadenas de restaurantes, hoteles, hospitales, aerolíneas y fábricas tienen listas de verificación para casi todo: apertura, cierre, cambios de turno, mantenimiento, seguridad, limpieza. En muchas, el sistema registra automáticamente quién hizo cada verificación y a qué hora. La lógica es la misma que en Tortas Lupita: que las cosas importantes no dependan de la memoria.
+
+## El resultado
+Con las listas de apertura y cierre y la bitácora, en dos meses no se repite ningún olvido grave. Y cuando Toño falta un día, el turno abre igual que siempre.`,
+k: `La rutina diaria tiene **apertura, operación y cierre**. Una **lista de verificación** (checklist) evita olvidos: corta, concreta, en orden, visible, con responsable y revisada. La **bitácora de turno** es la memoria del negocio. Ejemplo histórico: las listas de la aviación tras el accidente del prototipo B-17 (1935).`,
+ch: `Una farmacia de barrio usa una lista de cierre: revisar la temperatura del refrigerador de vacunas, corte de caja, cerrar la cortina y activar la alarma. Desde que la usa, no se ha perdido ningún medicamento por temperatura.`,
+gi: `Las aerolíneas usan listas de verificación en cada fase del vuelo, y los hospitales que adoptaron la lista de verificación de seguridad quirúrgica de la Organización Mundial de la Salud reportaron menos complicaciones en estudios publicados.`,
+e: `Toño calcula lo que costaron los olvidos en un mes antes de las listas:
+
+| Olvido | Veces | Costo por vez | Costo total |
+|---|---|---|---|
+| Carne perdida por refrigerador mal cerrado | 1 | 3,500 | 3,500 |
+| Apertura tarde (plancha fría) | 3 | 600 de ventas perdidas | 1,800 |
+| Sin cambio en caja (clientes que se van) | 4 | 200 | 800 |
+| **Total** | | | **6,100** |
+
+Las listas cuestan unos minutos al día y evitan unos 6,000 pesos al mes de pérdidas.`,
+r: `Atul Gawande, cirujano y escritor, narró en «The Checklist Manifesto» (2009) la historia del prototipo del B-17 y explicó cómo la Organización Mundial de la Salud desarrolló una lista de verificación de seguridad quirúrgica que, en un estudio en ocho hospitales de distintos países publicado en 2009, se asoció con una reducción importante de complicaciones y muertes.`,
+f: `Atul Gawande, «The Checklist Manifesto» (2009); Haynes y otros, New England Journal of Medicine (2009), sobre la lista de verificación quirúrgica de la OMS.`,
+err: ["Hacer listas tan largas que nadie las usa.","Marcar todo al final del día sin haberlo hecho.","Confundir la lista con el procedimiento completo.","No actualizar la lista cuando ocurre un olvido nuevo."],
+a: `Diseña la lista de apertura y la lista de cierre del negocio que observas (o de tu casa al salir de viaje), con un máximo de 10 puntos cada una. Úsala una semana y anota qué cambiarías.`,
+sol: `Si en la semana encontraste un olvido que no estaba en la lista, agrégalo. Si un punto nunca se olvida y no es crítico, quizá puedes quitarlo para mantener la lista corta.`,
+q: [["El objetivo principal de una lista de verificación es…",["Evitar olvidos en tareas repetidas","Enseñar todo el oficio","Decorar"],0,"Para enseñar están los procedimientos."],
+["¿Cuál es una buena práctica al diseñar una lista?",["Que sea corta y concreta","Que tenga 80 puntos","Que esté guardada en un cajón"],0,"De 5 a 10 puntos por fase."],
+["La bitácora de turno sirve para…",["Pasar la información importante entre turnos","Calcular impuestos","Contratar"],0,"Es la memoria del negocio."],
+["Las listas de verificación se popularizaron en la aviación tras…",["El accidente de un prototipo del B-17 en 1935","La invención del teléfono","La Revolución francesa"],0,"Los pilotos olvidaron quitar un seguro de los controles."]],
+t: ["Lista de verificación (checklist)","Bitácora de turno","Apertura y cierre","Corte de caja"]
+},
+"M9-4": {
+s: `En la hora pico, la fila llega a la calle. Lupita quiere contratar a otro cocinero. Toño cronometra cada paso y descubre que el problema no está en la cocina, sino en la caja: los cocineros esperan las comandas. ¿Dónde está realmente el atorón?`,
+o: ["Calcular la capacidad de un proceso.","Identificar el cuello de botella.","Aplicar los pasos de la teoría de las restricciones."],
+x: `## ¿Qué es la capacidad?
+La **capacidad** es la cantidad máxima de producto o servicio que un proceso puede producir en un tiempo determinado. Se expresa, por ejemplo, en tortas por hora, clientes por día, autos reparados por semana o piezas por turno. Conocer la capacidad permite saber si el negocio puede atender la demanda, cuándo se van a formar filas y dónde conviene invertir.
+
+## La capacidad de cada paso
+Un proceso tiene varios pasos, y cada uno tiene su propia capacidad. Para calcularla:
+
+**Capacidad de un paso (unidades por hora) = (60 ÷ minutos por unidad) × número de personas o máquinas en ese paso**
+
+En el proceso de mostrador de Tortas Lupita en hora pico:
+
+| Paso | Minutos por pedido | Personas | Capacidad (pedidos por hora) |
+|---|---|---|---|
+| Tomar pedido y cobrar | 1.5 | 1 cajera | 60 ÷ 1.5 × 1 = 40 |
+| Preparar la torta | 2.5 | 3 cocineros | 60 ÷ 2.5 × 3 = 72 |
+| Empacar y entregar | 0.5 | 1 ayudante | 60 ÷ 0.5 × 1 = 120 |
+
+## El cuello de botella
+La capacidad de todo el proceso **es igual a la del paso más lento**. Ese paso se llama **cuello de botella** (o restricción): como el cuello estrecho de una botella, limita cuánto puede pasar en total. En el ejemplo, aunque la cocina puede preparar 72 tortas por hora y la entrega 120, la caja solo procesa 40 pedidos por hora. El proceso completo atiende, como máximo, **40 pedidos por hora**. Contratar otro cocinero no serviría de nada: la cocina ya está esperando comandas.
+
+Si en la hora pico llegan 55 clientes por hora, la fila crece en 15 personas cada hora. Al cabo de hora y media, hay más de 20 personas esperando, y muchas se van.
+
+## La teoría de las restricciones
+El físico israelí Eliyahu Goldratt popularizó estas ideas en su novela de negocios «La meta» (1984), en la que el gerente de una fábrica descubre que su planta está limitada por unas pocas máquinas y que mejorar cualquier otra parte no sirve. De ahí surgió la **teoría de las restricciones**, que propone cinco pasos:
+1. **Identificar** la restricción (el cuello de botella).
+2. **Explotarla:** sacarle el máximo provecho sin invertir (que nunca esté parada ni haga trabajo que no le corresponde).
+3. **Subordinar** todo lo demás a la restricción: el resto del proceso trabaja al ritmo del cuello de botella y lo apoya.
+4. **Elevar** la restricción: si después de los pasos anteriores sigue siendo insuficiente, invertir para aumentar su capacidad (otra persona, otra máquina).
+5. **Repetir:** al resolver un cuello de botella, aparece otro; volver al paso 1.
+
+## Aplicando los cinco pasos en Tortas Lupita
+1. **Identificar:** la caja (40 pedidos por hora).
+2. **Explotar:** que la cajera solo cobre y tome pedidos; quitarle tareas como entregar tortas o contestar WhatsApp en la hora pico. Tener cambio suficiente y la terminal lista. Con esto, el tiempo baja a 1.2 minutos: capacidad de 50.
+3. **Subordinar:** el ayudante de entrega ayuda a tomar pedidos de la fila con una libreta mientras esperan; los cocineros preparan por adelantado las tortas más pedidas en los 10 minutos antes del pico.
+4. **Elevar:** si aún no alcanza, abrir una segunda caja en la hora pico (con el ayudante) o aceptar pedidos anticipados por WhatsApp para recoger. Con dos puntos de cobro, la capacidad de la caja sube a 100, y el nuevo cuello de botella es la cocina (72).
+5. **Repetir:** ahora la restricción es la cocina; si la demanda crece, ahí se invertirá.
+
+## Utilización y esperas
+La **utilización** es el porcentaje de su capacidad que realmente usa un recurso:
+
+**Utilización = demanda ÷ capacidad**
+
+Si llegan 55 clientes por hora y la caja puede atender 60, su utilización es 92 %. Parece bien, pero en la práctica, cuando la utilización se acerca al 100 %, las filas crecen muchísimo, porque los clientes no llegan de forma pareja: llegan en grupos. Por eso los negocios de servicio suelen planear capacidad por encima de la demanda promedio en la hora pico.
+
+## Capacidad y demanda en el tiempo
+La demanda cambia a lo largo del día, la semana y el año. Hay dos estrategias básicas:
+- **Ajustar la capacidad a la demanda:** más personal en la hora pico, turnos escalonados, personal de medio tiempo, abrir una segunda caja.
+- **Ajustar la demanda a la capacidad:** promociones en horas flojas, pedidos anticipados, citas, precios distintos por horario.
+
+## En empresas grandes
+Las fábricas planean su producción alrededor de sus máquinas cuello de botella; los aeropuertos, alrededor de sus pistas; los hospitales, alrededor de sus quirófanos. Las empresas de logística calculan la capacidad de cada centro de distribución hora por hora. Y todas aprenden lo mismo que Toño: **mejorar un paso que no es el cuello de botella no mejora el resultado total**.`,
+k: `**Capacidad:** máximo que produce un proceso por unidad de tiempo; por paso = (60 ÷ minutos por unidad) × personas. El **cuello de botella** (el paso más lento) limita todo el proceso. **Teoría de las restricciones** (Goldratt, «La meta», 1984): identificar, explotar, subordinar, elevar y repetir. Utilización = demanda ÷ capacidad; cerca de 100 %, las filas crecen.`,
+ch: `En una barbería con dos barberos y una sola silla de lavado, la silla de lavado es el cuello de botella: comprar una tercera silla de corte no reduce la espera.`,
+gi: `Los aeropuertos con mucho tráfico están limitados por el número de despegues y aterrizajes por hora que permiten sus pistas; por eso se asignan horarios a las aerolíneas y se construyen pistas nuevas cuando la demanda crece.`,
+e: `Toño calcula la fila en la hora pico antes y después:
+
+| Situación | Capacidad del proceso | Clientes por hora | Fila después de 1.5 h |
+|---|---|---|---|
+| Antes (una caja, 1.5 min) | 40 | 55 | (55 − 40) × 1.5 = 22.5 personas |
+| Explotar la caja (1.2 min) | 50 | 55 | (55 − 50) × 1.5 = 7.5 personas |
+| Elevar (dos cajas, cocina como límite) | 72 | 55 | Sin fila acumulada |
+
+Con dos puntos de cobro en el pico, la fila deja de crecer sin contratar otro cocinero.`,
+r: `Eliyahu Goldratt publicó «La meta» en 1984 junto con Jeff Cox. La novela, que narra cómo un gerente salva su fábrica identificando sus cuellos de botella, se convirtió en uno de los libros de negocios más vendidos y dio origen a la teoría de las restricciones, aplicada en fábricas, hospitales y empresas de servicios.`,
+f: `Eliyahu M. Goldratt y Jeff Cox, «La meta» (1984).`,
+err: ["Invertir en un paso que no es el cuello de botella.","Calcular la capacidad con el mejor tiempo y no con el promedio real.","Planear la capacidad para la demanda promedio y no para la hora pico.","Creer que una utilización de 100 % es eficiente en un servicio."],
+a: `Cronometra los pasos de un proceso del negocio que observas en su hora pico. Calcula la capacidad de cada paso, identifica el cuello de botella y propón una acción para explotarlo y otra para elevarlo.`,
+sol: `Explotar casi siempre es más barato que elevar: quitar tareas al cuello de botella, preparar antes y evitar que se detenga.`,
+q: [["El cuello de botella de un proceso es…",["El paso más lento, que limita a todo el proceso","El paso más rápido","El primer paso"],0,"Determina la capacidad total."],
+["Si un paso tarda 2 minutos por unidad y hay 2 personas, su capacidad es…",["60 unidades por hora","30 unidades por hora","120 unidades por hora"],0,"60 ÷ 2 × 2 = 60."],
+["Según la teoría de las restricciones, después de identificar la restricción hay que…",["Explotarla: sacarle el máximo provecho sin invertir","Contratar en todas las áreas","Ignorarla"],0,"Elevar viene después."],
+["Si la demanda es de 50 por hora y la capacidad de 40, cada hora la fila…",["Crece en 10 personas","Se reduce","Se mantiene"],0,"50 − 40 = 10."]],
+t: ["Capacidad","Cuello de botella","Teoría de las restricciones","Utilización","Hora pico"]
+},
+"M9-5": {
+s: `En la bodega de Tortas Lupita hay cajas de servilletas para seis meses, pero el viernes se acabó el aguacate a las 12:00. Toño se pregunta cómo puede sobrar lo que no importa y faltar lo que más se vende.`,
+o: ["Explicar para qué sirve el inventario y cuánto cuesta.","Clasificar el inventario con el método ABC.","Aplicar el método de primeras entradas, primeras salidas (PEPS)."],
+x: `## ¿Qué es el inventario?
+El **inventario** es todo lo que el negocio tiene guardado para usar o vender: insumos y materias primas (pan, carne, verduras), productos en proceso (salsa a medio preparar), productos terminados (salsas envasadas) y materiales de apoyo (servilletas, bolsas, artículos de limpieza). En una tienda, el inventario es la mercancía en los anaqueles y en la bodega.
+
+## ¿Para qué sirve?
+El inventario cumple funciones importantes:
+- **Atender la demanda** sin hacer esperar al cliente.
+- **Protegerse de imprevistos:** retrasos del proveedor, ventas más altas de lo normal.
+- **Aprovechar compras por volumen** o precios bajos.
+- **Separar etapas** del proceso (preparar salsa en la tarde para usarla en la mañana).
+
+## ¿Cuánto cuesta?
+Pero el inventario también cuesta, y mucho:
+- **Dinero detenido:** lo que está en la bodega es efectivo que no está en la caja (lección M8-5).
+- **Espacio:** bodega, refrigeración, estantes.
+- **Merma y caducidad:** los alimentos se echan a perder; los productos pasan de moda.
+- **Robo y pérdida.**
+- **Manejo:** el tiempo de acomodar, contar y mover.
+- **Obsolescencia:** productos que ya nadie quiere.
+
+El reto de operaciones es tener **suficiente inventario para no quedarse sin lo importante, pero no tanto que se desperdicie dinero**. Ni de más ni de menos.
+
+## La clasificación ABC
+No todos los artículos merecen la misma atención. El método **ABC** aplica el principio de Pareto (lección M5-2) al inventario: se ordenan los artículos según su **valor de consumo** (cuánto dinero representan en un periodo: cantidad usada × costo unitario) y se dividen en tres grupos:
+- **A:** pocos artículos (alrededor del 10 % al 20 %) que representan la mayor parte del valor (alrededor del 70 % al 80 %). Requieren control estricto: conteo frecuente, pedidos cuidadosos, proveedores de respaldo.
+- **B:** un grupo intermedio, con control moderado.
+- **C:** muchos artículos (alrededor del 50 % o más) que representan poco valor (alrededor del 5 % al 10 %). Control sencillo: se pueden comprar en mayor cantidad y revisar con menos frecuencia.
+
+Clasificación ABC de Tortas Lupita (consumo mensual):
+
+| Artículo | Valor mensual | % del total | % acumulado | Clase |
+|---|---|---|---|---|
+| Carne y jamón | 28,000 | 32 % | 32 % | A |
+| Pan | 18,000 | 21 % | 53 % | A |
+| Queso | 13,000 | 15 % | 68 % | A |
+| Aguacate | 10,000 | 12 % | 80 % | B |
+| Refrescos | 7,000 | 8 % | 88 % | B |
+| Verduras | 4,500 | 5 % | 93 % | C |
+| Frijoles, mayonesa, chiles | 3,000 | 3 % | 96 % | C |
+| Bolsas y servilletas | 2,000 | 2 % | 98 % | C |
+| Limpieza | 1,500 | 2 % | 100 % | C |
+| **Total** | **87,000** | **100 %** | | |
+
+Cuatro artículos (carne, pan, queso y aguacate) suman el 80 % del valor. Ahí debe estar la atención de Toño, no en las servilletas. Nota que el aguacate, aunque es B por valor, es **crítico** para el cliente (sin él, no hay torta completa); por eso algunos negocios combinan el ABC con una clasificación por importancia.
+
+## Primeras entradas, primeras salidas (PEPS)
+Para productos perecederos o con caducidad, se usa el método **PEPS** (primeras entradas, primeras salidas; en inglés, FIFO): lo primero que llegó es lo primero que se usa. En la práctica:
+- Se **etiqueta** cada producto con su fecha de entrada (y de caducidad).
+- Al acomodar, lo nuevo se pone **atrás** y lo viejo **adelante**.
+- Se revisan las fechas con regularidad.
+
+Sin PEPS, el producto nuevo se usa primero y el viejo se queda en el fondo hasta echarse a perder. Es una de las causas más comunes de merma en restaurantes y tiendas.
+
+(En contabilidad también existen métodos para valorar el inventario, como PEPS o costo promedio, que afectan cómo se calcula el costo de ventas; esos los define el contador.)
+
+## Contar el inventario
+Para controlar el inventario hay que contarlo:
+- **Conteo diario** de los artículos A al cierre (carne, pan, queso).
+- **Conteo semanal** de los B.
+- **Conteo mensual** completo de todo.
+- **Comparar** lo contado con lo que debería haber (compras − consumo según ventas): la diferencia es merma, desperdicio, error o robo.
+
+## Rotación de inventario
+La **rotación** indica cuántas veces se renueva el inventario en un periodo:
+
+**Rotación = costo de ventas del periodo ÷ inventario promedio**
+
+Si Tortas Lupita consume 87,000 pesos al mes y tiene en promedio 8,700 pesos de inventario, su rotación es de 10 veces al mes (el inventario dura unos 3 días). Una rotación alta es buena para perecederos; una baja indica dinero detenido o productos que no se venden.
+
+## La solución de Toño
+Toño aplica ABC: cuenta todos los días carne, pan, queso y aguacate; compra aguacate cada dos días según la venta esperada (y no una vez por semana); etiqueta todo con la fecha y aplica PEPS en el refrigerador. Las servilletas se compran una vez al mes en la cantidad necesaria, no para seis meses. Resultado: el aguacate ya no se acaba y la bodega libera dinero y espacio.`,
+k: `**Inventario:** lo que el negocio guarda para usar o vender. Sirve, pero **cuesta** (dinero detenido, espacio, merma). **ABC:** pocos artículos A concentran la mayor parte del valor y requieren control estricto. **PEPS:** lo primero que entra es lo primero que sale. **Rotación = costo de ventas ÷ inventario promedio.**`,
+ch: `Una tienda de abarrotes descubre que los refrescos, la leche y el pan son sus artículos A: los cuenta cada día y nunca se queda sin ellos, mientras revisa una vez al mes los productos de limpieza.`,
+gi: `El código de barras transformó el control de inventarios: el primer producto con código universal (UPC) se escaneó en 1974 en un supermercado de Ohio, en Estados Unidos. Hoy las grandes cadenas saben en tiempo real cuántas piezas de cada producto hay en cada tienda.`,
+e: `Toño calcula cuánto dinero libera al reducir el inventario de servilletas y bolsas:
+
+| Concepto | Antes | Después |
+|---|---|---|
+| Inventario de bolsas y servilletas | 12,000 (6 meses) | 2,000 (1 mes) |
+| Dinero liberado | — | 10,000 |
+| Espacio en bodega | 2 estantes | Medio estante |
+
+Ese dinero ahora sirve para comprar más seguido los artículos A frescos.`,
+r: `El 26 de junio de 1974, en un supermercado Marsh en Troy, Ohio, se escaneó por primera vez un producto con código de barras UPC: un paquete de chicles Wrigley. La adopción del código de barras permitió a los comercios llevar un control de inventario mucho más preciso y rápido.`,
+f: `GS1, historia del código de barras (gs1.org); Smithsonian, National Museum of American History.`,
+err: ["Controlar igual todos los artículos.","No etiquetar fechas ni aplicar PEPS.","Comprar de más «porque está barato».","No comparar el inventario contado con el esperado."],
+a: `Haz la clasificación ABC de 8 a 10 artículos del negocio que observas (o de tu despensa): estima cuánto se gasta en cada uno al mes, ordénalos y clasifícalos. Propón cómo controlar los A.`,
+sol: `Para estimar el valor mensual, multiplica la cantidad que se usa al mes por su precio. Los artículos A suelen ser pocos y caros o muy usados.`,
+q: [["En la clasificación ABC, los artículos A son…",["Pocos artículos que representan la mayor parte del valor","Los más baratos","Los que nunca se usan"],0,"Requieren control estricto."],
+["PEPS significa…",["Primeras entradas, primeras salidas","Pagar en partes semanales","Pedir en pocas semanas"],0,"Lo primero que llega es lo primero que se usa."],
+["Un costo del inventario es…",["El dinero detenido que no está en la caja","Las ventas","Los clientes"],0,"También el espacio, la merma y el robo."],
+["Si el costo de ventas mensual es 60,000 y el inventario promedio 6,000, la rotación es…",["10 veces al mes","6 veces","100 veces"],0,"60,000 ÷ 6,000."]],
+t: ["Inventario","Clasificación ABC","PEPS (primeras entradas, primeras salidas)","Rotación de inventario","Código de barras"]
+},
+"M9-6": {
+s: `Toño ya sabe qué artículos cuidar. Ahora la pregunta es otra: ¿cuándo pedir el pan para no quedarse sin él, sin llenar la bodega de bolillos duros? La panadería tarda un día en entregar y algunos días se vende más de lo normal.`,
+o: ["Calcular el punto de reorden.","Calcular el inventario de seguridad.","Entender la idea del lote económico de compra."],
+x: `## La pregunta de cuándo pedir
+Para cada artículo importante hay dos preguntas: **¿cuándo pedir?** y **¿cuánto pedir?** Si se pide tarde, se acaba antes de que llegue el pedido; si se pide muy pronto o mucho, se acumula inventario, se inmoviliza dinero y, en perecederos, se desperdicia. Esta lección responde la primera pregunta con una herramienta sencilla: el **punto de reorden**.
+
+## El tiempo de entrega
+El **tiempo de entrega** (o tiempo de reposición) es lo que tarda en llegar un pedido desde que se hace. Si la panadería entrega al día siguiente, el tiempo de entrega es de 1 día. Si un proveedor de empaques tarda una semana, es de 7 días. Durante ese tiempo, el negocio sigue vendiendo y consumiendo, así que hay que pedir **antes** de quedarse sin nada.
+
+## El punto de reorden
+El **punto de reorden** es el nivel de inventario en el que hay que hacer un nuevo pedido. La fórmula básica es:
+
+**Punto de reorden = consumo diario × días de entrega + inventario de seguridad**
+
+- **Consumo diario × días de entrega:** lo que se va a usar mientras llega el pedido.
+- **Inventario de seguridad:** una reserva extra para protegerse si se vende más de lo normal o si el proveedor se retrasa.
+
+## El inventario de seguridad
+El **inventario de seguridad** (o stock de seguridad) es un colchón. Sin él, cualquier variación (un día con más clientes, un retraso del proveedor) deja al negocio sin producto. Una forma práctica de calcularlo en negocios pequeños es en **días de consumo**:
+
+**Inventario de seguridad = consumo diario × días de seguridad**
+
+¿Cuántos días de seguridad? Depende de:
+- **Qué tan variable es la demanda:** si un día se venden 150 tortas y otro 260, hace falta más colchón.
+- **Qué tan confiable es el proveedor:** si suele llegar tarde, más colchón.
+- **Qué tan grave es quedarse sin el producto:** sin pan no hay tortas (muy grave); sin servilletas de color, poco grave.
+- **Qué tan perecedero es:** el pan no puede guardarse muchos días; el colchón debe ser pequeño o resolverse de otra forma (un segundo proveedor cercano).
+
+Un método más preciso, usado en empresas grandes, calcula el inventario de seguridad con estadística: a partir de la variación histórica de la demanda y del tiempo de entrega, y del nivel de servicio deseado (por ejemplo, no quedarse sin producto en el 95 % de los casos).
+
+## Ejemplo con el pan
+- Consumo promedio de bolillos: 300 al día.
+- Días de entrega: 1.
+- Días de seguridad: 1 (porque algunos días se venden hasta 380 y la panadería a veces se retrasa unas horas).
+
+Punto de reorden = 300 × 1 + 300 × 1 = **600 bolillos**. Cuando el inventario baje a 600 bolillos, Toño debe pedir. En la práctica, como el pan se compra cada día, esto significa pedir cada mañana lo que se espera usar al día siguiente, y mantener siempre unos 300 de reserva (que se usan primero con PEPS para que no se pongan duros, o se congelan según la receta).
+
+## Ejemplo con los empaques
+- Consumo de bolsas: 250 al día.
+- Días de entrega del proveedor: 5.
+- Días de seguridad: 3.
+
+Punto de reorden = 250 × 5 + 250 × 3 = 1,250 + 750 = **2,000 bolsas**. Cuando queden 2,000 bolsas, se hace el pedido. Puedes calcularlo con la calculadora «Punto de reorden».
+
+## ¿Cuánto pedir? El lote económico
+La segunda pregunta, cuánto pedir, tiene una respuesta clásica: el **lote económico de compra** (en inglés, EOQ, *economic order quantity*), propuesto por el ingeniero Ford W. Harris en 1913. Busca el equilibrio entre dos costos:
+- **Costo de pedir:** cada pedido cuesta (tiempo, envío, trámite). Pedir pocas veces y en grandes cantidades reduce este costo.
+- **Costo de mantener:** cada unidad guardada cuesta (dinero detenido, espacio, merma). Pedir muchas veces en cantidades pequeñas reduce este costo.
+
+La fórmula es:
+
+**Lote económico = raíz cuadrada de (2 × demanda anual × costo por pedido ÷ costo anual de mantener una unidad)**
+
+Por ejemplo, si se usan 90,000 bolsas al año, cada pedido cuesta 200 pesos (envío y tiempo) y mantener una bolsa guardada un año cuesta 0.10 pesos, el lote económico es la raíz de (2 × 90,000 × 200 ÷ 0.10) = raíz de 360,000,000 ≈ **18,974 bolsas**, unos dos meses y medio de consumo. En la práctica se redondea al tamaño de caja del proveedor y se ajusta si hay descuentos por volumen o si el espacio es limitado.
+
+Para perecederos como el pan, el lote económico no se aplica igual: manda la frescura.
+
+## El sistema de revisión
+Hay dos formas de aplicar estas ideas:
+- **Revisión continua:** se vigila el inventario todo el tiempo y se pide cuando llega al punto de reorden (con un sistema o con una marca en el estante: «cuando llegues a esta línea, avisa»).
+- **Revisión periódica:** se revisa en fechas fijas (cada lunes, cada día al cierre) y se pide lo necesario para llegar a un nivel objetivo.
+
+En negocios pequeños, una técnica muy práctica es el **sistema de dos contenedores**: el producto se guarda en dos cajas; cuando se vacía la primera, se hace el pedido y se empieza a usar la segunda, que funciona como el inventario hasta que llegue el pedido.
+
+## En empresas grandes
+Las grandes cadenas tienen sistemas que calculan automáticamente el punto de reorden de cada producto en cada tienda, con base en las ventas recientes, la temporada, las promociones y los tiempos de entrega de cada proveedor. Muchas comparten esta información directamente con sus proveedores para que ellos repongan el producto sin que nadie haga un pedido. Pero la fórmula base es la misma que usa Toño para el pan.`,
+hr: "reorden",
+k: `**Punto de reorden = consumo diario × días de entrega + inventario de seguridad.** **Inventario de seguridad** = consumo diario × días de seguridad (más días si la demanda varía mucho, el proveedor falla o quedarse sin producto es grave). **Lote económico** (Harris, 1913) equilibra el costo de pedir y el de mantener. Truco práctico: **dos contenedores**.`,
+ch: `Una papelería pega en el estante de hojas blancas una etiqueta: «Cuando queden 5 paquetes, pedir». Como el proveedor tarda 3 días y vende 1 paquete al día, tiene 2 de reserva.`,
+gi: `Las grandes cadenas y sus proveedores usan sistemas de reposición automática que calculan, con las ventas diarias de cada tienda, cuándo y cuánto reponer de cada producto.`,
+e: `Toño calcula el punto de reorden de tres insumos:
+
+| Insumo | Consumo diario | Días de entrega | Días de seguridad | Punto de reorden |
+|---|---|---|---|---|
+| Bolillos | 300 | 1 | 1 | 600 |
+| Bolsas | 250 | 5 | 3 | 2,000 |
+| Queso (kg) | 12 | 2 | 1 | 36 kg |
+
+Pega las cifras en la bodega y en el refrigerador. Desde entonces, no se ha acabado ningún insumo clave.`,
+r: `Ford W. Harris publicó en 1913, en la revista «Factory, The Magazine of Management», el artículo «How Many Parts to Make at Once», en el que presentó el modelo del lote económico. Más de un siglo después, sigue enseñándose en todos los cursos de administración de operaciones.`,
+f: `Ford W. Harris, «How Many Parts to Make at Once», Factory, The Magazine of Management (1913).`,
+err: ["Pedir solo cuando el producto ya se acabó.","No considerar el tiempo de entrega.","Usar el mismo inventario de seguridad para todo.","Aplicar el lote económico a productos muy perecederos."],
+a: `Elige tres insumos del negocio que observas. Estima su consumo diario, el tiempo de entrega y los días de seguridad, y calcula el punto de reorden con la calculadora del curso. Propón cómo marcarlo físicamente en la bodega.`,
+sol: `Una línea en el estante, una etiqueta en el refrigerador o el sistema de dos contenedores son formas baratas de que todos sepan cuándo pedir.`,
+q: [["El punto de reorden se calcula como…",["Consumo diario × días de entrega + inventario de seguridad","Ventas − costos","Inventario ÷ ventas"],0,"Es el nivel en el que hay que pedir."],
+["Si se usan 100 piezas al día, la entrega tarda 3 días y hay 2 días de seguridad, el punto de reorden es…",["500 piezas","300 piezas","200 piezas"],0,"100 × 3 + 100 × 2 = 500."],
+["El inventario de seguridad sirve para…",["Protegerse si se vende más de lo normal o el proveedor se retrasa","Vender más caro","Pagar impuestos"],0,"Es un colchón."],
+["El lote económico de compra equilibra…",["El costo de pedir y el costo de mantener inventario","Ventas y gastos","Precios y salarios"],0,"Propuesto por Ford W. Harris en 1913."]],
+t: ["Punto de reorden","Inventario de seguridad","Tiempo de entrega","Lote económico de compra","Sistema de dos contenedores"]
+},
+"M9-7": {
+s: `Un cliente encuentra un pelo en su torta. Otro dice que hoy estaba «más chica». Un tercero se queja de que la salsa estaba distinta. Lupita entiende que la calidad no puede depender del humor del día: necesita estándares y una forma de mejorar siempre.`,
+o: ["Definir calidad desde el punto de vista del cliente.","Distinguir estándares, control y mejora continua.","Aplicar Kaizen, las 5S y los sistemas a prueba de errores."],
+x: `## ¿Qué es la calidad?
+Para un negocio, la **calidad** es cumplir, de forma **constante**, lo que el cliente espera y lo que el negocio promete. No se trata de hacer el producto más lujoso posible, sino de que sea **igual de bueno cada vez**. Una torta sencilla que siempre sale igual, rápida y limpia tiene más calidad (para su cliente) que una torta gourmet que a veces sale perfecta y a veces quemada.
+
+El experto en calidad Joseph Juran la definió como «adecuación al uso»; Philip Crosby, como «cumplimiento de los requisitos». En la práctica, la calidad tiene varias dimensiones: el producto en sí (sabor, tamaño, temperatura), la higiene, la rapidez, el trato y la consistencia.
+
+## Tres niveles de trabajo en calidad
+1. **Estándares:** definir con precisión qué es «bien hecho».
+2. **Control:** verificar que se cumpla el estándar y corregir cuando no.
+3. **Mejora continua:** elevar el estándar poco a poco, siempre.
+
+## 1. Estándares
+Un **estándar** es una especificación clara y medible de cómo debe ser el producto o el servicio. Sin estándar, cada persona tiene su propia idea de «bien hecho». Ejemplos de estándares de Tortas Lupita:
+- Bolillo del día, sin partes quemadas.
+- 60 gramos de jamón, 40 de queso, un cuarto de aguacate.
+- Preparación en un máximo de 3 minutos.
+- Temperatura del refrigerador por debajo de 5 °C.
+- Cofia, cubrebocas en preparación y manos lavadas cada vez que se cobra.
+- Saludo y despedida a cada cliente.
+
+Los estándares se escriben en las recetas y procedimientos (lección M9-9) y se enseñan a todos.
+
+## 2. Control de calidad
+El **control** verifica que el estándar se cumpla:
+- **Revisión en el momento:** el cocinero revisa la torta antes de entregarla; la cajera mira que vaya completa.
+- **Muestreo:** el encargado pesa al azar 5 tortas al día para revisar las porciones.
+- **Registros:** temperaturas del refrigerador, quejas de clientes, devoluciones.
+- **Indicadores:** porcentaje de tortas rehechas, quejas por cada 1,000 tortas, calificación en reseñas.
+
+Cuando algo falla, no basta con corregir el caso: hay que buscar la **causa raíz**. Una técnica sencilla son los **cinco porqués**: preguntar «¿por qué?» varias veces hasta llegar al origen. Ejemplo:
+- ¿Por qué la torta salió chica? Porque tenía menos jamón.
+- ¿Por qué? Porque el cocinero no pesó la porción.
+- ¿Por qué? Porque la báscula estaba descompuesta.
+- ¿Por qué? Porque se mojó y nadie la revisó.
+- ¿Por qué? Porque no estaba en la lista de verificación de apertura.
+- **Acción:** agregar «báscula funcionando» a la lista de apertura y tener una de repuesto.
+
+## 3. Mejora continua: Kaizen
+**Kaizen** es una palabra japonesa que significa, aproximadamente, «cambio para mejor». En administración designa la filosofía de **mejorar un poco todos los días, con la participación de todos**. En lugar de esperar grandes inversiones o grandes cambios, se buscan pequeñas mejoras constantes: reacomodar una estación para ahorrar pasos, cambiar el orden de una tarea, eliminar una espera. El consultor Masaaki Imai difundió el concepto en Occidente con su libro «Kaizen» (1986).
+
+Prácticas de Kaizen en un negocio pequeño:
+- Una **caja o pizarrón de ideas** donde cualquiera propone mejoras.
+- Una **reunión breve** cada semana para revisar una idea y probarla (con el ciclo PHVA de la lección M7-3).
+- **Reconocer** a quien propone mejoras que funcionan.
+
+## Las 5S: orden y limpieza
+Las **5S** son una metodología japonesa para organizar el lugar de trabajo. Su nombre viene de cinco palabras japonesas que empiezan con «s»:
+
+| S | Palabra | Significado | En la cocina de Tortas Lupita |
+|---|---|---|---|
+| 1 | Seiri | Clasificar: quitar lo que no sirve | Sacar utensilios rotos y cosas que no se usan |
+| 2 | Seiton | Ordenar: un lugar para cada cosa | Cada ingrediente en su contenedor, siempre en el mismo lugar |
+| 3 | Seiso | Limpiar | Limpiar la estación durante y después del turno |
+| 4 | Seiketsu | Estandarizar | Fotos de cómo debe verse cada estación |
+| 5 | Shitsuke | Disciplina | Revisar cada día que se mantenga el orden |
+
+Un lugar de trabajo ordenado reduce errores, tiempos de búsqueda, accidentes y contaminación de alimentos.
+
+## A prueba de errores: poka-yoke
+Otra idea japonesa, desarrollada por el ingeniero Shigeo Shingo en Toyota, es el **poka-yoke** («a prueba de errores»): diseñar el proceso para que sea difícil equivocarse. Ejemplos:
+- Contenedores con el tamaño exacto de una porción (no se puede servir de más).
+- Colores distintos para tablas de picar de carne cruda y de verduras.
+- Un temporizador que suena si la torta lleva más de 3 minutos.
+- La terminal que no deja cerrar la venta sin elegir el tipo de torta.
+
+En lugar de culpar a las personas por los errores, se mejora el diseño del proceso.
+
+## La calidad cuesta, pero la falta de calidad cuesta más
+Prevenir errores tiene un costo (capacitación, revisiones, básculas), pero los errores cuestan más: tortas rehechas, ingredientes desperdiciados, clientes que no regresan, reseñas negativas y, en alimentos, riesgos para la salud. Philip Crosby resumió la idea en el título de su libro «La calidad no cuesta» (1979): lo caro es no tenerla.
+
+## En las empresas gigantes
+Las grandes empresas tienen sistemas formales de gestión de la calidad, muchas veces certificados con normas internacionales como **ISO 9001**, que exigen procesos documentados, control y mejora continua. Toyota, con su sistema de producción, y otras empresas japonesas mostraron al mundo, desde los años setenta y ochenta, que la calidad constante podía ser una ventaja competitiva enorme.`,
+k: `**Calidad:** cumplir de forma **constante** lo que el cliente espera y el negocio promete. Tres niveles: **estándares**, **control** (con causa raíz y los **cinco porqués**) y **mejora continua** (**Kaizen**). **5S:** clasificar, ordenar, limpiar, estandarizar, disciplina. **Poka-yoke:** diseñar el proceso para evitar errores. Norma internacional: ISO 9001.`,
+ch: `Un taller de costura usa contenedores marcados por talla y una foto de cómo debe quedar cada prenda terminada. Las devoluciones por errores de talla bajan a casi cero.`,
+gi: `Toyota permite que cualquier trabajador de la línea detenga la producción si detecta un defecto (tirando de una cuerda llamada andon), para que el problema se resuelva en su origen en lugar de pasar al siguiente paso.`,
+e: `Lupita mide el costo de la mala calidad en un mes antes y después de estándares, 5S y poka-yoke:
+
+| Concepto | Antes | Después |
+|---|---|---|
+| Tortas rehechas | 180 (× 16 = 2,880) | 40 (× 16 = 640) |
+| Quejas | 45 | 12 |
+| Clientes perdidos estimados | 20 (× 46 × 8 visitas al mes = 7,360 de ventas) | 5 (1,840) |
+| Costo de básculas, contenedores y capacitación | 0 | 1,200 |
+
+La calidad dejó de costar miles de pesos al mes en desperdicio y ventas perdidas.`,
+r: `Masaaki Imai fundó el Kaizen Institute y publicó en 1986 «Kaizen: la clave de la ventaja competitiva japonesa», que difundió en Occidente la idea de la mejora continua con la participación de todos los empleados, inspirada en prácticas de empresas japonesas como Toyota.`,
+f: `Masaaki Imai, «Kaizen» (1986); Philip Crosby, «La calidad no cuesta» (1979); ISO, norma ISO 9001.`,
+err: ["Definir calidad como lujo en lugar de consistencia.","Corregir el caso sin buscar la causa raíz.","Culpar a las personas en lugar de mejorar el proceso.","Hacer una limpieza general una vez y no mantenerla."],
+a: `Aplica las 5S a un espacio de trabajo (una estación del negocio, tu escritorio, tu cocina). Toma una foto antes y después. Después, elige un error frecuente y aplica los cinco porqués para encontrar su causa raíz.`,
+sol: `La S más difícil es la quinta (disciplina): define quién revisa el orden y cada cuánto, o en un mes estarás como al principio.`,
+q: [["Para un negocio, calidad significa sobre todo…",["Cumplir de forma constante lo que el cliente espera","Ser lo más lujoso posible","Ser lo más barato"],0,"La consistencia es clave."],
+["Kaizen significa…",["Mejora continua con la participación de todos","Un tipo de sushi","Una norma fiscal"],0,"Pequeñas mejoras constantes."],
+["La técnica de los cinco porqués sirve para…",["Encontrar la causa raíz de un problema","Calcular el precio","Dibujar el organigrama"],0,"Se pregunta «¿por qué?» varias veces."],
+["Un contenedor del tamaño exacto de una porción es un ejemplo de…",["Poka-yoke (a prueba de errores)","Publicidad","Factoraje"],0,"Hace difícil equivocarse."]],
+t: ["Calidad","Estándar","Kaizen","5S","Poka-yoke","Cinco porqués","Causa raíz","ISO 9001"]
+},
+"M9-8": {
+s: `Los pedidos a oficinas crecen, pero el repartidor llega tarde: sale con un pedido, regresa, sale con otro y cruza la ciudad dos veces. Una oficina se queja de que las tortas llegaron frías. Toño se da cuenta de que entregar también es una operación que se puede planear.`,
+o: ["Explicar qué es la logística y la «última milla».","Planear rutas, tiempos y capacidad de reparto.","Cuidar la calidad del producto durante la entrega."],
+x: `## ¿Qué es la logística?
+La **logística** es la parte de las operaciones que se encarga de **mover y guardar** cosas: traer los insumos de los proveedores, almacenarlos, moverlos dentro del negocio y llevar los productos al cliente, en el momento y el lugar correctos, al menor costo posible y en buenas condiciones. En una empresa grande hay áreas completas de logística con flotas, centros de distribución y sistemas. En Tortas Lupita, la logística es el repartidor, su moto, una mochila térmica y un cuaderno de pedidos.
+
+## Logística de entrada y de salida
+- **Logística de entrada:** cómo llegan los insumos al negocio (quién los trae, a qué hora, cómo se reciben, dónde se guardan).
+- **Logística interna:** cómo se mueven dentro (de la bodega a la cocina, de la cocina al mostrador).
+- **Logística de salida:** cómo llega el producto al cliente (entrega en mostrador, a domicilio, por paquetería).
+
+## La última milla
+La **última milla** es el tramo final de la entrega, desde el negocio (o el centro de distribución) hasta el cliente. Suele ser la parte **más cara y difícil** de toda la cadena: muchas paradas, tráfico, direcciones confusas, clientes que no están. Para las tiendas en línea y las plataformas de reparto, la última milla es uno de sus mayores costos.
+
+## Planear las entregas
+Para que las entregas sean puntuales y eficientes hay que planear:
+1. **Horario de corte:** hasta qué hora se reciben pedidos para cada horario de entrega («pedidos antes de las 11:00 se entregan a las 13:00»).
+2. **Agrupar pedidos:** juntar los pedidos de oficinas cercanas en una misma salida.
+3. **Rutas:** ordenar las entregas para recorrer la menor distancia (un mapa en el celular ayuda).
+4. **Tiempos:** estimar cuánto tarda cada ruta, incluido estacionarse y subir a la oficina.
+5. **Capacidad:** cuántos pedidos puede llevar el repartidor en cada viaje (tamaño de la mochila, peso) y cuántos viajes puede hacer en el horario de entrega.
+6. **Comunicación:** avisar al cliente cuando el pedido sale y confirmar la entrega.
+
+## La calidad durante la entrega
+El producto puede salir perfecto de la cocina y llegar mal al cliente. En alimentos, hay que cuidar:
+- **Temperatura:** mochilas térmicas; preparar lo más cerca posible de la salida.
+- **Empaque:** que no se aplaste ni se derrame; separar lo frío de lo caliente.
+- **Higiene:** empaques cerrados y limpios.
+- **Tiempo:** cada minuto cuenta para que llegue caliente.
+- **Exactitud:** que llegue lo que se pidió (una lista de verificación por pedido).
+
+## Medir el reparto
+Indicadores útiles:
+- **Entregas a tiempo:** porcentaje de pedidos que llegan dentro del horario prometido.
+- **Tiempo promedio de entrega.**
+- **Pedidos con error** (faltó algo, llegó otro producto).
+- **Costo por entrega:** sueldo del repartidor, gasolina, mantenimiento, dividido entre el número de entregas.
+- **Quejas por temperatura o estado del producto.**
+
+## ¿Repartidor propio o externo?
+| Opción | Ventajas | Desventajas |
+|---|---|---|
+| Repartidor propio | Control del trato y la calidad; costo fijo predecible | Costo aunque haya pocos pedidos; hay que administrar vehículo y seguro |
+| Mensajería o repartidores por pedido | Pagas solo cuando hay entregas | Menos control; costo por entrega más alto |
+| Plataforma de reparto | Acceso a nuevos clientes; ellos ponen al repartidor | Comisiones altas; poco control de la experiencia (lección M4-4) |
+
+Muchos negocios combinan: repartidor propio para los pedidos programados de oficinas y plataforma para pedidos individuales.
+
+## Logística en las empresas gigantes
+Las grandes empresas tratan la logística como una ventaja competitiva:
+- **Centros de distribución:** grandes almacenes desde donde se surten las tiendas o los clientes de una región (Módulo 20).
+- **Optimización de rutas:** programas que calculan las mejores rutas para miles de vehículos. La empresa de paquetería UPS es conocida por su sistema de optimización de rutas, llamado ORION, y por su práctica de evitar en lo posible las vueltas a la izquierda en países donde se maneja por la derecha (que obligan a esperar el tráfico contrario), lo que, según la empresa, ahorra millones de litros de combustible al año.
+- **Seguimiento en tiempo real:** el cliente ve dónde va su pedido.
+- **Logística inversa:** recoger devoluciones, envases o productos para reciclar.
+
+## El nuevo plan de reparto de Tortas Lupita
+Toño organiza:
+- Horario de corte: pedidos de oficinas hasta las 11:00 para entregar entre 12:30 y 13:30.
+- Dos rutas fijas (zona norte y zona sur), cada una con 6 a 8 oficinas.
+- Preparación escalonada: primero los pedidos de la ruta más lejana.
+- Mochila térmica grande y empaques que no se aplastan.
+- Mensaje al cliente: «Su pedido salió; llega en 15 minutos».
+
+Resultado: el repartidor hace dos viajes en lugar de seis, las entregas a tiempo pasan de 70 % a 96 % y no ha vuelto a haber quejas por tortas frías.
+
+## La logística de entrada también cuenta
+No hay que olvidar el otro extremo: pedir a los proveedores que entreguen en un horario fijo, antes de la apertura, evita recibir mercancía en plena hora pico.`,
+k: `**Logística:** mover y guardar cosas (de entrada, interna y de salida), a tiempo, al menor costo y en buen estado. La **última milla** suele ser la parte más cara de la entrega. Planea **horario de corte, agrupación, rutas, tiempos y capacidad**; cuida la **calidad en el traslado** y mide entregas a tiempo y costo por entrega.`,
+ch: `Una tortillería que surte a cinco fondas organiza una sola ruta a las 12:00 en lugar de cinco viajes separados, y ahorra gasolina y tiempo.`,
+gi: `UPS desarrolló el sistema ORION para optimizar las rutas de sus repartidores; la empresa ha informado que su política de reducir las vueltas a la izquierda le ahorra millones de litros de combustible y reduce emisiones cada año.`,
+e: `Toño compara el costo por entrega antes y después de las rutas:
+
+| Concepto | Antes | Después |
+|---|---|---|
+| Viajes al día | 6 | 2 |
+| Kilómetros al día | 48 | 22 |
+| Gasolina al mes | 3,600 | 1,650 |
+| Pedidos al día | 14 | 14 |
+| Costo de gasolina por entrega | 9.9 | 4.5 |
+| Entregas a tiempo | 70 % | 96 % |
+
+Agrupar y planear rutas reduce el costo por entrega a menos de la mitad.`,
+r: `UPS ha descrito públicamente su sistema de optimización de rutas ORION (On-Road Integrated Optimization and Navigation) y su política de minimizar las vueltas a la izquierda, con la que estima ahorros de millones de galones de combustible al año en su red de Estados Unidos.`,
+f: `UPS, comunicados y notas corporativas sobre ORION y la política de vueltas a la izquierda (about.ups.com).`,
+err: ["Salir con cada pedido por separado.","No definir un horario de corte para los pedidos.","Olvidar la temperatura y el empaque durante la entrega.","No medir el costo por entrega."],
+a: `Planea las entregas de un día para un negocio con 10 pedidos en distintas direcciones (puedes inventarlas en un mapa de tu ciudad): agrupa en rutas, ordena las paradas y estima tiempos. Calcula el costo por entrega.`,
+sol: `Agrupa por zona y empieza por la parada más lejana del punto de salida, o recorre en círculo para no regresar sobre el mismo camino.`,
+q: [["La logística se encarga de…",["Mover y guardar cosas a tiempo, al menor costo y en buen estado","Contratar personal","Fijar precios"],0,"Entrada, interna y salida."],
+["La «última milla» es…",["El tramo final de la entrega hasta el cliente","El primer proveedor","La bodega"],0,"Suele ser la parte más cara."],
+["Un horario de corte sirve para…",["Agrupar pedidos y planear las entregas","Cortar el pan","Cerrar el negocio"],0,"Define hasta qué hora se reciben pedidos para cada entrega."],
+["UPS es conocida por optimizar rutas y…",["Evitar en lo posible las vueltas a la izquierda","Entregar solo de noche","No usar vehículos"],0,"Para ahorrar tiempo y combustible."]],
+t: ["Logística","Última milla","Horario de corte","Centro de distribución","Logística inversa"]
+},
+"M9-9": {
+s: `Tortas Lupita va a abrir su segunda sucursal. Lupita se preocupa: «¿Cómo voy a lograr que allá sepan igual que aquí?». Toño responde: «Escribiendo cómo se hace cada cosa, para que no dependa de nosotros».`,
+o: ["Explicar qué es un procedimiento estándar de operación.","Escribir un procedimiento claro y útil.","Usar los procedimientos para capacitar, controlar y replicar el negocio."],
+x: `## ¿Qué es un procedimiento estándar?
+Un **procedimiento estándar de operación** (en inglés, SOP, *standard operating procedure*) es un documento que describe, paso a paso, **cómo se hace una tarea** de la forma acordada como la mejor hasta ahora. Responde: ¿qué se hace?, ¿quién lo hace?, ¿cuándo?, ¿con qué?, ¿cómo?, y ¿cómo se sabe que quedó bien?
+
+Mientras la descripción de puesto (lección M6-8) dice qué responsabilidades tiene una persona, el procedimiento dice cómo se ejecuta una tarea concreta, la haga quien la haga.
+
+## ¿Para qué sirven?
+1. **Consistencia:** el producto sale igual, sin importar quién lo haga ni en qué sucursal.
+2. **Capacitación:** una persona nueva aprende más rápido y con menos errores.
+3. **Independencia del dueño:** el conocimiento deja de estar solo en la cabeza de una persona.
+4. **Control:** permite revisar si la tarea se hizo como se debía.
+5. **Mejora:** el procedimiento escrito es la base para mejorarlo (Kaizen): si se encuentra una mejor forma, se actualiza.
+6. **Replicar el negocio:** es indispensable para abrir sucursales o franquicias (Módulos 20 y 21).
+7. **Seguridad e higiene:** asegura que se sigan las reglas importantes.
+
+## ¿Qué tareas merecen un procedimiento?
+No todo necesita un procedimiento escrito. Conviene empezar por las tareas que:
+- **Afectan directamente al cliente** (preparar el producto estrella, atender una queja).
+- **Tienen riesgo** (manejo de gas, de efectivo, de alimentos crudos).
+- **Se hacen con frecuencia** y por distintas personas.
+- **Generan errores frecuentes.**
+- **Son difíciles de aprender** solo observando.
+
+## Las partes de un buen procedimiento
+| Parte | Contenido |
+|---|---|
+| Nombre y código | «PR-COC-01 Preparación de torta de jamón» |
+| Objetivo | Para qué sirve el procedimiento |
+| Alcance | A qué puestos y lugares aplica |
+| Responsable | Quién lo ejecuta y quién lo supervisa |
+| Materiales y equipo | Lo que se necesita |
+| Pasos | Numerados, en orden, uno por renglón, con verbos de acción |
+| Puntos críticos | Lo que nunca debe fallar (higiene, cantidades, tiempos) |
+| Criterio de terminado | Cómo se sabe que quedó bien |
+| Fotos o dibujos | Cómo debe verse el resultado |
+| Fecha y versión | Para saber si es la versión vigente |
+
+## Ejemplo: preparación de la torta de jamón
+**Objetivo:** preparar la torta de jamón con el sabor, tamaño y tiempo estándar.
+**Responsable:** cocinero de turno; supervisa el jefe de cocina.
+**Materiales:** bolillo del día, 60 g de jamón, 40 g de queso, 1/4 de aguacate, jitomate, cebolla, frijoles, mayonesa, salsa de la casa, báscula, contenedores de porción, plancha a temperatura media.
+
+**Pasos:**
+1. Lavarse las manos y ponerse guantes.
+2. Abrir el bolillo a lo largo sin separar las mitades.
+3. Calentar el bolillo en la plancha 40 segundos, por dentro.
+4. Untar una cucharada de frijoles en la base y una de mayonesa en la tapa.
+5. Colocar el jamón (contenedor de 60 g) y calentar 30 segundos.
+6. Agregar el queso (contenedor de 40 g).
+7. Agregar 2 rebanadas de jitomate, cebolla y el aguacate en rebanadas.
+8. Agregar salsa según la comanda (normal, poca o sin salsa).
+9. Cerrar, cortar en diagonal y envolver en papel.
+10. Dejar en la barra de salida con la comanda.
+
+**Puntos críticos:** manos limpias; porciones exactas; sin partes quemadas; menos de 3 minutos.
+**Criterio de terminado:** se ve como la foto estándar; peso total entre 280 y 300 gramos.
+
+## Cómo escribir procedimientos que se usen
+- **Escríbelos con quien hace la tarea:** la persona que la realiza conoce los detalles.
+- **Usa verbos de acción:** «abrir», «calentar», «colocar».
+- **Un paso por renglón**, en orden.
+- **Lenguaje sencillo**, sin palabras técnicas innecesarias.
+- **Agrega fotos:** una imagen vale más que muchas palabras, sobre todo en cocina y manufactura.
+- **Pruébalo:** pide a una persona nueva que lo siga sin ayuda; donde se atore, el procedimiento no está claro.
+- **Ponlo donde se usa:** una hoja plastificada junto a la estación.
+- **Actualízalo** cuando el proceso cambie, y retira las versiones viejas.
+
+## Del procedimiento al manual de operación
+El conjunto de procedimientos de un negocio forma su **manual de operación**: recetas, apertura y cierre, atención al cliente, manejo de caja, recepción de mercancía, limpieza, seguridad. Es uno de los activos más valiosos de un negocio que quiere crecer, porque contiene **cómo funciona**. Las franquicias venden, en buena medida, el derecho a usar su manual (Módulo 21).
+
+## En empresas grandes
+Las grandes empresas tienen miles de procedimientos, muchas veces en sistemas digitales con videos y evaluaciones. Las cadenas de hoteles de lujo, como Ritz-Carlton, son conocidas por sus estándares escritos de servicio, que todos los empleados aprenden y repasan con frecuencia. Las fábricas tienen instrucciones de trabajo en cada estación. Los hospitales tienen protocolos para cada tipo de atención. En todos los casos, la idea es la misma que en Tortas Lupita: **que la calidad no dependa de quién esté ese día**.
+
+## La segunda sucursal
+Antes de abrir la segunda sucursal, Toño y el jefe de cocina escriben 15 procedimientos clave: las 5 recetas, apertura, cierre, caja, recepción de mercancía, limpieza, manejo de quejas, pedidos de oficinas, uso de la plancha y del gas, manejo higiénico de alimentos y entrega a domicilio. El nuevo equipo se capacita con ellos durante una semana en la primera sucursal. El día de la apertura, las tortas saben igual.`,
+k: `**Procedimiento estándar (SOP):** cómo se hace una tarea, paso a paso, la haga quien la haga. Partes: objetivo, responsable, materiales, **pasos numerados**, **puntos críticos**, criterio de terminado, fotos y versión. Empieza por las tareas que afectan al cliente, tienen riesgo o generan errores. El conjunto forma el **manual de operación**, clave para crecer.`,
+ch: `Una paletería escribe la receta exacta de cada sabor con fotos y gramos. Cuando la dueña se enferma, su sobrino produce las paletas igual que siempre.`,
+gi: `Las cadenas hoteleras de lujo, como Ritz-Carlton, son conocidas por sus estándares de servicio escritos, que los empleados aprenden y repasan con frecuencia para ofrecer la misma experiencia en hoteles de todo el mundo.`,
+e: `Toño mide el efecto de los procedimientos en la capacitación del equipo de la segunda sucursal:
+
+| Indicador | Primera sucursal (sin procedimientos) | Segunda sucursal (con procedimientos) |
+|---|---|---|
+| Días de capacitación por cocinero | 15 | 5 |
+| Variación en el peso de las tortas | ± 60 g | ± 15 g |
+| Quejas en el primer mes | 52 | 14 |
+| Tiempo promedio de preparación en el primer mes | 4.8 min | 3.4 min |
+
+Los procedimientos permitieron replicar el negocio con calidad desde el primer día.`,
+r: `Ritz-Carlton es conocida por sus «Gold Standards», un conjunto de estándares escritos de servicio que incluyen su credo y sus valores de servicio, que la cadena usa en la capacitación de sus empleados y en reuniones diarias de cada hotel.`,
+f: `The Ritz-Carlton Hotel Company, «Gold Standards» (ritzcarlton.com).`,
+err: ["Escribir procedimientos que nadie puede seguir sin preguntar.","Hacerlos sin consultar a quien hace la tarea.","Guardarlos en una carpeta lejos de donde se trabaja.","No actualizarlos cuando el proceso cambia."],
+a: `Escribe el procedimiento de una tarea importante del negocio que observas (o de una tarea de tu casa, como preparar un platillo), con la estructura de esta lección. Pide a alguien que lo siga sin ayuda y anota dónde se atoró.`,
+sol: `Donde la otra persona se atoró, falta un paso, una cantidad o una foto. Corrige y vuelve a probar.`,
+q: [["Un procedimiento estándar de operación describe…",["Cómo se hace una tarea, paso a paso","Las ventas del mes","El organigrama"],0,"La haga quien la haga."],
+["¿Qué tareas conviene documentar primero?",["Las que afectan al cliente, tienen riesgo o generan errores","Las que nunca se hacen","Ninguna"],0,"Son las de mayor impacto."],
+["¿Cómo se comprueba que un procedimiento es claro?",["Pidiendo a una persona nueva que lo siga sin ayuda","Leyéndolo el dueño","Guardándolo"],0,"Donde se atore, falta claridad."],
+["El conjunto de procedimientos de un negocio forma su…",["Manual de operación","Estado de resultados","Acta constitutiva"],0,"Es clave para abrir sucursales o franquicias."]],
+t: ["Procedimiento estándar de operación (SOP)","Manual de operación","Punto crítico","Estandarizar"]
+}
+});
+// ===== M10. Compras y proveedores =====
+Object.assign(window.LECC, {
+"M10-1": {
+s: `Toño compra «a ojo»: va al mercado, ve qué está barato y regresa con lo que cree que hace falta. Algunos días sobra queso y falta jamón; otros paga más caro porque se le olvidó pedir a tiempo. Lupita le propone convertir las compras en un proceso.`,
+o: ["Describir la función de compras y su impacto en la utilidad.","Conocer los cinco «correctos» de una buena compra.","Seguir el ciclo de compra, de la necesidad al pago."],
+x: `## ¿Qué hace el área de compras?
+El área de **compras** (también llamada abastecimiento o adquisiciones) se encarga de conseguir todo lo que el negocio necesita para operar: insumos, mercancía, empaques, equipo, servicios. Su trabajo no es solo «ir a comprar», sino **comprar bien**: lo correcto, en la cantidad, el momento y el precio adecuados, al proveedor adecuado.
+
+En un changarro, compra el dueño. En una pyme, un encargado de compras o el gerente de operaciones. En una gran empresa, una dirección de compras con compradores especializados por categoría (carnes, empaques, tecnología, servicios) que negocian contratos por millones.
+
+## Por qué las compras importan tanto
+En muchos negocios, lo que se compra es el **costo más grande**. En Tortas Lupita, los ingredientes y empaques son el 40 % de las ventas; en un supermercado, la mercancía es alrededor de tres cuartas partes. Por eso, un pequeño ahorro en compras tiene un efecto enorme en la utilidad.
+
+Ejemplo: Tortas Lupita vende 216,000 pesos al mes y su utilidad de operación es de 39,600 (lección M8-2). Si compras logra un ahorro de 5 % en ingredientes (86,400 × 5 % = 4,320 pesos), la utilidad de operación sube 11 %. Para lograr lo mismo vendiendo más, tendría que vender unas 180 tortas extra al mes. A veces es más fácil ahorrar que vender.
+
+## Los cinco «correctos» de una buena compra
+Una forma clásica de resumir el trabajo de compras es que debe lograr:
+1. **El producto correcto:** con la calidad y especificaciones necesarias (ni más caro de lo necesario, ni de menor calidad).
+2. **La cantidad correcta:** ni tanto que sobre y se desperdicie, ni tan poco que falte (lecciones M9-5 y M9-6).
+3. **El momento correcto:** que llegue cuando se necesita, ni antes ni después.
+4. **El precio correcto:** el mejor costo total, no solo el precio más bajo (lección M10-3).
+5. **El proveedor correcto:** confiable, que cumpla y con quien se pueda trabajar a largo plazo (lección M10-2).
+
+## El ciclo de compra
+Aunque en un negocio pequeño todo pase en una llamada, una compra tiene siempre los mismos pasos:
+1. **Necesidad (requisición):** alguien detecta que falta algo (el inventario llegó al punto de reorden) y lo pide.
+2. **Búsqueda y cotización:** se consulta a uno o varios proveedores (precio, plazo, condiciones).
+3. **Selección:** se elige al proveedor.
+4. **Orden de compra:** se confirma por escrito qué se compra, cuánto, a qué precio y cuándo se entrega (lección M10-5).
+5. **Recepción:** se recibe la mercancía y se revisa que esté completa y en buen estado.
+6. **Factura:** el proveedor entrega su factura.
+7. **Pago:** se paga según lo acordado.
+8. **Evaluación:** se registra si el proveedor cumplió (para futuras decisiones).
+
+Saltarse pasos es la causa de muchos problemas: compras duplicadas, mercancía que llega incompleta y se paga completa, precios distintos a los acordados, facturas que nadie revisa.
+
+## Separar funciones: control y honestidad
+En un negocio que crece, conviene que **no sea la misma persona** la que pide, compra, recibe y paga. Si una sola persona hace todo, es fácil que se cometan errores sin que nadie los note (o que alguien pague mercancía que nunca llegó). Una práctica básica de control interno (Módulo 17) es separar:
+- Quien **pide** (el jefe de cocina).
+- Quien **compra** (el encargado de compras).
+- Quien **recibe** (el encargado del turno).
+- Quien **autoriza el pago** (la administradora o Lupita).
+
+En un negocio muy pequeño no siempre es posible, pero al menos el dueño debe revisar periódicamente las compras.
+
+## Tipos de compras
+- **Compras recurrentes:** lo que se compra todos los días o semanas (pan, carne, verduras). Se negocian condiciones fijas con proveedores estables.
+- **Compras ocasionales:** lo que se compra de vez en cuando (un ventilador, uniformes). Se cotiza cada vez.
+- **Compras de inversión:** equipo y mejoras grandes (un horno, una remodelación). Se comparan varias opciones con cuidado y se piensa en el costo total durante su vida útil.
+- **Servicios:** contador, mantenimiento, limpieza, fumigación, seguridad.
+
+## Compras en una empresa gigante
+Las grandes empresas tienen un enorme **poder de compra**: como compran volúmenes gigantes, consiguen precios y condiciones que un negocio pequeño no puede obtener. Walmart, por ejemplo, es conocido por usar su escala para negociar precios bajos con sus proveedores, que luego traslada en parte a sus clientes. También tienen sistemas que generan órdenes de compra automáticas, contratos anuales con proveedores, auditorías de calidad en las fábricas de sus proveedores y políticas de ética para evitar sobornos. Pero hacen lo mismo que debería hacer Tortas Lupita: comprar lo correcto, en la cantidad, el momento y el precio adecuados, al proveedor adecuado.
+
+## Cómo pueden comprar mejor los negocios chicos
+Aunque no tengan el poder de una cadena, los negocios pequeños pueden mejorar sus compras:
+- **Planear** con base en las ventas esperadas, no «a ojo».
+- **Concentrar** compras en menos proveedores para tener más volumen con cada uno.
+- **Comprar en grupo** con otros negocios (algunas asociaciones y cámaras organizan compras conjuntas).
+- **Negociar** condiciones, no solo precio: plazo de pago, entregas, devoluciones.
+- **Revisar** cada entrega y cada factura.
+
+## El nuevo proceso de Toño
+Toño crea una lista semanal de compras basada en las ventas esperadas y los puntos de reorden, pide cotización a dos proveedores por insumo importante, confirma cada pedido por WhatsApp con cantidades y precios (como orden de compra sencilla), revisa cada entrega con la lista y entrega las facturas a la administradora, que paga solo lo recibido. En el primer mes, el gasto en ingredientes baja 4 % sin cambiar las recetas.`,
+k: `**Compras:** conseguir lo que el negocio necesita, **comprando bien**. Cinco correctos: **producto, cantidad, momento, precio y proveedor**. Ciclo: necesidad → cotización → selección → **orden de compra** → recepción → factura → pago → evaluación. **Separa funciones** (quien pide, compra, recibe y paga). Un pequeño ahorro en compras puede valer más que muchas ventas.`,
+ch: `Tres fondas de un mercado se ponen de acuerdo para comprar juntas el aceite y el gas; al pedir el triple, consiguen un mejor precio y entregas a domicilio.`,
+gi: `Walmart es conocido por su capacidad de negociación con proveedores gracias a su escala; su área de compras negocia con miles de empresas en todo el mundo.`,
+e: `Lupita compara el efecto en la utilidad de ahorrar en compras frente a vender más:
+
+| Acción | Cálculo | Efecto en la utilidad de operación |
+|---|---|---|
+| Ahorrar 5 % en ingredientes | 86,400 × 5 % | +4,320 al mes |
+| Vender más con el mismo margen de 24 pesos | 4,320 ÷ 24 | Haría falta vender 180 tortas extra al mes |
+
+Ahorrar 5 % en compras equivale a vender 180 tortas más. Ambas cosas valen la pena, pero la primera suele ser más rápida.`,
+r: `En la literatura sobre comercio minorista se ha estudiado cómo grandes cadenas como Walmart usan su volumen de compra para obtener mejores condiciones de sus proveedores. Libros como «The Wal-Mart Effect» (Charles Fishman, 2006) describen el impacto de este poder de compra en proveedores e industrias enteras.`,
+f: `Charles Fishman, «The Wal-Mart Effect» (2006); Walmart Inc., informe anual.`,
+err: ["Comprar «a ojo», sin planear.","Elegir siempre el precio más bajo sin mirar el costo total.","Que una sola persona pida, compre, reciba y pague sin revisión.","No revisar las entregas ni las facturas."],
+a: `Dibuja el ciclo de compra de un insumo importante del negocio que observas. Identifica qué pasos se saltan y propón cómo incluirlos sin complicar el día a día.`,
+sol: `En negocios pequeños, una orden de compra puede ser un mensaje con cantidad, precio y fecha; la revisión de la entrega, una lista firmada por quien recibe.`,
+q: [["¿Cuál de estos NO es uno de los cinco «correctos» de una compra?",["El color correcto del local","La cantidad correcta","El proveedor correcto"],0,"Son producto, cantidad, momento, precio y proveedor."],
+["Si los ingredientes son 86,400 al mes, un ahorro de 5 % equivale a…",["4,320 pesos","8,640 pesos","432 pesos"],0,"86,400 × 0.05."],
+["¿Por qué conviene separar quién compra y quién paga?",["Para tener control y evitar errores o fraudes","Para tardar más","Porque lo exige el cliente"],0,"Es una práctica de control interno."],
+["La orden de compra sirve para…",["Confirmar por escrito qué se compra, cuánto, a qué precio y cuándo","Cobrar a los clientes","Contratar personal"],0,"Evita malentendidos con el proveedor."]],
+t: ["Compras","Ciclo de compra","Orden de compra","Poder de compra","Separación de funciones"]
+},
+"M10-2": {
+s: `La panadería de siempre a veces llega tarde y el pan sale duro algunos días. Dos panaderías nuevas ofrecen surtirle a Tortas Lupita. Una es más barata; la otra, más cara pero muy puntual. ¿Cómo elegir sin dejarse llevar solo por el precio?`,
+o: ["Definir los criterios para elegir proveedores.","Construir una matriz de evaluación ponderada.","Evaluar a los proveedores de forma periódica."],
+x: `## Elegir proveedores: una decisión importante
+Un proveedor es, en la práctica, una extensión del negocio: si falla, el negocio falla frente a su cliente. Si el pan llega tarde, la torta llega tarde; si la carne no es buena, la torta no es buena. Por eso elegir proveedores es una de las decisiones más importantes de operaciones, y no debería basarse solo en el precio.
+
+## Los criterios más comunes
+| Criterio | Pregunta |
+|---|---|
+| Precio | ¿Cuánto cuesta? ¿Hay descuentos por volumen? |
+| Calidad | ¿El producto cumple las especificaciones siempre? |
+| Puntualidad | ¿Entrega a tiempo y completo? |
+| Condiciones de pago | ¿Da crédito? ¿A cuántos días? |
+| Servicio | ¿Responde rápido? ¿Resuelve problemas? ¿Acepta devoluciones? |
+| Capacidad | ¿Puede surtir si el negocio crece? |
+| Ubicación | ¿Qué tan cerca está? ¿Cuánto cuesta el flete? |
+| Estabilidad | ¿Es un negocio sólido? ¿Lleva años operando? |
+| Cumplimiento | ¿Factura? ¿Cumple normas sanitarias y fiscales? |
+| Valores | ¿Trata bien a sus trabajadores? ¿Cuida el ambiente? |
+
+No todos los criterios pesan igual para todos los insumos. Para el pan, la puntualidad y la frescura son críticas; para las servilletas, el precio pesa más.
+
+## La matriz de evaluación ponderada
+Para comparar proveedores de forma objetiva, se usa una **matriz de evaluación ponderada**:
+1. **Elige los criterios** importantes para ese insumo.
+2. **Asigna un peso** a cada criterio según su importancia; los pesos suman 100 %.
+3. **Califica** a cada proveedor en cada criterio (por ejemplo, del 1 al 5).
+4. **Multiplica** cada calificación por su peso.
+5. **Suma** los resultados: el proveedor con el puntaje más alto es, en principio, el mejor.
+
+Matriz para elegir panadería:
+
+| Criterio | Peso | Panadería actual | Panadería A (barata) | Panadería B (puntual) |
+|---|---|---|---|---|
+| Precio | 25 % | 3 | 5 | 3 |
+| Calidad y frescura | 30 % | 3 | 3 | 5 |
+| Puntualidad | 25 % | 2 | 3 | 5 |
+| Crédito | 10 % | 4 | 2 | 3 |
+| Servicio | 10 % | 3 | 3 | 4 |
+| **Puntaje ponderado** | **100 %** | **2.85** | **3.40** | **4.20** |
+
+Cálculo para la Panadería B: 3 × 0.25 + 5 × 0.30 + 5 × 0.25 + 3 × 0.10 + 4 × 0.10 = 0.75 + 1.50 + 1.25 + 0.30 + 0.40 = **4.20**.
+
+Aunque la Panadería A es la más barata, la B obtiene el mejor puntaje porque gana en lo que más importa para el pan: calidad y puntualidad.
+
+## Cómo obtener la información
+- **Pide muestras** y pruébalas.
+- **Haz una prueba** de una o dos semanas antes de cambiar del todo.
+- **Pide referencias** a otros clientes del proveedor.
+- **Visita sus instalaciones** si es posible (limpieza, organización).
+- **Revisa su formalidad:** constancia de situación fiscal, permisos sanitarios.
+- **Consulta tu historial:** si ya es tu proveedor, revisa cuántas veces llegó tarde o con faltantes.
+
+## Evaluar a los proveedores con regularidad
+Elegir no es una decisión de una sola vez. Conviene evaluar a los proveedores principales **cada cierto tiempo** (cada mes o trimestre) con indicadores sencillos:
+- Porcentaje de entregas a tiempo.
+- Porcentaje de entregas completas.
+- Número de rechazos por calidad.
+- Cambios de precio.
+- Tiempo de respuesta ante problemas.
+
+Y compartir los resultados con el proveedor: un buen proveedor quiere saber cómo mejorar.
+
+## ¿Cuántos proveedores?
+Hay un equilibrio:
+- **Un solo proveedor por insumo:** más volumen, mejor relación y a veces mejor precio, pero mucho riesgo si falla (lección M10-6).
+- **Muchos proveedores:** menos riesgo, pero menos volumen con cada uno, más trabajo administrativo y relaciones más débiles.
+
+Para insumos críticos, muchas empresas eligen un **proveedor principal** (que recibe la mayor parte de los pedidos) y un **proveedor de respaldo** (que recibe una parte pequeña, para mantener la relación activa y poder crecer si el principal falla).
+
+## Proveedores en empresas gigantes
+Las grandes empresas tienen procesos formales para **calificar** a sus proveedores antes de comprarles: cuestionarios, auditorías de calidad, revisión financiera, cumplimiento de normas laborales y ambientales. Algunas, como las armadoras de autos, clasifican a sus proveedores por niveles y les exigen certificaciones de calidad. Toyota, por ejemplo, es conocida por trabajar con sus proveedores a largo plazo y ayudarles a mejorar sus procesos, en lugar de cambiarlos a la primera falla.
+
+## La decisión de Lupita
+Con la matriz, Lupita elige a la Panadería B como proveedor principal (80 % del pan) y mantiene a la panadería actual como respaldo (20 %). Además, acuerda con la Panadería B revisar cada mes la puntualidad y la frescura. El pan cuesta un poco más que con la Panadería A, pero las quejas por pan duro desaparecen y la cocina deja de esperar por las mañanas.
+
+## Cómo despedirse de un proveedor
+A veces la evaluación muestra que hay que dejar a un proveedor. Conviene hacerlo con orden y respeto: hablar primero de los problemas y dar una oportunidad de mejorar; si no mejora, avisar con tiempo, pagar todo lo pendiente y terminar en buenos términos. El mundo de los negocios es pequeño, y un proveedor que hoy no conviene puede ser el respaldo de mañana. Además, cambiar de proveedor de golpe, sin una prueba previa del nuevo, es uno de los errores más comunes: primero se prueba al nuevo con una parte de las compras y, cuando cumple, se aumenta su participación.`,
+k: `Elige proveedores con varios criterios: **precio, calidad, puntualidad, crédito, servicio, capacidad**, etc. **Matriz ponderada:** pesos que suman 100 %, calificación de 1 a 5, multiplicar y sumar. Pide muestras, haz pruebas y **evalúa periódicamente** (entregas a tiempo, completas, rechazos). Para insumos críticos: **principal + respaldo**.`,
+ch: `Una estética elige proveedor de tintes con una matriz: calidad 40 %, precio 30 %, entrega 20 %, crédito 10 %. Gana el distribuidor que no es el más barato, pero cuyos tintes dan resultados constantes.`,
+gi: `Las armadoras de autos califican a sus proveedores con auditorías y certificaciones de calidad, y muchas trabajan con ellos durante años, ayudándoles a mejorar sus procesos.`,
+e: `Toño verifica el puntaje de cada panadería, criterio por criterio:
+
+| Criterio | Peso | Actual | A (barata) | B (puntual) |
+|---|---|---|---|---|
+| Precio | 0.25 | 3 × 0.25 = 0.75 | 5 × 0.25 = 1.25 | 3 × 0.25 = 0.75 |
+| Calidad | 0.30 | 3 × 0.30 = 0.90 | 3 × 0.30 = 0.90 | 5 × 0.30 = 1.50 |
+| Puntualidad | 0.25 | 2 × 0.25 = 0.50 | 3 × 0.25 = 0.75 | 5 × 0.25 = 1.25 |
+| Crédito | 0.10 | 4 × 0.10 = 0.40 | 2 × 0.10 = 0.20 | 3 × 0.10 = 0.30 |
+| Servicio | 0.10 | 3 × 0.10 = 0.30 | 3 × 0.10 = 0.30 | 4 × 0.10 = 0.40 |
+| **Total** | **1.00** | **2.85** | **3.40** | **4.20** |
+
+La Panadería B gana con claridad. Repetir las cuentas antes de decidir evita que un error de suma cambie la elección.`,
+r: `Toyota es conocida por su relación de largo plazo con sus proveedores principales, a quienes apoya con mejora de procesos. Jeffrey Liker, en «Las claves del éxito de Toyota», describe cómo la empresa evalúa y desarrolla a sus proveedores en lugar de cambiarlos solo por precio.`,
+f: `Jeffrey K. Liker, «The Toyota Way» (2004).`,
+err: ["Elegir solo por precio.","Usar los mismos pesos para todos los insumos.","Cambiar de proveedor sin una prueba.","No volver a evaluar al proveedor después de elegirlo."],
+a: `Haz una matriz de evaluación ponderada para elegir un proveedor de un insumo del negocio que observas (o un servicio para tu casa, como internet). Usa al menos cuatro criterios y tres opciones.`,
+sol: `Revisa que los pesos sumen 100 % y repite el cálculo de cada proveedor dos veces; un error de suma puede cambiar la decisión.`,
+q: [["En una matriz de evaluación ponderada, los pesos deben sumar…",["100 %","50 %","Lo que sea"],0,"Representan la importancia relativa de cada criterio."],
+["Si un proveedor obtiene 4 en un criterio con peso de 30 %, su resultado en ese criterio es…",["1.2","4.3","0.4"],0,"4 × 0.30."],
+["Para insumos críticos, muchas empresas eligen…",["Un proveedor principal y uno de respaldo","Siempre el más barato","Diez proveedores iguales"],0,"Equilibra relación y riesgo."],
+["Un indicador para evaluar proveedores es…",["Porcentaje de entregas a tiempo","Número de empleados del cliente","Color del camión"],0,"Mide su puntualidad."]],
+t: ["Proveedor","Matriz de evaluación ponderada","Proveedor de respaldo","Evaluación de proveedores"]
+},
+"M10-3": {
+s: `Un proveedor de carne ofrece el kilo de jamón a 140 pesos; otro, a 150. Toño elige el de 140. A fin de mes descubre que el barato cobra flete, exige comprar 30 kilos mínimo y su jamón rinde menos porque tiene más agua. ¿Cuál era realmente más barato?`,
+o: ["Pedir cotizaciones comparables.","Calcular el costo total de una compra.","Comparar ofertas con distintas condiciones."],
+x: `## El precio no es el costo
+El **precio** es lo que dice la cotización. El **costo total** es lo que realmente le cuesta al negocio tener ese producto listo para usar. Muchas veces, el proveedor con el precio más bajo no es el más barato cuando se suman todos los costos. Comprar bien exige comparar **costos totales**, no solo precios.
+
+## Pedir cotizaciones comparables
+Para comparar, las cotizaciones deben referirse a lo mismo. Comparar «manzanas con manzanas» significa pedir a todos los proveedores:
+- La **misma especificación:** tipo de producto, marca o calidad, presentación, tamaño.
+- La **misma cantidad** o la misma frecuencia de compra.
+- El **precio con y sin IVA**.
+- El **costo de flete** o si la entrega está incluida.
+- El **pedido mínimo**.
+- El **plazo de entrega**.
+- Las **condiciones de pago** (contado, crédito a cuántos días).
+- La **política de devoluciones** y garantía.
+- La **vigencia** de la cotización (cuánto tiempo respeta el precio).
+
+Una tabla sencilla con estas columnas permite ver las diferencias de un vistazo.
+
+## Los componentes del costo total
+Además del precio, el costo total puede incluir:
+1. **Flete o envío.**
+2. **Rendimiento:** cuánto del producto realmente se usa (un jamón con más agua rinde menos porciones; una fruta con más merma deja menos producto útil).
+3. **Pedido mínimo:** si obliga a comprar más de lo necesario, hay más dinero detenido y riesgo de merma.
+4. **Costo financiero:** pagar de contado frente a pagar a 15 o 30 días tiene un valor (el dinero cuesta).
+5. **Calidad:** rechazos, devoluciones, productos defectuosos, quejas de clientes.
+6. **Tiempo administrativo:** ir a recogerlo, hacer más pedidos, resolver problemas.
+7. **Confiabilidad:** el costo de quedarse sin producto si el proveedor falla.
+
+## El caso del jamón
+Toño rehace la comparación con todos los costos, por cada kilo **útil** de jamón:
+
+| Concepto | Proveedor barato | Proveedor caro |
+|---|---|---|
+| Precio por kilo | 140 | 150 |
+| Flete (500 pesos por pedido de 30 kg) | 16.67 | Incluido (0) |
+| Rendimiento (porciones útiles por kilo) | 15 | 16.5 |
+| Pedido mínimo | 30 kg | 10 kg |
+| Merma por exceso de pedido (estimada) | 3 % → 4.70 | 0 |
+| Crédito | Contado | 15 días |
+| **Costo por kilo entregado y con merma** | **161.37** | **150.00** |
+| **Costo por porción** | **10.76** | **9.09** |
+
+El jamón «barato» en realidad cuesta **18 % más por porción**. Además, el proveedor caro da 15 días de crédito, lo que ayuda al flujo de efectivo.
+
+## El costo total de propiedad
+Para compras de equipo, el concepto equivalente es el **costo total de propiedad**: lo que cuesta un equipo durante toda su vida útil, no solo su precio de compra. Incluye:
+- Precio de compra e instalación.
+- Consumo de energía (gas, luz).
+- Mantenimiento y refacciones.
+- Tiempo sin funcionar por descomposturas.
+- Vida útil.
+- Valor de reventa al final.
+
+Una plancha barata que consume más gas y se descompone cada año puede salir mucho más cara que una plancha de mejor calidad.
+
+Ejemplo de dos planchas a 5 años:
+
+| Concepto | Plancha A | Plancha B |
+|---|---|---|
+| Precio | 9,000 | 15,000 |
+| Gas al año | 18,000 | 14,400 |
+| Mantenimiento al año | 1,500 | 600 |
+| Vida útil | 3 años (hay que comprar otra) | 6 años |
+| Costo en 5 años | 9,000 × 2 + (18,000 + 1,500) × 5 = 115,500 | 15,000 + (14,400 + 600) × 5 = 90,000 |
+
+La plancha B, aunque cuesta 6,000 pesos más, ahorra 25,500 pesos en cinco años.
+
+## Cuidado con el valor del dinero en el tiempo
+Cuando una opción se paga de contado y otra a plazo, o cuando los ahorros llegan durante varios años, conviene recordar que **un peso hoy vale más que un peso dentro de un año** (porque se puede invertir o porque evita pedir prestado). Para decisiones grandes se usan herramientas como el valor presente (Módulo 17); para compras del día a día, basta con considerar el beneficio del crédito.
+
+## Las compras públicas y grandes
+En las empresas grandes y en el gobierno, las compras importantes se hacen mediante **licitaciones** o concursos: se publican las especificaciones, varios proveedores presentan propuestas y se elige con criterios definidos de antemano (precio, calidad, experiencia, plazo). Esto busca comparar de forma justa y transparente y reducir el riesgo de corrupción. La lógica es la misma que la de Toño: especificaciones iguales para todos y comparación del costo total.
+
+## La lección
+Toño ahora usa una hoja de comparación con todas las condiciones para cada insumo importante y calcula el **costo por porción útil**, no solo el precio por kilo. Regresa con el proveedor de 150 pesos y negocia: si le compra también el queso, le deja el jamón en 146.
+
+## Una hoja de comparación sencilla
+Para el día a día, basta con una hoja de cálculo con una fila por proveedor y columnas para precio, flete, pedido mínimo, rendimiento, crédito, calidad y costo por unidad útil. Actualizarla cada vez que llega una cotización nueva evita decidir de memoria y permite ver cómo cambian los costos de cada proveedor con el tiempo.`,
+k: `**Precio ≠ costo total.** Pide cotizaciones **comparables** (misma especificación, cantidad, IVA, flete, mínimo, plazo, crédito). El costo total incluye flete, **rendimiento**, pedido mínimo y merma, costo financiero, calidad y confiabilidad. En equipos: **costo total de propiedad** durante su vida útil.`,
+ch: `Una fonda compara dos proveedores de tortillas: el más barato entrega tortillas que se rompen y obliga a usar 15 % más. El más caro sale más barato por taco servido.`,
+gi: `Las empresas grandes y los gobiernos usan licitaciones con especificaciones iguales para todos los proveedores y criterios de evaluación definidos antes de recibir las propuestas.`,
+e: `Toño verifica el cálculo del costo por porción del jamón barato:
+
+| Paso | Cálculo | Resultado |
+|---|---|---|
+| Flete por kilo | 500 ÷ 30 | 16.67 |
+| Precio + flete | 140 + 16.67 | 156.67 |
+| Merma de 3 % | 156.67 × 0.03 | 4.70 |
+| Costo por kilo | 156.67 + 4.70 | 161.37 |
+| Costo por porción | 161.37 ÷ 15 | 10.76 |
+
+Y del jamón caro: 150 ÷ 16.5 = 9.09 por porción. Con 5,400 tortas al mes, la diferencia es de unos 9,000 pesos mensuales.`,
+r: `En México, las compras del gobierno federal se rigen por la Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público, que establece procedimientos como la licitación pública para promover la competencia y la transparencia entre proveedores.`,
+f: `Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público (México); plataforma de compras públicas del gobierno federal.`,
+err: ["Comparar precios con condiciones distintas.","Olvidar el flete, el pedido mínimo o el rendimiento.","Comprar equipo barato sin considerar su consumo y su vida útil.","No considerar el valor del crédito del proveedor."],
+a: `Pide (o investiga en internet) el precio de un mismo producto en tres lugares distintos, con sus condiciones (envío, mínimo, forma de pago). Calcula el costo total por unidad útil y decide cuál conviene.`,
+sol: `Si un lugar tiene envío gratis solo por encima de cierto monto, calcula cuánto tendrías que comprar y si te sobraría producto.`,
+q: [["¿Por qué el precio más bajo puede no ser el más barato?",["Porque hay costos adicionales: flete, merma, rendimiento, mínimos","Porque el IVA es distinto siempre","Porque los proveedores mienten"],0,"Hay que comparar el costo total."],
+["Comparar «manzanas con manzanas» significa…",["Pedir cotizaciones con la misma especificación y condiciones","Comprar solo manzanas","Elegir al azar"],0,"Así las ofertas son comparables."],
+["El costo total de propiedad de un equipo incluye…",["Precio, energía, mantenimiento, vida útil y reventa","Solo el precio","Solo el IVA"],0,"Todo lo que cuesta durante su vida útil."],
+["Si un kilo cuesta 150 y rinde 15 porciones, cada porción cuesta…",["10 pesos","15 pesos","150 pesos"],0,"150 ÷ 15."]],
+t: ["Cotización","Costo total","Rendimiento","Costo total de propiedad","Licitación","Pedido mínimo"]
+},
+"M10-4": {
+s: `El proveedor de pan anuncia que subirá el precio 15 %. Toño está molesto y quiere amenazarlo con cambiarse. Lupita lo detiene: «Antes de pelear, preparemos la negociación». ¿Cómo se negocia bien con un proveedor?`,
+o: ["Preparar una negociación con información, objetivos y alternativas.","Usar los conceptos de MAAN y zona de acuerdo.","Negociar por intereses y buscar acuerdos de beneficio mutuo."],
+x: `## Negociar: una habilidad de todos los días
+**Negociar** es buscar un acuerdo entre dos o más partes que tienen intereses en parte comunes y en parte distintos. En un negocio se negocia todo el tiempo: precios con proveedores, plazos de pago, condiciones con clientes, sueldos, rentas, créditos. Negociar bien no es «ganarle» al otro, sino lograr un acuerdo que convenga y que se pueda sostener en el tiempo.
+
+## El enfoque de Harvard
+En 1981, Roger Fisher y William Ury, del Proyecto de Negociación de la Universidad de Harvard, publicaron «Obtenga el sí», uno de los libros de negociación más influyentes. Propusieron la **negociación basada en principios**, con cuatro ideas:
+1. **Separar a las personas del problema:** se puede ser firme con el problema y respetuoso con la persona.
+2. **Concentrarse en los intereses, no en las posiciones:** la posición es lo que alguien pide («quiero subir 15 %»); el interés es por qué lo pide («subió la harina y mi margen ya no alcanza»). Atender los intereses abre más soluciones.
+3. **Inventar opciones de beneficio mutuo:** antes de decidir, buscar varias soluciones que ayuden a ambos.
+4. **Usar criterios objetivos:** precios de mercado, índices de inflación, costos documentados, en lugar de «porque sí».
+
+## La preparación: la mitad de la negociación
+La mayor parte del éxito de una negociación se decide **antes** de sentarse a hablar. Prepararse significa responder:
+1. **¿Qué quiero lograr?** (objetivo ideal y mínimo aceptable).
+2. **¿Qué quiere el otro y por qué?** (sus intereses).
+3. **¿Qué información tengo?** (precios de mercado, mi historial de compras, cuánto represento para él).
+4. **¿Qué puedo ofrecer que me cueste poco y a él le valga mucho?** (pagar antes, comprar más, comprometerme a largo plazo).
+5. **¿Cuál es mi alternativa si no hay acuerdo?** (MAAN).
+
+## El MAAN: tu mejor alternativa
+El **MAAN** (mejor alternativa a un acuerdo negociado; en inglés, BATNA) es lo que harías si no llegas a un acuerdo. Es la fuente principal de **poder** en una negociación:
+- Si tu MAAN es buena (otra panadería que te surte a buen precio), puedes negociar con más firmeza.
+- Si tu MAAN es mala (no hay otra panadería en la zona), tienes menos poder y conviene ser más flexible.
+
+Regla de oro: **nunca aceptes un acuerdo peor que tu MAAN**, y **mejora tu MAAN antes de negociar** (por ejemplo, pidiendo cotización a otros proveedores). También conviene pensar en el MAAN del otro: si a la panadería le costaría mucho perder a Tortas Lupita como cliente, su MAAN es débil.
+
+## La zona de posible acuerdo
+Cada parte tiene un límite:
+- Para Lupita, el **precio máximo** que está dispuesta a pagar (por arriba de él, le conviene su MAAN).
+- Para la panadería, el **precio mínimo** que está dispuesta a aceptar (por debajo, prefiere no venderle).
+
+Si el mínimo del vendedor es menor que el máximo del comprador, existe una **zona de posible acuerdo**. Cualquier precio dentro de esa zona es mejor para ambos que no llegar a un acuerdo. La negociación decide en qué punto de esa zona se cierra.
+
+## Las concesiones
+En casi toda negociación hay concesiones (cosas que cada parte cede). Algunas reglas útiles:
+- **No cedas sin recibir algo a cambio:** «Puedo aceptar un aumento si me das 15 días de crédito».
+- **Empieza con margen:** si empiezas pidiendo exactamente lo que quieres, no tienes espacio para ceder.
+- **Cede en lo que te importa menos** y defiende lo que te importa más.
+- **Haz concesiones cada vez más pequeñas:** muestran que te acercas a tu límite.
+- **Pon todo sobre la mesa:** precio, plazo, cantidad, entregas, calidad, duración del acuerdo. Negociar varias variables a la vez permite intercambios de beneficio mutuo.
+
+## Variables que se pueden negociar con un proveedor
+- Precio por unidad.
+- Descuento por volumen.
+- Plazo de pago (crédito).
+- Descuento por pronto pago.
+- Frecuencia y horario de entrega.
+- Pedido mínimo.
+- Calidad y especificaciones.
+- Devoluciones y garantías.
+- Duración del acuerdo y congelamiento de precios.
+- Préstamo de equipo (refrigeradores, exhibidores).
+
+## La negociación con la panadería
+**Preparación de Lupita:**
+- Objetivo ideal: aumento de 5 %; máximo aceptable: 10 %.
+- Interés de la panadería: subió la harina 12 % y el gas; su margen bajó.
+- Información: Tortas Lupita le compra 9,000 bolillos al mes, es uno de sus clientes más grandes y siempre paga puntual. Otra panadería ofrece un precio 8 % mayor al actual, con buena calidad (ese es el MAAN de Lupita).
+- Qué puede ofrecer: un acuerdo de seis meses y pago semanal en lugar de quincenal.
+
+**La conversación:** Lupita reconoce que los costos subieron (separa a la persona del problema), pregunta cuánto subió exactamente la harina (criterio objetivo) y propone: aumento de 7 % hoy, sin más aumentos durante seis meses, y pago semanal. La panadería acepta, porque asegura a un buen cliente y cobra más rápido.
+
+Resultado: en lugar de 15 %, el aumento es de 7 %, la relación sigue fuerte y ambos saben qué esperar.
+
+## Negociación en empresas gigantes
+Las grandes empresas negocian contratos con proveedores por montos enormes y durante años. Usan equipos de compradores especializados, información de mercado, subastas en línea y contratos con cláusulas detalladas (ajustes por inflación, penalizaciones por incumplimiento). Pero los principios son los mismos: prepararse, conocer el MAAN, entender los intereses del otro y buscar acuerdos que se puedan sostener.`,
+k: `**Negociación basada en principios** (Fisher y Ury, «Obtenga el sí», 1981): separar personas y problema, **intereses** sobre posiciones, opciones de beneficio mutuo, **criterios objetivos**. **MAAN** (mejor alternativa a un acuerdo negociado): tu fuente de poder; no aceptes nada peor. **Zona de posible acuerdo** entre los límites de ambos. **No cedas sin recibir algo a cambio.**`,
+ch: `Un dueño de taller negocia con su proveedor de refacciones: en lugar de pedir descuento, ofrece pagar de contado a cambio de 4 % menos. El proveedor acepta porque mejora su flujo.`,
+gi: `Las grandes cadenas negocian cada año con sus proveedores condiciones como precios, descuentos por volumen, espacio en anaqueles y aportaciones para promociones, en contratos muy detallados.`,
+e: `Lupita calcula el efecto de la negociación (9,000 bolillos al mes a 3 pesos):
+
+| Escenario | Precio por bolillo | Costo mensual | Diferencia frente al actual |
+|---|---|---|---|
+| Actual | 3.00 | 27,000 | — |
+| Propuesta del proveedor (+15 %) | 3.45 | 31,050 | +4,050 |
+| MAAN (otra panadería, +8 %) | 3.24 | 29,160 | +2,160 |
+| Acuerdo (+7 %, fijo 6 meses) | 3.21 | 28,890 | +1,890 |
+
+El acuerdo es mejor que su MAAN y le ahorra 2,160 pesos al mes frente a la propuesta inicial, además de la estabilidad de precio por seis meses.`,
+r: `«Getting to Yes» («Obtenga el sí»), de Roger Fisher y William Ury (con Bruce Patton en ediciones posteriores), se publicó en 1981 como resultado del trabajo del Proyecto de Negociación de Harvard. El libro introdujo conceptos como el BATNA (en español, MAAN) y la negociación basada en intereses, hoy usados en negocios, diplomacia y mediación.`,
+f: `Roger Fisher, William Ury y Bruce Patton, «Obtenga el sí: el arte de negociar sin ceder» (1981).`,
+err: ["Negociar sin prepararse.","Pelear con la persona en lugar de resolver el problema.","No conocer tu MAAN ni mejorarlo antes de negociar.","Ceder sin recibir nada a cambio."],
+a: `Prepara una negociación real o simulada (con un proveedor, un arrendador o un cliente): escribe tu objetivo ideal y mínimo, los intereses del otro, tu MAAN, el MAAN del otro y tres cosas que podrías ofrecer. Practícala con alguien que haga el otro papel.`,
+sol: `Si no tienes MAAN (no hay alternativa), dedica tiempo a crear una antes de negociar: pide otras cotizaciones o piensa cómo podrías prescindir del producto.`,
+q: [["Según Fisher y Ury, conviene concentrarse en…",["Los intereses, no en las posiciones","Ganar a toda costa","Las emociones del otro"],0,"El interés explica por qué se pide algo."],
+["El MAAN es…",["Tu mejor alternativa si no hay acuerdo","El precio máximo del proveedor","Un impuesto"],0,"Es tu principal fuente de poder."],
+["Una buena regla al hacer concesiones es…",["No ceder sin recibir algo a cambio","Ceder todo al principio","Nunca ceder"],0,"Así se construyen intercambios de beneficio mutuo."],
+["Existe una zona de posible acuerdo cuando…",["El mínimo del vendedor es menor que el máximo del comprador","Ambos quieren lo mismo exactamente","No hay proveedores"],0,"Cualquier precio en esa zona es mejor que no acordar."]],
+t: ["Negociación","MAAN","Zona de posible acuerdo","Concesión","Negociación basada en principios"]
+},
+"M10-5": {
+s: `La carnicería entregó 25 kilos de jamón, pero facturó 30. Nadie lo notó y se pagó completo. Otra vez, el proveedor de empaques dijo que el precio «acordado» era otro. Lupita decide que todo debe quedar por escrito.`,
+o: ["Usar órdenes de compra y contratos con proveedores.","Revisar entregas y facturas con la comparación de tres documentos.","Aprovechar y cuidar el crédito de los proveedores."],
+x: `## Los papeles que te protegen
+En los negocios pequeños, muchos acuerdos se hacen de palabra: «tráeme lo de siempre». Funciona mientras todo va bien, pero cuando hay un error o un desacuerdo, no hay forma de probar qué se acordó. Los documentos de compra no son burocracia: son una forma de **evitar errores, aclarar expectativas y protegerse**.
+
+## La orden de compra
+La **orden de compra** es un documento (puede ser un formato, un correo o un mensaje) que el comprador envía al proveedor para confirmar un pedido. Debe incluir:
+- Fecha y número de orden.
+- Datos del comprador y del proveedor.
+- Producto (descripción clara), cantidad y unidad.
+- Precio unitario y total (con y sin IVA).
+- Fecha y lugar de entrega.
+- Condiciones de pago.
+- Datos para la factura.
+
+En Tortas Lupita, la orden de compra puede ser un mensaje de WhatsApp con un formato fijo: «Orden 145 – 30 kg jamón de pierna a 146 + IVA – entrega martes 7:00 – pago a 15 días». Lo importante es que quede escrito y que el proveedor lo confirme.
+
+## El contrato con proveedores
+Para proveedores importantes y relaciones de largo plazo, conviene un **contrato** (o al menos un acuerdo escrito) que establezca:
+- Productos y especificaciones de calidad.
+- Precios y cómo se ajustan (por ejemplo, cada seis meses según la inflación).
+- Volúmenes esperados.
+- Plazos y horarios de entrega.
+- Condiciones de pago y crédito.
+- Qué pasa si hay faltantes, retrasos o productos defectuosos (devoluciones, descuentos, penalizaciones).
+- Duración del acuerdo y cómo se termina.
+- Confidencialidad (si aplica, por ejemplo, de una receta).
+
+Para contratos importantes, conviene la revisión de un abogado (Módulo 14).
+
+## La recepción de mercancía
+Al recibir, alguien debe revisar **en el momento**, antes de firmar:
+1. **Cantidad:** contar o pesar lo que llegó y compararlo con la orden de compra.
+2. **Calidad:** frescura, temperatura (en carnes y lácteos), empaques sin daños, fechas de caducidad.
+3. **Producto correcto:** que sea lo pedido y no un sustituto.
+4. **Anotar diferencias** en la nota de remisión y en la bitácora; rechazar lo que no cumpla.
+5. **Firmar** solo lo recibido realmente.
+
+Una buena práctica es tener una **báscula en la recepción** y un horario fijo para recibir, fuera de la hora pico.
+
+## La comparación de tres documentos
+Antes de pagar, se comparan tres documentos:
+1. **La orden de compra** (lo que se pidió y a qué precio).
+2. **El comprobante de recepción** (lo que llegó realmente).
+3. **La factura** (lo que cobra el proveedor).
+
+Solo se paga si los tres coinciden. Si no coinciden, se aclara con el proveedor antes de pagar. A esta práctica se le conoce en inglés como *three-way match* y es una de las formas más sencillas y eficaces de evitar pagar de más, ya sea por error o por abuso.
+
+En el caso del jamón: orden de 30 kg, recepción de 25 kg, factura de 30 kg. La comparación habría detectado la diferencia de 5 kg (unos 730 pesos) antes de pagar.
+
+## El crédito de proveedores
+El **crédito de proveedores** (pagar a 7, 15 o 30 días) es una de las fuentes de financiamiento más baratas y útiles para un negocio pequeño, porque normalmente no cobra intereses explícitos (lecciones M8-5 y M8-8). Para conseguirlo y conservarlo:
+- **Paga siempre en la fecha acordada:** tu historial es tu mejor carta.
+- **Concentra compras** con proveedores clave para ser un cliente importante.
+- **Pide crédito** después de un periodo de compras de contado puntuales.
+- **Avisa antes** si vas a tener un retraso; nunca desaparezcas.
+- **No abuses:** pagar siempre tarde daña la relación y puede costar el crédito o un aumento de precio.
+
+## Cuidado con el descuento por pronto pago
+Si un proveedor ofrece, por ejemplo, 2 % de descuento por pagar de contado en lugar de a 30 días, conviene calcular si vale la pena: como viste en la lección M8-6, no aprovechar ese descuento equivale a pagar un costo anual muy alto por el crédito. Si tienes el efectivo, suele convenir tomar el descuento.
+
+## Documentos y control interno
+Los documentos de compra también sirven para el **control interno** (Módulo 17): permiten revisar quién pidió, quién autorizó, quién recibió y quién pagó, y detectar compras duplicadas, precios fuera de lo acordado o pagos por mercancía no recibida. En las empresas grandes, el sistema no permite pagar una factura que no coincida con una orden de compra y una recepción registradas.
+
+## Lo que hace Tortas Lupita ahora
+- Cada pedido se confirma con una orden por WhatsApp con formato fijo.
+- La panadería, la carnicería y el proveedor de empaques firmaron un acuerdo de una página con precios, entregas y devoluciones.
+- La recepción se hace de 6:30 a 7:15, con báscula y una lista.
+- La administradora solo paga si coinciden la orden, la recepción firmada y la factura.
+- Los pagos se hacen siempre el día acordado.
+
+En el primer mes detectan dos diferencias en facturas por un total de 1,200 pesos, y el proveedor de empaques ya no puede «cambiar» el precio acordado.`,
+k: `**Orden de compra:** confirma por escrito producto, cantidad, precio, entrega y pago. **Contrato** para proveedores importantes. **Recepción:** contar, pesar y revisar antes de firmar. **Comparación de tres documentos:** orden, recepción y factura deben coincidir antes de pagar. El **crédito de proveedores** se gana pagando siempre a tiempo.`,
+ch: `Una tienda de abarrotes revisa cada entrega del repartidor de refrescos contra su pedido antes de firmar; una vez descubrió que le cobraban dos cajas que no le dejaron.`,
+gi: `En las grandes empresas, los sistemas de compras no permiten liberar el pago de una factura si no coincide con la orden de compra y con la recepción registrada en el almacén.`,
+e: `La administradora revisa tres facturas del mes:
+
+| Proveedor | Orden de compra | Recepción | Factura | ¿Coinciden? | Acción |
+|---|---|---|---|---|---|
+| Panadería | 9,000 bolillos × 3.21 | 9,000 | 28,890 | Sí | Pagar |
+| Carnicería | 30 kg × 146 | 25 kg | 30 kg (4,380) | No | Pedir nota de crédito por 5 kg (730) |
+| Empaques | 5,000 bolsas × 0.40 | 5,000 | 5,000 × 0.49 (2,450) | No | Reclamar el precio acordado (2,000) |
+
+Ahorro detectado en el mes: 730 + 450 = 1,180 pesos.`,
+r: `La comparación de tres documentos (orden de compra, recepción y factura) es una práctica estándar de control en cuentas por pagar, recomendada en guías de control interno como el marco COSO, que muchas empresas usan para diseñar sus controles.`,
+f: `COSO, «Control interno – Marco integrado» (2013); guías de auditoría sobre cuentas por pagar.`,
+err: ["Hacer pedidos importantes solo de palabra.","Firmar la recepción sin contar ni revisar.","Pagar facturas sin compararlas con lo pedido y lo recibido.","Pagar tarde y perder el crédito del proveedor."],
+a: `Diseña un formato de orden de compra para el negocio que observas (puede ser un mensaje con campos fijos) y una lista de verificación para recibir mercancía. Si tienes facturas reales, compara tres con lo pedido y lo recibido.`,
+sol: `El formato debe caber en un mensaje: número, producto, cantidad, precio, fecha de entrega y condiciones de pago. La lista de recepción debe incluir cantidad, calidad y fechas.`,
+q: [["La comparación de tres documentos revisa…",["Orden de compra, recepción y factura","Precio, IVA e ISR","Nombre, RFC y domicilio"],0,"Solo se paga si coinciden."],
+["Al recibir mercancía, se debe firmar…",["Solo lo que realmente se recibió y revisó","Todo lo que dice la factura","Nada"],0,"Firmar sin revisar quita la posibilidad de reclamar."],
+["¿Cómo se gana el crédito de un proveedor?",["Pagando siempre en la fecha acordada","Pagando tarde","Cambiando de proveedor cada mes"],0,"Tu historial es tu mejor carta."],
+["Un contrato con un proveedor debe incluir…",["Precios, entregas, pagos y qué pasa si hay faltantes","Solo el nombre","El organigrama del cliente"],0,"Así se evitan malentendidos."]],
+t: ["Orden de compra","Recepción de mercancía","Comparación de tres documentos","Crédito de proveedores","Nota de crédito"]
+},
+"M10-6": {
+s: `Un lunes, la carnicería de siempre cierra por una inspección sanitaria. Tortas Lupita no tiene otro proveedor de jamón y pasa dos días vendiendo solo tortas de huevo y frijoles. Las ventas caen a la mitad. Lupita aprende la lección del proveedor único.`,
+o: ["Identificar el riesgo de depender de un solo proveedor.","Evaluar qué tan crítico es cada insumo.","Diseñar estrategias para diversificar y reducir el riesgo."],
+x: `## El riesgo del proveedor único
+Depender de un **solo proveedor** para un insumo importante tiene ventajas: más volumen con él, mejor precio, relación cercana, menos trabajo administrativo. Pero también un gran riesgo: si ese proveedor falla (cierra, se retrasa, sube mucho el precio, tiene problemas de calidad, sufre un desastre), el negocio se queda sin el insumo. Y si el insumo es crítico, el negocio se detiene.
+
+## Las causas de falla de un proveedor
+- Problemas sanitarios o legales (una clausura).
+- Problemas financieros (quiebra, falta de liquidez para producir).
+- Desastres naturales o accidentes (incendio, inundación, sismo).
+- Problemas de transporte (bloqueos, huelgas, falta de combustible).
+- Escasez de su propia materia prima.
+- Cambios de dueño o de política (deja de vender a clientes pequeños).
+- Conflictos con el cliente (un desacuerdo que termina la relación).
+
+## ¿Qué tan crítico es cada insumo?
+No todos los insumos tienen el mismo riesgo. Una herramienta útil, inspirada en la **matriz de Kraljic** (propuesta por Peter Kraljic en Harvard Business Review en 1983), clasifica los insumos según dos preguntas:
+1. **¿Qué tan importante es para el negocio?** (impacto en ventas, costo, calidad).
+2. **¿Qué tan difícil es conseguirlo?** (pocos proveedores, productos especiales, tiempos de entrega largos).
+
+| | Fácil de conseguir | Difícil de conseguir |
+|---|---|---|
+| **Muy importante** | **Apalancamiento:** negociar buen precio entre varios proveedores (pan, verduras) | **Estratégico:** relación cercana de largo plazo y plan de respaldo (jamón de cierta calidad, la receta del chile) |
+| **Poco importante** | **Rutina:** simplificar y comprar fácil (servilletas, limpieza) | **Cuello de botella:** asegurar el abasto aunque cueste un poco más (una refacción especial de la plancha) |
+
+Esta matriz ayuda a decidir dónde dedicar más atención: los insumos **estratégicos** y de **cuello de botella** necesitan planes de respaldo.
+
+## Estrategias para reducir el riesgo
+1. **Proveedor de respaldo:** tener un segundo proveedor aprobado al que se le compre una parte pequeña con regularidad, para que conozca el producto y esté listo si el principal falla (lección M10-2).
+2. **Inventario de seguridad mayor** para los insumos más críticos y difíciles de conseguir (lección M9-6), siempre que no sean muy perecederos.
+3. **Proveedores en distintas zonas:** si uno tiene un problema local, el otro puede seguir.
+4. **Contratos con compromisos de abasto** y avisos anticipados de problemas.
+5. **Especificaciones flexibles:** recetas o productos que permitan sustituir un insumo por otro parecido sin afectar mucho la calidad.
+6. **Conocer a tus proveedores:** su salud financiera, sus permisos, sus propios proveedores.
+7. **Plan de contingencia escrito:** qué hacer y a quién llamar si falla cada insumo crítico.
+
+## Diversificar tiene un costo
+Tener dos o tres proveedores para cada insumo crítico cuesta: menos volumen con cada uno (quizá un precio un poco mayor), más trabajo para administrar, más pruebas de calidad. Por eso la decisión es un **equilibrio** entre costo y riesgo. Para un insumo crítico, pagar un poco más por tener respaldo es como pagar un seguro.
+
+## Un ejemplo clásico: el incendio de Aisin
+En febrero de 1997, un incendio destruyó una fábrica de Aisin Seiki, el proveedor principal de una pequeña válvula de frenos que Toyota usaba en casi todos sus autos. Como Toyota trabajaba con muy poco inventario, sus líneas de producción en Japón se detuvieron en pocos días. Sin embargo, en cuestión de días, decenas de empresas de su red de proveedores, coordinadas con Aisin y Toyota, empezaron a fabricar la válvula con los planos de Aisin, y la producción se recuperó con relativa rapidez. El caso mostró dos cosas: el riesgo de depender de una sola fábrica y el valor de tener relaciones de confianza con una red de proveedores.
+
+## La escasez de chips de 2021
+Otro ejemplo reciente: en 2021, una escasez mundial de semiconductores (chips), provocada por una combinación de factores (la pandemia, el aumento de la demanda de aparatos electrónicos y problemas en algunas fábricas), obligó a muchas armadoras de autos en el mundo, incluidas plantas en México, a detener o reducir su producción. Muchas empresas revisaron después su dependencia de unos pocos proveedores y regiones.
+
+## El plan de Tortas Lupita
+Después de los dos días sin jamón, Lupita hace un plan:
+
+| Insumo | Tipo (matriz) | Proveedor principal | Respaldo | Acción |
+|---|---|---|---|---|
+| Jamón y carnes | Estratégico | Carnicería A (80 %) | Carnicería B (20 %) | Comprar cada semana a ambas |
+| Pan | Apalancamiento | Panadería B (80 %) | Panadería actual (20 %) | Ya implementado |
+| Aguacate | Apalancamiento | Mercado | Dos puestos distintos | Comprar cada dos días |
+| Gas | Cuello de botella | Gasera A | Gasera B con número a la mano | Tanque de reserva |
+| Servilletas | Rutina | Distribuidor | Cualquier tienda mayorista | Compra mensual |
+
+Además, escribe un plan de contingencia de una página que está pegado en la oficina. La próxima vez que la carnicería principal falla, al día siguiente llega el jamón de la carnicería B y nadie se entera.
+
+## Revisar el riesgo cada año
+La matriz no es fija: un insumo fácil de conseguir hoy puede volverse difícil mañana. Conviene revisarla al menos una vez al año.`,
+k: `Depender de un **proveedor único** para un insumo crítico es un gran riesgo. Clasifica insumos por **importancia** y **dificultad para conseguirlos** (matriz de Kraljic: estratégico, apalancamiento, cuello de botella, rutina). Reduce el riesgo con **proveedor de respaldo**, inventario de seguridad, proveedores en distintas zonas, contratos y un **plan de contingencia**.`,
+ch: `Una cafetería que dependía de un solo tostador de café se quedó sin grano una semana. Ahora compra el 70 % a su tostador principal y el 30 % a otro, y tiene una semana de inventario.`,
+gi: `En 1997, un incendio en una fábrica de Aisin Seiki detuvo la producción de Toyota en Japón por falta de una válvula de frenos; la red de proveedores de Toyota se coordinó para fabricarla y la producción se recuperó en pocos días.`,
+e: `Lupita estima el costo de quedarse sin jamón frente al costo del respaldo:
+
+| Concepto | Cálculo | Resultado |
+|---|---|---|
+| Ventas perdidas en 2 días sin jamón | 2 × 4,000 | 8,000 |
+| Margen perdido (60 %) | 8,000 × 0.6 | 4,800 |
+| Clientes molestos que no regresan (estimado) | — | difícil de medir |
+| Costo extra de comprar el 20 % a la carnicería B (precio 3 % mayor) | 28,000 × 20 % × 3 % | 168 al mes |
+
+Pagar unos 170 pesos al mes por tener respaldo evita pérdidas de miles de pesos en un solo evento.`,
+r: `El caso del incendio de Aisin Seiki en 1997 fue analizado por Toshihiro Nishiguchi y Alexandre Beaudet en el artículo «The Toyota Group and the Aisin Fire» (Sloan Management Review, 1998), como ejemplo de la capacidad de recuperación de una red de proveedores con relaciones de confianza.`,
+f: `T. Nishiguchi y A. Beaudet, «The Toyota Group and the Aisin Fire», Sloan Management Review (1998); P. Kraljic, «Purchasing Must Become Supply Management», Harvard Business Review (1983).`,
+err: ["Tener un solo proveedor para un insumo crítico.","Tener un proveedor de respaldo al que nunca se le compra.","No tener un plan escrito para emergencias.","Diversificar todo sin pensar en el costo."],
+a: `Clasifica 8 insumos del negocio que observas con la matriz de importancia y dificultad. Para los insumos estratégicos o de cuello de botella, escribe quién es el proveedor principal, quién sería el respaldo y qué harías si el principal falla mañana.`,
+sol: `Un plan de contingencia útil cabe en una hoja: insumo, proveedor de respaldo con teléfono, cantidad mínima y quién llama.`,
+q: [["¿Cuál es el principal riesgo de un proveedor único?",["Quedarse sin el insumo si falla","Pagar menos","Tener demasiada calidad"],0,"El negocio puede detenerse."],
+["En la matriz de Kraljic, un insumo muy importante y difícil de conseguir es…",["Estratégico","De rutina","De apalancamiento"],0,"Requiere relación cercana y respaldo."],
+["¿Por qué conviene comprarle regularmente al proveedor de respaldo?",["Para que conozca el producto y esté listo si el principal falla","Para pagar más","No conviene"],0,"Un respaldo que nunca se usa no sirve en una emergencia."],
+["El incendio de Aisin en 1997 afectó a…",["Toyota","Bimbo","Netflix"],0,"Detuvo su producción por falta de una válvula de frenos."]],
+t: ["Proveedor único","Matriz de Kraljic","Plan de contingencia","Diversificar proveedores"]
+},
+"M10-7": {
+s: `La panadería B le propone a Lupita algo nuevo: «Si me compartes cada semana cuántas tortas esperas vender, puedo planear mi producción y garantizarte el pan más fresco». Lupita descubre que con sus proveedores no solo compra: forma una cadena.`,
+o: ["Explicar qué es la cadena de suministro.","Reconocer el valor de las relaciones de largo plazo con proveedores.","Entender el efecto látigo y cómo compartir información lo reduce."],
+x: `## De comprar a gestionar la cadena
+Hasta ahora vimos cómo comprar bien, elegir proveedores, negociar y reducir riesgos. Pero hay una mirada más amplia: un negocio no está solo; forma parte de una **cadena de suministro**, que es la red de empresas y actividades que llevan un producto desde las materias primas hasta el cliente final.
+
+La cadena de una torta de Tortas Lupita, por ejemplo:
+**Agricultores de trigo → molino → panadería → Tortas Lupita → cliente**
+**Ganaderos → rastro → empacadora → carnicería → Tortas Lupita → cliente**
+**Productores de aguacate → empacadora → central de abasto → mercado → Tortas Lupita → cliente**
+
+Cada eslabón depende de los demás. Si el molino tiene problemas, la panadería no hornea; si la panadería falla, Tortas Lupita no vende. La **gestión de la cadena de suministro** busca que toda la cadena funcione bien: que el producto llegue al cliente con la calidad, el costo y la rapidez adecuados.
+
+## Del campo a la mesa
+En alimentos, la cadena es especialmente importante por la frescura, la higiene y la trazabilidad. La **trazabilidad** es la capacidad de saber de dónde viene cada producto y por dónde pasó. Si un lote de carne tiene un problema sanitario, la trazabilidad permite saber qué otros productos se hicieron con él y retirarlos. Las grandes empresas de alimentos llevan registros detallados de cada lote; un negocio pequeño puede, al menos, anotar la fecha y el proveedor de cada compra.
+
+## Relaciones de largo plazo
+Hay dos formas de relacionarse con los proveedores:
+- **Transaccional:** cada compra es una operación aislada; se busca el mejor precio en cada momento y se cambia de proveedor con facilidad.
+- **Colaborativa (de largo plazo):** se construye una relación de confianza, con información compartida, objetivos comunes y mejora conjunta.
+
+La relación transaccional funciona bien para insumos de rutina, fáciles de conseguir. Para insumos estratégicos, la relación de largo plazo suele dar mejores resultados: mejor calidad, prioridad en momentos de escasez, ideas de mejora, precios más estables y menos tiempo dedicado a buscar y negociar.
+
+## Qué se gana colaborando
+- **Planeación conjunta:** si el proveedor conoce la demanda esperada, produce lo justo y a tiempo.
+- **Mejor calidad:** el proveedor entiende exactamente lo que el negocio necesita.
+- **Innovación:** el proveedor propone productos o procesos nuevos (un pan especial para tortas, un empaque mejor).
+- **Prioridad:** en una escasez, el proveedor atiende primero a sus clientes de confianza.
+- **Costos menores para ambos:** menos desperdicio, menos urgencias, menos devoluciones.
+
+## El efecto látigo
+Un fenómeno muy conocido en las cadenas de suministro es el **efecto látigo**: pequeñas variaciones en la demanda del cliente final se convierten en variaciones cada vez mayores a medida que se sube por la cadena. Ocurre porque cada eslabón, sin información completa, se protege pidiendo de más cuando ve que la demanda sube, y pidiendo de menos cuando baja.
+
+Ejemplo: un lunes Tortas Lupita vende 10 % más. Toño, preocupado, pide 20 % más pan para el martes. La panadería ve que su cliente grande pidió 20 % más y, para no quedarse corta, pide 30 % más harina. El molino ve el pedido grande y aumenta su producción. Si la venta del martes vuelve a la normalidad, toda la cadena queda con exceso de inventario.
+
+El fenómeno fue estudiado por Hau Lee y otros investigadores de la Universidad de Stanford en 1997, quienes describieron, entre otros ejemplos, cómo Procter & Gamble observó grandes variaciones en los pedidos de sus pañales a pesar de que el consumo de los bebés era bastante estable.
+
+## Cómo reducir el efecto látigo
+- **Compartir información** de ventas reales y pronósticos con los proveedores.
+- **Pedir con más frecuencia y en cantidades más pequeñas**, en lugar de grandes pedidos esporádicos.
+- **Evitar pedidos de pánico:** basarse en datos, no en reacciones.
+- **Estabilizar precios:** las promociones agresivas generan picos de compra artificiales.
+- **Acortar los tiempos de entrega.**
+
+## La información compartida en las empresas gigantes
+Las grandes cadenas comparten datos con sus proveedores para que planeen mejor. Walmart desarrolló desde hace décadas un sistema llamado **Retail Link**, mediante el cual muchos de sus proveedores pueden consultar las ventas e inventarios de sus productos en las tiendas, para planear su producción y su reposición. En algunos casos, los proveedores administran directamente el inventario de sus productos en el cliente (**inventario administrado por el proveedor**).
+
+## Desarrollo de proveedores
+Algunas empresas van más allá y ayudan a sus proveedores a mejorar: capacitación, asesoría en calidad, apoyo para certificarse, incluso financiamiento. Lo hacen porque un proveedor más fuerte es un eslabón más confiable en su cadena. Las armadoras de autos y las grandes cadenas de alimentos tienen programas de este tipo con proveedores locales.
+
+## La nueva relación de Tortas Lupita
+Lupita acepta la propuesta de la panadería B:
+- Cada viernes le envía el pronóstico de tortas de la semana siguiente, por día.
+- La panadería hornea de acuerdo con el pronóstico y ajusta cada mañana según el pedido del día anterior.
+- Revisan juntos cada mes la frescura y la puntualidad.
+- Prueban juntos un bolillo especial para tortas, más resistente.
+
+Resultado: el pan sobrante baja a casi cero, la panadería produce con menos desperdicio y ambos negocios ganan. Lupita entiende que sus proveedores no son adversarios a los que hay que «exprimir», sino socios de una misma cadena que llega al cliente.
+
+## Cierre del módulo
+Comprar bien es mucho más que encontrar el precio más bajo: es elegir con criterios, comparar costos totales, negociar con preparación, documentar, reducir riesgos y construir relaciones que hagan fuerte a toda la cadena.`,
+k: `**Cadena de suministro:** red de empresas que llevan un producto de las materias primas al cliente. **Trazabilidad:** saber de dónde viene cada producto. Relación **transaccional** o **colaborativa** de largo plazo. **Efecto látigo:** pequeñas variaciones de demanda se amplifican al subir por la cadena; se reduce **compartiendo información** y pidiendo con frecuencia.`,
+ch: `Una frutería comparte cada semana con su proveedor de la central de abasto qué frutas vendió más; el proveedor le aparta lo mejor y le avisa de temporadas y precios.`,
+gi: `Walmart comparte información de ventas e inventarios con sus proveedores mediante su sistema Retail Link, para que planeen su producción y reposición.`,
+e: `Toño mide el pan sobrante antes y después de compartir pronósticos:
+
+| Indicador | Antes | Después |
+|---|---|---|
+| Bolillos sobrantes por semana | 420 | 60 |
+| Costo del pan sobrante al mes (× 3.21) | 5,393 | 770 |
+| Faltantes de pan al mes | 3 días | 0 |
+| Tiempo de Toño en llamadas de urgencia | 4 horas | 0 |
+
+Compartir información ahorra más de 4,600 pesos al mes en pan y elimina los faltantes.`,
+r: `Hau Lee, V. Padmanabhan y Seungjin Whang publicaron en 1997 «The Bullwhip Effect in Supply Chains» (Sloan Management Review), donde analizaron el efecto látigo y mencionaron casos como el de Procter & Gamble con los pañales Pampers, cuyos pedidos variaban mucho más que el consumo real.`,
+f: `H. Lee, V. Padmanabhan y S. Whang, «The Bullwhip Effect in Supply Chains», Sloan Management Review (1997); Walmart, información sobre Retail Link.`,
+err: ["Tratar a todos los proveedores como adversarios.","Hacer pedidos de pánico ante un pequeño cambio en las ventas.","No compartir información útil con los proveedores clave.","No registrar el origen de los productos (trazabilidad)."],
+a: `Dibuja la cadena de suministro de un producto que vende el negocio que observas, desde la materia prima hasta el cliente. Identifica un eslabón débil y propón una forma de colaborar con un proveedor para fortalecerlo.`,
+sol: `La forma más sencilla de colaborar es compartir un pronóstico semanal de ventas y revisar juntos cada mes la calidad y la puntualidad.`,
+q: [["La cadena de suministro es…",["La red de empresas que llevan un producto de la materia prima al cliente","El organigrama","Una cadena de restaurantes"],0,"Cada eslabón depende de los demás."],
+["El efecto látigo consiste en que…",["Pequeñas variaciones de demanda se amplifican al subir por la cadena","Los precios bajan siempre","Los clientes se van"],0,"Cada eslabón se protege pidiendo de más o de menos."],
+["¿Qué ayuda a reducir el efecto látigo?",["Compartir información de ventas reales con los proveedores","Hacer pedidos de pánico","Cambiar de proveedor cada semana"],0,"Así todos planean con datos."],
+["La trazabilidad permite…",["Saber de dónde viene cada producto y por dónde pasó","Vender más caro","Evitar impuestos"],0,"Es clave en alimentos."]],
+t: ["Cadena de suministro","Trazabilidad","Efecto látigo","Inventario administrado por el proveedor","Desarrollo de proveedores"]
+}
+});
