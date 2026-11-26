@@ -100,3 +100,135 @@ resp:`**Margen:** 35 − 18.50 = 16.50 por torta; 3,640 × 16.50 = **60,060 peso
 **Mejoras:** precio de 40 pesos y costo de 16 con receta costeada y control de merma: margen de 24 por torta, 3,640 × 24 = 87,360. Con regalos limitados y retiros convertidos en sueldo fijo, la utilidad de operación sube a más de 62,000 pesos al mes, y puede apartar el 10 % semanal para enero.`,
 lec:["Vender mucho no basta si el precio y el costo no se revisan.","La merma y los regalos son costos reales.","Ordenar los retiros y apartar para meses flojos evita pedir prestado."]}
 );
+// ===== NIVEL 2 =====
+window.CASOS.push(
+{id:"quinto-empleado", t:"El quinto empleado: nadie sabe a quién obedecer", mod:"M6", tipo:"ficticio",
+ctx:`Tortas Lupita abrió su local con cuatro empleados y todos le reportaban a Lupita. Al contratar al quinto (un repartidor), Toño empezó a dar instrucciones también, igual que el cocinero con más antigüedad. En dos semanas hubo pedidos duplicados, compras repetidas y una discusión en plena hora pico.`,
+dil:`¿Qué estructura necesita el local y cómo se reparte la autoridad?`,
+datos:`| Situación | Frecuencia en 2 semanas |
+|---|---|
+| Órdenes contradictorias a un mismo empleado | 9 veces |
+| Compras duplicadas | 3 |
+| Pedidos de WhatsApp sin atender | 7 |
+| Consultas a Lupita por asuntos menores | 25 al día |`,
+preg:["¿Qué principios de la estructura se están rompiendo?","Dibuja un organigrama para el local con un solo jefe por persona.","¿Qué decisiones debería delegar Lupita y con qué límites?","¿Qué documentos ayudarían a que cada quien sepa qué hacer?"],
+resp:`Se rompen la **unidad de mando** (varias personas dan órdenes) y la **autoridad con responsabilidad** (nadie tiene claro quién responde por compras y pedidos). Organigrama sugerido: Lupita (directora) → Toño (encargado del local) → cocineros, cajera y repartidor; el contador como staff externo. Lupita delega en Toño las compras diarias hasta cierto monto, los horarios y la atención de quejas, con una **matriz de delegación**. Se necesitan **descripciones de puesto** y una lista de tareas con responsable, más una junta diaria de 10 minutos.`,
+lec:["Con cada persona nueva, la estructura debe hacerse explícita.","Un jefe por persona y un responsable por tarea evitan duplicidades y huecos.","Delegar con límites claros libera al dueño."]},
+{id:"lupita-enferma", t:"Lupita se enferma dos semanas: ¿sobrevive el negocio sin ella?", mod:"M7", tipo:"ficticio",
+ctx:`Lupita debe guardar reposo dos semanas. Ella compra, decide precios, revisa la caja, atiende a las oficinas y paga a proveedores. Toño sabe cocinar y atender, pero nunca ha manejado proveedores ni números.`,
+dil:`¿Qué pasa con el negocio y qué debió prepararse antes?`,
+datos:`| Función | ¿Quién la hacía? | ¿Hay respaldo? |
+|---|---|---|
+| Compras y proveedores | Lupita | No |
+| Precios y promociones | Lupita | No |
+| Corte de caja | Lupita | A medias (Toño a veces) |
+| Pedidos de oficinas | Lupita | No |
+| Pagos y nómina | Lupita con el contador | No |`,
+preg:["¿Qué riesgo revela este caso sobre la dirección del negocio?","¿Qué decisiones y tareas debe conservar Lupita y cuáles delegar?","Propón un plan de tres meses para que el negocio funcione sin ella dos semanas.","¿Qué indicadores le permitirían a Lupita seguir el negocio desde casa?"],
+resp:`El caso muestra el **síndrome del fundador**: todo depende de Lupita. Debe conservar la estrategia, las grandes decisiones de dinero y la elección de personas clave, y delegar compras diarias, corte de caja, pedidos de oficinas y pagos rutinarios con límites claros. Plan: mes 1, escribir procedimientos de compras y caja y enseñar a Toño; mes 2, que Toño los haga con revisión; mes 3, que los haga solo y Lupita revise por **resultados**. Un **tablero semanal** con ventas, ticket promedio, merma, efectivo disponible y quejas le permite seguir el negocio a distancia.`,
+lec:["Un negocio que no puede operar sin el dueño es frágil.","Profesionalizar es pasar de depender de una persona a depender de procesos y personas capaces.","El tablero de indicadores permite dirigir sin estar presente."]},
+{id:"no-hay-para-nomina", t:"«Ganamos, pero no hay para la nómina»", mod:"M8", tipo:"ficticio",
+ctx:`En marzo, el estado de resultados de Tortas Lupita mostró una utilidad de 30,000 pesos. Pero el día 15 no había efectivo para pagar la quincena. En el mismo mes se compró una segunda plancha de contado, las oficinas pagaron tarde y se abonó al crédito bancario.`,
+dil:`¿Cómo puede haber utilidad sin efectivo y qué debe cambiar?`,
+datos:`| Concepto del mes | Pesos |
+|---|---|
+| Utilidad neta | 30,000 |
+| Depreciación | 2,000 |
+| Aumento de cuentas por cobrar a oficinas | 25,000 |
+| Compra de la segunda plancha (contado) | 18,000 |
+| Pago de capital del crédito | 15,000 |
+| Retiro de Lupita | 8,000 |`,
+preg:["Calcula el cambio en el efectivo del mes.","Explica por qué la utilidad no se convirtió en efectivo.","¿Qué herramienta habría anticipado el problema?","Propón tres acciones para que no vuelva a pasar."],
+resp:`Cambio en el efectivo: 30,000 + 2,000 − 25,000 − 18,000 − 15,000 − 8,000 = **−34,000 pesos**. La utilidad se «quedó» en las cuentas por cobrar y en la plancha, y se usó efectivo para pagar deuda y para el retiro. Un **flujo de caja proyectado** de seis semanas habría mostrado el faltante antes del día 15. Acciones: cobrar a las oficinas a 7 días con descuento por pronto pago; financiar el equipo a largo plazo en lugar de pagarlo de contado; convertir el retiro en un sueldo fijo; tener una línea de crédito aprobada para emergencias.`,
+lec:["Las utilidades son una opinión; el efectivo es un hecho.","Revisa y proyecta el flujo de caja cada semana.","Financia a largo plazo lo que dura años."]},
+{id:"hora-pico", t:"La hora pico: filas de 25 minutos", mod:"M9", tipo:"ficticio",
+ctx:`De 13:00 a 14:30 la fila de Tortas Lupita llega a la calle. Algunos clientes esperan 25 minutos y otros se van. Lupita quiere contratar a otro cocinero.`,
+dil:`¿Dónde está el cuello de botella y qué conviene hacer?`,
+datos:`| Paso | Minutos por pedido | Personas | Capacidad por hora |
+|---|---|---|---|
+| Tomar pedido y cobrar | 1.5 | 1 | 40 |
+| Preparar | 2.5 | 3 | 72 |
+| Empacar y entregar | 0.5 | 1 | 120 |
+| Clientes que llegan por hora | — | — | 55 |`,
+preg:["¿Cuál es la capacidad del proceso y por qué?","¿Cuántas personas se acumulan en la fila en hora y media?","Aplica los cinco pasos de la teoría de las restricciones.","¿Conviene contratar otro cocinero? Justifica."],
+resp:`La capacidad del proceso es **40 pedidos por hora**, la de la caja, que es el **cuello de botella**. Con 55 clientes por hora, la fila crece 15 personas por hora: unas **22 en hora y media**. Teoría de las restricciones: identificar (la caja); explotar (que la cajera solo cobre, tenga cambio y terminal lista: 1.2 minutos, 50 por hora); subordinar (el ayudante toma pedidos en la fila; preparar por adelantado las tortas más pedidas); elevar (segunda caja en el pico o pedidos anticipados por WhatsApp); repetir (ahora el límite será la cocina, 72). **No conviene contratar otro cocinero**: la cocina ya espera comandas.`,
+lec:["Mejorar lo que no es el cuello de botella no mejora el resultado.","Explotar la restricción suele ser más barato que invertir.","Mide cada paso con reloj antes de decidir."]},
+{id:"pan-sube", t:"El proveedor de pan sube 20 % el precio", mod:"M10", tipo:"ficticio",
+ctx:`La panadería principal anuncia un aumento de 20 % en el bolillo por la subida de la harina y el gas. Tortas Lupita compra 9,000 bolillos al mes a 3 pesos y paga puntual. Otra panadería cotiza un 8 % por encima del precio actual, con buena calidad.`,
+dil:`¿Cómo negociar el aumento sin dañar la relación ni el margen?`,
+datos:`| Concepto | Valor |
+|---|---|
+| Bolillos al mes | 9,000 |
+| Precio actual | 3.00 |
+| Propuesta del proveedor | 3.60 (+20 %) |
+| Alternativa (MAAN) | 3.24 (+8 %) |
+| Impacto de cada 10 centavos en el costo mensual | 900 pesos |`,
+preg:["¿Cuál es el MAAN de Lupita y qué tan fuerte es?","¿Cuáles son los intereses de la panadería?","Propón una negociación con al menos tres variables.","Calcula el costo mensual de la propuesta, del MAAN y de tu acuerdo propuesto."],
+resp:`El MAAN de Lupita es la otra panadería a 3.24 (fuerte, porque tiene buena calidad). Los intereses de la panadería: cubrir el aumento de sus costos y no perder a un cliente grande y puntual. Propuesta: aumento de 7 % (3.21), precio fijo seis meses y pago semanal en lugar de quincenal; además, un pronóstico semanal para que la panadería produzca con menos desperdicio. Costos mensuales: propuesta 9,000 × 3.60 = **32,400**; MAAN 9,000 × 3.24 = **29,160**; acuerdo 9,000 × 3.21 = **28,890**. El acuerdo es mejor que el MAAN y cuida la relación.`,
+lec:["Prepárate: conoce tu MAAN y los intereses del otro.","Negocia varias variables, no solo el precio.","Un buen acuerdo deja a ambas partes mejor que no acordar."]},
+{id:"oficinas-credito", t:"Una empresa quiere 200 tortas diarias a crédito", mod:"M11", tipo:"ficticio",
+ctx:`Un corporativo de 600 empleados ofrece a Tortas Lupita un contrato: 200 tortas diarias de lunes a viernes, a 36 pesos cada una (en lugar de 40), con factura y pago a 30 días. Sería el cliente más grande del negocio.`,
+dil:`¿Conviene aceptar el contrato y en qué condiciones?`,
+datos:`| Dato | Valor |
+|---|---|
+| Tortas al mes (22 días) | 4,400 |
+| Precio | 36 |
+| Costo variable | 16 |
+| Ventas totales actuales del local | 236,000 al mes |
+| Capacidad extra de cocina en la mañana | Alcanza con un cocinero adicional (12,000 al mes) |
+| Plazo de pago | 30 días |`,
+preg:["Calcula las ventas y el margen mensual del contrato, después del cocinero adicional.","¿Qué porcentaje de las ventas totales representaría este cliente?","¿Cuánto capital de trabajo adicional necesitaría el negocio por el plazo de 30 días?","¿Aceptarías? Propón condiciones para reducir riesgos."],
+resp:`Ventas: 4,400 × 36 = **158,400**; margen: 4,400 × 20 = 88,000; menos el cocinero: **76,000 pesos al mes**. El cliente sería 158,400 ÷ (236,000 + 158,400) ≈ **40 % de las ventas**: mucha **concentración**. Capital de trabajo: unas cuentas por cobrar de alrededor de **158,400** (un mes de ventas a este cliente) que hay que financiar. Puede convenir, pero con condiciones: plazo de 15 días o anticipo; contrato de al menos un año con aviso de terminación de 60 días; ajuste de precio por inflación; empezar con un piloto de un mes; mientras tanto, seguir buscando otros clientes para reducir la dependencia y tramitar una línea de crédito para el capital de trabajo.`,
+lec:["Un cliente grande puede ser una gran oportunidad y un gran riesgo.","Calcula el margen, el capital de trabajo y la concentración antes de aceptar.","Negocia condiciones que protejan el flujo de efectivo."]},
+{id:"cadena-enfrente", t:"Abre una cadena de tortas enfrente: ¿bajar el precio o diferenciarse?", mod:"M12", tipo:"ficticio",
+ctx:`Una cadena nacional de tortas abre a 50 metros de Tortas Lupita, con precios 15 % más bajos, gran publicidad y un local moderno. En el primer mes, las ventas de Lupita bajan 12 %.`,
+dil:`¿Responde con precio o con diferenciación?`,
+datos:`| Concepto | Tortas Lupita | Cadena |
+|---|---|---|
+| Precio de la torta clásica | 40 | 34 |
+| Tiempo de entrega | 3 minutos | 6 minutos |
+| Calificación en mapas | 4.6 | 4.1 |
+| Pedidos por WhatsApp | Sí | No |
+| Pedidos a oficinas con factura | Sí | No |
+| Margen por torta | 24 | Desconocido (compra a gran escala) |`,
+preg:["¿Cuántas tortas más tendría que vender Lupita si baja el precio a 34?","¿Cuál es el posicionamiento de cada negocio?","Propón una respuesta basada en las 7P.","¿Cómo medirías si tu respuesta funciona?"],
+resp:`Si baja a 34, su margen pasa de 24 a 18: necesitaría vender 24 ÷ 18 = **1.33 veces** (33 % más) para ganar lo mismo, en una guerra de precios con alguien que compra más barato. Posicionamiento: la cadena = «barata y conocida»; Lupita = «sabor de casa, rápido». Respuesta: no bajar el precio de la torta clásica; reforzar rapidez (pantalla con el tiempo), sabor y trato (personas, procesos), combos con agua fresca, pedidos por WhatsApp sin fila, paquetes a oficinas con factura, más reseñas y fotos en mapas. Medición: ventas y clientes nuevos por semana, ticket promedio, calificación en reseñas y respuestas a «¿cómo nos conociste?».`,
+lec:["Una guerra de precios con un competidor más grande suele perderse.","Diferenciarse con lo que el otro no puede copiar fácilmente.","Mide la respuesta y ajusta."]},
+{id:"rotacion-80", t:"La rotación de Tortas Lupita llega a 80 % anual", mod:"M13", tipo:"ficticio",
+ctx:`Con dos sucursales y 20 empleados en promedio, en un año se fueron 16 personas. En las entrevistas de salida, la mayoría mencionó horarios cambiantes, trato del encargado de la tarde y que «no hay forma de crecer».`,
+dil:`¿Cuánto cuesta la rotación y qué hacer para reducirla?`,
+datos:`| Dato | Valor |
+|---|---|
+| Empleados promedio | 20 |
+| Salidas en el año | 16 |
+| Costo estimado por salida | 7,000 |
+| Causas más mencionadas | Horarios (9), encargado de la tarde (8), falta de crecimiento (7) |`,
+preg:["Calcula la rotación anual y su costo.","¿Qué causas puede controlar el negocio?","Propón un plan de acción con responsables.","¿Qué indicadores usarías para seguir el avance?"],
+resp:`Rotación: 16 ÷ 20 = **80 %**; costo: 16 × 7,000 = **112,000 pesos al año**, más clientes afectados. Todas las causas mencionadas son controlables. Plan: publicar horarios con dos semanas de anticipación (administradora); capacitar al encargado de la tarde en liderazgo y medir su rotación (Lupita); crear un camino de crecimiento ayudante → cocinero → jefe de cocina → encargado (Toño); inducción con padrino; conversaciones mensuales uno a uno. Indicadores: rotación trimestral por sucursal y por jefe, encuesta de clima trimestral, salidas en los primeros 90 días.`,
+lec:["La rotación tiene un costo alto aunque no aparezca en el estado de resultados.","«La gente no deja empresas, deja jefes».","Escuchar con entrevistas de salida revela causas que se pueden corregir."]},
+{id:"marca-registrada", t:"Alguien registra la marca «Tortas Lupita» antes que ella", mod:"M14", tipo:"ficticio",
+ctx:`Después de diez años usando el nombre, Lupita descubre que un negocio de otra ciudad registró ante el IMPI la marca «Tortas La Lupita» en la clase de servicios de restaurante hace seis meses, y ahora le envía una carta pidiéndole que deje de usar su nombre.`,
+dil:`¿Qué opciones tiene Lupita y qué debió hacer antes?`,
+datos:`| Hecho | Detalle |
+|---|---|
+| Uso del nombre por Lupita | 10 años, con pruebas (fotos, facturas, redes) |
+| Registro del otro negocio | Hace 6 meses, clase de restaurantes |
+| Registro de Lupita | Ninguno |
+| Planes de Lupita | Abrir sucursales y franquiciar |`,
+preg:["¿Por qué la situación de Lupita es delicada?","¿Qué pruebas le servirían y a quién debe acudir?","¿Qué opciones tiene (con sus ventajas y riesgos)?","¿Qué debe registrar a partir de ahora?"],
+resp:`Es delicada porque en México, en general, la protección de la marca la da el **registro**, y otro la registró primero en la misma clase con un nombre muy parecido. Le sirven las pruebas de **uso anterior** (facturas, fotos fechadas, publicaciones, contratos) y debe acudir de inmediato con un **especialista en propiedad intelectual**. Opciones: intentar la **nulidad** del registro del otro alegando uso anterior o mala fe (costo, tiempo e incertidumbre); negociar una **compra o licencia** de la marca; o **cambiar de nombre** (costoso y con pérdida de reconocimiento). A partir de ahora: registrar su marca y logo en las clases de restaurante y de productos (salsa), el aviso comercial, el dominio y los nombres en redes, y vigilar el mercado.`,
+lec:["Registra tu marca antes de crecer, no después.","Guarda pruebas del uso de tu nombre.","Prevenir cuesta una fracción de litigar."]},
+{id:"fraude-whatsapp", t:"Un fraude por WhatsApp se hace pasar por el proveedor", mod:"M15", tipo:"ficticio",
+ctx:`La administradora recibe un mensaje de un número desconocido con la foto y el nombre del proveedor de carne: «Cambiamos de banco, deposita aquí el pago de la semana». Paga 18,000 pesos. El proveedor real llama horas después preguntando por su pago.`,
+dil:`¿Qué falló y qué controles debe tener el negocio?`,
+datos:`| Control | ¿Existía? |
+|---|---|
+| Confirmar cambios de cuenta por teléfono al número registrado | No |
+| Doble autorización para pagos grandes | No |
+| Lista oficial de cuentas de proveedores | No |
+| Verificación en dos pasos en WhatsApp | No |
+| Capacitación sobre fraudes | No |`,
+preg:["¿Qué tipo de fraude es y por qué funcionó?","¿Qué debe hacer el negocio de inmediato?","Propón cinco controles para que no se repita.","¿Cómo capacitarías al equipo?"],
+resp:`Es un fraude de **suplantación del proveedor** (falso proveedor); funcionó porque no había ningún control para verificar cambios de cuenta y una sola persona podía pagar. De inmediato: llamar al banco para intentar detener o rastrear la transferencia, guardar pruebas, denunciar ante la autoridad y avisar a otros proveedores y clientes. Controles: 1) ningún cambio de cuenta sin llamar al número ya registrado; 2) lista oficial de cuentas de proveedores en el sistema; 3) doble autorización para pagos de más de 5,000 pesos o a cuentas nuevas; 4) verificación en dos pasos en WhatsApp y banca en línea; 5) revisión semanal de pagos por Lupita. Capacitación: una sesión breve con ejemplos reales y una regla fácil de recordar: «si cambian la cuenta, llama antes de pagar».`,
+lec:["Los fraudes digitales atacan los procesos débiles, no la tecnología.","Verificar por otro canal es la defensa más simple.","La separación de funciones protege el dinero."]}
+);

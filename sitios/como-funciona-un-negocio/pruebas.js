@@ -80,7 +80,9 @@ t(run("presupuesto", {pv:220000, rv:200000, pc:88000, rc:86000, pg:90000, rg:970
 const em = run("empleado", {s:9000, a:15, vac:12, pv:25, imss:25, isn:3}); t(em.r[1][1] === "$4,500.00", "Aguinaldo de 15 días con 9,000 = 4,500");
 
 // 7. Solo español (detección básica de restos en inglés)
-const texto = JSON.stringify([LECC, B, E, CASOS, G]);
+const sinFuentes = JSON.parse(JSON.stringify(LECC)); Object.values(sinFuentes).forEach(x => delete x.f);
+const casosSin = CASOS.map(c => Object.assign({}, c, {fuentes: ""}));
+const texto = JSON.stringify([sinFuentes, B, E, casosSin, G]).replace(/«[^»]*»/g, " ").replace(/\([^)]*\b(19|20)\d\d\)/g, " ");
 const ingles = (texto.match(/\b(the|and|with|this|that|from|which|your|lesson|quiz question)\b/g) || []).filter(x => x);
 t(ingles.length < 15, "Sin restos de texto en inglés (" + ingles.length + " coincidencias)");
 

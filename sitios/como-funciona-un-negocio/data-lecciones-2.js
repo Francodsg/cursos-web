@@ -6191,3 +6191,1202 @@ q: [["El finiquito es…",["Lo que se le debe al trabajador al terminar la relac
 t: ["Renuncia","Despido justificado","Despido injustificado","Finiquito","Liquidación","Indemnización","Prima de antigüedad","Conciliación laboral"]
 }
 });
+// ===== M14. Legal y cumplimiento =====
+Object.assign(window.LECC, {
+"M14-1": {
+s: `En un mismo mes, a Tortas Lupita le llegan tres asuntos legales: el arrendador quiere subir la renta 30 %, una persona dice que se enfermó con una torta y un competidor abrió con un nombre casi igual. Lupita no tiene abogado. ¿Quién se encarga de estos temas en un negocio?`,
+o: ["Describir qué hace el área legal de un negocio.","Distinguir entre la prevención y la defensa en temas legales.","Saber cuándo y cómo apoyarse en un abogado."],
+x: `## El área legal
+El área **legal** (o jurídica) se encarga de que el negocio **cumpla las leyes**, **proteja sus derechos** y **reduzca sus riesgos legales**. En un changarro, el dueño resuelve como puede y busca a un abogado solo cuando ya tiene un problema. En una pyme, se trabaja con un **abogado externo** o un despacho que asesora en contratos, temas laborales y trámites. En una empresa grande hay una **dirección jurídica** encabezada por un director jurídico (en inglés, *general counsel*) con abogados especializados, que además coordina despachos externos para asuntos específicos.
+
+## Los grandes temas legales de un negocio
+| Tema | Qué incluye | Lección |
+|---|---|---|
+| Corporativo (societario) | Constitución de la sociedad, actas de asamblea, poderes, entrada y salida de socios | M3 y M24 |
+| Contratos | Arrendamiento, proveedores, clientes, trabajo, socios, confidencialidad | M14-2 |
+| Laboral | Contratos, reglamentos, despidos, conciliación | M13 |
+| Fiscal | Impuestos, facturación, revisiones del SAT | M3-7 y M8-10 |
+| Propiedad intelectual | Marcas, patentes, derechos de autor, secretos industriales | M14-3 |
+| Consumidor y datos personales | Profeco, publicidad, garantías, aviso de privacidad | M14-4 |
+| Regulatorio | Permisos, licencias, normas sanitarias, Protección Civil, ambientales | M14-5 |
+| Cumplimiento | Programas para prevenir riesgos legales y de corrupción | M14-6 |
+| Litigio | Defensa cuando hay un conflicto o una demanda | M14-1 |
+
+## Prevenir es más barato que defender
+Hay dos formas de trabajar con temas legales:
+- **Preventiva:** revisar contratos antes de firmar, registrar la marca antes de que otro lo haga, cumplir los requisitos sanitarios antes de una inspección, documentar las faltas de un empleado antes de un conflicto.
+- **Reactiva (de defensa o litigio):** responder cuando ya hay una demanda, una multa o una clausura.
+
+La prevención casi siempre cuesta mucho menos que la defensa. Una consulta de una hora con un abogado para revisar el contrato de renta puede evitar años de problemas. Un juicio, en cambio, puede durar meses o años y costar mucho más en honorarios, tiempo y tranquilidad.
+
+## Los tres asuntos de Lupita
+1. **Aumento de renta de 30 %:** lo que diga el **contrato de arrendamiento** es clave: ¿tiene una cláusula de aumento anual (por ejemplo, según la inflación)?, ¿cuánto tiempo falta para que venza?, ¿qué pasa si no se renueva? Si el contrato dice que el aumento anual es según la inflación, el arrendador no puede imponer un 30 % mientras esté vigente. (Lección M14-2).
+2. **Posible intoxicación:** hay que atender al cliente con respeto, documentar todo, revisar los registros de higiene y temperatura, y consultar con un abogado. Si el negocio cumple las normas sanitarias y tiene un **seguro de responsabilidad civil**, está mucho mejor protegido. (Lecciones M14-4 y M14-5; también M27-4 sobre crisis).
+3. **Competidor con nombre casi igual:** si Tortas Lupita **registró su marca** ante el IMPI, puede defenderla; si no, puede haber un problema serio, incluso que el otro la registre primero. (Lección M14-3).
+
+## Cuándo buscar un abogado
+Un negocio pequeño no necesita un abogado todos los días, pero sí en momentos clave:
+- **Al crear la sociedad** o al entrar un socio.
+- **Antes de firmar** contratos importantes (renta, franquicia, crédito, contratos con clientes grandes).
+- **Al registrar la marca.**
+- **Antes de despedir** a un trabajador.
+- **Cuando llega** un requerimiento de una autoridad, una demanda o una queja formal.
+- **Al vender** o comprar un negocio.
+- **Al abrir** en otro estado o país.
+
+## Cómo elegir y trabajar con un abogado
+- **Especialidad:** no es lo mismo un abogado laboral que uno fiscal o uno de propiedad intelectual. Para temas generales de un negocio, un abogado corporativo o de negocios suele ser un buen punto de partida.
+- **Referencias:** pregunta a otros empresarios, a tu cámara empresarial o asociación.
+- **Honorarios claros:** por hora, por asunto o una iguala mensual (una cuota fija por un conjunto de servicios). Pide una propuesta por escrito.
+- **Explica el contexto completo** y lleva los documentos.
+- **Pregunta:** ¿qué riesgos tengo?, ¿qué opciones?, ¿cuánto costaría cada una?
+- **Guarda todo por escrito.**
+
+## El dueño también debe saber lo básico
+Así como con los impuestos, el dueño no necesita ser abogado, pero sí entender lo básico para detectar riesgos y hacer buenas preguntas: qué dice su contrato de renta, si su marca está registrada, qué permisos necesita, qué derechos tienen sus trabajadores y sus clientes. Este módulo da esa base, siempre con el aviso de que es **contenido educativo** y que cada caso debe revisarse con un profesional y con la norma vigente.
+
+## En las empresas gigantes
+En las grandes empresas, el área jurídica participa en casi todas las decisiones importantes: adquisiciones, contratos con proveedores y clientes grandes, entrada a otros países, lanzamientos de productos, relaciones con reguladores, juicios. Muchas también tienen un área de **cumplimiento** (lección M14-6) que vigila que la empresa y sus empleados respeten las leyes y los códigos de ética, incluidas las leyes contra la corrupción.
+
+## Una carpeta legal
+Un hábito sencillo ayuda mucho: guardar en una carpeta física y otra digital el acta constitutiva, los poderes, los contratos vigentes, el título de la marca, las licencias y los avisos. Cuando surge un asunto legal, tener todo a la mano ahorra tiempo y honorarios.`,
+k: `El área **legal** busca que el negocio **cumpla**, **proteja sus derechos** y **reduzca riesgos**. Temas: corporativo, contratos, laboral, fiscal, **propiedad intelectual**, consumidor y datos, regulatorio, **cumplimiento** y litigio. **Prevenir cuesta menos que defender.** Busca abogado especializado en momentos clave (sociedad, contratos, marca, despidos, requerimientos), con honorarios claros.`,
+ch: `Una dueña de estética paga una consulta para revisar su contrato de renta antes de firmarlo y descubre una cláusula que le obligaba a pagar todas las reparaciones del edificio; la negocia y evita un problema caro.`,
+gi: `En las empresas que cotizan en bolsa, el director jurídico suele formar parte del equipo directivo y participa en decisiones como adquisiciones, contratos clave y relaciones con autoridades.`,
+e: `Lupita compara el costo de prevenir y de defenderse en sus tres asuntos (cifras ilustrativas):
+
+| Asunto | Prevención | Costo | Defensa si no previene | Costo posible |
+|---|---|---|---|---|
+| Renta | Revisión del contrato antes de firmar | 2,000 | Pagar el aumento o un juicio | 60,000 o más |
+| Intoxicación | Seguro de responsabilidad civil y registros de higiene | 6,000 al año | Indemnización y abogado | 100,000 o más |
+| Marca | Registro ante el IMPI | Unos miles de pesos | Cambiar de nombre o litigar | 80,000 o más |
+
+En los tres casos, la prevención cuesta una fracción de la defensa.`,
+r: `Las sociedades anónimas bursátiles en México suelen incluir entre sus directivos relevantes a un director jurídico, cuya información aparece en sus reportes anuales a la Bolsa Mexicana de Valores.`,
+f: `Reportes anuales de emisoras en la Bolsa Mexicana de Valores (bmv.com.mx).`,
+err: ["Buscar abogado solo cuando ya hay un problema.","Firmar contratos importantes sin leerlos ni revisarlos.","Contratar a un abogado que no es especialista en el tema.","Creer que lo legal es solo para empresas grandes."],
+a: `Haz una lista de los temas legales del negocio que observas usando la tabla de esta lección. Marca cuáles están en orden y cuáles no, y elige el más urgente para revisarlo con un profesional.`,
+sol: `Los temas más urgentes suelen ser: contrato de renta, alta de los trabajadores en el IMSS, permisos sanitarios y registro de la marca.`,
+q: [["El área legal de un negocio busca…",["Que cumpla las leyes, proteja sus derechos y reduzca sus riesgos","Vender más","Hacer la nómina"],0,"Prevención y defensa."],
+["¿Por qué conviene la prevención legal?",["Suele costar mucho menos que defenderse en un juicio","Porque es obligatoria siempre","No conviene"],0,"Una consulta cuesta menos que un litigio."],
+["¿Cuándo conviene consultar a un abogado?",["Antes de firmar contratos importantes o despedir a alguien","Nunca","Solo cuando ya se perdió un juicio"],0,"En momentos clave."],
+["Una iguala es…",["Una cuota fija mensual por un conjunto de servicios profesionales","Un tipo de contrato de trabajo","Un impuesto"],0,"Es una forma de pagar honorarios."]],
+t: ["Área legal (jurídica)","Prevención legal","Litigio","Iguala","Director jurídico"]
+},
+"M14-2": {
+s: `El arrendador de Tortas Lupita le pone enfrente un contrato de 12 páginas para la segunda sucursal. «Es el formato de siempre, firme aquí», le dice. Lupita duda. ¿Qué debe revisar en un contrato antes de firmarlo?`,
+o: ["Conocer los elementos básicos de un contrato.","Identificar las cláusulas clave de los contratos más comunes de un negocio.","Revisar un contrato antes de firmarlo con una lista de verificación."],
+x: `## ¿Qué es un contrato?
+Un **contrato** es un acuerdo entre dos o más partes que crea obligaciones y derechos. En general, para que exista, hace falta que las partes estén de acuerdo (consentimiento) sobre algo posible y lícito (objeto). Muchos contratos pueden ser verbales, pero tener los **acuerdos por escrito** permite saber exactamente qué se acordó y probarlo si hay un desacuerdo. Algunos contratos, por ley, deben constar por escrito o cumplir ciertas formalidades (por ejemplo, ante notario en ciertos casos).
+
+En México, los contratos se rigen principalmente por los códigos civiles (federal y de cada estado) y, cuando son entre comerciantes o sobre actos de comercio, también por el Código de Comercio. Los contratos de trabajo tienen sus propias reglas en la Ley Federal del Trabajo.
+
+## Las partes típicas de un contrato
+1. **Partes:** quiénes firman, con sus datos completos (y, si es una sociedad, quién la representa y con qué poder).
+2. **Antecedentes o declaraciones:** quién es cada parte, qué tiene, para qué quiere el contrato.
+3. **Objeto:** qué se acuerda (rentar un local, comprar insumos, prestar un servicio).
+4. **Precio o contraprestación:** cuánto se paga, cómo, cuándo y con qué ajustes.
+5. **Duración:** cuándo empieza, cuándo termina, si se renueva.
+6. **Obligaciones** de cada parte.
+7. **Garantías:** depósitos, fianzas, avales.
+8. **Penalizaciones:** qué pasa si alguien no cumple.
+9. **Terminación anticipada:** cómo y cuándo se puede terminar antes.
+10. **Confidencialidad** (si aplica).
+11. **Solución de controversias:** qué leyes aplican, qué tribunales o si se usará mediación o arbitraje.
+12. **Firmas** y fecha.
+
+## Los contratos más comunes de un negocio
+**1. Arrendamiento (renta del local).** Es uno de los contratos más importantes para un negocio físico. Cláusulas clave:
+- **Renta y forma de ajuste:** cuánto aumenta cada año y con qué criterio (por ejemplo, según el Índice Nacional de Precios al Consumidor que publica el INEGI).
+- **Duración y renovación:** un contrato largo da estabilidad; conviene tener derecho de preferencia para renovar.
+- **Depósito en garantía** y cuándo se devuelve.
+- **Uso permitido:** que diga expresamente que se puede usar como restaurante (y que el uso de suelo lo permita, lección M3-8).
+- **Mantenimiento y reparaciones:** quién paga qué (estructura, instalaciones, mejoras).
+- **Mejoras:** qué pasa con la cocina que instales si te vas.
+- **Subarrendamiento y traspaso:** si puedes ceder el contrato a un comprador del negocio o a un franquiciatario.
+- **Terminación anticipada** y su penalización.
+- **Fiador o garantía:** a veces piden un fiador con inmueble o una póliza jurídica.
+
+**2. Contrato con proveedores:** productos y especificaciones, precios y ajustes, entregas, pagos y crédito, devoluciones, duración (lección M10-5).
+
+**3. Contrato con clientes empresa:** productos o servicios, precios, entregas, facturación, plazo de pago, penalizaciones por retraso, confidencialidad.
+
+**4. Contrato individual de trabajo:** lección M13-3.
+
+**5. Convenio entre socios:** cómo se toman las decisiones, cómo se reparten las utilidades, qué pasa si uno quiere vender su parte, si uno muere o se divorcia, qué pasa si no aportan lo prometido, cláusulas de no competencia. Complementa los estatutos de la sociedad (lección M3-5).
+
+**6. Acuerdo de confidencialidad:** para proteger información sensible (recetas, listas de clientes, planes) cuando se comparte con empleados clave, proveedores o posibles socios.
+
+**7. Contrato de franquicia:** lección M21-2.
+
+## Lista de verificación antes de firmar
+1. **Lee todo**, incluida la «letra chica».
+2. **Verifica quién firma** del otro lado y si tiene poder para hacerlo.
+3. **Comprueba que el objeto y el precio** sean exactamente lo acordado.
+4. **Revisa los ajustes** de precio y las fechas.
+5. **Busca las penalizaciones** y la forma de terminar el contrato.
+6. **Revisa las garantías** que te piden (aval, fianza, depósito).
+7. **Pregunta por todo lo que no entiendas** y pide que se aclare por escrito.
+8. **Negocia:** un «formato de siempre» también se puede modificar.
+9. **Para contratos importantes, pide revisión de un abogado.**
+10. **Guarda una copia firmada** de todas las hojas.
+
+## La negociación del contrato
+Un contrato es el resultado de una negociación (lección M10-4). Muchas personas creen que el «formato» no se puede cambiar, pero casi siempre hay espacio para negociar cláusulas: el porcentaje de aumento, el plazo, el depósito, quién paga el mantenimiento, la posibilidad de traspaso. Lo que no se negocia antes de firmar es muy difícil de cambiar después.
+
+## La firma electrónica
+Cada vez más contratos se firman de forma electrónica. En México, la legislación reconoce el valor de los mensajes de datos y de ciertas formas de firma electrónica en actos de comercio, y existen la firma electrónica avanzada (como la e.firma del SAT) y normas para conservar los documentos electrónicos. Para contratos importantes, conviene usar plataformas confiables y conservar las constancias.
+
+## El contrato de la segunda sucursal
+Lupita lleva el contrato a una abogada, que encuentra cuatro problemas: no decía expresamente que se permitía usar el local como restaurante; el aumento anual era «el que determine el arrendador»; Lupita debía pagar las reparaciones de la estructura del edificio; y no podía traspasar el contrato si algún día franquiciaba la sucursal. Negocian: uso de restaurante por escrito, aumento anual según la inflación, reparaciones estructurales a cargo del dueño, contrato de cinco años con derecho de renovación y posibilidad de traspaso con aviso. La consulta costó 2,500 pesos.`,
+k: `**Contrato:** acuerdo que crea obligaciones y derechos; tenlo **por escrito**. Partes: partes, objeto, precio y ajustes, duración, obligaciones, garantías, penalizaciones, terminación, confidencialidad, solución de controversias y firmas. En el **arrendamiento**, revisa ajuste de renta, duración, uso permitido, mantenimiento, mejoras y traspaso. **Lee todo, negocia y pide revisión** en contratos importantes.`,
+ch: `Un taller mecánico firma un contrato con una empresa de flotillas que incluye precios por servicio, plazo de pago de 30 días y una penalización si un auto se entrega tarde; así ambas partes saben qué esperar.`,
+gi: `Las grandes empresas tienen áreas jurídicas que redactan y revisan miles de contratos al año con plantillas aprobadas, niveles de autorización según el monto y sistemas para dar seguimiento a vencimientos y renovaciones.`,
+e: `Lupita compara el costo de la cláusula de aumento original contra la negociada, en cinco años (renta inicial de 20,000 pesos al mes):
+
+| Año | Aumento «a criterio del arrendador» (supuesto: 12 % al año) | Aumento según inflación (supuesto: 4.5 % al año) |
+|---|---|---|
+| 1 | 240,000 | 240,000 |
+| 2 | 268,800 | 250,800 |
+| 3 | 301,056 | 262,086 |
+| 4 | 337,183 | 273,880 |
+| 5 | 377,645 | 286,205 |
+| **Total** | **1,524,684** | **1,312,971** |
+
+Negociar una sola cláusula le ahorra más de 210,000 pesos en cinco años (con estos supuestos).`,
+r: `El INEGI publica cada mes el Índice Nacional de Precios al Consumidor (INPC), que mide la inflación en México y que muchos contratos de arrendamiento usan como referencia para el ajuste anual de las rentas.`,
+f: `INEGI, Índice Nacional de Precios al Consumidor (inegi.org.mx); Código Civil Federal y códigos civiles estatales; Código de Comercio.`,
+err: ["Firmar «el formato de siempre» sin leerlo.","Aceptar aumentos «a criterio» de la otra parte.","No verificar que el contrato permita el uso que se le dará al local.","No guardar una copia firmada."],
+a: `Consigue un contrato real (de renta, de un servicio, de un celular) y revísalo con la lista de verificación de esta lección. Anota tres cláusulas que te parezcan riesgosas y cómo las negociarías.`,
+sol: `Las cláusulas más riesgosas suelen ser los aumentos sin criterio, las penalizaciones altas por terminación anticipada y las garantías personales (avales) muy amplias.`,
+q: [["¿Por qué conviene tener los contratos por escrito?",["Para saber exactamente qué se acordó y poder probarlo","Porque es más bonito","No conviene"],0,"Evita malentendidos."],
+["En un contrato de renta, una cláusula clave es…",["Cómo se ajusta la renta cada año","El color de la fachada","El nombre del contador"],0,"Por ejemplo, según la inflación (INPC)."],
+["Un «formato de siempre»…",["También se puede negociar antes de firmar","No se puede cambiar nunca","No hay que leerlo"],0,"Lo que no se negocia antes es difícil de cambiar después."],
+["El convenio entre socios sirve para…",["Definir cómo deciden, reparten utilidades y qué pasa si uno sale","Contratar empleados","Pagar impuestos"],0,"Complementa los estatutos."]],
+t: ["Contrato","Contrato de arrendamiento","Convenio entre socios","Acuerdo de confidencialidad","INPC","Fiador"]
+},
+"M14-3": {
+s: `Un día, Toño ve en redes un local nuevo llamado «Tortas La Lupita», con colores parecidos. Va a reclamar y el dueño le muestra un papel del IMPI: registró la marca hace seis meses. Lupita, que lleva diez años con el nombre, nunca la registró.`,
+o: ["Explicar qué es la propiedad intelectual y por qué importa.","Conocer cómo se registra una marca en México.","Distinguir marcas, patentes, derechos de autor y secretos industriales."],
+x: `## ¿Qué es la propiedad intelectual?
+La **propiedad intelectual** protege las creaciones de la mente: nombres y logos de negocios, inventos, diseños, obras artísticas y literarias, programas de cómputo, secretos de fabricación. Para un negocio, estas creaciones son **activos** muy valiosos, a veces más que su equipo o su local. Protegerlas significa tener el derecho de usarlas en exclusiva y de impedir que otros las copien.
+
+En México, la propiedad intelectual se divide en dos grandes ramas:
+- **Propiedad industrial:** marcas, avisos comerciales, nombres comerciales, patentes, modelos de utilidad, diseños industriales y secretos industriales. La administra el **Instituto Mexicano de la Propiedad Industrial (IMPI)**, bajo la Ley Federal de Protección a la Propiedad Industrial (vigente desde 2020).
+- **Derechos de autor:** obras literarias, musicales, artísticas, fotografías, programas de cómputo, bases de datos. Los administra el **Instituto Nacional del Derecho de Autor (INDAUTOR)**.
+
+## La marca
+Una **marca** es cualquier signo que distingue los productos o servicios de un negocio de los de otros: un nombre, un logo, una combinación de ambos, e incluso, en ciertos casos, un sonido, un olor o una forma. Registrarla da el **derecho exclusivo** de usarla para los productos o servicios registrados, en todo México.
+
+Puntos clave del registro de marca en México (en términos generales):
+- **Se registra por clases:** existe una clasificación internacional (la Clasificación de Niza) que divide productos y servicios en 45 clases. Por ejemplo, los servicios de restaurante están en una clase y ciertos alimentos preparados o salsas en otras. Tortas Lupita debería registrar su marca en la clase de servicios de restauración y, si vende salsa envasada, en la clase de ese producto.
+- **Búsqueda previa:** antes de solicitar, conviene buscar en la base de datos del IMPI si ya existe una marca igual o parecida en la misma clase.
+- **Vigencia:** el registro dura **diez años** y se puede renovar.
+- **Uso:** la marca debe usarse; una marca registrada que no se usa durante cierto tiempo puede perder su protección.
+- **Primero en el tiempo:** en general, en México gana quien **registra primero**, no quien usa primero (aunque el uso anterior puede dar algunos derechos que hay que defender ante la autoridad o en tribunales, con costo e incertidumbre).
+
+## El problema de Lupita
+Lupita usó «Tortas Lupita» durante diez años, pero no la registró. El otro negocio registró «Tortas La Lupita», muy parecida, en la misma clase. Ahora Lupita tiene que consultar a un especialista en propiedad intelectual: podría intentar anular el registro del otro alegando que ella usaba la marca antes y que la otra parte actuó de mala fe, pero es un proceso con costo, tiempo e incertidumbre. Si hubiera registrado su marca (con un costo de unos cuantos miles de pesos), estaría protegida y podría impedir el uso de una marca confusa.
+
+## El aviso comercial y el nombre comercial
+- **Aviso comercial:** una frase o eslogan que anuncia un negocio o producto («Sabor de casa, en tres minutos»). También se puede registrar.
+- **Nombre comercial:** el nombre con el que se conoce un establecimiento. Tiene una protección distinta, ligada a su uso en una zona.
+
+## Patentes, modelos de utilidad y diseños industriales
+- **Patente:** protege un **invento** nuevo, con actividad inventiva y aplicación industrial (una máquina, un proceso, una fórmula). Da exclusividad por **20 años** (desde la solicitud), a cambio de publicar cómo funciona. Al terminar, cualquiera puede usarlo.
+- **Modelo de utilidad:** protege mejoras prácticas a objetos o herramientas (por ejemplo, un nuevo diseño de plancha que cocina más parejo), por un plazo menor.
+- **Diseño industrial:** protege la **forma o apariencia** de un producto (la forma de una botella, el diseño de un empaque).
+
+Para un negocio de comida, las patentes son poco comunes, pero pueden ser importantes para una fábrica o una empresa de tecnología.
+
+## Los derechos de autor
+Protegen obras como textos, fotos, música, diseños gráficos, videos y programas de cómputo desde el momento de su creación, aunque registrarlas ante el INDAUTOR ayuda a probar la autoría. Para un negocio, esto importa en dos sentidos:
+- **Proteger lo propio:** las fotos de los productos, el diseño del menú, los textos de la página web, un programa hecho a la medida (conviene que el contrato con el diseñador o programador diga que los derechos pasan al negocio).
+- **Respetar lo ajeno:** no usar fotos, música o tipografías de otros sin permiso o licencia (por ejemplo, música en el local o en videos de redes).
+
+## El secreto industrial
+Un **secreto industrial** es información confidencial que da una ventaja competitiva: una receta, un proceso, una lista de clientes, una fórmula. No se registra: se protege **manteniéndolo en secreto**, con medidas razonables (acceso limitado, acuerdos de confidencialidad con empleados y proveedores). El caso más famoso del mundo es la fórmula de Coca-Cola, que la empresa ha mantenido como secreto durante más de un siglo en lugar de patentarla (una patente habría vencido y obligado a publicarla).
+
+La salsa de Lupita es un buen candidato a secreto industrial: pocas personas conocen la receta completa, se prepara en la cocina central y los empleados que la conocen firman un acuerdo de confidencialidad.
+
+## Lo que todo negocio debería hacer
+1. **Buscar** si su nombre está disponible antes de usarlo.
+2. **Registrar** su marca (y su logo) en las clases que usa.
+3. **Registrar** su dominio de internet y sus nombres en redes.
+4. **Firmar acuerdos de confidencialidad** con quienes conocen sus secretos.
+5. **Asegurar por contrato** que los diseños y programas que paga sean suyos.
+6. **Respetar** la propiedad intelectual de otros.
+7. **Vigilar** que nadie use su marca y **renovar** los registros a tiempo.
+
+## En las empresas gigantes
+Las grandes empresas registran sus marcas en decenas de países y tienen equipos que vigilan el mercado para detectar copias y falsificaciones. A veces llegan tarde: Burger King no pudo usar su nombre en Australia porque un negocio local ya lo había registrado, y por eso allá opera con otra marca, Hungry Jack's. En México es conocido el caso de la empresa «iFone», que registró su marca años antes de que Apple lanzara el iPhone, lo que llevó a un largo litigio entre ambas.`,
+k: `**Propiedad intelectual:** protege creaciones de la mente. **Propiedad industrial** (IMPI): **marcas** (por clases; vigencia de 10 años renovable; en general gana quien **registra primero**), avisos y nombres comerciales, **patentes** (20 años), modelos de utilidad, diseños industriales y **secretos industriales**. **Derechos de autor** (INDAUTOR). Registra tu marca **antes** de que otro lo haga.`,
+ch: `Una paletería registra su marca y su logo en el IMPI antes de abrir su segunda tienda; cuando alguien en otra ciudad empieza a usar un nombre igual, puede pedirle que deje de hacerlo.`,
+gi: `Burger King opera en Australia con la marca Hungry Jack's porque, cuando llegó al país en los años setenta, el nombre Burger King ya estaba registrado por un negocio local. La fórmula de Coca-Cola es un ejemplo famoso de secreto industrial guardado por más de un siglo.`,
+e: `Lupita compara el costo de registrar la marca a tiempo con el de no hacerlo (cifras ilustrativas):
+
+| Escenario | Costo estimado |
+|---|---|
+| Búsqueda y registro de la marca en 2 clases, por 10 años | Unos miles de pesos (derechos del IMPI y, si se usa, honorarios de un especialista) |
+| Litigio para intentar anular el registro de otro | Decenas de miles de pesos, meses o años, resultado incierto |
+| Cambiar de nombre (letreros, menús, empaques, redes, pérdida de reconocimiento) | Más de 80,000 pesos |
+
+El registro a tiempo es, con mucho, la opción más barata.`,
+r: `Burger King no pudo usar su nombre en Australia porque estaba registrado por un pequeño restaurante local; por eso su franquiciatario australiano abrió en 1971 con el nombre Hungry Jack's. En México, la empresa iFone, que registró su marca en 2003, sostuvo una disputa legal con Apple por el uso del término iPhone.`,
+f: `Historia corporativa de Hungry Jack's; notas de prensa sobre el caso iFone contra Apple en México; IMPI, Ley Federal de Protección a la Propiedad Industrial (2020).`,
+err: ["Usar un nombre durante años sin registrarlo.","Registrar la marca en una clase que no corresponde al negocio.","No firmar acuerdos de confidencialidad con quienes conocen las recetas o procesos.","Usar fotos o música de otros sin permiso."],
+a: `Busca en el sistema de consulta del IMPI (o en su sitio web) si el nombre del negocio que observas o un nombre que te gustaría usar ya está registrado. Identifica en qué clases debería registrarse y qué secretos industriales tiene el negocio.`,
+sol: `Si encuentras una marca igual o muy parecida en la misma clase, es probable que no puedas registrar la tuya; conviene elegir otro nombre antes de invertir en letreros y empaques.`,
+q: [["En México, las marcas se registran ante…",["El IMPI","El IMSS","La Profeco"],0,"Instituto Mexicano de la Propiedad Industrial."],
+["El registro de una marca en México dura…",["Diez años, renovable","Un año","Para siempre sin renovar"],0,"Y debe usarse."],
+["Una receta que se protege manteniéndola en secreto es un…",["Secreto industrial","Patente","Derecho de autor"],0,"Ejemplo famoso: la fórmula de Coca-Cola."],
+["Una patente protege un invento por…",["Veinte años desde la solicitud","Cinco días","Siempre"],0,"Después cualquiera puede usarlo."]],
+t: ["Propiedad intelectual","Marca registrada","IMPI","Patente","Secreto industrial","Derechos de autor","Clasificación de Niza"]
+},
+"M14-4": {
+s: `Un cliente reclama porque el precio del menú no incluía el IVA y le cobraron más en la caja. Otro pregunta qué hacen con su número de WhatsApp y su correo. Lupita descubre que los clientes tienen derechos que la ley protege, y que los datos personales también.`,
+o: ["Conocer los derechos básicos del consumidor en México.","Cumplir con las reglas de precios, publicidad y garantías.","Proteger los datos personales de los clientes con un aviso de privacidad."],
+x: `## Los derechos del consumidor
+En México, la **Ley Federal de Protección al Consumidor** protege a las personas que compran productos o servicios. La **Procuraduría Federal del Consumidor (Profeco)** vigila que se cumpla, atiende quejas, concilia entre consumidores y negocios, y puede imponer sanciones. Esta lección resume, de forma educativa, las reglas que más importan a un negocio pequeño; conviene revisar la información vigente de la Profeco.
+
+## Los derechos básicos
+- **Información:** el consumidor tiene derecho a información veraz, clara y suficiente sobre los productos y servicios, sus precios, condiciones y riesgos.
+- **Precio total visible:** los precios deben exhibirse y deben incluir los impuestos (el IVA). No se puede anunciar un precio y cobrar otro mayor en la caja. Es exactamente el problema del cliente de Lupita.
+- **Respeto a lo anunciado:** si se anuncia una promoción, se debe respetar en los términos anunciados.
+- **Publicidad veraz:** está prohibida la publicidad engañosa o que induzca a error.
+- **No discriminación:** no se puede negar el servicio ni condicionarlo por motivos discriminatorios.
+- **Garantía:** los productos deben cumplir lo que prometen; si fallan dentro del periodo de garantía, el consumidor puede pedir reparación, cambio o devolución, según el caso.
+- **Cobros correctos:** no se pueden hacer cobros no informados ni obligatorios por servicios no pedidos. La Profeco ha señalado, por ejemplo, que la **propina** en restaurantes es voluntaria: el negocio no puede obligar a pagarla ni agregarla a la cuenta sin el consentimiento del cliente.
+- **Comprobante:** el consumidor tiene derecho a recibir un comprobante de su compra.
+
+## Las garantías y devoluciones
+Para productos (no tanto para comida preparada), las reglas de garantía y devolución son importantes: el plazo de garantía debe informarse, y si el producto tiene defectos o no corresponde a lo prometido, el consumidor puede reclamar. Para un restaurante, lo equivalente es atender las quejas sobre productos que no cumplen lo prometido (lección M11-7).
+
+## El etiquetado de alimentos y bebidas
+Si un negocio vende **alimentos o bebidas preenvasados** (como la salsa de Tortas Lupita en frasco), debe cumplir con la norma de etiquetado vigente (la NOM-051), que establece qué información debe llevar la etiqueta: nombre del producto, ingredientes, contenido neto, datos del fabricante, fecha de caducidad o consumo preferente, información nutrimental y, desde la reforma de 2020, los **sellos de advertencia** frontales (por ejemplo, «exceso de sodio» o «exceso de calorías») cuando el producto supera ciertos límites. Antes de vender un producto envasado, conviene asesorarse para cumplir con esta norma.
+
+## La Profeco y las quejas
+Si un consumidor presenta una queja ante la Profeco, normalmente se cita a las partes a una **audiencia de conciliación** para buscar un acuerdo. Un negocio que atiende bien las quejas directamente (lección M11-7) rara vez llega a esta instancia. La Profeco también hace verificaciones (revisa precios exhibidos, básculas, cumplimiento de normas) y publica información útil para comparar precios.
+
+## Los datos personales
+Hoy casi todos los negocios recogen **datos personales** de sus clientes: nombre, teléfono, correo, dirección de entrega, datos de facturación, historial de pedidos. En México, la protección de los datos personales en manos de particulares (empresas y personas) está regulada por una ley federal específica, que se actualizó en 2025. En términos generales, quien recoge datos personales debe:
+1. **Informar** a la persona, mediante un **aviso de privacidad**, qué datos recoge, para qué los usará, con quién los compartirá y cómo puede ejercer sus derechos.
+2. **Usarlos solo** para las finalidades informadas.
+3. **Pedir consentimiento** cuando corresponda, y de forma expresa para ciertos datos sensibles.
+4. **Protegerlos** con medidas de seguridad razonables (Módulo 15).
+5. **Respetar los derechos de las personas** sobre sus datos, conocidos como **derechos ARCO**: Acceso, Rectificación, Cancelación y Oposición.
+
+## El aviso de privacidad
+Un **aviso de privacidad** sencillo incluye:
+- Quién es el responsable de los datos (el negocio, con su domicilio).
+- Qué datos recoge.
+- Para qué los usa (por ejemplo, entregar pedidos, facturar, enviar promociones si el cliente acepta).
+- Si los comparte con alguien (por ejemplo, con la empresa de reparto o el proveedor del sistema de facturación).
+- Cómo puede la persona ejercer sus derechos ARCO o dejar de recibir promociones.
+- Dónde se publicarán los cambios al aviso.
+
+Puede estar en la página web, en un letrero en el local o enviarse por WhatsApp al primer contacto. Para un negocio pequeño, conviene usar un modelo y adaptarlo con asesoría.
+
+## Buenas prácticas con los datos de los clientes
+- **Pide solo los datos que necesitas.**
+- **No compartas** listas de clientes con terceros sin permiso.
+- **No envíes promociones** a quien no las aceptó.
+- **Protege** las listas y los teléfonos con contraseña (lección M15-6).
+- **Borra** los datos que ya no necesitas.
+- **Capacita** al equipo: los datos de los clientes no se comentan ni se usan para fines personales.
+
+## Lo que hace Tortas Lupita
+Lupita revisa su menú: todos los precios ahora incluyen el IVA y se exhiben en el local y en el catálogo de WhatsApp. Las promociones se anuncian con sus condiciones claras. Agrega un aviso de privacidad breve en su página y en el primer mensaje de WhatsApp, y una opción para dejar de recibir promociones. La propina se deja a criterio del cliente. Antes de vender la salsa en frasco, contrata asesoría para el etiquetado.`,
+k: `**Ley Federal de Protección al Consumidor** y **Profeco**: información veraz, **precio total visible con impuestos**, respetar lo anunciado, **publicidad veraz**, garantías, cobros correctos (la **propina es voluntaria**) y comprobante. Alimentos envasados: **NOM-051** con sellos de advertencia. **Datos personales:** **aviso de privacidad**, finalidades informadas, seguridad y **derechos ARCO**.`,
+ch: `Una tienda de celulares exhibe sus precios con IVA, entrega una hoja con la garantía de cada equipo y tiene un aviso de privacidad para los datos que pide al vender planes.`,
+gi: `Las grandes empresas tienen áreas de protección de datos y de cumplimiento regulatorio que revisan sus avisos de privacidad, sus contratos con proveedores que manejan datos y su publicidad, para cumplir con las leyes de cada país donde operan.`,
+e: `Lupita revisa su menú con la regla del precio total visible:
+
+| Producto | Precio que mostraba (sin IVA) | Lo que se cobraba en caja | Precio correcto a exhibir (con IVA) |
+|---|---|---|---|
+| Torta de jamón | 40 | 46.40 | 46.40 → redondea a 46 |
+| Desayuno | 55 | 63.80 | 63.80 → redondea a 63 |
+| Agua fresca | 18 | 20.88 | 20.88 → redondea a 21 |
+
+Ahora el cliente paga exactamente lo que ve en el menú. (Si redondea hacia abajo, el negocio absorbe la diferencia; si redondea hacia arriba, sube un poco su precio: es una decisión de precio, lección M5-8).`,
+r: `La Profeco ha publicado en distintas ocasiones información para consumidores en la que señala que la propina en restaurantes es voluntaria y que los establecimientos no pueden obligar a los clientes a pagarla. En 2020 se publicó la modificación a la NOM-051 que introdujo en México el etiquetado frontal de advertencia en alimentos y bebidas preenvasados.`,
+f: `Profeco (gob.mx/profeco); Ley Federal de Protección al Consumidor; Diario Oficial de la Federación, modificación a la NOM-051-SCFI/SSA1-2010 (27 de marzo de 2020); legislación federal de protección de datos personales en posesión de los particulares.`,
+err: ["Exhibir precios sin IVA y cobrar más en la caja.","Anunciar promociones sin condiciones claras o no respetarlas.","Obligar a pagar propina o agregarla sin consentimiento.","Recoger datos de clientes sin aviso de privacidad."],
+a: `Revisa el negocio que observas con los derechos del consumidor: ¿los precios incluyen impuestos y están visibles?, ¿las promociones tienen condiciones claras?, ¿hay aviso de privacidad? Redacta un aviso de privacidad breve con los seis elementos de esta lección.`,
+sol: `Un aviso de privacidad para un negocio pequeño puede caber en media página; lo importante es decir qué datos se piden, para qué, con quién se comparten y cómo se ejercen los derechos ARCO.`,
+q: [["En México, los precios exhibidos al consumidor deben…",["Incluir los impuestos","Excluir el IVA","No mostrarse"],0,"El consumidor debe ver el precio total."],
+["Según la Profeco, la propina en restaurantes es…",["Voluntaria","Obligatoria","Un impuesto"],0,"No se puede obligar a pagarla."],
+["Los derechos ARCO sobre datos personales son…",["Acceso, rectificación, cancelación y oposición","Ahorro, renta, crédito y oferta","Aviso, registro, contrato y orden"],0,"Son derechos de las personas sobre sus datos."],
+["Un aviso de privacidad informa…",["Qué datos se recogen, para qué, con quién se comparten y cómo ejercer derechos","El menú","Los impuestos del mes"],0,"Es obligatorio al recoger datos personales."]],
+t: ["Derechos del consumidor","Profeco","Publicidad engañosa","Aviso de privacidad","Derechos ARCO","Datos personales","NOM-051"]
+},
+"M14-5": {
+s: `En una sola semana, Tortas Lupita recibe la visita de un verificador sanitario, un aviso de Protección Civil para revisar el gas, un recordatorio del SAT y una carta del IMSS. Lupita se pregunta: ¿cómo llevar el control de tantas obligaciones sin olvidar ninguna?`,
+o: ["Identificar las principales obligaciones fiscales, laborales, sanitarias y de seguridad de un negocio.","Organizar un calendario de cumplimiento.","Prepararse para una inspección."],
+x: `## Un negocio, muchas reglas
+Un negocio formal tiene obligaciones con varias autoridades al mismo tiempo. Cada una vigila un tema distinto: impuestos, trabajo, salud, seguridad, ambiente, uso de suelo. No cumplir puede traer multas, recargos, clausuras temporales o definitivas e incluso problemas mayores. Cumplir, en cambio, da tranquilidad y abre puertas (clientes grandes, crédito, franquicias). Esta lección presenta un mapa general; los detalles dependen del giro, del tamaño, del estado y del municipio, y siempre conviene revisar la norma vigente con asesores.
+
+## Las obligaciones fiscales (SAT y autoridades locales)
+- Inscripción en el RFC y actualización de datos (domicilio, actividades).
+- Emisión de facturas electrónicas (CFDI).
+- Declaraciones y pagos mensuales (IVA, ISR, retenciones) y declaración anual.
+- Contabilidad electrónica, si aplica.
+- Revisión del buzón tributario.
+- Impuestos estatales (impuesto sobre nómina) y municipales (predial, si se es dueño del inmueble; derechos por licencias).
+(Lecciones M3-7 y M8-10).
+
+## Las obligaciones laborales y de seguridad social (STPS, IMSS, Infonavit)
+- Contratos por escrito y expediente de cada trabajador.
+- Alta de los trabajadores en el IMSS desde el primer día y pago de cuotas.
+- Aportaciones al Infonavit y al SAR.
+- Pago puntual de salarios y prestaciones (aguinaldo, vacaciones, prima vacacional, PTU).
+- Capacitación.
+- Condiciones de seguridad e higiene en el trabajo (las normas de la Secretaría del Trabajo, por ejemplo sobre prevención de incendios, equipo de protección o riesgos psicosociales, NOM-035).
+(Módulo 13).
+
+## Las obligaciones sanitarias (Cofepris y autoridades estatales)
+Para negocios que manejan alimentos, bebidas, medicamentos, cosméticos u otros productos relacionados con la salud:
+- **Aviso de funcionamiento** o licencia sanitaria, según el giro.
+- Cumplir las normas de **buenas prácticas de higiene** en el manejo de alimentos. En México, la norma **NOM-251-SSA1-2009** establece prácticas de higiene para el proceso de alimentos, bebidas o suplementos alimenticios: limpieza de instalaciones, control de temperaturas, manejo de materias primas, control de plagas, higiene del personal, agua potable, manejo de residuos y registros.
+- Control de plagas por una empresa autorizada, con constancias.
+- Capacitación del personal en manejo higiénico.
+- Etiquetado correcto si se venden productos envasados (NOM-051, lección M14-4).
+
+## Protección Civil (autoridad municipal o estatal)
+- Programa interno o medidas de Protección Civil según el tamaño y el riesgo del negocio.
+- Extintores vigentes y en número suficiente, señalización de rutas de evacuación, botiquín.
+- Revisión de las instalaciones de **gas** y eléctricas.
+- Capacitación del personal en emergencias.
+- En negocios más grandes: simulacros y brigadas.
+
+## Otras obligaciones frecuentes
+- **Licencia de funcionamiento** o aviso de apertura y su refrendo (si aplica).
+- **Uso de suelo** compatible.
+- **Anuncios** y letreros con permiso.
+- **Ambientales:** manejo de residuos, trampas de grasa en cocinas, descargas de agua, según la normativa local.
+- **Música en el local:** pagos a las sociedades de gestión de derechos de autor cuando se reproduce música con fines comerciales, según las reglas aplicables.
+- **Seguros:** no siempre son obligatorios, pero son muy recomendables (daños, responsabilidad civil).
+
+## El calendario de cumplimiento
+Para no olvidar nada, conviene un **calendario** con todas las obligaciones, su fecha, su responsable y dónde está el comprobante:
+
+| Obligación | Frecuencia | Fecha | Responsable | Comprobante |
+|---|---|---|---|---|
+| Declaración y pago de IVA e ISR | Mensual | Día 17 | Contador | Acuse en carpeta digital |
+| Cuotas IMSS | Mensual | Según calendario del IMSS | Contador | Comprobante de pago |
+| Infonavit y SAR | Bimestral | Según calendario | Contador | Comprobante |
+| Impuesto sobre nómina | Mensual | Según el estado | Contador | Comprobante |
+| Control de plagas | Mensual | Primer lunes | Toño | Constancia de la empresa |
+| Revisión de extintores | Anual | Marzo | Toño | Etiqueta y factura |
+| Revisión de gas | Anual | Marzo | Toño | Dictamen del técnico |
+| Capacitación en manejo de alimentos | Anual y a cada nuevo empleado | Enero y al contratar | Jefe de cocina | Constancias |
+| Refrendo de licencia (si aplica) | Anual | Según el municipio | Administradora | Recibo |
+| Aguinaldo | Anual | Antes del 20 de diciembre | Administradora | Recibos de nómina |
+| Declaración anual | Anual | Marzo (personas morales) | Contador | Acuse |
+| Renovación de la marca | Cada 10 años | Fecha del registro | Lupita | Título del IMPI |
+
+## Prepararse para una inspección
+Las inspecciones son normales. Para que una visita sea tranquila:
+1. **Ten una carpeta** (física y digital) con todos los documentos: licencias, avisos, constancias de plagas, dictámenes de gas, registros de temperatura, constancias de capacitación, altas en el IMSS.
+2. **Pide la identificación** del inspector y la **orden de visita** por escrito; verifica que sea auténtica.
+3. **Designa a una persona** que atienda las visitas (y su suplente).
+4. **Sé amable y colabora**, pero no firmes nada que no entiendas; lee el acta antes de firmar y anota tus observaciones.
+5. **Guarda copia** del acta.
+6. **Corrige** lo que te señalen y conserva la prueba.
+7. **Consulta a tu asesor** si hay una sanción o algo que no entiendas.
+8. **Nunca ofrezcas dinero** o regalos al inspector: es un delito y te expone a problemas mayores (lección M14-6).
+
+## Cumplir como hábito
+El cumplimiento no es una tarea de un día, sino un **hábito**: registrar, revisar y renovar. Un negocio que cumple todo el año no tiene que «correr» cuando llega una inspección. En Tortas Lupita, la administradora revisa el calendario cada lunes y Lupita lo revisa en la junta mensual.`,
+k: `Obligaciones principales: **fiscales** (SAT: RFC, CFDI, declaraciones), **laborales y de seguridad social** (contratos, IMSS, Infonavit, prestaciones, seguridad e higiene), **sanitarias** (aviso de funcionamiento, **NOM-251** de higiene en alimentos, control de plagas), **Protección Civil** (extintores, gas, rutas de evacuación) y otras (licencias, uso de suelo, anuncios, ambientales). Usa un **calendario de cumplimiento** y una **carpeta** lista para inspecciones.`,
+ch: `Una fonda tiene una carpeta en la caja con su aviso de funcionamiento, las constancias de fumigación, el dictamen del gas y las constancias de capacitación de su personal; cuando llega una verificación, la muestra en cinco minutos.`,
+gi: `Las cadenas de restaurantes y supermercados tienen áreas de calidad y cumplimiento regulatorio que auditan cada sucursal con listas de verificación basadas en las normas sanitarias y de Protección Civil.`,
+e: `Lupita revisa su carpeta de cumplimiento y encuentra lo que falta:
+
+| Documento | ¿Lo tiene? | Acción |
+|---|---|---|
+| Aviso de funcionamiento sanitario | Sí | — |
+| Constancias de control de plagas (12 meses) | 8 de 12 | Pedir copias a la empresa de plagas |
+| Dictamen de gas | Vencido | Programar revisión esta semana |
+| Constancias de capacitación en manejo de alimentos | 4 de 9 empleados | Inscribir a los 5 faltantes |
+| Altas en el IMSS | Todas | — |
+| Registros diarios de temperatura | Desde hace 2 meses | Mantener |
+
+En una semana deja todo en orden, antes de la siguiente visita.`,
+r: `La norma NOM-251-SSA1-2009, «Prácticas de higiene para el proceso de alimentos, bebidas o suplementos alimenticios», establece en México los requisitos mínimos de higiene que deben cumplir los establecimientos que procesan alimentos, incluidos restaurantes y fondas. La Cofepris y las autoridades sanitarias estatales la usan como referencia en sus verificaciones.`,
+f: `Diario Oficial de la Federación, NOM-251-SSA1-2009; Cofepris (gob.mx/cofepris); Secretaría del Trabajo y Previsión Social, normas oficiales mexicanas de seguridad y salud en el trabajo.`,
+err: ["Llevar las obligaciones «de memoria».","Dejar vencer dictámenes y constancias.","Firmar un acta de inspección sin leerla.","Ofrecer dinero a un inspector."],
+a: `Arma el calendario de cumplimiento del negocio que observas con al menos diez obligaciones: frecuencia, fecha, responsable y comprobante. Revisa qué documentos de la carpeta faltan o están vencidos.`,
+sol: `Si no sabes la fecha exacta de alguna obligación, anótala como pendiente y pregúntala al contador o a la autoridad correspondiente; lo importante es que no se olvide.`,
+q: [["La NOM-251-SSA1-2009 se refiere a…",["Prácticas de higiene en el proceso de alimentos","El etiquetado de alimentos","Los impuestos"],0,"Es la referencia de higiene para restaurantes y fondas."],
+["¿Qué conviene hacer cuando llega un inspector?",["Pedir su identificación y la orden de visita, colaborar y leer el acta antes de firmar","Ofrecerle dinero","Cerrar la puerta"],0,"Y guardar copia del acta."],
+["Un calendario de cumplimiento sirve para…",["No olvidar obligaciones, fechas, responsables y comprobantes","Planear vacaciones","Calcular precios"],0,"Convierte el cumplimiento en hábito."],
+["La revisión del gas y los extintores es una obligación de…",["Protección Civil","La Profeco","El IMPI"],0,"Autoridad municipal o estatal."]],
+t: ["Cumplimiento regulatorio","NOM-251","Protección Civil","Calendario de cumplimiento","Inspección","Cofepris"]
+},
+"M14-6": {
+s: `Un inspector sugiere a Toño que «todo se puede arreglar» con un pago en efectivo. Al mismo tiempo, un proveedor ofrece a la encargada de compras una comisión «por debajo de la mesa». Lupita se da cuenta de que cumplir la ley no es solo llenar papeles: también es decidir qué no se hace.`,
+o: ["Explicar qué es un programa de cumplimiento.","Construir una lista de verificación legal y una matriz de riesgos legales.","Establecer reglas claras contra la corrupción y los conflictos de interés."],
+x: `## ¿Qué es el cumplimiento?
+El **cumplimiento** (en inglés, *compliance*) es el conjunto de reglas, procesos y controles que un negocio establece para asegurarse de que él y sus personas **respetan las leyes, las normas y sus propios valores**. No es solo reaccionar cuando hay un problema, sino **prevenir** que ocurra: saber qué reglas aplican, asignar responsables, capacitar, vigilar y corregir.
+
+En las empresas grandes hay áreas completas de cumplimiento, con oficiales de cumplimiento, códigos de ética, líneas de denuncia y auditorías. En un negocio pequeño, el cumplimiento puede ser tan sencillo como una lista de verificación, un calendario (lección M14-5), unas cuantas reglas claras y el ejemplo del dueño.
+
+## La lista de verificación legal
+Una revisión anual con preguntas sencillas ayuda a detectar huecos:
+
+| Área | Pregunta | Sí / No |
+|---|---|---|
+| Sociedad | ¿El acta constitutiva y los poderes están actualizados? ¿Hay convenio entre socios? | |
+| Fiscal | ¿Estamos al corriente? ¿Tenemos opinión de cumplimiento positiva? | |
+| Laboral | ¿Todos tienen contrato y alta en el IMSS desde el primer día? ¿Hay reglas internas firmadas? | |
+| Contratos | ¿Los contratos de renta, proveedores y clientes clave están por escrito y vigentes? | |
+| Marca | ¿La marca está registrada en las clases correctas y vigente? | |
+| Consumidor | ¿Los precios incluyen impuestos y están visibles? ¿Hay aviso de privacidad? | |
+| Sanitario | ¿Tenemos aviso de funcionamiento, constancias de plagas y capacitación en higiene? | |
+| Protección Civil | ¿Extintores y gas al día? | |
+| Seguros | ¿Tenemos seguro de daños y de responsabilidad civil? | |
+| Ética | ¿Todos conocen la regla de cero sobornos y cómo reportar un problema? | |
+
+## La matriz de riesgos legales
+Otra herramienta útil es una **matriz de riesgos**: para cada riesgo legal, se estima su **probabilidad** (qué tan posible es que ocurra) y su **impacto** (qué tan grave sería), y se define una acción (Módulo 16 profundiza en esta herramienta).
+
+| Riesgo | Probabilidad | Impacto | Acción |
+|---|---|---|---|
+| Demanda laboral por despido mal hecho | Media | Alto | Reglas internas, documentar, asesoría antes de despedir |
+| Intoxicación de un cliente | Baja | Muy alto | NOM-251, registros, seguro de responsabilidad civil |
+| Clausura por Protección Civil | Baja | Alto | Revisión anual de gas y extintores |
+| Pérdida de la marca | Baja (ya registrada) | Alto | Renovar a tiempo y vigilar |
+| Multa del SAT | Media | Medio | Contador, calendario, revisar opinión de cumplimiento |
+| Soborno a un inspector o comisión de un proveedor | Media | Muy alto | Política de cero sobornos, capacitación, rotación de compras |
+
+## La corrupción: decir que no
+La **corrupción** incluye ofrecer, dar, pedir o aceptar pagos, regalos o favores para obtener un beneficio indebido: evitar una multa, ganar un contrato, acelerar un trámite, que un empleado elija a un proveedor. Es dañina para la sociedad y para el negocio:
+- **Es ilegal:** en México, la Ley General de Responsabilidades Administrativas (vigente desde 2017) y el Código Penal sancionan tanto a los servidores públicos como a los particulares y las empresas que participan en actos de corrupción. Las empresas pueden recibir sanciones graves, como multas, inhabilitación para contratar con el gobierno o incluso su disolución en ciertos casos.
+- **Crea dependencia:** quien paga una vez, normalmente tiene que seguir pagando.
+- **Expone al negocio** a extorsiones y a perder todo lo construido.
+- **Daña la cultura:** si el dueño soborna, los empleados aprenden que «así se hacen las cosas».
+
+## Reglas sencillas contra la corrupción
+1. **Cero sobornos:** ni a autoridades ni a empleados de clientes. Si un servidor público pide dinero, no se paga; se pide la orden por escrito, se anota su nombre y se consulta a un abogado; existen canales para denunciar.
+2. **Regalos con límite:** los empleados no aceptan regalos de proveedores por encima de un valor simbólico, y los reportan.
+3. **Conflictos de interés:** si un empleado tiene relación con un proveedor (familiar, socio), debe declararlo y no participar en la decisión.
+4. **Compras transparentes:** cotizaciones por escrito, comparación de costos totales y separación de funciones (lección M10-1).
+5. **Pagos con comprobante:** todo pago, con factura o recibo; nada «por fuera».
+6. **Un canal para reportar:** que cualquier empleado pueda avisar al dueño de algo incorrecto sin miedo a represalias.
+7. **El ejemplo del dueño:** sin él, ninguna regla funciona.
+
+## Los seguros como parte del cumplimiento
+Los seguros no evitan los problemas, pero reducen su impacto:
+- **Seguro de daños:** incendio, inundación, robo, rotura de equipo.
+- **Seguro de responsabilidad civil:** si un cliente o un tercero sufre un daño por causa del negocio (una intoxicación, un accidente en el local).
+- **Seguro de interrupción de negocio** (en algunos casos): cubre ingresos perdidos si el negocio tiene que cerrar por un siniestro cubierto.
+
+Conviene comparar coberturas y exclusiones con un agente, no solo el precio.
+
+## El cumplimiento en las empresas gigantes
+Las grandes empresas que operan en varios países tienen programas de cumplimiento muy estrictos, porque las sanciones por corrupción pueden ser enormes. Uno de los casos más conocidos es el de la empresa alemana Siemens, que en 2008 aceptó pagar en Estados Unidos y Alemania sanciones que sumaron alrededor de 1,600 millones de dólares por pagos indebidos en varios países, y después reconstruyó su programa de cumplimiento. El Módulo 27 profundiza en la ética y la corrupción en las empresas.
+
+## La decisión de Lupita
+Lupita establece tres reglas que todos firman: cero sobornos, regalos de proveedores solo de valor simbólico y declarar cualquier relación con proveedores. Toño no paga al inspector: pide la orden por escrito y llama a la abogada; el «problema» resulta inexistente. La encargada de compras rechaza la comisión y lo reporta; Lupita cambia de proveedor. En la siguiente junta, Lupita reconoce públicamente a ambos.
+
+## Cierre del módulo
+Lo legal no es un tema solo de abogados: es parte de dirigir bien un negocio. Prevenir con contratos claros, una marca registrada, derechos del consumidor respetados, obligaciones al día y reglas éticas firmes cuesta poco y evita problemas que pueden costar el negocio entero.`,
+k: `**Cumplimiento:** reglas, procesos y controles para respetar leyes, normas y valores; **prevenir** más que reaccionar. Herramientas: **lista de verificación legal**, **matriz de riesgos** (probabilidad × impacto), calendario. **Cero sobornos:** en México, la Ley General de Responsabilidades Administrativas sanciona también a particulares y empresas. Reglas sobre regalos, **conflictos de interés**, compras transparentes y un canal para reportar. **Seguros** para reducir el impacto.`,
+ch: `Una ferretería establece que ningún empleado puede aceptar regalos de proveedores de más de 300 pesos y que todo se reporta; un vendedor que ofrecía «comisiones» a la encargada de compras deja de ser proveedor.`,
+gi: `En 2008, Siemens aceptó pagar sanciones de alrededor de 1,600 millones de dólares en Estados Unidos y Alemania por pagos indebidos en varios países, y después construyó uno de los programas de cumplimiento más conocidos del mundo.`,
+e: `Lupita completa su matriz de riesgos legales con una calificación del 1 al 3 (probabilidad × impacto):
+
+| Riesgo | Probabilidad | Impacto | Puntaje | Prioridad |
+|---|---|---|---|---|
+| Soborno o comisión indebida | 2 | 3 | 6 | Alta |
+| Demanda laboral | 2 | 3 | 6 | Alta |
+| Intoxicación de un cliente | 1 | 3 | 3 | Media |
+| Multa del SAT | 2 | 2 | 4 | Media |
+| Clausura por Protección Civil | 1 | 3 | 3 | Media |
+
+Atiende primero los de puntaje 6: reglas anticorrupción y orden en los temas laborales.`,
+r: `En diciembre de 2008, Siemens AG acordó pagar alrededor de 800 millones de dólares a autoridades de Estados Unidos y una cantidad similar a autoridades alemanas por violaciones relacionadas con pagos indebidos, en uno de los casos de corrupción corporativa más grandes de su época.`,
+f: `Departamento de Justicia y Comisión de Bolsa y Valores de Estados Unidos, comunicados de diciembre de 2008 sobre Siemens AG; Ley General de Responsabilidades Administrativas (México, 2017).`,
+err: ["Pagar «para que no haya problemas».","Permitir regalos de proveedores sin límites.","No tener un canal para reportar problemas.","Creer que el cumplimiento es solo papeleo."],
+a: `Aplica la lista de verificación legal de esta lección al negocio que observas y arma una matriz de riesgos legales con al menos cinco riesgos. Escribe tres reglas éticas que propondrías para todos en el negocio.`,
+sol: `Las reglas más útiles son concretas y fáciles de recordar: «cero sobornos», «regalos de proveedores solo de valor simbólico y reportados», «declara cualquier relación con proveedores».`,
+q: [["El cumplimiento (compliance) busca…",["Prevenir que el negocio y sus personas violen leyes, normas y valores","Pagar menos impuestos de forma ilegal","Vender más"],0,"Es prevención con reglas, procesos y controles."],
+["En México, ¿pueden ser sancionados los particulares y las empresas por actos de corrupción?",["Sí, por ejemplo con la Ley General de Responsabilidades Administrativas","No, solo los servidores públicos","Solo si son extranjeros"],0,"Vigente desde 2017."],
+["Un conflicto de interés ocurre cuando…",["Un empleado tiene una relación con un proveedor y participa en la decisión de compra","Dos empleados discuten","El cliente se queja"],0,"Debe declararse y apartarse de la decisión."],
+["Un seguro de responsabilidad civil cubre…",["Daños que el negocio cause a clientes o terceros","Las vacaciones de los empleados","Los impuestos"],0,"Por ejemplo, una intoxicación o un accidente."]],
+t: ["Cumplimiento (compliance)","Matriz de riesgos","Corrupción","Soborno","Conflicto de interés","Seguro de responsabilidad civil","Canal de denuncia"]
+}
+});
+// ===== M15. Tecnología y sistemas =====
+Object.assign(window.LECC, {
+"M15-1": {
+s: `En el puesto, a Lupita le bastaba un cuaderno. Con el local, el cuaderno ya no alcanza: hay pedidos por WhatsApp, facturas, inventario, nómina y tres formas de pago. Un vendedor le ofrece «un sistema que hace todo» por 15,000 pesos al mes. ¿Qué tecnología necesita realmente?`,
+o: ["Describir cómo evoluciona la tecnología de un negocio según su tamaño.","Elegir herramientas tecnológicas con criterios claros.","Calcular el costo total de una herramienta."],
+x: `## La tecnología como herramienta
+La tecnología en un negocio no es un fin en sí misma: es una **herramienta** para vender más, controlar mejor, ahorrar tiempo, reducir errores y tomar mejores decisiones. Una herramienta adecuada al tamaño del negocio ayuda mucho; una herramienta demasiado grande o mal implementada puede costar dinero, tiempo y dolores de cabeza.
+
+## Las etapas típicas
+| Etapa | Herramientas típicas | Para qué |
+|---|---|---|
+| Changarro | Cuaderno, calculadora, celular, WhatsApp | Anotar ventas y fiado, comunicarse con clientes y proveedores |
+| Microempresa | Hoja de cálculo, terminal de pago, WhatsApp Business, facturación del SAT | Controlar ventas, inventario básico y flujo; cobrar con tarjeta; facturar |
+| Pyme | Sistema de punto de venta (con inventario), sistema contable, nómina, CRM sencillo, perfil en mapas y redes | Integrar ventas, inventario y caja; contabilidad formal; seguimiento de clientes |
+| Empresa mediana | Sistema administrativo integrado o ERP, comercio electrónico, tableros de indicadores | Unir todas las áreas en un solo sistema; vender en línea; decidir con datos |
+| Gran empresa | ERP corporativo, sistemas especializados por área, análisis de datos, automatización e inteligencia artificial, ciberseguridad avanzada | Coordinar miles de personas, sucursales y procesos en tiempo real |
+
+No hay que saltar etapas: un changarro no necesita un ERP, y una cadena de 30 sucursales no puede funcionar con un cuaderno.
+
+## Qué procesos apoyar primero
+Para elegir tecnología, conviene empezar por los **procesos** que más duelen o más importan:
+1. **Ventas y caja:** cobrar rápido, sin errores, con varias formas de pago, y saber cuánto se vendió (lección M15-2).
+2. **Inventario:** saber qué hay, qué falta y cuándo pedir (lecciones M9-5 y M9-6).
+3. **Facturación e impuestos:** emitir CFDI y llevar la contabilidad (lección M8-10).
+4. **Clientes:** registrar pedidos, datos y preferencias, y dar seguimiento (lección M15-5).
+5. **Nómina:** calcular y timbrar recibos (lección M13-5).
+6. **Indicadores:** ver los números clave sin tener que armarlos a mano (lección M7-4).
+
+## Criterios para elegir una herramienta
+- **¿Resuelve un problema real** y prioritario?
+- **¿Es fácil de usar** para el equipo? (La mejor herramienta no sirve si nadie la usa).
+- **¿Se adapta al tamaño** del negocio y puede crecer con él?
+- **¿Se integra** con otras herramientas (por ejemplo, el punto de venta con la facturación y la contabilidad)?
+- **¿Cuánto cuesta en total?** (ver abajo).
+- **¿Funciona sin internet** o qué pasa si se cae la conexión?
+- **¿Qué soporte** ofrece el proveedor? ¿En español? ¿En qué horario?
+- **¿Dónde se guardan los datos** y se pueden exportar si se cambia de proveedor?
+- **¿Es seguro?** (contraseñas, permisos por usuario, respaldos; lección M15-6).
+- **¿Cumple** con los requisitos fiscales de México (por ejemplo, facturación CFDI 4.0)?
+
+## En la nube o en el local
+- **En la nube:** el programa y los datos están en servidores del proveedor; se paga una suscripción mensual; se usa desde cualquier dispositivo con internet; el proveedor se encarga de actualizaciones y respaldos. Es la opción más común hoy para negocios pequeños.
+- **En el local (instalado):** el programa se instala en computadoras del negocio; puede requerir un pago inicial más alto; el negocio se encarga de respaldos y mantenimiento; puede funcionar sin internet.
+
+Muchos sistemas modernos combinan ambas cosas: funcionan sin conexión y sincronizan cuando vuelve el internet.
+
+## El costo total de una herramienta
+Igual que con el equipo (lección M10-3), hay que calcular el **costo total**, no solo la mensualidad:
+- Licencia o suscripción.
+- Equipo necesario (computadora, tableta, impresora de tickets, lector de código de barras, cajón de dinero).
+- Instalación y configuración.
+- Capacitación del equipo.
+- Tiempo para cargar la información inicial (productos, precios, clientes).
+- Soporte y actualizaciones.
+- Comisiones por transacción (en terminales de pago y plataformas).
+- Costo de cambiarse después (si los datos no se pueden exportar).
+
+## El error del «sistema que hace todo»
+Comprar el sistema más completo y caro no garantiza nada. Muchos negocios pagan por funciones que nunca usan, o no logran implementarlo porque es demasiado complejo para su tamaño. Una regla práctica: **empieza por lo que más te duele, con la herramienta más sencilla que lo resuelva, y crece desde ahí**.
+
+## La decisión de Lupita
+Lupita analiza sus problemas principales: errores en la caja, no saber qué tortas se venden más, inventario sin control y facturas hechas a mano. En lugar del sistema de 15,000 pesos al mes, elige:
+- Un **sistema de punto de venta en la nube** para restaurantes (unos 800 pesos al mes) con inventario básico, varias formas de pago, reportes por producto y conexión con un servicio de facturación.
+- Una **terminal de pago** con comisión por transacción.
+- **WhatsApp Business** con catálogo (gratis).
+- Una **hoja de cálculo** para el flujo de caja proyectado.
+- El **sistema contable y de nómina** del contador.
+
+El costo total del primer año (equipo, suscripciones y capacitación) es de unos 25,000 pesos, y en tres meses los errores de caja bajan casi a cero.
+
+## La tecnología cambia el trabajo
+Implementar una herramienta nueva cambia la forma de trabajar: hay que capacitar, ajustar procesos y, a veces, vencer la resistencia de quienes «siempre lo han hecho así». Conviene:
+- Explicar **por qué** se cambia.
+- Capacitar **antes** de arrancar.
+- Empezar con un **periodo de prueba** (en una caja o un turno).
+- Tener a una persona **responsable** de la herramienta.
+- Revisar después de un mes qué funciona y qué no.
+
+## En las empresas gigantes
+Las grandes empresas tienen áreas de tecnología con cientos o miles de personas, dirigidas por un director de tecnología (CTO) o de sistemas (CIO). Invierten en sistemas que conectan todas sus operaciones, en comercio electrónico, en análisis de datos y en ciberseguridad. Para muchas, la tecnología ya no es solo un apoyo, sino una fuente de ventaja competitiva (Módulo 26).`,
+k: `La tecnología es una **herramienta**: elige según la **etapa** del negocio y el **proceso** que más duele (caja, inventario, facturación, clientes, nómina, indicadores). Criterios: facilidad de uso, integración, **costo total**, funcionamiento sin internet, soporte, datos exportables, seguridad y cumplimiento fiscal. **En la nube** o **local**. Empieza sencillo y crece.`,
+ch: `Una papelería pasa del cuaderno a una hoja de cálculo con sus 300 productos y sus ventas diarias; al año, cuando abre una segunda tienda, adopta un punto de venta con inventario en la nube.`,
+gi: `Las grandes empresas tienen directores de tecnología y sistemas que integran ventas, inventarios, logística, finanzas y personas en plataformas que funcionan en tiempo real en miles de puntos.`,
+e: `Lupita compara el costo total del primer año de dos opciones:
+
+| Concepto | «Sistema que hace todo» | Opción elegida |
+|---|---|---|
+| Suscripciones (12 meses) | 180,000 | 9,600 |
+| Equipo (tableta, impresora de tickets, cajón) | 15,000 | 8,000 |
+| Implementación y capacitación | 30,000 | 4,000 |
+| Comisiones de terminal (aprox.) | Iguales en ambas | Iguales en ambas |
+| **Total sin comisiones** | **225,000** | **21,600** |
+
+La opción sencilla cuesta una décima parte y resuelve sus cuatro problemas principales.`,
+r: `Muchas empresas que cotizan en bolsa incluyen en su equipo directivo a un director de tecnología o de sistemas, y en sus informes anuales describen sus inversiones en plataformas digitales, comercio electrónico y ciberseguridad.`,
+f: `Informes anuales de empresas de la Bolsa Mexicana de Valores, secciones sobre tecnología y transformación digital.`,
+err: ["Comprar el sistema más completo sin necesitarlo.","Mirar solo la mensualidad y no el costo total.","Implementar sin capacitar ni probar.","Elegir una herramienta de la que no se pueden sacar los datos."],
+a: `Lista los cinco procesos más importantes del negocio que observas e indica qué herramienta usa hoy cada uno. Elige el proceso que más duele y compara dos herramientas con los criterios de esta lección.`,
+sol: `Si una herramienta no se integra con las demás (por ejemplo, el punto de venta con la facturación), suma el tiempo de capturar los datos dos veces a su costo total.`,
+q: [["¿Qué herramienta tecnológica suele necesitar primero un negocio que crece?",["Una que resuelva el proceso que más le duele, como la caja o el inventario","Un ERP corporativo","Inteligencia artificial avanzada"],0,"Empezar sencillo y crecer."],
+["El costo total de una herramienta incluye…",["Suscripción, equipo, implementación, capacitación y soporte","Solo la mensualidad","Solo el precio de la tableta"],0,"Como cualquier compra importante."],
+["Una ventaja de los sistemas en la nube es…",["Se usan desde cualquier dispositivo y el proveedor hace actualizaciones y respaldos","Nunca necesitan internet","Son siempre gratis"],0,"Son los más comunes hoy en negocios pequeños."],
+["Al implementar un sistema nuevo conviene…",["Capacitar antes, probar en pequeño y tener un responsable","Arrancar en todo el negocio sin avisar","No explicar el motivo"],0,"Así se reduce la resistencia y los errores."]],
+t: ["Tecnología en el negocio","Sistema en la nube","Costo total de propiedad","Implementación"]
+},
+"M15-2": {
+s: `Cada noche, el dinero de la caja no cuadra: unas veces sobran 50 pesos, otras faltan 300. Nadie sabe si es error, cambio mal dado o algo peor. Toño decide ordenar la caja con un punto de venta y un corte de caja diario.`,
+o: ["Explicar qué es un sistema de punto de venta y qué información da.","Hacer un corte de caja con fondo fijo y arqueo.","Aceptar pagos digitales cuidando comisiones y seguridad."],
+x: `## El punto de venta
+El **punto de venta** es el lugar y el sistema donde se registra cada venta y se cobra al cliente. Puede ser desde una caja registradora sencilla hasta un **sistema de punto de venta** (en inglés, POS, *point of sale*) en una tableta o computadora, con impresora de tickets, cajón de dinero y terminal para tarjetas.
+
+Un sistema de punto de venta registra cada venta con:
+- Fecha y hora.
+- Productos vendidos y cantidades.
+- Precio, descuentos e impuestos.
+- Forma de pago (efectivo, tarjeta, transferencia, vales).
+- Quién la registró (cada cajero con su usuario).
+
+## Lo que permite saber
+Con esa información, el sistema genera reportes que antes había que armar a mano:
+- **Ventas por día, por hora y por producto** (qué torta se vende más y en qué horario).
+- **Ticket promedio** y número de tickets (lección M5-2).
+- **Ventas por forma de pago.**
+- **Ventas por cajero.**
+- **Inventario:** si se configura con recetas, descuenta automáticamente los ingredientes de cada torta vendida y avisa cuando algo llega a su punto de reorden.
+- **Comparaciones** con días o semanas anteriores.
+
+Esa información alimenta el tablero de indicadores (lección M7-4) y las decisiones de compras, personal y marketing.
+
+## El fondo fijo de caja
+El **fondo fijo** (o fondo de cambio) es una cantidad fija de dinero (por ejemplo, 1,000 pesos en billetes y monedas pequeñas) que se deja en la caja al iniciar el día para dar cambio. Al cierre, se separa el fondo fijo y el resto es lo que se vendió en efectivo. Así siempre se empieza con la misma cantidad y se evita confundir el cambio con las ventas.
+
+## El corte de caja
+El **corte de caja** es la comparación, al final de un turno o del día, entre lo que **dice el sistema** que se vendió y lo que **realmente hay** en la caja y en los comprobantes. Pasos:
+1. **Cerrar el turno** en el sistema y obtener el reporte de ventas por forma de pago.
+2. **Contar el efectivo** (arqueo): billetes y monedas.
+3. **Separar el fondo fijo.**
+4. **Comparar** el efectivo restante con las ventas en efectivo del reporte.
+5. **Comparar** los cobros con tarjeta con el reporte de la terminal y las transferencias con el estado de cuenta.
+6. **Registrar las diferencias** (faltantes o sobrantes) y su posible causa.
+7. **Firmar** el corte quien entrega y quien recibe.
+8. **Resguardar o depositar** el efectivo.
+
+Hacer el corte **por turno y por cajero** permite saber dónde está una diferencia. Si hay un solo corte al final del día con tres personas que tocaron la caja, es imposible saber qué pasó.
+
+## Las diferencias de caja
+Las diferencias tienen causas comunes:
+- **Cambio mal dado** (el error más frecuente).
+- **Ventas no registradas** o registradas con el precio equivocado.
+- **Gastos pagados de la caja** sin comprobante («saqué 200 para el gas»).
+- **Pagos con tarjeta registrados como efectivo**, o al revés.
+- **Robo**, que es menos común de lo que se cree, pero hay que prevenirlo.
+
+Reglas útiles:
+- **Todo se registra:** no hay ventas «sin ticket».
+- **Ningún gasto sale de la caja de ventas sin comprobante**; mejor tener una caja chica separada para gastos menores.
+- **Cada cajero con su usuario** y su propio corte.
+- **Arqueos sorpresa** de vez en cuando.
+- **Revisar las diferencias** cada semana: si un cajero tiene diferencias frecuentes, hay que capacitar o investigar.
+
+## Los pagos digitales
+Cada vez más clientes prefieren no pagar en efectivo. Las formas más comunes en México:
+- **Tarjeta de débito o crédito** con una terminal. La terminal cobra una **comisión** por transacción (un porcentaje más IVA), y el dinero llega a la cuenta en uno o varios días.
+- **Transferencia bancaria (SPEI):** el sistema de pagos del Banco de México permite transferencias entre bancos en segundos, a cualquier hora. Se puede compartir la cuenta (CLABE) del negocio o un código QR del banco.
+- **Pagos con código QR** de bancos o de aplicaciones de pago.
+- **Vales de despensa o de comida**, si el negocio los acepta.
+
+Ventajas: más ventas (clientes que no traen efectivo), menos riesgo de robo, registro automático. Desventajas: comisiones, el dinero tarda en llegar (en tarjeta), riesgo de fraudes (comprobantes de transferencia falsos).
+
+## Cuidado con los comprobantes falsos
+Un fraude común es mostrar en el celular una **captura de pantalla falsa** de una transferencia. Para evitarlo:
+- **Verifica en tu propia aplicación bancaria** que el dinero llegó antes de entregar el pedido.
+- Usa los servicios del banco que avisan al recibir un pago.
+- En pedidos grandes, cobra antes de entregar o usa un medio de pago verificado.
+
+## La seguridad del efectivo
+- Mantén poco efectivo en la caja: haz retiros parciales durante el día a una caja fuerte.
+- Deposita con frecuencia, en horarios variables.
+- Instala cámaras visibles en la zona de caja.
+- No cuentes dinero frente a los clientes.
+
+## El resultado en Tortas Lupita
+Con el punto de venta, el fondo fijo, el corte por turno y la verificación de transferencias:
+- Las diferencias de caja bajan de un promedio de 180 pesos diarios a menos de 15.
+- Descubren que el 35 % de las ventas ya se pagan de forma digital.
+- Saben por primera vez que la torta de pierna vende el doble los viernes, y ajustan sus compras.`,
+k: `**Sistema de punto de venta:** registra cada venta (productos, precio, forma de pago, cajero) y genera reportes de ventas, ticket, productos, horas e inventario. **Fondo fijo** para el cambio. **Corte de caja** por turno y cajero: lo que dice el sistema frente a lo que hay (arqueo). Pagos digitales (tarjeta, **SPEI**, QR): más ventas, pero cuida **comisiones** y **comprobantes falsos**.`,
+ch: `Una tienda de abarrotes adopta un punto de venta en una tableta con lector de código de barras; ahora sabe qué productos se venden más, cuándo pedir y si la caja cuadra cada noche.`,
+gi: `Las grandes cadenas registran cada venta de cada caja en tiempo real; con esa información ajustan inventarios, precios y personal tienda por tienda.`,
+e: `Toño compara las diferencias de caja antes y después:
+
+| Indicador | Antes | Después |
+|---|---|---|
+| Diferencia promedio diaria | 180 | 12 |
+| Diferencia al mes (26 días) | 4,680 | 312 |
+| Ventas digitales | Sin registro | 35 % |
+| Costo del sistema y equipo (mensual prorrateado) | 0 | 1,500 |
+
+Solo por la caja, el sistema se paga con creces: unos 4,300 pesos menos de diferencias al mes, más la información de ventas.`,
+r: `El Banco de México opera el Sistema de Pagos Electrónicos Interbancarios (SPEI), que permite transferencias entre bancos en segundos, a cualquier hora del día y todos los días del año. Banxico también impulsó esquemas de cobro con código QR para facilitar los pagos digitales en comercios.`,
+f: `Banco de México, información sobre SPEI y pagos digitales (banxico.org.mx).`,
+err: ["Hacer un solo corte de caja al día con varias personas que tocaron la caja.","Pagar gastos de la caja de ventas sin comprobante.","Entregar un pedido con una captura de pantalla sin verificar la transferencia.","Mantener mucho efectivo en la caja."],
+a: `Diseña el procedimiento de corte de caja del negocio que observas: fondo fijo, pasos, formato de registro de diferencias y quién firma. Si es posible, revisa qué reportes podría darle un punto de venta que hoy no tiene.`,
+sol: `Un buen formato de corte tiene: ventas por forma de pago según el sistema, efectivo contado, fondo fijo, diferencia, causa probable y firmas de quien entrega y quien recibe.`,
+q: [["El corte de caja compara…",["Lo que dice el sistema que se vendió con lo que realmente hay","Precios con la competencia","Ventas con impuestos"],0,"Permite detectar diferencias."],
+["El fondo fijo de caja sirve para…",["Tener siempre la misma cantidad para dar cambio","Pagar la renta","Invertir"],0,"Se separa al hacer el corte."],
+["¿Cómo evitar el fraude de capturas de transferencias falsas?",["Verificando en tu propia aplicación bancaria que el dinero llegó","Confiando en la captura","Pidiendo dos capturas"],0,"Antes de entregar el pedido."],
+["¿Por qué conviene un corte por turno y por cajero?",["Para saber dónde está una diferencia","Para trabajar más","Porque lo pide la Profeco"],0,"Con varias personas en una sola caja es imposible saberlo."]],
+t: ["Sistema de punto de venta (POS)","Corte de caja","Fondo fijo","Arqueo","SPEI","Pagos digitales"]
+},
+"M15-3": {
+s: `Toño anota todo en papeles sueltos. Lupita le pide saber cuánto vendieron por mes, cuánta merma hubo y cuánto efectivo tendrán en enero. Toño abre una hoja de cálculo por primera vez y descubre que puede hacer en minutos lo que antes le tomaba una tarde.`,
+o: ["Organizar información del negocio en tablas.","Usar fórmulas básicas de una hoja de cálculo.","Armar plantillas sencillas de ventas, inventario y flujo de caja."],
+x: `## La herramienta más útil y subestimada
+La **hoja de cálculo** (Microsoft Excel, Hojas de cálculo de Google, LibreOffice Calc y otras) es probablemente la herramienta de negocios más usada en el mundo. Sirve para registrar datos, hacer cuentas automáticamente, analizar información y presentar resultados en tablas y gráficas. Para un negocio pequeño, puede ser el primer «sistema» de control; para una empresa grande, sigue siendo la herramienta de análisis del día a día.
+
+La primera hoja de cálculo para computadoras personales, **VisiCalc**, fue creada en 1979 por Dan Bricklin y Bob Frankston, y muchos historiadores de la tecnología la consideran una de las razones por las que las empresas empezaron a comprar computadoras personales: de pronto, un gerente podía cambiar un número y ver al instante el efecto en todo su presupuesto.
+
+## Lo básico
+- Una hoja está formada por **celdas** organizadas en **filas** (números) y **columnas** (letras). Cada celda tiene una dirección, como **B3**.
+- En una celda se puede escribir un **dato** (texto, número, fecha) o una **fórmula**, que siempre empieza con el signo **=**.
+- Las fórmulas pueden hacer operaciones con otras celdas: **=B3*C3** multiplica el contenido de B3 por el de C3. Si cambias B3, el resultado se actualiza solo.
+
+## La regla de oro: datos en forma de tabla
+La hoja funciona mejor cuando los datos se organizan como una **tabla**:
+- **Una fila por registro** (una venta, un producto, un día).
+- **Una columna por dato** (fecha, producto, cantidad, precio).
+- **Encabezados** claros en la primera fila.
+- **Sin filas vacías ni celdas combinadas** en medio de los datos.
+- **Un tipo de dato por columna** (solo fechas en la columna de fecha, solo números en la de cantidad).
+
+## Las fórmulas más útiles
+| Fórmula | Qué hace | Ejemplo |
+|---|---|---|
+| =SUMA(B2:B31) | Suma un rango | Ventas del mes |
+| =PROMEDIO(B2:B31) | Promedio | Venta diaria promedio |
+| =MAX(B2:B31) y =MIN(B2:B31) | El valor más alto y más bajo | Mejor y peor día |
+| =CONTAR(B2:B31) | Cuenta celdas con números | Días con venta registrada |
+| =B2*C2 | Multiplica | Cantidad por precio |
+| =B2/C2 | Divide | Ticket promedio |
+| =SI(B2<C2;"Pedir";"OK") | Decide según una condición | Avisar si el inventario está bajo el punto de reorden |
+| =SUMAR.SI(A2:A100;"Pierna";C2:C100) | Suma solo lo que cumple una condición | Ventas de la torta de pierna |
+| =BUSCARV(A2;Precios!A:B;2;FALSO) | Busca un dato en otra tabla | Traer el precio de un producto |
+
+(En algunas versiones o idiomas se usa coma en lugar de punto y coma para separar los argumentos, y algunos nombres de funciones cambian ligeramente).
+
+## Referencias relativas y absolutas
+Cuando copias una fórmula hacia abajo, sus referencias cambian (B2 se vuelve B3, B4...). Eso es una **referencia relativa**. Si quieres que una referencia no cambie (por ejemplo, la celda con el porcentaje de margen), usas una **referencia absoluta** con signos de pesos: **$F$1**. Este pequeño detalle evita muchos errores.
+
+## Tres plantillas útiles para un negocio
+**1. Registro de ventas diarias**
+| Fecha | Tickets | Ventas | Ticket promedio | Efectivo | Digital |
+|---|---|---|---|---|---|
+| 01/03 | 168 | 7,720 | =C2/B2 | 5,020 | 2,700 |
+Al final: =SUMA() de ventas, =PROMEDIO() del ticket y una gráfica de ventas por día.
+
+**2. Control de inventario**
+| Insumo | Existencia | Consumo diario | Días de entrega | Días de seguridad | Punto de reorden | ¿Pedir? |
+|---|---|---|---|---|---|---|
+| Bolsas | 1,800 | 250 | 5 | 3 | =C2*D2+C2*E2 | =SI(B2<=F2;"PEDIR";"OK") |
+
+**3. Flujo de caja proyectado**
+| Mes | Saldo inicial | Cobros | Pagos | Saldo final |
+|---|---|---|---|---|
+| Enero | 20,000 | 180,000 | 185,000 | =B2+C2-D2 |
+| Febrero | =E2 | 190,000 | 185,000 | =B3+C3-D3 |
+
+La calculadora «Flujo de caja de 6 meses» del curso hace exactamente esto.
+
+## Herramientas que ahorran tiempo
+- **Filtros:** mostrar solo ciertas filas (por ejemplo, las ventas de los viernes).
+- **Ordenar:** de mayor a menor venta.
+- **Formato condicional:** pintar de rojo automáticamente lo que está por debajo de una meta.
+- **Tablas dinámicas:** resumir miles de filas en segundos (ventas por producto y por mes).
+- **Gráficas:** ver tendencias de un vistazo.
+- **Validación de datos:** listas desplegables para evitar errores de captura.
+
+## Buenas prácticas
+- **Separa los datos de los cálculos y los reportes** (en pestañas distintas).
+- **No escribas números «a mano» dentro de las fórmulas**; ponlos en una celda de supuestos (por ejemplo, el margen o la tasa de IVA) y haz referencia a ella.
+- **Revisa las fórmulas** con un caso que conozcas el resultado.
+- **Guarda versiones** y respalda el archivo (lección M15-6).
+- **Protege** las celdas con fórmulas para que nadie las borre por error.
+- **No dependas de una hoja que solo entiende una persona.**
+
+## Cuándo la hoja ya no alcanza
+La hoja de cálculo es excelente, pero tiene límites: varias personas capturando al mismo tiempo, miles de productos, varias sucursales, necesidad de facturar o de controlar la caja en tiempo real. Cuando aparecen esos problemas, es momento de un sistema especializado (lecciones M15-2 y M15-4). Aun así, la hoja seguirá siendo útil para analizar y planear.
+
+## El cambio de Toño
+Toño arma tres pestañas: ventas diarias (que alimenta el punto de venta con una exportación semanal), inventario de insumos A y flujo de caja de seis meses. En la junta mensual, en lugar de papeles sueltos, presenta una gráfica de ventas, el porcentaje de merma y el saldo esperado en enero.`,
+k: `La **hoja de cálculo** registra, calcula y analiza. Organiza los datos como **tabla** (una fila por registro, una columna por dato). Fórmulas clave: **SUMA, PROMEDIO, MAX/MIN, SI, SUMAR.SI, BUSCARV**; referencias **relativas** y **absolutas** ($). Plantillas: **ventas diarias, inventario, flujo de caja**. Separa datos, cálculos y reportes; respalda. Primera hoja para PC: **VisiCalc** (1979).`,
+ch: `Una pastelería registra cada pedido en una hoja con fecha, cliente, producto y precio; con un filtro sabe qué pasteles se piden más en mayo y prepara sus compras.`,
+gi: `Aun en empresas con grandes sistemas, los analistas de finanzas, ventas y operaciones usan hojas de cálculo todos los días para modelos de presupuesto, análisis de precios y reportes.`,
+e: `Toño prueba la fórmula del punto de reorden en su hoja con un caso conocido:
+
+| Insumo | Existencia | Consumo diario | Días de entrega | Días de seguridad | Punto de reorden | ¿Pedir? |
+|---|---|---|---|---|---|---|
+| Bolsas | 1,800 | 250 | 5 | 3 | 250 × 5 + 250 × 3 = 2,000 | 1,800 ≤ 2,000 → PEDIR |
+| Queso (kg) | 50 | 12 | 2 | 1 | 12 × 2 + 12 × 1 = 36 | 50 > 36 → OK |
+
+Los resultados coinciden con la calculadora de la lección M9-6: la fórmula está bien.`,
+r: `VisiCalc, creada por Dan Bricklin y Bob Frankston y lanzada en 1979 para la computadora Apple II, fue la primera hoja de cálculo para computadoras personales. Su éxito impulsó la venta de computadoras personales en empresas y abrió el camino a programas como Lotus 1-2-3 y Microsoft Excel.`,
+f: `Dan Bricklin, historia de VisiCalc (bricklin.com); Computer History Museum.`,
+err: ["Mezclar datos, cálculos y notas en una misma área sin orden.","Escribir números fijos dentro de las fórmulas.","No revisar las fórmulas con un caso conocido.","Tener una sola copia del archivo, sin respaldo."],
+a: `Crea en una hoja de cálculo una de las tres plantillas de esta lección para el negocio que observas (o para tus gastos personales). Usa al menos tres fórmulas distintas y una gráfica.`,
+sol: `Comprueba cada fórmula con un ejemplo que puedas calcular a mano. Si el resultado no coincide, revisa las referencias de celda.`,
+q: [["En una hoja de cálculo, todas las fórmulas empiezan con…",["El signo =","El signo $","La letra F"],0,"Por ejemplo, =SUMA(B2:B31)."],
+["La fórmula =SI(B2<C2;\"Pedir\";\"OK\") sirve para…",["Mostrar «Pedir» si la existencia es menor que el punto de reorden","Sumar ventas","Calcular el IVA"],0,"Decide según una condición."],
+["Una referencia absoluta como $F$1…",["No cambia al copiar la fórmula","Cambia siempre","Borra la celda"],0,"Útil para supuestos fijos."],
+["¿Cuál es una buena práctica?",["Separar datos, cálculos y reportes en pestañas distintas","Escribir números fijos dentro de las fórmulas","No guardar respaldo"],0,"Facilita revisar y evita errores."]],
+t: ["Hoja de cálculo","Fórmula","Referencia absoluta","Tabla dinámica","Formato condicional","VisiCalc"]
+},
+"M15-4": {
+s: `Con tres sucursales y una cocina central, Tortas Lupita usa cinco herramientas distintas que no se hablan entre sí: la administradora captura las mismas ventas tres veces y nadie sabe el inventario total. Un consultor menciona la palabra «ERP». ¿Qué es y cuándo vale la pena?`,
+o: ["Explicar qué es un sistema administrativo integrado o ERP.","Reconocer cuándo un negocio necesita uno.","Conocer los riesgos de implementar un ERP y cómo reducirlos."],
+x: `## El problema de las «islas» de información
+Cuando un negocio crece, suele ir sumando herramientas: un punto de venta en cada sucursal, una hoja de cálculo para el inventario, un sistema contable del contador, otro para la nómina, el WhatsApp para pedidos. Cada una funciona bien por separado, pero **no se comunican**. Aparecen problemas:
+- **Doble captura:** los mismos datos se escriben varias veces, con más trabajo y más errores.
+- **Información que no cuadra:** las ventas del punto de venta no coinciden con la contabilidad.
+- **Falta de visión completa:** nadie sabe el inventario total o la utilidad por sucursal sin armar un reporte a mano.
+- **Lentitud:** cerrar el mes tarda semanas.
+- **Dependencia de personas:** solo una persona sabe cómo «cuadrar» todo.
+
+## ¿Qué es un ERP?
+Un **ERP** (del inglés *enterprise resource planning*, planeación de recursos empresariales) es un **sistema integrado** que reúne en una sola base de datos la información de las principales áreas del negocio: ventas, compras, inventarios, producción, finanzas, contabilidad, nómina y más. Cuando ocurre algo en un área (una venta), el sistema actualiza automáticamente todo lo relacionado: baja el inventario, registra el ingreso en contabilidad, genera la factura, actualiza los indicadores.
+
+## Los módulos típicos de un ERP
+| Módulo | Qué hace |
+|---|---|
+| Ventas y clientes | Pedidos, cotizaciones, facturación, cuentas por cobrar |
+| Compras y proveedores | Órdenes de compra, recepciones, cuentas por pagar |
+| Inventarios y almacén | Existencias por ubicación, movimientos, puntos de reorden |
+| Producción | Recetas o listas de materiales, órdenes de producción, costos |
+| Finanzas y contabilidad | Libro mayor, bancos, estados financieros, impuestos |
+| Recursos humanos y nómina | Empleados, asistencia, nómina, recibos |
+| Reportes e indicadores | Tableros por área, sucursal y producto |
+
+En México, los ERP deben manejar la facturación electrónica (CFDI), la contabilidad electrónica y otras reglas fiscales locales. Hay ERP de grandes proveedores internacionales y muchos desarrollados para pymes mexicanas.
+
+## Sistemas administrativos para pymes
+Entre la hoja de cálculo y un ERP corporativo hay una gama amplia de **sistemas administrativos** para pymes: contabilidad, nómina, facturación, inventarios y punto de venta, a veces del mismo proveedor y conectados entre sí. Para muchas pymes, un conjunto bien integrado de estos sistemas cumple la función de un ERP a un costo mucho menor.
+
+## ¿Cuándo hace falta?
+Señales de que un negocio necesita un sistema integrado:
+- Varias sucursales, almacenes o una cocina central que hay que coordinar.
+- Doble o triple captura de datos.
+- Cierres de mes que tardan semanas.
+- Errores frecuentes por información que no cuadra.
+- Necesidad de saber costos y utilidades por producto o sucursal.
+- Crecimiento planeado que las herramientas actuales no soportarán.
+- Requisitos de clientes grandes, bancos o inversionistas de información confiable y rápida.
+
+## Los riesgos de implementar un ERP
+Implementar un ERP es un proyecto grande, que cambia la forma de trabajar de todo el negocio. Si sale mal, puede ser muy costoso. Algunos riesgos:
+- **Costo mayor al esperado:** licencias, consultoría, adaptaciones, equipo, capacitación.
+- **Tiempo mayor al esperado.**
+- **Adaptaciones excesivas:** querer que el sistema haga todo «como siempre lo hemos hecho» en lugar de aprovechar los procesos que trae.
+- **Datos de mala calidad:** cargar al nuevo sistema información desordenada (productos duplicados, precios viejos).
+- **Resistencia del personal** y falta de capacitación.
+- **Arranque de golpe** sin pruebas suficientes.
+
+Un caso muy citado es el de **Hershey's** en Estados Unidos: en 1999 puso en marcha al mismo tiempo varios sistemas nuevos de gestión (ERP, planeación y relación con clientes) justo antes de su temporada más fuerte. Los problemas de implementación le impidieron surtir a tiempo muchos pedidos de dulces de Halloween, y la empresa informó caídas en sus ventas y utilidades de ese periodo.
+
+## Cómo reducir los riesgos
+1. **Define los objetivos** concretos (eliminar la doble captura, cerrar el mes en 5 días, saber el inventario en tiempo real).
+2. **Revisa y ordena los procesos** antes de implementar (Módulo 9).
+3. **Elige un sistema adecuado al tamaño** y con experiencia en tu giro.
+4. **Limpia los datos** antes de cargarlos.
+5. **Nombra a un responsable** interno con tiempo y autoridad.
+6. **Capacita** a todos los usuarios.
+7. **Prueba** con datos reales y en paralelo (el sistema viejo y el nuevo al mismo tiempo durante un periodo).
+8. **Arranca por etapas** (una sucursal o un módulo a la vez) y **evita las temporadas fuertes**.
+9. **Mide** los resultados después del arranque.
+
+## La decisión de Tortas Lupita
+Con tres sucursales y una cocina central, Lupita no compra un ERP corporativo. Elige un **sistema administrativo para restaurantes** que integra punto de venta en cada sucursal, inventario por ubicación (incluida la cocina central), recetas que descuentan ingredientes, órdenes de compra, facturación y exportación a la contabilidad del contador. Lo implementa primero en una sucursal durante un mes, en paralelo con el sistema anterior, en un mes flojo (febrero), y después en las demás. La administradora deja de capturar tres veces lo mismo y el cierre de mes pasa de 12 a 4 días.
+
+## En las empresas gigantes
+Las grandes empresas usan ERP corporativos que manejan a miles de usuarios en muchos países, monedas e idiomas, conectados con sistemas de comercio electrónico, logística, análisis de datos y relación con clientes. Sus implementaciones pueden durar años y costar decenas o cientos de millones. Por eso se planean con mucho cuidado: un error puede afectar a toda la cadena de suministro.`,
+k: `Las **islas de información** generan doble captura, errores y lentitud. Un **ERP** integra en una base de datos ventas, compras, inventarios, producción, finanzas y nómina. Para pymes hay **sistemas administrativos integrados** más sencillos. Implementarlo es un proyecto con riesgos (costo, tiempo, datos, resistencia): define objetivos, ordena procesos, limpia datos, capacita, **prueba en paralelo** y **arranca por etapas**, fuera de temporada fuerte.`,
+ch: `Una distribuidora de abarrotes con dos almacenes adopta un sistema que conecta pedidos, inventario y facturación; ya no vende productos que no tiene ni factura dos veces el mismo pedido.`,
+gi: `En 1999, Hershey's implementó al mismo tiempo varios sistemas nuevos de gestión antes de su temporada fuerte de Halloween; los problemas le impidieron surtir a tiempo muchos pedidos, un caso muy citado sobre los riesgos de implementar un ERP.`,
+e: `La administradora mide el tiempo que ahorra el sistema integrado:
+
+| Tarea mensual | Antes (horas) | Después (horas) |
+|---|---|---|
+| Capturar ventas de 3 sucursales en la hoja y en contabilidad | 24 | 2 |
+| Conciliar inventarios | 16 | 3 |
+| Preparar el estado de resultados por sucursal | 12 | 1 |
+| **Total** | **52** | **6** |
+
+Ahorra 46 horas al mes, que ahora dedica a analizar costos y a la cobranza.`,
+r: `Hershey Foods puso en marcha en julio de 1999 nuevos sistemas de ERP, planeación de la cadena de suministro y gestión de clientes. Problemas en la implementación afectaron su capacidad para procesar y enviar pedidos en la temporada de Halloween, y la empresa reportó una caída en ventas y utilidades en el tercer trimestre de ese año.`,
+f: `Hershey Foods Corporation, comunicados y reportes de 1999; estudios de caso sobre implementaciones de ERP.`,
+err: ["Implementar un ERP sin ordenar antes los procesos.","Cargar datos desordenados al sistema nuevo.","Arrancar en todo el negocio a la vez y en temporada fuerte.","Adaptar el sistema para repetir procesos ineficientes."],
+a: `Identifica las «islas» de información del negocio que observas: qué herramientas usa, qué datos se capturan más de una vez y qué información no se puede obtener fácilmente. Propón si necesita un sistema integrado y cómo lo implementarías por etapas.`,
+sol: `Si el negocio tiene un solo local y pocas herramientas, probablemente basta con conectar el punto de venta con la facturación y la contabilidad; un ERP completo sería excesivo.`,
+q: [["Un ERP es…",["Un sistema integrado que reúne la información de las principales áreas del negocio","Un tipo de impuesto","Una hoja de cálculo"],0,"Enterprise resource planning."],
+["Una señal de que hace falta un sistema integrado es…",["Capturar los mismos datos varias veces en distintas herramientas","Tener pocos clientes","Vender solo en efectivo"],0,"La doble captura genera errores y trabajo."],
+["¿Qué ayuda a reducir el riesgo de implementar un ERP?",["Probar en paralelo y arrancar por etapas, fuera de temporada fuerte","Arrancar todo a la vez en diciembre","No capacitar"],0,"Hershey's es un ejemplo de lo que puede pasar."],
+["Antes de implementar un sistema conviene…",["Ordenar los procesos y limpiar los datos","Comprar más equipo","Despedir al personal"],0,"Un sistema no arregla procesos desordenados."]],
+t: ["ERP","Sistema administrativo integrado","Islas de información","Doble captura","Implementación en paralelo"]
+},
+"M15-5": {
+s: `Karla lleva los datos de las oficinas en su celular y en notas sueltas. Cuando se enferma una semana, nadie sabe a qué oficinas había que llamar ni qué les prometió. Al mismo tiempo, varios clientes preguntan si pueden pedir tortas en línea y pagar con tarjeta desde su casa.`,
+o: ["Explicar qué es un CRM y cómo ayuda a vender y conservar clientes.","Distinguir las opciones de comercio electrónico: tienda propia, mercados en línea y plataformas.","Conocer lo que se necesita para vender en línea."],
+x: `## Recordar a cada cliente
+En un changarro, el dueño recuerda a sus clientes: qué piden, cómo pagan, cuándo vienen. Cuando el negocio crece, esa memoria ya no alcanza: hay cientos de clientes, varios vendedores y muchos pedidos. Un **CRM** (del inglés *customer relationship management*, gestión de la relación con los clientes) es una herramienta que **guarda en un solo lugar la información de cada cliente y de cada interacción** con él.
+
+## Qué guarda un CRM
+- **Datos del cliente:** nombre, empresa, teléfono, correo, dirección, datos de facturación.
+- **Historial:** pedidos, montos, fechas, productos preferidos.
+- **Interacciones:** llamadas, visitas, mensajes, cotizaciones enviadas, quejas.
+- **Oportunidades:** clientes potenciales y en qué etapa del embudo están (lección M11-3).
+- **Tareas y recordatorios:** «llamar a la oficina B el lunes», «enviar cotización».
+- **Notas:** preferencias y detalles importantes («Mariana pide factura con el nombre completo de la empresa»).
+
+## Para qué sirve
+1. **No perder oportunidades:** cada prospecto tiene su seguimiento.
+2. **Que el conocimiento no dependa de una persona:** si Karla falta o se va, la información queda en el negocio.
+3. **Personalizar la atención:** saber qué prefiere cada cliente.
+4. **Detectar clientes en riesgo:** la oficina que bajó sus pedidos (lección M11-8).
+5. **Medir ventas:** conversión por etapa, ventas por vendedor, ciclo de venta (lección M11-9).
+6. **Coordinar** a ventas, marketing y servicio.
+
+## CRM para todos los tamaños
+- **Negocio pequeño:** puede empezar con una hoja de cálculo bien organizada o con las etiquetas de WhatsApp Business.
+- **Pyme:** hay CRM en la nube, con versiones gratuitas o de bajo costo, que se usan desde el celular.
+- **Gran empresa:** plataformas de CRM muy completas conectadas con el ERP, el centro de llamadas, el comercio electrónico y el marketing. Una de las empresas más conocidas de esta categoría es Salesforce, fundada en 1999 con la idea de ofrecer el CRM como servicio en la nube.
+
+Lo importante no es la herramienta, sino la **disciplina**: registrar cada interacción el mismo día.
+
+## El comercio electrónico
+El **comercio electrónico** es la venta de productos o servicios por internet. Para un negocio hay varias opciones:
+
+| Opción | Cómo funciona | Ventajas | Desventajas |
+|---|---|---|---|
+| Pedidos por WhatsApp con catálogo | El cliente elige y pide por mensaje; paga por transferencia o al recibir | Muy barato, conocido por todos | Manual; depende de quien atiende |
+| Tienda en línea propia | Página con catálogo, carrito y pago en línea, con un servicio de tiendas en línea | Control de la marca, los precios y los datos de clientes; sin comisión de terceros por venta | Hay que atraer visitas; costos de la plataforma y de pagos en línea |
+| Mercado en línea (marketplace) | Se publican productos en una plataforma con millones de compradores | Muchos clientes desde el inicio, confianza de la plataforma, logística y pagos incluidos | Comisiones por venta; mucha competencia; menos control |
+| Plataformas de reparto de comida | El restaurante aparece en una aplicación; la plataforma lleva el pedido | Alcance y repartidores | Comisiones altas; poco control de la experiencia (lección M4-4) |
+
+## Qué se necesita para vender en línea
+1. **Catálogo** con fotos de calidad, descripciones claras y precios con impuestos.
+2. **Forma de pago en línea** segura (pasarelas de pago, tarjetas, transferencias).
+3. **Logística:** cómo se entrega (propia, paquetería, recoger en tienda) y en qué tiempo (lección M9-8).
+4. **Atención al cliente:** responder dudas rápido, manejar cambios y devoluciones.
+5. **Políticas claras:** envíos, devoluciones, garantías, aviso de privacidad (lección M14-4).
+6. **Facturación** de las ventas en línea.
+7. **Atraer visitas:** marketing digital (lección M12-6).
+8. **Medir:** visitas, conversión, ticket promedio, carritos abandonados.
+
+## Mercados en línea en América Latina
+**Mercado Libre**, fundada en Argentina en 1999, se convirtió en el mercado en línea más grande de América Latina. Además del mercado, desarrolló **Mercado Pago** (pagos y servicios financieros) y **Mercado Envíos** (logística), que permiten a millones de pequeños vendedores vender en línea sin tener que construir todo por su cuenta. Amazon también opera en México con un mercado para vendedores externos. Para muchos negocios pequeños, estas plataformas son la forma más rápida de empezar a vender en línea.
+
+## La decisión de Tortas Lupita
+- **CRM:** Karla y Toño adoptan un CRM en la nube gratuito: cada oficina tiene su ficha, su historial y sus tareas. Cuando Karla falta, Toño ve en el celular a quién hay que llamar.
+- **Comercio electrónico:** para pedidos individuales, mantienen WhatsApp con catálogo y agregan un enlace de pago en línea. Para la salsa envasada (lección M12-4), la publican en un mercado en línea con envíos a todo el país. No abren una tienda en línea propia todavía, porque no tendrían cómo atraer suficientes visitas.
+- **Medición:** cada mes revisan pedidos en línea, ticket promedio y opiniones.
+
+## Lo digital no elimina lo básico
+Vender en línea exige lo mismo que vender en el mostrador: buen producto, buen precio, cumplir lo prometido, atender bien y cuidar los números (comisiones, empaques, envíos). Muchos negocios descubren que una venta en línea, después de comisiones y envío, deja menos margen que la del mostrador; por eso conviene calcularlo antes (lección M4-4).`,
+k: `**CRM:** guarda en un solo lugar los datos, el historial y las interacciones de cada cliente; evita perder oportunidades y que el conocimiento dependa de una persona. **Comercio electrónico:** WhatsApp con catálogo, **tienda propia**, **mercado en línea** (marketplace) o plataformas de reparto. Necesitas catálogo, pago seguro, logística, atención, políticas, facturación, marketing y medición.`,
+ch: `Una tienda de artesanías vende en su local y publica sus productos en un mercado en línea; las ventas en línea ya son una tercera parte del total, con envíos a todo el país.`,
+gi: `Mercado Libre, fundada en 1999, combina un mercado en línea, servicios de pago (Mercado Pago) y logística (Mercado Envíos) que usan millones de vendedores en América Latina. Salesforce popularizó el CRM en la nube desde su fundación en 1999.`,
+e: `Lupita compara el margen de un frasco de salsa vendido en el local y en un mercado en línea:
+
+| Concepto | Local | Mercado en línea |
+|---|---|---|
+| Precio | 85 | 95 |
+| Comisión de la plataforma (aprox. 15 %) | 0 | 14.25 |
+| Envío a cargo del vendedor (parte) | 0 | 12 |
+| Empaque especial | 0 | 5 |
+| Costo de la salsa y el frasco | 28 | 28 |
+| **Margen** | **57** | **35.75** |
+
+En línea gana menos por frasco, pero llega a clientes de todo el país que nunca visitarían el local. Conviene si las ventas en línea son adicionales y no le quitan ventas al local.`,
+r: `Mercado Libre informa en sus reportes anuales millones de vendedores y compradores activos en América Latina, y describe cómo Mercado Pago y Mercado Envíos se integran con su mercado en línea. Salesforce, fundada en San Francisco en 1999, se convirtió en una de las principales empresas de software de CRM.`,
+f: `MercadoLibre, Inc., informe anual (Form 10-K); Salesforce, información corporativa.`,
+err: ["Guardar la información de los clientes solo en el celular de un vendedor.","No registrar las interacciones el mismo día.","Abrir una tienda en línea sin plan para atraer visitas.","Vender en línea sin calcular comisiones, envío y empaque."],
+a: `Diseña la ficha de cliente de un CRM sencillo para el negocio que observas (qué datos, historial y notas guardarías). Después compara dos opciones de comercio electrónico para uno de sus productos y calcula el margen en cada una.`,
+sol: `Si el margen en línea es mucho menor, considera precios distintos para el canal en línea o un pedido mínimo para envío gratis.`,
+q: [["Un CRM sirve para…",["Guardar en un solo lugar la información y las interacciones de cada cliente","Pagar la nómina","Calcular impuestos"],0,"Customer relationship management."],
+["Una ventaja de vender en un mercado en línea es…",["Acceso a muchos compradores desde el inicio","No pagar comisiones","No tener competencia"],0,"A cambio de comisiones y más competencia."],
+["¿Qué empresa latinoamericana combinó un mercado en línea con pagos y logística?",["Mercado Libre","Bimbo","Cemex"],0,"Con Mercado Pago y Mercado Envíos."],
+["Antes de vender en línea conviene…",["Calcular el margen después de comisiones, envío y empaque","Bajar todos los precios","No facturar"],0,"La venta en línea puede dejar menos margen."]],
+t: ["CRM","Comercio electrónico","Mercado en línea (marketplace)","Tienda en línea","Pasarela de pago"]
+},
+"M15-6": {
+s: `Un lunes, la administradora recibe un WhatsApp del «proveedor de carne» con un número nuevo: «Cambiamos de cuenta, deposita aquí el pago de la semana». Paga 18,000 pesos. Horas después, el proveedor real llama preguntando por su dinero. Fue un fraude. Lupita entiende que la seguridad digital también es parte del negocio.`,
+o: ["Reconocer los fraudes y amenazas digitales más comunes para un negocio.","Aplicar medidas básicas de ciberseguridad.","Diseñar un plan de respaldos de la información."],
+x: `## Los riesgos digitales también son riesgos del negocio
+A medida que un negocio usa más tecnología (WhatsApp, banca en línea, sistemas en la nube, terminales de pago), también se expone a **riesgos digitales**: fraudes, robo de información, pérdida de datos, ataques que bloquean sus sistemas. Los negocios pequeños creen que «nadie se va a fijar en ellos», pero muchas veces son blanco fácil precisamente porque tienen menos protecciones.
+
+## Los fraudes más comunes
+1. **Suplantación de proveedores o clientes:** alguien se hace pasar por un proveedor (con un número o correo parecido) y pide que se pague a una cuenta nueva. Es exactamente lo que le pasó a Tortas Lupita. A nivel empresarial se le conoce como fraude por correo comprometido o del «falso proveedor».
+2. **Suplantación del banco o de la autoridad (phishing):** mensajes, correos o llamadas que parecen del banco, del SAT o de una paquetería, con un enlace que lleva a una página falsa para robar contraseñas o datos de tarjetas.
+3. **Comprobantes de pago falsos:** capturas de pantalla de transferencias que no se hicieron (lección M15-2).
+4. **Robo de cuentas de WhatsApp o redes:** alguien pide «el código que te llegó por mensaje» y se queda con la cuenta, desde donde pide dinero a los contactos.
+5. **Programas maliciosos y secuestro de datos (ransomware):** un archivo o enlace infecta la computadora y cifra (bloquea) la información; luego piden un rescate para liberarla.
+6. **Fraudes con tarjetas** en ventas en línea (compras con tarjetas robadas que luego se desconocen).
+7. **Empleados o exempleados** que usan accesos que no se les retiraron.
+
+## Las medidas básicas
+No hace falta ser experto para protegerse de la mayoría de estos riesgos. Unas cuantas reglas sencillas reducen mucho el peligro:
+
+**Contra los fraudes de pago**
+- **Nunca cambies los datos bancarios** de un proveedor por un mensaje o correo. Confirma siempre **llamando al número que ya tenías registrado** (no al que viene en el mensaje).
+- **Doble autorización** para pagos grandes o para cuentas nuevas (una persona prepara, otra autoriza; lección M10-1).
+- **Verifica en tu banco** que los pagos de clientes llegaron antes de entregar.
+
+**Contra el robo de cuentas**
+- **Contraseñas largas y distintas** para cada servicio importante (banco, correo, sistema, redes). Una frase larga es más segura y más fácil de recordar que una palabra con símbolos.
+- **Usa un administrador de contraseñas** si manejas muchas cuentas.
+- **Activa la verificación en dos pasos** (un código adicional en el celular) en el banco, el correo, WhatsApp y las redes.
+- **Nunca compartas los códigos** que te llegan por mensaje: ningún banco, plataforma o «soporte» los pide.
+
+**Contra los enlaces y archivos maliciosos**
+- **Desconfía** de mensajes con urgencia («tu cuenta será bloqueada hoy»), errores de ortografía o remitentes desconocidos.
+- **No abras enlaces ni archivos** inesperados; entra directamente a la página oficial escribiendo la dirección.
+- **Mantén actualizados** el sistema operativo, el navegador y las aplicaciones: muchas actualizaciones corrigen fallas de seguridad.
+- **Usa antivirus** en las computadoras.
+
+**Control de accesos**
+- **Un usuario por persona** en el sistema, con los permisos mínimos que necesita.
+- **Retira los accesos** el mismo día que alguien deja el negocio y cambia las contraseñas compartidas.
+- **Bloquea** las computadoras y celulares con contraseña.
+
+## Los respaldos: la regla 3-2-1
+Perder la información del negocio (ventas, clientes, contabilidad) puede ser tan grave como un incendio. Las causas: una computadora descompuesta, un celular robado, un ataque de ransomware, un error humano. La protección principal son los **respaldos** (copias de seguridad). Una regla práctica muy usada es la **3-2-1**:
+- **3** copias de la información (la original y dos respaldos).
+- En **2** medios distintos (por ejemplo, la computadora y un disco externo).
+- **1** copia fuera del negocio (por ejemplo, en la nube o en otra ubicación).
+
+Y lo más importante: **prueba de vez en cuando que puedes recuperar** la información desde el respaldo. Un respaldo que no se puede restaurar no sirve.
+
+Si los sistemas del negocio están en la nube, el proveedor suele hacer respaldos, pero conviene verificar cómo y exportar los datos importantes de vez en cuando.
+
+## Qué hacer si ocurre un fraude o un ataque
+1. **Actúa rápido:** llama a tu banco para intentar detener o rastrear la transferencia.
+2. **Cambia las contraseñas** de las cuentas afectadas.
+3. **Avisa** a tus clientes y proveedores si tu cuenta fue robada, para que no caigan en el mismo engaño.
+4. **Denuncia** ante las autoridades (en México, por ejemplo, ante la policía cibernética de tu entidad o la Fiscalía) y, si es un tema bancario, ante tu banco y la **Condusef**.
+5. **Guarda las pruebas:** capturas, números, correos.
+6. **Revisa qué falló** y corrige el proceso.
+
+## La lección de Tortas Lupita
+La transferencia no se pudo recuperar. Lupita establece tres reglas: ningún cambio de cuenta de un proveedor se acepta sin una llamada al número registrado; los pagos de más de 5,000 pesos necesitan la autorización de dos personas; y todos activan la verificación en dos pasos en WhatsApp y el banco. Además, Toño configura un respaldo semanal del sistema y de las hojas de cálculo en un disco externo y en la nube.
+
+## En las empresas gigantes
+Las grandes empresas tienen áreas de **ciberseguridad** con especialistas que vigilan sus sistemas las 24 horas, hacen pruebas de ataque, capacitan a los empleados y tienen planes de respuesta. Aun así, sufren ataques: en 2017, un programa de secuestro de datos llamado **WannaCry** afectó a cientos de miles de computadoras en más de cien países, incluidas grandes empresas y servicios de salud, aprovechando una falla de un sistema operativo para el que ya existía una actualización de seguridad. La lección para todos: actualizar y respaldar.`,
+k: `Fraudes comunes: **falso proveedor**, **phishing** (suplantación del banco o la autoridad), comprobantes falsos, robo de cuentas, **ransomware**. Defensas: confirmar cambios de cuenta **llamando al número registrado**, **doble autorización** de pagos, contraseñas largas y distintas, **verificación en dos pasos**, nunca compartir códigos, actualizar, un usuario por persona. Respaldos **3-2-1** y prueba de recuperación.`,
+ch: `Una estética recibe un mensaje «del banco» pidiendo actualizar sus datos con un enlace; en lugar de abrirlo, la dueña llama al número de su tarjeta y confirma que es un fraude.`,
+gi: `En 2017, el ransomware WannaCry afectó a cientos de miles de computadoras en más de cien países, incluidos hospitales del sistema de salud británico y grandes empresas, aprovechando una falla para la que ya existía una actualización de seguridad.`,
+e: `Lupita compara el costo de las medidas con el costo del fraude:
+
+| Concepto | Pesos |
+|---|---|
+| Fraude del falso proveedor (perdido) | 18,000 |
+| Disco externo para respaldos | 1,500 (una vez) |
+| Respaldo en la nube | 150 al mes |
+| Tiempo de configurar verificación en dos pasos y reglas | 2 horas |
+| Llamada de confirmación antes de cada cambio de cuenta | 2 minutos |
+
+Las medidas cuestan una fracción de un solo fraude.`,
+r: `En mayo de 2017, el ataque de ransomware WannaCry se extendió por todo el mundo y afectó a organizaciones como el Servicio Nacional de Salud del Reino Unido y empresas de telecomunicaciones, transporte y manufactura. Aprovechaba una vulnerabilidad de Windows para la que Microsoft había publicado una actualización semanas antes.`,
+f: `Informes de agencias de ciberseguridad y comunicados de Microsoft sobre WannaCry (2017); Condusef, alertas de fraudes financieros (gob.mx/condusef).`,
+err: ["Cambiar la cuenta de pago de un proveedor por un mensaje sin llamar para confirmar.","Usar la misma contraseña para todo.","Compartir códigos de verificación.","No tener respaldos o nunca probar que funcionan."],
+a: `Haz una revisión de seguridad digital del negocio que observas (o de tu propia vida digital): contraseñas, verificación en dos pasos, respaldos, accesos de exempleados y reglas para pagos. Escribe tres reglas que implementarías esta semana.`,
+sol: `Las tres reglas con más impacto suelen ser: confirmar por teléfono cualquier cambio de cuenta, activar la verificación en dos pasos en banco y WhatsApp, y hacer un respaldo semanal en dos lugares.`,
+q: [["Si un «proveedor» pide por mensaje pagar a una cuenta nueva, lo correcto es…",["Llamar al número que ya tenías registrado para confirmar","Pagar de inmediato","Responder el mensaje pidiendo confirmación"],0,"Así se evita el fraude del falso proveedor."],
+["La verificación en dos pasos consiste en…",["Pedir un código adicional además de la contraseña","Usar dos contraseñas iguales","Tener dos celulares"],0,"Hace mucho más difícil robar una cuenta."],
+["La regla de respaldos 3-2-1 significa…",["3 copias, en 2 medios distintos, 1 fuera del negocio","3 contraseñas, 2 usuarios, 1 computadora","3 días, 2 semanas, 1 mes"],0,"Y hay que probar la recuperación."],
+["Un banco o una plataforma legítima…",["Nunca pide los códigos que te llegan por mensaje","Siempre los pide","Los pide por WhatsApp"],0,"Compartirlos permite robar la cuenta."]],
+t: ["Ciberseguridad","Phishing","Fraude del falso proveedor","Ransomware","Verificación en dos pasos","Respaldo 3-2-1","Condusef"]
+},
+"M15-7": {
+s: `Toño lee que la inteligencia artificial «va a cambiar todos los negocios». Prueba un asistente para escribir publicaciones y responder mensajes, y le sorprende lo rápido que funciona. Pero un día el asistente le dice a un cliente que hay una promoción que no existe. ¿Para qué sirven realmente los datos, la automatización y la IA en un negocio?`,
+o: ["Explicar cómo usar los datos del negocio para decidir.","Identificar tareas que conviene automatizar.","Usar herramientas de inteligencia artificial con criterio, conociendo sus límites."],
+x: `## Los datos ya están ahí
+Cada venta registrada en el punto de venta, cada pedido por WhatsApp, cada factura y cada reseña es un **dato**. Con los sistemas de las lecciones anteriores, Tortas Lupita ya tiene información que hace unos años era imposible de reunir: qué se vende, cuándo, a quién, cuánto deja, qué falla. La pregunta ya no es cómo conseguir datos, sino **cómo usarlos para decidir mejor**.
+
+## Del dato a la decisión
+El camino típico es:
+1. **Datos:** registros sueltos (ventas por ticket).
+2. **Información:** datos organizados (ventas por producto y por hora).
+3. **Conocimiento:** patrones e interpretación («los viernes de 13:00 a 14:00 se vende el doble de tortas de pierna»).
+4. **Decisión:** una acción («preparar más pierna los viernes y reforzar la cocina en ese horario»).
+5. **Medición:** comprobar si funcionó.
+
+Algunas preguntas que los datos de un negocio pequeño pueden responder:
+- ¿Qué productos dejan más margen total? (mezcla, lección M5-6).
+- ¿Qué horas y días necesitan más personal? (lección M13-1).
+- ¿Qué clientes dejaron de comprar? (lección M11-8).
+- ¿Cuánto se debe pedir de cada insumo? (lección M9-6).
+- ¿Qué promoción funcionó? (lección M12-8).
+
+## La automatización
+**Automatizar** es lograr que una tarea repetitiva se haga sola o con mucha menos intervención humana. Conviene automatizar tareas que son:
+- **Repetitivas** (se hacen igual muchas veces).
+- **Basadas en reglas claras.**
+- **Propensas a errores** cuando se hacen a mano.
+- **Que consumen tiempo** sin agregar mucho valor.
+
+Ejemplos accesibles para un negocio pequeño:
+- El punto de venta que **descuenta inventario** con cada venta.
+- **Respuestas automáticas** en WhatsApp Business para preguntas frecuentes y fuera de horario.
+- **Recordatorios automáticos** de pago a clientes con crédito.
+- **Facturación** automática de las ventas del día.
+- **Reportes** que llegan solos cada lunes.
+- **Pedidos sugeridos** a proveedores cuando el inventario llega al punto de reorden.
+
+La automatización libera tiempo de las personas para lo que sí requiere criterio: atender a un cliente difícil, negociar con un proveedor, pensar en mejoras.
+
+## La inteligencia artificial
+La **inteligencia artificial** (IA) es un conjunto de técnicas que permiten a las computadoras realizar tareas que normalmente requieren inteligencia humana: reconocer patrones, entender y generar texto, reconocer imágenes, hacer pronósticos o recomendaciones. En los últimos años se popularizaron las herramientas de **IA generativa**, que pueden escribir textos, responder preguntas, resumir documentos o crear imágenes a partir de instrucciones en lenguaje común.
+
+## Usos útiles para un negocio pequeño
+- **Redactar borradores:** publicaciones para redes, descripciones de productos, correos, anuncios de vacantes, políticas.
+- **Resumir y ordenar:** sacar las quejas más frecuentes de un conjunto de reseñas.
+- **Apoyar el análisis:** explicar una tendencia en una tabla de ventas o sugerir preguntas para analizarla.
+- **Ideas:** nombres de productos, promociones, formatos de capacitación.
+- **Traducir** textos para clientes extranjeros.
+- **Atención básica:** responder preguntas frecuentes (horarios, menú), siempre con supervisión.
+
+## Los límites de la IA
+Usar la IA con criterio significa conocer sus límites:
+- **Puede equivocarse con seguridad:** a veces inventa datos, promociones, leyes o cifras que suenan convincentes pero son falsas. Es exactamente lo que le pasó a Toño. **Todo lo que la IA produce debe revisarlo una persona** antes de publicarlo o enviarlo a un cliente.
+- **No conoce tu negocio** si no le das la información correcta y actualizada.
+- **Datos personales:** no se deben compartir datos personales de clientes o empleados con herramientas externas sin cuidar la ley de protección de datos y las condiciones de uso de la herramienta (lección M14-4).
+- **Información confidencial:** las recetas, los precios de los proveedores o los planes del negocio no deberían pegarse sin cuidado en herramientas cuyo manejo de datos no conoces.
+- **Sesgos:** la IA puede reproducir prejuicios presentes en los datos con que fue entrenada; no debe usarse sola para decisiones sobre personas (contratar, despedir).
+- **Responsabilidad:** si la herramienta promete algo a un cliente, el responsable sigue siendo el negocio.
+
+## Reglas para usar la IA en Tortas Lupita
+1. La IA hace **borradores**; una persona revisa y aprueba.
+2. Nunca se le dan **datos personales** de clientes o empleados.
+3. Las **respuestas automáticas** a clientes solo pueden tratar temas fijos (horario, menú, ubicación); todo lo demás lo atiende una persona.
+4. Las **promociones y precios** solo se comunican desde la lista oficial.
+5. Se **mide** si la herramienta ahorra tiempo o mejora resultados; si no, se deja.
+
+## La IA en las empresas gigantes
+Las grandes empresas usan IA para recomendar productos (las tiendas en línea que sugieren «otros clientes también compraron»), pronosticar la demanda de cada producto en cada tienda, detectar fraudes con tarjetas, optimizar rutas de reparto y atender clientes. Pero también enfrentan sus límites: en 2024, McDonald's anunció que terminaba una prueba de pedidos por voz con IA en cientos de sus autoservicios en Estados Unidos, que había desarrollado con IBM, después de que se difundieran en redes pedidos equivocados; la empresa dijo que seguiría explorando opciones de este tipo. La lección es la misma que aprendió Toño: la tecnología ayuda, pero hay que probarla, supervisarla y medirla.
+
+## Cierre del módulo y del Nivel 2
+Con el Módulo 15 termina el recorrido por dentro del negocio: estructura, dirección, finanzas, operaciones, compras, ventas, marketing, personas, legal y tecnología. Tortas Lupita pasó de un puesto que funcionaba «de memoria» a un local formal con áreas, procesos, indicadores y sistemas. En el Nivel 3 aprenderás a tomar decisiones con más método, a controlar con presupuestos e indicadores y a crecer: sucursales, financiamiento, franquicias y expansión.`,
+k: `**Datos → información → conocimiento → decisión → medición.** **Automatiza** lo repetitivo, basado en reglas y propenso a errores (inventario, respuestas frecuentes, recordatorios, facturación, reportes). **IA generativa:** útil para borradores, resúmenes, ideas y atención básica, pero **puede equivocarse**: revisa siempre, no compartas datos personales ni confidenciales y no decidas sobre personas solo con ella.`,
+ch: `Una papelería usa los datos de su punto de venta para descubrir que en julio se venden el triple de mochilas; compra a tiempo y no se queda sin inventario en el regreso a clases.`,
+gi: `Las tiendas en línea usan sistemas de recomendación basados en los datos de compra de millones de clientes. En 2024, McDonald's terminó una prueba de pedidos por voz con inteligencia artificial en autoservicios de Estados Unidos, desarrollada con IBM, tras problemas con pedidos equivocados.`,
+e: `Toño mide el tiempo ahorrado con automatización e IA en un mes:
+
+| Tarea | Antes (horas al mes) | Después (horas al mes) | Herramienta |
+|---|---|---|---|
+| Responder preguntas frecuentes por WhatsApp | 20 | 6 | Respuestas automáticas |
+| Escribir publicaciones para redes | 8 | 3 | Borradores con IA, revisados |
+| Preparar el reporte semanal de ventas | 6 | 0.5 | Reporte automático del sistema |
+| Recordatorios de pago a oficinas | 3 | 0.5 | Mensajes programados |
+| **Total** | **37** | **10** | |
+
+Ahorra 27 horas al mes, que dedica a visitar oficinas con Karla.`,
+r: `En junio de 2024, McDonald's informó a sus franquiciatarios que terminaría su prueba de pedidos automatizados por voz en más de cien autoservicios de Estados Unidos, desarrollada con IBM, aunque señaló que seguiría evaluando soluciones de pedidos por voz en el futuro.`,
+f: `Notas de prensa económica de junio de 2024 sobre el fin de la prueba de pedidos por voz con IA de McDonald's e IBM.`,
+err: ["Publicar o enviar a clientes textos de IA sin revisarlos.","Compartir datos personales de clientes con herramientas externas.","Automatizar un proceso desordenado sin mejorarlo antes.","Tener datos y no usarlos para decidir."],
+a: `Elige tres tareas repetitivas del negocio que observas y propón cómo automatizar cada una. Después usa una herramienta de IA para redactar una publicación o un anuncio de vacante, y revísalo con ojo crítico: anota qué datos tuviste que corregir.`,
+sol: `Revisa especialmente precios, fechas, promociones y cualquier afirmación sobre leyes o salud: son los puntos donde la IA suele equivocarse.`,
+q: [["El camino correcto para usar datos es…",["Datos → información → conocimiento → decisión → medición","Decidir y luego buscar datos","Guardar datos sin usarlos"],0,"Los datos solo valen si llevan a decisiones."],
+["Conviene automatizar tareas que son…",["Repetitivas, basadas en reglas y propensas a errores","Únicas y que requieren mucho criterio","Ninguna"],0,"Así se libera tiempo para lo importante."],
+["¿Cuál es un límite importante de la IA generativa?",["Puede inventar datos que suenan convincentes","Nunca se equivoca","No sabe escribir"],0,"Todo debe revisarlo una persona."],
+["¿Qué NO conviene hacer con una herramienta de IA externa?",["Darle datos personales de clientes sin cuidar la ley y las condiciones de uso","Pedirle un borrador de una publicación","Pedirle ideas de promociones"],0,"Hay que proteger los datos personales y confidenciales."]],
+t: ["Inteligencia artificial","IA generativa","Automatización","Análisis de datos","Sistema de recomendación"]
+}
+});
