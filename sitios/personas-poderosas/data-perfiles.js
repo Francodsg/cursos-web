@@ -260,3 +260,72 @@ window.BREVES = [
 ["Jeff Bezos","1964–","TEC","Contemporáneos","América del Norte","Fundador de Amazon y de Blue Origin."],
 ["Mark Zuckerberg","1984–","TEC","Contemporáneos","América del Norte","Fundador de Facebook (Meta)."]
 ];
+
+// Ampliación según el Plan 4 (§1.3): cada perfil completo con al menos 5 decisiones clave,
+// citas clasificadas, mitos y realidades, 3 preguntas para pensar y 2 fuentes.
+(function(){
+const A = {
+"adolf-hitler": {
+ citas:[["«Si la judería financiera internacional […] lograra precipitar a los pueblos una vez más a una guerra mundial, el resultado no será […] la victoria de la judería, sino la aniquilación de la raza judía en Europa.»","Discurso en el Reichstag, 30 de enero de 1939. Se cita como prueba documental de su intención genocida, no como mensaje.","ver"],
+  ["«Si repites una mentira suficientes veces, se convierte en verdad.»","Atribuida a Hitler o a Goebbels; no aparece así en sus escritos. En Mi lucha Hitler habla de la «gran mentira», pero atribuyéndola a sus enemigos.","apo"]]},
+"elon-musk": {
+ citas:[["«Estoy considerando sacar Tesla de bolsa a 420 dólares. Financiación asegurada.»","Tuit del 7 de agosto de 2018; llevó a un acuerdo con la SEC (multa de 20 millones de dólares para él y otros 20 para Tesla, y su salida de la presidencia del consejo).","ver"],
+  ["«El pájaro ha sido liberado.»","Tuit del 28 de octubre de 2022, al cerrar la compra de Twitter.","ver"]],
+ preguntas:["¿Debe una empresa privada controlar infraestructuras con peso geopolítico, como Starlink?"]},
+"donald-trump": {
+ citas:[["«Estás despedido» (You're fired)","Frase recurrente del programa de televisión El aprendiz (2004–2015).","ver"]],
+ mitos:[["Hizo su fortuna empezando de cero","Según una investigación de The New York Times (2018) basada en documentos fiscales, recibió de su padre el equivalente a cientos de millones de dólares actuales a lo largo de su vida. Trump ha calificado la investigación de falsa."],
+  ["«Make America Great Again» es un lema creado por él","Ronald Reagan ya usó «Let's Make America Great Again» en 1980; Trump lo registró como marca en 2012."]],
+ preguntas:["¿Cómo debe tratar la historia a un presidente cuyo mandato sigue en curso?"]},
+"alejandro-magno": {
+ decisiones:[["Destruir Tebas (335 a. C.)","Tras una rebelión griega, arrasó Tebas y vendió como esclavos a sus habitantes. El castigo ejemplar aseguró la obediencia de Grecia antes de partir hacia Asia."]],
+ citas:[["«Si no fuera Alejandro, querría ser Diógenes.»","Transmitida por Plutarco (Vida de Alejandro, 14), unos cuatro siglos después; anécdota no comprobable.","dud"]],
+ mitos:[["Lloró porque ya no quedaban mundos que conquistar","Plutarco cuenta otra cosa: lloró al oír que había infinitos mundos, porque aún no había conquistado ni uno. La versión moderna es una deformación."],
+  ["Se sabe que murió envenenado","La causa de su muerte en Babilonia (323 a. C.) es desconocida; las hipótesis van de una fiebre (malaria, tifoidea) al veneno, sin pruebas concluyentes."]],
+ preguntas:["¿Podía sobrevivir un imperio tan grande sin un sucesor preparado?","¿Qué diferencia hay entre su fama y la experiencia de los pueblos conquistados?"]},
+"julio-cesar": {
+ decisiones:[["El primer triunvirato (60 a. C.)","Pactó en privado con Pompeyo y Craso para repartirse la influencia política. Le dio el consulado y el mando en la Galia, pero la alianza se rompió tras la muerte de Craso (53 a. C.)."],
+  ["La clemencia con los vencidos (49–44 a. C.)","Perdonó a muchos partidarios de Pompeyo, en lugar de las proscripciones de Sila. Le dio prestigio, pero varios perdonados, como Bruto y Casio, participaron en su asesinato."]],
+ preguntas:["¿Fue la clemencia una virtud o un error político?","¿Qué aprendió Augusto del final de César?"]},
+"simon-bolivar": {
+ decisiones:[["La Constitución boliviana y la presidencia vitalicia (1826)","Redactó para Bolivia una constitución con presidente vitalicio que quiso extender a otros países. Sus críticos vieron en ella una monarquía encubierta y aumentó la desconfianza hacia él."]],
+ citas:[["«Yo deseo más que otro alguno ver formarse en América la más grande nación del mundo, menos por su extensión y riquezas que por su libertad y gloria.»","Carta de Jamaica, 6 de septiembre de 1815","ver"]],
+ mitos:[["Bolívar liberó solo a Sudamérica","Fue decisivo en el norte, pero la independencia fue obra de muchos: José de San Martín en el sur, Antonio José de Sucre (Ayacucho, 1824), Bernardo O'Higgins y miles de combatientes, entre ellos esclavos y llaneros."]],
+ preguntas:["¿Era compatible su ideal republicano con el poder casi absoluto que acabó pidiendo?","¿Por qué su figura se usa hoy por movimientos políticos opuestos?"]},
+"winston-churchill": {
+ decisiones:[["Galípoli (1915)","Como primer lord del Almirantazgo impulsó el ataque a los Dardanelos. Fue un fracaso con enormes bajas y le costó el cargo."],
+  ["Volver al patrón oro (1925)","Como ministro de Hacienda restableció la libra al valor de antes de la guerra. Encareció las exportaciones y agravó el paro; él mismo lo consideró después un error."]],
+ citas:[["«La democracia es la peor forma de gobierno, excepto todas las demás que se han probado.»","Cámara de los Comunes, 11 de noviembre de 1947. Él la presentó como algo que «se ha dicho»: la cita es real, pero la idea no era suya.","ver"]],
+ mitos:[["La frase sobre la democracia es una idea original de Churchill","En su discurso de 1947 la introdujo con «se ha dicho que…»; repetía una idea ya existente."]],
+ preguntas:["¿Qué pesa más al juzgarlo: 1940 o su defensa del imperio?","¿Por qué perdió las elecciones de 1945 justo después de la victoria?"]},
+"iosif-stalin": {
+ decisiones:[["Controlar el partido (1922–1929)","Desde la secretaría general colocó a sus fieles y aisló a Trotski, Zinóviev, Kámenev y Bujarin. En 1929 era el líder indiscutido."],
+  ["Deportar pueblos enteros (1941–1944)","Ordenó deportar a Asia central y Siberia a alemanes del Volga, chechenos, ingusetios, tártaros de Crimea y otros pueblos, acusados en bloque de deslealtad; murieron decenas de miles."]],
+ citas:[["«La vida ha mejorado, camaradas; la vida se ha vuelto más alegre.»","Discurso en la conferencia de estajanovistas, noviembre de 1935, poco antes del Gran Terror","ver"]],
+ mitos:[["Lenin lo eligió como sucesor","En su «testamento» (1922–1923) Lenin lo calificó de «demasiado brusco» y pidió apartarlo de la secretaría general."]],
+ preguntas:["¿Cómo logró un poder tan absoluto en un partido que se decía colectivo?","¿Por qué parte de la sociedad rusa lo recuerda todavía con nostalgia?"]},
+"nelson-mandela": {
+ decisiones:[["La Comisión de la Verdad y la Reconciliación (1995)","Apoyó una comisión que ofrecía amnistía a cambio de confesar crímenes políticos. Permitió conocer muchos hechos, aunque muchas víctimas sintieron que faltó justicia."]],
+ citas:[["«Una nación no debe juzgarse por cómo trata a sus ciudadanos más altos, sino a los más bajos.»","El largo camino hacia la libertad (1994)","ver"]],
+ mitos:[["Mandela fue siempre pacifista","Cofundó la rama armada del CNA (Umkhonto we Sizwe) en 1961 tras la masacre de Sharpeville; EE. UU. lo mantuvo en su lista de vigilancia antiterrorista hasta 2008."],
+  ["Murió en prisión en los años ochenta","Es un falso recuerdo colectivo (el llamado «efecto Mandela»). Salió libre en 1990, fue presidente de 1994 a 1999 y murió en 2013."]],
+ preguntas:["¿Puede justificarse la lucha armada contra un régimen que no permite votar?","¿Cumplió la transición sus promesas económicas?"]},
+"john-d-rockefeller": {
+ decisiones:[["Fundar Standard Oil (1870)","Creó la sociedad con su socio Henry Flagler y otros; en pocos años controló la mayor parte del refinado de Estados Unidos."],
+  ["La gran filantropía (1890–1913)","Financió la Universidad de Chicago (1890), el Instituto Rockefeller de investigación médica (1901) y la Fundación Rockefeller (1913), que influyó en la salud pública mundial."]],
+ citas:[["«Dios me dio mi dinero.»","Atribuida a una entrevista de 1905; se repite sin texto original seguro","dud"]],
+ mitos:[["Fue el primer milmillonario de la historia","La prensa lo llamó así en 1916, cuando subieron sus acciones, pero las estimaciones de su fortuna varían y comparar riquezas de épocas distintas es discutible."]],
+ preguntas:["¿Borra la filantropía las críticas a cómo se hizo la fortuna?","¿Qué empresas actuales se comparan con Standard Oil y por qué?"]},
+"steve-jobs": {
+ decisiones:[["El Apple II y la salida a bolsa (1977–1980)","Convirtió el diseño de Steve Wozniak en un producto de consumo terminado; su éxito llevó a Apple a bolsa en 1980."]],
+ citas:[["«Los verdaderos artistas entregan» (Real artists ship)","Según Andy Hertzfeld, a su equipo del Macintosh, 1983","ver"]],
+ mitos:[["Jobs inventó él solo los productos de Apple","Wozniak diseñó el Apple I y el Apple II; la interfaz gráfica se inspiró en Xerox PARC; los productos eran obra de grandes equipos. Su papel fue de visión, selección y exigencia."]],
+ preguntas:["¿Qué parte de su éxito es mérito personal y qué parte de su equipo?","¿Cambió su forma de dirigir tras su salida de Apple?"],
+ fuentes:["Brent Schlender y Rick Tetzeli, Becoming Steve Jobs (2015)","Andy Hertzfeld, Revolution in the Valley (2004)"]}
+};
+const ORDEN = {"alejandro-magno":[0],"julio-cesar":[0,3],"simon-bolivar":[3],"nelson-mandela":[3],"winston-churchill":[0,1],"iosif-stalin":[0],"john-d-rockefeller":[1],"steve-jobs":[0]};
+window.PERFILES.forEach(p => { const x = A[p.slug]; if (!x) return;
+  ["citas","mitos","preguntas","fuentes"].forEach(k => { if (x[k]) p[k] = (p[k] || []).concat(x[k]); });
+  // Las decisiones nuevas se insertan en su lugar cronológico (posición indicada en ORDEN).
+  (x.decisiones || []).forEach((d, i) => { const at = (ORDEN[p.slug] || [])[i]; if (at == null) p.decisiones.push(d); else p.decisiones.splice(at, 0, d); }); });
+})();

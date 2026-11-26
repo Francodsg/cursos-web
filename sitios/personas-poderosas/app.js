@@ -45,14 +45,18 @@ function answer(q){
   const e2 = ev.map(e => ({e, s: score(qn, e.t + " " + e.p.nombre)})).sort((a,b) => b.s - a.s)[0];
   if (e2 && e2.s >= 0.67) return {kind:"Fecha", html:`<p><b>${yr(e2.e.y)}</b>: ${esc(e2.e.t)} (${esc(e2.e.p.nombre)}).</p><a href="${href("p/"+e2.e.p.slug)}#crono">Ver la cronología</a>`};
   if (p) return {kind:"Personaje", html:`<p><b>${esc(p.nombre)}</b> (${esc(p.fechas)})</p><p>${esc(p.resumen)}</p><a class="btn" href="${href("p/"+p.slug)}">Abrir</a>`};
-  return {kind:"Sin respuesta", html:`<p>No tenemos información sobre esto todavía. Prueba con un personaje, un término (p. ej., «Lebensraum») o una pregunta como «¿Cómo llegó Hitler al poder?».</p>`};
+  const sug = ALL.map(x => ({x, s: score(qn, x.nombre + " " + x.resumen)})).filter(o => o.s > 0).sort((a,b) => b.s - a.s).slice(0,3);
+  return {kind:"Sin respuesta", none:true, html:`<p>No tenemos información sobre esto todavía. Prueba con un personaje, un término (p. ej., «Lebensraum») o una pregunta como «¿Cómo llegó Hitler al poder?».</p>${sug.length?`<p class="meta">Quizá te interese: ${sug.map(o => `<a href="${href("p/"+o.x.slug)}">${esc(o.x.nombre)}</a>`).join(" · ")}</p>`:""}<button class="btn sec" data-fb="tema">Proponer un tema</button>`};
 }
 function findPerson(qn){ return findPersonScored(qn).p; }
 function findPersonScored(qn){ qn = norm(qn); let best = null, bs = 0;
   ALL.forEach(p => { const names = [p.nombre, ...(p.alias||[])]; names.forEach(n => { const nn = norm(n); let s = qn === nn ? 3 : qn.includes(nn) ? 2 : nn.split(" ").includes(qn) && qn.length >= 3 ? 2 : nn.split(" ").some(w => w.length > 3 && qn.split(" ").includes(w)) ? 1 : 0; if (s > bs){ bs = s; best = p; } }); });
   return {p: best, s: bs}; }
 function allQuotes(){ const out = []; PF.forEach(p => (p.citas||[]).forEach(c => out.push([c[0], p.nombre, c[1], c[2]]))); return out.concat(window.CITAS_EXTRA); }
-function infobox(q){ const a = answer(q); return a ? `<div class="infobox" role="status"><div class="kind">${esc(a.kind)}</div>${a.html}</div>` : ""; }
+function infobox(q){ const a = answer(q); if (!a) return "";
+  if (a.none){ const log = store.get("pp_sin_respuesta", []); if (!log.includes(q)) { log.push(q); store.set("pp_sin_respuesta", log.slice(-100)); } }
+  const fb = a.none ? "" : `<div class="fb"><span class="meta">¿Te sirvió esta respuesta?</span> <button class="btn sec" data-fb="si">Sí</button> <button class="btn sec" data-fb="no">No</button> <button class="btn sec" data-fb="error">Informar de un error</button></div>`;
+  return `<div class="infobox" role="status" data-q="${esc(q)}"><div class="kind">${esc(a.kind)}</div>${a.html}${fb}<p class="meta fbmsg" aria-live="polite"></p></div>`; }
 
 // ---------- Páginas ----------
 const crumbs = items => `<div class="crumbs">${items.map(([t,h]) => h != null ? `<a href="${href(h)}">${esc(t)}</a>` : esc(t)).join(" › ")}</div>`;
@@ -174,6 +178,10 @@ function bind(){
   document.querySelectorAll("[data-anchor]").forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById(a.dataset.anchor).scrollIntoView({behavior:"smooth"}); });
   const cb = document.getElementById("cmpbtn"); if (cb) cb.onclick = () => location.hash = "#/comparar/" + cb.dataset.a + "/" + document.getElementById("cmpsel").value;
   const cg = document.getElementById("cmpgo"); if (cg) cg.onclick = () => location.hash = "#/comparar/" + document.getElementById("ca").value + "/" + document.getElementById("cb").value;
+  document.querySelectorAll("[data-fb]").forEach(b => b.onclick = () => { const box = b.closest(".infobox"), k = b.dataset.fb, log = store.get("pp_opiniones", []);
+    log.push({q: box.dataset.q, k, t: new Date().toISOString().slice(0,10)}); store.set("pp_opiniones", log.slice(-200));
+    box.querySelector(".fbmsg").textContent = k === "tema" ? "Gracias. Tu propuesta se ha anotado (anónima, solo en este navegador) para ampliar el contenido." : k === "error" ? "Gracias. El aviso de error se ha anotado (anónimo, solo en este navegador) para la revisión editorial." : "Gracias por tu opinión.";
+    box.querySelectorAll("[data-fb]").forEach(x => x.disabled = true); });
   const f = document.getElementById("filter"); if (f) f.oninput = () => { const v = norm(f.value); document.querySelectorAll("#ftable tr").forEach(tr => tr.style.display = norm(tr.textContent).includes(v) ? "" : "none"); };
 }
 document.getElementById("searchform").onsubmit = e => { e.preventDefault(); location.hash = "#/buscar?q=" + encodeURIComponent(document.getElementById("q").value); };
