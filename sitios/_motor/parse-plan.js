@@ -37,6 +37,8 @@ for (let i = 0; i < lines.length; i++) {
 
   const row = ln.match(/^\| *(\d+) *(★)? *\| *(.+?) *\|(.*)$/);
   if (row) { cur.L.push({t: row[3], star: !!row[2], extra: row[4].replace(/\|\s*$/, "").replace(/^\s*\|?\s*/, "").trim()}); continue; }
+  const rng = ln.match(/^(\d+)[–-](\d+)\. (★ )?(.+?)\.?$/);
+  if (rng && !cur.hasTable && pendingLabel === null) { const a = +rng[1], b = +rng[2]; for (let k = a; k <= b; k++) cur.L.push({t: rng[4].replace(/\s*\([^)]*\)$/, "") + " (" + (k - a + 1) + " de " + (b - a + 1) + ")", star: !!rng[3], extra: ""}); continue; }
   const num = ln.match(/^(\d+)\. (★ )?(.+)$/);
   if (num && !cur.hasTable && pendingLabel === null) { cur.L.push({t: num[3], star: !!num[2], extra: ""}); continue; }
   if (/^\| ?Lección|^\|---/.test(ln)) { cur.hasTable = true; continue; }

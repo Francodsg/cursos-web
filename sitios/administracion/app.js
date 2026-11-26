@@ -2,6 +2,8 @@
 (function(){
 "use strict";
 const D = window.DATA, C = D.cfg, MODS = D.modules;
+MODS.forEach(m => m.L.forEach(x => { if (/^[—–-]?$/.test((x.extra||"").trim())) x.extra = ""; }));
+const X = window.EXTRA || {};
 const app = document.getElementById("app");
 const KEY = "curso_" + C.toolset;
 const store = { get(k,d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } }, set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
@@ -25,7 +27,7 @@ const lvlName = n => C.levelNames[n] || ("Nivel " + n);
 // Personas (científicos / autores) a partir del plan
 const PEOPLE = [];
 MODS.forEach(m => C.peopleKeys.forEach(k => { const v = m.f[k]; if (typeof v !== "string") return;
-  splitList(plain(v)).forEach(s => { const mm = s.match(/^(.+?)\s*\((.+)\)\s*$/); const name = (mm ? mm[1] : s).trim(); if (name.length > 2 && name.length < 70 && !PEOPLE.some(p => p.name === name && p.mod === m)) PEOPLE.push({name, note: mm ? mm[2] : "", mod: m}); }); }));
+  splitList(plain(v)).forEach(s => { const mm = s.match(/^(.+?)\s*\((.+)\)\s*$/); const name = (mm ? mm[1] : s).trim(); if (name.length > 2 && name.length < 70 && /^[A-ZÁÉÍÓÚÑ]/.test(name) && !PEOPLE.some(p => p.name === name && p.mod === m)) PEOPLE.push({name, note: mm ? mm[2] : "", mod: m}); }); }));
 function splitList(s){ const out = []; let depth = 0, cur = ""; for (const ch of s.replace(/\.$/, "")) { if (ch === "(") depth++; if (ch === ")") depth--; if ((ch === "," || ch === ";") && depth === 0){ out.push(cur); cur = ""; } else cur += ch; } out.push(cur); return out.map(x => x.trim()).filter(Boolean); }
 
 // Catálogo (experimentos o casos)
@@ -66,7 +68,7 @@ function pageHome(){
   return `<h1>${esc(C.title)}</h1><p class="lead">${esc(C.sub)}</p><div class="row"><a class="btn" href="${href("m/"+MODS[0].id)}">Empezar</a>${last}</div>
   <div class="panel"><b>${MODS.length} módulos · ${TOTAL} lecciones · ${ITEMS.length} ${C.catalogName.toLowerCase()} · ${PEOPLE.length} ${C.peopleName.toLowerCase()}</b><p class="meta">${esc(C.legend)}</p></div>
   <h2>Áreas</h2><div class="grid">${Object.entries(C.areas).map(([k,a]) => { const ms = MODS.filter(m => m.area === k), n = ms.reduce((s,m)=>s+m.L.length,0), d = ms.reduce((s,m)=>s+modDone(m),0); return ms.length ? `<a class="card" style="--c:${a[1]}" href="${href("area/"+k)}"><h3>${a[2]} ${esc(a[0])}</h3><div class="meta">${ms.length} módulos · ${n} lecciones</div>${bar(pct(d,n))}</a>` : ""; }).join("")}</div>
-  <h2>Niveles</h2><div class="grid">${levels.map(n => `<a class="card" href="${href("nivel/"+n)}"><div class="meta">Nivel ${n}</div><h3>${esc(lvlName(n))}</h3><div class="meta">${MODS.filter(m=>m.lvl===n).length} módulos</div></a>`).join("")}</div>`;
+  ${X.homeExtra ? X.homeExtra() : ""}<h2>Niveles</h2><div class="grid">${levels.map(n => `<a class="card" href="${href("nivel/"+n)}"><div class="meta">Nivel ${n}</div><h3>${esc(lvlName(n))}</h3><div class="meta">${MODS.filter(m=>m.lvl===n).length} módulos</div></a>`).join("")}</div>`;
 }
 function pageCourse(){
   const areas = Object.keys(C.areas).filter(a => MODS.some(m => m.area === a));
@@ -100,7 +102,7 @@ function pageModule(id){
    ${m.ctx ? `<div class="panel"><h3>Contexto histórico</h3><p>${md(cap(m.ctx))}</p></div>` : ""}
    <h2>Lecciones</h2><div class="panel">${lessonList(m,-1)}</div>
    ${fields.map(([k,v]) => fieldBlock(k, v)).join("")}
-   <h2>Quiz del módulo</h2><p>${P.quiz[m.id]!=null ? "Mejor resultado: " + P.quiz[m.id] + "%" : "10 preguntas · se aprueba con 70 %"}</p><a class="btn" href="${href("m/"+m.id+"/quiz")}">Hacer el quiz</a>`;
+   <h2>Quiz del módulo</h2><p>${P.quiz[m.id]!=null ? "Mejor resultado: " + P.quiz[m.id] + "%" : "10 preguntas · se aprueba con 70 %"}</p><a class="btn" href="${href("m/"+m.id+"/quiz")}">Hacer el quiz</a>${X.moduleExtra ? X.moduleExtra(m) : ""}`;
 }
 function pageLesson(id, n){
   const m = mod(id); if (!m) return nf(); const i = +n - 1, x = m.L[i]; if (!x) return nf(); const k = lk(m, i), a = area(m.area);
@@ -184,8 +186,9 @@ function route(){
   else if (p0 === "recursos") html = pageResources();
   else if (p0 === "progreso") html = pageProgress();
   else if (p0.startsWith("buscar")) html = pageSearch(decodeURIComponent(h.split("?q=")[1]||""));
+  else if (X.routes && X.routes[p0]) html = X.routes[p0](p1, p2);
   else html = nf();
-  const nav = [["","Inicio"],["curso","Mapa del curso"],["catalogo",C.catalogName],["personas",C.peopleName],["herramientas","Herramientas"],["recursos","Recursos"],["progreso","Mi progreso"]];
+  const nav = [["","Inicio"],["curso","Mapa del curso"],["catalogo",C.catalogName],["personas",C.peopleName],["herramientas","Herramientas"],...(X.nav||[]),["recursos","Recursos"],["progreso","Mi progreso"]];
   document.getElementById("mainnav").innerHTML = nav.map(([p,t]) => `<a href="${href(p)}" class="${p0===p||(!p0&&!p)?"on":""}">${t}</a>`).join("");
   const same = app.dataset.route === h, y = scrollY; app.innerHTML = html; app.dataset.route = h; scrollTo(0, same ? y : 0);
   document.title = (app.querySelector("h1")?.textContent || "") + " · " + C.short;
@@ -203,6 +206,7 @@ function bind(){
   document.querySelectorAll("[data-item]").forEach(c => c.onchange = () => { P.items[c.dataset.item] = c.checked; save(); });
   const rs = document.getElementById("reset"); if (rs) rs.onclick = () => { if (confirm("¿Seguro? Se borrará todo tu progreso.")){ P = {lessons:{}, quiz:{}, notes:{}, items:{}, last:null}; save(); route(); } };
   if (window.TOOLS && location.hash.startsWith("#/herramientas")) window.TOOLS.bind();
+  if (X.bind) X.bind(location.hash.replace(/^#\/?/, "").split("/")[0]);
 }
 document.getElementById("brand").textContent = C.short; document.getElementById("brand").href = "#/";
 document.getElementById("foot").textContent = C.footer;
