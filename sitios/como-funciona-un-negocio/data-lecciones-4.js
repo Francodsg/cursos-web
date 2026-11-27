@@ -1385,3 +1385,612 @@ q: [["Una falla central en el caso Enron fue…",["Usar entidades fuera del bala
 t: ["Escándalo corporativo","Entidad fuera del balance","Canal de denuncias","Vendedor en corto","Ley Sarbanes-Oxley"]
 }
 });
+
+// ===== M25. Empresas en la bolsa =====
+Object.assign(window.LECC, {
+"M25-1": {
+s: `Rosa, la cajera de Tortas Lupita, escucha en las noticias que «las acciones de una empresa subieron 5 %». Le pregunta a Lupita: «¿Qué es una acción? ¿Yo podría comprar una? ¿Y qué gano?». Lupita sabe que Grupo Lupita tiene acciones, pero nunca lo había explicado. Esta lección es para Rosa (y para ti).`,
+o: ["Explicar qué es una acción y qué derechos da.","Distinguir entre ser dueño de una acción y prestar dinero a una empresa.","Describir las dos formas de ganar (y de perder) con una acción."],
+x: `## Ser dueño de un pedacito
+Una **acción** es una **parte del capital** de una sociedad anónima. Si una empresa tiene 1,000,000 de acciones y tú tienes 100, eres dueño de una diezmilésima parte de la empresa (0.01 %). Pequeña, pero real: eres **socio**.
+
+Las acciones existen en todas las sociedades anónimas, coticen o no en bolsa. La diferencia es que las de las empresas que **cotizan en bolsa** se pueden **comprar y vender** fácilmente entre millones de personas, todos los días, a un precio que se forma en el mercado.
+
+## Qué te da una acción
+Como vimos en la lección M24-2, una acción ordinaria da:
+1. **Derechos económicos:**
+   - Recibir **dividendos** cuando la asamblea decide repartir utilidades.
+   - Participar en el **valor** de la empresa: si la empresa vale más, tu acción vale más.
+   - Recibir una parte de lo que quede si la empresa se liquida (después de pagar todas las deudas).
+2. **Derechos políticos:** votar en la asamblea de accionistas (según el tipo de acción).
+3. **Derecho a información:** conocer los resultados y las decisiones importantes de la empresa.
+
+## Acciones frente a bonos
+Una empresa puede conseguir dinero de los inversionistas de dos formas (lección M19-6):
+| | Acción (capital) | Bono (deuda) |
+|---|---|---|
+| ¿Qué eres? | Dueño (socio) | Prestamista (acreedor) |
+| ¿Qué recibes? | Dividendos (si se reparten) y cambios en el precio | Intereses pactados y la devolución del dinero |
+| ¿Hay pago seguro? | No | Sí, mientras la empresa pueda pagar |
+| Si la empresa quiebra | Cobras al final, si queda algo | Cobras antes que los accionistas |
+| Si a la empresa le va muy bien | Tu ganancia puede ser grande | Solo recibes lo pactado |
+| Riesgo | Mayor | Menor |
+
+## Las dos formas de ganar
+1. **Dividendos:** si la empresa reparte utilidades, recibes una cantidad por cada acción.
+2. **Ganancia de capital:** si compras una acción a 50 pesos y después la vendes a 65, ganas 15 pesos por acción.
+
+Y, por supuesto, las dos formas de **perder**: la empresa puede no repartir dividendos y el precio de la acción puede **bajar**. Si la empresa quiebra, la acción puede valer **cero**. Por eso invertir en acciones es **riesgoso**.
+
+## El rendimiento total
+El **rendimiento** de una acción en un periodo combina las dos fuentes:
+
+**Rendimiento = (precio final − precio inicial + dividendos) ÷ precio inicial.**
+
+Ejemplo: compras a 50, recibes 2 de dividendo y vendes a 55. Rendimiento = (55 − 50 + 2) ÷ 50 = 7 ÷ 50 = **14 %**.
+
+## Por qué el precio sube y baja
+El precio de una acción en bolsa depende de lo que los compradores y vendedores estén dispuestos a pagar. Eso, a su vez, depende de lo que esperan que la empresa **gane en el futuro**, del **riesgo**, de las **tasas de interés**, de la economía y del ánimo de los inversionistas. En el corto plazo, los precios pueden moverse mucho por noticias, rumores o emociones; en el largo plazo, tienden a reflejar mejor los resultados de la empresa (lección M25-5).
+
+## Cómo se compra una acción
+Las personas no compran directamente en la bolsa, sino a través de un **intermediario**: una **casa de bolsa** o una plataforma autorizada. En México, las casas de bolsa están supervisadas por la **CNBV**, y en años recientes han aparecido plataformas digitales que permiten invertir montos pequeños. Hay que verificar siempre que el intermediario esté **autorizado**.
+
+También se puede invertir en acciones de forma indirecta, a través de **fondos de inversión** o de **fondos cotizados (ETF)**, que reúnen dinero de muchas personas y compran muchas acciones a la vez, lo que reduce el riesgo de depender de una sola empresa. Además, en México, los trabajadores formales invierten indirectamente en acciones a través de su **Afore**, que administra el ahorro para el retiro.
+
+## La diversificación
+Un principio básico de la inversión es **no poner todos los huevos en la misma canasta**. Si inviertes todo en una sola empresa y le va mal, pierdes mucho. Si inviertes en muchas empresas de distintos sectores, el mal resultado de una se compensa con otras. Por eso muchos expertos recomiendan, para la mayoría de las personas, invertir de forma diversificada y a largo plazo, después de tener un fondo de emergencia y sin deudas caras.
+
+## Aviso importante
+Este curso es **educativo**: no es una recomendación de inversión ni de compra o venta de ninguna acción. Antes de invertir, infórmate, entiende los riesgos, revisa que el intermediario esté autorizado y, si es necesario, consulta a un asesor financiero certificado. Desconfía de cualquiera que te prometa ganancias seguras y rápidas.
+
+## La respuesta a Rosa
+Lupita le explica a Rosa que, si compra una acción de una empresa en bolsa, se vuelve socia de una parte pequeñísima; que puede ganar si la empresa reparte dividendos o si la acción sube, y perder si baja; que lo más prudente, si quiere empezar, es aprender primero, tener ahorros de emergencia, invertir solo lo que no necesitará pronto y hacerlo de forma diversificada a través de un intermediario autorizado.`,
+k: `**Acción:** parte del capital de una sociedad anónima; te hace **socio**. Da derechos económicos (dividendos, valor), políticos (voto) y de información. **Bono:** préstamo a la empresa con intereses. **Rendimiento = (precio final − precio inicial + dividendos) ÷ precio inicial.** Las acciones pueden subir o bajar: son **riesgosas**; conviene diversificar. Contenido educativo, **no es recomendación de inversión**.`,
+ch: `Una persona compra acciones de varias empresas grandes a través de una plataforma autorizada, con un monto pequeño cada mes. No elige «la acción de moda»: reparte su dinero en un fondo que incluye muchas empresas.`,
+gi: `Las empresas más grandes del mundo tienen millones de accionistas: fondos de pensiones, fondos de inversión y personas. En México, las Afores invierten parte del ahorro para el retiro de los trabajadores en acciones de empresas mexicanas y extranjeras, según la información de la Consar.`,
+e: `Rendimiento de una inversión en acciones durante un año:
+
+| Concepto | Valor |
+|---|---|
+| Acciones compradas | 100 |
+| Precio de compra | 50 |
+| Inversión | 5,000 |
+| Dividendo recibido | 2 por acción = 200 |
+| Precio al final del año | 55 |
+| Valor final | 5,500 |
+| Ganancia total | 5,500 − 5,000 + 200 = **700** |
+| **Rendimiento** | 700 ÷ 5,000 = **14 %** |
+
+Si el precio hubiera bajado a 45: 4,500 − 5,000 + 200 = −300 → rendimiento de **−6 %**.`,
+r: `La Comisión Nacional del Sistema de Ahorro para el Retiro (Consar) informa que las Afores invierten los recursos de los trabajadores en distintos instrumentos, incluidos valores de renta variable (acciones) nacionales e internacionales, dentro de límites regulados.`,
+f: `Consar (gob.mx/consar); Comisión Nacional Bancaria y de Valores (cnbv.gob.mx).`,
+err: ["Creer que una acción es un préstamo con ganancia asegurada.","Invertir todo en una sola empresa.","Invertir dinero que se necesitará pronto.","Usar intermediarios no autorizados.","Creer en promesas de ganancias rápidas y seguras."],
+a: `Compraste 200 acciones a 30 pesos. Durante el año recibiste 1.50 de dividendo por acción y al final la acción vale 27. Calcula tu ganancia o pérdida total y tu rendimiento. Después, explica en dos frases por qué la diversificación reduce el riesgo.`,
+sol: `Inversión: 6,000. Valor final: 5,400. Dividendos: 300. Resultado: 5,400 − 6,000 + 300 = −300 → rendimiento de −5 %. La diversificación reduce el riesgo porque el mal resultado de una empresa se compensa con el de otras; es poco probable que a todas les vaya mal al mismo tiempo por la misma razón.`,
+q: [["Tener una acción te convierte en…",["Socio de la empresa","Prestamista de la empresa","Empleado de la empresa"],0,"Eres dueño de una parte del capital."],
+{n:1,t:"Compras una acción a 50, recibes 2 de dividendo y la vendes a 55. ¿Cuál es tu rendimiento (en %)?",a:14,tol:0,u:"%",e:"(55 − 50 + 2) ÷ 50 = 14 %."},
+["Si una empresa quiebra, ¿quién cobra primero?",["Los acreedores, como los tenedores de bonos","Los accionistas","Nadie cobra nunca"],0,"Los accionistas cobran al final, si queda algo."],
+["Diversificar significa…",["Repartir la inversión entre muchas empresas o activos","Invertir todo en la acción de moda","No invertir nunca"],0,"Reduce el riesgo de depender de una sola empresa."]],
+t: ["Acción","Bono","Ganancia de capital","Rendimiento","Casa de bolsa","Fondo de inversión","Diversificación"]
+},
+"M25-2": {
+s: `El fondo de capital privado que tiene el 20 % de Grupo Lupita quiere vender su parte en dos años. Una opción es que Grupo Lupita **salga a bolsa**: venda acciones al público. El banco de inversión dice que es posible, pero que el proceso tarda más de un año, cuesta mucho y cambia para siempre la forma de operar. ¿Por qué y cómo sale una empresa a bolsa?`,
+o: ["Explicar qué es una oferta pública inicial y por qué una empresa sale a bolsa.","Describir las etapas del proceso en México.","Evaluar las ventajas y desventajas de cotizar en bolsa."],
+x: `## Qué es salir a bolsa
+**Salir a bolsa** es ofrecer por primera vez las acciones de una empresa al **público inversionista** para que se puedan comprar y vender en una bolsa de valores. A esa primera venta se le llama **oferta pública inicial** (en inglés, IPO, *initial public offering*). Desde ese momento, la empresa es una **empresa pública** (en el sentido de que sus acciones están en manos del público, no de que sea del gobierno) y su acción **cotiza** en la bolsa.
+
+En la oferta puede haber:
+- **Oferta primaria:** la empresa emite **acciones nuevas** y recibe el dinero, que usa para crecer o pagar deuda.
+- **Oferta secundaria:** accionistas existentes (fundadores, fondos) **venden sus acciones**; el dinero va a ellos, no a la empresa.
+Muchas ofertas combinan ambas.
+
+## Por qué salen a bolsa las empresas
+1. **Conseguir capital** para crecer, sin endeudarse.
+2. **Dar liquidez a los accionistas:** los fundadores, los fondos y los empleados pueden vender sus acciones con facilidad.
+3. **Valuación pública:** el mercado fija un precio diario a la empresa, lo que facilita usar las acciones para comprar otras empresas o para pagar incentivos.
+4. **Prestigio y visibilidad:** ante clientes, proveedores, bancos y talento.
+5. **Acceso futuro al mercado:** una vez listada, la empresa puede volver a emitir acciones o deuda con más facilidad.
+6. **Ordenar la sucesión** en empresas familiares: los familiares que no quieren seguir pueden vender.
+
+## Las desventajas
+1. **Costos altos:** comisiones de los bancos colocadores, abogados, auditores, la bolsa y el regulador; y costos anuales de cumplimiento.
+2. **Transparencia obligatoria:** hay que publicar resultados cada trimestre, eventos relevantes, compensaciones y estrategias; la competencia también lo lee.
+3. **Presión de corto plazo:** los analistas y los inversionistas siguen cada trimestre.
+4. **Pérdida de control parcial:** nuevos accionistas, consejeros independientes, reglas de gobierno (Módulo 24).
+5. **El precio puede caer:** por razones de la empresa o del mercado, lo que afecta el ánimo de empleados y fundadores.
+6. **Riesgo de compra hostil** si el control no está bien protegido.
+
+## Quiénes participan
+- **La empresa emisora** y sus accionistas vendedores.
+- **Bancos de inversión o casas de bolsa colocadoras:** asesoran, preparan la oferta, buscan inversionistas y fijan el precio. A menudo se comprometen a comprar las acciones que no se vendan (suscripción).
+- **Abogados** de la empresa y de los colocadores.
+- **Auditor externo:** dictamina los estados financieros.
+- **El regulador:** en México, la **CNBV**, que autoriza la oferta y la inscripción en el Registro Nacional de Valores.
+- **La bolsa:** BMV o BIVA (lección M25-3), donde se listan las acciones.
+- **El depósito de valores:** en México, **Indeval**, donde se registran las acciones y se liquidan las operaciones.
+- **Inversionistas:** institucionales (Afores, fondos, aseguradoras, extranjeros) y personas.
+
+## Las etapas (versión simplificada para México)
+1. **Preparación (6 a 18 meses o más):** ordenar el gobierno corporativo (lección M24-8), convertirse en S.A.B. o S.A.P.I.B., tener estados financieros auditados de varios años, sistemas de información, área de relación con inversionistas.
+2. **Elegir a los colocadores** y definir el tamaño y tipo de la oferta.
+3. **Preparar el prospecto:** el documento con toda la información de la empresa: historia, negocio, estrategia, riesgos, estados financieros, gobierno, uso de los recursos. Se revisa con la CNBV.
+4. **Autorización** de la CNBV e inscripción en el Registro Nacional de Valores, y listado en la bolsa.
+5. **Promoción (*roadshow*):** la dirección presenta la empresa a inversionistas en varias ciudades o en línea.
+6. **Construcción del libro:** los colocadores reciben las órdenes de compra de los inversionistas a distintos precios.
+7. **Fijación del precio y asignación:** se decide el precio final y cuántas acciones recibe cada inversionista.
+8. **Primer día de cotización:** las acciones empiezan a comprarse y venderse en la bolsa.
+9. **Vida como empresa pública:** reportes trimestrales y anuales, asambleas, eventos relevantes.
+
+## El precio de la oferta
+Fijar el precio es un equilibrio: si es **muy alto**, los inversionistas no compran o la acción cae después; si es **muy bajo**, la empresa y los vendedores reciben menos dinero del que podrían. Es común que el precio se fije con un pequeño descuento para que la acción tenga un buen inicio.
+
+## Otras formas de llegar a la bolsa
+- **Listado directo:** la empresa lista sus acciones sin una oferta de acciones nuevas.
+- **Fusión con una empresa de propósito especial (SPAC):** una empresa sin operaciones que ya cotiza se fusiona con la empresa privada. Fueron muy populares en Estados Unidos alrededor de 2020 y 2021 (WeWork usó esta vía, lección M24-9).
+- **En México**, además del mercado de acciones, existen instrumentos como los fideicomisos de inversión en bienes raíces (FIBRAs) y los certificados de capital de desarrollo (CKD), que permiten financiar proyectos a través de la bolsa.
+
+## El caso de Grupo Lupita
+Con ventas de 450 millones de pesos, Grupo Lupita es todavía pequeño para una oferta pública en México: los costos y la falta de interés de los grandes inversionistas en empresas pequeñas lo hacen difícil. El banco de inversión sugiere dos caminos: crecer unos años más y prepararse, o vender la parte del fondo a otro fondo o a un inversionista estratégico (una venta privada). La decisión se analiza en el caso de este módulo.`,
+k: `**Oferta pública inicial (OPI o IPO):** primera venta de acciones de una empresa al público para que coticen en bolsa. **Primaria** (la empresa recibe dinero) o **secundaria** (venden accionistas existentes). Razones: capital, **liquidez** para accionistas, valuación pública, prestigio. Desventajas: costos, transparencia, presión de corto plazo, pérdida parcial de control. En México participan la **CNBV**, la bolsa, **Indeval**, los colocadores y el **prospecto**.`,
+ch: `Una empresa mediana de alimentos no sale a bolsa, pero emite certificados bursátiles de deuda en la bolsa mexicana para financiar una planta. Así empieza a acostumbrarse a la transparencia antes de pensar en una oferta de acciones.`,
+gi: `Mercado Libre salió a la bolsa Nasdaq en agosto de 2007 con una oferta pública inicial, según su prospecto ante la Comisión de Bolsa y Valores de Estados Unidos, después de varios años de financiarse con fondos de capital emprendedor (lección M19-4).`,
+e: `Oferta pública ilustrativa (cifras ficticias):
+
+| Concepto | Valor |
+|---|---|
+| Acciones antes de la oferta | 80 millones |
+| Acciones nuevas (oferta primaria) | 20 millones |
+| Acciones que vende el fondo (secundaria) | 10 millones |
+| Precio de la oferta | 25 pesos |
+| Dinero para la empresa | 20 millones × 25 = **500 millones** |
+| Dinero para el fondo | 10 millones × 25 = **250 millones** |
+| Costos de la oferta (aprox. 5 % del total) | 5 % × 750 = **37.5 millones** |
+| Acciones después de la oferta | 100 millones |
+| Valor de mercado al precio de la oferta | 100 millones × 25 = **2,500 millones** |`,
+r: `En México, la CNBV autoriza las ofertas públicas y la inscripción de valores en el Registro Nacional de Valores, y las acciones se listan en la Bolsa Mexicana de Valores o en la Bolsa Institucional de Valores; S.D. Indeval es la institución para el depósito de valores que registra y liquida las operaciones, según la información de estas instituciones.`,
+f: `CNBV; Bolsa Mexicana de Valores; Bolsa Institucional de Valores; S.D. Indeval; Mercado Libre, prospecto (2007).`,
+err: ["Salir a bolsa sin haber ordenado antes el gobierno corporativo.","Creer que todo el dinero de una oferta va a la empresa (puede ser secundaria).","Subestimar los costos y obligaciones de ser una empresa pública.","Fijar un precio demasiado alto que hace caer la acción después.","Salir a bolsa siendo demasiado pequeño para atraer a los inversionistas."],
+a: `Una empresa tiene 50 millones de acciones. Ofrece 10 millones de acciones nuevas a 40 pesos, y su fundador vende 5 millones de las suyas al mismo precio. Calcula cuánto dinero recibe la empresa, cuánto el fundador, cuántas acciones habrá después y el valor de mercado al precio de la oferta.`,
+sol: `Empresa: 10 millones × 40 = 400 millones. Fundador: 5 millones × 40 = 200 millones. Acciones después: 50 + 10 = 60 millones. Valor de mercado: 60 millones × 40 = 2,400 millones de pesos.`,
+q: [["En una oferta secundaria, el dinero va a…",["Los accionistas que venden","La empresa","El gobierno"],0,"En la primaria, va a la empresa."],
+["El documento con toda la información de la empresa para la oferta se llama…",["Prospecto","Factura","Organigrama"],0,"Se revisa con el regulador."],
+["En México, la autoridad que autoriza las ofertas públicas es…",["La CNBV","La Profeco","El IMSS"],0,"Comisión Nacional Bancaria y de Valores."],
+["Una desventaja de cotizar en bolsa es…",["La transparencia obligatoria y la presión de corto plazo","Tener más acceso a capital","Dar liquidez a los accionistas"],0,"Las otras dos son ventajas."]],
+t: ["Oferta pública inicial","Oferta primaria","Oferta secundaria","Prospecto","Banco de inversión","Indeval","Liquidez"]
+},
+"M25-3": {
+s: `Si Grupo Lupita sale a bolsa algún día, ¿en cuál? El banco menciona la BMV y BIVA en México, y la Bolsa de Nueva York o Nasdaq en Estados Unidos. Toño pregunta: «¿No es lo mismo una bolsa que otra? ¿Por qué hay tantas?».`,
+o: ["Explicar qué es una bolsa de valores y para qué sirve.","Describir las principales bolsas de México y de Estados Unidos.","Entender qué es un índice bursátil."],
+x: `## Qué es una bolsa de valores
+Una **bolsa de valores** es una organización que ofrece la **infraestructura** para que se compren y vendan **valores** (acciones, bonos, certificados, fondos cotizados) de forma ordenada, transparente y segura. La bolsa **no compra ni vende** por su cuenta: conecta las órdenes de los compradores y de los vendedores, que llegan a través de intermediarios (casas de bolsa), y publica los precios.
+
+Funciones de una bolsa:
+- **Listar** a las empresas y otros emisores que cumplen sus requisitos.
+- **Operar** el sistema donde se casan las órdenes de compra y venta.
+- **Difundir** información: precios, volúmenes, reportes de las empresas, eventos relevantes.
+- **Vigilar** que la operación se haga conforme a las reglas (junto con el regulador).
+
+## Mercado primario y secundario
+- **Mercado primario:** cuando los valores se venden por **primera vez** (por ejemplo, en una oferta pública inicial, lección M25-2). El dinero puede ir a la empresa.
+- **Mercado secundario:** cuando los inversionistas **se compran y venden** entre sí valores que ya existían. La empresa no recibe dinero, pero el mercado secundario es lo que da **liquidez** y hace atractivo invertir.
+
+## Las bolsas de México
+1. **Bolsa Mexicana de Valores (BMV):** es la bolsa más antigua del país; sus antecedentes se remontan a finales del siglo XIX y opera con su nombre actual desde 1975. Es una empresa que también cotiza en bolsa (Grupo BMV) e incluye otros servicios, como el depósito de valores Indeval y una contraparte central, según su información corporativa.
+2. **Bolsa Institucional de Valores (BIVA):** empezó a operar en **2018**, como segunda bolsa del país, con el objetivo de aumentar la competencia y atraer nuevas emisoras.
+
+Las empresas pueden listarse en una y operar en ambas. En comparación con su economía, el mercado de acciones mexicano tiene **relativamente pocas empresas listadas** (alrededor de 140 a 150 emisoras de acciones en la BMV en años recientes, según la información de la propia bolsa), y muchas empresas grandes son familiares o privadas.
+
+## El Sistema Internacional de Cotizaciones (SIC)
+En la BMV y en BIVA existe el **SIC**, un mercado donde se pueden comprar y vender en pesos acciones y fondos cotizados de empresas extranjeras (por ejemplo, de Estados Unidos) que ya cotizan en sus mercados de origen. Así, un inversionista en México puede comprar acciones de empresas internacionales a través de una casa de bolsa mexicana.
+
+## Las bolsas de Estados Unidos
+1. **Bolsa de Nueva York (NYSE):** la más grande del mundo por el valor de mercado de sus empresas. Su origen suele fecharse en **1792**, con el Acuerdo de Buttonwood, firmado por un grupo de corredores en Wall Street.
+2. **Nasdaq:** fundada en **1971** como el primer mercado electrónico de acciones; muchas empresas de tecnología cotizan ahí (Apple, Microsoft, Amazon, Alphabet, Meta), aunque también hay empresas de otros sectores.
+
+Varias empresas latinoamericanas cotizan en Nueva York o en Nasdaq, ya sea directamente o mediante **ADR** (certificados que representan acciones de una empresa extranjera y se operan en Estados Unidos). Por ejemplo, Mercado Libre cotiza en Nasdaq; FEMSA y América Móvil han tenido ADR en Nueva York, según su información para inversionistas.
+
+## Otras bolsas importantes
+Londres, Tokio, Shanghái, Shenzhen, Hong Kong, Euronext (que agrupa a varias bolsas europeas), Fráncfort y, en Latinoamérica, B3 (Brasil), las bolsas de Santiago, Colombia y Lima, entre otras.
+
+## Por qué una empresa elegiría una bolsa u otra
+- **Dónde están sus inversionistas** y su mercado principal.
+- **Tamaño y liquidez:** las bolsas grandes tienen más inversionistas y más operaciones.
+- **Valuaciones:** algunos sectores reciben mejores valuaciones en ciertos mercados (por ejemplo, tecnología en Estados Unidos).
+- **Costos y requisitos** de listado y de cumplimiento.
+- **Prestigio** y visibilidad internacional.
+- **Leyes y supervisión:** cotizar en Estados Unidos implica cumplir las reglas de la Comisión de Bolsa y Valores (SEC), que son muy exigentes.
+
+## Los índices bursátiles
+Un **índice** es un número que resume el comportamiento de un grupo de acciones. Sirve como **termómetro** del mercado:
+- **S&P/BMV IPC:** el principal índice de la Bolsa Mexicana de Valores; agrupa a alrededor de 35 empresas de las más grandes y con más operaciones.
+- **FTSE BIVA:** índice de BIVA.
+- **S&P 500:** las 500 grandes empresas de Estados Unidos.
+- **Dow Jones Industrial Average:** 30 empresas grandes de Estados Unidos; uno de los índices más antiguos.
+- **Nasdaq Composite y Nasdaq-100:** empresas que cotizan en Nasdaq.
+
+Cuando las noticias dicen «la bolsa subió 1 %», normalmente se refieren a que el índice principal subió 1 %. Muchos fondos cotizados (ETF) buscan replicar un índice, lo que permite invertir en todas sus empresas a la vez (lección M25-1).
+
+## Los horarios y la operación
+Las bolsas operan en horarios definidos los días hábiles. Hoy casi toda la operación es **electrónica**: las órdenes de compra y venta se casan en computadoras en fracciones de segundo. Existen mecanismos de protección, como la suspensión temporal de la operación de una acción cuando su precio se mueve demasiado en poco tiempo.
+
+## Para Grupo Lupita
+Por su tamaño y porque su negocio y sus inversionistas están en México, si algún día sale a bolsa, lo natural sería listarse en la BMV o en BIVA. Cotizar en Nueva York o en Nasdaq solo tendría sentido si fuera una empresa mucho más grande, con operaciones o inversionistas importantes en Estados Unidos.`,
+k: `**Bolsa de valores:** infraestructura para comprar y vender valores de forma ordenada; lista emisores, opera el sistema, difunde información y vigila. **Mercado primario** (primera venta) y **secundario** (entre inversionistas). México: **BMV** (nombre actual desde 1975) y **BIVA** (desde 2018); **SIC** para valores extranjeros. EE. UU.: **NYSE** (1792) y **Nasdaq** (1971). **Índices:** S&P/BMV IPC, S&P 500, Dow Jones, Nasdaq.`,
+ch: `Una persona en Guadalajara compra, a través de una casa de bolsa mexicana, acciones de una empresa mexicana en la BMV y, en la misma cuenta, un fondo cotizado que replica el S&P 500 a través del SIC.`,
+gi: `Nasdaq empezó a operar en 1971 como el primer mercado electrónico de acciones del mundo, según la propia empresa; hoy cotizan en él muchas de las mayores empresas de tecnología, como Apple, Microsoft y Alphabet.`,
+e: `Cómo se calcula de forma muy simplificada un índice de tres empresas ponderado por valor de mercado:
+
+| Empresa | Valor de mercado inicial | Valor de mercado final | Cambio |
+|---|---|---|---|
+| A | 600 | 660 | +10 % |
+| B | 300 | 285 | −5 % |
+| C | 100 | 110 | +10 % |
+| **Total** | **1,000** | **1,055** | **+5.5 %** |
+
+El índice sube 5.5 %, aunque una de las tres empresas bajó, porque la empresa A pesa el 60 % del índice. Los índices reales tienen reglas más complejas, pero la idea es la misma.`,
+r: `La Bolsa Institucional de Valores (BIVA) inició operaciones el 25 de julio de 2018, según su información corporativa, convirtiéndose en la segunda bolsa de valores de México junto a la Bolsa Mexicana de Valores.`,
+f: `Bolsa Mexicana de Valores (bmv.com.mx); Bolsa Institucional de Valores (biva.mx); NYSE; Nasdaq; S&P Dow Jones Indices.`,
+err: ["Creer que la bolsa compra y vende acciones por su cuenta.","Pensar que en el mercado secundario la empresa recibe el dinero.","Creer que el índice representa a todas las empresas del país.","Confundir el precio de una acción con el valor de la empresa.","Pensar que cualquier empresa puede cotizar en cualquier bolsa sin requisitos."],
+a: `Busca en el sitio de la BMV o de BIVA cuántas emisoras de acciones hay listadas y elige tres que conozcas. Para cada una, anota su clave de cotización (por ejemplo, la abreviatura con la que aparece) y su sector. Después, busca cómo le fue al S&P/BMV IPC en el último año.`,
+sol: `Las bolsas publican la lista de emisoras con su clave y sector. Una buena respuesta incluye la fecha de consulta y reconoce que el rendimiento del índice en un año no predice el del año siguiente.`,
+q: [["En el mercado secundario…",["Los inversionistas se compran y venden valores entre sí","La empresa recibe el dinero","Se emiten acciones por primera vez"],0,"Da liquidez al mercado."],
+["¿Cuál es la segunda bolsa de valores de México, que empezó a operar en 2018?",["BIVA","Nasdaq","NYSE"],0,"Bolsa Institucional de Valores."],
+["El S&P/BMV IPC es…",["El principal índice de la Bolsa Mexicana de Valores","Un impuesto","Una casa de bolsa"],0,"Agrupa a las empresas más grandes y con más operaciones."],
+["El SIC en México permite…",["Comprar y vender acciones extranjeras en pesos","Registrar marcas","Pagar el IMSS"],0,"Sistema Internacional de Cotizaciones."]],
+t: ["Bolsa de valores","Mercado primario","Mercado secundario","Bolsa Mexicana de Valores","BIVA","Índice bursátil","Sistema Internacional de Cotizaciones","ADR"]
+},
+"M25-4": {
+s: `Lupita quiere aprender de las empresas que cotizan en bolsa y descarga el informe anual de una gran empresa mexicana. Tiene 300 páginas. Lo abre, ve tablas interminables, notas, glosarios… y lo cierra. «¿Por dónde se empieza a leer esto?», se pregunta.`,
+o: ["Identificar los tipos de reportes que publican las empresas que cotizan en bolsa.","Saber qué leer primero en un informe trimestral y anual.","Extraer los datos clave de un informe y calcular indicadores básicos."],
+x: `## Los reportes de una empresa pública
+Las empresas que cotizan en bolsa están obligadas a informar de forma periódica. En México, los principales reportes son:
+- **Reporte trimestral:** cada tres meses, con los estados financieros del trimestre y del año acumulado, y un comentario de la dirección sobre los resultados. Muchas empresas publican además un **comunicado de prensa** de resultados y una **presentación** para inversionistas, y hacen una **llamada (conferencia) con analistas**.
+- **Reporte anual:** una vez al año, con información detallada de la empresa: negocio, mercados, riesgos, gobierno corporativo, directivos, accionistas principales, y los **estados financieros dictaminados** por el auditor externo.
+- **Informe anual o integrado:** muchas empresas publican además un documento más amigable, con fotos y mensajes del presidente y del director general, que a veces incluye información de **sostenibilidad** (Módulo 27).
+- **Eventos relevantes:** avisos inmediatos de hechos importantes (lección M24-8).
+- **Convocatorias y resoluciones de asambleas.**
+
+En Estados Unidos, los equivalentes son el **10-Q** (trimestral), el **10-K** (anual) y el **8-K** (eventos), que se presentan a la SEC.
+
+Todos se encuentran gratis en el sitio de la empresa (sección de relación con inversionistas) y en los sitios de las bolsas.
+
+## Qué leer primero
+No hay que leer todo de corrido. Un orden práctico:
+1. **El comunicado de resultados o la carta del director general:** resume lo más importante en pocas páginas: ventas, utilidad, crecimiento, hechos del periodo, perspectivas.
+2. **Los datos clave (o «aspectos destacados»):** una tabla con las cifras principales y su cambio contra el año anterior.
+3. **El estado de resultados** (lección M8-2): ventas, utilidad bruta, utilidad de operación, utilidad neta. ¿Crecen? ¿Los márgenes mejoran o empeoran?
+4. **La información por segmentos** (lección M23-3): qué negocios o regiones crecen y cuáles no.
+5. **El flujo de efectivo** (lección M8-4): ¿la operación genera efectivo? ¿Cuánto se invierte? ¿Cuánto se paga en dividendos o recompras?
+6. **El balance** (lección M8-3): ¿cuánta deuda tiene? ¿Cuánto efectivo?
+7. **Los factores de riesgo:** la sección donde la empresa explica qué podría salir mal. Es muy útil para entender el negocio.
+8. **Las notas** de los estados financieros, para temas específicos.
+
+## Las cifras clave que conviene anotar
+| Dato | Dónde está | Qué te dice |
+|---|---|---|
+| Ventas (ingresos) y su crecimiento | Estado de resultados | Si el negocio crece |
+| Margen bruto | Estado de resultados | Cuánto queda después del costo de lo vendido |
+| Margen de operación | Estado de resultados | Qué tan eficiente es la operación |
+| Utilidad neta | Estado de resultados | Lo que gana para los accionistas |
+| EBITDA (si lo informa) | Comunicado | Aproximación al flujo operativo (lección M19-5) |
+| Flujo de operación | Flujo de efectivo | Efectivo generado por el negocio |
+| Inversiones (CAPEX) | Flujo de efectivo | Cuánto invierte para crecer y mantener |
+| Deuda total y efectivo | Balance | Endeudamiento |
+| Deuda neta ÷ EBITDA | Cálculo | Cuántos años de flujo operativo harían falta para pagar la deuda |
+| Dividendos | Flujo o comunicado | Cuánto regresa a los accionistas |
+
+## Cifras ajustadas y cifras oficiales
+Muchas empresas informan, además de las cifras oficiales (conforme a las normas contables, en México las NIIF), cifras **«ajustadas»** o **«comparables»** que excluyen efectos extraordinarios (por ejemplo, una venta de activos o un cambio contable). Son útiles para comparar, pero conviene leerlas con cuidado y ver qué se excluye y por qué.
+
+## Comparar en el tiempo y con otros
+Un número solo no dice mucho. Hay que compararlo:
+- **Con el mismo periodo del año anterior** (no con el trimestre anterior, porque muchos negocios tienen temporadas).
+- **Con lo que la empresa dijo que esperaba** (sus perspectivas o guía).
+- **Con empresas parecidas** del mismo sector.
+
+## La llamada con analistas
+Después de publicar sus resultados, muchas empresas hacen una conferencia en la que el director general y el de finanzas explican el trimestre y responden preguntas de analistas. Las grabaciones o las transcripciones suelen estar en el sitio de la empresa. Escucharlas ayuda a entender qué preocupa al mercado.
+
+## Advertencias
+- Los informes anuales también son una herramienta de **comunicación**: la empresa destaca lo bueno. Lee con sentido crítico.
+- Las cifras pueden estar en **millones** o **miles de millones**, en **pesos** o **dólares**: revisa siempre la unidad.
+- Los resultados pasados no garantizan resultados futuros.
+
+## La ficha de una empresa en una página
+Para el ejercicio del módulo, la ficha puede tener: nombre y clave de cotización; sector; qué vende y a quién; principales segmentos; ventas, margen de operación y utilidad neta de los últimos dos años; deuda neta y efectivo; dividendos; tres riesgos principales que menciona la empresa; quién la controla; y tu conclusión en dos frases.
+
+## Tres preguntas para cerrar la lectura
+Al terminar de revisar un informe, intenta responder con tus palabras: **1)** ¿cómo gana dinero esta empresa y qué parte de su negocio es la más importante?; **2)** ¿le fue mejor o peor que el año anterior, y por qué?; **3)** ¿qué es lo que más podría salir mal? Si puedes responder las tres en un párrafo, ya entendiste lo esencial del informe.`,
+k: `Las empresas públicas publican **reportes trimestrales**, **reporte anual** (con estados dictaminados), **informe anual o integrado** y **eventos relevantes** (en EE. UU.: 10-Q, 10-K, 8-K). Orden de lectura: comunicado o carta → datos clave → estado de resultados → segmentos → flujo de efectivo → balance → **factores de riesgo** → notas. Compara con el año anterior, con la guía y con empresas parecidas.`,
+ch: `Una dueña de una tienda de ropa lee el informe anual de una cadena grande del mismo giro. Descubre que su margen bruto es parecido al de la cadena, pero que sus gastos de operación como porcentaje de las ventas son mucho más altos. Decide revisar su renta y su personal.`,
+gi: `Las empresas que cotizan en la Bolsa Mexicana de Valores publican sus reportes trimestrales y anuales en el sitio de la bolsa y en su propia sección de relación con inversionistas, donde suelen incluir también presentaciones y grabaciones de sus conferencias con analistas.`,
+e: `Ficha resumida de una empresa ficticia que cotiza en bolsa (millones de pesos):
+
+| Dato | Año anterior | Año actual | Cambio |
+|---|---|---|---|
+| Ventas | 50,000 | 55,000 | +10 % |
+| Utilidad de operación | 5,000 | 5,775 | +15.5 % |
+| Margen de operación | 10.0 % | 10.5 % | +0.5 puntos |
+| Utilidad neta | 3,000 | 3,300 | +10 % |
+| EBITDA | 7,500 | 8,250 | +10 % |
+| Deuda total | 20,000 | 19,000 | — |
+| Efectivo | 4,000 | 2,500 | — |
+| Deuda neta | 16,000 | 16,500 | — |
+| **Deuda neta ÷ EBITDA** | 2.13 veces | **2.0 veces** | Mejora |
+
+Crece 10 %, mejora su margen y reduce su endeudamiento relativo, aunque gastó parte de su efectivo.`,
+r: `En Estados Unidos, las empresas que cotizan presentan ante la SEC el Formulario 10-K (anual), el 10-Q (trimestral) y el 8-K (eventos relevantes), que pueden consultarse gratis en el sistema EDGAR de la SEC.`,
+f: `U.S. Securities and Exchange Commission, sistema EDGAR (sec.gov); Bolsa Mexicana de Valores, información de emisoras (bmv.com.mx).`,
+err: ["Intentar leer el informe completo de corrido sin un orden.","Comparar un trimestre con el anterior en negocios con temporadas.","Confiar solo en las cifras «ajustadas» sin revisar las oficiales.","No revisar si las cifras están en millones o en miles de millones, en pesos o en dólares.","Ignorar la sección de factores de riesgo."],
+a: `Descarga el último reporte trimestral o anual de una empresa mexicana que cotice en bolsa y llena la ficha de una página descrita en la lección. Calcula su margen de operación y su deuda neta ÷ EBITDA (si informa el EBITDA). Escribe tu conclusión en dos frases.`,
+sol: `Una buena ficha cita la fuente y la fecha, usa las mismas unidades en todo, calcula correctamente los indicadores (margen = utilidad de operación ÷ ventas; deuda neta = deuda total − efectivo) y saca conclusiones prudentes sin dar recomendaciones de inversión.`,
+q: [["¿Qué conviene leer primero en un informe anual?",["El comunicado de resultados o la carta del director general","Las notas de la página 250","El índice de fotografías"],0,"Resume lo más importante."],
+["La sección de «factores de riesgo» explica…",["Qué podría salir mal para la empresa","Los premios que ganó","El menú del comedor"],0,"Es muy útil para entender el negocio."],
+{n:1,t:"Una empresa tiene deuda neta de 16,500 millones y un EBITDA de 8,250 millones. ¿Cuántas veces es la deuda neta su EBITDA?",a:2,tol:0,u:"veces",e:"16,500 ÷ 8,250 = 2.0 veces."},
+["En Estados Unidos, el reporte anual de una empresa pública ante la SEC se llama…",["10-K","8-K","W-2"],0,"El trimestral es el 10-Q."]],
+t: ["Reporte trimestral","Reporte anual","Informe integrado","Relación con inversionistas","Deuda neta","Factores de riesgo","Cifras ajustadas"]
+},
+"M25-5": {
+s: `Una mañana, Toño ve que la acción de una cadena de restaurantes que cotiza en bolsa cayó 12 % en un día. La empresa ganó dinero en el trimestre, más que el año anterior. «¿Cómo puede bajar si ganó más?», pregunta. Lupita tampoco lo entiende. ¿Qué determina el valor de mercado de una empresa?`,
+o: ["Calcular el valor de mercado de una empresa.","Explicar los factores que mueven el precio de una acción.","Usar el múltiplo precio-utilidad de forma sencilla."],
+x: `## El valor de mercado
+El **valor de mercado** (o **capitalización de mercado**) de una empresa que cotiza en bolsa es lo que valen **todas sus acciones juntas** al precio del momento:
+
+**Valor de mercado = precio de la acción × número de acciones en circulación.**
+
+Si una empresa tiene 100 millones de acciones y cada una vale 50 pesos, su valor de mercado es 5,000 millones de pesos. Es lo que, en teoría, costaría comprar toda la empresa a ese precio (en la práctica, comprar todo cuesta más, porque los vendedores piden una prima).
+
+Recuerda la diferencia de la lección M19-5:
+- **Valor de mercado:** el valor de las **acciones** (del capital).
+- **Valor de la empresa:** valor de mercado **+ deuda − efectivo**. Es lo que vale todo el negocio, incluido lo que se debe a los acreedores.
+
+## El precio refleja expectativas
+El precio de una acción no depende solo de lo que la empresa ganó, sino sobre todo de lo que los inversionistas **esperan que gane en el futuro** y de cuánto **riesgo** perciben. Por eso:
+- Una empresa puede ganar más que el año anterior y que su acción **baje**, si los inversionistas esperaban que ganara **todavía más**, o si dio malas noticias sobre el futuro (por ejemplo, que el próximo año crecerá menos).
+- Una empresa puede perder dinero y que su acción **suba**, si los inversionistas creen que pronto ganará mucho.
+
+En la cadena de restaurantes de Toño, la acción cayó porque la utilidad fue menor a lo que esperaban los analistas y porque la empresa bajó su pronóstico de crecimiento para el año siguiente.
+
+## Los factores que mueven el precio
+**De la empresa:**
+- Resultados contra lo esperado (ventas, márgenes, utilidad, flujo).
+- Perspectivas y guía que da la dirección.
+- Noticias: adquisiciones, nuevos productos, cambios de director general, problemas legales, escándalos.
+- Dividendos y recompras.
+
+**Del sector:**
+- Cambios en la competencia, la regulación o la tecnología.
+- Resultados de empresas parecidas.
+
+**De la economía y los mercados:**
+- **Tasas de interés:** cuando suben, el dinero «seguro» rinde más y las acciones tienden a valer menos, sobre todo las de empresas cuyo valor depende de utilidades lejanas en el futuro.
+- Inflación, crecimiento económico, tipo de cambio.
+- Eventos políticos y globales.
+- El **ánimo** de los inversionistas: miedo o euforia.
+
+## El múltiplo precio-utilidad
+Para comparar si una acción está «cara» o «barata» frente a otras, se usan **múltiplos** (lección M19-5). El más conocido es el **precio-utilidad** (P/U, en inglés P/E):
+
+**Precio-utilidad = precio de la acción ÷ utilidad por acción**, o, lo que es lo mismo, **valor de mercado ÷ utilidad neta anual**.
+
+Si una acción vale 50 y la empresa gana 5 pesos por acción al año, su P/U es 10: el mercado paga 10 veces la utilidad anual. Un P/U alto puede significar que el mercado espera **mucho crecimiento** (o que la acción está cara); un P/U bajo, que espera poco crecimiento, ve mucho riesgo (o que está barata). Hay que comparar con empresas del mismo sector y con la historia de la propia empresa.
+
+Otros múltiplos usados: **valor de la empresa ÷ EBITDA** y **precio ÷ valor en libros** (el capital contable del balance).
+
+## El corto y el largo plazo
+En el corto plazo, el precio de una acción puede moverse mucho por noticias y emociones. Benjamin Graham, maestro de Warren Buffett, decía que en el corto plazo el mercado es como una «máquina de votar» (refleja popularidad) y en el largo plazo una «máquina de pesar» (refleja el valor real de la empresa), según la frase que Buffett ha citado en sus cartas. Por eso, para la mayoría de las personas, intentar adivinar los movimientos de corto plazo es una apuesta, no una inversión.
+
+## Burbujas y caídas
+A veces los precios suben muy por encima de lo que justifican las utilidades esperadas: es una **burbuja**. Cuando la burbuja se rompe, los precios caen con fuerza. Ejemplos históricos: la burbuja de las empresas de internet que reventó en **2000**, o la caída de los mercados en la crisis financiera de **2008**. En esos momentos, el valor de mercado de muchas empresas bajó a la mitad o menos en poco tiempo.
+
+## El valor de mercado y la empresa
+¿Le importa a la empresa el precio de su acción si no está vendiendo acciones? Sí, por varias razones:
+- Afecta la **riqueza de sus accionistas**, incluidos los fundadores y los empleados con acciones.
+- Determina cuánto le costaría **conseguir capital** nuevo.
+- Le permite usar sus acciones para **comprar otras empresas**.
+- Un precio muy bajo puede atraer a compradores que quieran adquirir la empresa.
+- La compensación de los directivos suele depender del precio de la acción (lección M24-6).
+
+## Aviso
+Este curso es educativo: no es una recomendación de inversión ni una opinión sobre si una acción está cara o barata.`,
+k: `**Valor de mercado = precio de la acción × número de acciones.** **Valor de la empresa = valor de mercado + deuda − efectivo.** El precio refleja **expectativas** de utilidades futuras y riesgo: puede bajar aunque la empresa gane más, si esperaban más. Factores: resultados contra lo esperado, perspectivas, sector, **tasas de interés**, economía y ánimo. **Precio-utilidad = precio ÷ utilidad por acción.**`,
+ch: `Si un vecino ofrece vender su tiendita, no le pagarías solo lo que ganó el año pasado: pensarías en si la colonia va a crecer, si abrirá un OXXO enfrente y si los clientes seguirán viniendo. Eso hace la bolsa con las empresas, todos los días.`,
+gi: `Durante la burbuja de las empresas de internet, el índice Nasdaq Composite alcanzó un máximo en marzo de 2000 y después cayó alrededor de 78 % hasta octubre de 2002, según los datos históricos del índice; tardó unos 15 años en recuperar ese nivel.`,
+e: `Valor de mercado y precio-utilidad de dos empresas ficticias:
+
+| Concepto | Empresa A (madura) | Empresa B (crece rápido) |
+|---|---|---|
+| Precio de la acción | 50 | 120 |
+| Acciones en circulación | 100 millones | 50 millones |
+| **Valor de mercado** | 50 × 100 = **5,000 millones** | 120 × 50 = **6,000 millones** |
+| Utilidad neta anual | 500 millones | 200 millones |
+| Utilidad por acción | 5 | 4 |
+| **Precio-utilidad** | 50 ÷ 5 = **10** | 120 ÷ 4 = **30** |
+
+B vale más en bolsa aunque gana menos, porque el mercado espera que sus utilidades crezcan mucho. Si B decepciona, su precio puede caer mucho más que el de A.`,
+r: `Según los datos históricos del índice, el Nasdaq Composite cerró en un máximo de alrededor de 5,048 puntos el 10 de marzo de 2000 y llegó a unos 1,114 puntos en octubre de 2002, una caída cercana al 78 %, durante el estallido de la llamada burbuja de las «punto com».`,
+f: `Nasdaq, datos históricos del índice Nasdaq Composite; Berkshire Hathaway, cartas anuales (cita de Benjamin Graham).`,
+err: ["Creer que si una empresa gana más, su acción siempre sube.","Confundir valor de mercado con valor de la empresa.","Comparar el precio-utilidad de empresas de sectores muy distintos.","Intentar adivinar los movimientos diarios de las acciones.","Pensar que el precio de la acción no le importa a la empresa."],
+a: `Una empresa tiene 200 millones de acciones a 35 pesos, deuda de 3,000 millones y efectivo de 1,000 millones; ganó 700 millones el último año. Calcula su valor de mercado, su valor de la empresa y su precio-utilidad.`,
+sol: `Valor de mercado: 200 millones × 35 = 7,000 millones. Valor de la empresa: 7,000 + 3,000 − 1,000 = 9,000 millones. Utilidad por acción: 700 ÷ 200 = 3.5; precio-utilidad: 35 ÷ 3.5 = 10 (o 7,000 ÷ 700 = 10).`,
+q: [{n:1,t:"Una empresa tiene 100 millones de acciones que valen 50 pesos cada una. ¿Cuál es su valor de mercado (en millones de pesos)?",a:5000,tol:0,u:"millones",e:"50 × 100 millones = 5,000 millones."},
+["¿Por qué puede bajar una acción aunque la empresa haya ganado más?",["Porque los inversionistas esperaban todavía más o el futuro se ve peor","Porque la bolsa está cerrada","Porque las acciones nunca bajan"],0,"El precio refleja expectativas."],
+{n:1,t:"Una acción vale 120 y la empresa gana 4 pesos por acción al año. ¿Cuál es su precio-utilidad?",a:30,tol:0,u:"veces",e:"120 ÷ 4 = 30."},
+["Cuando suben las tasas de interés, las acciones tienden a…",["Valer menos","Valer más siempre","No cambiar nunca"],0,"El dinero seguro rinde más."]],
+t: ["Valor de mercado","Precio-utilidad","Utilidad por acción","Burbuja"]
+},
+"M25-6": {
+s: `Ana, la hermana de Toño, tiene acciones de Grupo Lupita pero no trabaja ahí. Pregunta: «Si la empresa gana tanto, ¿por qué no reparte más dividendos?». El director de finanzas propone otra opción: «En lugar de dividendos, podríamos recomprar acciones». Ana no entiende qué es eso ni por qué sería bueno para ella.`,
+o: ["Explicar qué son los dividendos y cómo se decide pagarlos.","Explicar qué es una recompra de acciones y por qué la hacen las empresas.","Comparar dividendos y recompras desde el punto de vista del accionista."],
+x: `## Qué hace una empresa con sus utilidades
+Cuando una empresa gana dinero, tiene varias opciones (lección M23-6):
+1. **Reinvertir** en el negocio (nuevos locales, plantas, tecnología).
+2. **Comprar** otras empresas.
+3. **Pagar deuda.**
+4. **Guardar efectivo.**
+5. **Regresar dinero a los accionistas**, a través de **dividendos** o de **recompras de acciones**.
+
+La regla general es que una empresa debe **reinvertir** cuando tiene proyectos que rinden más que su costo de capital, y **regresar el dinero** a los accionistas cuando no los tiene: es mejor que los accionistas usen ese dinero en otras inversiones a que la empresa lo invierta mal.
+
+## Los dividendos
+Un **dividendo** es un **pago en efectivo** (a veces en acciones) que la empresa hace a sus accionistas, en proporción a las acciones que tienen. En México, el dividendo lo **decreta la asamblea de accionistas**, normalmente a propuesta del consejo (lección M24-2). Algunas empresas pagan una vez al año; otras, en varias partes durante el año (en Estados Unidos es común pagar cada trimestre).
+
+Datos clave:
+- **Dividendo por acción:** cuánto recibe cada acción.
+- **Rendimiento por dividendo:** dividendo anual por acción ÷ precio de la acción. Si una acción vale 50 y paga 2 al año, su rendimiento por dividendo es 4 %.
+- **Proporción de pago (*payout*):** dividendos ÷ utilidad neta. Si la empresa gana 100 y reparte 40, su proporción de pago es 40 %.
+
+Las empresas **maduras** con flujo estable (servicios públicos, consumo básico, algunas financieras) suelen pagar dividendos altos y estables. Las empresas que **crecen rápido** suelen pagar poco o nada, porque reinvierten todo. Muchas empresas intentan que su dividendo sea **estable o creciente**, porque recortarlo suele interpretarse como mala señal.
+
+## Impuestos sobre dividendos
+Los dividendos suelen pagar impuestos. En México, por ejemplo, existe un impuesto adicional sobre los dividendos que reciben las personas físicas y los residentes en el extranjero, además del impuesto que ya pagó la empresa sobre sus utilidades. Las reglas y tasas cambian; hay que revisar la ley vigente o consultar a un contador.
+
+## Las recompras de acciones
+Una **recompra** ocurre cuando la empresa **compra sus propias acciones** en la bolsa. Esas acciones pueden **cancelarse** o guardarse en tesorería. El efecto es que hay **menos acciones en circulación**, así que cada acción que queda representa una **parte mayor** de la empresa.
+
+Ejemplo: una empresa tiene 100 acciones y gana 1,000. Su utilidad por acción es 10. Si recompra 10 acciones, quedan 90, y la utilidad por acción sube a 1,000 ÷ 90 = 11.11, aunque la empresa gane lo mismo.
+
+En México, las empresas que cotizan pueden tener un **fondo de recompra** autorizado por la asamblea, con un monto máximo, y deben seguir las reglas de la Ley del Mercado de Valores.
+
+## ¿Por qué recomprar en lugar de pagar dividendos?
+1. **Flexibilidad:** los dividendos se esperan cada año; las recompras se pueden hacer o detener según la situación.
+2. **Señal:** si la dirección cree que la acción está **barata**, recomprar es una forma de invertir en la propia empresa.
+3. **Impuestos:** en algunos países, la ganancia de capital del accionista paga menos impuestos que los dividendos, o se paga solo cuando vende.
+4. **Compensar la dilución** que producen los planes de acciones para empleados.
+5. **Elección del accionista:** con recompras, el accionista que quiere efectivo vende algunas acciones; el que no, se queda con una parte mayor.
+
+## Críticas a las recompras
+- Pueden servir para **inflar la utilidad por acción** y, con ello, los bonos de los directivos (lección M24-6).
+- Si la empresa recompra cuando la acción está **cara**, destruye valor.
+- A veces se financian con **deuda**, lo que aumenta el riesgo.
+- Se critica que algunas empresas gastan en recompras en lugar de invertir o subir sueldos.
+En Estados Unidos, desde 2023 existe un impuesto del 1 % sobre el valor de las recompras de las empresas que cotizan, según la ley aprobada en 2022.
+
+## Comparación
+| | Dividendo | Recompra |
+|---|---|---|
+| ¿Qué recibe el accionista? | Efectivo | Una parte mayor de la empresa (o efectivo si vende) |
+| Compromiso | Se espera que se repita | Flexible |
+| Impuestos | Según la ley de cada país | Según la ley de cada país |
+| Efecto en la utilidad por acción | Ninguno directo | La aumenta |
+| Mejor cuando… | Hay flujo estable y accionistas que necesitan ingresos | La acción está barata y hay efectivo extra |
+
+## Un ejemplo conocido: Apple
+Según sus informes, Apple ha destinado en la última década cientos de miles de millones de dólares a recompras de acciones y a dividendos, convirtiéndose en una de las empresas que más dinero ha regresado a sus accionistas en la historia. Su número de acciones en circulación ha disminuido de forma importante a lo largo de esos años.
+
+## La respuesta a Ana
+En Grupo Lupita, que no cotiza en bolsa, recomprar es más complicado: no hay un mercado donde comprar las acciones. Pero el consejo puede proponer: (1) una política de dividendos del 30 % de la utilidad (lección M24-7), y (2) ofrecer comprar acciones a los familiares que quieran vender, a un precio fijado por un valuador independiente. Así, Ana puede recibir ingresos regulares y, si algún día necesita más dinero, vender parte de sus acciones de forma ordenada.`,
+k: `Una empresa regresa dinero a los accionistas con **dividendos** (pagos en efectivo que decreta la asamblea) o **recompras** (compra de sus propias acciones; quedan menos acciones y cada una vale una parte mayor). **Rendimiento por dividendo = dividendo anual ÷ precio.** **Proporción de pago = dividendos ÷ utilidad neta.** Reinvertir si hay proyectos que rinden más que el costo de capital; si no, regresar el dinero.`,
+ch: `Los socios de una imprenta mediana reparten cada año el 40 % de las utilidades y dejan el resto para comprar máquinas. Cuando uno de ellos se quiere retirar, la propia empresa le compra su parte a un precio acordado: es como una «recompra» en pequeño.`,
+gi: `Según sus informes anuales (10-K), Apple ha recomprado cientos de miles de millones de dólares en acciones desde 2012 y su número de acciones en circulación ha bajado de forma importante desde entonces, además de pagar dividendos trimestrales.`,
+e: `Efecto de una recompra en una empresa ficticia:
+
+| Concepto | Antes | Después de recomprar 10 % |
+|---|---|---|
+| Utilidad neta | 1,000 millones | 1,000 millones |
+| Acciones en circulación | 100 millones | 90 millones |
+| **Utilidad por acción** | **10.00** | 1,000 ÷ 90 = **11.11** |
+| Precio-utilidad (igual) | 15 | 15 |
+| Precio de la acción | 150 | 11.11 × 15 ≈ **166.67** |
+
+Con dividendos, en cambio: si la empresa reparte 400 millones, la proporción de pago es 400 ÷ 1,000 = **40 %**, y cada acción recibe 4 pesos; con un precio de 150, el rendimiento por dividendo es 4 ÷ 150 ≈ **2.7 %**.`,
+r: `La Ley de Reducción de la Inflación de Estados Unidos, aprobada en agosto de 2022, estableció un impuesto especial del 1 % sobre el valor neto de las recompras de acciones de empresas que cotizan en bolsa, vigente a partir de 2023.`,
+f: `Apple Inc., Formulario 10-K (varios años); Inflation Reduction Act (EE. UU., 2022); Ley del Mercado de Valores (México), disposiciones sobre adquisición de acciones propias.`,
+err: ["Pagar dividendos que la empresa no puede sostener.","Recomprar acciones cuando están caras.","Usar recompras solo para inflar la utilidad por acción y los bonos.","Endeudarse demasiado para recomprar acciones.","Retener utilidades sin tener proyectos que rindan más que el costo de capital."],
+a: `Una empresa gana 500 millones, tiene 50 millones de acciones y su acción vale 120. El consejo debe elegir entre repartir 200 millones en dividendos o usar esos 200 millones para recomprar acciones. Calcula para cada opción: dividendo por acción y rendimiento por dividendo; o número de acciones recompradas y nueva utilidad por acción. ¿Qué recomendarías si la dirección cree que la acción está barata?`,
+sol: `Dividendo: 200 ÷ 50 = 4 por acción; rendimiento 4 ÷ 120 ≈ 3.3 %. Recompra: 200 millones ÷ 120 ≈ 1.67 millones de acciones; quedan 48.33 millones; utilidad por acción 500 ÷ 48.33 ≈ 10.34 (antes, 10). Si la acción está barata, la recompra puede crear más valor para los accionistas que se quedan.`,
+q: [["Un dividendo lo decreta normalmente…",["La asamblea de accionistas","El cajero","El auditor externo"],0,"A propuesta del consejo."],
+{n:1,t:"Una acción vale 50 y paga 2 pesos de dividendo al año. ¿Cuál es su rendimiento por dividendo (en %)?",a:4,tol:0,u:"%",e:"2 ÷ 50 = 4 %."},
+["Una recompra de acciones…",["Reduce el número de acciones en circulación","Aumenta el número de acciones","Es un préstamo a la empresa"],0,"Cada acción que queda representa una parte mayor."],
+{n:1,t:"Una empresa gana 1,000 millones y tiene 90 millones de acciones tras una recompra. ¿Cuál es su utilidad por acción? (dos decimales)",a:11.11,tol:0.001,u:"pesos",e:"1,000 ÷ 90 = 11.11."}],
+t: ["Recompra de acciones","Rendimiento por dividendo","Proporción de pago","Fondo de recompra","Política de dividendos"]
+},
+"M25-7": {
+s: `Toño descubre que algunas de las empresas más grandes del mundo, como Cargill o Mars, no cotizan en bolsa. También lee que un fondo compró una gran cadena de restaurantes, la sacó de la bolsa y la reestructuró. «¿Por qué una empresa gigante no querría cotizar? ¿Y qué hacen esos fondos?», pregunta.`,
+o: ["Reconocer que existen empresas gigantes que no cotizan en bolsa y por qué.","Explicar qué es el capital privado y cómo funciona una compra apalancada.","Comparar las ventajas y riesgos de ser una empresa privada frente a una pública."],
+x: `## Gigantes que no cotizan
+No todas las empresas gigantes están en la bolsa. Muchas son **privadas**: sus acciones pertenecen a familias, fundaciones, empleados, gobiernos o fondos, y no se compran y venden en un mercado público. Algunos ejemplos públicamente conocidos:
+- **Cargill** (Estados Unidos): una de las mayores empresas de alimentos y productos agrícolas del mundo, controlada en su mayoría por familias descendientes de sus fundadores, según la propia empresa y la prensa de negocios.
+- **Mars** (Estados Unidos): dulces, alimentos para mascotas y otros productos; propiedad de la familia Mars.
+- **IKEA:** la estructura del grupo es compleja e incluye fundaciones en Países Bajos que son dueñas de buena parte del negocio, según la información pública del grupo.
+- **Bosch** (Alemania): controlada en su mayoría por una fundación, según la empresa.
+- **Empresas del Estado:** en México, **Pemex** y la **CFE** son empresas propiedad del gobierno que no cotizan en bolsa (aunque Pemex emite deuda en los mercados).
+- En México y Latinoamérica también hay grandes grupos familiares que no cotizan.
+
+## Por qué una gigante prefiere ser privada
+1. **Visión de largo plazo** sin la presión de los resultados trimestrales.
+2. **Confidencialidad:** no tiene que publicar su estrategia, sus márgenes ni sus planes.
+3. **Control:** la familia o los dueños deciden sin la influencia de miles de accionistas.
+4. **Menos costos** de cumplimiento y de relación con inversionistas.
+5. **No necesita capital** del público: genera suficiente efectivo o lo consigue con deuda.
+Las desventajas: menos acceso a capital, menos liquidez para los accionistas (es difícil vender) y, a veces, menos vigilancia externa.
+
+## Qué es el capital privado
+El **capital privado** (en inglés, *private equity*) es la inversión en empresas que **no cotizan en bolsa**, o la compra de empresas que cotizan para **sacarlas de la bolsa**. La hacen **fondos** administrados por gestores profesionales, con dinero de inversionistas institucionales (fondos de pensiones, aseguradoras, fondos soberanos, familias ricas). En México, las Afores pueden invertir parte del ahorro para el retiro en vehículos de capital privado, como los CKD y los CERPI, según las reglas de la Consar.
+
+Hay varios tipos:
+- **Capital emprendedor** (lección M19-4): empresas jóvenes.
+- **Capital de crecimiento:** participaciones en empresas medianas que crecen (como el fondo que entró a Grupo Lupita).
+- **Compras apalancadas (*buyouts*):** el fondo compra el **control** de empresas maduras, usando mucha deuda.
+
+## Cómo funciona una compra apalancada
+En una **compra apalancada** (en inglés, LBO, *leveraged buyout*):
+1. El fondo compra una empresa pagando una parte con su **propio dinero** (por ejemplo, 30 % a 40 %) y el resto con **deuda**.
+2. Esa deuda queda, normalmente, **a cargo de la empresa comprada**, que la paga con su propio flujo de efectivo.
+3. Durante varios años (normalmente de 3 a 7), el fondo intenta **mejorar** la empresa: reducir costos, vender negocios que no encajan, crecer, comprar otras empresas, profesionalizar la dirección.
+4. Al final, el fondo **vende** la empresa (a otra empresa, a otro fondo o en una salida a bolsa) y obtiene su ganancia.
+
+La deuda multiplica el rendimiento del fondo si las cosas salen bien (apalancamiento, lección M19-6), pero también el riesgo: si la empresa no puede pagar, puede quebrar.
+
+## Ejemplos públicos
+- **3G Capital** es un fondo de origen brasileño conocido por comprar empresas de consumo y aplicar estrictos programas de reducción de costos (como el «presupuesto base cero»). En 2010 compró Burger King, y en 2013, junto con Berkshire Hathaway, compró Heinz, que en 2015 se fusionó con Kraft, según los comunicados de las empresas. Los resultados posteriores de Kraft Heinz, que en 2019 reconoció una fuerte pérdida de valor de sus marcas, generaron debate sobre los límites de recortar costos sin invertir en las marcas.
+- Grandes fondos como **KKR**, **Blackstone**, **Carlyle** o **Apollo** controlan empresas de muchos sectores en el mundo.
+- En México operan fondos de capital privado nacionales e internacionales que invierten en empresas medianas y grandes.
+
+## Lo bueno y lo malo del capital privado
+**A favor:**
+- Aporta **capital y disciplina** a empresas que lo necesitan.
+- Profesionaliza la dirección y el gobierno.
+- Alinea los incentivos: los directivos suelen invertir junto con el fondo.
+- Puede rescatar empresas mal administradas.
+
+**En contra (críticas frecuentes):**
+- La **deuda alta** puede hundir a la empresa en una crisis.
+- Recortes de personal y de inversión para mejorar resultados de corto plazo.
+- Menos transparencia que una empresa pública.
+- Comisiones altas para los gestores.
+
+## Pública o privada: un ir y venir
+Muchas empresas cambian de estado varias veces: nacen privadas, salen a bolsa, un fondo las compra y las saca de la bolsa, y después vuelven a salir. La decisión depende de cuánto capital necesitan, de lo que quieren los dueños y de las condiciones del mercado.
+
+## Aviso
+Este curso es educativo: no es recomendación de inversión. Los fondos de capital privado suelen estar disponibles solo para inversionistas institucionales o calificados.
+
+## Para Grupo Lupita
+El fondo que tiene el 20 % de Grupo Lupita es un fondo de **capital de crecimiento**. Como todo fondo, necesita una **salida** en unos años (lección M19-4). Las opciones: que otro fondo compre su parte, que la familia la compre (con deuda o con utilidades), que un inversionista estratégico (por ejemplo, una gran empresa de alimentos) la compre, o una salida a bolsa cuando el grupo sea más grande. Lo analizan en el caso de este módulo.`,
+k: `Muchas **empresas gigantes son privadas** (familias, fundaciones, Estado): ganan visión de largo plazo, confidencialidad y control, pero pierden acceso a capital y liquidez. **Capital privado:** fondos que invierten en empresas que no cotizan. **Compra apalancada:** el fondo compra el control con mucha **deuda** que paga la empresa, la mejora y la vende en 3 a 7 años. Multiplica rendimientos y riesgos.`,
+ch: `Una cadena regional de farmacias que no cotiza recibe a un fondo de capital privado que compra el 60 %. El fondo paga con su dinero y un crédito, profesionaliza la dirección, abre 40 farmacias más y, cinco años después, vende la cadena a un grupo nacional.`,
+gi: `En 2013, Berkshire Hathaway y 3G Capital compraron Heinz; en 2015, Heinz se fusionó con Kraft para formar Kraft Heinz, según los comunicados de las empresas. En febrero de 2019, Kraft Heinz anunció una reducción de valor de más de 15,000 millones de dólares en sus marcas Kraft y Oscar Mayer, entre otras, lo que provocó una fuerte caída de su acción.`,
+e: `Compra apalancada ilustrativa (millones de pesos):
+
+| Concepto | Al comprar | Al vender (5 años después) |
+|---|---|---|
+| Precio de la empresa | 1,000 (8 veces EBITDA de 125) | 1,600 (8 veces EBITDA de 200) |
+| Deuda | 600 | 300 (pagó 300 con el flujo) |
+| Capital del fondo | 400 | 1,600 − 300 = **1,300** |
+| Ganancia del fondo | — | 1,300 − 400 = 900 |
+| Múltiplo sobre lo invertido | — | 1,300 ÷ 400 = **3.25 veces** |
+
+Si el fondo hubiera pagado todo con su dinero (1,000), al vender en 1,600 sin deuda habría obtenido 1.6 veces. La deuda multiplicó el resultado; si el EBITDA hubiera bajado, también habría multiplicado la pérdida.`,
+r: `3G Capital compró Burger King en 2010 y, junto con Berkshire Hathaway, Heinz en 2013; en 2015 Heinz se fusionó con Kraft. En 2019, Kraft Heinz reconoció un deterioro de más de 15,000 millones de dólares en el valor de algunas de sus marcas, y Warren Buffett reconoció en su carta anual que Berkshire había pagado de más por Kraft.`,
+f: `Comunicados de 3G Capital, Heinz y Kraft Heinz (2010–2019); Berkshire Hathaway, carta anual 2018 (publicada en 2019); Consar, reglas de inversión de las Afores.`,
+err: ["Creer que todas las empresas gigantes cotizan en bolsa.","Pensar que la deuda de una compra apalancada la paga el fondo y no la empresa.","Ignorar que la deuda también multiplica las pérdidas.","Creer que recortar costos siempre crea valor a largo plazo.","Olvidar que un fondo siempre necesita una salida."],
+a: `Un fondo compra una empresa en 500 millones, con 200 de su dinero y 300 de deuda. En cuatro años, la empresa paga 100 de deuda y el fondo la vende en 700. Calcula cuánto recibe el fondo, su ganancia y su múltiplo sobre lo invertido. ¿Qué pasaría si la vendiera en 400?`,
+sol: `Deuda restante: 200. El fondo recibe 700 − 200 = 500; ganancia 300; múltiplo 500 ÷ 200 = 2.5 veces. Si la vendiera en 400: recibe 400 − 200 = 200, es decir, solo recupera lo invertido (múltiplo 1.0), sin ganancia; con un precio menor a 200, perdería.`,
+q: [["¿Cuál de estas es una ventaja de ser una empresa privada?",["Menos presión de los resultados trimestrales","Más acceso al capital del público","Más liquidez para sus accionistas"],0,"Las otras dos son ventajas de cotizar."],
+["En una compra apalancada, la mayor parte del precio se paga con…",["Deuda que normalmente queda a cargo de la empresa comprada","Donaciones","Acciones del gobierno"],0,"El fondo pone una parte con su propio dinero."],
+{n:1,t:"Un fondo invierte 400 millones y al vender recibe 1,300 millones. ¿Cuál es su múltiplo sobre lo invertido?",a:3.25,tol:0,u:"veces",e:"1,300 ÷ 400 = 3.25."},
+["Una crítica frecuente al capital privado es…",["El uso de deuda alta que puede hundir a la empresa en una crisis","Que nunca vende sus empresas","Que no invierte dinero"],0,"El apalancamiento multiplica el riesgo."]],
+t: ["Empresa privada","Capital privado","Compra apalancada","Presupuesto base cero","Fondo soberano"]
+}
+});
