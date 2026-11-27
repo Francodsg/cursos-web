@@ -410,3 +410,77 @@ preg:["¿Qué hacer en la primera hora y en las primeras seis horas?","¿Qué de
 resp:`**Primera hora:** cerrar la sucursal, atender a los afectados y llamar a servicios de salud, guardar muestras, avisar al comité de crisis. **Primeras seis horas:** activar el comité (dirección, operaciones, legal, comunicación), avisar a la autoridad sanitaria y cooperar, **inmovilizar los lotes** del mismo proveedor en las otras 15 sucursales como precaución, y visitar a los afectados. **Primer mensaje (en unas tres horas):** reconocer lo ocurrido, expresar preocupación genuina, informar que la sucursal está cerrada, que se atiende a los afectados y se coopera con las autoridades, y cuándo habrá más información. **No decir:** negar, minimizar, culpar al cliente o al proveedor sin pruebas, ni «sin comentarios». El consejo legal de «no reconocer nada» debe equilibrarse: se puede ser responsable y empático sin aceptar culpas legales antes de la investigación. **Franquiciatarios y empleados:** un mensaje interno inmediato con instrucciones claras y un solo vocero. **Después:** investigar la causa raíz (por ejemplo, falla de refrigeración), cubrir gastos médicos, auditoría externa de seguridad alimentaria, nueva capacitación, revisión del proveedor, practicar el plan de crisis con simulacros y comunicar públicamente los cambios antes de reabrir.`,
 lec:["Primero las personas, después la imagen.","Comunicar pronto, con la verdad y con acciones.","Un plan de crisis sirve solo si se practica."]}
 );
+
+// ===== Casos reales adicionales =====
+window.CASOS.push(
+{id:"oxxo", t:"OXXO: cómo FEMSA creció a miles de tiendas", mod:"M20", tipo:"real", les:"M20-7",
+ctx:`Según la historia corporativa de FEMSA, la primera tienda OXXO abrió en Monterrey en 1978. En la primera mitad de la década de 2020, la cadena superó las 20,000 tiendas, la mayoría en México, con presencia en otros países de Latinoamérica, según los informes anuales de la empresa.`,
+dil:`¿Qué elementos explican que un formato de tienda pequeña se haya podido replicar miles de veces?`,
+datos:`| Elemento | Qué hace OXXO (según información pública) |
+|---|---|
+| Formato | Tienda pequeña, estandarizada, con horario amplio |
+| Ubicación | Análisis con datos de población, flujo y competencia |
+| Abasto | Red de centros de distribución y entregas directas de proveedores |
+| Operación | Muchas tiendas operadas por comisionistas |
+| Servicios | Pagos de recibos, depósitos, recargas, pagos de compras en línea |
+| Indicadores | Número de tiendas, aperturas netas, ventas mismas tiendas, ticket promedio |`,
+preg:["¿Qué parte del modelo es más difícil de copiar para un competidor nuevo?","¿Por qué los servicios son importantes para una tienda de conveniencia?","¿Qué ventajas y riesgos tiene operar con comisionistas?","¿Qué críticas se han hecho a este tipo de cadenas?"],
+resp:`Lo más difícil de copiar es la combinación de **escala, logística y ubicaciones**: una red de miles de tiendas surtidas con frecuencia desde centros de distribución permite tiendas pequeñas con poco inventario, algo que un competidor con pocas tiendas no puede igualar en costo. Los **servicios** atraen visitas aunque el cliente no venga a comprar, y aprovechan la misma red (economías de alcance). Los **comisionistas** combinan control central del formato con el incentivo de un operador local, pero sus condiciones han sido objeto de críticas y requieren una relación justa. Entre las críticas a las cadenas de conveniencia se mencionan su efecto en las tiendas de abarrotes, la venta de productos ultraprocesados, temas laborales y de seguridad.`,
+fuentes:`FEMSA, historia corporativa e informes anuales (femsa.com).`,
+lec:["Un formato estandarizado y bien ubicado se puede replicar a gran escala.","La logística hace posible el modelo de tienda pequeña.","Un caso real tiene luces y sombras."]},
+{id:"mcdonalds", t:"McDonald's: el negocio de la marca y de los inmuebles", mod:"M21", tipo:"real", les:"M21-7",
+ctx:`Ray Kroc abrió en 1955 su primer local franquiciado de McDonald's en Des Plaines, Illinois, y en 1961 compró los derechos a los hermanos McDonald. Según los informes anuales de la empresa, alrededor del 95 % de sus restaurantes son operados por franquiciatarios y sus ingresos de restaurantes franquiciados incluyen rentas, regalías y cuotas iniciales.`,
+dil:`¿Por qué una cadena de hamburguesas obtiene buena parte de sus ingresos de rentas inmobiliarias?`,
+datos:`| Concepto | Ejemplo ilustrativo por restaurante (no son cifras reales) |
+|---|---|
+| Ventas mensuales | 1,000,000 |
+| Regalía (4 %) | 40,000 |
+| Renta (10 % de ventas) | 100,000 |
+| Costo del inmueble para la marca | 50,000 |
+| Margen de la marca | 90,000 |`,
+preg:["¿Cuánto recibe la marca por regalías y cuánto por renta en el ejemplo?","¿Por qué ser dueña o arrendataria del local le da más control?","¿Qué tensiones puede generar este modelo con los franquiciatarios?","¿Qué puede copiar una franquicia pequeña de este modelo?"],
+resp:`En el ejemplo, la marca recibe 40,000 por regalías y 100,000 por renta; su margen es 90,000, más de dos veces la regalía. Ser dueña o arrendataria principal del local le da **control**: si el franquiciatario incumple, puede terminar el arrendamiento y conservar la ubicación. Las **tensiones** típicas tienen que ver con remodelaciones obligatorias, promociones de precio bajo y cambios de menú que afectan la utilidad del franquiciatario. Una franquicia pequeña puede copiar la idea de **controlar las ubicaciones** (rentar a su nombre y subarrendar) y de cobrar sobre ventas, siempre que el franquiciatario gane lo suficiente.`,
+fuentes:`McDonald's Corporation, Formulario 10-K e historia corporativa; J. Love, «McDonald's: Behind the Arches» (1986).`,
+lec:["En una franquicia, el control de la ubicación puede valer tanto como la marca.","Los ingresos sobre ventas son estables para el franquiciante.","La red solo dura si los franquiciatarios ganan."]},
+{id:"target-canada", t:"Target en Canadá: crecer demasiado rápido", mod:"M22", tipo:"real", les:"M22-8",
+ctx:`En 2011, Target anunció la compra de los derechos de arrendamiento de tiendas de la cadena canadiense Zellers. En 2013 abrió sus primeras tiendas en Canadá y en menos de un año llegó a más de 130. En enero de 2015 anunció el cierre de sus 133 tiendas en ese país, con pérdidas y cargos de miles de millones de dólares, según la empresa y la prensa de negocios.`,
+dil:`¿Qué falló en una expansión de una de las mayores cadenas de Estados Unidos a un país vecino?`,
+datos:`| Factor | Lo que se reportó públicamente |
+|---|---|
+| Velocidad | Más de 130 tiendas en menos de un año |
+| Abasto | Anaqueles vacíos mientras los centros de distribución estaban llenos |
+| Datos | Errores en la información de productos del nuevo sistema |
+| Ubicaciones | Locales heredados de Zellers, no siempre en los mejores lugares |
+| Precios | Más altos de lo que esperaban los clientes canadienses |`,
+preg:["¿Qué patrones de expansión fallida aparecen en el caso?","¿Qué habría cambiado una prueba piloto con pocas tiendas?","¿Por qué las ubicaciones heredadas fueron un problema?","¿Qué lista de verificación habrías aplicado antes de abrir?"],
+resp:`Aparecen la **velocidad excesiva**, los **sistemas y la logística no probados**, las **ubicaciones elegidas por disponibilidad** y las **expectativas que no se cumplieron**. Una **prueba piloto** con pocas tiendas habría permitido detectar las fallas de inventario y de precios antes de que afectaran a todo el país, y corregirlas con menos costo. Las ubicaciones heredadas se usaron porque ya se habían pagado los derechos de renta (presión por no dejarlas vacías), no porque fueran las mejores. Antes de abrir: concepto probado en un mercado parecido, sistemas funcionando, ubicaciones evaluadas, precios competitivos, equipo local, escenarios y un límite de pérdidas.`,
+fuentes:`Target Corporation, comunicado del 15 de enero de 2015 e informe anual 2014; «The Last Days of Target» (Canadian Business, 2016).`,
+lec:["La prisa es el mayor enemigo de una expansión.","Los sistemas deben probarse antes de crecer.","Define cuánto estás dispuesto a perder antes de empezar."]},
+{id:"wework", t:"WeWork: cuando el gobierno corporativo falla antes de salir a bolsa", mod:"M24", tipo:"real", les:"M24-9",
+ctx:`WeWork rentaba edificios a largo plazo y los subarrendaba como oficinas compartidas. En una ronda privada de enero de 2019 fue valuada en unos 47,000 millones de dólares, según lo informado públicamente. En agosto de 2019 presentó su prospecto para salir a bolsa; en septiembre canceló la oferta y su fundador dejó la dirección. En noviembre de 2023 se acogió a la protección por quiebra en Estados Unidos.`,
+dil:`¿Qué señales de gobierno corporativo y de modelo de negocio alertaron a los inversionistas?`,
+datos:`| Señal | Según el prospecto y la prensa |
+|---|---|
+| Pérdidas | Muy altas y crecientes |
+| Modelo | Rentas de largo plazo contra ingresos de corto plazo |
+| Control | Acciones con voto múltiple para el fundador |
+| Conflictos de interés | Rentas de edificios con participación del fundador; pago por la marca «We» (después revertido) |
+| Consejo | Poca capacidad real de vigilar al fundador |`,
+preg:["¿Qué riesgo financiero tenía el modelo de negocio?","¿Qué problema de agencia aparece en el caso?","¿Qué mecanismos de gobierno habrían reducido los conflictos?","¿Por qué el prospecto fue el momento en que todo se hizo visible?"],
+resp:`El riesgo financiero era un **desajuste de plazos**: la empresa se comprometía a pagar rentas durante muchos años, pero sus clientes podían irse en meses; en una crisis, los ingresos caen y las rentas siguen (lección M19-1). El **problema de agencia** se ve en las operaciones del fundador con la empresa y en su control desproporcionado mediante acciones con voto múltiple. Habrían ayudado: consejeros independientes con poder real, un comité que aprobara las **operaciones con partes relacionadas**, límites al voto múltiple y separación de cargos. El **prospecto** obligó a revelar con detalle los números y los conflictos, y los inversionistas públicos, que no habían participado en las rondas privadas, reaccionaron con desconfianza.`,
+fuentes:`Prospecto S-1 de The We Company (agosto de 2019); comunicados de WeWork (2019 y 2023); cobertura de prensa de negocios.`,
+lec:["La transparencia de una oferta pública revela lo que las rondas privadas pueden esconder.","El control sin contrapesos aumenta el riesgo de conflictos.","Un modelo con plazos desajustados es frágil ante una crisis."]},
+{id:"kodak", t:"Kodak: inventar el futuro y no aprovecharlo", mod:"M27", tipo:"real", les:"M27-5",
+ctx:`Kodak dominó durante gran parte del siglo XX la fotografía y ganaba sobre todo con película, revelado y papel. Según su propia historia, en 1975 uno de sus ingenieros, Steven Sasson, construyó uno de los primeros prototipos de cámara digital. En enero de 2012, Kodak se declaró en quiebra en Estados Unidos y salió del proceso en 2013 como una empresa mucho más pequeña.`,
+dil:`¿Por qué una empresa que inventó una tecnología clave no logró aprovecharla?`,
+datos:`| Concepto (ilustrativo) | Película | Digital al inicio |
+|---|---|---|
+| Margen por cada 100 de ventas | 60 | 15 |
+| Atractivo para la dirección | Muy alto | Bajo |
+| Riesgo de canibalizar | — | Alto |
+| Futuro del mercado | En declive | En crecimiento |`,
+preg:["¿Qué dilema enfrentaba la dirección de Kodak?","¿Por qué no basta con inventar una tecnología?","¿Qué habría hecho una empresa «ambidiestra»?","¿Qué lección aplica a un negocio pequeño?"],
+resp:`El dilema era el del **innovador**: el negocio digital al principio dejaba mucho menos margen y amenazaba con **canibalizar** la película, que era la gran fuente de utilidades; parecía racional proteger lo que funcionaba. Inventar no basta: hace falta un **modelo de negocio** que gane con la nueva tecnología y la disposición a reemplazar el negocio propio antes de que lo haga otro. Una empresa **ambidiestra** habría separado el negocio digital en una unidad independiente, con metas de crecimiento y aprendizaje, y habría aceptado la canibalización. Para un negocio pequeño: vigilar los cambios en los hábitos de los clientes y probar a tiempo nuevas formas de atenderlos, aunque al principio dejen menos.`,
+fuentes:`Eastman Kodak, historia corporativa y comunicados (2012–2013).`,
+lec:["Ver el cambio no es suficiente: hay que actuar a tiempo.","Proteger el negocio de hoy puede destruir el de mañana.","Las unidades independientes ayudan a innovar."]}
+);

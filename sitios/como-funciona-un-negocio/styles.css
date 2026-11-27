@@ -92,6 +92,7 @@ th{background:var(--bg)}
 .tablewrap{overflow-x:auto;max-width:100%}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.6rem}
+.layout>*{min-width:0}
 .side{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.9rem;padding:.8rem}
 .side ol{padding-left:1.2rem;margin:.4rem 0}
 .side li{margin:.2rem 0}
@@ -104,11 +105,12 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .lessonlist .d{flex:1}
 .lessonlist .d small{display:block;color:var(--muted)}
 .chk{color:var(--ok);font-weight:700}
-.q{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;margin:.8rem 0}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;margin:.8rem 0;min-width:0}
 .q p{margin:.1rem 0 .5rem;font-weight:600}
 .q label{display:flex;gap:.5rem;align-items:flex-start;padding:.3rem .4rem;border-radius:6px;cursor:pointer}
 .q label:hover{background:var(--bg)}
-.q input[type=number]{width:11rem}
+.q input[type=number]{width:11rem;min-width:0;flex:0 1 11rem}
+.q label:has(input[type=number]){flex-wrap:wrap;align-items:center}
 .q .fb{margin-top:.4rem;font-size:.95rem;padding:.4rem .6rem;border-radius:6px}
 .q .fb.ok{background:var(--ok-bg);color:var(--ink);border-left:4px solid var(--ok)}
 .q .fb.no{background:var(--no-bg);color:var(--ink);border-left:4px solid var(--no)}
@@ -142,8 +144,8 @@ mark{background:#ffe08a;color:#1c1d1f;border-radius:3px;padding:0 .1rem}
 .foot{border-top:1px solid var(--line);padding:1rem 16px 1.5rem;color:var(--muted);font-size:.85rem;max-width:1100px;margin:0 auto}
 .bottombar{display:none}
 @media (max-width:860px){
-  .layout{grid-template-columns:1fr}
-  .side{position:static;max-height:none}
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .side{position:static;max-height:none;order:2}
   .canvas{grid-template-columns:1fr 1fr;grid-template-areas:"pv pv" "se rc" "ca ca" "ac re" "so so" "co in"}
 }
 @media (max-width:760px){
