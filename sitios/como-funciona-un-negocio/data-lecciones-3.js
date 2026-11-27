@@ -3271,3 +3271,616 @@ q: [["¿En qué año y ciudad abrió la primera tienda OXXO, según FEMSA?",["19
 t: ["Tienda de conveniencia","Comisionista","Aperturas netas","Economías de alcance","FEMSA"]
 }
 });
+
+// ===== M21. Franquicias =====
+Object.assign(window.LECC, {
+"M21-1": {
+s: `Un cliente que viene desde otra ciudad le pregunta a Lupita: «¿Me vendería la franquicia de Tortas Lupita? Yo pongo el local y el dinero, usted me enseña a hacerlo igual». Lupita nunca había pensado en eso. ¿Qué es exactamente una franquicia y en qué se diferencia de abrir una sucursal propia?`,
+o: ["Definir qué es una franquicia y cuáles son sus elementos.","Distinguir una franquicia de una sucursal propia y de otras formas de crecer.","Reconocer ventajas y desventajas del modelo para ambas partes."],
+x: `## La idea en una frase
+Una **franquicia** es un acuerdo en el que el dueño de una marca y de un sistema de negocio probado (el **franquiciante**) da a otra persona o empresa (el **franquiciatario**) el derecho de usar esa marca y ese sistema en un lugar determinado, a cambio de pagos y del compromiso de operar según las reglas de la marca. El franquiciatario **pone el dinero** del local y **opera** el negocio; el franquiciante **pone la marca, el saber hacer y el apoyo**.
+
+## Qué se transmite en una franquicia
+1. **La marca:** el nombre, el logo, la imagen. Debe estar **registrada** (lección M14-3); sin registro no hay franquicia seria.
+2. **El saber hacer** (*know-how*): recetas, procesos, proveedores, forma de atender, de vender y de administrar. Es lo más valioso y se entrega en el **manual de operación**.
+3. **La capacitación inicial y continua.**
+4. **La asistencia técnica:** ayuda para elegir el local, diseñar la obra, abrir, resolver problemas.
+5. **El uso de proveedores, sistemas y publicidad de la red.**
+
+## Sucursal propia frente a franquicia
+| | Sucursal propia | Franquicia |
+|---|---|---|
+| ¿Quién pone el dinero? | El dueño de la marca | El franquiciatario |
+| ¿Quién opera? | Un gerente empleado | El franquiciatario (dueño de su local) |
+| ¿Quién se queda con la utilidad? | El dueño de la marca | El franquiciatario; la marca cobra cuotas y regalías |
+| Control | Total | A través del contrato y del manual |
+| Velocidad de crecimiento | Limitada por el dinero propio | Puede ser mucho más rápida |
+| Riesgo de la inversión | Lo asume el dueño de la marca | Lo asume el franquiciatario |
+| Ingreso para la marca por local | Toda la utilidad | Una parte (cuotas y regalías) |
+
+## Por qué funciona para las dos partes
+**Para el franquiciante:**
+- Crece **con el dinero de otros**, sin endeudarse tanto.
+- Cada local tiene un **dueño motivado**, que cuida su inversión más que un gerente empleado.
+- Gana presencia de marca más rápido.
+- Recibe ingresos (cuotas y regalías) de cada local.
+
+**Para el franquiciatario:**
+- Compra un **negocio probado**, con menor riesgo que empezar de cero.
+- Recibe marca conocida, capacitación y apoyo.
+- Accede a mejores precios de proveedores gracias a la red.
+- Es dueño de su negocio, aunque con reglas.
+
+## Las desventajas
+**Para el franquiciante:**
+- Gana **menos por local** que con una sucursal propia.
+- Tiene **menos control**: un mal franquiciatario puede dañar la marca entera.
+- Debe crear una estructura para apoyar y supervisar a la red.
+- Asume responsabilidades legales y de reputación.
+
+**Para el franquiciatario:**
+- Paga cuotas y regalías **aunque no tenga utilidad** (se cobran sobre ventas, lección M21-3).
+- Tiene **poca libertad**: no puede cambiar el menú, los proveedores ni la imagen.
+- Depende de que la marca se mantenga sana; si el franquiciante tiene problemas, todos los locales sufren.
+- Al terminar el contrato, puede no renovarse.
+
+## Tipos de franquicia
+- **Franquicia de formato de negocio:** la más común; se transmite el sistema completo (restaurantes, tiendas, servicios).
+- **Franquicia de producto o distribución:** se da el derecho de vender los productos de una marca (por ejemplo, embotelladoras de bebidas o distribuidores de automóviles).
+- **Franquicia individual:** un local.
+- **Franquicia multiunidad:** un franquiciatario opera varios locales.
+- **Franquicia maestra:** una persona o empresa recibe el derecho de desarrollar la marca en todo un país o región, y a su vez puede vender subfranquicias. Es común en la expansión internacional (lección M22-4).
+
+## Las franquicias en México
+México es uno de los mercados de franquicias más grandes de Latinoamérica. La **Asociación Mexicana de Franquicias (AMF)** agrupa a franquiciantes y organiza ferias. En el país operan franquicias de todo tipo: comida, farmacias, educación, belleza, lavanderías, papelerías, servicios inmobiliarios. Muchas son de marcas extranjeras y muchas otras de marcas mexicanas que empezaron como un solo local. La ley que regula las franquicias es la **Ley Federal de Protección a la Propiedad Industrial**, que exige, entre otras cosas, entregar al interesado una **Circular de Oferta de Franquicia** antes de firmar (lección M21-5).
+
+## En otros países
+Muchos países regulan la información que se debe entregar antes de firmar. En Estados Unidos, la Comisión Federal de Comercio exige un documento de divulgación (el FDD). En España existe un registro de franquiciadores y la obligación de informar con antelación. Colombia, Argentina, Chile y Perú no tienen una ley específica tan detallada y aplican sobre todo las reglas generales de contratos y de propiedad industrial. Revisa siempre la norma vigente.
+
+## Lo que Lupita debe pensar
+Franquiciar no es «vender la receta». Es **construir un sistema** que otras personas puedan replicar con éxito y **dar apoyo** durante años. Antes de pensar en vender franquicias, Lupita necesita demostrar que su sistema funciona en más de un local (lo está probando con la segunda sucursal), registrar la marca, escribir el manual y calcular si la franquicia sería rentable para ella **y** para el franquiciatario. Lo veremos en este módulo.`,
+k: `**Franquicia:** acuerdo en el que el **franquiciante** (dueño de una marca y un sistema probado) da al **franquiciatario** el derecho de usarlos, a cambio de pagos y de operar según las reglas. Se transmiten: marca registrada, **saber hacer** (manual), capacitación y asistencia. El franquiciatario pone el dinero y opera; la marca crece con dinero de otros pero gana menos por local y tiene menos control.`,
+ch: `Una lavandería de barrio con un sistema muy eficiente vende el derecho de usar su nombre y su método a tres personas en otras colonias. Les enseña a operar, les recomienda máquinas y proveedores y cobra un porcentaje de sus ventas.`,
+gi: `Las grandes cadenas internacionales de comida rápida operan la mayoría de sus restaurantes mediante franquiciatarios y, en muchos países, mediante franquicias maestras o socios de desarrollo.`,
+e: `Lupita compara abrir una sucursal propia o una franquicia en otra ciudad:
+
+| | Sucursal propia | Franquicia |
+|---|---|---|
+| Inversión de Lupita | 600,000 | 0 (la pone el franquiciatario) |
+| Utilidad mensual del local | 25,000 | 25,000 (para el franquiciatario, antes de pagos) |
+| Ingreso mensual para Lupita | 25,000 | Regalía del 6 % sobre ventas de 250,000 = 15,000 |
+| Riesgo de pérdida para Lupita | Alto | Bajo en dinero; alto en reputación |
+
+Con la franquicia, Lupita gana menos por local, pero no arriesga 600,000 y podría crecer a varios locales a la vez.`,
+r: `La Asociación Mexicana de Franquicias reúne a marcas franquiciantes del país y publica información sobre el sector; según la propia asociación, en México operan cientos de marcas que franquician, en su mayoría de origen mexicano.`,
+f: `Asociación Mexicana de Franquicias (franquiciasdemexico.org); Ley Federal de Protección a la Propiedad Industrial (México).`,
+err: ["Creer que franquiciar es solo vender el nombre o la receta.","Franquiciar un negocio que solo funciona con un local y con su dueño presente.","No registrar la marca antes de ofrecer franquicias.","Pensar que el franquiciatario puede hacer las cosas «a su manera».","Ignorar que el franquiciante necesita una estructura de apoyo."],
+a: `Elige tres franquicias que conozcas en tu ciudad. Para cada una, investiga o deduce: qué se transmite (marca, sistema, producto), qué tipo de franquicia es y qué ventaja tiene para el franquiciatario frente a abrir un negocio propio desde cero.`,
+sol: `La mayoría serán franquicias de formato de negocio (comida, servicios). La ventaja principal para el franquiciatario suele ser comprar un sistema probado con marca conocida, capacitación y mejores condiciones con proveedores.`,
+q: [["En una franquicia, ¿quién pone normalmente el dinero del local?",["El franquiciatario","El franquiciante","El banco central"],0,"El franquiciante pone la marca y el sistema."],
+["El «saber hacer» que se transmite en una franquicia se documenta en…",["El manual de operación","El acta de nacimiento","La factura"],0,"Es lo más valioso del sistema."],
+["Una franquicia maestra da derecho a…",["Desarrollar la marca en todo un país o región","Abrir un solo local","Cambiar la receta"],0,"Común en la expansión internacional."],
+["¿Cuál es una desventaja del modelo para el franquiciante?",["Gana menos por local y tiene menos control","Tiene que poner todo el dinero","No puede crecer"],0,"A cambio, crece con dinero de otros."]],
+t: ["Franquicia","Franquiciante","Franquiciatario","Saber hacer","Franquicia maestra"]
+},
+"M21-2": {
+s: `El interesado de otra ciudad, el señor Gómez, ya habla en serio. Pregunta qué tendría que hacer él y qué haría Lupita. «¿Puedo agregar tacos al menú? ¿Puedo comprar el pan donde me salga más barato? ¿Qué pasa si usted abre otra Tortas Lupita en mi misma colonia?». Para responder, Lupita necesita entender los derechos y obligaciones de cada lado.`,
+o: ["Describir los derechos y las obligaciones del franquiciante.","Describir los derechos y las obligaciones del franquiciatario.","Identificar las cláusulas principales de un contrato de franquicia."],
+x: `## Una relación de largo plazo
+Un contrato de franquicia suele durar entre **5 y 20 años**. Es casi un matrimonio de negocios: las dos partes dependen una de la otra. Si el franquiciante no apoya, el franquiciatario fracasa; si el franquiciatario no cumple, daña la marca de todos. Por eso el contrato define con detalle qué le toca a cada uno.
+
+## Obligaciones del franquiciante
+1. **Transmitir el saber hacer:** entregar el manual de operación y mantenerlo actualizado.
+2. **Capacitar:** al franquiciatario y a su personal clave, antes de abrir y de forma continua.
+3. **Asistencia técnica:** ayudar a elegir el local, diseñar la obra, comprar el equipo, planear la apertura.
+4. **Apoyo continuo:** visitas de supervisión, ayuda para resolver problemas, asesoría en operación y finanzas.
+5. **Proteger y desarrollar la marca:** mantener el registro, defenderla de copias, invertir en publicidad (con el fondo de publicidad, lección M21-3).
+6. **Innovar:** desarrollar nuevos productos, mejorar procesos y sistemas.
+7. **Respetar el territorio** acordado, si el contrato lo incluye.
+8. **Informar con honestidad:** antes de firmar, entregar la Circular de Oferta de Franquicia con información veraz (lección M21-5).
+
+## Derechos del franquiciante
+- Cobrar las cuotas y regalías pactadas.
+- Supervisar y auditar el cumplimiento de los estándares.
+- Aprobar o rechazar ubicaciones, remodelaciones y personal clave.
+- Exigir el uso de proveedores autorizados o de insumos con ciertas especificaciones.
+- Terminar el contrato si el franquiciatario incumple gravemente.
+- Recibir información de ventas (muchas veces en tiempo real, a través del sistema de punto de venta).
+
+## Obligaciones del franquiciatario
+1. **Pagar:** cuota inicial, regalías, fondo de publicidad y otros pagos pactados, a tiempo.
+2. **Seguir el manual:** recetas, procesos, imagen, horarios, servicio. Sin excepciones no autorizadas.
+3. **Usar proveedores e insumos autorizados.**
+4. **Capacitar a su personal** según el programa de la marca.
+5. **Reportar ventas** y permitir auditorías.
+6. **Mantener el local** según la imagen de la marca y remodelarlo cuando se pida.
+7. **Confidencialidad:** no revelar el saber hacer.
+8. **No competencia:** no abrir un negocio competidor durante el contrato y, a veces, un tiempo después.
+9. **Cumplir las leyes:** fiscales, laborales, sanitarias. El franquiciatario es el **patrón** de sus empleados.
+
+## Derechos del franquiciatario
+- Usar la marca y el sistema en el lugar acordado.
+- Recibir la capacitación, el manual y el apoyo prometidos.
+- **Territorio protegido**, si el contrato lo incluye.
+- Beneficiarse de la publicidad y de los acuerdos con proveedores de la red.
+- Información veraz antes de firmar.
+- En muchos contratos, derecho preferente a renovar o a abrir nuevos locales en su zona.
+
+## Las cláusulas clave del contrato
+| Cláusula | Qué define |
+|---|---|
+| Objeto | Qué se concede: marca, sistema, productos |
+| Territorio | Zona donde el franquiciatario opera y si hay exclusividad |
+| Duración y renovación | Plazo y condiciones para renovar |
+| Pagos | Cuota inicial, regalías, publicidad, otras cuotas |
+| Proveedores | Cuáles son obligatorios y por qué |
+| Estándares y supervisión | Manual, auditorías, sanciones |
+| Capacitación | Qué incluye y cuánto dura |
+| Propiedad intelectual | La marca y el saber hacer siguen siendo del franquiciante |
+| Confidencialidad y no competencia | Durante y después del contrato |
+| Cesión | Si el franquiciatario puede vender su franquicia y con qué condiciones |
+| Terminación | Causas y consecuencias (retirar letreros, dejar de usar la marca) |
+| Solución de conflictos | Mediación, arbitraje o tribunales |
+
+## El territorio
+Es uno de los puntos más delicados. Un **territorio exclusivo** asegura al franquiciatario que la marca no abrirá otro local en su zona (por ejemplo, un radio de 2 km o una colonia). Protege su inversión, pero limita el crecimiento de la marca. Sin exclusividad, la marca puede abrir cerca y canibalizar sus ventas (lección M20-1). Hay que definirlo con precisión, con mapas, y prever qué pasa con las ventas por apps o en línea.
+
+## Las respuestas de Lupita al señor Gómez
+- **¿Puedo agregar tacos al menú?** No sin autorización por escrito. El menú es parte del sistema y de la promesa de la marca. Si hay una buena idea local, se puede proponer y probar.
+- **¿Puedo comprar el pan donde me salga más barato?** Solo si cumple la especificación de la marca (tipo, tamaño, sabor) y está aprobado. El pan es clave en la calidad de la torta. Lupita debe justificar por qué el proveedor es obligatorio y no abusar con precios altos.
+- **¿Qué pasa si abro otra en tu colonia?** Lo define el contrato: Lupita propone un territorio exclusivo de 2 km de radio mientras Gómez cumpla con sus pagos y estándares.
+
+## Una relación equilibrada
+Las redes de franquicias que duran son las que logran que **a los franquiciatarios les vaya bien**. Un franquiciante que solo piensa en cobrar regalías, que impone proveedores caros o que no apoya termina con franquiciatarios quebrados, demandas y una marca dañada. Muchas redes crean **consejos de franquiciatarios** para escuchar sus opiniones antes de decisiones importantes.`,
+k: `**Franquiciante:** transmite el saber hacer, capacita, apoya, protege la marca, innova y respeta el territorio; cobra, supervisa y exige estándares. **Franquiciatario:** paga, sigue el manual, usa proveedores autorizados, reporta ventas, mantiene el local, guarda confidencialidad y no compite; es el patrón de sus empleados. Cláusulas clave: **territorio**, duración, pagos, proveedores, estándares, cesión y terminación.`,
+ch: `Una franquicia de papelerías obliga a sus franquiciatarios a usar el mismo sistema de punto de venta y el mismo letrero, pero les deja elegir algunos productos locales, como uniformes de las escuelas de la zona.`,
+gi: `Las grandes redes de franquicias tienen contratos de decenas de páginas y manuales extensos, y muchas cuentan con asociaciones o consejos de franquiciatarios que negocian con la marca temas como la publicidad y los proveedores.`,
+e: `Territorio exclusivo propuesto para el señor Gómez:
+
+| Concepto | Valor |
+|---|---|
+| Radio exclusivo | 2 km alrededor del local |
+| Área aproximada | 3.14 × 2 × 2 ≈ **12.6 km²** |
+| Población estimada de la zona (datos del INEGI) | 45,000 personas |
+| Condición para conservarlo | Pagos al día y calificación de auditoría de al menos 85 de 100 |
+| Ventas por apps de reparto | Pedidos con dirección de entrega dentro del radio se asignan a su local |
+
+Así Gómez protege su inversión y Lupita conserva la posibilidad de abrir fuera de ese radio.`,
+r: `En los contratos de franquicia de las grandes cadenas internacionales de comida rápida, según la información que publican en sus documentos de oferta en Estados Unidos, se suele limitar la exclusividad territorial y se exige que los franquiciatarios remodelen sus locales periódicamente; estos puntos han provocado discusiones públicas entre marcas y asociaciones de franquiciatarios.`,
+f: `Documentos de divulgación de franquicias (FDD) presentados en Estados Unidos y cobertura de prensa especializada.`,
+err: ["Firmar un contrato sin entender el territorio y si hay exclusividad.","Pensar que el franquiciatario puede cambiar el menú o el proveedor a su gusto.","Que el franquiciante cobre sin dar el apoyo prometido.","Olvidar que el franquiciatario es el patrón y responde por sus empleados.","No prever qué pasa al terminar el contrato."],
+a: `Escribe cinco preguntas que el señor Gómez debería hacerle a Lupita antes de firmar y cinco preguntas que Lupita debería hacerle al señor Gómez. Para cada una, explica qué riesgo ayuda a evitar.`,
+sol: `Gómez podría preguntar por el territorio, el apoyo real, los costos totales, los resultados de otros locales y las condiciones de salida. Lupita podría preguntar por su experiencia, su capacidad financiera, su disposición a seguir el manual, su dedicación de tiempo y su ubicación propuesta.`,
+q: [["¿Quién es el patrón de los empleados de un local franquiciado?",["El franquiciatario","El franquiciante","La asociación de franquicias"],0,"El franquiciatario responde por sus obligaciones laborales."],
+["Un territorio exclusivo significa que…",["La marca no abrirá otro local en esa zona","El franquiciatario puede abrir en cualquier país","No hay que pagar regalías"],0,"Protege la inversión del franquiciatario."],
+["¿Puede un franquiciatario cambiar el menú por su cuenta?",["No, salvo autorización del franquiciante","Sí, siempre","Solo los domingos"],0,"El menú es parte del sistema y de la promesa de la marca."],
+["Una obligación del franquiciante es…",["Capacitar y dar apoyo continuo","Pagar la nómina del franquiciatario","Poner el dinero del local"],0,"Además de proteger la marca y mantener el manual."]],
+t: ["Contrato de franquicia","Territorio exclusivo","Proveedor autorizado","Cláusula de no competencia"]
+},
+"M21-3": {
+s: `El señor Gómez pide números: «¿Cuánto me cuesta entrar y cuánto le pago al mes?». Lupita investiga otras franquicias de comida y encuentra palabras como «cuota de franquicia», «regalías del 5 al 8 %», «fondo de publicidad» y «cuota por renovación». Necesita armar un esquema que sea justo: que ella gane, pero que a Gómez también le quede dinero.`,
+o: ["Explicar los pagos típicos de una franquicia: cuota inicial, regalías y fondo de publicidad.","Calcular los pagos mensuales y la utilidad del franquiciatario.","Relacionar los pagos con el manual de operación y el apoyo que da la marca."],
+x: `## Cómo gana dinero cada parte
+En una franquicia, **el franquiciatario** gana con la utilidad de su local: ventas menos costos, gastos y pagos a la marca. **El franquiciante** gana con los pagos de los franquiciatarios y, en algunos modelos, vendiéndoles insumos o rentándoles el inmueble. Un buen esquema hace que **los dos ganen**; si uno gana a costa del otro, la red no dura.
+
+## Los pagos típicos
+1. **Cuota inicial (o cuota de franquicia):** un pago único al firmar, por el derecho de usar la marca, la capacitación inicial y la asistencia para abrir. Cubre los costos del franquiciante para incorporar a un nuevo franquiciatario y parte del valor de la marca. No incluye la inversión en el local, el equipo y el inventario, que el franquiciatario paga aparte.
+2. **Regalías:** un pago periódico (normalmente mensual) por seguir usando la marca y recibir apoyo. Lo más común es un **porcentaje de las ventas** (por ejemplo, entre 4 % y 8 % en comida, aunque varía mucho). Algunas marcas cobran una cuota fija mensual.
+3. **Fondo de publicidad (o de marketing):** un porcentaje de las ventas (por ejemplo, 1 % a 4 %) que se junta en un fondo común para publicidad de la marca en toda la red. El franquiciante lo administra y debe rendir cuentas de en qué se gasta.
+4. **Otros pagos posibles:** cuota por renovación del contrato, cuota por cesión (si el franquiciatario vende su local), cuotas por sistemas o tecnología, capacitación adicional.
+
+## ¿Por qué se cobra sobre ventas y no sobre utilidad?
+Porque las ventas son **fáciles de verificar** (el sistema de punto de venta las registra) y no dependen de cómo administre el franquiciatario sus gastos. Pero eso tiene una consecuencia importante: **el franquiciatario paga regalías aunque su local pierda dinero**. Por eso, antes de comprar una franquicia, hay que revisar que el margen del negocio aguante las regalías.
+
+## El cálculo básico
+Para unas ventas mensuales dadas:
+- **Regalía** = ventas × % de regalía.
+- **Publicidad** = ventas × % de publicidad.
+- **Pagos mensuales a la marca** = regalía + publicidad.
+- **Utilidad del franquiciatario** = utilidad de operación antes de regalías − pagos a la marca.
+- **Meses para recuperar la cuota inicial** = cuota inicial ÷ utilidad mensual del franquiciatario (es una aproximación; para la inversión total hay que sumar local y equipo).
+
+Ejemplo de control del curso: ventas de **400,000** al mes, regalía de **6 %** y publicidad de **2 %**: 400,000 × 8 % = **32,000** de pagos mensuales. La calculadora «Pagos de una franquicia» hace estas cuentas.
+
+## Una regla de equilibrio
+Para que la franquicia sea atractiva, la **utilidad del franquiciatario** después de pagar a la marca debe ser suficiente para que recupere su inversión total en un tiempo razonable (por ejemplo, de 2 a 4 años en muchos negocios de comida) y para que gane más de lo que ganaría con su dinero en otra parte. Si las regalías se llevan casi toda la utilidad, nadie querrá comprar o los que compren quebrarán.
+
+## Otras fuentes de ingreso del franquiciante
+- **Venta de insumos:** algunas marcas venden a sus franquiciatarios ingredientes, productos o equipo, con un margen. Es legítimo si los precios son razonables y la calidad lo justifica; se vuelve abusivo si los precios están muy por encima del mercado.
+- **Renta del inmueble:** algunas marcas compran o rentan el local y se lo subarriendan al franquiciatario (el caso de McDonald's, lección M21-7).
+- **Locales propios:** muchas redes combinan locales propios y franquiciados; los propios sirven para probar novedades y formar personal.
+
+## El manual de operación: lo que justifica los pagos
+Las regalías se justifican porque el franquiciatario recibe un sistema que funciona. El **manual de operación** es el corazón de ese sistema. Suele incluir:
+- Historia, misión y valores de la marca.
+- Estándares de imagen: local, letreros, uniformes, menú.
+- Fichas técnicas de cada producto (lección M20-3).
+- Procedimientos: apertura, cierre, limpieza, higiene, recepción de mercancía, inventario, caja.
+- Atención al cliente y manejo de quejas.
+- Recursos humanos: perfiles, contratación, capacitación, turnos.
+- Administración: reportes, indicadores, cuentas.
+- Marketing local: qué puede y qué no puede hacer el franquiciatario.
+- Proveedores autorizados y especificaciones.
+- Seguridad, Protección Civil y emergencias.
+
+El manual es **confidencial** y se actualiza con cada mejora del sistema.
+
+## El esquema que propone Lupita
+- Cuota inicial: **350,000** (incluye capacitación de 4 semanas, diseño del local y apoyo en la apertura).
+- Regalía: **6 %** de las ventas mensuales.
+- Fondo de publicidad: **2 %** de las ventas mensuales.
+- Proveedores: pan y salsas de la cocina central de Tortas Lupita a precio de costo más 10 %.
+
+Con ventas esperadas de 400,000 al mes y una utilidad de operación del 18 % antes de regalías (72,000), a Gómez le quedarían 72,000 − 32,000 = **40,000 al mes**, y recuperaría la cuota inicial en unos 9 meses. Si sumamos la inversión del local (unos 600,000), la inversión total es 950,000 y la recuperaría en unos 24 meses: un esquema razonable.`,
+k: `Pagos típicos: **cuota inicial** (pago único al firmar), **regalías** (% de las ventas, normalmente mensual) y **fondo de publicidad** (% de las ventas para publicidad común). **Pagos mensuales = ventas × (regalía % + publicidad %).** Se cobran sobre ventas, así que se pagan aunque el local pierda. El **manual de operación** documenta el sistema que justifica los pagos.`,
+hr: "regalias",
+ch: `Una franquicia de lavado de autos cobra una cuota inicial de 150,000, una regalía fija de 5,000 al mes y un 1 % de las ventas para publicidad en redes sociales de toda la marca.`,
+gi: `Las grandes marcas de comida rápida publican en sus documentos de oferta en Estados Unidos sus cuotas iniciales, sus regalías (con frecuencia de un solo dígito porcentual sobre ventas) y sus aportaciones a publicidad, además de las rentas cuando son dueñas del inmueble.`,
+e: `Pagos y utilidad del franquiciatario con ventas de 400,000 al mes:
+
+| Concepto | Cálculo | Monto |
+|---|---|---|
+| Regalía | 400,000 × 6 % | 24,000 |
+| Fondo de publicidad | 400,000 × 2 % | 8,000 |
+| **Pagos mensuales a la marca** | 24,000 + 8,000 | **32,000** |
+| Utilidad de operación antes de regalías | 400,000 × 18 % | 72,000 |
+| **Utilidad del franquiciatario** | 72,000 − 32,000 | **40,000** |
+| Meses para recuperar la cuota inicial (350,000) | 350,000 ÷ 40,000 | **8.75** |
+
+Si las ventas fueran de 250,000 con el mismo 18 % (45,000), los pagos serían 20,000 y le quedarían 25,000: la regalía pesa más cuando el local vende poco.`,
+r: `Los documentos de oferta de franquicia que las marcas presentan en Estados Unidos detallan las cuotas iniciales, las regalías y las aportaciones a publicidad. En las grandes cadenas de comida rápida, las regalías suelen ser de entre 4 % y 6 % de las ventas, con aportaciones a publicidad de alrededor de 4 %, aunque las condiciones cambian según la marca y el año.`,
+f: `Documentos de divulgación de franquicias (FDD) de cadenas de comida rápida y análisis de prensa especializada en franquicias.`,
+err: ["Calcular la rentabilidad sin restar regalías y publicidad.","Olvidar que las regalías se pagan aunque el local no tenga utilidad.","Comparar solo la cuota inicial entre franquicias, sin ver los pagos mensuales.","Imponer proveedores con precios muy por encima del mercado.","No pedir cuentas del uso del fondo de publicidad."],
+a: `Usa la calculadora «Pagos de una franquicia» con estos datos: ventas mensuales de 300,000, regalía de 5 %, publicidad de 3 %, utilidad de operación antes de regalías de 15 % y cuota inicial de 250,000. ¿Cuánto paga al mes? ¿Cuánto le queda? ¿En cuántos meses recupera la cuota inicial?`,
+sol: `Pagos: 300,000 × 8 % = 24,000. Utilidad antes de regalías: 300,000 × 15 % = 45,000. Le quedan 45,000 − 24,000 = 21,000 al mes. Recupera la cuota inicial en 250,000 ÷ 21,000 ≈ 11.9 meses.`,
+q: [{n:1,t:"Ventas mensuales de 400,000, regalía de 6 % y publicidad de 2 %. ¿Cuánto paga el franquiciatario al mes a la marca (en pesos)?",a:32000,tol:0,u:"pesos",e:"400,000 × 8 % = 32,000."},
+["Las regalías suelen calcularse sobre…",["Las ventas","La utilidad","El número de empleados"],0,"Porque las ventas son fáciles de verificar."],
+["¿Qué consecuencia tiene que la regalía se cobre sobre ventas?",["Se paga aunque el local tenga pérdidas","Se paga solo si hay utilidad","No se paga nunca"],0,"Por eso hay que revisar el margen antes de comprar."],
+["El fondo de publicidad se usa para…",["Publicidad común de la marca en toda la red","Pagar la renta del franquiciatario","Pagar impuestos"],0,"El franquiciante debe rendir cuentas de su uso."]],
+t: ["Cuota inicial","Regalía","Fondo de publicidad","Manual de operación"]
+},
+"M21-4": {
+s: `Lupita se convence: quiere que Tortas Lupita sea una franquicia. Toño ya hasta diseñó un folleto. Pero un consultor les dice: «Antes de vender una sola franquicia, necesitan seis cosas que todavía no tienen». ¿Qué hace falta para convertir un negocio exitoso en una franquicia seria?`,
+o: ["Identificar los requisitos para que un negocio sea franquiciable.","Describir los pasos para convertir un negocio en franquicia.","Estimar los costos y el tiempo de preparar una franquicia."],
+x: `## No todo negocio exitoso es franquiciable
+Que un negocio funcione no significa que **otro** pueda hacerlo funcionar igual. Un negocio es **franquiciable** cuando su éxito no depende del talento único del dueño, sino de un **sistema** que se puede enseñar, replicar y supervisar, y cuando el modelo deja **suficiente utilidad** para el franquiciatario después de pagar a la marca.
+
+## Los requisitos
+1. **Concepto probado:** el negocio funciona con éxito, de forma estable, desde hace varios años. Lo ideal es que haya funcionado en **más de una ubicación** (por ejemplo, con sucursales propias) y con gerentes que no son el dueño. Así se demuestra que no depende de un lugar ni de una persona.
+2. **Rentabilidad suficiente para dos:** el negocio debe dejar margen para que el franquiciatario pague regalías y aun así gane bien y recupere su inversión en un tiempo razonable (lección M21-3).
+3. **Sistema replicable:** procesos que se pueden enseñar en semanas, no en años. Si para hacer una torta excelente se necesitan diez años de experiencia, no es franquiciable.
+4. **Diferenciación:** algo que distinga a la marca y que justifique pagar por ella en lugar de abrir un negocio propio sin pagar regalías.
+5. **Marca registrada:** ante el IMPI en México (y en cada país donde se quiera operar). Sin registro, otro podría usarla (recuerda el caso del Módulo 14 sobre la marca registrada por otra persona).
+6. **Capacidad de apoyo:** el franquiciante debe tener la estructura (personas, tiempo, dinero) para capacitar, supervisar y apoyar a la red.
+7. **Mercado:** suficientes zonas o ciudades donde el concepto pueda funcionar.
+
+## Los pasos
+**Paso 1. Diagnóstico de franquiciabilidad.** Revisar con honestidad los requisitos anteriores: ¿el concepto está probado?, ¿el margen alcanza?, ¿se puede enseñar?
+
+**Paso 2. Protección legal.** Registrar la marca (y avisos comerciales, logotipos); revisar que el saber hacer esté protegido con acuerdos de confidencialidad.
+
+**Paso 3. Documentar el sistema.** Escribir el **manual de operación** completo (lección M21-3) y los manuales de imagen, de apertura y de capacitación. Es el trabajo más largo: puede tardar varios meses.
+
+**Paso 4. Modelo financiero.** Definir la inversión que necesitará el franquiciatario, la cuota inicial, las regalías, la publicidad y proyectar la utilidad del franquiciatario y del franquiciante en varios escenarios.
+
+**Paso 5. Documentos legales.** Preparar el **contrato de franquicia** y la **Circular de Oferta de Franquicia** (lección M21-5) con un abogado especializado.
+
+**Paso 6. Estructura del franquiciante.** Crear el área que dará servicio a la red: capacitación, supervisión, expansión, marketing y, en su caso, abastecimiento (cocina central o proveedores).
+
+**Paso 7. Franquicia piloto.** Abrir una o dos franquicias, de preferencia con personas cercanas y de confianza, para probar el sistema, los manuales y el modelo financiero. Ajustar lo que no funcione.
+
+**Paso 8. Comercialización.** Definir el perfil del franquiciatario ideal, preparar materiales de venta honestos, participar en ferias y seleccionar con cuidado.
+
+**Paso 9. Seguimiento y mejora.** Supervisar, capacitar, medir los indicadores de cada local y mejorar el sistema.
+
+## Elegir bien al franquiciatario
+Uno de los errores más caros es vender franquicias **a quien sea** con tal de cobrar la cuota inicial. Un mal franquiciatario daña la marca. El perfil ideal suele incluir:
+- Capacidad financiera para la inversión **y** un colchón.
+- Disposición a seguir reglas (no a «innovar» por su cuenta).
+- Tiempo para operar o supervisar el local.
+- Experiencia en dirigir personas o en atención al cliente.
+- Valores compatibles con la marca.
+
+## Cuánto cuesta y cuánto tarda
+Preparar una franquicia seria implica gastos en: registro de marca, abogados, consultoría (si se usa), redacción de manuales, diseño de imagen, estructura de apoyo y la franquicia piloto. Además, el franquiciante debe aguantar varios meses o años antes de que las regalías cubran el costo de su estructura de apoyo. No es dinero fácil: los primeros franquiciatarios suelen exigir mucho apoyo.
+
+## Errores comunes al franquiciar
+- Franquiciar demasiado pronto, con un solo local de pocos años.
+- Cobrar cuotas tan altas que el franquiciatario no gana.
+- No tener manuales o tener manuales genéricos copiados.
+- Crecer más rápido de lo que se puede supervisar.
+- Prometer en la venta ganancias que no están demostradas.
+
+## El plan de Tortas Lupita
+El consultor resume lo que falta: (1) que la segunda sucursal demuestre que el sistema funciona sin Lupita, al menos un año; (2) el registro de la marca en las clases correctas; (3) el manual de operación completo; (4) el modelo financiero del franquiciatario; (5) el contrato y la Circular de Oferta; (6) una persona dedicada a apoyar a los franquiciatarios. Lupita decide darse 12 meses para preparar todo y abrir después una franquicia piloto con el señor Gómez, en condiciones especiales por ser el primero.
+
+## Una pregunta que se olvida
+Antes de franquiciar, pregúntate también si **quieres** dedicarte a esto. Franquiciar cambia el trabajo del dueño: deja de hacer tortas y de dirigir locales para dedicarse a vender un sistema, capacitar, supervisar y resolver problemas de otros dueños. Para algunos es emocionante; para otros, una carga.`,
+k: `Un negocio es **franquiciable** si su éxito depende de un **sistema** enseñable y no del talento único del dueño, y si deja **utilidad para dos**. Requisitos: concepto probado (idealmente en varias ubicaciones), rentabilidad, sistema replicable, diferenciación, **marca registrada** y capacidad de apoyo. Pasos: diagnóstico → protección legal → manuales → modelo financiero → contrato y COF → estructura → **piloto** → comercialización → seguimiento.`,
+ch: `Una estética exitosa quiere franquiciar, pero descubre que todo depende del talento de su dueña para el colorido. Antes de franquiciar, crea un sistema de fórmulas de color y un curso de seis semanas para que otras estilistas logren el mismo resultado.`,
+gi: `Muchas marcas internacionales abrieron decenas o cientos de locales propios antes de franquiciar, para perfeccionar su sistema y sus manuales; otras combinan siempre locales propios y franquiciados para probar novedades.`,
+e: `Modelo financiero preliminar para el franquiciatario de Tortas Lupita:
+
+| Concepto | Monto |
+|---|---|
+| Inversión en local y equipo | 600,000 |
+| Cuota inicial | 350,000 |
+| **Inversión total** | **950,000** |
+| Ventas mensuales esperadas | 400,000 |
+| Utilidad de operación antes de regalías (18 %) | 72,000 |
+| Regalía y publicidad (8 %) | 32,000 |
+| **Utilidad mensual del franquiciatario** | **40,000** |
+| Recuperación de la inversión total | 950,000 ÷ 40,000 ≈ **24 meses** |
+
+En el escenario pesimista (ventas de 280,000), la utilidad sería 50,400 − 22,400 = 28,000 y la recuperación, unos 34 meses.`,
+r: `El Instituto Mexicano de la Propiedad Industrial (IMPI) es la autoridad que registra marcas en México. Para franquiciar, la ley exige que el franquiciante tenga derechos sobre la marca; por eso el registro es el primer paso legal de cualquier proyecto de franquicia.`,
+f: `Instituto Mexicano de la Propiedad Industrial (gob.mx/impi); Ley Federal de Protección a la Propiedad Industrial.`,
+err: ["Franquiciar con un solo local y pocos años de operación.","Vender franquicias a cualquiera que tenga el dinero.","No registrar la marca antes de ofrecer franquicias.","Prometer ganancias que no están demostradas.","No tener la estructura para apoyar a los franquiciatarios."],
+a: `Haz un diagnóstico de franquiciabilidad de un negocio que conozcas. Califica de 1 a 5 cada uno de los siete requisitos de esta lección y escribe qué tendría que hacer el dueño para mejorar los dos más bajos.`,
+sol: `Los puntos más débiles suelen ser «sistema replicable» (falta documentar) y «capacidad de apoyo» (el dueño no tiene estructura). Las mejoras típicas son escribir el manual, probar el sistema en una sucursal con gerente y crear un área de apoyo a franquiciatarios.`,
+q: [["Un negocio es franquiciable cuando su éxito depende de…",["Un sistema que se puede enseñar y replicar","El talento único del dueño","La suerte"],0,"Debe funcionar sin el dueño presente."],
+["¿Por qué conviene una franquicia piloto?",["Para probar el sistema y el modelo antes de vender muchas","Para cobrar más caro","Para no hacer manuales"],0,"Permite ajustar lo que no funciona."],
+["Un error común al franquiciar es…",["Vender a cualquiera con tal de cobrar la cuota inicial","Registrar la marca","Escribir el manual"],0,"Un mal franquiciatario daña la marca."],
+{n:1,t:"Un franquiciatario invierte 950,000 en total y gana 40,000 al mes. ¿En cuántos meses recupera su inversión (aproximado)?",a:23.75,tol:0.5,u:"meses",e:"950,000 ÷ 40,000 = 23.75 meses, unos 24."}],
+t: ["Franquiciable","Franquicia piloto","Diagnóstico de franquiciabilidad","IMPI"]
+},
+"M21-5": {
+s: `La prima de Toño quiere comprar la franquicia de una cadena de cafés que vio en una feria. El vendedor le prometió «recuperar tu inversión en 12 meses». Le entregaron un folleto brillante y le piden firmar esta semana para «apartar la zona». Toño recuerda algo de la ley: «¿Ya te dieron la Circular de Oferta de Franquicia?».`,
+o: ["Explicar qué es la Circular de Oferta de Franquicia y qué información incluye.","Evaluar una franquicia antes de comprarla con una lista de verificación.","Reconocer señales de alerta en la venta de franquicias."],
+x: `## Comprar una franquicia es comprar un negocio
+Comprar una franquicia no es comprar un empleo seguro ni una inversión pasiva. Es **invertir en un negocio** que tendrás que operar o supervisar, con riesgos reales. La marca reduce algunos riesgos (concepto probado, apoyo), pero no los elimina. Hay franquiciatarios que ganan muy bien y otros que pierden todo.
+
+## La Circular de Oferta de Franquicia (COF)
+En México, la **Ley Federal de Protección a la Propiedad Industrial** obliga al franquiciante a entregar al interesado una **Circular de Oferta de Franquicia** con anticipación a la firma del contrato (la ley establece un plazo mínimo, que en la regulación vigente al momento de escribir este curso es de **30 días hábiles**). Su objetivo es que el futuro franquiciatario tome la decisión con **información veraz**. Si la información es falsa, la ley prevé consecuencias.
+
+La COF debe incluir información como:
+- Datos del franquiciante y su experiencia.
+- Descripción de la franquicia y de la marca, y la situación de sus registros.
+- **Montos y conceptos de los pagos** que hará el franquiciatario (cuota inicial, regalías, publicidad, otros).
+- Asistencia técnica y servicios que dará el franquiciante.
+- La zona o territorio.
+- Derechos y obligaciones, incluidos los de confidencialidad.
+- Duración del contrato y condiciones de terminación y renovación.
+- Si se puede vender o ceder la franquicia.
+
+Revisa la ley vigente para conocer la lista completa y actualizada.
+
+## La lista de verificación del comprador
+**Sobre la marca y el franquiciante:**
+- ¿Desde cuándo existe la marca y desde cuándo franquicia?
+- ¿Cuántos locales hay? ¿Cuántos son propios y cuántos franquiciados?
+- **¿Cuántos locales han cerrado** en los últimos años y por qué?
+- ¿La marca está registrada a nombre del franquiciante? (Se puede verificar en las bases de datos públicas del IMPI.)
+- ¿El franquiciante tiene problemas legales o demandas con franquiciatarios?
+
+**Sobre los números:**
+- ¿Cuál es la **inversión total** (no solo la cuota inicial): local, obra, equipo, inventario, capital de trabajo y colchón?
+- ¿Cuáles son todos los pagos: regalías, publicidad, tecnología, renovación, cesión?
+- ¿Cuánto venden y cuánto ganan **en realidad** los locales existentes? Pide información y compárala con tus propias proyecciones.
+- ¿Los proveedores obligatorios tienen precios de mercado?
+- ¿Cuánto tardan los locales en llegar al punto de equilibrio?
+
+**Sobre el apoyo:**
+- ¿Qué incluye la capacitación y cuánto dura?
+- ¿Quién supervisa y cada cuánto?
+- ¿Cómo se usa el fondo de publicidad? ¿Rinden cuentas?
+
+**Sobre el contrato:**
+- ¿Cuál es el territorio y si hay exclusividad?
+- ¿Cuánto dura y qué pasa al terminar?
+- ¿Puedo vender mi franquicia? ¿Con qué condiciones?
+- ¿Qué causas permiten al franquiciante terminar el contrato?
+- ¿Cuáles son las restricciones de no competencia?
+
+## Hablar con franquiciatarios actuales (y con los que salieron)
+Es el paso **más valioso**. Pide la lista de franquiciatarios y llama o visita a varios, no solo a los que te recomiende la marca. Pregunta: ¿cuánto invirtieron en realidad?, ¿cuánto tardaron en recuperar?, ¿el apoyo es el prometido?, ¿volverían a comprar? Si puedes, busca a ex franquiciatarios: su experiencia dice mucho.
+
+## Señales de alerta
+- Presión para firmar rápido («solo queda esta zona», «el precio sube el lunes»).
+- Promesas de ganancias garantizadas o recuperación «segura» en pocos meses.
+- No entregar la COF o entregar información incompleta.
+- La marca no está registrada a nombre del franquiciante.
+- Pocos locales con mucho tiempo en operación; muchos locales recién abiertos.
+- Muchos cierres de locales que no explican.
+- El franquiciante gana más vendiendo franquicias (cuotas iniciales) que con las regalías de locales que funcionan.
+- Proveedores obligatorios con precios muy altos.
+- Negativa a que hables con franquiciatarios actuales.
+
+## Haz tus propios números
+Arma tu propio modelo financiero, con base en información verificada, en tres escenarios. Incluye tu sueldo: si vas a trabajar en el local, la utilidad debe pagarte un sueldo justo **y además** dar un rendimiento a tu inversión. Si con el escenario pesimista no puedes pagar tus compromisos, no compres o busca una opción más pequeña.
+
+## Asesoría
+Antes de firmar, revisa el contrato y la COF con un **abogado especializado en franquicias** y los números con un **contador**. Cuesta dinero, pero es poco comparado con la inversión total.
+
+## La decisión de la prima de Toño
+Con la lista de verificación descubre tres cosas: la COF no le fue entregada; de los 18 locales de la cadena, 7 abrieron en los últimos seis meses y 4 cerraron el año pasado; y dos franquiciatarios le dicen que tardaron más de tres años en recuperar su inversión. Decide no firmar esa semana y pedir la COF. El vendedor deja de contestar. Una buena señal de que no era una buena oportunidad.
+
+## Después de comprar
+Firmar es el principio, no el final. El franquiciatario que mejor le va suele ser el que asiste a todas las capacitaciones, sigue el manual, mide sus números cada semana y participa en las reuniones de la red para proponer mejoras.`,
+k: `**Comprar una franquicia es comprar un negocio**, con riesgos reales. En México, el franquiciante debe entregar la **Circular de Oferta de Franquicia (COF)** con anticipación a la firma (la ley fija un plazo mínimo), con información veraz sobre la marca, los pagos, el apoyo, el territorio y el contrato. Revisa: inversión total, todos los pagos, resultados reales, cierres, apoyo y contrato. Habla con franquiciatarios actuales y con los que salieron.`,
+ch: `Un señor que quiere comprar una franquicia de tintorería visita cinco locales de la marca, habla con sus dueños y descubre que dos de ellos venden la mitad de lo que dice el folleto. Negocia una zona con más población antes de firmar.`,
+gi: `En Estados Unidos, la Comisión Federal de Comercio exige un documento de divulgación de franquicias muy detallado, que incluye datos de locales abiertos y cerrados, litigios y, opcionalmente, información sobre los resultados financieros de los locales.`,
+e: `La prima de Toño revisa los locales de la cadena de cafés:
+
+| Dato | Valor |
+|---|---|
+| Locales en operación | 18 |
+| Abiertos en los últimos 6 meses | 7 |
+| Cerrados el año pasado | 4 |
+| Tasa de cierre aproximada | 4 ÷ (18 − 7 + 4) = 4 ÷ 15 ≈ **27 %** |
+| Recuperación prometida | 12 meses |
+| Recuperación real según dos franquiciatarios | Más de 36 meses |
+
+Una tasa de cierre de casi uno de cada cuatro locales con más de seis meses es una señal de alerta seria.`,
+r: `La Ley Federal de Protección a la Propiedad Industrial, vigente en México desde noviembre de 2020, regula las franquicias y obliga al franquiciante a entregar la Circular de Oferta de Franquicia con anticipación a la firma del contrato, con la información que la propia ley señala.`,
+f: `Ley Federal de Protección a la Propiedad Industrial (DOF, 1 de julio de 2020; vigente desde el 5 de noviembre de 2020).`,
+err: ["Firmar bajo presión sin haber recibido la Circular de Oferta de Franquicia.","Considerar solo la cuota inicial y no la inversión total.","Creer en promesas de ganancias garantizadas.","No hablar con franquiciatarios actuales ni con los que salieron.","No revisar el contrato con un abogado especializado."],
+a: `Arma tu propia lista de verificación de 15 preguntas para evaluar una franquicia, dividida en cuatro grupos: marca y franquiciante, números, apoyo y contrato. Después, marca con una estrella las tres que consideras más importantes y explica por qué.`,
+sol: `Suelen ser especialmente importantes: cuántos locales han cerrado y por qué; cuál es la inversión total y la utilidad real de locales existentes; y qué dicen los franquiciatarios actuales y anteriores sobre el apoyo y la recuperación.`,
+q: [["¿Qué es la Circular de Oferta de Franquicia?",["Un documento con información veraz que se entrega antes de firmar","Un anuncio publicitario","El recibo de la cuota inicial"],0,"La exige la ley en México."],
+["¿Cuál es una señal de alerta al comprar una franquicia?",["Presión para firmar rápido y promesas de ganancias garantizadas","Que te dejen hablar con franquiciatarios","Que te entreguen la COF"],0,"Una buena marca da tiempo e información."],
+["Para evaluar una franquicia conviene hablar con…",["Franquiciatarios actuales y con los que salieron","Solo con el vendedor","Nadie"],0,"Su experiencia es la información más valiosa."],
+["La inversión total de una franquicia incluye…",["Cuota inicial, local, equipo, inventario y colchón","Solo la cuota inicial","Solo las regalías"],0,"La cuota inicial es solo una parte."]],
+t: ["Circular de Oferta de Franquicia","Inversión total","Tasa de cierre"]
+},
+"M21-6": {
+s: `Un supermercado de la ciudad le ofrece a Lupita vender sus salsas embotelladas con la marca Tortas Lupita. Una empresa de alimentos le propone usar su marca en tortas congeladas a cambio de un porcentaje. Y el aeropuerto abre una licitación para un local de comida. Ninguna es una franquicia. ¿Qué son y cómo se comparan?`,
+o: ["Distinguir licencias, concesiones, distribuidores y franquicias.","Reconocer cuándo conviene cada modelo para crecer.","Comparar riesgos y beneficios de cada forma de ceder derechos."],
+x: `## Crecer cediendo derechos
+La franquicia es una de varias formas de crecer **dejando que otros usen algo tuyo** (tu marca, tus productos, un espacio, un derecho) a cambio de un pago. Cada modelo transmite cosas distintas y da distinto control.
+
+## La licencia de marca
+En una **licencia de marca**, el dueño de una marca (licenciante) permite a otra empresa (licenciatario) **usarla en ciertos productos o servicios**, a cambio de una **regalía** (normalmente un porcentaje de las ventas de esos productos). A diferencia de la franquicia, la licencia **no transmite un sistema completo de negocio**: solo el derecho de usar la marca, con ciertos controles de calidad.
+
+Ejemplos: equipos deportivos que licencian su escudo para camisetas y juguetes; personajes de películas en mochilas y cuadernos; marcas de restaurantes que licencian su nombre para productos de supermercado. En el caso de Lupita, la empresa de alimentos que haría tortas congeladas «Tortas Lupita» sería un **licenciatario**.
+
+**Ventajas:** ingresos con poca inversión; llegar a nuevos productos o mercados; más presencia de marca.
+**Riesgos:** si el licenciatario hace un producto malo, daña la marca; hay que controlar la calidad y registrar la marca en las clases correspondientes (lección M14-3).
+
+## La licencia de tecnología o de patente
+Similar, pero con tecnología: el dueño de una patente, un software o un proceso permite a otro usarlo a cambio de regalías. Es muy común en la industria farmacéutica, de tecnología y de manufactura.
+
+## La concesión
+Una **concesión** es el derecho que otorga el **dueño de un espacio o de un servicio** (muchas veces el gobierno) para que una empresa lo explote por un tiempo, con condiciones. En el sector público, el gobierno concede, por ejemplo, la operación de una carretera, de un puerto, del servicio de agua o de una frecuencia de radio. En el sector privado, un aeropuerto, un estadio, un hospital, una universidad o un centro comercial puede conceder a una empresa la operación de un local de comida.
+
+En el ejemplo de Lupita, el aeropuerto concede un local mediante una **licitación**: varias empresas presentan ofertas y gana la que mejor cumple los criterios (pago, propuesta, experiencia). A cambio, el concesionario suele pagar una **renta fija más un porcentaje de las ventas**, y cumplir con reglas estrictas de horario, precios máximos e imagen.
+
+**Ventajas:** acceso a un mercado cautivo (pasajeros, aficionados, estudiantes), con mucho flujo.
+**Riesgos:** pagos altos al concedente; plazos limitados; reglas estrictas; riesgo de no renovar.
+
+## El distribuidor
+Un **distribuidor** compra productos a un fabricante y los **revende** en una zona, con su propio negocio. Puede ser **exclusivo** (solo él vende esa marca en la zona) o no. El distribuidor gana con el margen entre lo que compra y lo que vende. No paga regalías, pero suele tener metas de compra y reglas de exhibición o servicio.
+
+Ejemplos: distribuidores de refacciones, de materiales de construcción, de bebidas, de medicamentos. Las agencias de automóviles son un caso intermedio: son distribuidores con muchas reglas de imagen, servicio y capacitación de la marca, casi como una franquicia.
+
+En el caso de Lupita, si el supermercado le compra las salsas embotelladas para revenderlas, el supermercado es un **canal de distribución**; si Lupita nombrara a una empresa para llevar sus salsas a todas las tiendas de una región, esa empresa sería su **distribuidor**.
+
+## Otros modelos cercanos
+- **Agente o representante de ventas:** vende a nombre del fabricante a cambio de una comisión, sin comprar el producto.
+- **Socio operador o comisionista:** opera un local propiedad de la marca a cambio de una comisión (el modelo que vimos en OXXO, lección M20-7).
+- **Venta directa o por catálogo:** personas independientes que venden productos de una marca (lección M11, Natura y Avon).
+- **Empresa conjunta (joint venture):** dos empresas crean una tercera para un proyecto común (lección M22-5).
+
+## Tabla comparativa
+| Modelo | Qué se cede | Cómo gana el dueño | Control del dueño | Inversión del dueño |
+|---|---|---|---|---|
+| Sucursal propia | Nada | Toda la utilidad | Total | Alta |
+| Franquicia | Marca + sistema completo | Cuota inicial + regalías | Alto (contrato y manual) | Baja |
+| Licencia de marca | Uso de la marca en productos | Regalías | Medio (control de calidad) | Muy baja |
+| Concesión (desde el que concede) | Derecho de explotar un espacio o servicio | Renta y porcentaje | Medio a alto | Variable |
+| Distribuidor | Derecho de revender en una zona | Margen de venta al distribuidor | Bajo a medio | Baja |
+| Comisionista | Operación del local | Utilidad menos comisión | Alto | Alta |
+
+## ¿Cuál conviene?
+Depende de **qué tiene de valioso el negocio** y de **cuánto control** necesita:
+- Si lo valioso es el **sistema completo** de operar un local, la franquicia o las sucursales propias.
+- Si lo valioso es la **marca** y existe un socio que sabe fabricar, la licencia.
+- Si lo valioso es el **producto** y se necesita llegar a muchos puntos de venta, los distribuidores.
+- Si hay un **mercado cautivo** atractivo, la concesión.
+
+## Lo que decide Lupita
+Acepta vender sus salsas al supermercado (con la etiqueta y la información que exige la norma de etiquetado), pero antes registra la marca en la clase de salsas. Rechaza, por ahora, la licencia de tortas congeladas: no confía en que una torta congelada mantenga la calidad y teme dañar la marca. Y presenta una oferta para la concesión del aeropuerto, porque el flujo de pasajeros es enorme, aunque el pago de renta más el 15 % de las ventas exige un margen alto.`,
+k: `**Licencia de marca:** permiso para usar la marca en productos, a cambio de regalías, sin transmitir un sistema completo. **Concesión:** derecho de explotar un espacio o servicio por un tiempo, con condiciones (a menudo renta fija + % de ventas). **Distribuidor:** compra y revende los productos en una zona y gana con el margen. Elige según lo valioso del negocio (sistema, marca, producto, espacio) y el control que necesitas.`,
+ch: `Una panadería famosa de un pueblo da licencia de su nombre a una fábrica regional para vender galletas empacadas en tiendas de la región, a cambio del 4 % de las ventas y de revisar la receta y la calidad cada mes.`,
+gi: `Los grandes estudios de cine y las ligas deportivas obtienen una parte importante de sus ingresos de licencias de sus personajes y escudos para ropa, juguetes y videojuegos, que fabrican y venden otras empresas.`,
+e: `Lupita evalúa la concesión del aeropuerto:
+
+| Concepto | Cálculo | Monto mensual |
+|---|---|---|
+| Ventas esperadas | — | 500,000 |
+| Renta fija | — | 40,000 |
+| Porcentaje para el aeropuerto | 500,000 × 15 % | 75,000 |
+| Costo de insumos (40 %) | 500,000 × 40 % | 200,000 |
+| Personal y otros gastos | — | 130,000 |
+| **Utilidad antes de impuestos** | 500,000 − 40,000 − 75,000 − 200,000 − 130,000 | **55,000** |
+
+Si las ventas fueran solo de 400,000, los pagos al aeropuerto serían 100,000, los insumos 160,000 y, con los mismos 130,000 de gastos, la utilidad bajaría a 10,000: el negocio es muy sensible a las ventas.`,
+r: `En México, los grupos aeroportuarios que operan aeropuertos concesionados por el gobierno, como los que cotizan en la Bolsa Mexicana de Valores, obtienen parte de sus ingresos de los locales comerciales y de alimentos dentro de las terminales, que a su vez operan empresas mediante contratos con renta y porcentaje de ventas, según sus informes anuales.`,
+f: `Informes anuales de grupos aeroportuarios mexicanos que cotizan en la BMV (sección de ingresos no aeronáuticos).`,
+err: ["Confundir una licencia de marca con una franquicia.","Dar licencia de la marca sin controles de calidad.","No registrar la marca en las clases de los productos licenciados.","Aceptar una concesión sin calcular el efecto del porcentaje sobre ventas.","Elegir un modelo sin preguntarse qué es lo valioso del negocio."],
+a: `Para cada caso, indica qué modelo es (franquicia, licencia, concesión, distribuidor o comisionista) y por qué: (1) una cafetería opera dentro de una universidad pagando renta y porcentaje; (2) una empresa fabrica cuadernos con un personaje de caricaturas; (3) una tienda compra y revende refacciones de una marca en una región; (4) una persona opera una tienda de la marca a cambio de una comisión; (5) una persona abre un local con marca, manual y capacitación de otra empresa.`,
+sol: `(1) Concesión; (2) licencia de marca; (3) distribuidor; (4) comisionista; (5) franquicia.`,
+q: [["Una licencia de marca, a diferencia de una franquicia…",["Solo permite usar la marca, sin transmitir un sistema completo","Transmite el manual de operación completo","No tiene regalías"],0,"El licenciatario usa la marca en productos."],
+["Un local de comida dentro de un aeropuerto que paga renta y porcentaje suele operar mediante…",["Una concesión","Una licencia de tecnología","Un distribuidor"],0,"El aeropuerto concede el espacio."],
+["Un distribuidor gana con…",["El margen entre lo que compra y lo que vende","Las regalías que cobra","El sueldo que le paga la marca"],0,"Compra y revende los productos."],
+["Si lo valioso de un negocio es su marca y hay un socio que sabe fabricar, conviene…",["Una licencia","Cerrar","Una concesión de carretera"],0,"Con control de calidad."]],
+t: ["Licencia de marca","Concesión","Distribuidor","Licitación"]
+},
+"M21-7": {
+s: `En una charla, un empresario dice: «McDonald's no está en el negocio de las hamburguesas; está en el negocio de los bienes raíces». Toño se ríe, pero luego se queda pensando. ¿Cómo gana dinero realmente una de las franquicias más grandes del mundo?`,
+o: ["Describir el modelo de negocio de McDonald's según su información pública.","Explicar el papel de los inmuebles y de las rentas en el modelo.","Extraer lecciones del caso para una franquicia pequeña."],
+x: `## Un poco de historia
+Según la historia corporativa de la empresa, los hermanos **Richard y Maurice McDonald** abrieron un restaurante en San Bernardino, California, y en 1948 lo transformaron en un sistema de servicio rápido con un menú corto, preparación en línea y precios bajos. **Ray Kroc**, un vendedor de máquinas para batidos, conoció el restaurante y en 1955 abrió su primer local franquiciado en Des Plaines, Illinois, como agente de franquicias de los hermanos. En 1961 compró los derechos de la marca a los hermanos McDonald.
+
+## El sistema
+El éxito de McDonald's se apoyó en lo que estudiamos en el Módulo 20: **estandarización extrema**. Menú limitado, procesos definidos al detalle, equipo diseñado para producir rápido y siempre igual, capacitación formal (la empresa fundó en 1961 un centro de capacitación conocido como «Universidad de la Hamburguesa»). Ray Kroc resumía la filosofía con cuatro palabras: calidad, servicio, limpieza y valor.
+
+## El giro inmobiliario
+Al principio, el negocio de franquicias de Kroc ganaba poco: las regalías eran bajas y los gastos de apoyo altos. Según los libros que cuentan la historia de la empresa, la solución vino de **Harry Sonneborn**, su director financiero en esos años: crear una empresa que **comprara o rentara a largo plazo los terrenos y los locales**, y luego los **subarrendara a los franquiciatarios** con un margen. A Sonneborn se le atribuye la idea de que la empresa estaba, en el fondo, en el negocio de los bienes raíces.
+
+Así, el franquiciatario de McDonald's paga a la empresa:
+- **Regalías** (un porcentaje de las ventas) por usar la marca y el sistema.
+- **Renta** del local, que en muchos casos también se calcula como un porcentaje de las ventas, con mínimos.
+- **Cuota inicial** al abrir.
+- Aportación para **publicidad**.
+
+Además, el franquiciatario invierte en el equipo, la decoración y la operación, y es responsable de su personal.
+
+## Lo que dicen sus informes
+En sus informes anuales a la Comisión de Bolsa y Valores de Estados Unidos, McDonald's explica que la gran mayoría de sus restaurantes en el mundo (alrededor del **95 %** en los años recientes) son operados por **franquiciatarios**, y que sus ingresos de restaurantes franquiciados incluyen **rentas, regalías y cuotas iniciales**. La empresa es dueña de una parte importante de los terrenos y de los edificios de sus restaurantes, y renta a largo plazo muchos otros.
+
+Esto tiene una consecuencia importante: aunque las ventas totales del sistema (sumando todos los restaurantes) son enormes, los **ingresos de la empresa** son mucho menores, porque solo recibe una parte (rentas y regalías). Pero esos ingresos tienen **márgenes muy altos** y son más estables que operar restaurantes directamente.
+
+## Por qué el modelo es poderoso
+1. **Ingresos estables:** la renta y las regalías se cobran sobre ventas, no sobre la utilidad del franquiciatario.
+2. **Control:** ser dueño del local da al franquiciante un poder enorme. Si el franquiciatario no cumple, el contrato de renta también termina.
+3. **Activo que se valoriza:** los terrenos en buenas ubicaciones suelen aumentar de valor con el tiempo.
+4. **Capital de los franquiciatarios:** los franquiciatarios ponen buena parte de la inversión y operan; la empresa crece con menos capital propio en la operación.
+5. **Escala de compras y de publicidad:** miles de restaurantes negocian juntos con proveedores y comparten publicidad.
+
+## Las tensiones
+- **Con los franquiciatarios:** a lo largo de los años ha habido desacuerdos públicos sobre remodelaciones obligatorias, cambios de menú, promociones con precios bajos y tecnología, que afectan la utilidad de los franquiciatarios.
+- **Laborales:** como en toda la industria, ha habido debates sobre salarios y condiciones de trabajo.
+- **De salud:** críticas por el impacto de la comida rápida en la alimentación, que llevaron a cambios en el menú y en la información nutrimental.
+- **Locales:** adaptarse a cada país sin perder el estándar (Módulo 26).
+
+## En México
+McDonald's llegó a México en 1985. En Latinoamérica, la mayoría de los restaurantes son operados por **Arcos Dorados**, una empresa que cotiza en la Bolsa de Nueva York y que es el mayor franquiciatario de McDonald's en el mundo, con una **franquicia maestra** para la región, según su propia información para inversionistas. Es un ejemplo de lo que vimos en la lección M21-1.
+
+## Lecciones para Tortas Lupita
+| Lección del caso | Cómo aplicarla en pequeño |
+|---|---|
+| Estandarización extrema | Fichas técnicas, manual, capacitación formal |
+| Ingresos sobre ventas | Regalía y publicidad como % de ventas, con números que dejen utilidad al franquiciatario |
+| Control a través del inmueble | Si tiene capital, rentar el local a nombre de la marca y subarrendarlo, para conservar la ubicación si el franquiciatario se va |
+| Franquiciatarios exitosos | Elegir bien y apoyar; si ellos ganan, la marca gana |
+| Locales propios | Mantener algunos para probar novedades |
+
+## Una advertencia
+El modelo inmobiliario requiere **mucho capital** y conocimiento del mercado de inmuebles. Una marca pequeña no puede comprar terrenos para cada franquicia. Lo que sí puede copiar es la idea de fondo: **tener control de las ubicaciones** (por ejemplo, ser la arrendataria principal) y diseñar ingresos estables que no dependan de que cada franquiciatario declare utilidades.`,
+k: `**Caso McDonald's:** sistema de servicio rápido de los hermanos McDonald (1948), franquiciado por Ray Kroc desde 1955. Claves: **estandarización extrema**, capacitación formal y un **modelo inmobiliario**: la empresa es dueña o arrendataria de muchos locales y los **subarrienda** a franquiciatarios, cobrando **renta + regalías + cuotas**. Alrededor del 95 % de sus restaurantes son franquiciados, según sus informes.`,
+ch: `Una pequeña cadena de cafés renta los locales a su nombre y los subarrienda a sus franquiciatarios con un pequeño margen. Así, si un franquiciatario se va, la marca conserva la ubicación y puede ponerla en manos de otro.`,
+gi: `Arcos Dorados, el mayor franquiciatario de McDonald's en el mundo, opera los restaurantes de la marca en buena parte de Latinoamérica mediante una franquicia maestra y cotiza en la Bolsa de Nueva York, según su información para inversionistas.`,
+e: `Ejemplo ilustrativo (no son cifras reales de McDonald's) de lo que la marca cobra a un restaurante franquiciado con ventas de 1,000,000 al mes:
+
+| Concepto | Cálculo | Monto mensual |
+|---|---|---|
+| Regalía | 1,000,000 × 4 % | 40,000 |
+| Renta (porcentaje de ventas) | 1,000,000 × 10 % | 100,000 |
+| **Ingreso de la marca** | | **140,000** |
+| Costo de la marca por el inmueble (su propia renta o costo) | — | 50,000 |
+| **Margen de la marca** | 140,000 − 50,000 | **90,000** |
+
+La marca gana más por la renta que por la regalía: de ahí la frase «está en el negocio de los bienes raíces».`,
+r: `En sus informes anuales (Formulario 10-K) ante la Comisión de Bolsa y Valores de Estados Unidos, McDonald's Corporation informa que alrededor del 95 % de sus restaurantes son franquiciados y que sus ingresos de restaurantes franquiciados se componen de rentas, regalías y cuotas iniciales; también detalla la proporción de terrenos y edificios que posee o renta.`,
+f: `McDonald's Corporation, Formulario 10-K (informes anuales recientes); historia corporativa en corporate.mcdonalds.com; J. Love, «McDonald's: Behind the Arches» (1986).`,
+err: ["Creer que una franquicia gana sobre todo vendiendo el producto.","Copiar el modelo inmobiliario sin tener el capital necesario.","Olvidar que el éxito de la marca depende del éxito de los franquiciatarios.","Ver solo los aciertos del caso e ignorar sus tensiones y críticas."],
+a: `Con los datos del ejemplo resuelto, calcula cuánto recibiría la marca de 50 restaurantes iguales en un año. Después, explica por qué la renta le da a la marca más control sobre el franquiciatario que la regalía.`,
+sol: `Ingreso mensual por restaurante: 140,000; margen: 90,000. En 50 restaurantes: 140,000 × 50 × 12 = 84,000,000 de ingresos y 90,000 × 50 × 12 = 54,000,000 de margen al año. La renta da más control porque, si el franquiciatario incumple, la marca puede terminar el arrendamiento y conservar la ubicación.`,
+q: [["¿Quién abrió en 1955 el primer local franquiciado de McDonald's que dio origen a la empresa actual?",["Ray Kroc","Henry Ford","Steve Jobs"],0,"En Des Plaines, Illinois."],
+["Según sus informes, ¿qué proporción aproximada de restaurantes de McDonald's es franquiciada?",["Alrededor del 95 %","Alrededor del 10 %","Ninguno"],0,"La mayoría la operan franquiciatarios."],
+["¿Por qué se dice que McDonald's está en el negocio de los bienes raíces?",["Porque es dueña o arrendataria de muchos locales y cobra renta a los franquiciatarios","Porque vende casas","Porque no vende hamburguesas"],0,"La renta es una fuente central de ingresos y de control."],
+["Arcos Dorados es…",["El mayor franquiciatario de McDonald's, con la franquicia maestra en gran parte de Latinoamérica","Un competidor","Un proveedor de papas"],0,"Cotiza en la Bolsa de Nueva York."]],
+t: ["Modelo inmobiliario","Subarrendamiento","Arcos Dorados"]
+}
+});
