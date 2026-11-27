@@ -2607,3 +2607,580 @@ q: [["Un acuerdo entre competidores para fijar precios es…",["Una práctica mo
 t: ["Competencia económica","Monopolio","Oligopolio","Cártel","Práctica monopólica relativa","Mercado relevante","Concentración económica","Cofece"]
 }
 });
+
+// ===== M27. Ética, responsabilidad, crisis y fracasos =====
+Object.assign(window.LECC, {
+"M27-1": {
+s: `Un proveedor de carne le ofrece a Grupo Lupita un precio 15 % más bajo. La directora de compras descubre que es carne de origen dudoso, sin certificado sanitario completo. Nadie se daría cuenta y el ahorro sería de varios millones al año. Al mismo tiempo, un gerente sugiere no dar de alta en el IMSS a los empleados de temporada para ahorrar cuotas. «Todos lo hacen», dice. ¿Qué haría una empresa ética?`,
+o: ["Definir la ética empresarial y distinguirla del cumplimiento legal.","Identificar dilemas éticos frecuentes en negocios chicos y grandes.","Aplicar un método sencillo para decidir ante un dilema ético."],
+x: `## Qué es la ética empresarial
+La **ética empresarial** es el conjunto de **principios y valores** que guían cómo una empresa y las personas que trabajan en ella toman decisiones y tratan a los demás: clientes, empleados, proveedores, competidores, accionistas, comunidad y medio ambiente. Responde a la pregunta: **¿qué es lo correcto hacer?**, no solo **¿qué es legal?** o **¿qué es rentable?**
+
+## Ética, ley y conveniencia
+- **Lo legal** es lo que permiten o exigen las leyes. Es el **mínimo**.
+- **Lo ético** puede ir más allá: hay conductas legales que no son éticas (por ejemplo, aprovecharse de un error de un cliente que pagó de más) y, en casos excepcionales, leyes injustas.
+- **Lo conveniente** es lo que da más dinero en el corto plazo.
+
+En el caso de la carne de origen dudoso y de los empleados sin alta en el IMSS, las decisiones serían **ilegales** y **no éticas**: ponen en riesgo la salud de los clientes y los derechos de los trabajadores. Que «todos lo hagan» no lo justifica.
+
+## Por qué la ética importa en los negocios
+1. **Confianza:** los clientes, empleados, proveedores y bancos hacen negocios con quien confían. La confianza tarda años en ganarse y minutos en perderse.
+2. **Reputación:** en la era de las redes sociales, una mala práctica puede volverse pública en horas (lección M27-4).
+3. **Riesgo legal:** muchas faltas éticas terminan en multas, juicios o cárcel.
+4. **Talento:** las personas prefieren trabajar en empresas con valores.
+5. **Sostenibilidad:** una empresa que daña a sus clientes, empleados o comunidad no puede durar.
+6. **Porque es lo correcto,** aunque no siempre sea lo más rentable en el corto plazo.
+
+## Dilemas éticos frecuentes
+**En negocios chicos:**
+- No dar factura o no pagar impuestos.
+- No dar de alta a los empleados en la seguridad social.
+- Usar ingredientes de mala calidad o caducos.
+- Engañar en el peso, la cantidad o la calidad.
+- Prometer algo que no se puede cumplir.
+- Pagar «mordidas» a inspectores.
+
+**En empresas grandes:**
+- Ocultar defectos de un producto.
+- Manipular resultados financieros (lección M24-9).
+- Sobornar a funcionarios para ganar contratos (lección M27-3).
+- Contaminar o dañar el medio ambiente.
+- Condiciones laborales injustas en la cadena de proveedores.
+- Usar los datos personales de los clientes sin su permiso.
+- Publicidad engañosa.
+- Acuerdos con competidores (lección M26-8).
+- Conflictos de interés de directivos (lección M24-6).
+
+## Un método sencillo para decidir
+Ante un dilema, hazte estas preguntas:
+1. **¿Es legal?** Si no lo es, no se hace.
+2. **¿A quién afecta?** Clientes, empleados, proveedores, comunidad, medio ambiente. ¿Alguien sale dañado?
+3. **¿Es justo?** ¿Trataría así a alguien que quiero?
+4. **La prueba del periódico:** ¿me sentiría cómodo si esta decisión apareciera mañana en la primera plana o se volviera viral?
+5. **La prueba del espejo:** ¿me sentiría orgulloso de explicarla a mi familia?
+6. **¿Qué pasaría si todos lo hicieran?**
+7. **¿Es coherente con los valores de la empresa?**
+
+## La ética como sistema, no solo como buena voluntad
+Las empresas no pueden depender solo de que cada persona «sea buena». Necesitan un **sistema**:
+- **Código de ética o de conducta:** describe las conductas esperadas y prohibidas con ejemplos claros.
+- **Ejemplo de los líderes:** la ética se aprende viendo lo que hacen los jefes, no lo que dicen. Se le llama el «tono desde arriba».
+- **Capacitación** con casos reales.
+- **Canales de denuncia** confidenciales, sin represalias (lección M24-9).
+- **Investigación y consecuencias** cuando hay faltas, sin importar el puesto.
+- **Incentivos coherentes:** metas que no empujen a hacer trampa (lección M24-6).
+
+## Incentivos que empujan a la trampa
+Un caso muy citado es el de **Wells Fargo**, banco de Estados Unidos. Según los reguladores de ese país, durante años empleados presionados por metas agresivas de ventas abrieron **millones de cuentas** a nombre de clientes sin su autorización. En 2016, el banco recibió multas, su director general renunció y, en años siguientes, llegó a acuerdos que sumaron miles de millones de dólares con autoridades. El caso muestra cómo metas mal diseñadas y una cultura de presión pueden llevar a conductas no éticas masivas.
+
+## La ética en Grupo Lupita
+Lupita responde con claridad: (1) no se compra carne sin certificado sanitario, aunque sea más barata; (2) todos los empleados, incluidos los de temporada, se dan de alta en el IMSS; (3) se escribe un **código de conducta** de diez puntos con ejemplos reales del negocio, se capacita a todos los gerentes y se crea un canal de denuncias. Además, se revisan las metas de los gerentes para que no premien recortar costos a cualquier precio.
+
+## La ética también se ve en lo pequeño
+La ética de una empresa no se mide solo en las grandes decisiones. Se ve en cómo se trata a un cliente que se queja, en si se respetan los descansos de los empleados, en si se paga a tiempo a los proveedores pequeños y en si se dice la verdad cuando hay un error. Esas conductas diarias forman la cultura, y la cultura es la que decide qué pasa cuando nadie está mirando.`,
+k: `**Ética empresarial:** principios y valores que guían las decisiones de la empresa con clientes, empleados, proveedores, comunidad y medio ambiente. **Lo legal es el mínimo**; lo ético puede exigir más. Método: ¿es legal?, ¿a quién afecta?, ¿es justo?, **prueba del periódico**, prueba del espejo. Sistema ético: **código de conducta**, **tono desde arriba**, capacitación, canales de denuncia, consecuencias e incentivos coherentes.`,
+ch: `Una dueña de una tienda de abarrotes descubre que un cliente le pagó con un billete de 500 creyendo que era de 50. Lo busca para devolverle la diferencia. Esa noticia corre por la colonia y su clientela confía todavía más en ella.`,
+gi: `Según los reguladores de Estados Unidos, empleados de Wells Fargo abrieron millones de cuentas sin autorización de los clientes por la presión de metas de ventas; en 2016 el banco fue multado y su director general renunció, y en los años siguientes pagó miles de millones de dólares en acuerdos con autoridades.`,
+e: `Lo que «ahorra» y lo que arriesga Grupo Lupita con la carne de origen dudoso (estimación anual, millones de pesos):
+
+| Concepto | Monto |
+|---|---|
+| Ahorro por precio 15 % menor (compras de carne de 20 millones) | 3.0 |
+| Probabilidad estimada de un problema sanitario grave en el año | 5 % |
+| Costo de un problema grave (cierres, multas, demandas, ventas perdidas) | 120 |
+| Costo esperado del riesgo | 5 % × 120 = **6.0** |
+| **Resultado esperado** | 3.0 − 6.0 = **−3.0** |
+
+Incluso solo con números, la decisión es mala. Pero lo más importante no se ve en la tabla: la salud de los clientes no se arriesga.`,
+r: `En septiembre de 2016, la Oficina para la Protección Financiera del Consumidor de Estados Unidos y otras autoridades multaron a Wells Fargo por la apertura de cuentas no autorizadas; en 2020, el banco aceptó pagar 3,000 millones de dólares para resolver investigaciones penales y civiles relacionadas, según el Departamento de Justicia de ese país.`,
+f: `Consumer Financial Protection Bureau (2016); Departamento de Justicia de Estados Unidos, comunicado de febrero de 2020.`,
+err: ["Creer que si algo es legal, siempre es ético.","Justificar una falta porque «todos lo hacen».","Tener un código de ética que nadie conoce ni aplica.","Poner metas que empujan a hacer trampa.","No sancionar a un directivo importante que comete una falta."],
+a: `Escribe tres dilemas éticos que podrían aparecer en un negocio que conozcas. Aplica a cada uno el método de siete preguntas de la lección y explica qué decisión tomarías y por qué.`,
+sol: `Una buena respuesta describe dilemas realistas (por ejemplo, vender un producto con un defecto menor, aceptar un regalo de un proveedor, ocultar un error a un cliente), aplica las preguntas con honestidad y llega a una decisión que proteja a las personas afectadas y la confianza en el negocio.`,
+q: [["La relación entre ley y ética es que…",["La ley es el mínimo; lo ético puede exigir más","Son exactamente lo mismo","La ética no importa en los negocios"],0,"Hay conductas legales que no son éticas."],
+["La «prueba del periódico» consiste en preguntarse…",["Si te sentirías cómodo si tu decisión apareciera en la primera plana","Cuánto cuesta un anuncio","Qué dice el horóscopo"],0,"Ayuda a ver la decisión desde fuera."],
+["El «tono desde arriba» se refiere a…",["El ejemplo ético que dan los líderes de la empresa","El volumen de la música","El tono de voz del director"],0,"La ética se aprende viendo a los jefes."],
+["El caso Wells Fargo muestra que…",["Metas de ventas agresivas pueden empujar a conductas no éticas","Las metas siempre son buenas","Los bancos no tienen reguladores"],0,"Los incentivos deben ser coherentes con la ética."]],
+t: ["Ética empresarial","Código de conducta","Tono desde arriba","Dilema ético","Prueba del periódico"]
+},
+"M27-2": {
+s: `Un fondo de inversión internacional quiere invertir en Grupo Lupita, pero antes envía un cuestionario de 80 preguntas sobre «criterios ASG»: consumo de agua y energía, residuos, empaques de plástico, salarios, igualdad de género, rotación, seguridad de los alimentos, independencia del consejo, ética… Lupita se sorprende: «Pensé que solo les importaban las utilidades».`,
+o: ["Explicar qué es la responsabilidad social empresarial y qué son los criterios ASG.","Describir los tres componentes: ambiental, social y de gobierno.","Analizar los beneficios, las críticas y los riesgos de «lavado verde»."],
+x: `## De la filantropía a la responsabilidad
+Durante mucho tiempo, la idea dominante fue la del economista **Milton Friedman**, que en un artículo de **1970** en el *New York Times Magazine* sostuvo que la responsabilidad social de una empresa es **aumentar sus utilidades** dentro de las reglas del juego (sin engaño ni fraude). Otros autores, como **R. Edward Freeman** con su teoría de las **partes interesadas** (*stakeholders*, **1984**), propusieron que las empresas deben crear valor para **todos** los grupos que afectan o son afectados por ellas: clientes, empleados, proveedores, comunidades y accionistas.
+
+En **2019**, la *Business Roundtable* (una asociación de directores generales de grandes empresas de Estados Unidos) publicó una declaración firmada por cerca de 180 directores en la que dijeron que el propósito de una empresa incluye servir a todas sus partes interesadas, no solo a los accionistas. El debate sigue abierto.
+
+## La responsabilidad social empresarial (RSE)
+La **responsabilidad social empresarial** es el compromiso de una empresa de operar de forma ética y de contribuir al bienestar de sus empleados, su comunidad y el medio ambiente, **más allá** de lo que exige la ley. En México, el Centro Mexicano para la Filantropía (Cemefi) otorga desde hace años un distintivo de «Empresa Socialmente Responsable».
+
+La RSE no es solo donar dinero (filantropía): se trata, sobre todo, de **cómo** la empresa hace su negocio todos los días.
+
+## Los criterios ASG
+**ASG** son las iniciales de **Ambiental, Social y de Gobierno corporativo** (en inglés, ESG). El término se popularizó a partir de un informe del Pacto Mundial de las Naciones Unidas en **2004** («Who Cares Wins»). Los inversionistas usan estos criterios para evaluar riesgos y oportunidades que no siempre aparecen en los estados financieros.
+
+**Ambiental (A):**
+- Emisiones de gases de efecto invernadero y huella de carbono.
+- Uso de energía y agua.
+- Residuos, empaques, reciclaje.
+- Contaminación.
+- Biodiversidad.
+- Riesgos del cambio climático para el negocio (sequías, inundaciones, calor).
+
+**Social (S):**
+- Condiciones laborales: salarios, seguridad, prestaciones, horas.
+- Diversidad, igualdad e inclusión.
+- Salud y seguridad de los clientes (por ejemplo, seguridad de los alimentos).
+- Derechos humanos en la cadena de proveedores.
+- Relación con las comunidades.
+- Protección de datos personales.
+
+**Gobierno (G):**
+- Composición e independencia del consejo (Módulo 24).
+- Ética, anticorrupción y cumplimiento (lección M27-3).
+- Compensación de los directivos.
+- Transparencia y derechos de los accionistas.
+
+## Por qué importa a los inversionistas
+- **Riesgo:** una empresa que contamina puede recibir multas; una con malas condiciones laborales puede sufrir huelgas o boicots; una con mal gobierno puede tener fraudes.
+- **Oportunidades:** productos más eficientes, ahorros de energía, nuevos mercados.
+- **Regulación:** cada vez más países exigen informes de sostenibilidad. Por ejemplo, la Unión Europea aprobó una directiva de informes de sostenibilidad corporativa, y organismos internacionales han desarrollado normas de información sobre sostenibilidad (como las del ISSB, emitidas en 2023). En México, el Consejo Mexicano de Normas de Información Financiera publicó normas de información de sostenibilidad y la CNBV ha promovido su adopción por las emisoras.
+- **Preferencias** de los inversionistas y de los clientes.
+
+## Los informes de sostenibilidad
+Muchas empresas grandes publican **informes de sostenibilidad** o **informes integrados** (lección M25-4) con indicadores ASG. Existen marcos como los del **GRI** (Iniciativa de Reporte Global) y normas como las del **ISSB**. Medir y publicar obliga a la empresa a ver sus impactos.
+
+## Críticas y riesgos
+- **Lavado verde (*greenwashing*):** presumir acciones ambientales o sociales que son exageradas, superficiales o falsas, para mejorar la imagen. Por ejemplo, anunciar un producto «ecológico» que no lo es. Varias autoridades han sancionado a empresas por esto.
+- **Medición difícil:** las calificaciones ASG de distintas agencias a veces no coinciden entre sí.
+- **Debate político:** en algunos países, los criterios ASG se han vuelto un tema político, con críticas desde distintos lados.
+- **Costo:** medir e informar cuesta, sobre todo para empresas medianas.
+
+## La responsabilidad como parte del negocio
+El enfoque más sólido es integrar la responsabilidad en la **estrategia**: reducir el consumo de energía baja costos; cuidar a los empleados reduce la rotación (lección M13-7); asegurar la calidad de los alimentos protege la marca; un buen gobierno atrae capital. Michael Porter y Mark Kramer llamaron a esto **valor compartido** (2011): crear valor económico para la empresa creando, al mismo tiempo, valor para la sociedad.
+
+## Las respuestas de Grupo Lupita
+Al llenar el cuestionario, Lupita descubre que no mide casi nada. Decide empezar por lo más relevante para su negocio: (A) consumo de gas, electricidad y agua por local, y reducir empaques de plástico; (S) rotación, salarios frente al mercado, capacitación, seguridad de los alimentos y quejas de clientes; (G) independencia del consejo, código de ética y canal de denuncias. Publicará un primer informe sencillo con metas para tres años, y cuidará no exagerar nada para no caer en el lavado verde.`,
+k: `**Responsabilidad social empresarial:** operar de forma ética y contribuir al bienestar de empleados, comunidad y medio ambiente más allá de la ley. **ASG (ESG):** **Ambiental** (emisiones, energía, agua, residuos), **Social** (trabajo, clientes, comunidad, derechos humanos) y **Gobierno** (consejo, ética, transparencia). Debate Friedman (1970) frente a partes interesadas (Freeman, 1984). Riesgo: **lavado verde**. Enfoque: **valor compartido**.`,
+ch: `Una fonda cambia sus focos por luces LED, reutiliza el aceite de forma segura con un recolector autorizado y da trabajo a personas del barrio. Ahorra en luz, reduce residuos y los vecinos la recomiendan más.`,
+gi: `En 2019, la Business Roundtable de Estados Unidos publicó una declaración sobre el propósito de las empresas, firmada por cerca de 180 directores generales, que planteó un compromiso con clientes, empleados, proveedores, comunidades y accionistas.`,
+e: `Primer tablero ASG de Grupo Lupita (por local, promedio mensual):
+
+| Indicador | Línea base | Meta en 3 años | Cambio |
+|---|---|---|---|
+| Consumo de electricidad (kWh) | 4,000 | 3,200 | −20 % |
+| Consumo de gas (kg) | 600 | 540 | −10 % |
+| Bolsas de plástico entregadas | 3,000 | 0 (sustituidas por papel o reutilizables) | −100 % |
+| Rotación anual de personal | 70 % | 40 % | −30 puntos |
+| Horas de capacitación por empleado al año | 4 | 16 | ×4 |
+| Consejeros independientes | 29 % | 40 % | +11 puntos |
+
+Ahorro estimado solo en electricidad: 800 kWh × 3.5 pesos × 60 locales × 12 meses ≈ **2,016,000 pesos al año**.`,
+r: `El Pacto Mundial de las Naciones Unidas publicó en 2004 el informe «Who Cares Wins», que promovió la integración de criterios ambientales, sociales y de gobierno en el análisis de inversiones; en 2023, el Consejo de Normas Internacionales de Sostenibilidad (ISSB) emitió sus primeras normas de información sobre sostenibilidad.`,
+f: `M. Friedman, «The Social Responsibility of Business Is to Increase Its Profits» (New York Times Magazine, 1970); R. E. Freeman, «Strategic Management: A Stakeholder Approach» (1984); Pacto Mundial de la ONU, «Who Cares Wins» (2004); M. Porter y M. Kramer, «Creating Shared Value» (Harvard Business Review, 2011); Business Roundtable (2019).`,
+err: ["Confundir responsabilidad social con hacer donaciones de vez en cuando.","Exagerar o inventar logros ambientales (lavado verde).","Medir todo sin enfocarse en lo relevante para el negocio.","Ver la responsabilidad como un gasto y no como parte de la estrategia.","Publicar informes sin metas ni seguimiento."],
+a: `Elige un negocio que conozcas. Identifica dos temas ambientales, dos sociales y dos de gobierno que sean relevantes para él. Para cada tema, propón un indicador y una meta realista para un año.`,
+sol: `Por ejemplo, para una cafetería: ambiental (vasos desechables, consumo de agua); social (rotación, capacitación); gobierno (separar cuentas personales y del negocio, código de conducta). Cada uno con un indicador medible y una meta alcanzable.`,
+q: [["ASG significa…",["Ambiental, Social y de Gobierno corporativo","Ahorro, Salario y Ganancia","Activos, Servicios y Gastos"],0,"En inglés, ESG."],
+["El «lavado verde» es…",["Presumir acciones ambientales exageradas o falsas","Lavar los uniformes","Una técnica de limpieza"],0,"Daña la credibilidad y puede ser sancionado."],
+["Según Milton Friedman (1970), la responsabilidad social de la empresa es…",["Aumentar sus utilidades dentro de las reglas del juego","Donar todas sus utilidades","No pagar impuestos"],0,"Otros autores proponen considerar a todas las partes interesadas."],
+["El «valor compartido» de Porter y Kramer busca…",["Crear valor económico para la empresa creando valor para la sociedad","Repartir todas las acciones","Bajar los sueldos"],0,"Integra la responsabilidad en la estrategia."]],
+t: ["Responsabilidad social empresarial","Criterios ASG","Partes interesadas","Lavado verde","Valor compartido","Informe de sostenibilidad"]
+},
+"M27-3": {
+s: `Para abrir un local en una plaza nueva, un funcionario municipal le insinúa al gerente de expansión de Grupo Lupita que «la licencia puede tardar seis meses… o una semana, si nos ayudamos». En otra ciudad, un intermediario ofrece «arreglar» los permisos de Protección Civil a cambio de una «comisión». ¿Qué debe hacer la empresa, y qué riesgo corre si acepta?`,
+o: ["Definir la corrupción y sus formas en los negocios.","Explicar las leyes anticorrupción que afectan a las empresas en México y en el extranjero.","Describir los elementos de un programa de integridad."],
+x: `## Qué es la corrupción
+La **corrupción** es el **abuso de un poder** (público o privado) **para obtener un beneficio indebido**. En los negocios, las formas más comunes son:
+- **Soborno (o cohecho):** ofrecer, prometer o dar dinero, regalos o favores a un funcionario (o a un empleado de otra empresa) para que haga o deje de hacer algo en su función.
+- **Pagos de facilitación («mordidas»):** pagos pequeños para acelerar un trámite que de todos modos debería hacerse.
+- **Tráfico de influencias:** usar relaciones con funcionarios para obtener ventajas.
+- **Colusión en licitaciones:** ponerse de acuerdo con otros participantes o con funcionarios para ganar contratos públicos (lección M26-8).
+- **Conflictos de interés** no declarados (lección M24-3).
+- **Fraude** y **lavado de dinero:** ocultar el origen de dinero ilícito a través de operaciones aparentemente legales.
+
+## Por qué daña
+- **A la sociedad:** encarece los servicios públicos, reduce su calidad, favorece a quien paga y no a quien es mejor, y debilita la confianza en las instituciones.
+- **A la competencia:** las empresas honestas pierden frente a las que sobornan.
+- **A la propia empresa:** multas enormes, cárcel para sus directivos, prohibición de contratar con el gobierno, pérdida de reputación, chantajes futuros («si pagaste una vez, pagarás siempre»).
+
+## Las leyes en México
+- El **Código Penal Federal** y los códigos de los estados sancionan el **cohecho**, tanto al funcionario que recibe como a la persona que ofrece o da.
+- En **2015** se aprobó la reforma constitucional que creó el **Sistema Nacional Anticorrupción**, y en **2016** se publicaron sus leyes, entre ellas la **Ley General de Responsabilidades Administrativas** (vigente desde 2017). Esta ley establece que las **empresas (personas morales)** pueden ser sancionadas por **faltas graves** de particulares, como el soborno, la colusión o el tráfico de influencias, con multas, inhabilitación para contratar con el gobierno e incluso la suspensión de actividades o la disolución.
+- La misma ley señala que, para determinar la responsabilidad de una empresa, se tomará en cuenta si tiene una **política de integridad** (un programa de cumplimiento), lo que da un incentivo para tenerla.
+
+## Las leyes extranjeras con alcance internacional
+- **Ley de Prácticas Corruptas en el Extranjero de Estados Unidos (FCPA, 1977):** prohíbe a empresas estadounidenses, a empresas que cotizan en Estados Unidos y a otras con ciertos vínculos con ese país sobornar a funcionarios extranjeros. Ha llevado a multas de cientos o miles de millones de dólares a empresas de muchos países.
+- **Ley contra el Soborno del Reino Unido (UK Bribery Act, 2010):** también prohíbe el soborno entre privados y sanciona a las empresas que no tengan procedimientos adecuados para prevenirlo.
+- **Convención de la OCDE contra el Cohecho** (1997), de la que México es parte.
+
+## Un caso: Odebrecht
+La constructora brasileña **Odebrecht** reconoció en **2016**, en un acuerdo con autoridades de Estados Unidos, Brasil y Suiza, haber pagado cientos de millones de dólares en sobornos a funcionarios y partidos de **12 países**, en su mayoría de Latinoamérica (incluido México), para obtener contratos de obra pública, según el Departamento de Justicia de Estados Unidos. La empresa tenía incluso un área interna dedicada a organizar los pagos. El caso provocó investigaciones, juicios y renuncias de políticos en varios países, y Odebrecht tuvo que reestructurarse (después cambió su nombre a Novonor).
+
+## El programa de integridad (o de cumplimiento)
+Una empresa seria tiene un **programa de integridad** con elementos como:
+1. **Compromiso de la dirección y del consejo** («tono desde arriba», lección M27-1).
+2. **Evaluación de riesgos:** dónde es más probable la corrupción (permisos, licitaciones, aduanas, inspecciones).
+3. **Código de conducta y políticas claras:** prohibición de sobornos y de pagos de facilitación; reglas para regalos, viajes y atenciones a funcionarios; donaciones; contratación de intermediarios.
+4. **Debida diligencia de terceros:** revisar a los intermediarios, gestores, proveedores y socios antes de contratarlos. Muchos casos de soborno ocurren **a través de terceros**.
+5. **Controles financieros:** que ningún pago salga sin justificación y documentación.
+6. **Capacitación** periódica, sobre todo a quienes tratan con el gobierno.
+7. **Canal de denuncias** confidencial y protección contra represalias.
+8. **Investigación y sanciones** internas.
+9. **Revisión y mejora** del programa.
+
+## Qué hacer ante una solicitud de soborno
+- **No aceptar** ni prometer nada.
+- **No negociar** «un poco menos».
+- **Documentar** la situación (quién, cuándo, qué pidió).
+- **Informar** al área de cumplimiento o al director jurídico.
+- **Seguir el trámite** por la vía formal, aunque tarde más, y usar los mecanismos oficiales de queja o denuncia.
+- Si hay una amenaza a la seguridad de una persona, priorizar su protección.
+
+## La respuesta de Grupo Lupita
+La política es clara: **ningún pago indebido**, ni grande ni pequeño. El gerente rechaza la insinuación, documenta lo ocurrido y lo informa. La empresa sigue el trámite formal y asume que la apertura se retrasará. Rechaza al intermediario de Protección Civil y contrata a un despacho reconocido que hace el trámite de forma legal. Además, Grupo Lupita incorpora en su plan de expansión **tiempos realistas** para los permisos, para que la presión por abrir rápido no empuje a nadie a buscar «atajos».`,
+k: `**Corrupción:** abuso de poder para obtener un beneficio indebido (soborno o cohecho, pagos de facilitación, tráfico de influencias, colusión, lavado de dinero). En México, la **Ley General de Responsabilidades Administrativas** (2017) sanciona también a las **empresas** y valora si tienen una **política de integridad**. Leyes extranjeras: **FCPA** (EE. UU., 1977), UK Bribery Act (2010). Caso: **Odebrecht** (2016). Programa de integridad: compromiso, riesgos, políticas, **debida diligencia de terceros**, controles, capacitación, denuncias.`,
+ch: `Una dueña de una fonda se niega a dar una «mordida» al inspector y presenta una queja formal. El trámite tarda más, pero el inspector deja de pasar «a cobrar» cada mes.`,
+gi: `En diciembre de 2016, Odebrecht y su filial petroquímica Braskem acordaron con autoridades de Estados Unidos, Brasil y Suiza pagar al menos 3,500 millones de dólares en sanciones, tras reconocer sobornos a funcionarios de 12 países, según el Departamento de Justicia de Estados Unidos.`,
+e: `Por qué el soborno no «sale más barato» (estimación ilustrativa para Grupo Lupita, en pesos):
+
+| Concepto | Pagar el soborno | Seguir el trámite formal |
+|---|---|---|
+| Pago indebido | 50,000 | 0 |
+| Meses de retraso en la apertura | 0 | 5 |
+| Margen perdido por el retraso (60,000 al mes) | 0 | 300,000 |
+| Riesgo de sanción (probabilidad 10 % × multa e inhabilitación estimada de 10,000,000) | 1,000,000 | 0 |
+| Riesgo de chantajes futuros y daño a la reputación | Alto | Ninguno |
+| **Costo esperado** | **1,050,000 + reputación** | **300,000** |
+
+Además del costo esperado, el soborno es un delito y daña a la sociedad: no es una opción.`,
+r: `El Departamento de Justicia de Estados Unidos informó en diciembre de 2016 que Odebrecht reconoció haber pagado alrededor de 788 millones de dólares en sobornos en 12 países, entre ellos México, Brasil, Argentina, Colombia, Perú y otros de Latinoamérica, y que la empresa tenía una «División de Operaciones Estructuradas» dedicada a organizar esos pagos.`,
+f: `Departamento de Justicia de Estados Unidos, comunicado del 21 de diciembre de 2016; Ley General de Responsabilidades Administrativas (México, DOF 18 de julio de 2016); Foreign Corrupt Practices Act (1977).`,
+err: ["Creer que los pagos pequeños («mordidas») no son corrupción.","Pensar que usar un intermediario libra a la empresa de responsabilidad.","Poner plazos de expansión imposibles que empujan a buscar atajos.","Tener un código anticorrupción sin controles ni capacitación.","No documentar ni informar una solicitud de soborno."],
+a: `Diseña la política de regalos y atenciones de una empresa: qué se permite recibir y dar (y hasta qué monto), qué está prohibido, qué hacer con un regalo que excede el límite y cómo se registra. Incluye una regla especial para funcionarios públicos.`,
+sol: `Una política típica permite regalos de valor simbólico (por ejemplo, artículos promocionales de poco valor), prohíbe dinero en efectivo y regalos durante licitaciones, exige registrar y entregar al área de cumplimiento los regalos que exceden el límite, y prohíbe dar cualquier regalo o atención a funcionarios públicos salvo excepciones aprobadas y documentadas.`,
+q: [["Dar dinero a un funcionario para acelerar un trámite es…",["Corrupción (cohecho), aunque el monto sea pequeño","Una práctica permitida","Un servicio de gestoría legal"],0,"Los pagos de facilitación también son indebidos."],
+["En México, la Ley General de Responsabilidades Administrativas puede sancionar…",["También a las empresas por faltas graves como el soborno","Solo a los funcionarios","A nadie"],0,"Y valora si la empresa tiene una política de integridad."],
+["La FCPA es…",["Una ley de Estados Unidos contra el soborno de funcionarios extranjeros","Un impuesto mexicano","Una norma de etiquetado"],0,"Aprobada en 1977."],
+["Una medida clave de un programa de integridad es…",["Revisar a los intermediarios y terceros antes de contratarlos","Pagar a cualquier gestor que prometa rapidez","No tener controles"],0,"Muchos sobornos ocurren a través de terceros."]],
+t: ["Corrupción","Soborno","Pago de facilitación","Programa de integridad","Debida diligencia de terceros","Lavado de dinero","Sistema Nacional Anticorrupción"]
+},
+"M27-4": {
+s: `Un sábado por la mañana, en una sucursal de Grupo Lupita, doce clientes presentan síntomas de intoxicación después de comer. Dos terminan en el hospital. A mediodía, un video de un cliente enfermo ya tiene 200,000 reproducciones con la frase «No coman en Tortas Lupita». Los periodistas llaman. Lupita tiene que decidir qué hacer en las próximas horas.`,
+o: ["Explicar qué es una crisis empresarial y qué tipos existen.","Describir los pasos para responder a una crisis.","Reconocer los principios de comunicación en crisis a partir de casos públicos."],
+x: `## Qué es una crisis
+Una **crisis** es un evento **inesperado** que amenaza seriamente a las personas, la operación, las finanzas o la **reputación** de una empresa, y que exige decisiones **rápidas** con información incompleta. Ejemplos: un accidente, una intoxicación, un producto defectuoso, un ciberataque, un fraude, un escándalo de un directivo, un desastre natural, una pandemia.
+
+La **reputación** es lo que clientes, empleados, inversionistas y la sociedad **creen** de una empresa. Es un activo que no aparece en el balance, pero vale muchísimo: tarda años en construirse y puede dañarse en horas, sobre todo con las redes sociales.
+
+## Tipos de crisis
+- **Operativas:** accidentes, fallas de producción, problemas de calidad o de seguridad de un producto.
+- **Tecnológicas:** caídas de sistemas, robo de datos, ciberataques.
+- **Financieras:** falta de liquidez, fraude.
+- **De conducta:** escándalos de directivos o empleados, discriminación, acoso.
+- **Externas:** desastres naturales, pandemias, crisis económicas, conflictos sociales.
+
+## Antes de la crisis: prepararse
+Las empresas que mejor responden son las que se **prepararon**:
+1. **Identificar los riesgos** más probables y graves (matriz de riesgos, lección M16-7).
+2. Tener un **plan de crisis** escrito: quién forma el comité de crisis, quién decide, quién habla, a quién se llama, qué se hace en las primeras horas.
+3. Definir **voceros** capacitados.
+4. Tener **listas de contactos**: autoridades, hospitales, abogados, aseguradora, proveedores, medios.
+5. Hacer **simulacros**.
+6. Tener **seguros** adecuados.
+
+## Durante la crisis: los pasos
+1. **Proteger a las personas primero:** atender a los afectados, detener el riesgo (por ejemplo, cerrar la sucursal, retirar el producto), cooperar con las autoridades de salud.
+2. **Activar el comité de crisis:** dirección general, operaciones, legal, comunicación, recursos humanos.
+3. **Reunir los hechos:** qué pasó, cuándo, a cuántos afectó, qué se sabe y qué no.
+4. **Comunicar pronto:** no esperar a tener toda la información. Un primer mensaje en las primeras horas: «Sabemos lo que pasó, estamos atendiendo a las personas afectadas, cerramos la sucursal y estamos colaborando con las autoridades. Daremos más información a las 18:00».
+5. **Comunicar con la verdad, con empatía y con acciones:** reconocer el problema, mostrar preocupación genuina por los afectados, explicar qué se está haciendo. No culpar a otros sin pruebas, no minimizar, no mentir.
+6. **Hablar con todas las partes interesadas:** afectados y sus familias, empleados, clientes, autoridades, franquiciatarios, proveedores, inversionistas, medios.
+7. **Actualizar con frecuencia** a medida que se sabe más.
+8. **Corregir la causa** y comunicar qué cambiará para que no se repita.
+
+## Después de la crisis
+- **Investigar** a fondo la causa raíz.
+- **Compensar** a los afectados de forma justa.
+- **Implementar** los cambios prometidos.
+- **Evaluar** cómo se manejó la crisis y actualizar el plan.
+- **Recuperar la confianza** con hechos durante meses o años.
+
+## Casos públicos
+- **Tylenol (Johnson & Johnson), 1982:** en Chicago, siete personas murieron tras tomar cápsulas de Tylenol que alguien había envenenado con cianuro después de que salieron de la fábrica. Aunque la empresa no era responsable del envenenamiento, retiró del mercado unos **31 millones de frascos** en todo Estados Unidos, colaboró con las autoridades y relanzó el producto con empaques a prueba de manipulación. Su respuesta suele citarse como ejemplo de una buena gestión de crisis, que puso la seguridad de los consumidores por delante del costo.
+- **Chipotle, 2015:** la cadena de comida de Estados Unidos sufrió varios brotes de enfermedades transmitidas por alimentos en distintas ciudades, lo que provocó una fuerte caída de sus ventas y del precio de su acción. La empresa cerró restaurantes temporalmente, cambió sus procedimientos de seguridad alimentaria y, en 2020, aceptó pagar una multa penal de 25 millones de dólares en un acuerdo con el Departamento de Justicia de Estados Unidos, según los comunicados públicos. Su recuperación tomó varios años.
+- Hay muchos ejemplos de **malas respuestas**: empresas que tardaron días en reaccionar, negaron el problema, culparon a los clientes o dieron explicaciones contradictorias, y con ello agravaron el daño.
+
+## Los errores más comunes
+- **Silencio** o «sin comentarios».
+- **Negar** o **minimizar** lo que es evidente.
+- **Culpar** a otros antes de investigar.
+- **Mensajes contradictorios** de distintas personas de la empresa.
+- **Preocuparse más por la imagen** que por las personas afectadas.
+- **Prometer** lo que no se puede cumplir.
+- **Borrar** comentarios en redes sociales.
+
+## El plan de Grupo Lupita
+Siguiendo su plan de crisis (actividad del módulo):
+1. **Primera hora:** el gerente cierra la sucursal, llama a servicios de salud, guarda muestras de los alimentos y avisa al comité de crisis.
+2. **Dos horas:** el comité (Lupita, la directora de operaciones, el director jurídico, la directora de comunicación) se reúne. Se avisa a la autoridad sanitaria y se coopera con la investigación.
+3. **Tres horas:** primer mensaje público en redes y a medios: reconocimiento, empatía, sucursal cerrada, atención a los afectados, colaboración con las autoridades, próxima actualización.
+4. **Mismo día:** Lupita visita a los afectados en el hospital y la empresa cubre sus gastos médicos.
+5. **Siguientes días:** se revisan todos los lotes del proveedor involucrado en todas las sucursales; se descubre que la falla estuvo en una cámara de refrigeración de esa sucursal; se cambian procedimientos, se capacita de nuevo a todos los locales y se contrata una auditoría externa de seguridad alimentaria.
+6. **Semanas después:** se informa públicamente la causa y los cambios, y la sucursal reabre tras la autorización sanitaria.`,
+k: `**Crisis:** evento inesperado que amenaza a las personas, la operación, las finanzas o la **reputación** y exige decisiones rápidas. **Prepararse:** riesgos, plan de crisis, comité, voceros, simulacros. **Responder:** proteger a las personas primero, activar el comité, reunir hechos, **comunicar pronto, con la verdad, empatía y acciones**, actualizar, corregir la causa. Caso modelo: **Tylenol (1982)**; caso de seguridad alimentaria: **Chipotle (2015)**.`,
+ch: `Una panadería descubre que un lote de pan salió con un ingrediente equivocado que puede causar alergias. Publica de inmediato un aviso en su local y en redes, pide a los clientes devolver el pan con reembolso y explica qué cambió para que no se repita. Los clientes agradecen la honestidad.`,
+gi: `En 1982, Johnson & Johnson retiró del mercado unos 31 millones de frascos de Tylenol en Estados Unidos tras el envenenamiento de cápsulas en Chicago, y relanzó el producto con empaques a prueba de manipulación; el caso se estudia como ejemplo de gestión de crisis.`,
+e: `Línea de tiempo de la respuesta de Grupo Lupita (sábado):
+
+| Hora | Acción | Responsable |
+|---|---|---|
+| 10:30 | Primeros clientes con síntomas | — |
+| 10:45 | Se cierra la sucursal y se llama a servicios de salud | Gerente de sucursal |
+| 11:00 | Se guardan muestras y se activa el comité de crisis | Gerente y directora de operaciones |
+| 12:30 | Reunión del comité; aviso a la autoridad sanitaria | Comité |
+| 13:30 | Primer mensaje público en redes y a medios | Directora de comunicación |
+| 16:00 | Lupita visita a los afectados en el hospital | Directora general |
+| 18:00 | Segunda actualización pública | Directora de comunicación |
+
+El primer mensaje público salió **3 horas** después de los primeros síntomas. Esperar a tener toda la información (días) habría dejado que el video viral contara la historia por la empresa.`,
+r: `Chipotle Mexican Grill acordó en abril de 2020 pagar una multa penal de 25 millones de dólares en un acuerdo con el Departamento de Justicia de Estados Unidos, relacionado con brotes de enfermedades transmitidas por alimentos entre 2015 y 2018 que afectaron a más de 1,100 personas, según el comunicado del Departamento de Justicia.`,
+f: `Departamento de Justicia de Estados Unidos, comunicado de abril de 2020 sobre Chipotle; materiales históricos de Johnson & Johnson sobre el caso Tylenol (1982).`,
+err: ["Guardar silencio o decir «sin comentarios».","Esperar a tener toda la información para comunicar.","Negar, minimizar o culpar a otros sin pruebas.","Preocuparse más por la imagen que por las personas afectadas.","No tener un plan de crisis ni haber hecho simulacros."],
+a: `Elabora el plan de respuesta de Tortas Lupita para una crisis distinta: un robo de datos de los clientes de su app de pedidos. Define el comité, las primeras cinco acciones (con horarios), el primer mensaje público (máximo 80 palabras) y tres cambios para que no se repita.`,
+sol: `El plan debe incluir a dirección, tecnología, legal y comunicación; acciones como contener el ataque, evaluar qué datos se expusieron, avisar a las autoridades de protección de datos y a los clientes afectados, y recomendar cambiar contraseñas; un mensaje honesto y concreto; y cambios como cifrado, autenticación en dos pasos y auditorías de seguridad.`,
+q: [["En una crisis, lo primero es…",["Proteger a las personas y detener el riesgo","Publicar una promoción","Borrar los comentarios en redes"],0,"La seguridad va antes que la imagen."],
+["¿Cuándo conviene dar el primer mensaje público?",["Pronto, aunque no se tenga toda la información","Cuando se sepa absolutamente todo, aunque pasen semanas","Nunca"],0,"Con lo que se sabe, lo que se hace y cuándo habrá más información."],
+["El caso Tylenol (1982) se cita como ejemplo de…",["Una buena gestión de crisis que puso primero la seguridad","Un fraude contable","Una fusión exitosa"],0,"Retiró unos 31 millones de frascos."],
+["Un error común en una crisis es…",["Negar o minimizar lo que es evidente","Mostrar empatía con los afectados","Cooperar con las autoridades"],0,"Agrava el daño a la reputación."]],
+t: ["Crisis","Reputación","Plan de crisis","Comité de crisis","Vocero","Retiro de producto"]
+},
+"M27-5": {
+s: `En la junta de consejo, un consejero independiente dice: «Hace veinte años, Kodak, Blockbuster y Nokia eran gigantes que parecían invencibles. Hoy, dos casi desaparecieron y la tercera ya no hace teléfonos. ¿Qué nos garantiza que no nos pasará algo parecido con las apps y la comida por suscripción?». Nadie responde. ¿Qué les pasó a esos gigantes?`,
+o: ["Analizar los casos de Kodak, Blockbuster y Nokia con información pública.","Identificar las causas comunes de su caída.","Distinguir entre no ver el cambio y verlo pero no actuar a tiempo."],
+x: `## Caso 1: Kodak
+**Eastman Kodak**, fundada en Estados Unidos por George Eastman a finales del siglo XIX, dominó durante casi un siglo la fotografía: vendía cámaras baratas y ganaba sobre todo con la **película**, el **revelado** y el **papel fotográfico** (un modelo parecido al de «rastrillo y repuestos», lección M4-5). Durante gran parte del siglo XX tuvo una participación enorme en el mercado de película en Estados Unidos.
+
+Según la propia historia de Kodak, uno de sus ingenieros, **Steven Sasson**, construyó en **1975** uno de los primeros prototipos de **cámara digital**. Sin embargo, el negocio de la película era tan rentable que la empresa avanzó con cautela en lo digital, que amenazaba su principal fuente de utilidades. Kodak sí llegó a vender cámaras digitales y tuvo patentes valiosas, pero la fotografía digital, y después los **teléfonos con cámara**, eliminaron casi por completo la necesidad de película y de revelado, que eran su gran negocio. En **enero de 2012**, Kodak se declaró en quiebra en Estados Unidos (capítulo 11). Salió de la quiebra en **2013** como una empresa mucho más pequeña, enfocada en impresión comercial y otros negocios.
+
+**Lección:** Kodak **vio** la tecnología (¡la inventó!), pero su modelo de negocio dependía de la película. El problema no fue solo tecnológico, sino de **modelo de negocio** y de **canibalización** (lección M26-6).
+
+## Caso 2: Blockbuster
+**Blockbuster** fue la mayor cadena de renta de películas del mundo. En su mejor momento, a principios de la década de 2000, tenía alrededor de **9,000 tiendas**, según informes de la época. Una parte importante de sus ingresos venía de las **multas por entrega tardía**, algo que los clientes odiaban.
+
+**Netflix**, fundada en **1997**, empezó enviando DVD por correo con una suscripción mensual y sin multas. Según relatos de sus fundadores y de la prensa, alrededor del año **2000** Netflix ofreció venderse a Blockbuster por unos **50 millones de dólares**, y Blockbuster no aceptó. Netflix lanzó su servicio de **transmisión por internet** en **2007**. Blockbuster intentó reaccionar con su propio servicio por correo y en línea, y en 2004 llegó a eliminar las multas por retraso, pero tenía miles de tiendas con rentas, empleados y deuda, y conflictos internos sobre la estrategia. En **septiembre de 2010** se declaró en quiebra. Hoy, según la prensa, solo sobrevive una tienda con la marca, en Bend, Oregón, como atracción turística.
+
+**Lección:** Blockbuster ignoró a un recién llegado que parecía pequeño, dependía de un modelo (tiendas físicas y multas) que irritaba a sus clientes, y cuando reaccionó, su estructura de costos le impidió competir (lección M26-6).
+
+## Caso 3: Nokia
+**Nokia**, empresa finlandesa que había pasado de fabricar papel y hule a la electrónica, se convirtió en la **mayor fabricante de teléfonos celulares del mundo** a finales de los años noventa y durante la década de 2000, según datos de la industria de esa época. Sus teléfonos eran conocidos por su resistencia y su batería.
+
+En **2007**, Apple lanzó el **iPhone**, y en 2008 aparecieron los primeros teléfonos con **Android** de Google. El valor del teléfono pasó del aparato al **software** y a las **aplicaciones** (un ecosistema con efecto red, lecciones M26-4 y M26-5). Nokia tenía su propio sistema operativo (Symbian), pero le costó adaptarlo a las pantallas táctiles y a las aplicaciones, y sus procesos internos eran lentos. En **2011** se asoció con Microsoft para usar Windows Phone, una apuesta que no logró atraer suficientes usuarios ni desarrolladores. En **2013** anunció la venta de su negocio de teléfonos a Microsoft, que se completó en **2014**. Nokia **sobrevivió** como empresa enfocada en **equipos de redes de telecomunicaciones**, un negocio en el que sigue siendo importante.
+
+**Lección:** Nokia no desapareció, pero perdió el negocio que la había hecho famosa. Subestimó el cambio de **hardware a software y ecosistemas**, y la reacción fue lenta. Su supervivencia muestra que **reinventarse** es posible: ya lo había hecho antes, al pasar del papel a la electrónica.
+
+## Lo que tienen en común
+| Patrón | Kodak | Blockbuster | Nokia |
+|---|---|---|---|
+| Líder dominante de su industria | Sí | Sí | Sí |
+| Un cambio tecnológico o de modelo de negocio | Fotografía digital | Transmisión en línea y suscripción | Teléfonos inteligentes y ecosistemas |
+| ¿Vio el cambio? | Sí (inventó la cámara digital) | Sí (le ofrecieron Netflix) | Sí (tenía teléfonos «inteligentes») |
+| Problema principal | Su utilidad dependía de lo que se volvía obsoleto | Estructura de costos y modelo que irritaba al cliente | Software lento, cultura y ecosistema débil |
+| Reacción | Tardía y tímida | Tardía | Tardía y con una apuesta fallida |
+| Resultado | Quiebra (2012) y empresa más pequeña | Quiebra (2010) | Vendió los teléfonos (2014) y se enfocó en redes |
+
+## Una advertencia sobre los relatos
+Estos casos se cuentan muchas veces de forma simplificada («eran tontos y no vieron el futuro»). La realidad es más compleja: los directivos tomaban decisiones razonables con la información que tenían, en organizaciones grandes con presiones de corto plazo. Por eso son valiosos: muestran que **le puede pasar a cualquiera**, incluso a empresas bien dirigidas.
+
+## La respuesta al consejero
+El consejo de Grupo Lupita decide incluir en cada sesión trimestral un punto fijo: «Cambios en el mercado y competidores nuevos», con datos sobre apps, suscripciones, cocinas ocultas y hábitos de los clientes jóvenes, y revisar el avance del equipo independiente de innovación (lección M26-6).`,
+k: `**Kodak:** inventó un prototipo de cámara digital (1975), pero su utilidad dependía de la película; quiebra en 2012. **Blockbuster:** unas 9,000 tiendas; ignoró a Netflix (fundada en 1997) y dependía de tiendas y multas; quiebra en 2010. **Nokia:** líder mundial de celulares; perdió frente al iPhone (2007) y Android; vendió sus teléfonos a Microsoft (2014) y se enfocó en redes. Patrón común: **vieron el cambio, pero reaccionaron tarde** por su modelo de negocio, su estructura y su cultura.`,
+ch: `Un videoclub de barrio que rentaba películas cerró al llegar la transmisión en línea. Otro, en la misma ciudad, se transformó en tienda de videojuegos usados y cafetería para jugadores: vio el cambio y cambió de negocio a tiempo.`,
+gi: `Nokia, que fue durante años la mayor fabricante de teléfonos celulares del mundo, vendió su negocio de dispositivos y servicios a Microsoft en una operación anunciada en 2013 y completada en 2014; desde entonces se enfoca en equipos e infraestructura de redes.`,
+e: `El dilema de Kodak con números ilustrativos (no son cifras reales de la empresa):
+
+| Concepto | Negocio de película | Negocio digital (al inicio) |
+|---|---|---|
+| Margen por cada 100 pesos de ventas | 60 | 15 |
+| Ventas anuales | 10,000 millones | 500 millones |
+| Utilidad | 6,000 millones | 75 millones |
+
+Para un director, cambiar 1,000 millones de ventas de película (600 de utilidad) por 1,000 millones de ventas digitales (150 de utilidad) parecía destruir 450 millones de utilidad. Por eso la empresa avanzó con cautela… hasta que la película dejó de venderse y la utilidad desapareció de todos modos.`,
+r: `Eastman Kodak se acogió al capítulo 11 de la ley de quiebras de Estados Unidos en enero de 2012 y salió de ese proceso en septiembre de 2013; Blockbuster se acogió al capítulo 11 en septiembre de 2010; Nokia completó la venta de su negocio de dispositivos a Microsoft en abril de 2014, según los comunicados de las empresas.`,
+f: `Comunicados de Eastman Kodak (2012–2013), de Blockbuster (2010) y de Nokia y Microsoft (2013–2014); historia corporativa de Kodak sobre la cámara digital de Steven Sasson (1975); M. Randolph, «That Will Never Work» (2019), sobre los inicios de Netflix.`,
+err: ["Creer que las empresas cayeron solo porque «no vieron el futuro».","Pensar que el éxito actual garantiza el futuro.","Proteger el negocio rentable de hoy a costa del negocio de mañana.","Reaccionar con apuestas tardías y a medias.","Ignorar a un competidor por ser pequeño."],
+a: `Elige un gigante actual (de cualquier industria). Imagina un cambio tecnológico o de hábitos que podría amenazarlo en los próximos diez años. Describe cómo podría caer, siguiendo los patrones de Kodak, Blockbuster y Nokia, y qué debería hacer hoy para evitarlo.`,
+sol: `Una buena respuesta identifica de dónde viene la utilidad actual del gigante, qué cambio podría hacerla obsoleta, qué le impediría reaccionar (costos, cultura, canibalización) y propone acciones concretas como unidades independientes, inversiones en empresas emergentes o aceptar la canibalización.`,
+q: [["¿En qué año, según la historia de Kodak, uno de sus ingenieros construyó un prototipo de cámara digital?",["1975","2010","1900"],0,"Steven Sasson, en 1975."],
+["¿En qué año se declaró Blockbuster en quiebra?",["2010","1997","2020"],0,"En septiembre de 2010."],
+["¿Qué hizo Nokia con su negocio de teléfonos?",["Lo vendió a Microsoft (operación completada en 2014)","Lo cerró en 1990","Lo vendió a Kodak"],0,"Después se enfocó en redes."],
+["Un patrón común de los tres casos es que…",["Vieron el cambio, pero reaccionaron tarde por su modelo de negocio y su estructura","Nunca supieron de la nueva tecnología","Eran empresas pequeñas"],0,"Le puede pasar incluso a empresas bien dirigidas."]],
+t: ["Obsolescencia","Reinvención empresarial","Capítulo 11"]
+},
+"M27-6": {
+s: `Un proveedor importante de Grupo Lupita, una distribuidora de alimentos con 40 años de historia, anuncia que entró en «concurso mercantil». Lupita no sabe si eso significa que cerrará, si le pagarán lo que le deben o si tiene que buscar otro proveedor ya. ¿Qué pasa cuando una gran empresa no puede pagar sus deudas?`,
+o: ["Explicar qué es la insolvencia, la quiebra y la reestructura.","Describir el concurso mercantil en México y el capítulo 11 en Estados Unidos.","Analizar los casos de Mexicana de Aviación (2010) y General Motors (2009)."],
+x: `## Cuando el dinero no alcanza
+Una empresa está en **insolvencia** cuando **no puede pagar sus deudas** a tiempo, de forma generalizada. Puede deberse a pérdidas acumuladas, a deuda excesiva (lección M19-6), a una crisis de liquidez (lección M8-4), a una caída de su mercado o a una mezcla de todo.
+
+Ante la insolvencia hay, básicamente, tres caminos:
+1. **Reestructura extrajudicial:** la empresa negocia directamente con sus acreedores (bancos, tenedores de bonos, proveedores) nuevos plazos, tasas, reducción de deuda o conversión de deuda en acciones.
+2. **Reestructura judicial (concurso o quiebra «de reorganización»):** la empresa pide protección a un juez para reorganizarse mientras sigue operando, y negocia un **plan** con sus acreedores bajo reglas legales.
+3. **Liquidación (quiebra en sentido estricto):** si no hay forma de salvarla, se venden sus bienes para pagar a los acreedores en el orden que marca la ley, y la empresa desaparece.
+
+## El concurso mercantil en México
+En México, la **Ley de Concursos Mercantiles** (del año **2000**) regula la insolvencia de las empresas. El proceso tiene, en general, dos etapas:
+1. **Conciliación:** se busca un **convenio** entre la empresa y sus acreedores para reestructurar las deudas y que la empresa siga operando. Interviene un **conciliador** nombrado a través del Instituto Federal de Especialistas de Concursos Mercantiles (IFECOM). Durante esta etapa, se suspenden muchas ejecuciones contra los bienes de la empresa, para dar tiempo a negociar.
+2. **Quiebra:** si no se logra el convenio en el plazo legal, se declara la quiebra y un **síndico** vende los bienes para pagar a los acreedores.
+
+La ley establece un **orden de pago** (prelación): en términos generales, primero ciertos créditos de los **trabajadores** (salarios e indemnizaciones con privilegio), luego los acreedores con **garantía** sobre bienes específicos, después otros créditos con privilegio, los **acreedores comunes** (como muchos proveedores) y, al final, si sobra algo, los **accionistas**. Los detalles están en la ley.
+
+También existe el **concurso con plan de reestructura previo**, en el que la empresa llega al juez con un acuerdo ya negociado con la mayoría de sus acreedores, lo que acelera el proceso.
+
+## El capítulo 11 en Estados Unidos
+En Estados Unidos, el **capítulo 11** de la ley de quiebras permite a una empresa **reorganizarse** bajo la protección de un tribunal, mientras sigue operando y negocia con sus acreedores un plan. El **capítulo 7**, en cambio, es la **liquidación**. Muchas empresas grandes, incluidas algunas mexicanas con deuda emitida en Estados Unidos, han usado el capítulo 11 para reestructurarse (por ejemplo, algunas aerolíneas y empresas de energía).
+
+## Caso 1: Mexicana de Aviación (2010)
+**Mexicana de Aviación**, fundada en **1921**, era una de las aerolíneas más antiguas del mundo y la más antigua de México. Tras su privatización y varias ventas, en **2005** fue comprada por un grupo de inversionistas privados. Según la información pública de la época, la empresa enfrentaba **altos costos** (incluidos los laborales y de arrendamiento de aviones), **deudas**, la competencia de nuevas aerolíneas de bajo costo, el alza del combustible y los efectos de la crisis económica de 2008 y de la epidemia de influenza de 2009 en el turismo.
+
+En **agosto de 2010**, la empresa solicitó el **concurso mercantil** en México y protección en Estados Unidos, y el **28 de agosto de 2010 suspendió sus vuelos**. Durante años hubo intentos de rescate y de encontrar inversionistas, que no se concretaron. Miles de trabajadores y pensionados quedaron afectados durante más de una década, y finalmente se declaró la quiebra. En **2023**, el gobierno de México compró la marca y otros activos y lanzó una nueva aerolínea estatal con el nombre de Mexicana, que es una empresa distinta.
+
+**Lecciones:** una estructura de costos que no se ajustó a un mercado más competitivo, deuda alta, una crisis externa y conflictos entre accionistas, trabajadores y acreedores que impidieron llegar a un acuerdo a tiempo.
+
+## Caso 2: General Motors (2009)
+**General Motors (GM)** fue durante décadas la mayor fabricante de automóviles del mundo. Para la década de 2000 enfrentaba: pérdida de participación de mercado frente a fabricantes japoneses y coreanos, **costos laborales y de pensiones y salud de jubilados** muy altos, demasiadas marcas y modelos, y deuda. La crisis financiera de **2008** hizo que sus ventas se desplomaran y el crédito desapareciera.
+
+En **junio de 2009**, GM se acogió al **capítulo 11**, en una de las mayores quiebras de la historia de Estados Unidos. El gobierno de ese país (y el de Canadá) aportaron decenas de miles de millones de dólares para financiar la reestructura, a cambio de acciones. En un proceso de alrededor de **40 días**, se creó una «nueva GM» que se quedó con los activos más valiosos, mientras que los activos y deudas restantes quedaron en la empresa anterior para liquidarse. GM redujo su número de marcas (cerró o vendió Pontiac, Saturn, Hummer y Saab), cerró plantas, redujo su deuda y renegoció contratos laborales. En **noviembre de 2010** volvió a la bolsa con una de las mayores ofertas públicas de la historia hasta ese momento, y en los años siguientes el gobierno vendió sus acciones.
+
+**Lecciones:** una reestructura profunda y rápida puede salvar a una empresa, pero exige sacrificios de casi todos: accionistas (que perdieron su inversión), acreedores, trabajadores, proveedores y concesionarios.
+
+## Qué hace un proveedor o un cliente ante el concurso de otra empresa
+Para Lupita, ante el concurso de su proveedor:
+1. **Asegurar el abasto:** buscar de inmediato proveedores alternativos (lección M10-6).
+2. **Revisar cuánto le debe** el proveedor y presentar su crédito en el proceso, con asesoría legal.
+3. **Revisar contratos** y anticipos: no pagar por adelantado a una empresa en concurso sin garantías.
+4. **Seguir la información** del proceso: quizá el proveedor siga operando durante la conciliación.
+5. **Aprender:** revisar periódicamente la salud financiera de los proveedores clave.
+
+## Señales de alerta de una empresa en problemas
+- Retrasos crecientes en los pagos.
+- Pide anticipos o descuentos por pronto pago con urgencia.
+- Rotación de directivos de finanzas.
+- Ventas de activos importantes.
+- Noticias de reestructuras de deuda o bajas en su calificación crediticia.`,
+k: `**Insolvencia:** no poder pagar las deudas a tiempo. Caminos: **reestructura extrajudicial**, **reestructura judicial** (en México, **concurso mercantil**: conciliación y, si no hay acuerdo, quiebra; en EE. UU., **capítulo 11**) o **liquidación**. Orden de pago (prelación) según la ley. Casos: **Mexicana de Aviación** suspendió vuelos el **28 de agosto de 2010**; **General Motors** entró al capítulo 11 en **junio de 2009** y volvió a bolsa en **noviembre de 2010**.`,
+ch: `Un taller mecánico con deudas con tres proveedores y el banco se sienta con cada uno, les muestra sus números y negocia pagar en 18 meses en lugar de 6. Así evita un juicio y sigue trabajando.`,
+gi: `General Motors se acogió al capítulo 11 el 1 de junio de 2009; en unas seis semanas se formó una nueva empresa con sus activos principales, apoyada con fondos de los gobiernos de Estados Unidos y Canadá, y en noviembre de 2010 volvió a cotizar en bolsa.`,
+e: `Orden de pago simplificado en la liquidación de una empresa ficticia (millones de pesos):
+
+| Acreedor | Lo que se le debe | Lo que recibe (hay 300 disponibles) |
+|---|---|---|
+| Trabajadores (salarios e indemnizaciones con privilegio) | 40 | 40 |
+| Banco con garantía (sobre una planta vendida en 150) | 200 | 150 |
+| Fisco y otros privilegiados | 30 | 30 |
+| Proveedores y acreedores comunes | 250 | 300 − 40 − 150 − 30 = **80** (32 %) |
+| Accionistas | — | **0** |
+
+Los proveedores comunes recuperan solo 32 centavos por peso, y los accionistas nada. El banco no cobra los 50 restantes con su garantía; esa parte pasa a ser crédito común (aquí se simplifica). Por eso, en una reestructura, cada grupo negocia sabiendo cuánto recibiría en una liquidación.`,
+r: `Mexicana de Aviación, fundada en 1921, suspendió operaciones el 28 de agosto de 2010 tras solicitar el concurso mercantil; en 2023, el gobierno federal adquirió la marca y otros activos y creó una nueva aerolínea estatal con el nombre de Mexicana, según comunicados oficiales.`,
+f: `Ley de Concursos Mercantiles (México, DOF 12 de mayo de 2000); comunicados de General Motors y del Departamento del Tesoro de Estados Unidos (2009–2013); comunicados oficiales sobre Mexicana de Aviación (2010 y 2023).`,
+err: ["Esperar demasiado para negociar con los acreedores.","Seguir pagando por adelantado a un proveedor en problemas.","Depender de un solo proveedor sin revisar su salud financiera.","Creer que los accionistas recuperan algo en una quiebra.","Pensar que concurso mercantil significa siempre cierre inmediato."],
+a: `Una empresa ficticia tiene 500 millones en bienes y debe: 60 a trabajadores, 300 a un banco con garantía sobre bienes que se venden en 250, 40 al fisco y 400 a proveedores comunes. Calcula cuánto recibe cada grupo en una liquidación simplificada. Después, explica por qué los proveedores podrían preferir una reestructura.`,
+sol: `Trabajadores: 60. Banco: 250. Fisco: 40. Proveedores: 500 − 60 − 250 − 40 = 150 de 400 (37.5 %). Accionistas: 0. Los proveedores podrían preferir una reestructura si la empresa, al seguir operando, puede pagarles más de 37.5 centavos por peso con el tiempo, y además conservarían un cliente.`,
+q: [["En México, la ley que regula la insolvencia de las empresas es…",["La Ley de Concursos Mercantiles","La Ley Federal del Trabajo","La Ley del IVA"],0,"Del año 2000."],
+["La etapa de conciliación del concurso mercantil busca…",["Un convenio con los acreedores para que la empresa siga operando","Vender todo de inmediato","Cerrar sin pagar"],0,"Si no hay acuerdo, se declara la quiebra."],
+["¿Cuándo suspendió vuelos Mexicana de Aviación?",["El 28 de agosto de 2010","En 1921","En 2023"],0,"Tras solicitar el concurso mercantil."],
+["En una liquidación, normalmente los accionistas…",["Cobran al final, si sobra algo (casi siempre nada)","Cobran primero","Cobran lo mismo que los trabajadores"],0,"Están al final del orden de pago."]],
+t: ["Insolvencia","Concurso mercantil","Quiebra","Reestructura","Prelación","Liquidación"]
+},
+"M27-7": {
+s: `Al terminar el módulo, Lupita le pide a su equipo un documento de una página: «¿Por qué caen los gigantes y qué haremos para que no nos pase?». Toño revisa todos los casos del curso: Enron, Wirecard, WeWork, Kodak, Blockbuster, Nokia, Mexicana, GM, Target en Canadá, Cemex… y busca lo que tienen en común.`,
+o: ["Identificar los patrones comunes en la caída de empresas grandes.","Explicar el modelo de las cinco etapas del declive de Jim Collins.","Diseñar señales de alerta y prácticas preventivas para una empresa."],
+x: `## No hay una sola causa
+Las empresas grandes rara vez caen por **una sola** razón o de un día para otro. Casi siempre es una **combinación** de factores que se acumulan durante años, hasta que una crisis externa o interna los hace evidentes. Lo bueno es que muchos de esos factores son **reconocibles** y, en buena parte, **prevenibles**.
+
+## Las cinco etapas del declive según Jim Collins
+El investigador **Jim Collins** estudió empresas que cayeron después de ser exitosas y lo publicó en su libro *Cómo caen los poderosos* (**2009**). Propuso cinco etapas:
+1. **Arrogancia nacida del éxito:** la empresa cree que su éxito se debe a que es superior y olvida las razones verdaderas de su éxito. Deja de aprender.
+2. **Búsqueda indisciplinada de más:** crece demasiado rápido, en negocios que no domina o sin las personas adecuadas (recuerda a Target en Canadá o las adquisiciones caras).
+3. **Negación del riesgo y del peligro:** aparecen señales negativas, pero los líderes las minimizan, culpan a factores externos o toman riesgos grandes con datos débiles.
+4. **Búsqueda de la salvación:** cuando la caída es evidente, la empresa busca soluciones mágicas: un nuevo director «salvador», una gran adquisición, una reestructura drástica, una nueva estrategia cada año.
+5. **Capitulación a la irrelevancia o a la muerte:** la empresa se vende, se vuelve irrelevante o desaparece.
+
+Collins sostiene que muchas empresas pueden **recuperarse** si reconocen a tiempo en qué etapa están y vuelven a lo que las hizo fuertes con disciplina. Su libro ha recibido críticas metodológicas (como todos los estudios basados en casos), pero sus etapas son útiles como guía de reflexión.
+
+## Los patrones comunes en los casos del curso
+| Patrón | Casos donde aparece |
+|---|---|
+| **Complacencia y exceso de confianza:** creer que el éxito es permanente | Kodak, Blockbuster, Nokia |
+| **No adaptarse a un cambio tecnológico o de modelo de negocio** | Kodak, Blockbuster, Nokia |
+| **Proteger el negocio actual** por miedo a la canibalización | Kodak, Blockbuster |
+| **Crecimiento excesivo o indisciplinado** | Target en Canadá, WeWork |
+| **Deuda excesiva** y poca flexibilidad financiera | GM, Mexicana, Cemex (Módulo 28) |
+| **Estructura de costos rígida** que no se ajustó al mercado | GM, Mexicana, Blockbuster |
+| **Fallas de gobierno corporativo** y poder sin contrapesos | Enron, Wirecard, WeWork |
+| **Fraude o falta de ética** | Enron, Wirecard, Wells Fargo |
+| **Crisis externa** que expone las debilidades | GM y Cemex (2008), Mexicana (2009–2010) |
+| **Ignorar a los clientes** o irritarlos | Blockbuster (multas) |
+| **Cultura lenta o burocrática** | Nokia, GM |
+
+## La importancia de las crisis externas
+Muchas caídas se precipitan en una **crisis externa**: la crisis financiera de 2008, una pandemia, una caída de precios. Pero las crisis no hunden a todos por igual: suelen hundir a los que ya estaban **débiles** (con mucha deuda, costos rígidos o un modelo en declive). Como dice una frase atribuida a Warren Buffett: «Solo cuando baja la marea se ve quién estaba nadando desnudo».
+
+## Señales de alerta tempranas
+Para una empresa grande (y también para una pequeña):
+- Las ventas mismas tiendas o los clientes recurrentes **bajan** varios trimestres seguidos.
+- Los márgenes se **reducen** sin una explicación clara.
+- La deuda crece **más rápido** que el flujo de operación.
+- Un competidor nuevo crece rápido en un segmento que la empresa ignora.
+- Los mejores empleados **se van**.
+- Las quejas de los clientes aumentan.
+- Los directivos dejan de escuchar las malas noticias; quien las trae es castigado.
+- La empresa culpa siempre a factores externos.
+- Se hacen adquisiciones grandes para «crecer» sin una lógica clara.
+- El consejo deja de cuestionar.
+
+## Prácticas preventivas
+1. **Humildad y aprendizaje:** estudiar por qué se tiene éxito y no darlo por garantizado.
+2. **Escuchar al cliente** y a los clientes que **no** se atienden (lección M26-6).
+3. **Disciplina en el crecimiento:** crecer solo donde se tiene ventaja y con las personas adecuadas.
+4. **Flexibilidad financiera:** deuda prudente, colchón de efectivo, costos variables donde se pueda (lecciones M19-6 y M23-6).
+5. **Gobierno sólido:** consejo independiente que cuestiona, controles, ética (Módulo 24).
+6. **Innovación y renovación:** unidades independientes, experimentos, aceptar la canibalización.
+7. **Cultura que acepta malas noticias:** premiar a quien detecta problemas temprano.
+8. **Planes de crisis y escenarios** (lecciones M16-6 y M27-4).
+9. **Revisar periódicamente la estrategia** con datos del mercado.
+
+## El documento de Grupo Lupita
+Toño resume en una página:
+- **Riesgos que más nos preocupan:** perder clientes jóvenes ante apps y suscripciones; crecer demasiado rápido en Estados Unidos; un problema de seguridad alimentaria; depender de la figura de Lupita; deuda si la expansión sale mal.
+- **Señales que vigilaremos cada trimestre:** ventas mismas tiendas, clientes recurrentes, participación en apps, quejas, rotación de gerentes, deuda neta ÷ EBITDA, avance de la innovación.
+- **Reglas que nos ponemos:** deuda neta no mayor a 2 veces el EBITDA; ninguna expansión sin piloto (lección M22-8); un punto fijo de «malas noticias» en cada junta de dirección; consejo con mayoría independiente en tres años; plan de sucesión actualizado cada año.
+Lupita lo firma y lo pide como anexo del plan estratégico.`,
+k: `Los gigantes caen por **combinaciones** de factores acumulados: complacencia, no adaptarse al cambio, proteger el negocio actual, crecimiento indisciplinado, **deuda excesiva**, costos rígidos, **fallas de gobierno**, fraude, crisis externas y cultura lenta. **Jim Collins (2009):** arrogancia del éxito → búsqueda indisciplinada de más → negación del riesgo → búsqueda de salvación → capitulación. Prevención: humildad, escuchar al cliente, disciplina, flexibilidad financiera, buen gobierno, innovación y cultura que acepta malas noticias.`,
+ch: `Una cadena local de tiendas de ropa cerró después de 30 años: dejó de renovar sus diseños, se endeudó para abrir tiendas en plazas que no funcionaron y no vendía en línea. Ninguna de esas razones por sí sola la habría hundido; juntas, sí.`,
+gi: `Jim Collins publicó en 2009 «How the Mighty Fall», donde analizó empresas que cayeron después de ser exitosas y propuso cinco etapas del declive, desde la arrogancia nacida del éxito hasta la capitulación a la irrelevancia o la desaparición.`,
+e: `Tablero de señales de alerta de Grupo Lupita (semáforo trimestral):
+
+| Señal | Límite (rojo si…) | Último trimestre | Estado |
+|---|---|---|---|
+| Ventas mismas tiendas | Negativas 2 trimestres seguidos | +2 % | Verde |
+| Clientes recurrentes en la app | Bajan más de 5 % | −7 % | Rojo |
+| Deuda neta ÷ EBITDA | Mayor a 2.0 | 1.6 | Verde |
+| Quejas por cada 10,000 tickets | Más de 8 | 6 | Verde |
+| Rotación anual de gerentes | Más de 25 % | 28 % | Rojo |
+| Participación en ventas por apps | Baja 2 trimestres seguidos | Estable | Amarillo |
+
+Dos señales en rojo obligan a presentar al consejo un plan de acción en la siguiente sesión.`,
+r: `En «How the Mighty Fall» (2009), Jim Collins propuso cinco etapas del declive corporativo y concluyó que muchas empresas pueden recuperarse si reconocen a tiempo su situación y vuelven con disciplina a los fundamentos que las hicieron exitosas.`,
+f: `J. Collins, «How the Mighty Fall: And Why Some Companies Never Give In» (2009); casos públicos citados en las lecciones M22-8, M24-9, M27-5 y M27-6.`,
+err: ["Buscar una sola causa para la caída de una empresa.","Culpar siempre a factores externos.","Castigar a quien trae malas noticias.","Responder a la caída con soluciones mágicas en lugar de disciplina.","Creer que «a nosotros no nos puede pasar»."],
+a: `Toma un negocio que conozcas (o Grupo Lupita) y escribe tu propio documento de una página: tres riesgos principales de caída, cinco señales de alerta con su límite y cinco reglas preventivas. Explica en qué etapa de Collins podría estar hoy y por qué.`,
+sol: `Una buena respuesta identifica riesgos específicos del negocio (no genéricos), define señales medibles con límites claros, propone reglas que se puedan cumplir y vigilar, y justifica la etapa de Collins con hechos (por ejemplo, señales de arrogancia o de crecimiento indisciplinado).`,
+q: [["Según Jim Collins, la primera etapa del declive es…",["La arrogancia nacida del éxito","La quiebra","La salida a bolsa"],0,"La empresa olvida las razones verdaderas de su éxito."],
+["La frase atribuida a Buffett «solo cuando baja la marea se ve quién estaba nadando desnudo» significa que…",["Las crisis revelan las debilidades que ya existían","Hay que nadar con traje","Las mareas causan quiebras"],0,"Las crisis hunden sobre todo a los débiles."],
+["Una señal temprana de alerta es…",["Que los mejores empleados se vayan","Que los clientes estén contentos","Que la deuda baje"],0,"Junto con caídas de ventas y márgenes."],
+["Una práctica preventiva es…",["Mantener una cultura que acepte y premie las malas noticias","Castigar a quien detecta problemas","No revisar nunca la estrategia"],0,"Así los problemas se detectan a tiempo."]],
+t: ["Declive corporativo","Complacencia","Señales de alerta","Flexibilidad financiera"]
+}
+});
