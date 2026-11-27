@@ -3184,3 +3184,399 @@ q: [["Según Jim Collins, la primera etapa del declive es…",["La arrogancia na
 t: ["Declive corporativo","Complacencia","Señales de alerta","Flexibilidad financiera"]
 }
 });
+
+// ===== M28. Radiografía de empresas reales =====
+Object.assign(window.LECC, {
+"M28-1": {
+s: `Para empezar el módulo de radiografías, Lupita propone algo distinto: antes de analizar gigantes, analizar el negocio más común de México: la tienda de abarrotes de la esquina. «Doña Mary», la de la tienda frente al primer puesto de Lupita, acepta contar cómo funciona su negocio. Es un caso ficticio, construido con datos generales del INEGI y con lo aprendido en el curso.`,
+o: ["Aplicar la ficha completa de radiografía a un negocio pequeño.","Relacionar cada parte del curso con el funcionamiento de un changarro.","Identificar las fortalezas, los riesgos y las oportunidades de una tienda de barrio."],
+x: `## La ficha de radiografía
+En este módulo usaremos siempre la misma ficha para analizar un negocio: **1) origen, 2) modelo de negocio, 3) estructura, 4) áreas, 5) dinero, 6) decisiones clave, 7) crecimiento, 8) gobierno, 9) lecciones y 10) fuentes.** Empezamos con un negocio ficticio, pero representativo: la tienda de Doña Mary.
+
+## 1. Origen
+Doña Mary abrió su tienda hace 22 años en el frente de su casa, con sus ahorros y un préstamo de su hermano. Empezó con refrescos, pan, huevo y abarrotes básicos. Según los **Censos Económicos del INEGI**, el comercio al por menor en **tiendas de abarrotes, ultramarinos y misceláneas** es una de las actividades con **más establecimientos** del país: cientos de miles de tiendas en todo México, la mayoría con muy pocos empleados (lección M2-2). La tienda de Doña Mary es una de ellas.
+
+## 2. Modelo de negocio (lienzo resumido)
+- **Clientes:** vecinos de unas cuatro cuadras a la redonda; familias, estudiantes, trabajadores.
+- **Propuesta de valor:** **cercanía**, horario amplio, trato personal, venta por pieza (un huevo, un cigarro suelto donde la ley lo permite… o una sola tortilla), y **fiado** a clientes de confianza.
+- **Canales:** el mostrador; pedidos por WhatsApp para entregar a domicilio en la cuadra.
+- **Ingresos:** venta de productos con márgenes de entre 10 % y 30 % según el producto; comisiones por recargas y pagos de servicios.
+- **Recursos clave:** el local (propio, en su casa), el refrigerador (prestado por una refresquera a cambio de exhibir su marca), la confianza de los vecinos.
+- **Socios clave:** distribuidores de refrescos, pan y botanas que surten en ruta; un mayorista de abarrotes; un banco para la terminal de pago.
+- **Costos:** mercancía, luz (el refrigerador es el mayor consumo), su propio trabajo y el de su hijo.
+
+## 3. Estructura
+Una estructura de changarro (lección M6-3): Doña Mary es dueña, directora, compradora, cajera y contadora; su hijo atiende por las tardes; su nieta ayuda los fines de semana. No hay organigrama escrito, pero todos saben quién decide: ella.
+
+## 4. Áreas (todas en una persona)
+- **Compras:** recibe a los vendedores de ruta, que le surten varias veces por semana; una vez a la semana va al mayorista.
+- **Operación:** abre a las 7:00 y cierra a las 22:00; acomoda, limpia, revisa caducidades.
+- **Ventas y clientes:** conoce a casi todos por su nombre.
+- **Finanzas:** una libreta para el fiado; la caja se cuenta en la noche.
+- **Tecnología:** terminal de pago con tarjeta y código QR; celular para pedidos.
+- **Legal:** está en el régimen fiscal para pequeños contribuyentes que le corresponde; licencia de funcionamiento.
+
+## 5. Dinero (números ficticios)
+| Concepto (mensual) | Monto |
+|---|---|
+| Ventas | 150,000 |
+| Costo de la mercancía (78 %) | 117,000 |
+| **Utilidad bruta (22 %)** | **33,000** |
+| Luz, agua, gas | 3,500 |
+| Sueldo del hijo | 6,000 |
+| Comisiones de la terminal y otros gastos | 1,500 |
+| Merma (caducos, robos menores) | 2,000 |
+| **Utilidad antes del sueldo de Doña Mary** | **20,000** |
+
+Doña Mary trabaja unas 90 horas a la semana. Su «utilidad» es, en realidad, su sueldo: unos 51 pesos por hora (20,000 ÷ 390 horas al mes). Esto ilustra un error clásico: **no pagarse un sueldo** y confundirlo con la utilidad (lección M5-10). Además, el fiado suele tener entre 6,000 y 10,000 pesos pendientes: es **capital de trabajo** que no siempre se recupera (lección M8-5).
+
+## 6. Decisiones clave de su historia
+- **Aceptar el refrigerador prestado** de la refresquera: no invirtió, pero aceptó exhibir solo esa marca.
+- **Dar fiado:** fideliza clientes, pero arriesga efectivo.
+- **Instalar terminal de pago** en 2020: perdía ventas con clientes sin efectivo.
+- **Agregar recargas y pagos de servicios:** atraen gente que después compra algo más (economías de alcance, lección M26-2).
+- **No abrir una segunda tienda:** su hijo no quiso dirigirla.
+
+## 7. Crecimiento y competencia
+Hace ocho años abrió una tienda de conveniencia de una cadena a dos cuadras. Doña Mary perdió ventas de refrescos fríos de noche, pero conservó a los clientes que valoran el fiado, la venta por pieza y el trato. Siguió la estrategia de **enfoque** (lección M26-1): ser la mejor opción para su cuadra.
+
+## 8. Gobierno
+No hay consejo ni socios: decide ella. El riesgo principal es la **sucesión** (lección M18-4): si ella falta, nadie sabe exactamente cuánto vende, cuánto le deben ni cómo negociar con los proveedores.
+
+## 9. Lecciones
+1. Un changarro tiene **todas** las áreas de una empresa, aunque las haga una sola persona.
+2. Su ventaja es la **cercanía y la relación**, algo que las cadenas no copian fácilmente.
+3. Sus riesgos: margen bajo, fiado, dependencia de la dueña, competencia de cadenas.
+4. Mejoras sencillas: registrar ventas por categoría, poner un límite al fiado, separar su sueldo de la utilidad, anotar los procesos básicos para su hijo.
+
+## 10. Fuentes
+Caso ficticio construido con datos generales de los Censos Económicos del INEGI sobre el comercio al por menor y con los conceptos del curso.`,
+k: `**Ficha de radiografía:** origen, modelo de negocio, estructura, áreas, dinero, decisiones clave, crecimiento, gobierno, lecciones y fuentes. La **tienda de abarrotes** es de los negocios más numerosos de México (Censos Económicos del INEGI). Su ventaja: **cercanía y relación**; sus riesgos: margen bajo, **fiado**, dependencia de la dueña y sucesión. Error clásico: confundir el sueldo del dueño con la utilidad.`,
+ch: `La tienda de Doña Mary es el changarro típico: una persona que es compradora, cajera, contadora y directora, con clientes que conoce por su nombre.`,
+gi: `Las grandes cadenas de conveniencia y de descuento compiten con las tiendas de abarrotes por los mismos clientes, pero con otra propuesta: horarios de 24 horas, servicios, estandarización y escala (lección M20-7).`,
+e: `Cuánto gana realmente Doña Mary por hora y qué pasaría con un límite al fiado:
+
+| Concepto | Hoy | Con mejoras |
+|---|---|---|
+| Utilidad antes de su sueldo | 20,000 | 20,000 |
+| Horas al mes | 390 | 390 |
+| **Ganancia por hora** | **≈ 51** | — |
+| Fiado pendiente promedio | 8,000 | 3,000 (límite por cliente) |
+| Fiado que nunca se cobra al año | 6,000 | 2,000 |
+| Merma mensual | 2,000 | 1,200 (revisión de caducidades por semana) |
+| **Utilidad mensual estimada** | **20,000** | 20,000 + (6,000 − 2,000) ÷ 12 + 800 ≈ **21,133** |
+
+Dos cambios sencillos suben su ingreso alrededor de 5.7 % sin vender más.`,
+r: `Según los Censos Económicos del INEGI, el comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas es una de las clases de actividad con mayor número de unidades económicas en México, la mayoría de ellas micronegocios con pocos trabajadores.`,
+f: `INEGI, Censos Económicos (resultados definitivos más recientes) y Directorio Estadístico Nacional de Unidades Económicas (DENUE). Caso ficticio.`,
+err: ["Confundir el sueldo del dueño con la utilidad del negocio.","Dar fiado sin límite ni registro.","No revisar caducidades y aceptar la merma como algo normal.","No dejar nada escrito para la sucesión.","Competir en precio con las cadenas en lugar de en cercanía y servicio."],
+a: `Haz la radiografía de una tienda de tu colonia con la ficha de 10 puntos (puedes estimar los números o preguntarle al dueño con respeto). Identifica su ventaja principal, su mayor riesgo y dos mejoras sencillas.`,
+sol: `Una buena radiografía cubre los 10 puntos, usa números razonables (aunque sean estimados), identifica una ventaja concreta (cercanía, fiado, horario, producto especial) y propone mejoras medibles como registrar ventas, limitar el fiado o separar el sueldo del dueño.`,
+q: [["¿Cuál es la ventaja principal de una tienda de barrio frente a una cadena?",["Cercanía, relación personal y servicios como el fiado","Precios siempre más bajos","Publicidad nacional"],0,"Las cadenas no copian fácilmente la relación personal."],
+{n:1,t:"Doña Mary gana 20,000 al mes antes de su sueldo y trabaja 390 horas. ¿Cuánto gana por hora? (redondea a entero)",a:51,tol:0.01,u:"pesos",e:"20,000 ÷ 390 = 51.28 ≈ 51 pesos."},
+["El fiado es, en términos financieros…",["Una cuenta por cobrar que forma parte del capital de trabajo","Un ingreso seguro","Un gasto de publicidad"],0,"Es dinero que no siempre se recupera."],
+["El mayor riesgo de gobierno de la tienda de Doña Mary es…",["La sucesión: nadie más sabe cómo funciona","Su consejo de administración","Sus accionistas minoritarios"],0,"Todo depende de la dueña."]],
+t: ["Tienda de abarrotes","Fiado","Radiografía de empresa","Censos Económicos"]
+},
+"M28-2": {
+s: `En el súper, Toño toma un paquete de pan Bimbo y lee: «Grupo Bimbo, presente en más de 30 países». Le cuesta creer que una panadería mexicana fundada después de la Segunda Guerra Mundial sea hoy una de las empresas de panificación más grandes del mundo. ¿Cómo lo logró?`,
+o: ["Aplicar la ficha de radiografía a Grupo Bimbo con información pública.","Identificar sus decisiones clave de crecimiento y su modelo de distribución.","Analizar el gobierno de una empresa familiar que cotiza en bolsa."],
+x: `## 1. Origen
+Según su historia corporativa, **Grupo Bimbo** nació en **1945** en la Ciudad de México, cuando un grupo de socios, entre ellos **Lorenzo Servitje**, fundó **Panificación Bimbo**, con una planta y unos pocos camiones de reparto. Su primer producto fue el **pan de caja** envuelto en celofán, algo novedoso en ese momento por su frescura e higiene.
+
+## 2. Modelo de negocio
+- **Qué vende:** pan de caja, bollería, pastelitos, galletas, tortillas, botanas y otros productos de panificación y alimentos, con un portafolio de **más de 100 marcas** según la empresa (lección M26-5), como Bimbo, Marinela, Tía Rosa, Barcel, Thomas', Entenmann's, Sara Lee (en algunos mercados) y Oroweat.
+- **A quién:** consumidores a través de cientos de miles de puntos de venta: tiendas de abarrotes, tiendas de conveniencia, supermercados, restaurantes.
+- **Propuesta de valor:** productos frescos, de marcas conocidas, **disponibles en casi cualquier tienda**, todos los días.
+- **Ventaja clave:** la **distribución directa a tienda** con una red enorme de rutas y vehículos propios, según sus informes. El pan dura pocos días: llegar fresco y a tiempo a cada tienda es su principal capacidad (economías de escala y de alcance, lección M26-2).
+
+## 3. Estructura
+Grupo Bimbo es una **empresa controladora** (lección M23-2) con subsidiarias en muchos países. Informa sus resultados por **regiones** (lección M23-3): Norteamérica (su mayor región por ventas en años recientes), México, Latinoamérica y la región de Europa, Asia y África, según sus reportes. Opera más de 200 plantas y emplea a más de 100,000 personas en el mundo, según su información pública reciente.
+
+## 4. Áreas destacadas
+- **Operaciones y logística:** plantas con altos volúmenes y una red de distribución de decenas de miles de rutas.
+- **Ventas:** vendedores-repartidores que surten, acomodan el producto en el anaquel y retiran el producto que ya no está fresco.
+- **Marketing:** marcas muy conocidas; personajes y campañas para niños y familias.
+- **Compras:** grandes volúmenes de harina, azúcar, aceites y empaques.
+- **Sostenibilidad:** informes integrados con metas ambientales y sociales (lección M27-2).
+
+## 5. Dinero
+Según sus informes anuales, las ventas de Grupo Bimbo superan los **300,000 millones de pesos** al año en el periodo reciente, con márgenes de operación de un dígito alto, típicos de la industria de alimentos de alto volumen. Una parte importante de sus ventas proviene de **Estados Unidos**, lo que la expone al **tipo de cambio**: si el peso se aprecia, sus ventas en dólares valen menos pesos (lección M22-4). Ha financiado su crecimiento con **flujo propio** y con **deuda** (incluidos bonos en México y en el extranjero), procurando mantener calificaciones de crédito de grado de inversión, según sus reportes. Las cifras exactas cambian cada año; consulta el informe más reciente.
+
+## 6. Decisiones clave
+1. **Distribución propia desde el inicio:** en lugar de depender de distribuidores, Bimbo llevó su pan a las tiendas.
+2. **Diversificación relacionada:** pastelitos (Marinela), botanas (Barcel), galletas, tortillas: productos que comparten canal y clientes.
+3. **Salida a la Bolsa Mexicana de Valores en 1980**, según su historia, para financiar su crecimiento.
+4. **Internacionalización por adquisiciones** (lección M22-6), especialmente en Estados Unidos: entre otras, la compra de Mrs Baird's (1998), del negocio de panificación de George Weston en Estados Unidos (2009) y del negocio de pan fresco de Sara Lee en Norteamérica (2011), además de Canada Bread (2014) y empresas en Latinoamérica, Europa y Asia, según sus comunicados.
+5. **Profesionalización y gobierno:** consejo con independientes y continuidad familiar en la dirección (Daniel Servitje es su director general desde 1997, según la empresa).
+
+## 7. Crecimiento
+De una planta en 1945 a una presencia en más de 30 países. El crecimiento combinó **orgánico** (nuevas plantas, marcas y rutas) e **inorgánico** (adquisiciones). Uno de sus retos ha sido **integrar** empresas compradas con culturas distintas y lograr las sinergias esperadas.
+
+## 8. Gobierno
+Es una **empresa familiar en bolsa** (lección M24-7): las familias fundadoras conservan una participación relevante y miembros de ellas participan en el consejo y en la dirección, junto con consejeros independientes, según su informe anual. Combina la visión de largo plazo de la familia con las reglas de transparencia de una S.A.B.
+
+## 9. Lecciones
+- Una **capacidad operativa** difícil de copiar (distribución directa de productos frescos) puede ser una ventaja durante décadas.
+- La **diversificación relacionada** aprovecha los mismos canales.
+- Las **adquisiciones** permiten crecer rápido en otros países, pero exigen integrar bien.
+- Una empresa familiar puede profesionalizarse, cotizar en bolsa y mantener su identidad.
+
+## 10. Fuentes
+Grupo Bimbo, historia corporativa, informes anuales integrados y comunicados de adquisiciones (grupobimbo.com).
+
+## Riesgos que menciona la empresa
+En sus informes, empresas de alimentos como Grupo Bimbo suelen señalar riesgos como el aumento del precio de materias primas (trigo, azúcar, aceites, combustibles), la variación del tipo de cambio, los cambios en los hábitos de alimentación (por ejemplo, la preferencia por productos con menos azúcar o más saludables), las regulaciones de etiquetado (en México, la NOM-051 con sus sellos de advertencia) y la competencia de marcas propias de los supermercados. Leer esa sección ayuda a entender qué podría afectar al negocio en el futuro (lección M25-4).`,
+k: `**Grupo Bimbo:** fundado en 1945 en la Ciudad de México; cotiza en la BMV desde 1980; más de 100 marcas y presencia en más de 30 países, según la empresa. Ventaja: **distribución directa a tienda** de productos frescos. Crecimiento orgánico + **adquisiciones** (sobre todo en EE. UU.). Organización por **regiones**. **Empresa familiar en bolsa** con consejo con independientes.`,
+ch: `Una panadería regional imita, en pequeño, el modelo de Bimbo: dos camionetas propias surten pan fresco cada mañana a 80 tiendas de su ciudad y recogen el pan del día anterior.`,
+gi: `Según sus informes, Norteamérica es la región con mayores ventas de Grupo Bimbo, tras adquisiciones como las de George Weston (2009) y Sara Lee (2011), lo que convirtió a la empresa en una de las mayores panificadoras de Estados Unidos.`,
+e: `Efecto del tipo de cambio en las ventas de una empresa con operaciones en Estados Unidos (cifras ilustrativas, no de Bimbo):
+
+| Concepto | Año 1 | Año 2 |
+|---|---|---|
+| Ventas en Estados Unidos (dólares) | 8,000 millones | 8,400 millones (+5 %) |
+| Tipo de cambio promedio | 19.5 | 17.5 |
+| Ventas en Estados Unidos (pesos) | 156,000 millones | 147,000 millones |
+| **Cambio en pesos** | — | **−5.8 %** |
+
+Aunque en dólares vendió 5 % más, en pesos reportaría 5.8 % menos. Por eso las empresas informan también el crecimiento «a tipo de cambio constante».`,
+r: `Según la historia corporativa de Grupo Bimbo, la empresa fue fundada en 1945, comenzó a cotizar en la Bolsa Mexicana de Valores en 1980 y adquirió en Estados Unidos, entre otros, el negocio de panificación de George Weston en 2009 y el negocio de pan fresco de Sara Lee en Norteamérica en 2011.`,
+f: `Grupo Bimbo, historia corporativa, informes anuales integrados y comunicados (grupobimbo.com).`,
+err: ["Pensar que Bimbo creció solo por su marca, sin ver su red de distribución.","Ignorar el efecto del tipo de cambio en sus resultados.","Creer que las adquisiciones crean valor automáticamente.","Usar cifras de años anteriores como si fueran actuales."],
+a: `Con el informe anual más reciente de Grupo Bimbo, completa la sección 5 (Dinero) de la ficha: ventas, utilidad de operación, margen de operación, deuda neta y el peso de cada región en las ventas. Escribe dos conclusiones.`,
+sol: `Una buena respuesta cita el año del informe, calcula el margen (utilidad de operación ÷ ventas), muestra qué región pesa más y concluye, por ejemplo, sobre la importancia de Norteamérica y el efecto del tipo de cambio.`,
+q: [["¿En qué año se fundó Grupo Bimbo, según su historia corporativa?",["1945","1980","2009"],0,"Empezó a cotizar en la BMV en 1980."],
+["La ventaja clave de Bimbo destacada en la lección es…",["Su distribución directa a tienda de productos frescos","Su tienda en línea","Su cadena de restaurantes"],0,"Una red enorme de rutas propias."],
+["Bimbo creció en Estados Unidos sobre todo mediante…",["Adquisiciones de otras panificadoras","Franquicias de tortas","Exportaciones de tortillas"],0,"Por ejemplo, George Weston (2009) y Sara Lee (2011)."],
+["Grupo Bimbo es un ejemplo de…",["Empresa familiar que cotiza en bolsa","Empresa del gobierno","Empresa emergente"],0,"Combina gobierno familiar y reglas de S.A.B."]],
+t: ["Distribución directa a tienda","Crecimiento inorgánico","Tipo de cambio constante"]
+},
+"M28-3": {
+s: `Lupita visita una Bodega Aurrerá, un Walmart y un Sam's Club en la misma semana y descubre que los tres son de la misma empresa. Le sorprende cómo pueden tener precios tan bajos. Ella negocia con 20 proveedores; esta empresa negocia con miles. ¿Cómo funciona por dentro Walmart y su filial mexicana?`,
+o: ["Aplicar la ficha de radiografía a Walmart y a Walmart de México con información pública.","Explicar su estrategia de liderazgo en costos y el papel de la logística y las compras.","Analizar la adaptación de formatos en México y los retos de gobierno."],
+x: `## 1. Origen
+**Walmart** fue fundada por **Sam Walton**, quien abrió la primera tienda Walmart en **1962** en Rogers, Arkansas (Estados Unidos), según la historia de la empresa. Su idea era llevar tiendas de descuento a pueblos pequeños que las grandes cadenas ignoraban.
+
+En México, la historia empieza con **Cifra**, la empresa de la familia Arango que operaba Aurrerá, Bodega Aurrerá, Superama, Suburbia y Vips. En **1991**, Walmart y Cifra formaron una **empresa conjunta** para abrir clubes de precio (Club Aurrerá, después Sam's Club). En **1997**, Walmart adquirió el control de Cifra (lección M22-6), que en **2000** cambió su nombre a **Wal-Mart de México** (hoy Walmart de México y Centroamérica, conocida en bolsa como Walmex), según su historia corporativa.
+
+## 2. Modelo de negocio
+- **Propuesta de valor:** **precios bajos todos los días**, sin depender de ofertas temporales (lección M26-1).
+- **Estrategia:** **liderazgo en costos**: comprar más barato que nadie, operar con costos muy bajos y trasladar parte del ahorro al cliente para vender más volumen.
+- **Ingresos:** venta de mercancías con márgenes brutos moderados, compensados por un enorme volumen; membresías en Sam's Club; ingresos crecientes por comercio electrónico, publicidad y servicios financieros.
+- **Clientes:** familias de distintos niveles de ingreso, según el formato.
+
+## 3. Estructura
+**Walmart Inc.** (Estados Unidos) es la controladora. Informa en tres grandes segmentos: Walmart U.S., Walmart International y Sam's Club U.S., según su 10-K. **Walmex** es una subsidiaria que cotiza en la **Bolsa Mexicana de Valores**, en la que Walmart Inc. tiene la mayoría de las acciones y el resto está en manos del público. Walmex opera en México y en varios países de Centroamérica.
+
+## 4. Áreas destacadas
+- **Compras:** negociación con miles de proveedores; poder de compra enorme (lección M10-4). Esta relación ha sido objeto de revisión por autoridades de competencia (lección M26-8).
+- **Logística:** red de **centros de distribución**; Walmart fue pionera en usar sistemas de información y satélites para coordinar inventarios en la década de 1980, según su historia.
+- **Tecnología y datos:** sistemas que comparten información de ventas con proveedores para reponer inventarios.
+- **Operaciones:** formatos estandarizados con procesos eficientes.
+- **Comercio electrónico:** ventas en línea, entregas a domicilio, recoger en tienda.
+
+## 5. Dinero
+Walmart Inc. es, desde hace años, una de las empresas con **más ingresos del mundo** (aparece en los primeros lugares de la lista Fortune Global 500), con ingresos de varios cientos de miles de millones de dólares al año y un margen de operación bajo (de un dígito), típico del comercio minorista de descuento. Walmex, por su parte, es una de las empresas más grandes de México por ventas y por valor de mercado, según sus reportes y las listas de empresas. Su **rotación de inventario** alta y el **crédito de proveedores** (paga a sus proveedores después de haber vendido buena parte de la mercancía) le permiten operar con un capital de trabajo muy eficiente (lección M8-5).
+
+## 6. Decisiones clave
+1. **Empezar en pueblos pequeños** donde no había competencia.
+2. **Invertir en logística y sistemas** antes que sus competidores.
+3. **Entrar a México con un socio local** (Cifra) y después comprarlo.
+4. **Adaptar formatos a México:** **Bodega Aurrerá** se convirtió en su formato principal para consumidores de ingresos medios y bajos, con tiendas de distintos tamaños (incluidas las pequeñas «Mi Bodega» y «Bodega Aurrerá Express»), según sus informes. También vendió negocios que no eran su prioridad (como Vips, Suburbia y la división de restaurantes, en distintos años).
+5. **Apuesta por el comercio electrónico** y la omnicanalidad para competir con Amazon y Mercado Libre.
+
+## 7. Crecimiento
+Walmart creció en Estados Unidos y luego en otros países. Su expansión internacional tuvo éxitos (México, Centroamérica, Canadá) y fracasos (por ejemplo, **Alemania**, de donde salió en 2006, lección M22-8; y Corea del Sur, en el mismo año). En años recientes también vendió o redujo operaciones en otros países, como Reino Unido y Japón, para enfocarse en sus mercados prioritarios.
+
+## 8. Gobierno
+Walmart Inc. es controlada en buena parte por la **familia Walton** a través de su participación accionaria, con un consejo que incluye independientes. Un episodio importante: en **2012**, el *New York Times* publicó una investigación sobre presuntos sobornos en Walmex para obtener permisos de construcción en México a mediados de la década de 2000. Walmart realizó investigaciones internas, reforzó su programa de cumplimiento y, en **2019**, llegó a acuerdos con autoridades de Estados Unidos por violaciones a la FCPA en varios países, incluido México, pagando alrededor de 282 millones de dólares, según el Departamento de Justicia de ese país (lección M27-3).
+
+## 9. Lecciones
+- El **liderazgo en costos** exige escala, logística y disciplina en todos los gastos.
+- La **tecnología y la información** pueden ser una ventaja en una industria «tradicional».
+- Entrar a otro país con un **socio local** y después comprarlo reduce el riesgo.
+- **Adaptar formatos** al cliente local fue clave en México.
+- Ninguna empresa está exenta de riesgos de **corrupción** en la búsqueda de permisos: el cumplimiento es indispensable.
+
+## 10. Fuentes
+Walmart Inc., historia corporativa y Formulario 10-K; Walmart de México y Centroamérica, historia corporativa e informes anuales; Departamento de Justicia de Estados Unidos, comunicado de junio de 2019; The New York Times (abril de 2012).`,
+k: `**Walmart:** fundada por Sam Walton (primera tienda en 1962). **Walmex:** empresa conjunta con Cifra (1991), control en 1997, nombre Wal-Mart de México en 2000; cotiza en la BMV. Estrategia: **liderazgo en costos** con «precios bajos todos los días», poder de compra, **logística y sistemas**. En México: formatos adaptados como **Bodega Aurrerá**. Gobierno: familia Walton; caso de sobornos en México (2012) y acuerdo FCPA (2019).`,
+ch: `Una tienda de abarrotes no puede negociar como Walmart, pero puede aplicar sus principios en pequeño: controlar sus gastos, saber qué productos rotan más y no tener mercancía parada.`,
+gi: `Según el Departamento de Justicia de Estados Unidos, en junio de 2019 Walmart acordó pagar alrededor de 282 millones de dólares para resolver investigaciones por violaciones a la FCPA relacionadas con sus operaciones en México, India, Brasil y China.`,
+e: `Por qué el crédito de proveedores y la rotación ayudan a Walmart (ejemplo ilustrativo):
+
+| Concepto | Días |
+|---|---|
+| Días de inventario (cuánto tarda en venderse la mercancía) | 40 |
+| Días de cuentas por cobrar (casi todo se cobra al momento) | 2 |
+| Días que tarda en pagar a proveedores | 50 |
+| **Ciclo de conversión de efectivo** | 40 + 2 − 50 = **−8 días** |
+
+Un ciclo negativo significa que la empresa **cobra a sus clientes antes de pagar a sus proveedores**: los proveedores, en la práctica, financian parte de su inventario (lección M8-5).`,
+r: `Según la historia corporativa de Walmart de México y Centroamérica, Walmart y Cifra formaron una asociación en 1991, Walmart adquirió el control de Cifra en 1997 y la empresa cambió su nombre a Wal-Mart de México en 2000; hoy opera formatos como Bodega Aurrerá, Walmart Supercenter, Walmart Express y Sam's Club.`,
+f: `Walmart Inc., Formulario 10-K e historia corporativa; Walmart de México y Centroamérica, informes anuales; Departamento de Justicia de Estados Unidos (2019); The New York Times (2012).`,
+err: ["Pensar que los precios bajos de Walmart vienen solo de pagar poco a los proveedores, sin ver su logística y eficiencia.","Creer que su modelo funciona igual en cualquier país (recuerda Alemania).","Ignorar los riesgos de cumplimiento en la expansión.","Confundir Walmart Inc. con Walmex: son empresas distintas, una controla a la otra."],
+a: `Visita (o investiga en línea) una Bodega Aurrerá y un Walmart Supercenter. Compara: ubicación, tamaño, surtido, precios de cinco productos, servicios y tipo de cliente. ¿Por qué crees que Walmex tiene varios formatos en lugar de uno solo?`,
+sol: `Bodega Aurrerá suele tener menos surtido, más productos básicos, precios más bajos y estar en zonas de ingresos medios y bajos; el Supercenter, más variedad y servicios. Tener varios formatos permite atender segmentos distintos y ocupar más ubicaciones (enfoque y portafolio, lecciones M26-1 y M26-5).`,
+q: [["¿En qué año adquirió Walmart el control de Cifra en México?",["1997","1962","2012"],0,"Después de una empresa conjunta iniciada en 1991."],
+["La estrategia de Walmart se describe sobre todo como…",["Liderazgo en costos","Diferenciación de lujo","Enfoque en un nicho pequeño"],0,"«Precios bajos todos los días»."],
+{n:1,t:"Una empresa tiene 40 días de inventario, 2 de cuentas por cobrar y paga a 50 días. ¿Cuál es su ciclo de conversión de efectivo (en días)?",a:-8,tol:0,u:"días",e:"40 + 2 − 50 = −8 días."},
+["¿Qué formato de Walmex atiende sobre todo a consumidores de ingresos medios y bajos?",["Bodega Aurrerá","Sam's Club","Superama"],0,"Es su formato principal en México."]],
+t: ["Precios bajos todos los días","Ciclo de conversión de efectivo","Walmex","Omnicanalidad"]
+},
+"M28-4": {
+s: `La nieta de Lupita compra ropa en Zara y se sorprende: «Cada dos semanas hay cosas nuevas, y lo que viste en una revista hace un mes ya está en la tienda». Lupita, que tarda semanas en cambiar un ingrediente del menú, se pregunta cómo una empresa con miles de tiendas en el mundo puede moverse tan rápido.`,
+o: ["Aplicar la ficha de radiografía a Inditex (Zara) con información pública.","Explicar su modelo de cadena de suministro rápida y su integración vertical.","Analizar cómo combina producción cercana, información de tiendas y logística centralizada."],
+x: `## 1. Origen
+**Inditex** (Industria de Diseño Textil) es un grupo español fundado por **Amancio Ortega**. Según la historia de la empresa, la primera tienda **Zara** abrió en **1975** en A Coruña, Galicia. Antes, Ortega había fabricado prendas para otras tiendas. Inditex salió a la bolsa de Madrid en **2001**.
+
+## 2. Modelo de negocio
+- **Qué vende:** ropa, calzado y accesorios de moda a precios accesibles, con **marcas** como Zara, Pull&Bear, Massimo Dutti, Bershka, Stradivarius, Oysho, Zara Home y Lefties (lección M26-5).
+- **Propuesta de valor:** **moda actual, renovada constantemente**, a precio razonable, en tiendas bien ubicadas y en línea.
+- **Ventaja clave:** una **cadena de suministro rápida y flexible**: diseñar, producir y llevar a tiendas nuevas prendas en pocas semanas, y **reponer** lo que se vende bien mientras se deja de producir lo que no.
+- **Escasez intencional:** se producen cantidades limitadas de cada modelo; los clientes saben que si no compran hoy, puede no haber mañana. Así se venden más prendas a precio completo y hay menos rebajas.
+
+## 3. Estructura
+Inditex es una empresa controladora con marcas y subsidiarias en muchos países. Opera miles de tiendas en decenas de mercados (con tiendas propias en la mayoría y franquicias en algunos países), además de su comercio electrónico, según sus informes anuales. Su sede, diseño y gran parte de su logística central están en Arteixo (A Coruña) y otras ubicaciones de España.
+
+## 4. Áreas destacadas
+- **Diseño:** cientos de diseñadores en las sedes, que trabajan con información de lo que se vende y de lo que piden los clientes.
+- **Compras y producción:** según sus informes, una parte importante de su producción se hace en proveedores **de proximidad** (España, Portugal, Marruecos y Turquía), lo que permite responder rápido; otra parte, de productos más básicos, se fabrica en Asia, donde el costo es menor pero el tiempo de transporte es mayor.
+- **Logística:** centros de distribución en España desde donde se envía mercancía a las tiendas del mundo **dos veces por semana**, según la empresa, incluso por avión a mercados lejanos.
+- **Tiendas:** los gerentes informan constantemente qué se vende, qué piden los clientes y qué no funciona. Las tiendas son también una **fuente de información**.
+- **Tecnología:** sistemas de seguimiento de prendas (como etiquetas de radiofrecuencia) e integración de tiendas físicas y venta en línea.
+
+## 5. Dinero
+Según sus informes, Inditex tiene ventas anuales de más de 35,000 millones de euros en años recientes y márgenes superiores a los de muchos competidores del sector, con **poca deuda** y mucho efectivo. Su modelo genera un flujo de efectivo alto porque vende gran parte de sus prendas **a precio completo**, rota rápido su inventario y, al producir cerca, tiene menos riesgo de quedarse con mercancía que no se vende. Las cifras cambian cada año.
+
+## 6. Decisiones clave
+1. **Integración vertical** (lección M22-7): controlar diseño, parte de la producción, logística y tiendas, en lugar de solo comprar a proveedores lejanos.
+2. **Producción cercana** para lo que es moda y cambia rápido; producción lejana y barata para lo básico.
+3. **Poca publicidad tradicional:** según se ha descrito con frecuencia, Zara invierte poco en publicidad comparada con otras marcas; su principal herramienta de marketing son sus **tiendas** en ubicaciones privilegiadas y la renovación constante.
+4. **Multimarca:** varias cadenas para distintos segmentos.
+5. **Integración de la venta en línea** con las tiendas.
+
+## 7. Crecimiento
+De una tienda en 1975 a presencia en decenas de países. Creció sobre todo con **tiendas propias** y, en algunos mercados, con franquicias o empresas conjuntas. En los últimos años, ha cerrado tiendas pequeñas y abierto tiendas más grandes, y ha impulsado la venta en línea.
+
+## 8. Gobierno
+Amancio Ortega es el accionista principal de Inditex, según los informes de la empresa. En **2022**, su hija **Marta Ortega** asumió la presidencia del consejo, mientras la dirección ejecutiva quedó a cargo de un consejero delegado profesional, un ejemplo de separación entre presidencia y dirección (lección M24-5) en una empresa familiar en bolsa.
+
+## 9. Retos y críticas
+- **Sostenibilidad:** la «moda rápida» ha sido criticada por su impacto ambiental (consumo de recursos, residuos textiles) y por las condiciones laborales en las cadenas de proveedores de toda la industria. Inditex ha publicado metas ambientales y programas de proveedores (lección M27-2).
+- **Competencia** de cadenas de moda ultrarrápida en línea con precios muy bajos.
+
+## 10. Lecciones
+- La **velocidad** puede ser una ventaja competitiva tan fuerte como el costo.
+- **Integrarse verticalmente** tiene sentido cuando el control de la cadena es la fuente de la ventaja.
+- La **información de las tiendas** guía las decisiones de producción.
+- Producir **menos y más seguido** reduce el riesgo de inventario.
+
+## Fuentes
+Inditex, historia corporativa, informes anuales y memorias (inditex.com).
+
+## Qué puede copiar una empresa pequeña
+No hace falta ser gigante para aplicar las ideas de Inditex: producir en lotes pequeños, preguntar cada semana a los vendedores qué piden los clientes, reponer rápido lo que funciona y dejar de producir lo que no se vende.`,
+k: `**Inditex (Zara):** primera tienda Zara en A Coruña en 1975; en bolsa desde 2001. Ventaja: **cadena de suministro rápida**: diseño, producción de **proximidad** para la moda, logística central con envíos dos veces por semana, información de tiendas y **escasez intencional**. **Integración vertical**, poca publicidad tradicional, varias marcas. En 2022, Marta Ortega asumió la presidencia del consejo.`,
+ch: `Una boutique de barrio que compra a un taller local cada semana, según lo que se vendió, aplica en pequeño el modelo de Zara: produce poco, observa qué se vende y repone rápido.`,
+gi: `Según sus informes anuales, Inditex envía mercancía a sus tiendas de todo el mundo desde sus centros logísticos en España dos veces por semana, y una parte relevante de su producción se realiza en proveedores de proximidad.`,
+e: `Comparación de dos modelos de producción para una colección (cifras ilustrativas):
+
+| Concepto | Modelo tradicional (producir todo lejos, 6 meses antes) | Modelo rápido (producir cerca, por oleadas) |
+|---|---|---|
+| Costo por prenda | 150 | 175 |
+| Prendas producidas | 10,000 | 8,000 (más reposiciones según ventas) |
+| Prendas vendidas a precio completo (600) | 5,000 | 7,000 |
+| Prendas vendidas en rebaja (300) | 5,000 | 1,000 |
+| **Ventas** | 5,000 × 600 + 5,000 × 300 = 4,500,000 | 7,000 × 600 + 1,000 × 300 = 4,500,000 |
+| **Costo** | 1,500,000 | 1,400,000 |
+| **Margen bruto** | **3,000,000** | **3,100,000** |
+
+Aunque cada prenda cuesta más, el modelo rápido vende más a precio completo, produce menos de más y gana un poco más, con menos riesgo de quedarse con inventario.`,
+r: `Según la historia de Inditex, la primera tienda Zara abrió en A Coruña en 1975; la empresa comenzó a cotizar en la bolsa en 2001; y en abril de 2022 Marta Ortega asumió la presidencia no ejecutiva del consejo de administración.`,
+f: `Inditex, historia corporativa, informes anuales y comunicados (inditex.com).`,
+err: ["Pensar que Zara solo gana por vender barato.","Ignorar que su producción cercana cuesta más por prenda.","Copiar la rapidez sin tener la logística ni la información de tiendas.","Ignorar las críticas ambientales y laborales de la moda rápida."],
+a: `Aplica la ficha de radiografía a una cadena de ropa que conozcas en tu ciudad y compárala con Inditex en tres puntos: velocidad de renovación, origen de la producción y uso de la información de tiendas. ¿Qué podría aprender de Zara?`,
+sol: `Una buena comparación identifica cuántas veces renueva la colección la otra cadena, si produce cerca o lejos, y si usa datos de ventas para decidir. Podría aprender a producir en lotes más pequeños, reponer según ventas y usar la información de sus vendedores.`,
+q: [["¿Dónde y cuándo abrió la primera tienda Zara?",["En A Coruña, en 1975","En Madrid, en 2001","En Ciudad de México, en 1990"],0,"Según la historia de Inditex."],
+["La ventaja clave de Inditex es…",["Una cadena de suministro rápida y flexible","Tener los precios más bajos del mundo","Gastar mucho en publicidad en televisión"],0,"Diseño, producción cercana y logística rápida."],
+["La «escasez intencional» de Zara consiste en…",["Producir cantidades limitadas de cada modelo","No tener tiendas","Vender solo en línea"],0,"Los clientes compran a precio completo antes de que se acabe."],
+["Producir cerca (proximidad) cuesta más por prenda, pero permite…",["Responder rápido y vender más a precio completo","Tener más rebajas","No tener diseñadores"],0,"Reduce el riesgo de inventario."]],
+t: ["Moda rápida","Producción de proximidad","Escasez intencional","Inditex"]
+},
+"M28-5": {
+s: `En la cocina central de Grupo Lupita, un cocinero detecta que la salsa salió más salada, pero no dice nada porque «la producción no se puede parar». Se reparte a 60 locales y llueven las quejas. La directora de operaciones dice: «En Toyota, cualquier trabajador puede detener la línea si ve un problema». ¿Por qué Toyota es el modelo mundial de procesos y calidad?`,
+o: ["Aplicar la ficha de radiografía a Toyota con información pública.","Explicar los principios del Sistema de Producción Toyota: justo a tiempo, jidoka y mejora continua.","Analizar cómo una empresa con fama de calidad enfrentó una crisis de retiros."],
+x: `## 1. Origen
+La historia de Toyota empieza con **Sakichi Toyoda**, inventor de telares automáticos en Japón a inicios del siglo XX. Uno de sus telares se **detenía solo** cuando se rompía un hilo, para no producir tela defectuosa: esa idea sería clave después. Su hijo, **Kiichiro Toyoda**, impulsó la fabricación de automóviles, y en **1937** se fundó **Toyota Motor Corporation**, según la historia de la empresa.
+
+Después de la Segunda Guerra Mundial, Japón tenía poco capital, un mercado pequeño y necesitaba producir **muchos modelos en pocas cantidades**, a diferencia de las grandes fábricas de Estados Unidos que producían enormes volúmenes de pocos modelos. En ese contexto, ingenieros como **Taiichi Ohno** desarrollaron el **Sistema de Producción Toyota** (TPS), que más tarde inspiró la llamada **manufactura esbelta** (*lean*) en todo el mundo.
+
+## 2. Modelo de negocio
+- **Qué vende:** automóviles, camionetas y vehículos comerciales, con marcas como Toyota y Lexus (y participaciones en otras empresas del sector), además de servicios financieros para la compra de autos.
+- **Propuesta de valor:** **calidad, confiabilidad y durabilidad** a un precio razonable, con buen valor de reventa.
+- **Ventaja clave:** su **sistema de producción**, que logra alta calidad con bajo desperdicio, y que durante décadas fue difícil de imitar por completo, aunque muchas empresas lo estudiaron.
+
+## 3. Estructura
+Toyota Motor Corporation es la controladora de un grupo con plantas en muchos países y una red de proveedores muy cercana (en Japón, muchos proveedores tienen relaciones de largo plazo con Toyota, a veces con participaciones cruzadas). En años recientes ha sido una de las mayores fabricantes de automóviles del mundo por volumen de ventas, según la propia empresa y datos de la industria. En México tiene plantas de producción, por ejemplo en Baja California y Guanajuato, según su información.
+
+## 4. El Sistema de Producción Toyota
+Se suele describir con dos pilares y una base:
+1. **Justo a tiempo (*just in time*):** producir **solo lo que se necesita, cuando se necesita y en la cantidad necesaria**. Cada etapa «jala» de la anterior lo que va a usar (sistema de jalón), usando tarjetas llamadas **kanban** para señalar qué reponer. Así se reduce el inventario (lección M9-5), que esconde problemas y cuesta dinero.
+2. **Jidoka (automatización con toque humano):** las máquinas y las personas **detienen la producción cuando detectan un problema**, para no seguir produciendo defectos. En las líneas de Toyota existe el **andon**: un cordón o botón que cualquier trabajador puede usar para avisar de un problema; si no se resuelve rápido, la línea se detiene. La idea viene del telar de Sakichi Toyoda.
+3. **Base: estandarización y mejora continua (kaizen):** el trabajo se hace según **estándares** (lección M20-3) que los propios trabajadores mejoran todos los días con pequeñas ideas (lección M9-7).
+
+Otras prácticas asociadas:
+- **Eliminar los desperdicios** (en japonés, *muda*): sobreproducción, esperas, transporte innecesario, procesos de más, inventario, movimientos innecesarios y defectos.
+- **Los «cinco porqués»:** preguntar «¿por qué?» varias veces para llegar a la **causa raíz** de un problema.
+- **Ir a ver** (*genchi genbutsu*): los jefes van al lugar donde ocurre el trabajo para entender los problemas, en lugar de decidir desde la oficina.
+- **Respeto por las personas:** los trabajadores son quienes mejor conocen el proceso.
+
+## 5. Dinero
+Según sus informes, Toyota ha sido en muchos años una de las automotrices **más rentables** del mundo y ha mantenido una posición financiera sólida, con grandes reservas de efectivo. El sistema esbelto reduce inventarios y desperdicios, lo que libera efectivo (lección M8-5). Las cifras cambian cada año.
+
+## 6. Decisiones clave
+1. **Desarrollar un sistema propio** en lugar de copiar la producción en masa.
+2. **Relaciones de largo plazo con proveedores**, con quienes comparte la mejora continua (lección M10-7).
+3. **Calidad como prioridad**, con la autoridad de detener la línea.
+4. **Lanzar el Prius**, uno de los primeros autos híbridos de producción en masa, en **1997**, según la empresa.
+5. **Producir en los mercados donde vende** (por ejemplo, plantas en Estados Unidos y México).
+
+## 7. La crisis de 2009–2010
+Toyota, conocida por su calidad, enfrentó entre **2009 y 2010** una de las mayores crisis de su historia: **retiró del mercado millones de vehículos** en todo el mundo por problemas relacionados con pedales del acelerador y tapetes que podían provocar aceleraciones no deseadas, según la empresa y los reguladores. En **2014**, aceptó pagar **1,200 millones de dólares** en un acuerdo con el Departamento de Justicia de Estados Unidos por haber dado información engañosa sobre esos problemas, según el comunicado de esa dependencia. El presidente de la empresa, **Akio Toyoda**, reconoció ante el Congreso de Estados Unidos en 2010 que la empresa había crecido demasiado rápido y había perdido de vista algunas de sus prioridades. La crisis llevó a la empresa a reforzar sus procesos de calidad y su comunicación de problemas.
+
+## 8. Gobierno
+Toyota cotiza en la bolsa de Tokio y en otras. La familia Toyoda tiene una participación pequeña en términos de capital, pero mucha influencia histórica; Akio Toyoda, nieto del fundador, fue presidente de 2009 a 2023 y luego presidente del consejo, según la empresa.
+
+## 9. Lecciones
+- Los **procesos** pueden ser una ventaja competitiva tan valiosa como un producto.
+- **Detener para corregir** es más barato que seguir produciendo defectos.
+- La **mejora continua** necesita a las personas que hacen el trabajo.
+- Incluso el mejor sistema falla si la empresa **crece demasiado rápido** y no escucha las señales de alerta (lección M27-7).
+
+## 10. Fuentes
+Toyota Motor Corporation, historia corporativa y sitio sobre el Sistema de Producción Toyota; T. Ohno, «El sistema de producción Toyota» (1978); Departamento de Justicia de Estados Unidos (marzo de 2014).`,
+k: `**Toyota:** fundada en 1937; su **Sistema de Producción Toyota** (Taiichi Ohno) inspiró la manufactura esbelta. Pilares: **justo a tiempo** (producir lo necesario, con **kanban**) y **jidoka** (detener la línea ante un problema, con el **andon**), sobre una base de **estandarización y kaizen**. Prácticas: eliminar desperdicios, **cinco porqués**, ir a ver. Crisis de retiros (2009–2010) y acuerdo de 1,200 millones de dólares con EE. UU. (2014).`,
+ch: `Un taller de costura aplica el «andon» en pequeño: si una costurera ve un defecto en la tela, levanta la mano y todos paran cinco minutos para revisar el rollo, en lugar de coser 200 prendas defectuosas.`,
+gi: `Toyota lanzó el Prius en 1997, uno de los primeros automóviles híbridos producidos en masa, según la historia de la empresa, y durante años ha sido una de las mayores fabricantes de vehículos del mundo por volumen.`,
+e: `El costo de no detener la producción en la cocina central de Grupo Lupita:
+
+| Opción | Cálculo | Costo |
+|---|---|---|
+| Detener 30 minutos y corregir el lote de salsa | Tiempo del equipo y un lote de 200 litros | 4,000 |
+| No detener: la salsa salada llega a 60 locales | 200 litros desechados + 60 locales sin salsa medio día + 300 quejas + compensaciones | 85,000 |
+| Daño a la reputación | Difícil de medir | Alto |
+
+Detener costaba 4,000; no detener costó unas 21 veces más. Es la lógica del jidoka: **es más barato detenerse a tiempo que corregir después**.`,
+r: `En marzo de 2014, el Departamento de Justicia de Estados Unidos anunció que Toyota pagaría 1,200 millones de dólares por haber engañado a los consumidores sobre problemas de seguridad relacionados con aceleraciones no deseadas en algunos de sus vehículos, en el contexto de los retiros de 2009 y 2010.`,
+f: `Toyota Motor Corporation, historia corporativa y materiales sobre el Sistema de Producción Toyota (global.toyota); T. Ohno, «Toyota Production System» (1978, edición en inglés de 1988); Departamento de Justicia de Estados Unidos (2014).`,
+err: ["Creer que el justo a tiempo es solo «tener poco inventario».","Copiar las herramientas (kanban, andon) sin la cultura de mejora continua.","Castigar a quien detiene la línea por un problema.","Pensar que una empresa con fama de calidad no puede tener crisis.","Buscar culpables en lugar de causas raíz."],
+a: `Aplica los «cinco porqués» al problema de la salsa salada en la cocina central de Grupo Lupita (inventa respuestas razonables). Después, propón un «andon» para la cocina: cómo se avisaría un problema, quién responde y en cuánto tiempo.`,
+sol: `Ejemplo: ¿por qué salió salada? Se agregó sal de más. ¿Por qué? La medida no estaba marcada. ¿Por qué? Se cambió de recipiente. ¿Por qué? El anterior se rompió y no había repuesto. ¿Por qué? No hay inventario de utensilios críticos. Causa raíz: falta de control de utensilios. Andon: un botón o timbre en cada estación; el jefe de turno responde en 3 minutos; si no se resuelve en 10, se detiene el lote.`,
+q: [["El «justo a tiempo» consiste en…",["Producir solo lo necesario, cuando se necesita y en la cantidad necesaria","Producir todo lo posible por si acaso","Llegar puntual al trabajo"],0,"Reduce inventarios que esconden problemas."],
+["El «andon» en Toyota permite…",["Que cualquier trabajador avise de un problema y, si es necesario, se detenga la línea","Pagar a los proveedores","Pintar los autos"],0,"Es parte del jidoka."],
+["Los «cinco porqués» sirven para…",["Encontrar la causa raíz de un problema","Contar el inventario","Hacer publicidad"],0,"Preguntar «¿por qué?» varias veces."],
+["¿Qué aprendió Toyota de su crisis de 2009–2010, según su presidente?",["Que había crecido demasiado rápido y perdido de vista algunas prioridades","Que no necesitaba procesos","Que la calidad no importa"],0,"Reforzó sus procesos de calidad."]],
+t: ["Sistema de Producción Toyota","Manufactura esbelta","Justo a tiempo","Kanban","Jidoka","Andon","Cinco porqués","Desperdicio"]
+}
+});
