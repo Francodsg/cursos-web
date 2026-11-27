@@ -312,7 +312,7 @@ function practica(el, p, done){
   const B = el.querySelector("#pb"), S = el.querySelector("#ps"), C = el.querySelector("#pc"), BAR = el.querySelector("#pbar");
   const useV = () => voiceOk && el.querySelector("#pv") && el.querySelector("#pv").checked;
   if (!seq.some(s => s[2])) B.style.display = "none";
-  const show = () => { const s = seq[i]; S.textContent = s[0]; B.className = "breath " + (s[2] || ""); if (useV()) VOZ.say(s[0]); };
+  const show = () => { const s = seq[i]; const txt = s[0] === "TEMA" ? "Tema: " + rand(W.TEMAS || ["Tu comida favorita"]) : s[0]; S.textContent = txt; B.className = "breath " + (s[2] || ""); if (useV()) VOZ.say(txt); };
   const tick = () => { if (paused) return; left -= 1; elapsed += 1; BAR.style.width = Math.min(100, elapsed / total * 100) + "%";
     if (left <= 0){ i++; if (i >= seq.length){ clearInterval(iv); iv = null; S.textContent = "Práctica terminada. ¿Cómo te sientes ahora?"; C.textContent = ""; B.className = "breath"; el.querySelector("#pgo").textContent = "Repetir"; if (useV()) VOZ.say("Práctica terminada."); done(); return; } left = seq[i][1]; show(); }
     C.textContent = left > 0 ? left + " s" : ""; };

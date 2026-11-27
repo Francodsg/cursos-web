@@ -522,7 +522,7 @@ pasos:["Prepara 2 preguntas de cada tipo SPIN.","En la conversación, pregunta a
 err:["Hablar del producto sin preguntar.","Tomar la primera objeción como un «no» definitivo.","No pedir nunca el cierre por miedo."],
 ejer:"Elige un producto o servicio (el tuyo o uno inventado). Escribe **8 preguntas SPIN** (2 de cada tipo) y las respuestas a las **3 objeciones** más habituales.",
 reto:["Haz 3 preguntas de situación y problema a alguien sobre algo que usa (su móvil, su trabajo) y solo escucha.","En tu próxima venta o propuesta, pide la decisión de forma directa y calla."],
-act:[["simuladores/objeciones","Simulador de objeciones de venta"]],
+act:[["simuladores/negociar-precio","Simulador: precio y objeciones"]],
 caso:["Un cliente dice: «Me parece caro». ¿Cuál es la mejor respuesta?",["Bajar el precio enseguida","«Entiendo. ¿Comparado con qué? Aparte del precio, ¿hay algo más que te haga dudar?»","«No es caro»"],1,"Reconocer y preguntar descubre la preocupación real."],
 q:[
 ["¿Cómo se propone entender la venta?",["Como presionar","Como ayudar a decidir si tu producto resuelve un problema","Como engañar con elegancia"],1,"Cambia la experiencia del vendedor y del cliente."],
@@ -531,7 +531,7 @@ q:[
 ["¿Por qué se pierden muchas ventas?",["Porque el vendedor no pide la decisión","Porque los productos son malos","Porque hace frío"],0,"Por miedo al «no»."],
 ["¿Qué aprendió Sara Blakely vendiendo fax?",["A no vender nunca","A perder el miedo al rechazo","A fabricar fax"],1,"Lo considera su gran entrenamiento."]
 ],
-mas:["Neil Rackham, *SPIN Selling* (1988).","Simulador [[simuladores/objeciones|Objeciones de venta]]."],
+mas:["Neil Rackham, *SPIN Selling* (1988).","Simulador [[simuladores/negociar-precio|Negociar un precio y responder objeciones]]."],
 mat:["Lista de preguntas SPIN"], rel:["4.5","6.9"]},
 
 {id:"4.5", t:"Manejar el rechazo en ventas y en la vida", min:30,

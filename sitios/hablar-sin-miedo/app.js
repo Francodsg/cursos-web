@@ -74,7 +74,7 @@ const BADGES = [
  ["reto30","30 días","Completa los 30 días del reto.", () => retoDone() === 30],
  ["respira","Respira","Haz las 10 prácticas guiadas al menos una vez.", () => PRAC.length && PRAC.every(p => P.prac[p.s])],
  ["rechazo","A prueba de rechazo","Completa el día 19 del reto y la lección 4.5.", () => P.reto[19] && P.reto[19].done && isDone("4.5")],
- ["simulador","Sin guion","Termina los 8 simuladores.", () => SIMS.length && SIMS.every(s => P.sim[s.s] != null)],
+ ["simulador","Sin guion","Termina los " + SIMS.length + " simuladores.", () => SIMS.length && SIMS.every(s => P.sim[s.s] != null)],
  ["graduado","Graduado","Obtén el certificado.", certReady]
 ];
 const badgesOn = () => BADGES.filter(b => { try { return !!b[3](); } catch(e){ return false; } });
@@ -106,7 +106,7 @@ const modCards = () => `<div class="grid">${MODS.map(m => `<a class="card${modPc
 
 function pageCurso(){
   return crumbs([["Inicio",""],["Curso"]]) + `<h1>El curso completo</h1>
-  <p class="lead">${MODS.length} módulos en 5 niveles, ${ALL.length} lecciones y ≈ 46 horas (≈ 33 h de lecciones y quizzes + ≈ 13 h de práctica: reto de 30 días, prácticas guiadas, simuladores y proyecto final).</p>
+  <p class="lead">${MODS.length} módulos en 5 niveles, ${ALL.length} lecciones y ≈ ${Math.round(totalMin() / 60 + 13)} horas (≈ ${Math.round(totalMin() / 60)} h de lecciones y quizzes + ≈ 13 h de práctica: reto de 30 días, prácticas guiadas, simuladores y proyecto final).</p>
   <div class="bar"><i style="width:${coursePct()}%"></i></div><p class="meta">${ALL.filter(x => isDone(x.l.id)).length} de ${ALL.length} lecciones completadas · <a href="${H("progreso")}">Ver progreso e insignias</a></p>
   <div class="panel"><h3>Cómo funciona</h3><ul><li>Cada lección: situación inicial, objetivos, explicación, idea clave con su nivel de evidencia, ejemplo real, paso a paso, errores frecuentes, ejercicio, reto de la vida real, caso práctico y <b>mini-quiz de 5 preguntas</b> (se aprueba con 60 % y la lección queda completada).</li><li>Cada módulo termina con un <b>quiz de 12 preguntas</b> al azar (70 % para aprobar; si repites, cambian).</li><li>El <a href="${H("examen")}">examen final</a> tiene 30 preguntas (75 %). Con los 7 quizzes de módulo y el examen aprobados obtienes el <a href="${H("certificado")}">certificado</a>.</li><li>Todo es libre: puedes abrir cualquier lección en cualquier orden o seguir una <a href="${H("rutas")}">ruta</a>.</li></ul></div>
   ${MODS.map(m => `<h2 id="m${m.n}"><a href="${H("modulo/" + m.n)}">Módulo ${m.n}. ${esc(m.t)}</a></h2><p class="meta">Nivel ${m.nivel}: ${NIVEL[m.nivel]} · ${m.L.length} lecciones · ${esc(m.dur)}</p><ol class="toc">${m.L.map((l, i) => `<li><span class="st${isDone(l.id) ? " done" : ""}">${isDone(l.id) ? "✓" : "○"}</span> <a href="${H(`leccion/${m.n}/${i + 1}`)}">${esc(l.id)} ${esc(l.t)}</a> <span class="meta">(${l.min} min)</span></li>`).join("")}<li><span class="st">${P.quiz[m.n] >= 70 ? "✓" : "○"}</span> <a href="${H("quiz/" + m.n)}">Quiz del módulo ${m.n}</a></li></ol>`).join("")}
@@ -188,7 +188,7 @@ function pageCertificado(){
   if (!certReady()) return crumbs([["Inicio",""],["Curso","curso"],["Certificado"]]) + `<h1>Certificado</h1><p>Para obtener el certificado aprueba los 7 quizzes de módulo (70 %) y el examen final (75 %).</p><ul>${MODS.map(m => `<li>${(P.quiz[m.n] || 0) >= 70 ? "✓" : "○"} <a href="${H("quiz/" + m.n)}">Quiz del módulo ${m.n}</a> ${P.quiz[m.n] != null ? `(${P.quiz[m.n]} %)` : ""}</li>`).join("")}<li>${(P.exam || 0) >= 75 ? "✓" : "○"} <a href="${H("examen")}">Examen final</a> ${P.exam != null ? `(${P.exam} %)` : ""}</li></ul>`;
   const d = new Date().toLocaleDateString("es", {day:"numeric", month:"long", year:"numeric"});
   return crumbs([["Inicio",""],["Curso","curso"],["Certificado"]]) + `<p class="noprint"><label>Tu nombre para el certificado: <input id="certname" value="${esc(P.name)}"></label> <button class="btn ghost" id="printcert">Imprimir o guardar en PDF</button></p>
-  <div class="cert"><p class="kicker">Certificado de finalización</p><p>Se certifica que</p><p class="certname" id="cn">${esc(P.name) || "—"}</p><p>ha completado el curso</p><h2>Cómo dejar de tener miedo y hablar sin temor: en negocios y en otras áreas de la vida</h2><p>${MODS.length} módulos · ${ALL.length} lecciones · ≈ 46 horas · Examen final: ${P.exam} %</p><p class="meta">${d} · Certificado de autoaprendizaje sin valor académico oficial.</p></div>`;
+  <div class="cert"><p class="kicker">Certificado de finalización</p><p>Se certifica que</p><p class="certname" id="cn">${esc(P.name) || "—"}</p><p>ha completado el curso</p><h2>Cómo dejar de tener miedo y hablar sin temor: en negocios y en otras áreas de la vida</h2><p>${MODS.length} módulos · ${ALL.length} lecciones · ≈ ${Math.round(totalMin() / 60 + 13)} horas · Examen final: ${P.exam} %</p><p class="meta">${d} · Certificado de autoaprendizaje sin valor académico oficial.</p></div>`;
 }
 
 // ---------- Historias ----------

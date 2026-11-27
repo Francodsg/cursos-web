@@ -1,0 +1,206 @@
+// Historias reales (módulo 6). Solo hechos documentados; «versiones» indica dónde las fuentes no coinciden.
+window.HISTORIAS = [
+{s:"warren-buffett", n:"Warren Buffett", corto:"Buffett", fechas:"Estados Unidos · nacido en 1930 · inversor",
+lema:"Le aterraba hablar en público. Pagó un curso, lo canceló, volvió a apuntarse y pagó en efectivo para no echarse atrás.",
+quien:"Uno de los inversores más conocidos del mundo, presidente de Berkshire Hathaway. Durante décadas sus reuniones anuales de accionistas, en las que responde preguntas durante horas, han reunido a miles de personas.",
+miedo:"De joven ha contado que estaba «aterrado» de hablar en público: hacía lo posible por evitar cualquier situación en la que tuviera que ponerse de pie ante otros.",
+momento:"Tras graduarse en Columbia (1951) vio un anuncio de un curso de Dale Carnegie. Se inscribió, pero luego fue a casa y canceló el pago del cheque por miedo.",
+pasos:[
+"**Reconoció el problema** y lo vio como un obstáculo para su carrera: sabía que tendría que convencer a inversores.",
+"**Se apuntó por segunda vez** a un curso de Dale Carnegie y esta vez **pagó en efectivo** (unos 100 dólares), precisamente para que le costara echarse atrás.",
+"**Practicó cada semana** con un grupo de personas que tenían el mismo problema: cada participante debía hablar ante los demás.",
+"**Buscó escenarios para repetir:** empezó a dar **clases nocturnas** de inversión en la Universidad de Omaha, en parte para obligarse a seguir hablando ante un público.",
+"**Siguió practicando durante décadas:** las reuniones anuales de Berkshire Hathaway se convirtieron en un largo turno de preguntas que él disfruta."
+],
+resultado:"Buffett ha dicho que el curso le cambió la vida y que el certificado de Dale Carnegie es el único diploma que tiene colgado en su despacho. Ha repetido muchas veces a los estudiantes que mejorar la comunicación puede aumentar mucho su valor profesional.",
+copiar:["Hacer un **compromiso difícil de deshacer** (pagar por adelantado, decírselo a alguien).","Practicar **en grupo** y de forma **regular**, no una sola vez.","Buscar **escenarios para repetir** (dar clases, presentar en el trabajo).","No esperar a perder el miedo: actuar con él."],
+versiones:"Las fuentes no coinciden en la fecha exacta del certificado (enero de 1952 según la biografía de Alice Schroeder; algunos artículos dan días distintos) ni en si el curso fue justo después de Columbia o algo antes.",
+ejercicio:"Busca un grupo donde tengas que hablar cada semana y apúntate de forma que te cueste echarte atrás.",
+fuentes:["Alice Schroeder, *La bola de nieve: Warren Buffett y el negocio de la vida* (2008).","Carmine Gallo, «Warren Buffett was terrified of public speaking…», *Inc.*","LinkedIn Learning, «The one skill that changed Warren Buffett's life».","Universidad de Nebraska en Omaha: transcripción de un acto con Buffett sobre su etapa como profesor."]},
+
+{s:"gandhi", n:"Mahatma Gandhi", corto:"Gandhi", fechas:"India · 1869–1948 · abogado y líder político",
+lema:"No pudo pasar de la primera frase de un brindis ni hacer una pregunta en su primer juicio. Años después movilizaba a millones.",
+quien:"Mohandas Karamchand Gandhi, abogado formado en Londres, líder del movimiento de independencia de la India mediante la resistencia no violenta.",
+miedo:"Una timidez extrema. Él mismo la describe en su autobiografía: le costaba hablar incluso en reuniones pequeñas.",
+momento:"En Londres, en la Sociedad Vegetariana, escribió un discurso porque no se veía capaz de improvisar, pero al ponerse de pie se le nubló la vista y tembló; otra persona (Mazmudar) leyó su texto. En una cena con amigos no pasó de la primera frase. Después, en su primer caso como abogado en Bombay (una demanda de poca cuantía para una clienta llamada Mamibai), se levantó para interrogar a un testigo y no se le ocurrió ninguna pregunta: se sentó, pidió que se contratara a otro abogado y devolvió sus honorarios.",
+pasos:[
+"**Aceptó su timidez** sin dejar de actuar: siguió formando parte de comités aunque hablaba poco.",
+"**Escribía lo que quería decir** cuando no se veía capaz de improvisar.",
+"**Encontró un propósito mayor:** en Sudáfrica, defender los derechos de la comunidad india le obligó a hablar en reuniones y ante las autoridades.",
+"**Practicó de forma gradual** en esos contextos, durante años.",
+"**Convirtió la timidez en una virtud:** aprendió a decir solo lo esencial y a medir sus palabras."
+],
+resultado:"Gandhi cuenta que la timidez le duró toda su estancia en Inglaterra y que en Sudáfrica la superó en buena parte, aunque nunca del todo. Llegó a dirigirse a multitudes y a negociar con gobiernos. Tituló un capítulo de su autobiografía «La timidez, mi escudo», porque, según él, le enseñó a ser breve y a buscar la verdad.",
+copiar:["Unir el hablar a un **propósito** que te importe más que tu miedo.","**Escribir** lo que quieres decir si improvisar te bloquea.","Practicar **años, no días**: el cambio fue gradual.","Ver lo positivo de ser reservado: **decir lo esencial**."],
+versiones:"Algunas versiones secundarias cuentan el episodio de la Sociedad Vegetariana de forma algo distinta (por ejemplo, que solo dijo unas palabras de agradecimiento). Aquí seguimos el texto de su autobiografía.",
+ejercicio:"Escribe por qué o por quién quieres hablar sin miedo, y ten esa frase presente antes de tu próximo reto.",
+fuentes:["M. K. Gandhi, *Autobiografía: la historia de mis experimentos con la verdad* (1927–1929), parte I, cap. 18 («La timidez, mi escudo») y parte II, cap. 3.","Edición en línea de la autobiografía: mkgandhi.org."]},
+
+{s:"james-earl-jones", n:"James Earl Jones", corto:"James Earl Jones", fechas:"Estados Unidos · 1931–2024 · actor",
+lema:"Estuvo prácticamente mudo durante años por su tartamudez. Terminó siendo una de las voces más famosas del cine.",
+quien:"Actor de teatro y cine, ganador de premios Tony y Emmy, conocido por ser la voz de Darth Vader en *La guerra de las galaxias* y de Mufasa en *El rey león*.",
+miedo:"De niño desarrolló una tartamudez severa. Contó que hablar le resultaba tan vergonzoso y doloroso que dejó de hacerlo casi por completo.",
+momento:"Según sus palabras, estuvo «mudo» desde los primeros cursos hasta su primer año de secundaria: se comunicaba sobre todo por escrito, con su familia y con los animales de la granja.",
+pasos:[
+"**Escribía:** expresaba lo que pensaba en poemas que nadie leía en voz alta.",
+"**Un mentor:** su profesor de inglés en secundaria, **Donald Crouch**, descubrió que escribía poesía.",
+"**Un reto con sentido:** Crouch puso en duda que el poema fuera suyo y le pidió que lo demostrara **leyéndolo en voz alta ante la clase**.",
+"**Lo leyó sin trabarse.** Leer un texto propio, que conocía de memoria, le dio fluidez.",
+"**Practicó con regularidad:** por consejo de Crouch se unió al equipo de **debate** y de oratoria, y de ahí pasó al teatro."
+],
+resultado:"Jones se convirtió en uno de los actores más respetados de su generación, precisamente por su voz. Siempre atribuyó a Donald Crouch haberle devuelto el habla; en 2023 se inauguraron en Manistee (Michigan) estatuas de ambos.",
+copiar:["Buscar un **mentor** que crea en ti.","Practicar con un **texto propio**, que conozcas bien.","Empezar con un **público pequeño** y amable.","Pasar a una **práctica regular** (debate, teatro, un club)."],
+versiones:"Las fuentes describen la duración del silencio de distinta forma («ocho años» o «desde el primer curso hasta primero de secundaria»). Algunas dicen que el profesor dudaba de que hubiera plagiado el poema. La tartamudez es una condición del habla: su historia no es la de una «cura», sino la de alguien que encontró cómo hablar.",
+ejercicio:"Escribe un texto propio de unas 150 palabras y léelo en voz alta ante una persona de confianza.",
+fuentes:["Academy of Achievement, entrevista a James Earl Jones.","«Finding my voice», revista *Time*.","Stuttering Foundation of America (stutteringhelp.org), perfil de James Earl Jones.","*Success*, «Finding his voice: James Earl Jones»."]},
+
+{s:"joe-biden", n:"Joe Biden", corto:"Biden", fechas:"Estados Unidos · nacido en 1942 · político",
+lema:"Tartamudeaba de niño y recitaba poesía frente al espejo. Llegó a ser presidente, y dice que a veces todavía le pasa.",
+quien:"Político estadounidense, senador durante décadas, vicepresidente (2009–2017) y presidente de Estados Unidos (2021–2025).",
+miedo:"Tartamudez en la infancia, con burlas de compañeros y, según ha contado, de una profesora.",
+momento:"Las burlas en la escuela, cuando le tocaba leer en voz alta en clase.",
+pasos:[
+"**Logopedia** de pequeño, que según él no fue del todo eficaz.",
+"**Práctica deliberada en casa:** de adolescente memorizaba pasajes largos de los poetas **W. B. Yeats** y **Ralph Waldo Emerson**.",
+"**Frente al espejo**, a veces con una linterna iluminándose la cara, para **controlar los gestos** que aparecían al trabarse.",
+"**Buscó ritmo y cadencia:** recitar de memoria le daba más fluidez.",
+"**Siguió hablando en público** a pesar de todo, y con los años lo convirtió en parte de su historia personal."
+],
+resultado:"Biden hizo una larga carrera política basada en hablar en público. Ha dicho que la tartamudez a veces vuelve cuando está muy cansado. Ha hablado públicamente con niños que tartamudean para animarlos.",
+copiar:["**Práctica diaria** con textos memorizados.","Usar el **espejo** o el video para observarte.","Trabajar el **ritmo**.","Aceptar que manejar una dificultad no significa que desaparezca del todo."],
+versiones:"Las fuentes cuentan con pequeñas diferencias el detalle de la linterna y de los textos. Algunos medios dicen que «superó» la tartamudez; él mismo matiza que todavía le pasa ocasionalmente. Es una historia de manejo, no de «cura».",
+ejercicio:"Memoriza un texto de 1 minuto y recítalo frente al espejo 5 días seguidos.",
+fuentes:["PBS Frontline, «Biden's stutter: how a childhood battle shaped his approach to life and politics».","John Hendrickson, «What Joe Biden can't bring himself to say», *The Atlantic* (2019).","Stuttering Foundation of America.","*The Washington Times* (2008), «Biden against all odds»."]},
+
+{s:"blunt-sheeran", n:"Emily Blunt y Ed Sheeran", corto:"Blunt y Sheeran", fechas:"Reino Unido · actriz (1983) y músico (1991)",
+lema:"Ella encontró fluidez actuando con un acento inventado; él, rapeando un disco de Eminem una y otra vez.",
+quien:"**Emily Blunt**, actriz británica (*El diablo viste de Prada*, *Un lugar tranquilo*, *Oppenheimer*). **Ed Sheeran**, cantautor británico, uno de los artistas más escuchados del mundo.",
+miedo:"Ambos tartamudeaban de niños. Blunt ha contado que de pequeña apenas podía decir su nombre y que lo pasaba muy mal en clase. Sheeran dice que tartamudeaba tras una intervención en la cara cuando era niño.",
+momento:"Para Blunt, hablar en el colegio y las burlas. Para Sheeran, la infancia en logopedia sin grandes avances.",
+pasos:[
+"**Blunt:** un profesor notó que, cuando imitaba voces y hacía acentos con sus amigos, **no tartamudeaba**.",
+"**Blunt:** el profesor le propuso hacer la **obra de teatro del colegio con un acento inventado** (un acento del norte de Inglaterra exagerado); habló con fluidez por primera vez en mucho tiempo.",
+"**Blunt:** siguió actuando; ha dicho que sin la tartamudez probablemente no se habría dedicado a la interpretación.",
+"**Sheeran:** a los 9 años su tío le regaló *The Marshall Mathers LP* de Eminem.",
+"**Sheeran:** aprendió las letras y las **rapeó una y otra vez**: el ritmo rápido y preciso le ayudó con su forma de hablar."
+],
+resultado:"Blunt es una actriz premiada y apoya a organizaciones de personas que tartamudean (como el American Institute for Stuttering). Sheeran contó su historia en esa misma institución y llegó a colaborar con Eminem.",
+copiar:["Probar a hablar desde un **personaje** o con otra voz.","Usar el **ritmo** y la **música** para practicar.","Practicar con **textos memorizados**.","Buscar **qué te funciona a ti**: cada persona es distinta."],
+versiones:"Las fuentes no coinciden en la edad exacta de Blunt cuando su profesor le propuso el teatro (algunas dicen 12 años) ni en cuándo se hizo Sheeran la intervención. La explicación de Sheeran sobre la causa de su tartamudez es suya y no está confirmada médicamente.",
+ejercicio:"Lee un texto de tres formas (tu voz, como presentador de noticias, con un acento exagerado) y anota cuál te resultó más fácil.",
+fuentes:["NPR, «Desperate to speak: how Emily Blunt found her voice» (2014).","Entrevista de Ed Sheeran en The Howard Stern Show (2023), recogida por varios medios.","Discurso de Ed Sheeran en la gala del American Institute for Stuttering (2015)."]},
+
+{s:"jorge-vi", n:"Jorge VI y Lionel Logue", corto:"Jorge VI", fechas:"Reino Unido · rey 1936–1952 · terapeuta australiano Lionel Logue (1880–1953)",
+lema:"Un rey con tartamudez y un terapeuta del habla prepararon juntos uno de los discursos de radio más difíciles de la historia.",
+quien:"**Jorge VI**, rey del Reino Unido desde 1936, cuando su hermano abdicó. **Lionel Logue**, terapeuta del habla australiano instalado en Londres.",
+miedo:"Una tartamudez que le hacía temer los discursos públicos, en una época en la que la radio llevaba la voz del rey a todo el país.",
+momento:"Un discurso de clausura en el estadio de Wembley en 1925, todavía como duque de York, fue muy difícil para él. En 1939 tuvo que anunciar por radio la entrada de su país en la guerra.",
+pasos:[
+"**Buscó ayuda experta:** empezó a trabajar con Lionel Logue en 1926.",
+"**Respiración y diafragma:** Logue le enseñó ejercicios de respiración y para fortalecer el diafragma.",
+"**Relajación** y **práctica constante**, durante años.",
+"**Preparación del texto:** Logue marcaba **pausas** y **sustituía palabras difíciles** por otras más fáciles de pronunciar.",
+"**Ensayo antes de cada discurso importante,** con Logue a su lado, como en el discurso del **3 de septiembre de 1939**."
+],
+resultado:"El discurso de 1939 se emitió con éxito y la grabación se conserva. Jorge VI siguió dando discursos durante la guerra. Logue fue nombrado miembro de la Real Orden Victoriana.",
+copiar:["Buscar **ayuda experta** si la necesitas.","Trabajar la **respiración** de forma constante.","**Preparar el texto** con pausas marcadas y palabras cómodas.","**Ensayar** antes de cada ocasión importante."],
+versiones:"La película *El discurso del rey* (2010) dramatiza hechos y métodos (por ejemplo, las canicas en la boca o fumar para «relajar la garganta», que hoy se consideran desacreditados). Seguimos los diarios de Logue y las biografías.",
+ejercicio:"Marca un texto con barras para las pausas, cambia las palabras que te cuestan y léelo 3 veces.",
+fuentes:["Mark Logue y Peter Conradi, *El discurso del rey: cómo un hombre salvó la monarquía británica* (2010), basado en los diarios de Lionel Logue.","Australian Dictionary of Biography, «Logue, Lionel George».","Minnesota State University Mankato, sobre la representación de la tartamudez en *El discurso del rey*."]},
+
+{s:"churchill", n:"Winston Churchill", corto:"Churchill", fechas:"Reino Unido · 1874–1965 · político",
+lema:"Se quedó en blanco ante el Parlamento. A partir de entonces casi siempre llevó notas completas y llegó a ser uno de los oradores más recordados.",
+quien:"Político británico, primer ministro durante la Segunda Guerra Mundial (1940–1945) y de nuevo en 1951–1955, Premio Nobel de Literatura en 1953.",
+miedo:"No era especialmente tímido, pero tenía un ligero ceceo, no era un orador natural y temía quedarse sin palabras.",
+momento:"En la primavera de 1904, como joven diputado, hablaba sin notas en la Cámara de los Comunes. Tras unos 45 minutos perdió el hilo, no pudo continuar y se sentó.",
+pasos:[
+"**No abandonó:** siguió hablando en el Parlamento.",
+"**Cambió de método:** desde entonces casi siempre preparó **notas completas** y las llevaba consigo.",
+"**Escribía en líneas cortas,** como si fueran versos, para leer de un vistazo y marcar las pausas.",
+"**Ensayaba mucho** sus discursos.",
+"**Trabajó su forma de hablar** a pesar del ceceo."
+],
+resultado:"Churchill llegó a ser uno de los oradores más recordados del siglo XX, sobre todo por sus discursos durante la guerra. El Archivo Churchill conserva muchas de sus notas de discursos precisamente por este hábito.",
+copiar:["Ver un error como **información para cambiar de método**.","Usar **notas** en lugar de confiar solo en la memoria.","Escribir las notas en **líneas cortas**.","**Ensayar**."],
+versiones:"Las fuentes no dan la fecha exacta del discurso de 1904 y algunas describen el final de forma algo distinta (que perdió el hilo y se sentó agradeciendo la atención).",
+ejercicio:"Escribe las notas de tu charla en líneas cortas, como versos, y ensaya con ellas.",
+fuentes:["International Churchill Society, «Public speaking problems» (winstonchurchill.org).","Churchill Archives Centre, Universidad de Cambridge (notas de discursos)."]},
+
+{s:"garcia-marquez", n:"Gabriel García Márquez", corto:"García Márquez", fechas:"Colombia · 1927–2014 · escritor, Premio Nobel de Literatura 1982",
+lema:"Decía que los discursos eran de los compromisos más terroríficos. Los escribía con el cuidado de un cuento y los leía.",
+quien:"Escritor colombiano, autor de *Cien años de soledad*, Premio Nobel de Literatura en 1982.",
+miedo:"Una fuerte aversión a hablar en público y a dar discursos. En una conferencia de 1970 («Cómo comencé a escribir») advirtió al público de su miedo y bromeó con que, si se ponía de pie, podía caerse de miedo.",
+momento:"En 1972, al recibir el Premio Rómulo Gallegos, dijo que se había prometido no hacer nunca dos cosas: recibir un premio y decir un discurso. Diez años después le dieron el Nobel y tuvo que dar uno de los discursos más importantes de su vida.",
+pasos:[
+"**Aceptó el compromiso** a pesar del miedo.",
+"**Escribió el discurso con el mismo cuidado que un cuento**: «La soledad de América Latina» (1982).",
+"**Lo leyó**, sin pretender improvisar.",
+"**Repitió el método** a lo largo de su vida en otras ocasiones públicas.",
+"**Mantuvo el humor** sobre su propio miedo."
+],
+resultado:"Sus discursos se publicaron en 2010 en el libro *Yo no vengo a decir un discurso*, que reúne textos escritos para ser leídos en público. El título viene de una frase de su primer discurso, a los 17 años.",
+copiar:["Es legítimo **escribir y leer** un discurso.","Escribir **para ser escuchado**: frases claras, ritmo, imágenes.","Aceptar el miedo con **humor**.","Hacerlo **aunque no te guste**."],
+versiones:"El título del libro a veces se cita como «Yo no vine a decir un discurso»; el título correcto es *Yo no vengo a decir un discurso*.",
+ejercicio:"Escribe un discurso de 2 minutos pensado para ser leído en voz alta y léelo ante alguien.",
+fuentes:["Gabriel García Márquez, *Yo no vengo a decir un discurso* (2010).","Penguin Random House, ficha del libro.","Cooperativa.cl (2010), «García Márquez reunió sus alocuciones…».","García Márquez, «Cómo comencé a escribir» (1970), en escritores.org."]},
+
+{s:"jiang-blakely", n:"Jia Jiang y Sara Blakely", corto:"Jiang y Blakely", fechas:"Emprendedores · Jiang (China–EE. UU.) y Blakely (EE. UU., 1971)",
+lema:"Él buscó 100 rechazos en 100 días. Ella vendió fax puerta a puerta y su padre le preguntaba en qué había fallado esa semana.",
+quien:"**Jia Jiang**, emprendedor, autor de *Rejection Proof* y conferenciante sobre el rechazo. **Sara Blakely**, fundadora de la marca de ropa interior Spanx, que convirtió en una gran empresa.",
+miedo:"Jiang: un miedo al rechazo que, tras el «no» de un inversor, casi le hizo abandonar su proyecto. Blakely: la experiencia constante del rechazo en ventas.",
+momento:"Jiang (2012): el rechazo de un inversor que le dolió profundamente. Blakely: años en los que la escoltaban fuera de edificios y le rompían su tarjeta de visita en la cara.",
+pasos:[
+"**Jiang:** decidió buscar **un rechazo cada día durante 100 días** y **grabarlo** para no echarse atrás.",
+"**Jiang:** empezó por pedir 100 dólares prestados a un desconocido (no), pidió una «recarga» de hamburguesa, y pidió en una tienda de Krispy Kreme unos donuts con la forma de los aros olímpicos (y se los hicieron).",
+"**Jiang:** aprendió a **preguntar «¿por qué?»** después de un «no», lo que a menudo abría la conversación.",
+"**Blakely:** en casa, su padre preguntaba en la cena: **«¿En qué habéis fallado esta semana?»**; si no había nada que contar, se decepcionaba.",
+"**Blakely:** vendió **fax puerta a puerta** durante años, y después presentó su propio producto en persona a compradores de grandes almacenes."
+],
+resultado:"Jiang contó su experiencia en charlas TEDx (la de 2015 se difundió en TED.com y en el programa TED Radio Hour) y en el libro *Rejection Proof*. Blakely creó Spanx con sus ahorros y la convirtió en una de las marcas más conocidas de su sector.",
+copiar:["Exponerte **poco a poco y a propósito** al rechazo.","**Grabar** o registrar los intentos para mantener el compromiso.","Preguntar **«¿por qué?»** tras un no.","Ver el fracaso como señal de que **lo estás intentando**."],
+versiones:"La pregunta del padre de Blakely aparece con palabras algo distintas según la entrevista («esta semana», «hoy»). Las fuentes describen de forma distinta cuántos años vendió fax.",
+ejercicio:"Diseña tu proyecto de 10 rechazos pequeños, respetuosos y legales, y haz 3 esta semana.",
+fuentes:["Jia Jiang, «Lo que aprendí de 100 días de rechazo», TEDxMtHood (2015), TED.com.","NPR TED Radio Hour (2017), «Jia Jiang: Can you train yourself to accept rejection?».","Jia Jiang, *Rejection Proof* (2015).","CNBC (2019 y 2020) y Business Insider, entrevistas a Sara Blakely."]},
+
+{s:"cain-brown-streisand", n:"Susan Cain, Brené Brown y Barbra Streisand", corto:"Cain, Brown y Streisand", fechas:"Estados Unidos · escritora, investigadora y cantante",
+lema:"Una introvertida que se preparó a fondo, una investigadora que se expuso y una estrella que volvió al escenario tras 27 años.",
+quien:"**Susan Cain**, autora de *El poder de los introvertidos* (2012). **Brené Brown**, investigadora de la Universidad de Houston sobre vergüenza y vulnerabilidad. **Barbra Streisand**, cantante y actriz.",
+miedo:"Cain: incomodidad con hablar en público propia de su introversión. Brown: el miedo a exponerse. Streisand: miedo escénico intenso en los conciertos.",
+momento:"Cain: la charla TED de 2012, ante una gran audiencia. Brown: el día después de su charla en TEDxHouston (2010). Streisand: el concierto de Central Park de junio de 1967, donde olvidó la letra de varias canciones.",
+pasos:[
+"**Cain:** hizo lo que llamó un **«Año de hablar peligrosamente»**: práctica gradual, incluido unirse a **Toastmasters**.",
+"**Cain:** según contó, la semana anterior a su charla TED canceló todo para **ensayar con un entrenador** de actuación.",
+"**Brown:** habló de su propia crisis en la charla; después sintió una fuerte **«resaca de vulnerabilidad»** y pasó unos días sin querer salir de casa, pero no se retractó.",
+"**Streisand:** tras 1967 dejó los conciertos en directo durante unos **27 años**, aunque siguió grabando y haciendo cine.",
+"**Streisand:** volvió en 1994 apoyándose en **teleprompters**."
+],
+resultado:"Las charlas de Cain y de Brown están entre las más vistas de TED. Streisand volvió a hacer giras durante décadas.",
+copiar:["La **preparación intensa** compensa la falta de soltura natural.","Compartir algo personal **conecta**, aunque después te sientas expuesto.","El miedo **puede volver**, y usar **ayudas** para volver a hacerlo es inteligente.","Practicar **de forma gradual** durante un periodo largo."],
+versiones:"Las fuentes no coinciden en cuánto tiempo dedicó Cain a escribir su charla ni en cuándo se unió a Toastmasters. Sobre Streisand, las fuentes difieren en cuántas canciones olvidó (una, tres o «varias») y en el tamaño del público.",
+ejercicio:"Escribe tu plan por si el miedo vuelve: señales, ayudas y el primer reto pequeño para volver a empezar.",
+fuentes:["World Economic Forum (2015), «How introverts can conquer public speaking»; Business Insider.","Brené Brown, «El poder de la vulnerabilidad», TEDxHouston (2010); entrevistas en NPR.","Barbra Streisand en The Tonight Show con Jimmy Fallon y en Oprah.com.","*A Happening in Central Park* (álbum y especial de televisión, 1967–1968)."]},
+
+{s:"borges", n:"Jorge Luis Borges y las personas comunes", corto:"Borges", fechas:"Argentina · 1899–1986 · escritor · y Toastmasters (1924)",
+lema:"Muy tímido y con tartamudez, tuvo que dar conferencias para ganarse la vida. Y lo mismo que él hacen cada día personas comunes.",
+quien:"**Jorge Luis Borges**, escritor argentino, autor de *Ficciones* y *El Aleph*, uno de los más influyentes del siglo XX.",
+miedo:"Una timidez muy marcada y tartamudez. Según un investigador, antes de finales de los años cuarenta no se atrevía a hablar en público.",
+momento:"En 1946, tras la llegada de Perón al gobierno, dejó su puesto en la Biblioteca Miguel Cané y tuvo que ganarse la vida con algo nuevo: **dar conferencias**.",
+pasos:[
+"**Empezó con cursos semanales** en la Asociación Argentina de Cultura Inglesa y el Colegio Libre de Estudios Superiores.",
+"**Cambió la imagen del público:** se convencía de que no hablaba a una masa de 100 personas, sino **con cada persona**.",
+"**Se apoyó en recursos y estrategias** para manejar sus dificultades.",
+"**Una cara conocida:** con los años pedía a **María Kodama** que se sentara en primera fila.",
+"**Repetición:** dio clases y conferencias durante décadas, en Argentina y en el extranjero."
+],
+resultado:"Borges se convirtió en un conferenciante muy solicitado; muchas de sus conferencias se publicaron como libros (por ejemplo, *Siete noches*).",
+copiar:["Hablar **con cada persona**, no con «el público».","Tener una **cara conocida** cerca.","Empezar con **cursos o charlas regulares** y pequeñas.","Aceptar que la timidez puede convivir con hablar en público."],
+versiones:"Las fuentes sitúan de forma distinta el comienzo de su actividad como conferenciante (entre 1945 y 1949). **Personas comunes:** el club Toastmasters nació el 22 de octubre de 1924 en el sótano del YMCA de Santa Ana (California), donde Ralph Smedley reunió a unos veinte jóvenes para practicar hablar por turnos y recibir comentarios. Además, este curso incluye **casos ilustrativos (ficticios)**, marcados como tales en las lecciones 4.2, 4.3, 4.8, 4.10 y 5.7: personas comunes que siguen una escalera de exposición, igual que los famosos.",
+ejercicio:"Escribe tu propia historia «en construcción» con esta misma ficha y vuelve a leerla al terminar el curso.",
+fuentes:["*La Nación* (2023), «Borges también tartamudeaba: creían que se asociaba con su famosa timidez».","*La Capital* (Mar del Plata), «En busca del habla de Borges».","Toastmasters International, «Our history» (toastmasters.org)."]}
+];
+
+window.COMUN = [
+"## Lo que se repite en casi todas las historias",
+{table:[["Patrón","Quiénes"],["**Actuaron con miedo**, sin esperar a no sentirlo","Todos"],["**Preparación intensa** (notas, textos escritos, ensayo)","Churchill, García Márquez, Jorge VI, Cain"],["**Práctica repetida** durante meses o años","Buffett, Gandhi, Biden, Borges, Jones"],["**Un mentor, un experto o un grupo**","Buffett (Dale Carnegie), Jones (Crouch), Jorge VI (Logue), Cain (Toastmasters), Blunt (su profesor)"],["**Empezar en pequeño** y subir","Jones, Jiang, Borges, Buffett"],["**Un propósito** mayor que el miedo","Gandhi, Buffett"],["**Ayudas** sin vergüenza (notas, teleprompter, una cara conocida)","Churchill, Streisand, Borges"],["**Un nuevo significado** del fracaso o del rechazo","Blakely, Jiang, Churchill"]]},
+"Ninguna de estas personas tenía un don especial que tú no tengas. Lo que tenían en común es que **hicieron algo, repetidamente, a pesar del miedo**. Esos pasos los puedes copiar desde hoy."
+];
