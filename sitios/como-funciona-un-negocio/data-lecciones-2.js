@@ -77,7 +77,7 @@ q: [["La división del trabajo permite…",["Que cada persona se especialice y s
 ["La unidad de mando significa que…",["Cada persona recibe órdenes de un solo jefe","Todos mandan","No hay jefes"],0,"Principio de Henri Fayol."],
 ["Una «tarea huérfana» es…",["Una tarea que nadie hace porque cada quien creía que la haría otro","Una tarea muy fácil","Una tarea del dueño"],0,"Es un síntoma de falta de estructura."],
 ["La idea «la estructura sigue a la estrategia» es de…",["Alfred Chandler","Adam Smith","Milton Friedman"],0,"Estudió grandes empresas de Estados Unidos."]],
-t: ["Estructura organizacional","División del trabajo","Unidad de mando","Autoridad","Estructura informal"]
+t: ["Estructura organizacional", "División del trabajo"]
 },
 "M6-2": {
 s: `Toño consigue el organigrama de la cadena de supermercados donde trabaja su primo. Ve cajas, líneas continuas, líneas punteadas y una caja de lado que dice «Asesoría jurídica». No entiende nada. ¿Cómo se lee un organigrama?`,
@@ -167,7 +167,7 @@ q: [["En un organigrama, una línea continua vertical indica…",["Autoridad for
 ["Un asesor legal que apoya a la dirección sin mandar a la operación es un puesto de…",["Staff","Línea","Operación"],0,"Da apoyo especializado."],
 ["¿Qué NO muestra un organigrama?",["Quién tiene influencia sin tener cargo","Quién reporta a quién","Las áreas de la organización"],0,"La estructura informal no aparece."],
 ["Los gerentes de área suelen estar en el nivel de…",["Mandos medios","Operación","Consejo de administración"],0,"Entre la alta dirección y la supervisión."]],
-t: ["Organigrama","Puesto de línea","Puesto de staff","Nivel jerárquico","Mandos medios"]
+t: ["Organigrama", "Puesto de línea"]
 },
 "M6-3": {
 s: `En el puesto original, Lupita hacía todo y Toño ayudaba «en lo que se ofreciera». Funcionaba bien con dos personas. Pero Lupita se pregunta por qué tantos changarros siguen así durante décadas y por qué les cuesta tanto cambiar.`,
@@ -257,7 +257,7 @@ q: [["¿Quién describió la «estructura simple» de las organizaciones?",["Hen
 ["La coordinación en una estructura simple se basa sobre todo en…",["La supervisión directa del dueño","Manuales detallados","Comités"],0,"El dueño ve y decide todo."],
 ["Una ventaja de la estructura simple es…",["Rapidez para decidir","Mucha especialización","Muchos niveles de mando"],0,"No hay que pedir permiso."],
 ["¿Cuál es una señal de que hace falta más estructura?",["Los empleados no saben qué hacer si falta el dueño","Hay pocos clientes","El negocio está cerrado"],0,"Indica dependencia total del dueño."]],
-t: ["Estructura simple","Supervisión directa","Encargado","Cuello de botella"]
+t: ["Estructura simple", "Supervisión directa"]
 },
 "M6-4": {
 s: `Con el local funcionando, Lupita piensa en abrir más horas y agregar pedidos para oficinas. Toño propone organizarse «por áreas»: cocina, atención y caja, compras y administración. Así nace la primera estructura funcional de Tortas Lupita.`,
@@ -353,7 +353,7 @@ q: [["La estructura funcional agrupa a las personas por…",["El tipo de trabajo
 ["Un «silo» ocurre cuando…",["Cada área persigue sus propios objetivos sin coordinarse","Las áreas colaboran","No hay áreas"],0,"Es la principal desventaja de la estructura funcional."],
 ["La estructura funcional conviene más cuando…",["Hay un producto principal y un solo lugar","Hay muchos países y productos","No hay clientes"],0,"Busca eficiencia y especialización."],
 ["Una forma de reducir los silos es…",["Fijar objetivos compartidos entre áreas","Prohibir que las áreas se hablen","Eliminar la dirección"],0,"Obliga a coordinarse."]],
-t: ["Estructura funcional","Silos","Área funcional","Objetivo compartido"]
+t: ["Estructura funcional", "Silos"]
 },
 "M6-5": {
 s: `Años después, Tortas Lupita tiene sucursales en tres ciudades y una línea de salsas envasadas que se vende en supermercados. El área de Ventas no sabe si atender primero a los restaurantes de Puebla o a los supermercados de la capital. La estructura funcional ya no alcanza.`,
@@ -435,7 +435,7 @@ q: [["En una estructura por divisiones, cada división…",["Tiene sus propias f
 ["¿Quién popularizó la estructura multidivisional en General Motors?",["Alfred P. Sloan","Henry Ford","Adam Smith"],0,"En los años veinte del siglo XX."],
 ["Una desventaja de la estructura por divisiones es…",["La duplicación de recursos","Que nadie responde por utilidades","La falta de enfoque"],0,"Cada división puede tener sus propias áreas."],
 ["Un banco con divisiones de personas, empresas y gobierno se divide por…",["Tipo de cliente","Región","Producto químico"],0,"Atiende segmentos distintos."]],
-t: ["Estructura por divisiones","Unidad de negocio","Servicios compartidos","Duplicación de recursos"]
+t: ["Estructura por divisiones", "Unidad de negocio"]
 },
 "M6-6": {
 s: `Tortas Lupita quiere lanzar un menú de desayunos en todas sus sucursales. Toño arma un equipo con alguien de cocina, alguien de compras, alguien de marketing y un gerente de sucursal. Al mes, la gente del equipo se queja: «Tengo dos jefes: el de mi área y el del proyecto».`,
@@ -517,7 +517,7 @@ q: [["En una estructura matricial, cada persona tiene…",["Dos jefes: el de su 
 ["¿Qué principio rompe la estructura matricial?",["La unidad de mando","La especialización","La división del trabajo"],0,"Hay dos líneas de mando."],
 ["Una constructora que forma un equipo para cada obra usa una estructura…",["Por proyectos","Simple","Funcional pura"],0,"Equipos temporales con un gerente de proyecto."],
 ["Un riesgo de la estructura plana al crecer es…",["Confusión sobre quién decide","Demasiados niveles","Exceso de burocracia"],0,"Sin jefes, coordinar se vuelve difícil."]],
-t: ["Estructura matricial","Estructura por proyectos","Estructura plana","Gerente de proyecto","Holocracia"]
+t: ["Estructura matricial", "Estructura por proyectos"]
 },
 "M6-7": {
 s: `Toño supervisa a 14 personas en dos turnos. No le alcanza el tiempo para revisar a nadie y todos le preguntan todo. Lupita, en cambio, solo tiene un subordinado. ¿Cuánta gente puede dirigir bien una persona? ¿Y quién debe decidir qué?`,
@@ -605,7 +605,7 @@ q: [["El tramo de control es…",["El número de personas que reportan directame
 ["Si los tramos de control son estrechos, el organigrama tiende a ser…",["Alto, con más niveles","Plano","Inexistente"],0,"Hacen falta más jefes."],
 ["Descentralizar significa…",["Delegar decisiones a niveles cercanos al trabajo","Que todo decida la dirección","Cerrar sucursales"],0,"Aumenta la rapidez y la adaptación local."],
 ["Al delegar, es importante…",["Explicar el resultado esperado y los límites","No dar información","Revisar cada minuto"],0,"Delegar no es aventar el trabajo."]],
-t: ["Tramo de control","Centralización","Descentralización","Delegar","Matriz de delegación"]
+t: ["Tramo de control", "Centralización"]
 },
 "M6-8": {
 s: `Tortas Lupita contrata a un nuevo cocinero. El primer día pregunta: «¿Qué tengo que hacer exactamente? ¿Quién es mi jefe? ¿Cómo sé si lo estoy haciendo bien?». Toño se da cuenta de que no tiene nada escrito.`,
@@ -707,7 +707,7 @@ q: [["¿Qué documento explica qué hace una persona en un puesto y cómo se mid
 ["El manual de procedimientos describe…",["Cómo se hace cada tarea, paso a paso","El organigrama de la competencia","Los impuestos"],0,"Complementa a la descripción de puesto."],
 ["¿Cuál es un indicador de desempeño concreto para un cocinero?",["Tiempo promedio de preparación","Ser buena persona","Llegar contento"],0,"Debe ser medible."],
 ["¿Por dónde conviene empezar a escribir descripciones de puesto?",["Por los puestos clave o que más rotan","Por el puesto del dueño","Por ninguno"],0,"Son los que más impacto tienen."]],
-t: ["Descripción de puesto","Manual de organización","Manual de procedimientos","Indicador de desempeño"]
+t: ["Descripción de puesto", "Manual de organización"]
 }
 });
 // ===== M7. Dirección: quién conduce el negocio =====
@@ -803,7 +803,7 @@ q: [["¿Qué distingue al dueño del director general?",["El dueño pone el dine
 ["Según Mintzberg, negociar con proveedores es un rol…",["Decisorio","Interpersonal","Informativo"],0,"El negociador es un rol decisorio."],
 ["El problema de agencia aparece cuando…",["El director toma decisiones que le convienen a él más que a los dueños","El dueño dirige","No hay clientes"],0,"Por eso se necesitan reglas y vigilancia."],
 ["¿Cuál es una etapa intermedia antes del director profesional?",["Dueño-director con un equipo de gerentes","Cerrar el negocio","Vender todo"],0,"El dueño coordina y los gerentes operan."]],
-t: ["Director general","Propiedad y dirección","Roles directivos","Problema de agencia","CEO"]
+t: ["Director general", "Propiedad y dirección"]
 },
 "M7-2": {
 s: `Toño le pregunta a su mamá: «¿Qué queremos que sea Tortas Lupita en cinco años?». Lupita contesta: «Que nos vaya bien». Toño insiste: «Eso no es un plan».`,
@@ -905,7 +905,7 @@ q: [["La misión de un negocio describe…",["Para qué existe hoy","Cuánto ven
 ["La visión describe…",["Lo que el negocio quiere llegar a ser en el futuro","El organigrama","Los proveedores"],0,"Es el destino a varios años."],
 ["¿Cuál es un objetivo SMART?",["Reducir la merma de 6 % a 3 % antes del 30 de junio","Gastar menos","Ser los mejores"],0,"Es específico, medible y con fecha."],
 ["La planeación táctica normalmente tiene un plazo de…",["Alrededor de un año","Un día","Veinte años"],0,"La estratégica es de 3 a 5 años; la operativa, de semanas o meses."]],
-t: ["Misión","Visión","Valores","Objetivos SMART","Planeación estratégica"]
+t: ["Misión", "Visión"]
 },
 "M7-3": {
 s: `Ya hay un plan con objetivos. Pero a mitad de año, Toño descubre que la merma no bajó: nadie se encargó de medirla y los cocineros no sabían que era un objetivo. «Planear no basta», piensa. «Hay que organizar, dirigir y controlar».`,
@@ -998,7 +998,7 @@ q: [["¿Cuáles son las cuatro funciones del proceso administrativo?",["Planear,
 ["El ciclo PHVA significa…",["Planear, hacer, verificar, actuar","Pagar, hacer, vender, ahorrar","Producir, hornear, vender, abrir"],0,"Ciclo de mejora continua."],
 ["¿Quién popularizó el ciclo PHVA en Japón?",["W. Edwards Deming","Henry Ford","Adam Smith"],0,"A partir de 1950."],
 ["El primer paso del control es…",["Establecer el estándar","Castigar al responsable","Cerrar el negocio"],0,"Sin estándar no se puede comparar."]],
-t: ["Proceso administrativo","Ciclo PHVA","Mejora continua","Control"]
+t: ["Proceso administrativo", "Ciclo PHVA"]
 },
 "M7-4": {
 s: `Lupita revisa cada noche la caja, el cuaderno de pedidos, la libreta de merma y los mensajes de WhatsApp. Termina agotada y sin saber si el negocio va bien o mal. Toño le propone un tablero con solo siete números.`,
@@ -1096,7 +1096,7 @@ q: [["Un KPI es…",["Un indicador ligado a un objetivo, medible y con meta","Cu
 ["¿Cuántos KPI principales se recomiendan para el tablero de la dirección?",["Entre 5 y 8","Más de 50","Solo 1"],0,"Pocos, para poder actuar."],
 ["El número de oficinas visitadas por semana, que anticipa contratos futuros, es un indicador de…",["Causa (adelantado)","Resultado (rezagado)","Impuestos"],0,"Anticipa lo que va a pasar."],
 ["¿Quiénes propusieron el cuadro de mando integral?",["Robert Kaplan y David Norton","Adam Smith y David Ricardo","Osterwalder y Pigneur"],0,"En 1992."]],
-t: ["Indicador clave de desempeño (KPI)","Tablero de control","Indicador adelantado","Indicador rezagado","Cuadro de mando integral"]
+t: ["Indicador clave de desempeño (KPI)", "Tablero de control"]
 },
 "M7-5": {
 s: `En Tortas Lupita todo se comunica «cuando se puede»: a gritos en la cocina, por mensajes sueltos o en el pasillo. Las decisiones se pierden y los problemas se repiten. Toño propone algo sencillo: reuniones cortas, siempre a la misma hora.`,
@@ -1191,7 +1191,7 @@ q: [["¿Para qué sirve la junta diaria?",["Coordinar el día: qué hay, qué fa
 ["En la matriz de Eisenhower, buscar un proveedor de respaldo es…",["Importante y no urgente","Urgente y no importante","Ni importante ni urgente"],0,"Conviene planearlo antes de que sea una emergencia."],
 ["Una regla para reuniones útiles es…",["Terminar con acuerdos escritos, con responsable y fecha","No tener agenda","Que hable solo el jefe"],0,"Sin acuerdos, la junta se pierde."],
 ["La comunicación interna debe ir…",["En dos sentidos: de la dirección al equipo y del equipo a la dirección","Solo de arriba hacia abajo","Solo por escrito"],0,"Los empleados ven cosas que el dueño no ve."]],
-t: ["Ritmos de gestión","Junta semanal","Matriz de Eisenhower","Comunicación interna","Bitácora de turno"]
+t: ["Ritmos de gestión", "Junta semanal"]
 },
 "M7-6": {
 s: `En la sucursal de Toño los empleados están contentos y casi nadie renuncia. En la del nuevo gerente, que grita y castiga, se van dos personas al mes. Lupita entiende que la forma de dirigir crea una «manera de ser» del negocio.`,
@@ -1281,7 +1281,7 @@ q: [["El liderazgo situacional propone que…",["El líder adapte su estilo a la
 ["La cultura organizacional es…",["«Cómo se hacen las cosas aquí»","El organigrama","El estado de resultados"],0,"Creencias, valores y costumbres compartidos."],
 ["Según Schein, el nivel más profundo de la cultura son…",["Los supuestos básicos","Los uniformes","El logo"],0,"Creencias que se dan por hecho."],
 ["¿Qué construye más la cultura?",["Lo que hacen los líderes","Un cartel con valores","Un manual que nadie lee"],0,"La gente cree lo que ve."]],
-t: ["Liderazgo","Liderazgo situacional","Cultura organizacional","Rotación de personal"]
+t: ["Liderazgo", "Liderazgo situacional"]
 },
 "M7-7": {
 s: `Lupita tiene tres sucursales y un equipo de gerentes, pero sigue revisando cada compra, cambiando recetas sin avisar y contestando el WhatsApp de cada sucursal. Toño le dice con cariño: «Mamá, si no sueltas, no vamos a crecer».`,
@@ -1381,7 +1381,7 @@ q: [["El síndrome del fundador se refiere a…",["El dueño que no suelta el co
 ["Profesionalizar un negocio significa…",["Que funcione con sistemas, procesos y personas capaces, no solo con el dueño","Despedir a la familia","Salir a bolsa"],0,"El negocio deja de depender de la presencia diaria del dueño."],
 ["¿Qué decisión debe conservar normalmente el dueño?",["Las grandes decisiones de dinero y la estrategia","Contestar cada WhatsApp","Hacer cada cierre de caja"],0,"Lo operativo se delega; el rumbo se conserva."],
 ["Al delegar, es mejor controlar…",["Por resultados, con indicadores","Cada paso de cada tarea","Nada"],0,"Así se da autonomía sin perder el control."]],
-t: ["Síndrome del fundador","Profesionalizar","Delegar","Consejo consultivo"]
+t: ["Síndrome del fundador", "Profesionalizar"]
 }
 });
 // ===== M8. Finanzas y contabilidad: cómo fluye el dinero II =====
@@ -1467,7 +1467,7 @@ q: [["La tesorería se encarga de…",["Administrar el efectivo: cobros, pagos y
 ["La contabilidad administrativa sirve para…",["Informes internos para decidir","Cumplir solo con el SAT","Publicidad"],0,"No sigue reglas obligatorias."],
 ["¿Qué significa CFO?",["Director de finanzas","Director de operaciones","Contador externo"],0,"Chief financial officer."],
 ["¿Cuál de estos es un estado financiero?",["El balance general","El organigrama","El lienzo de modelo de negocio"],0,"Junto con el estado de resultados y el de flujos de efectivo."]],
-t: ["Contabilidad","Tesorería","Planeación financiera","Estados financieros","NIF","CFO"]
+t: ["Contabilidad", "Tesorería"]
 },
 "M8-2": {
 s: `El contador entrega el estado de resultados del primer mes del local. Lupita ve «utilidad neta: 25,620» y se pregunta: «¿Solo eso? En el puesto ganaba más». Toño le propone leerlo línea por línea.`,
@@ -1562,7 +1562,7 @@ q: [["El estado de resultados muestra…",["Lo que pasó durante un periodo","Lo
 ["El análisis vertical expresa cada línea como…",["Porcentaje de las ventas del mismo periodo","Cambio contra el año anterior","Número de empleados"],0,"Muestra el peso de cada concepto."],
 ["Si las ventas suben 9 % y la utilidad de operación sube 22 %, probablemente…",["Los gastos fijos casi no cambiaron","Los gastos se duplicaron","El margen bruto se duplicó"],0,"Es el apalancamiento operativo."],
 ["¿Por qué el local tiene menor margen que el puesto?",["Porque tiene una estructura de gastos mucho más cara","Porque el producto es peor","Porque vende menos tortas"],0,"Renta, empleados, servicios e impuestos."]],
-t: ["Estado de resultados","Análisis vertical","Análisis horizontal","EBITDA","Utilidad de operación"]
+t: ["Estado de resultados", "Análisis vertical"]
 },
 "M8-3": {
 s: `El banco le pide a Lupita su «balance general». Ella pregunta: «¿No es lo mismo que el estado de resultados?». No: uno es una película del mes; el otro, una fotografía del día.`,
@@ -1664,7 +1664,7 @@ q: [["La ecuación contable es…",["Activos = Pasivos + Capital","Ventas = Cost
 ["Las cuentas por cobrar son…",["Un activo: lo que deben los clientes","Un pasivo","Capital"],0,"Es dinero que el negocio va a recibir."],
 ["El balance general muestra…",["La situación en una fecha","Lo que pasó durante el mes","El flujo de efectivo"],0,"Es una fotografía."],
 ["Si un negocio tiene activos por 300,000 y pasivos por 200,000, su capital es…",["100,000","500,000","200,000"],0,"Capital = activos − pasivos."]],
-t: ["Balance general","Activo","Pasivo","Capital contable","Ecuación contable","Activo circulante","Pasivo circulante"]
+t: ["Balance general", "Activo"]
 },
 "M8-4": {
 s: `El estado de resultados de marzo dice que Tortas Lupita ganó 30,000 pesos. Pero el día 15 no hay dinero para pagar la quincena. Lupita no entiende: «¿Cómo que gané si no tengo con qué pagar?».`,
@@ -1758,7 +1758,7 @@ q: [["¿Por qué un negocio puede tener utilidad y no tener efectivo?",["Porque 
 ["La fórmula del flujo de caja es…",["Saldo inicial + entradas − salidas = saldo final","Ventas − costos","Activos − pasivos"],0,"Se encadena mes a mes."],
 ["Comprar una plancha nueva es un flujo de…",["Inversión","Operación","Financiamiento"],0,"Compra de equipo."],
 ["¿Cada cuánto se recomienda revisar el flujo de caja en un negocio pequeño?",["Cada semana","Cada cinco años","Nunca"],0,"Y proyectarlo varias semanas o meses."]],
-t: ["Flujo de caja","Flujo de efectivo de operación","Flujo de inversión","Flujo de financiamiento","Flujo de caja proyectado"]
+t: ["Flujo de caja", "Flujo de efectivo de operación"]
 },
 "M8-5": {
 s: `Las oficinas piden más tortas y pagan cada quincena. Toño está feliz: «¡Duplicamos los pedidos!». Pero el efectivo baja cada semana. La administradora explica: «Estamos financiando a nuestros clientes con nuestro propio dinero».`,
@@ -1859,7 +1859,7 @@ q: [["El capital de trabajo neto se calcula como…",["Activo circulante − pas
 ["Si un negocio empieza a vender a crédito, su capital de trabajo necesario…",["Aumenta","Disminuye","No cambia"],0,"Financia a sus clientes."],
 ["«Crecer consume efectivo» significa que…",["Al vender más, suben inventarios y cuentas por cobrar, y se necesita más dinero","Crecer siempre da efectivo","No hay que crecer"],0,"Por eso muchos negocios «mueren de éxito»."],
 ["Con ventas a crédito de 90,000 al mes y plazo de 10 días, las cuentas por cobrar promedio son de unos…",["30,000","90,000","9,000"],0,"90,000 × 10 ÷ 30 = 30,000."]],
-t: ["Capital de trabajo","Días de cobro","Días de inventario","Días de pago","Factoraje","Línea de crédito"]
+t: ["Capital de trabajo", "Días de cobro"]
 },
 "M8-6": {
 s: `Una oficina le debe a Tortas Lupita 18,000 pesos desde hace dos meses. Cada vez que Toño llama, le dicen «la próxima semana». Otra oficina pidió crédito y nadie revisó si paga bien. Lupita decide poner reglas para vender a crédito.`,
@@ -1955,7 +1955,7 @@ q: [["¿Cuál de estas es una de las «cinco C» del crédito?",["Carácter","Co
 ["El reporte de antigüedad de saldos muestra…",["Cuánto debe cada cliente y desde cuándo","La edad de los clientes","Los precios"],0,"Permite priorizar la cobranza."],
 ["«2/10, neto 30» significa…",["2 % de descuento si se paga en 10 días; si no, el total a 30 días","Pagar el doble","10 % de descuento"],0,"Es un descuento por pronto pago."],
 ["¿Qué conviene hacer si un cliente se retrasa mucho?",["Suspender el crédito y acordar un plan de pago por escrito","Venderle más","Olvidarse"],0,"Según la política de crédito."]],
-t: ["Política de crédito","Cinco C del crédito","Cobranza","Antigüedad de saldos","Descuento por pronto pago","Cuentas incobrables"]
+t: ["Política de crédito", "Cinco C del crédito"]
 },
 "M8-7": {
 s: `En diciembre, Toño propone hacer un presupuesto para el próximo año. Lupita duda: «¿Para qué adivinar? Nadie sabe qué va a pasar». Toño responde: «No es adivinar: es decidir qué queremos y cómo vamos a pagarlo».`,
@@ -2050,7 +2050,7 @@ q: [["¿Cuál es el punto de partida de casi todo presupuesto?",["El presupuesto
 ["El presupuesto base cero…",["Justifica cada gasto desde cero cada año","Copia el año anterior","No tiene gastos"],0,"Ayuda a eliminar gastos innecesarios."],
 ["¿Qué error es común al presupuestar?",["Olvidar gastos que no son mensuales, como aguinaldos","Incluir el flujo de efectivo","Revisarlo cada mes"],0,"Hay que incluirlos para no llevarse sorpresas."],
 ["Un presupuesto sirve para controlar si…",["Se compara cada mes con lo real","Se guarda en un cajón","Solo lo ve el contador"],0,"Así se detectan desviaciones a tiempo."]],
-t: ["Presupuesto","Presupuesto base cero","Presupuesto flexible","Presupuesto de efectivo","Supuesto"]
+t: ["Presupuesto", "Presupuesto base cero"]
 },
 "M8-8": {
 s: `Para comprar un horno y remodelar el local, Tortas Lupita necesita 300,000 pesos. El proveedor del horno ofrece pagar a 12 meses, el banco ofrece un crédito, una tía ofrece prestar sin intereses y un conocido quiere entrar como socio. ¿Qué conviene?`,
@@ -2136,7 +2136,7 @@ q: [["El CAT sirve para…",["Comparar el costo total de distintos créditos","C
 ["Un horno que durará diez años conviene financiarlo…",["A largo plazo","Con tarjeta a tres meses","Con el dinero de la nómina"],0,"El plazo debe coincidir con su vida útil."],
 ["El factoraje consiste en…",["Vender tus facturas por cobrar a cambio de un adelanto","Rentar un equipo","Emitir acciones"],0,"Da efectivo rápido a cambio de un descuento."],
 ["Financiarse con un socio implica…",["Compartir utilidades y decisiones","Pagar intereses fijos","No compartir nada"],0,"Es capital, no deuda."]],
-t: ["Financiamiento","Crédito bancario","Arrendamiento","Factoraje","Costo Anual Total (CAT)","Tasa de interés","Deuda","Capital"]
+t: ["Financiamiento", "Crédito bancario"]
 },
 "M8-9": {
 s: `El banco revisa los estados financieros de Tortas Lupita y responde: «Su liquidez está algo justa y su endeudamiento es alto, pero su rentabilidad es buena». Lupita pregunta: «¿Y cómo sabe todo eso con tres hojas?». Con razones financieras.`,
@@ -2251,7 +2251,7 @@ q: [["La razón circulante se calcula como…",["Activo circulante ÷ pasivo cir
 ["Si el pasivo total es 150,000 y el activo total 300,000, la razón de endeudamiento es…",["50 %","200 %","15 %"],0,"150,000 ÷ 300,000."],
 ["El ROE mide…",["La utilidad en relación con el capital de los dueños","Las ventas por empleado","Los días de cobro"],0,"Rendimiento sobre capital."],
 ["En la fórmula DuPont, el camino más riesgoso para aumentar el ROE es…",["Aumentar el apalancamiento (deuda)","Mejorar el margen","Mejorar la rotación"],0,"La deuda aumenta el riesgo."]],
-t: ["Razones financieras","Razón circulante","Prueba ácida","Razón de endeudamiento","ROE","ROA","Fórmula DuPont","Cobertura de intereses"]
+t: ["Razones financieras", "Razón circulante"]
 },
 "M8-10": {
 s: `Una oficina le pide a Lupita «factura con complemento de pago», otra le pide «factura global no, una a nombre de la empresa», y el contador le recuerda que el día 17 vencen las declaraciones. Lupita siente que los impuestos son un idioma aparte.`,
@@ -2341,7 +2341,7 @@ q: [["¿Qué es un CFDI?",["La factura electrónica en México","Un tipo de cré
 ["Si cobraste 20,000 de IVA y pagaste 6,000 de IVA acreditable, el IVA a pagar es…",["14,000","26,000","6,000"],0,"20,000 − 6,000."],
 ["El complemento de pago se emite cuando…",["Se recibe el pago de una factura emitida para pagarse después","Se contrata a un empleado","Se abre el local"],0,"También llamado recibo electrónico de pago."],
 ["¿Qué error es muy frecuente en negocios pequeños?",["Gastar el IVA cobrado como si fuera dinero propio","Pedir factura de todo","Apartar para impuestos"],0,"El IVA cobrado se guarda para el SAT."]],
-t: ["Factura electrónica (CFDI)","Complemento de pago","Factura global","IVA acreditable","Pago provisional","Retención","Opinión de cumplimiento","Buzón tributario"]
+t: ["Factura electrónica (CFDI)", "Complemento de pago"]
 }
 });
 // ===== M9. Operaciones: procesos diarios, inventarios y calidad =====
@@ -2425,7 +2425,7 @@ q: [["Las operaciones de un negocio son…",["Las actividades que transforman in
 ["¿Cuál NO es uno de los cuatro objetivos de operaciones?",["Popularidad en redes","Calidad","Costo"],0,"Son calidad, rapidez, costo y flexibilidad."],
 ["Si 4 personas trabajan 8 horas y preparan 480 tortas, la productividad es…",["15 tortas por hora-persona","60 tortas por hora-persona","120 tortas por persona"],0,"480 ÷ 32 = 15."],
 ["La variabilidad en un proceso significa que…",["El resultado no es siempre el mismo","El proceso es muy rápido","No hay clientes"],0,"Es enemiga de la confianza del cliente."]],
-t: ["Operaciones","Productividad","Variabilidad","Cuatro V de las operaciones","Manufactura esbelta (lean)"]
+t: ["Operaciones", "Productividad"]
 },
 "M9-2": {
 s: `Toño intenta explicarle al nuevo cocinero cómo se atiende un pedido, pero cada vez lo cuenta distinto. Decide dibujarlo en una hoja: del cliente que pide al cliente que recibe. Al terminar, encuentra tres pasos que nadie había notado.`,
@@ -2526,7 +2526,7 @@ q: [["En un diagrama de flujo, el rombo representa…",["Una decisión","Una act
 ["¿Por qué conviene dibujar un proceso?",["Para verlo, enseñarlo, mejorarlo y estandarizarlo","Para decorar la oficina","Porque lo pide el SAT"],0,"Lo invisible no se puede mejorar."],
 ["SIPOC sirve para…",["Ver el proceso completo desde lejos: proveedores, entradas, proceso, salidas y clientes","Calcular impuestos","Dibujar el organigrama"],0,"Define el alcance antes del detalle."],
 ["La línea de ensamble móvil de Ford (1913) es un ejemplo de…",["Mejora del proceso","Nuevo producto","Publicidad"],0,"El producto era el mismo; cambió el proceso."]],
-t: ["Proceso","Diagrama de flujo","SIPOC","Diagrama de carriles","Espera"]
+t: ["Proceso", "Diagrama de flujo"]
 },
 "M9-3": {
 s: `Un martes, el local abrió con la plancha fría, sin salsa preparada y sin cambio en la caja. El jueves, alguien dejó el refrigerador mal cerrado y se perdió la carne. Toño concluye: «Necesitamos una lista para abrir y otra para cerrar».`,
@@ -2623,7 +2623,7 @@ q: [["El objetivo principal de una lista de verificación es…",["Evitar olvido
 ["¿Cuál es una buena práctica al diseñar una lista?",["Que sea corta y concreta","Que tenga 80 puntos","Que esté guardada en un cajón"],0,"De 5 a 10 puntos por fase."],
 ["La bitácora de turno sirve para…",["Pasar la información importante entre turnos","Calcular impuestos","Contratar"],0,"Es la memoria del negocio."],
 ["Las listas de verificación se popularizaron en la aviación tras…",["El accidente de un prototipo del B-17 en 1935","La invención del teléfono","La Revolución francesa"],0,"Los pilotos olvidaron quitar un seguro de los controles."]],
-t: ["Lista de verificación (checklist)","Bitácora de turno","Apertura y cierre","Corte de caja"]
+t: ["Lista de verificación (checklist)", "Bitácora de turno"]
 },
 "M9-4": {
 s: `En la hora pico, la fila llega a la calle. Lupita quiere contratar a otro cocinero. Toño cronometra cada paso y descubre que el problema no está en la cocina, sino en la caja: los cocineros esperan las comandas. ¿Dónde está realmente el atorón?`,
@@ -2699,7 +2699,7 @@ q: [["El cuello de botella de un proceso es…",["El paso más lento, que limita
 ["Si un paso tarda 2 minutos por unidad y hay 2 personas, su capacidad es…",["60 unidades por hora","30 unidades por hora","120 unidades por hora"],0,"60 ÷ 2 × 2 = 60."],
 ["Según la teoría de las restricciones, después de identificar la restricción hay que…",["Explotarla: sacarle el máximo provecho sin invertir","Contratar en todas las áreas","Ignorarla"],0,"Elevar viene después."],
 ["Si la demanda es de 50 por hora y la capacidad de 40, cada hora la fila…",["Crece en 10 personas","Se reduce","Se mantiene"],0,"50 − 40 = 10."]],
-t: ["Capacidad","Cuello de botella","Teoría de las restricciones","Utilización","Hora pico"]
+t: ["Capacidad", "Cuello de botella"]
 },
 "M9-5": {
 s: `En la bodega de Tortas Lupita hay cajas de servilletas para seis meses, pero el viernes se acabó el aguacate a las 12:00. Toño se pregunta cómo puede sobrar lo que no importa y faltar lo que más se vende.`,
@@ -2795,7 +2795,7 @@ q: [["En la clasificación ABC, los artículos A son…",["Pocos artículos que 
 ["PEPS significa…",["Primeras entradas, primeras salidas","Pagar en partes semanales","Pedir en pocas semanas"],0,"Lo primero que llega es lo primero que se usa."],
 ["Un costo del inventario es…",["El dinero detenido que no está en la caja","Las ventas","Los clientes"],0,"También el espacio, la merma y el robo."],
 ["Si el costo de ventas mensual es 60,000 y el inventario promedio 6,000, la rotación es…",["10 veces al mes","6 veces","100 veces"],0,"60,000 ÷ 6,000."]],
-t: ["Inventario","Clasificación ABC","PEPS (primeras entradas, primeras salidas)","Rotación de inventario","Código de barras"]
+t: ["Inventario", "Clasificación ABC"]
 },
 "M9-6": {
 s: `Toño ya sabe qué artículos cuidar. Ahora la pregunta es otra: ¿cuándo pedir el pan para no quedarse sin él, sin llenar la bodega de bolillos duros? La panadería tarda un día en entregar y algunos días se vende más de lo normal.`,
@@ -2885,7 +2885,7 @@ q: [["El punto de reorden se calcula como…",["Consumo diario × días de entre
 ["Si se usan 100 piezas al día, la entrega tarda 3 días y hay 2 días de seguridad, el punto de reorden es…",["500 piezas","300 piezas","200 piezas"],0,"100 × 3 + 100 × 2 = 500."],
 ["El inventario de seguridad sirve para…",["Protegerse si se vende más de lo normal o el proveedor se retrasa","Vender más caro","Pagar impuestos"],0,"Es un colchón."],
 ["El lote económico de compra equilibra…",["El costo de pedir y el costo de mantener inventario","Ventas y gastos","Precios y salarios"],0,"Propuesto por Ford W. Harris en 1913."]],
-t: ["Punto de reorden","Inventario de seguridad","Tiempo de entrega","Lote económico de compra","Sistema de dos contenedores"]
+t: ["Punto de reorden", "Inventario de seguridad"]
 },
 "M9-7": {
 s: `Un cliente encuentra un pelo en su torta. Otro dice que hoy estaba «más chica». Un tercero se queja de que la salsa estaba distinta. Lupita entiende que la calidad no puede depender del humor del día: necesita estándares y una forma de mejorar siempre.`,
@@ -2983,7 +2983,7 @@ q: [["Para un negocio, calidad significa sobre todo…",["Cumplir de forma const
 ["Kaizen significa…",["Mejora continua con la participación de todos","Un tipo de sushi","Una norma fiscal"],0,"Pequeñas mejoras constantes."],
 ["La técnica de los cinco porqués sirve para…",["Encontrar la causa raíz de un problema","Calcular el precio","Dibujar el organigrama"],0,"Se pregunta «¿por qué?» varias veces."],
 ["Un contenedor del tamaño exacto de una porción es un ejemplo de…",["Poka-yoke (a prueba de errores)","Publicidad","Factoraje"],0,"Hace difícil equivocarse."]],
-t: ["Calidad","Estándar","Kaizen","5S","Poka-yoke","Cinco porqués","Causa raíz","ISO 9001"]
+t: ["Calidad", "Estándar"]
 },
 "M9-8": {
 s: `Los pedidos a oficinas crecen, pero el repartidor llega tarde: sale con un pedido, regresa, sale con otro y cruza la ciudad dos veces. Una oficina se queja de que las tortas llegaron frías. Toño se da cuenta de que entregar también es una operación que se puede planear.`,
@@ -3076,7 +3076,7 @@ q: [["La logística se encarga de…",["Mover y guardar cosas a tiempo, al menor
 ["La «última milla» es…",["El tramo final de la entrega hasta el cliente","El primer proveedor","La bodega"],0,"Suele ser la parte más cara."],
 ["Un horario de corte sirve para…",["Agrupar pedidos y planear las entregas","Cortar el pan","Cerrar el negocio"],0,"Define hasta qué hora se reciben pedidos para cada entrega."],
 ["UPS es conocida por optimizar rutas y…",["Evitar en lo posible las vueltas a la izquierda","Entregar solo de noche","No usar vehículos"],0,"Para ahorrar tiempo y combustible."]],
-t: ["Logística","Última milla","Horario de corte","Centro de distribución","Logística inversa"]
+t: ["Logística", "Última milla"]
 },
 "M9-9": {
 s: `Tortas Lupita va a abrir su segunda sucursal. Lupita se preocupa: «¿Cómo voy a lograr que allá sepan igual que aquí?». Toño responde: «Escribiendo cómo se hace cada cosa, para que no dependa de nosotros».`,
@@ -3177,7 +3177,7 @@ q: [["Un procedimiento estándar de operación describe…",["Cómo se hace una 
 ["¿Qué tareas conviene documentar primero?",["Las que afectan al cliente, tienen riesgo o generan errores","Las que nunca se hacen","Ninguna"],0,"Son las de mayor impacto."],
 ["¿Cómo se comprueba que un procedimiento es claro?",["Pidiendo a una persona nueva que lo siga sin ayuda","Leyéndolo el dueño","Guardándolo"],0,"Donde se atore, falta claridad."],
 ["El conjunto de procedimientos de un negocio forma su…",["Manual de operación","Estado de resultados","Acta constitutiva"],0,"Es clave para abrir sucursales o franquicias."]],
-t: ["Procedimiento estándar de operación (SOP)","Manual de operación","Punto crítico","Estandarizar"]
+t: ["Procedimiento estándar de operación (SOP)", "Manual de operación"]
 }
 });
 // ===== M10. Compras y proveedores =====
@@ -3264,7 +3264,7 @@ q: [["¿Cuál de estos NO es uno de los cinco «correctos» de una compra?",["El
 ["Si los ingredientes son 86,400 al mes, un ahorro de 5 % equivale a…",["4,320 pesos","8,640 pesos","432 pesos"],0,"86,400 × 0.05."],
 ["¿Por qué conviene separar quién compra y quién paga?",["Para tener control y evitar errores o fraudes","Para tardar más","Porque lo exige el cliente"],0,"Es una práctica de control interno."],
 ["La orden de compra sirve para…",["Confirmar por escrito qué se compra, cuánto, a qué precio y cuándo","Cobrar a los clientes","Contratar personal"],0,"Evita malentendidos con el proveedor."]],
-t: ["Compras","Ciclo de compra","Orden de compra","Poder de compra","Separación de funciones"]
+t: ["Compras", "Ciclo de compra"]
 },
 "M10-2": {
 s: `La panadería de siempre a veces llega tarde y el pan sale duro algunos días. Dos panaderías nuevas ofrecen surtirle a Tortas Lupita. Una es más barata; la otra, más cara pero muy puntual. ¿Cómo elegir sin dejarse llevar solo por el precio?`,
@@ -3368,7 +3368,7 @@ q: [["En una matriz de evaluación ponderada, los pesos deben sumar…",["100 %"
 ["Si un proveedor obtiene 4 en un criterio con peso de 30 %, su resultado en ese criterio es…",["1.2","4.3","0.4"],0,"4 × 0.30."],
 ["Para insumos críticos, muchas empresas eligen…",["Un proveedor principal y uno de respaldo","Siempre el más barato","Diez proveedores iguales"],0,"Equilibra relación y riesgo."],
 ["Un indicador para evaluar proveedores es…",["Porcentaje de entregas a tiempo","Número de empleados del cliente","Color del camión"],0,"Mide su puntualidad."]],
-t: ["Proveedor","Matriz de evaluación ponderada","Proveedor de respaldo","Evaluación de proveedores"]
+t: ["Proveedor", "Matriz de evaluación ponderada"]
 },
 "M10-3": {
 s: `Un proveedor de carne ofrece el kilo de jamón a 140 pesos; otro, a 150. Toño elige el de 140. A fin de mes descubre que el barato cobra flete, exige comprar 30 kilos mínimo y su jamón rinde menos porque tiene más agua. ¿Cuál era realmente más barato?`,
@@ -3473,7 +3473,7 @@ q: [["¿Por qué el precio más bajo puede no ser el más barato?",["Porque hay 
 ["Comparar «manzanas con manzanas» significa…",["Pedir cotizaciones con la misma especificación y condiciones","Comprar solo manzanas","Elegir al azar"],0,"Así las ofertas son comparables."],
 ["El costo total de propiedad de un equipo incluye…",["Precio, energía, mantenimiento, vida útil y reventa","Solo el precio","Solo el IVA"],0,"Todo lo que cuesta durante su vida útil."],
 ["Si un kilo cuesta 150 y rinde 15 porciones, cada porción cuesta…",["10 pesos","15 pesos","150 pesos"],0,"150 ÷ 15."]],
-t: ["Cotización","Costo total","Rendimiento","Costo total de propiedad","Licitación","Pedido mínimo"]
+t: ["Cotización", "Costo total"]
 },
 "M10-4": {
 s: `El proveedor de pan anuncia que subirá el precio 15 %. Toño está molesto y quiere amenazarlo con cambiarse. Lupita lo detiene: «Antes de pelear, preparemos la negociación». ¿Cómo se negocia bien con un proveedor?`,
@@ -3565,7 +3565,7 @@ q: [["Según Fisher y Ury, conviene concentrarse en…",["Los intereses, no en l
 ["El MAAN es…",["Tu mejor alternativa si no hay acuerdo","El precio máximo del proveedor","Un impuesto"],0,"Es tu principal fuente de poder."],
 ["Una buena regla al hacer concesiones es…",["No ceder sin recibir algo a cambio","Ceder todo al principio","Nunca ceder"],0,"Así se construyen intercambios de beneficio mutuo."],
 ["Existe una zona de posible acuerdo cuando…",["El mínimo del vendedor es menor que el máximo del comprador","Ambos quieren lo mismo exactamente","No hay proveedores"],0,"Cualquier precio en esa zona es mejor que no acordar."]],
-t: ["Negociación","MAAN","Zona de posible acuerdo","Concesión","Negociación basada en principios"]
+t: ["Negociación", "MAAN"]
 },
 "M10-5": {
 s: `La carnicería entregó 25 kilos de jamón, pero facturó 30. Nadie lo notó y se pagó completo. Otra vez, el proveedor de empaques dijo que el precio «acordado» era otro. Lupita decide que todo debe quedar por escrito.`,
@@ -3661,7 +3661,7 @@ q: [["La comparación de tres documentos revisa…",["Orden de compra, recepció
 ["Al recibir mercancía, se debe firmar…",["Solo lo que realmente se recibió y revisó","Todo lo que dice la factura","Nada"],0,"Firmar sin revisar quita la posibilidad de reclamar."],
 ["¿Cómo se gana el crédito de un proveedor?",["Pagando siempre en la fecha acordada","Pagando tarde","Cambiando de proveedor cada mes"],0,"Tu historial es tu mejor carta."],
 ["Un contrato con un proveedor debe incluir…",["Precios, entregas, pagos y qué pasa si hay faltantes","Solo el nombre","El organigrama del cliente"],0,"Así se evitan malentendidos."]],
-t: ["Orden de compra","Recepción de mercancía","Comparación de tres documentos","Crédito de proveedores","Nota de crédito"]
+t: ["Orden de compra", "Recepción de mercancía"]
 },
 "M10-6": {
 s: `Un lunes, la carnicería de siempre cierra por una inspección sanitaria. Tortas Lupita no tiene otro proveedor de jamón y pasa dos días vendiendo solo tortas de huevo y frijoles. Las ventas caen a la mitad. Lupita aprende la lección del proveedor único.`,
@@ -3745,7 +3745,7 @@ q: [["¿Cuál es el principal riesgo de un proveedor único?",["Quedarse sin el 
 ["En la matriz de Kraljic, un insumo muy importante y difícil de conseguir es…",["Estratégico","De rutina","De apalancamiento"],0,"Requiere relación cercana y respaldo."],
 ["¿Por qué conviene comprarle regularmente al proveedor de respaldo?",["Para que conozca el producto y esté listo si el principal falla","Para pagar más","No conviene"],0,"Un respaldo que nunca se usa no sirve en una emergencia."],
 ["El incendio de Aisin en 1997 afectó a…",["Toyota","Bimbo","Netflix"],0,"Detuvo su producción por falta de una válvula de frenos."]],
-t: ["Proveedor único","Matriz de Kraljic","Plan de contingencia","Diversificar proveedores"]
+t: ["Proveedor único", "Matriz de Kraljic"]
 },
 "M10-7": {
 s: `La panadería B le propone a Lupita algo nuevo: «Si me compartes cada semana cuántas tortas esperas vender, puedo planear mi producción y garantizarte el pan más fresco». Lupita descubre que con sus proveedores no solo compra: forma una cadena.`,
@@ -3830,7 +3830,7 @@ q: [["La cadena de suministro es…",["La red de empresas que llevan un producto
 ["El efecto látigo consiste en que…",["Pequeñas variaciones de demanda se amplifican al subir por la cadena","Los precios bajan siempre","Los clientes se van"],0,"Cada eslabón se protege pidiendo de más o de menos."],
 ["¿Qué ayuda a reducir el efecto látigo?",["Compartir información de ventas reales con los proveedores","Hacer pedidos de pánico","Cambiar de proveedor cada semana"],0,"Así todos planean con datos."],
 ["La trazabilidad permite…",["Saber de dónde viene cada producto y por dónde pasó","Vender más caro","Evitar impuestos"],0,"Es clave en alimentos."]],
-t: ["Cadena de suministro","Trazabilidad","Efecto látigo","Inventario administrado por el proveedor","Desarrollo de proveedores"]
+t: ["Cadena de suministro", "Trazabilidad"]
 }
 });
 // ===== M11. Ventas y clientes =====
@@ -3930,7 +3930,7 @@ q: [["La principal función del área de ventas es…",["Convertir interesados e
 ["Una meta de actividad para un vendedor es…",["Número de visitas o llamadas al mes","Utilidad neta de la empresa","Número de empleados"],0,"Anticipa los resultados."],
 ["¿Por qué conviene pagar comisión sobre lo cobrado?",["Para que al vendedor le importe que el cliente pague","Para pagar menos siempre","Porque lo prohíbe la ley"],0,"Evita vender a quien no paga."],
 ["El esquema de pago más común para vendedores es…",["Mixto: sueldo base más comisión o bonos","Solo propinas","Ninguno"],0,"Combina estabilidad y motivación."]],
-t: ["Ventas","Prospecto","Comisión","Pronóstico de ventas","Meta de ventas"]
+t: ["Ventas", "Prospecto"]
 },
 "M11-2": {
 s: `Karla visita una oficina y ofrece «las mejores tortas de la zona». La encargada responde: «Lo que necesito es que llegue a tiempo para la junta de las 13:00, con factura y sin que yo tenga que organizar nada». Karla aprende que no se vende un producto: se resuelve el problema de alguien.`,
@@ -4020,7 +4020,7 @@ q: [["Un perfil del cliente sirve para…",["Entender a un cliente típico y dec
 ["«Quedar bien con su jefe» es un motivo de compra…",["Emocional","Racional","Fiscal"],0,"Se relaciona con emociones y relaciones."],
 ["En una compra de empresa, quien autoriza el gasto suele ser el…",["Decisor","Usuario","Guardián"],0,"El usuario usa el producto; el decisor elige."],
 ["La idea de los «trabajos por hacer» se asocia con…",["Clayton Christensen","Henri Fayol","Adam Smith"],0,"El cliente «contrata» un producto para hacer un trabajo."]],
-t: ["Perfil del cliente","Motivos de compra","Trabajos por hacer","Decisor de compra","Centro de compra"]
+t: ["Perfil del cliente", "Motivos de compra"]
 },
 "M11-3": {
 s: `Cada día pasan unas 1,000 personas frente a Tortas Lupita, pero solo 120 compran. Toño se pregunta: ¿dónde se quedan las otras 880? ¿No nos ven, no les interesa, no les convence el precio o se van por la fila?`,
@@ -4116,7 +4116,7 @@ q: [["Si 1,000 personas pasan y 120 compran, la conversión total es…",["12 %"
 ["El modelo AIDA significa…",["Atención, interés, deseo, acción","Ahorro, inversión, deuda, activo","Análisis, ideas, diseño, ajuste"],0,"Atribuido a Elias St. Elmo Lewis."],
 ["Si 180 personas se acercan y la conversión a compra sube de 67 % a 80 %, compran…",["144","120","180"],0,"180 × 0.8."],
 ["¿Por qué conviene medir cada etapa del embudo?",["Para saber dónde se pierden más personas y qué mejorar","Para pagar menos impuestos","Para despedir vendedores"],0,"Cada pérdida sugiere una acción distinta."]],
-t: ["Embudo de ventas","Modelo AIDA","Tasa de conversión","Prospecto","Recompra"]
+t: ["Embudo de ventas", "Modelo AIDA"]
 },
 "M11-4": {
 s: `Lupita quiere más clientes, pero no sabe dónde buscarlos. Toño propone anuncios en redes, Karla quiere visitar oficinas, un vecino sugiere repartir volantes y un cliente fiel dice: «Yo ya les traje a cinco compañeros». ¿Cuál es el mejor camino?`,
@@ -4205,7 +4205,7 @@ q: [["El canal de adquisición más creíble suele ser…",["La recomendación d
 ["El NPS se calcula como…",["% de promotores − % de detractores","Ventas − costos","Clientes ÷ empleados"],0,"Propuesto por Fred Reichheld en 2003."],
 ["Si gastas 2,000 en un canal y llegan 40 clientes nuevos, el costo por cliente es…",["50","80","2,040"],0,"2,000 ÷ 40."],
 ["¿Por qué un costo por cliente alto puede convenir?",["Si cada cliente deja mucho dinero durante su relación con el negocio","Nunca conviene","Porque se paga menos impuesto"],0,"Hay que comparar con su valor de vida."]],
-t: ["Adquisición de clientes","Recomendación (boca a boca)","Net Promoter Score (NPS)","Programa de referidos","Reseñas en línea"]
+t: ["Adquisición de clientes", "Recomendación (boca a boca)"]
 },
 "M11-5": {
 s: `Karla visita una oficina, habla diez minutos de lo ricas que son las tortas, deja un menú y se va. Nunca le llaman. En otra visita, pregunta, escucha, propone una solución a la medida y cierra un pedido semanal. ¿Qué hizo distinto?`,
@@ -4309,7 +4309,7 @@ q: [["¿Cuál es la etapa del proceso de venta que más se salta?",["El descubri
 ["En SPIN, «¿Qué pasa cuando la comida llega tarde a una junta?» es una pregunta de…",["Implicación","Situación","Cierre"],0,"Explora las consecuencias del problema."],
 ["«Sus empleados comen bien y usted queda bien con su jefe» es…",["Un beneficio","Una característica","Una objeción"],0,"Es lo que gana el cliente."],
 ["Cerrar una venta significa…",["Proponer el siguiente paso concreto o pedir la decisión","Presionar con urgencias falsas","Despedirse"],0,"Muchos vendedores no lo hacen."]],
-t: ["Proceso de venta","Método SPIN","Objeción","Cierre de venta","Beneficio y característica"]
+t: ["Proceso de venta", "Método SPIN"]
 },
 "M11-6": {
 s: `En el mostrador, una persona decide en segundos si compra una torta. Con las oficinas, Karla tarda semanas: cotizaciones, autorizaciones, facturas, crédito. Toño se da cuenta de que vender a personas y vender a empresas son dos mundos distintos.`,
@@ -4402,7 +4402,7 @@ q: [["B2B significa…",["Venta de negocio a negocio","Venta a personas","Venta 
 ["En la venta B2B, normalmente…",["Participan varias personas en la decisión","Decide una persona en segundos","No hay facturas"],0,"Usuario, decisor, pagador, etc."],
 ["¿Cuál es un riesgo típico de la venta B2B?",["Depender de pocos clientes grandes","Tener demasiados clientes pequeños","No poder vender"],0,"Si se va uno grande, el golpe es enorme."],
 ["Para vender a una empresa grande suele pedirse…",["Opinión de cumplimiento y facturas correctas","Nada","Solo un menú"],0,"La formalidad es indispensable."]],
-t: ["B2C","B2B","B2G","Concentración de clientes","Portal de proveedores"]
+t: ["B2C", "B2B"]
 },
 "M11-7": {
 s: `Un cliente reclama a gritos que su torta llegó sin aguacate. La cajera se defiende: «No fue mi culpa». El cliente se va furioso y escribe una reseña de una estrella. Otro día, con un error parecido, Toño se disculpa, le prepara otra torta y le regala un agua. Ese cliente se vuelve uno de los más fieles.`,
@@ -4481,7 +4481,7 @@ q: [["¿Qué hace la mayoría de los clientes insatisfechos?",["Se va sin quejar
 ["El primer paso para atender una queja es…",["Escuchar sin interrumpir","Defenderse","Pedirle que regrese otro día"],0,"Dejar que el cliente explique."],
 ["La paradoja de la recuperación del servicio dice que…",["Una buena respuesta a un error puede aumentar la lealtad","Equivocarse siempre es bueno","Las quejas no importan"],0,"Depende de cómo se responda."],
 ["¿Por qué dar autoridad al equipo para resolver quejas?",["Para resolver rápido sin esperar autorización","Para gastar más","Para no capacitar"],0,"La rapidez es clave."]],
-t: ["Servicio al cliente","Queja","Paradoja de la recuperación del servicio","Profeco","Reseñas en línea"]
+t: ["Servicio al cliente", "Queja"]
 },
 "M11-8": {
 s: `Toño hace cuentas: conseguir un cliente nuevo con anuncios cuesta unos 50 pesos, pero un cliente que viene dos veces por semana durante un año deja miles. «Entonces», dice, «lo más rentable no es conseguir clientes, sino conservarlos».`,
@@ -4575,7 +4575,7 @@ q: [["La tasa de abandono (churn) es…",["El porcentaje de clientes que dejan d
 ["Con ticket de 50, 4 compras al mes, margen de 50 % y 10 meses, el valor de vida es…",["1,000 pesos","2,000 pesos","200 pesos"],0,"50 × 4 × 0.5 × 10."],
 ["¿Por qué suele ser rentable retener clientes?",["Compran más con el tiempo, cuestan menos de atender y recomiendan","Porque no pagan","Porque no hay competencia"],0,"La lealtad es fuente de utilidades."],
 ["La venta cruzada consiste en…",["Ofrecer otros productos al mismo cliente","Vender a la competencia","Bajar precios"],0,"Por ejemplo, el agua fresca con la torta."]],
-t: ["Retención de clientes","Tasa de abandono (churn)","Valor de vida del cliente (LTV)","Programa de lealtad","Venta cruzada"]
+t: ["Retención de clientes", "Tasa de abandono (churn)"]
 },
 "M11-9": {
 s: `Lupita quiere saber, con números, si su negocio atrae, convierte y conserva bien a sus clientes. Toño prepara un tablero de ventas con seis indicadores y la calculadora del curso. Por primera vez, las ventas dejan de ser «buenas» o «malas» y se vuelven números que se pueden mejorar.`,
@@ -4680,7 +4680,7 @@ q: [["Si 1,000 personas pasan y 120 compran con ticket de 85, las ventas son…"
 ["El CAC se calcula como…",["Gasto en marketing y ventas ÷ clientes nuevos","Ventas ÷ clientes","Margen × clientes"],0,"Costo de adquisición de clientes."],
 ["Una relación LTV/CAC menor que 1 significa que…",["Cada cliente cuesta más de lo que deja","El negocio es muy rentable","No hay clientes"],0,"Crecer así pierde dinero."],
 ["¿Por qué el LTV debe calcularse con margen?",["Porque lo que importa es lo que le queda al negocio, no lo que vende","Porque es más grande","Porque lo pide el SAT"],0,"Las ventas incluyen costos."]],
-t: ["Métricas de ventas","Costo de adquisición de clientes (CAC)","Valor de vida del cliente (LTV)","Relación LTV/CAC","Tasa de conversión","Ticket promedio"]
+t: ["Métricas de ventas", "Costo de adquisición de clientes (CAC)"]
 }
 });
 // ===== M12. Marketing =====
@@ -4762,7 +4762,7 @@ q: [["El marketing incluye…",["Entender al cliente, diseñar la oferta, comuni
 ["La diferencia principal entre marketing y ventas es que…",["Marketing piensa en segmentos y en el largo plazo; ventas, en el cierre con cada cliente","Son exactamente lo mismo","Ventas hace los anuncios"],0,"Se complementan."],
 ["La «miopía en el marketing» consiste en…",["Definirse por el producto y no por la necesidad del cliente","Ver mal los anuncios","Gastar mucho en publicidad"],0,"Según Theodore Levitt (1960)."],
 ["¿Qué autor dijo que el objetivo del marketing es hacer innecesaria la venta?",["Peter Drucker","Adam Smith","Henri Fayol"],0,"La idea: conocer tan bien al cliente que el producto se venda solo."]],
-t: ["Marketing","Miopía en el marketing","Publicidad engañosa"]
+t: ["Marketing", "Miopía en el marketing"]
 },
 "M12-2": {
 s: `Lupita quiere lanzar desayunos, pero no sabe si habría clientes. Toño propone una encuesta. Karla sugiere contar cuánta gente pasa a las 8:00. Un amigo dice: «Contrata a una empresa de estudios de mercado». Eso cuesta decenas de miles de pesos. ¿Se puede investigar sin gastar tanto?`,
@@ -4843,7 +4843,7 @@ q: [["El DENUE del INEGI sirve para…",["Ver los negocios registrados en una zo
 ["Contar cuántas personas pasan frente al local es un método de…",["Observación","Encuesta","Fuente secundaria"],0,"Mide lo que la gente hace."],
 ["¿Cuál es una pregunta mejor para una encuesta?",["«¿Qué desayunaste ayer y dónde?»","«¿Verdad que te encantaría desayunar aquí?»","«¿Comprarías todo lo que te ofrezca?»"],0,"Pregunta por el comportamiento pasado y es neutral."],
 ["La forma más confiable de saber si un producto nuevo funciona suele ser…",["Una prueba piloto","Preguntarle a un amigo","Adivinar"],0,"Se mide lo que realmente se vende."]],
-t: ["Investigación de mercado","Fuentes secundarias","Fuentes primarias","DENUE","Cliente misterioso","Prueba piloto","Encuesta"]
+t: ["Investigación de mercado", "Fuentes secundarias"]
 },
 "M12-3": {
 s: `En la misma cuadra hay una cadena de comida rápida, una cafetería de especialidad y la fonda de Doña Tere. Lupita se pregunta: ¿cómo quiere que la recuerden sus clientes? ¿Como la más barata, la más rápida, la más sabrosa o la más «de casa»?`,
@@ -4937,7 +4937,7 @@ q: [["El posicionamiento es…",["El lugar que una marca ocupa en la mente del c
 ["Una estrategia de mercado meta concentrada (de nicho) consiste en…",["Atender muy bien a un solo segmento","Atender a todo el mundo igual","No tener clientes"],0,"Es la más común en negocios pequeños."],
 ["Un mapa de posicionamiento sirve para…",["Ver visualmente dónde está cada competidor según dos atributos","Calcular impuestos","Dibujar rutas de reparto"],0,"Ayuda a encontrar espacios libres."],
 ["¿Cuál es un error de posicionamiento?",["Prometer rapidez y tener filas de 20 minutos","Tener una idea clara","Ser distinto a la competencia"],0,"El posicionamiento debe cumplirse."]],
-t: ["Segmentación","Mercado meta","Posicionamiento","Mapa de posicionamiento","Nicho de mercado","Declaración de posicionamiento"]
+t: ["Segmentación", "Mercado meta"]
 },
 "M12-4": {
 s: `Para lanzar los desayunos, Lupita tiene que decidir qué incluir, a qué precio, dónde y cómo venderlos, y cómo darlos a conocer. Toño le dice que esas cuatro decisiones tienen nombre: las 4P del marketing.`,
@@ -5030,7 +5030,7 @@ q: [["¿Cuáles son las 4P del marketing?",["Producto, precio, plaza y promoció
 ["La «plaza» se refiere a…",["Dónde y cómo llega el producto al cliente","El precio","La publicidad"],0,"Canales, ubicación, horarios y entrega."],
 ["Las 3P adicionales de los servicios son…",["Personas, procesos y evidencia física","Precio, plaza y publicidad","Producto, pago y proveedor"],0,"Propuestas por Booms y Bitner."],
 ["¿Por qué deben ser coherentes las P?",["Porque se refuerzan entre sí; si una contradice a las demás, la mezcla falla","Porque lo pide la ley","No necesitan serlo"],0,"Deben apoyar el mismo posicionamiento."]],
-t: ["Mezcla de marketing (4P)","7P de los servicios","Evidencia física","Producto ampliado","Plaza (distribución)"]
+t: ["Mezcla de marketing (4P)", "7P de los servicios"]
 },
 "M12-5": {
 s: `Una agencia ofrece a Lupita «hacerle una marca» con un logo moderno y un nombre en inglés: «Lupi's Gourmet Sandwiches». Sus clientes de años se ríen: «¡Pero si todos te conocemos como Tortas Lupita!». ¿Qué es realmente una marca?`,
@@ -5120,7 +5120,7 @@ q: [["Una marca es sobre todo…",["Una promesa: lo que el cliente espera recibi
 ["¿Qué parte de la marca construye más la confianza?",["La experiencia del cliente en cada contacto","El color del logo","El nombre en inglés"],0,"La experiencia es lo que el cliente vive."],
 ["El capital de marca se refiere a…",["El valor que una marca fuerte aporta al negocio","El dinero en el banco","El capital social de la empresa"],0,"Hace que los clientes elijan, paguen más y recomienden."],
 ["¿Ante qué institución se registra una marca en México?",["El IMPI","El IMSS","La Profeco"],0,"Instituto Mexicano de la Propiedad Industrial."]],
-t: ["Marca","Identidad de marca","Capital de marca","Promesa de marca","Portafolio de marcas","IMPI"]
+t: ["Marca", "Identidad de marca"]
 },
 "M12-6": {
 s: `Toño abre una cuenta en redes sociales y publica tres fotos borrosas en un mes. Nadie las ve. Mientras tanto, la cafetería de enfrente aparece primero cuando alguien busca «desayunos cerca de mí» en el mapa del celular. Toño entiende que el marketing digital es más que «tener redes».`,
@@ -5218,7 +5218,7 @@ q: [["Para un negocio local, una de las acciones digitales más rentables suele 
 ["WhatsApp Business permite…",["Catálogo, respuestas rápidas y etiquetas de clientes","Emitir CFDI","Pagar nómina"],0,"Es gratuito y muy usado por negocios pequeños."],
 ["En anuncios digitales para un negocio local conviene…",["Segmentar por ubicación cercana al local","Mostrar el anuncio en todo el mundo","No medir"],0,"Así no se paga por personas que no pueden venir."],
 ["En redes sociales funciona mejor…",["La constancia con contenido real y útil","Publicar mucho una semana y nada después","Solo anuncios"],0,"La regularidad construye audiencia."]],
-t: ["Marketing digital","Perfil de negocio en mapas","WhatsApp Business","Anuncios segmentados","Plan de contenido"]
+t: ["Marketing digital", "Perfil de negocio en mapas"]
 },
 "M12-7": {
 s: `Una radio local ofrece a Lupita un paquete de anuncios por 12,000 pesos al mes. Una imprenta, 5,000 volantes por 1,500. Una plataforma digital dice que con 2,000 pesos llega a 50,000 personas. Lupita no sabe cuánto gastar ni dónde. ¿Cómo se decide el presupuesto de marketing?`,
@@ -5307,7 +5307,7 @@ q: [["El método de «objetivo y tarea» consiste en…",["Definir un objetivo, 
 ["Para un negocio local, suele ser mejor…",["Llegar muchas veces a pocas personas cercanas","Llegar una vez a millones de personas lejanas","No anunciarse"],0,"La frecuencia en la zona ayuda a recordar."],
 ["Un buen anuncio debe incluir…",["Un beneficio claro y un llamado a la acción","Mucho texto","Información falsa"],0,"Y una forma de medir."],
 ["¿Cuándo conviene invertir menos en publicidad?",["Cuando la capacidad ya está llena","Al abrir","Al lanzar un producto"],0,"Atraer clientes que harán fila y se irán no ayuda."]],
-t: ["Publicidad","Presupuesto de marketing","Alcance y frecuencia","Llamado a la acción","Medios publicitarios"]
+t: ["Publicidad", "Presupuesto de marketing"]
 },
 "M12-8": {
 s: `Después de tres meses de marketing, Lupita pregunta: «¿Funcionó? ¿Qué parte del dinero sirvió?». Toño tiene muchos datos (vistas, «me gusta», mensajes), pero no sabe cuáles importan. Es hora de medir el marketing en serio.`,
@@ -5410,7 +5410,7 @@ q: [["¿Qué métrica es de resultado?",["Pedidos generados por la acción","Nú
 ["El ROI de marketing se calcula como…",["(Margen generado − inversión) ÷ inversión","Ventas ÷ clientes","Clics ÷ impresiones"],0,"Usa el margen, no las ventas."],
 ["En una prueba A/B conviene…",["Cambiar una sola cosa a la vez","Cambiar todo","No medir"],0,"Así se sabe qué hizo la diferencia."],
 ["Una forma sencilla de atribuir ventas a un canal es…",["Usar un código de promoción distinto por canal","Adivinar","Contar seguidores"],0,"También preguntar «¿cómo nos conociste?»."]],
-t: ["Retorno de la inversión (ROI)","ROAS","Atribución","Prueba A/B","Tasa de clics (CTR)","Métricas de vanidad"]
+t: ["Retorno de la inversión (ROI)", "ROAS"]
 }
 });
 // ===== M13. Recursos humanos =====
@@ -5496,7 +5496,7 @@ q: [["El área de recursos humanos se encarga de…",["Atraer, contratar, desarr
 ["¿Cuál es el orden correcto de las primeras etapas del ciclo del empleado?",["Planear, reclutar, seleccionar, contratar","Contratar, planear, despedir","Pagar, reclutar, planear"],0,"Primero se planea qué se necesita."],
 ["¿Qué propuso Dave Ulrich?",["Que RH sea también un socio estratégico del negocio","Que no haya RH","Que RH solo haga nómina"],0,"Ayudar al negocio a lograr sus objetivos a través de las personas."],
 ["En México, la relación de trabajo se regula principalmente por…",["La Ley Federal del Trabajo","La Ley del IVA","El Código de Comercio solamente"],0,"Junto con las leyes de seguridad social."]],
-t: ["Recursos humanos","Ciclo de vida del empleado","Ley Federal del Trabajo","Planeación de personal"]
+t: ["Recursos humanos", "Ciclo de vida del empleado"]
 },
 "M13-2": {
 s: `Lupita contrata a un cocinero porque «le cayó bien» en la entrevista. A las dos semanas descubre que no sabe trabajar bajo presión y que llega tarde. Toño propone otra forma: definir qué se busca, preguntar lo mismo a todos y pedir una prueba práctica.`,
@@ -5609,7 +5609,7 @@ q: [["Reclutar significa…",["Atraer candidatos","Despedir","Pagar la nómina"]
 ["Una entrevista estructurada consiste en…",["Hacer las mismas preguntas a todos, con criterios para calificar","Platicar libremente","Preguntar lo que se ocurra"],0,"Predice mejor el desempeño."],
 ["«Cuéntame de una vez que atendiste a muchos clientes a la vez» es una pregunta de…",["Comportamiento pasado","Situación hipotética","Salario"],0,"Lo que alguien hizo antes predice lo que hará."],
 ["El efecto halo es…",["Que una cualidad haga ignorar otras","Contratar a un familiar","Un tipo de contrato"],0,"Es un sesgo de selección."]],
-t: ["Reclutamiento","Selección de personal","Entrevista estructurada","Prueba práctica","Sesgo de selección","Vacante"]
+t: ["Reclutamiento", "Selección de personal"]
 },
 "M13-3": {
 s: `El nuevo cocinero empieza el lunes. Lupita pregunta al contador: «¿Basta con que le pague cada semana?». El contador responde: «No. Necesita contrato por escrito, alta en el IMSS desde el primer día y todas las prestaciones de ley». Lupita toma nota.`,
@@ -5704,7 +5704,7 @@ q: [["¿Cuándo debe darse de alta a un trabajador en el IMSS?",["Desde el prime
 ["El aguinaldo mínimo en México es de…",["15 días de salario","5 días","Un mes siempre"],0,"Pagado antes del 20 de diciembre."],
 ["Desde la reforma de 2023, las vacaciones mínimas del primer año son de…",["12 días","6 días","30 días"],0,"Y aumentan con la antigüedad."],
 ["Desde 2021, en México la subcontratación de personal…",["Está prohibida, salvo servicios especializados registrados","Es obligatoria","No tiene reglas"],0,"Las empresas de servicios especializados deben estar en el REPSE."]],
-t: ["Contrato individual de trabajo","Prestaciones de ley","Aguinaldo","Vacaciones","Prima vacacional","IMSS","Infonavit","PTU (reparto de utilidades)","Subcontratación"]
+t: ["Contrato individual de trabajo", "Prestaciones de ley"]
 },
 "M13-4": {
 s: `El primer día, la nueva cajera llega y nadie la esperaba. Le dan un mandil y le dicen «aprende viendo». A la semana renuncia. Lupita se pregunta cuánto talento ha perdido así y decide preparar un buen primer día.`,
@@ -5802,7 +5802,7 @@ q: [["La inducción busca que la persona nueva…",["Se sienta bienvenida, entie
 ["Un «padrino» en la inducción es…",["Un compañero con experiencia que acompaña al nuevo","El dueño del negocio","Un cliente"],0,"Ayuda a integrarse y aprender."],
 ["Los cuatro pasos para enseñar una tarea práctica son…",["Preparar, mostrar, practicar, dar seguimiento","Leer, olvidar, repetir, salir","Contratar, pagar, evaluar, despedir"],0,"Método muy eficaz para tareas prácticas."],
 ["En México, la capacitación es…",["Un derecho del trabajador y una obligación del patrón","Opcional siempre","Prohibida"],0,"Según la Ley Federal del Trabajo."]],
-t: ["Inducción","Capacitación","Padrino (mentor)","Universidad corporativa"]
+t: ["Inducción", "Capacitación"]
 },
 "M13-5": {
 s: `Lupita le paga al cocinero 9,000 pesos al mes y cree que eso cuesta. Al final del año, entre aguinaldo, vacaciones, cuotas del IMSS y otros pagos, descubre que le costó bastante más. ¿Cuánto cuesta realmente un empleado?`,
@@ -5899,7 +5899,7 @@ q: [["El sueldo neto es…",["Lo que recibe el trabajador después de retencione
 ["¿Cuál de estos forma parte del costo total de un empleado para el negocio?",["Cuotas patronales al IMSS e impuesto sobre nómina","El IVA de las ventas","La renta del local"],0,"Además de sueldo y prestaciones."],
 ["Si el sueldo diario es de 300 pesos, el aguinaldo mínimo es de…",["4,500 pesos","300 pesos","9,000 pesos"],0,"15 días × 300."],
 ["¿Por qué es un error registrar un salario menor al real ante el IMSS?",["Es ilegal y deja al trabajador con menos protección","Porque se paga más","No es un error"],0,"Afecta incapacidades y pensión."]],
-t: ["Sueldo bruto","Sueldo neto","Costo total del empleado","Nómina","Cuotas patronales","Compensación total"]
+t: ["Sueldo bruto", "Sueldo neto"]
 },
 "M13-6": {
 s: `Rosa, la cajera, es la más rápida y amable, pero gana lo mismo que todos y nadie se lo dice. Un día comenta que está pensando en irse «a donde la valoren». Lupita se da cuenta de que nunca ha hablado con su equipo sobre cómo hacen su trabajo.`,
@@ -5999,7 +5999,7 @@ q: [["La evaluación del desempeño sirve para…",["Reconocer, corregir, decidi
 ["Una retroalimentación útil es…",["Específica y sobre hechos","Vaga y sobre la persona","Siempre en público"],0,"«Atendiste a 20 clientes en 15 minutos sin errores»."],
 ["Según Herzberg, el sueldo es un factor…",["De higiene: si falta, genera insatisfacción","Motivador principal","Irrelevante"],0,"Los motivadores son logro, reconocimiento, crecimiento."],
 ["¿Cuál de estas acciones suele motivar?",["Reconocer en voz alta y dar responsabilidad","Regañar en público","Prometer y no cumplir"],0,"Son factores motivadores."]],
-t: ["Evaluación del desempeño","Retroalimentación","Motivación","Jerarquía de necesidades de Maslow","Teoría de los dos factores","Motivación intrínseca"]
+t: ["Evaluación del desempeño", "Retroalimentación"]
 },
 "M13-7": {
 s: `Toño calcula que el año pasado entraron 14 personas y salieron 10, con una plantilla promedio de 9. «Es una puerta giratoria», dice. ¿Cuánto les cuesta que la gente se vaya y qué pueden hacer para que se quede?`,
@@ -6106,7 +6106,7 @@ q: [["Si hubo 6 salidas en el año y el promedio de empleados fue 12, la rotaci�
 ["¿Cuál es una causa muy frecuente de que las personas se vayan?",["El trato del jefe","El color del uniforme","El nombre del negocio"],0,"«La gente no deja empresas, deja jefes»."],
 ["La entrevista de salida sirve para…",["Entender por qué se va la persona y qué mejorar","Cobrarle","Retenerla a la fuerza"],0,"Las personas suelen ser honestas al irse."],
 ["En México, la NOM-035 se refiere a…",["Factores de riesgo psicosocial en el trabajo","El IVA","Los precios de los alimentos"],0,"Pide identificarlos y prevenirlos."]],
-t: ["Rotación de personal","Clima laboral","Entrevista de salida","Compromiso de los empleados","NOM-035","Camino de crecimiento"]
+t: ["Rotación de personal", "Clima laboral"]
 },
 "M13-8": {
 s: `Un repartidor llega tarde por sexta vez y además se salta entregas. Toño, molesto, le dice: «¡Estás despedido, vete ya!». Al día siguiente llega un aviso de un centro de conciliación laboral. Lupita entiende que las salidas también deben hacerse bien.`,
@@ -6188,7 +6188,7 @@ q: [["El finiquito es…",["Lo que se le debe al trabajador al terminar la relac
 ["La liquidación incluye, además del finiquito…",["Una indemnización en caso de despido injustificado","Nada","El IVA"],0,"Por eso un despido injustificado cuesta más."],
 ["Desde la reforma de 2019, antes de un juicio laboral normalmente hay que pasar por…",["Una etapa de conciliación","La Profeco","El SAT"],0,"Ante los centros de conciliación."],
 ["¿Qué ayuda más a manejar un conflicto laboral?",["Tener reglas claras y documentar los hechos","Despedir en caliente","No tener contrato"],0,"El expediente en orden es la mejor defensa."]],
-t: ["Renuncia","Despido justificado","Despido injustificado","Finiquito","Liquidación","Indemnización","Prima de antigüedad","Conciliación laboral"]
+t: ["Renuncia", "Despido justificado"]
 }
 });
 // ===== M14. Legal y cumplimiento =====
@@ -6271,7 +6271,7 @@ q: [["El área legal de un negocio busca…",["Que cumpla las leyes, proteja sus
 ["¿Por qué conviene la prevención legal?",["Suele costar mucho menos que defenderse en un juicio","Porque es obligatoria siempre","No conviene"],0,"Una consulta cuesta menos que un litigio."],
 ["¿Cuándo conviene consultar a un abogado?",["Antes de firmar contratos importantes o despedir a alguien","Nunca","Solo cuando ya se perdió un juicio"],0,"En momentos clave."],
 ["Una iguala es…",["Una cuota fija mensual por un conjunto de servicios profesionales","Un tipo de contrato de trabajo","Un impuesto"],0,"Es una forma de pagar honorarios."]],
-t: ["Área legal (jurídica)","Prevención legal","Litigio","Iguala","Director jurídico"]
+t: ["Área legal (jurídica)", "Prevención legal"]
 },
 "M14-2": {
 s: `El arrendador de Tortas Lupita le pone enfrente un contrato de 12 páginas para la segunda sucursal. «Es el formato de siempre, firme aquí», le dice. Lupita duda. ¿Qué debe revisar en un contrato antes de firmarlo?`,
@@ -6363,7 +6363,7 @@ q: [["¿Por qué conviene tener los contratos por escrito?",["Para saber exactam
 ["En un contrato de renta, una cláusula clave es…",["Cómo se ajusta la renta cada año","El color de la fachada","El nombre del contador"],0,"Por ejemplo, según la inflación (INPC)."],
 ["Un «formato de siempre»…",["También se puede negociar antes de firmar","No se puede cambiar nunca","No hay que leerlo"],0,"Lo que no se negocia antes es difícil de cambiar después."],
 ["El convenio entre socios sirve para…",["Definir cómo deciden, reparten utilidades y qué pasa si uno sale","Contratar empleados","Pagar impuestos"],0,"Complementa los estatutos."]],
-t: ["Contrato","Contrato de arrendamiento","Convenio entre socios","Acuerdo de confidencialidad","INPC","Fiador"]
+t: ["Contrato", "Contrato de arrendamiento"]
 },
 "M14-3": {
 s: `Un día, Toño ve en redes un local nuevo llamado «Tortas La Lupita», con colores parecidos. Va a reclamar y el dueño le muestra un papel del IMPI: registró la marca hace seis meses. Lupita, que lleva diez años con el nombre, nunca la registró.`,
@@ -6441,7 +6441,7 @@ q: [["En México, las marcas se registran ante…",["El IMPI","El IMSS","La Prof
 ["El registro de una marca en México dura…",["Diez años, renovable","Un año","Para siempre sin renovar"],0,"Y debe usarse."],
 ["Una receta que se protege manteniéndola en secreto es un…",["Secreto industrial","Patente","Derecho de autor"],0,"Ejemplo famoso: la fórmula de Coca-Cola."],
 ["Una patente protege un invento por…",["Veinte años desde la solicitud","Cinco días","Siempre"],0,"Después cualquiera puede usarlo."]],
-t: ["Propiedad intelectual","Marca registrada","IMPI","Patente","Secreto industrial","Derechos de autor","Clasificación de Niza"]
+t: ["Propiedad intelectual", "Marca registrada"]
 },
 "M14-4": {
 s: `Un cliente reclama porque el precio del menú no incluía el IVA y le cobraron más en la caja. Otro pregunta qué hacen con su número de WhatsApp y su correo. Lupita descubre que los clientes tienen derechos que la ley protege, y que los datos personales también.`,
@@ -6518,7 +6518,7 @@ q: [["En México, los precios exhibidos al consumidor deben…",["Incluir los im
 ["Según la Profeco, la propina en restaurantes es…",["Voluntaria","Obligatoria","Un impuesto"],0,"No se puede obligar a pagarla."],
 ["Los derechos ARCO sobre datos personales son…",["Acceso, rectificación, cancelación y oposición","Ahorro, renta, crédito y oferta","Aviso, registro, contrato y orden"],0,"Son derechos de las personas sobre sus datos."],
 ["Un aviso de privacidad informa…",["Qué datos se recogen, para qué, con quién se comparten y cómo ejercer derechos","El menú","Los impuestos del mes"],0,"Es obligatorio al recoger datos personales."]],
-t: ["Derechos del consumidor","Profeco","Publicidad engañosa","Aviso de privacidad","Derechos ARCO","Datos personales","NOM-051"]
+t: ["Derechos del consumidor", "Profeco"]
 },
 "M14-5": {
 s: `En una sola semana, Tortas Lupita recibe la visita de un verificador sanitario, un aviso de Protección Civil para revisar el gas, un recordatorio del SAT y una carta del IMSS. Lupita se pregunta: ¿cómo llevar el control de tantas obligaciones sin olvidar ninguna?`,
@@ -6622,7 +6622,7 @@ q: [["La NOM-251-SSA1-2009 se refiere a…",["Prácticas de higiene en el proces
 ["¿Qué conviene hacer cuando llega un inspector?",["Pedir su identificación y la orden de visita, colaborar y leer el acta antes de firmar","Ofrecerle dinero","Cerrar la puerta"],0,"Y guardar copia del acta."],
 ["Un calendario de cumplimiento sirve para…",["No olvidar obligaciones, fechas, responsables y comprobantes","Planear vacaciones","Calcular precios"],0,"Convierte el cumplimiento en hábito."],
 ["La revisión del gas y los extintores es una obligación de…",["Protección Civil","La Profeco","El IMPI"],0,"Autoridad municipal o estatal."]],
-t: ["Cumplimiento regulatorio","NOM-251","Protección Civil","Calendario de cumplimiento","Inspección","Cofepris"]
+t: ["Cumplimiento regulatorio", "NOM-251"]
 },
 "M14-6": {
 s: `Un inspector sugiere a Toño que «todo se puede arreglar» con un pago en efectivo. Al mismo tiempo, un proveedor ofrece a la encargada de compras una comisión «por debajo de la mesa». Lupita se da cuenta de que cumplir la ley no es solo llenar papeles: también es decidir qué no se hace.`,
@@ -6715,7 +6715,7 @@ q: [["El cumplimiento (compliance) busca…",["Prevenir que el negocio y sus per
 ["En México, ¿pueden ser sancionados los particulares y las empresas por actos de corrupción?",["Sí, por ejemplo con la Ley General de Responsabilidades Administrativas","No, solo los servidores públicos","Solo si son extranjeros"],0,"Vigente desde 2017."],
 ["Un conflicto de interés ocurre cuando…",["Un empleado tiene una relación con un proveedor y participa en la decisión de compra","Dos empleados discuten","El cliente se queja"],0,"Debe declararse y apartarse de la decisión."],
 ["Un seguro de responsabilidad civil cubre…",["Daños que el negocio cause a clientes o terceros","Las vacaciones de los empleados","Los impuestos"],0,"Por ejemplo, una intoxicación o un accidente."]],
-t: ["Cumplimiento (compliance)","Matriz de riesgos","Corrupción","Soborno","Conflicto de interés","Seguro de responsabilidad civil","Canal de denuncia"]
+t: ["Cumplimiento (compliance)", "Matriz de riesgos"]
 }
 });
 // ===== M15. Tecnología y sistemas =====
@@ -6821,7 +6821,7 @@ q: [["¿Qué herramienta tecnológica suele necesitar primero un negocio que cre
 ["El costo total de una herramienta incluye…",["Suscripción, equipo, implementación, capacitación y soporte","Solo la mensualidad","Solo el precio de la tableta"],0,"Como cualquier compra importante."],
 ["Una ventaja de los sistemas en la nube es…",["Se usan desde cualquier dispositivo y el proveedor hace actualizaciones y respaldos","Nunca necesitan internet","Son siempre gratis"],0,"Son los más comunes hoy en negocios pequeños."],
 ["Al implementar un sistema nuevo conviene…",["Capacitar antes, probar en pequeño y tener un responsable","Arrancar en todo el negocio sin avisar","No explicar el motivo"],0,"Así se reduce la resistencia y los errores."]],
-t: ["Tecnología en el negocio","Sistema en la nube","Costo total de propiedad","Implementación"]
+t: ["Tecnología en el negocio", "Sistema en la nube"]
 },
 "M15-2": {
 s: `Cada noche, el dinero de la caja no cuadra: unas veces sobran 50 pesos, otras faltan 300. Nadie sabe si es error, cambio mal dado o algo peor. Toño decide ordenar la caja con un punto de venta y un corte de caja diario.`,
@@ -6926,7 +6926,7 @@ q: [["El corte de caja compara…",["Lo que dice el sistema que se vendió con l
 ["El fondo fijo de caja sirve para…",["Tener siempre la misma cantidad para dar cambio","Pagar la renta","Invertir"],0,"Se separa al hacer el corte."],
 ["¿Cómo evitar el fraude de capturas de transferencias falsas?",["Verificando en tu propia aplicación bancaria que el dinero llegó","Confiando en la captura","Pidiendo dos capturas"],0,"Antes de entregar el pedido."],
 ["¿Por qué conviene un corte por turno y por cajero?",["Para saber dónde está una diferencia","Para trabajar más","Porque lo pide la Profeco"],0,"Con varias personas en una sola caja es imposible saberlo."]],
-t: ["Sistema de punto de venta (POS)","Corte de caja","Fondo fijo","Arqueo","SPEI","Pagos digitales"]
+t: ["Sistema de punto de venta (POS)", "Corte de caja"]
 },
 "M15-3": {
 s: `Toño anota todo en papeles sueltos. Lupita le pide saber cuánto vendieron por mes, cuánta merma hubo y cuánto efectivo tendrán en enero. Toño abre una hoja de cálculo por primera vez y descubre que puede hacer en minutos lo que antes le tomaba una tarde.`,
@@ -7028,7 +7028,7 @@ q: [["En una hoja de cálculo, todas las fórmulas empiezan con…",["El signo =
 ["La fórmula =SI(B2<C2;\"Pedir\";\"OK\") sirve para…",["Mostrar «Pedir» si la existencia es menor que el punto de reorden","Sumar ventas","Calcular el IVA"],0,"Decide según una condición."],
 ["Una referencia absoluta como $F$1…",["No cambia al copiar la fórmula","Cambia siempre","Borra la celda"],0,"Útil para supuestos fijos."],
 ["¿Cuál es una buena práctica?",["Separar datos, cálculos y reportes en pestañas distintas","Escribir números fijos dentro de las fórmulas","No guardar respaldo"],0,"Facilita revisar y evita errores."]],
-t: ["Hoja de cálculo","Fórmula","Referencia absoluta","Tabla dinámica","Formato condicional","VisiCalc"]
+t: ["Hoja de cálculo", "Fórmula"]
 },
 "M15-4": {
 s: `Con tres sucursales y una cocina central, Tortas Lupita usa cinco herramientas distintas que no se hablan entre sí: la administradora captura las mismas ventas tres veces y nadie sabe el inventario total. Un consultor menciona la palabra «ERP». ¿Qué es y cuándo vale la pena?`,
@@ -7119,7 +7119,7 @@ q: [["Un ERP es…",["Un sistema integrado que reúne la información de las pri
 ["Una señal de que hace falta un sistema integrado es…",["Capturar los mismos datos varias veces en distintas herramientas","Tener pocos clientes","Vender solo en efectivo"],0,"La doble captura genera errores y trabajo."],
 ["¿Qué ayuda a reducir el riesgo de implementar un ERP?",["Probar en paralelo y arrancar por etapas, fuera de temporada fuerte","Arrancar todo a la vez en diciembre","No capacitar"],0,"Hershey's es un ejemplo de lo que puede pasar."],
 ["Antes de implementar un sistema conviene…",["Ordenar los procesos y limpiar los datos","Comprar más equipo","Despedir al personal"],0,"Un sistema no arregla procesos desordenados."]],
-t: ["ERP","Sistema administrativo integrado","Islas de información","Doble captura","Implementación en paralelo"]
+t: ["ERP", "Sistema administrativo integrado"]
 },
 "M15-5": {
 s: `Karla lleva los datos de las oficinas en su celular y en notas sueltas. Cuando se enferma una semana, nadie sabe a qué oficinas había que llamar ni qué les prometió. Al mismo tiempo, varios clientes preguntan si pueden pedir tortas en línea y pagar con tarjeta desde su casa.`,
@@ -7204,7 +7204,7 @@ q: [["Un CRM sirve para…",["Guardar en un solo lugar la información y las int
 ["Una ventaja de vender en un mercado en línea es…",["Acceso a muchos compradores desde el inicio","No pagar comisiones","No tener competencia"],0,"A cambio de comisiones y más competencia."],
 ["¿Qué empresa latinoamericana combinó un mercado en línea con pagos y logística?",["Mercado Libre","Bimbo","Cemex"],0,"Con Mercado Pago y Mercado Envíos."],
 ["Antes de vender en línea conviene…",["Calcular el margen después de comisiones, envío y empaque","Bajar todos los precios","No facturar"],0,"La venta en línea puede dejar menos margen."]],
-t: ["CRM","Comercio electrónico","Mercado en línea (marketplace)","Tienda en línea","Pasarela de pago"]
+t: ["CRM", "Comercio electrónico"]
 },
 "M15-6": {
 s: `Un lunes, la administradora recibe un WhatsApp del «proveedor de carne» con un número nuevo: «Cambiamos de cuenta, deposita aquí el pago de la semana». Paga 18,000 pesos. Horas después, el proveedor real llama preguntando por su dinero. Fue un fraude. Lupita entiende que la seguridad digital también es parte del negocio.`,
@@ -7292,7 +7292,7 @@ q: [["Si un «proveedor» pide por mensaje pagar a una cuenta nueva, lo correcto
 ["La verificación en dos pasos consiste en…",["Pedir un código adicional además de la contraseña","Usar dos contraseñas iguales","Tener dos celulares"],0,"Hace mucho más difícil robar una cuenta."],
 ["La regla de respaldos 3-2-1 significa…",["3 copias, en 2 medios distintos, 1 fuera del negocio","3 contraseñas, 2 usuarios, 1 computadora","3 días, 2 semanas, 1 mes"],0,"Y hay que probar la recuperación."],
 ["Un banco o una plataforma legítima…",["Nunca pide los códigos que te llegan por mensaje","Siempre los pide","Los pide por WhatsApp"],0,"Compartirlos permite robar la cuenta."]],
-t: ["Ciberseguridad","Phishing","Fraude del falso proveedor","Ransomware","Verificación en dos pasos","Respaldo 3-2-1","Condusef"]
+t: ["Ciberseguridad", "Phishing"]
 },
 "M15-7": {
 s: `Toño lee que la inteligencia artificial «va a cambiar todos los negocios». Prueba un asistente para escribir publicaciones y responder mensajes, y le sorprende lo rápido que funciona. Pero un día el asistente le dice a un cliente que hay una promoción que no existe. ¿Para qué sirven realmente los datos, la automatización y la IA en un negocio?`,
@@ -7387,6 +7387,6 @@ q: [["El camino correcto para usar datos es…",["Datos → información → con
 ["Conviene automatizar tareas que son…",["Repetitivas, basadas en reglas y propensas a errores","Únicas y que requieren mucho criterio","Ninguna"],0,"Así se libera tiempo para lo importante."],
 ["¿Cuál es un límite importante de la IA generativa?",["Puede inventar datos que suenan convincentes","Nunca se equivoca","No sabe escribir"],0,"Todo debe revisarlo una persona."],
 ["¿Qué NO conviene hacer con una herramienta de IA externa?",["Darle datos personales de clientes sin cuidar la ley y las condiciones de uso","Pedirle un borrador de una publicación","Pedirle ideas de promociones"],0,"Hay que proteger los datos personales y confidenciales."]],
-t: ["Inteligencia artificial","IA generativa","Automatización","Análisis de datos","Sistema de recomendación"]
+t: ["Inteligencia artificial", "IA generativa"]
 }
 });

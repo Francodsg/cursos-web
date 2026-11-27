@@ -83,7 +83,7 @@ q: [["El «alcance» de una empresa se refiere a…",["La variedad de negocios, 
 ["La lista Fortune Global 500 ordena a las empresas por…",["Sus ingresos","Su antigüedad","Su número de tiendas"],0,"Las 500 con más ingresos del mundo."],
 ["En una empresa gigante, el director general dirige sobre todo a través de…",["Estructuras, sistemas, personas y números","Conocer a cada empleado","Hacer él mismo las ventas"],0,"Nadie puede conocerlo todo."],
 ["¿Cuál es una desventaja frecuente de ser gigante?",["Lentitud y burocracia","Costos menores por unidad","Acceso a capital barato"],0,"Las otras dos son ventajas."]],
-t: ["Empresa gigante","Escala","Alcance","Multinacional","Fortune Global 500"]
+t: ["Empresa gigante", "Escala"]
 },
 "M23-2": {
 s: `El contador de Grupo Lupita le explica a Lupita que, por razones legales y fiscales, conviene tener varias empresas: una para los restaurantes, otra para las salsas, otra para los cafés, otra dueña de los inmuebles y otra dueña de la marca. «Y arriba de todas, una empresa controladora», dice. Lupita se marea: «¿Para qué tantas empresas si es un solo negocio?».`,
@@ -160,7 +160,7 @@ q: [["Una empresa controladora (holding) es…",["La empresa que controla a otra
 ["Normalmente, una empresa controla a otra cuando tiene…",["Más del 50 % de las acciones con voto","El 5 % de las acciones","Ninguna acción"],0,"También puede controlar por acuerdos especiales."],
 ["Los estados financieros consolidados…",["Suman las empresas del grupo eliminando las operaciones entre ellas","Solo muestran a la controladora","Suman todo sin eliminar nada"],0,"Así se ve el grupo como una sola entidad económica."],
 {n:1,t:"Una subsidiaria al 70 % gana 20 millones. ¿Cuántos millones corresponden a la participación no controladora?",a:6,tol:0,u:"millones",e:"30 % de 20 = 6 millones."}],
-t: ["Grupo empresarial","Empresa controladora","Subsidiaria","Empresa asociada","Estados financieros consolidados","Participación no controladora","Partes relacionadas"]
+t: ["Grupo empresarial", "Empresa controladora"]
 },
 "M23-3": {
 s: `En la junta mensual de Grupo Lupita, el director de restaurantes presume que sus ventas crecieron 12 %. El director de salsas dice que su margen es el mejor del grupo. El director de cafés pide más dinero para abrir locales. Lupita no sabe cómo comparar negocios tan distintos ni a quién darle el dinero. ¿Cómo se organiza y se mide cada negocio dentro de un gigante?`,
@@ -239,7 +239,7 @@ q: [["Una unidad de negocio tiene normalmente…",["Su propio director, estrateg
 ["Una cocina central que solo controla sus costos es un centro de…",["Costos","Inversión","Ingresos"],0,"Se mide por costo y eficiencia."],
 {n:1,t:"Una unidad gana 9 millones (después de impuestos) con un capital invertido de 30 millones. ¿Cuál es su rendimiento sobre el capital (en %)?",a:30,tol:0,u:"%",e:"9 ÷ 30 = 0.30 = 30 %."},
 ["Los precios de transferencia son…",["Los precios a los que se venden entre sí las unidades o empresas del grupo","Los precios para los clientes","Los precios de las acciones"],0,"Lo usual es que sean de mercado."]],
-t: ["Unidad de negocio","División","Segmento","Centro de responsabilidad","Rendimiento sobre el capital invertido","Precio de transferencia"]
+t: ["Unidad de negocio", "División"]
 },
 "M23-4": {
 s: `En Grupo Lupita, cada negocio tiene su propio contador, su propio encargado de nómina y su propio proveedor de sistemas. Cuando la directora de finanzas pide un reporte del grupo, tarda tres semanas en juntar la información. Además, los tres negocios negocian por separado con el mismo banco. ¿Qué debería hacer la oficina central y qué debería quedarse en cada negocio?`,
@@ -324,7 +324,7 @@ q: [["Una función típica del corporativo es…",["La asignación de capital en
 ["Los servicios compartidos concentran…",["Tareas repetitivas como contabilidad, nómina y sistemas para todas las unidades","La estrategia de cada producto","Las ventas a clientes"],0,"Aprovechan economías de escala."],
 ["Un riesgo de los corporativos grandes es…",["Que frenen a las unidades con procesos y reportes","Que ahorren demasiado","Que no tengan costos"],0,"Hay que preguntarse si agregan valor."],
 ["Un acuerdo de nivel de servicio sirve para…",["Fijar qué calidad y tiempos debe dar un servicio interno","Pagar impuestos","Contratar a un director"],0,"Las unidades actúan como clientes."]],
-t: ["Corporativo","Servicios compartidos","Asignación de capital","Acuerdo de nivel de servicio","Tercerización"]
+t: ["Corporativo", "Servicios compartidos"]
 },
 "M23-5": {
 s: `Grupo Lupita contrata una empresa para buscar directivos. La consultora pregunta: «¿Buscan un CFO, un COO o un CMO?». Lupita, que hasta ahora ha sido «la que decide todo», no conoce esas siglas. ¿Quiénes son los altos directivos de una empresa grande y qué hace cada uno?`,
@@ -415,7 +415,7 @@ q: [["El CFO es el director de…",["Finanzas","Marketing","Operaciones"],0,"Chi
 ["¿Ante quién rinde cuentas el director general?",["Ante el consejo de administración","Ante el director de marketing","Ante nadie"],0,"El consejo lo nombra y lo evalúa."],
 ["El director jurídico se encarga de…",["Asuntos legales, contratos, litigios y cumplimiento","La publicidad","La producción"],0,"A menudo también es secretario del consejo."],
 ["Los incentivos de largo plazo de los directivos buscan…",["Alinear sus intereses con los de los accionistas","Pagar menos impuestos","Reducir el sueldo"],0,"Suelen ser acciones u opciones."]],
-t: ["Director general","Director de finanzas","Director de operaciones","Director de marketing","Director de tecnología","Director jurídico","Alta dirección","Compensación de directivos"]
+t: ["Director general", "Director de finanzas"]
 },
 "M23-6": {
 s: `Para el próximo año, los directores de Grupo Lupita piden en total 180 millones de pesos para invertir: restaurantes quiere 100 para abrir 25 locales, cafés quiere 50 para crecer y salsas pide 30 para una nueva planta. Pero el grupo solo puede invertir 90 millones sin endeudarse de más. ¿Cómo decide un gigante a dónde va el dinero?`,
@@ -499,7 +499,7 @@ q: [["¿Quién aprueba normalmente el presupuesto anual de una empresa grande?",
 ["La asignación de capital consiste en…",["Decidir en qué se invierte el dinero disponible","Contar el efectivo de la caja","Pagar la nómina"],0,"Es de las decisiones más importantes de la dirección."],
 ["Un proyecto que rinde 9 % cuando el costo del capital es 12 %…",["Destruye valor aunque tenga utilidades","Siempre conviene","Rinde más de lo necesario"],0,"Debe superar el rendimiento mínimo."],
 ["Una tesorería centralizada sirve para…",["Reunir el efectivo del grupo y usarlo mejor","Vender más tortas","Contratar personal"],0,"También mejora la negociación con bancos."]],
-t: ["Presupuesto corporativo","Costo del capital","Tasa interna de retorno","Comité de inversiones","Tesorería centralizada"]
+t: ["Presupuesto corporativo", "Costo del capital"]
 },
 "M23-7": {
 s: `Un amigo de Toño le dice que Grupo Lupita debería comprar una constructora, una agencia de viajes y una distribuidora de autos «para diversificar». «Así, si un negocio va mal, los otros lo compensan», argumenta. Toño ha oído que algunos grupos gigantes hacen justo eso. Pero también ha leído que muchos inversionistas desconfían de los grupos con negocios muy distintos. ¿Qué es un conglomerado y cuándo funciona?`,
@@ -569,7 +569,7 @@ q: [["Un conglomerado es un grupo con negocios…",["Muy distintos entre sí","T
 ["El «descuento de conglomerado» significa que…",["El conglomerado vale en bolsa menos que la suma de sus partes","El conglomerado no paga impuestos","Sus productos son más baratos"],0,"Por dificultad de análisis, mala asignación de capital y costos."],
 ["Alphabet se creó en 2015 para…",["Separar Google de otros negocios más arriesgados («Otras apuestas»)","Vender tortas","Cerrar Google"],0,"Da transparencia y autonomía."],
 {n:1,t:"Las partes de un conglomerado valdrían 60,000 millones por separado y su valor en bolsa es 48,000. ¿Cuál es el descuento (en %)?",a:20,tol:0,u:"%",e:"(60,000 − 48,000) ÷ 60,000 = 20 %."}],
-t: ["Conglomerado","Diversificación relacionada","Diversificación no relacionada","Descuento de conglomerado"]
+t: ["Conglomerado", "Diversificación relacionada"]
 },
 "M23-8": {
 s: `Una gerente de Grupo Lupita tiene una idea: vender las salsas de la marca en los cafés del grupo. Para hacerlo necesita la aprobación del director de salsas, del director de cafés, de compras, de legal (por el etiquetado), de finanzas (por el precio interno) y del comité de dirección. Tres meses después, la idea sigue «en revisión». Un competidor pequeño ya lo hizo. ¿Qué le pasó a la empresa que antes era tan ágil?`,
@@ -648,7 +648,7 @@ q: [["Un silo en una empresa es…",["Un área que funciona aislada y no colabor
 ["Según Jeff Bezos, las decisiones reversibles deben…",["Tomarse rápido y por personas o equipos pequeños","Pasar siempre por el consejo","Evitarse"],0,"Son «puertas de dos sentidos»."],
 ["Una forma de reducir los silos es…",["Fijar metas compartidas entre áreas","Premiar solo las metas de cada área","Prohibir las reuniones"],0,"Obliga a colaborar."],
 ["La burocracia se vuelve dañina cuando…",["Las reglas dejan de servir a su propósito","Existe cualquier regla","La empresa tiene más de dos empleados"],0,"Las reglas útiles son necesarias en un gigante."]],
-t: ["Burocracia","Silo","Decisión reversible","Métodos ágiles","Equipo multifuncional"]
+t: ["Burocracia", "Silos"]
 }
 });
 
@@ -730,7 +730,7 @@ q: [["En el gobierno corporativo, ¿quién vigila a la dirección?",["El consejo
 ["¿Quién elige a los consejeros?",["La asamblea de accionistas","El director general","El auditor externo"],0,"Los dueños eligen al consejo."],
 ["El problema de separar propiedad y control fue descrito en 1932 por…",["Berle y Means","Ray Kroc","Michael Porter"],0,"En su estudio de las grandes empresas."],
 ["Un principio de buen gobierno es…",["Trato equitativo a todos los accionistas","Que el mayoritario decida sin informar","Ocultar información"],0,"Incluye a los minoritarios."]],
-t: ["Gobierno corporativo","Asamblea de accionistas","Consejo de administración","Rendición de cuentas","Consejo consultivo"]
+t: ["Gobierno corporativo", "Asamblea de accionistas"]
 },
 "M24-2": {
 s: `Llega la primera asamblea anual de accionistas de Grupo Lupita. Ramírez, con su 8 %, pregunta si puede proponer que se repartan más dividendos. El fondo quiere que sus acciones tengan derecho a veto en la venta de la empresa. Toño pregunta si sus acciones valen lo mismo que las de su mamá. ¿Qué derechos tiene cada accionista y cómo funciona la asamblea?`,
@@ -808,7 +808,7 @@ q: [["Las acciones preferentes suelen tener…",["Prioridad en dividendos o en l
 ["La asamblea ordinaria anual decide, entre otras cosas…",["Aprobar estados financieros y el reparto de dividendos","El menú del día","Los turnos de los empleados"],0,"También elige o ratifica al consejo."],
 ["Una fusión o un cambio de estatutos se decide en…",["Asamblea extraordinaria","Junta de cocina","El comité de marketing"],0,"Son decisiones que cambian la sociedad."],
 {n:1,t:"Un fundador tiene 400 acciones de 10 votos y los demás 600 acciones de 1 voto. ¿Qué porcentaje de los votos tiene el fundador? (redondea a entero)",a:87,tol:0.01,u:"%",e:"4,000 ÷ 4,600 = 86.96 % ≈ 87 %."}],
-t: ["Accionista","Acción ordinaria","Acción preferente","Acciones de voto múltiple","Asamblea ordinaria","Asamblea extraordinaria","Accionista minoritario","Dividendo"]
+t: ["Accionista", "Acción ordinaria"]
 },
 "M24-3": {
 s: `En la primera sesión del consejo de Grupo Lupita, Lupita presenta el presupuesto y los consejeros independientes hacen preguntas incómodas: «¿Por qué los cafés siguen perdiendo?», «¿Qué riesgos tiene la expansión?», «¿Quién la sustituiría si mañana no pudiera dirigir?». Lupita se pregunta qué es exactamente lo que debe hacer un consejo y qué no.`,
@@ -891,7 +891,7 @@ q: [["El deber de lealtad de un consejero implica…",["Actuar en interés de la
 ["El comité de auditoría vigila…",["La información financiera, el control interno y la auditoría","La publicidad","El menú"],0,"Debe estar formado por independientes."],
 ["¿Qué porcentaje mínimo de consejeros independientes exige la Ley del Mercado de Valores a las S.A.B. mexicanas?",["25 %","5 %","100 %"],0,"Con un máximo de 21 consejeros."],
 ["Un consejo que aprueba todo sin preguntar es…",["Un «sello de goma» que no cumple su función","Un buen consejo","Obligatorio por ley"],0,"Debe cuestionar y vigilar."]],
-t: ["Comité de auditoría","Comité de prácticas societarias","Deber de diligencia","Deber de lealtad","Conflicto de interés","Consejero patrimonial"]
+t: ["Comité de auditoría", "Comité de prácticas societarias"]
 },
 "M24-4": {
 s: `Para los dos lugares de consejeros independientes, Lupita propone a su compadre (que es su contador desde hace 20 años) y a una amiga que es dueña de la panadería que le surte pan. El fondo rechaza a ambos: «No son independientes». Lupita no entiende: «Son personas honestas, ¿qué más quieren?».`,
@@ -973,7 +973,7 @@ q: [["Un consejero independiente es alguien…",["Sin vínculos que puedan afect
 ["¿Puede ser independiente un proveedor importante de la empresa?",["No, tiene un conflicto de interés","Sí, siempre","Solo los lunes"],0,"Lo excluyen la ley y el sentido común."],
 ["Una razón por la que existen los independientes es…",["Proteger a los accionistas minoritarios","Aumentar los costos","Reemplazar al director general"],0,"Y vigilar a la dirección."],
 ["Un límite de los independientes es que…",["Dependen de la información que les da la dirección","Lo saben todo de la empresa","No tienen ninguna responsabilidad"],0,"Si se oculta información, pueden ser engañados."]],
-t: ["Consejero independiente","Matriz de habilidades","Comité de nominación"]
+t: ["Consejero independiente", "Matriz de habilidades"]
 },
 "M24-5": {
 s: `Dos años después, Grupo Lupita contrata a un director general externo, el licenciado Ortega, para que Lupita se dedique a presidir el consejo. Ortega prometió crecer 20 % al año, pero en 18 meses las ventas mismas tiendas bajaron, dos directores renunciaron y hay quejas de los franquiciatarios. Lupita, como presidenta del consejo, se pregunta: «¿Quién decide si Ortega se queda o se va? ¿Y cómo se hace bien?».`,
@@ -1056,7 +1056,7 @@ q: [["¿Quién nombra y puede remover al director general?",["El consejo de admi
 ["Un plan de sucesión de emergencia sirve para…",["Saber quién toma el cargo si el director general falta de repente","Elegir el menú","Pagar dividendos"],0,"Evita que la empresa quede sin dirección."],
 ["Un riesgo de que una misma persona sea presidente del consejo y director general es…",["Que concentre demasiado poder sin contrapesos","Que haya demasiada vigilancia","Que la empresa no tenga director"],0,"Por eso se recomienda separar o tener un independiente líder."],
 {n:1,t:"Un director general cumple 100 % de una meta que pesa 40 %, 50 % de otra que pesa 40 % y 0 % de una que pesa 20 %. ¿Cuál es su cumplimiento ponderado (en %)?",a:60,tol:0,u:"%",e:"0.40 × 100 + 0.40 × 50 + 0.20 × 0 = 40 + 20 + 0 = 60 %."}],
-t: ["Plan de sucesión","Evaluación del director general","Consejero independiente líder","Cláusula de recuperación"]
+t: ["Plan de sucesión", "Evaluación del director general"]
 },
 "M24-6": {
 s: `El nuevo director general de Grupo Lupita recibe un bono si la utilidad del año supera 60 millones. En noviembre, para alcanzar la meta, recorta el mantenimiento de los locales, pospone la capacitación y presiona a los franquiciatarios para que compren más inventario. La utilidad llega a 61 millones y cobra su bono. Al año siguiente, los locales están deteriorados y las ventas caen. ¿Qué pasó?`,
@@ -1137,7 +1137,7 @@ q: [["En el problema de agencia de una empresa, el «agente» es…",["El direct
 ["Recortar el mantenimiento para cobrar el bono de este año es un ejemplo de…",["Cortoplacismo","Diversificación","Gobierno corporativo"],0,"Se sacrifica el futuro por los números del año."],
 ["En muchas empresas latinoamericanas, un conflicto de agencia frecuente es entre…",["El accionista mayoritario y los minoritarios","Clientes y proveedores","Dos sucursales"],0,"El mayoritario puede beneficiarse a costa de los demás."],
 ["Un mecanismo para alinear al directivo con los dueños es…",["Pagarle parte del bono en acciones que recibe en varios años","Pagarle solo un bono diario","No evaluarlo"],0,"Así piensa en el largo plazo."]],
-t: ["Problema de agencia","Principal","Agente","Costos de agencia","Cortoplacismo","Asimetría de información"]
+t: ["Problema de agencia", "Principal"]
 },
 "M24-7": {
 s: `Lupita tiene 68 años. Sus tres hijos tienen intereses distintos: Toño quiere dirigir el grupo, Ana es médica y no quiere trabajar en la empresa pero sí recibir dividendos, y el menor quiere entrar a trabajar sin experiencia. Ya hay nietos. Lupita teme que, cuando ella falte, la familia se pelee y la empresa se destruya. ¿Cómo gobiernan las familias sus empresas cuando son grandes?`,
@@ -1220,7 +1220,7 @@ q: [["El protocolo familiar es…",["Un acuerdo escrito con las reglas de relaci
 ["El consejo de familia se ocupa de…",["Los temas de la familia como dueña, el protocolo y los conflictos familiares","La estrategia de la empresa","La contabilidad mensual"],0,"Es distinto del consejo de administración."],
 ["Una buena práctica para el empleo de familiares es…",["Exigir preparación y experiencia previa fuera de la empresa","Darles el puesto que pidan","Prohibirles cualquier participación"],0,"Y evaluarlos como a cualquier empleado."],
 ["En la sucesión de una empresa familiar conviene separar…",["La sucesión de la propiedad de la sucesión de la dirección","El logo de la marca","Las ventas de los costos"],0,"Quien hereda acciones no tiene que dirigir."]],
-t: ["Empresa familiar","Protocolo familiar","Consejo de familia","Asamblea familiar","Oficina familiar"]
+t: ["Empresa familiar", "Protocolo familiar"]
 },
 "M24-8": {
 s: `Grupo Lupita evalúa salir a bolsa en unos años (Módulo 25). El abogado explica que, para hacerlo, la empresa tendría que convertirse en una «S.A.B.», cumplir la Ley del Mercado de Valores y seguir el «Código de Mejores Prácticas». Lupita pregunta: «¿Qué nos exigiría la ley que hoy no hacemos?».`,
@@ -1300,7 +1300,7 @@ q: [["¿Cuál es el número máximo de consejeros de una S.A.B. según la Ley de
 ["El Código de Principios y Mejores Prácticas del CCE es…",["Un conjunto de recomendaciones voluntarias","Una ley penal","Un reglamento de tránsito"],0,"Las emisoras informan en qué medida lo siguen."],
 ["Un «evento relevante» es…",["Un hecho que puede influir en el precio de la acción y debe informarse","Una fiesta de la empresa","Una junta semanal"],0,"Se informa al mercado de forma oportuna."],
 ["La Ley Sarbanes-Oxley se aprobó en Estados Unidos en 2002 tras…",["Los escándalos de Enron y WorldCom","La salida a bolsa de Google","La crisis de 2008"],0,"Reforzó la responsabilidad sobre la información financiera."]],
-t: ["Ley del Mercado de Valores","Sociedad anónima bursátil","S.A.P.I.","Código de Principios y Mejores Prácticas","Evento relevante","Información privilegiada","CNBV","NIIF"]
+t: ["Ley del Mercado de Valores", "Sociedad anónima bursátil"]
 },
 "M24-9": {
 s: `Toño lee sobre Enron, Wirecard y WeWork, y se sorprende: eran empresas con consejos, auditores y miles de millones de dólares de inversionistas. «¿Cómo nadie se dio cuenta?», pregunta. Lupita, ya como presidenta del consejo, quiere entender qué falló para que no le pase a Grupo Lupita.`,
@@ -1382,7 +1382,7 @@ q: [["Una falla central en el caso Enron fue…",["Usar entidades fuera del bala
 ["En 2020, Wirecard reconoció que…",["Unos 1,900 millones de euros de su balance probablemente no existían","Había ganado un premio","Había comprado Google"],0,"Se declaró en insolvencia días después."],
 ["Una de las preocupaciones sobre WeWork al intentar salir a bolsa en 2019 fue…",["El control del fundador con acciones de voto múltiple y sus conflictos de interés","Que no tenía oficinas","Que era demasiado rentable"],0,"La salida a bolsa se canceló."],
 ["¿Qué ley se aprobó en Estados Unidos tras Enron y WorldCom?",["La Ley Sarbanes-Oxley","La Ley del Mercado de Valores de México","El T-MEC"],0,"En 2002."]],
-t: ["Escándalo corporativo","Entidad fuera del balance","Canal de denuncias","Vendedor en corto","Ley Sarbanes-Oxley"]
+t: ["Escándalo corporativo", "Entidad fuera del balance"]
 }
 });
 
@@ -1471,7 +1471,7 @@ q: [["Tener una acción te convierte en…",["Socio de la empresa","Prestamista 
 {n:1,t:"Compras una acción a 50, recibes 2 de dividendo y la vendes a 55. ¿Cuál es tu rendimiento (en %)?",a:14,tol:0,u:"%",e:"(55 − 50 + 2) ÷ 50 = 14 %."},
 ["Si una empresa quiebra, ¿quién cobra primero?",["Los acreedores, como los tenedores de bonos","Los accionistas","Nadie cobra nunca"],0,"Los accionistas cobran al final, si queda algo."],
 ["Diversificar significa…",["Repartir la inversión entre muchas empresas o activos","Invertir todo en la acción de moda","No invertir nunca"],0,"Reduce el riesgo de depender de una sola empresa."]],
-t: ["Acción","Bono","Ganancia de capital","Rendimiento","Casa de bolsa","Fondo de inversión","Diversificación"]
+t: ["Acción", "Bono"]
 },
 "M25-2": {
 s: `El fondo de capital privado que tiene el 20 % de Grupo Lupita quiere vender su parte en dos años. Una opción es que Grupo Lupita **salga a bolsa**: venda acciones al público. El banco de inversión dice que es posible, pero que el proceso tarda más de un año, cuesta mucho y cambia para siempre la forma de operar. ¿Por qué y cómo sale una empresa a bolsa?`,
@@ -1556,7 +1556,7 @@ q: [["En una oferta secundaria, el dinero va a…",["Los accionistas que venden"
 ["El documento con toda la información de la empresa para la oferta se llama…",["Prospecto","Factura","Organigrama"],0,"Se revisa con el regulador."],
 ["En México, la autoridad que autoriza las ofertas públicas es…",["La CNBV","La Profeco","El IMSS"],0,"Comisión Nacional Bancaria y de Valores."],
 ["Una desventaja de cotizar en bolsa es…",["La transparencia obligatoria y la presión de corto plazo","Tener más acceso a capital","Dar liquidez a los accionistas"],0,"Las otras dos son ventajas."]],
-t: ["Oferta pública inicial","Oferta primaria","Oferta secundaria","Prospecto","Banco de inversión","Indeval","Liquidez"]
+t: ["Oferta pública inicial", "Oferta primaria"]
 },
 "M25-3": {
 s: `Si Grupo Lupita sale a bolsa algún día, ¿en cuál? El banco menciona la BMV y BIVA en México, y la Bolsa de Nueva York o Nasdaq en Estados Unidos. Toño pregunta: «¿No es lo mismo una bolsa que otra? ¿Por qué hay tantas?».`,
@@ -1637,7 +1637,7 @@ q: [["En el mercado secundario…",["Los inversionistas se compran y venden valo
 ["¿Cuál es la segunda bolsa de valores de México, que empezó a operar en 2018?",["BIVA","Nasdaq","NYSE"],0,"Bolsa Institucional de Valores."],
 ["El S&P/BMV IPC es…",["El principal índice de la Bolsa Mexicana de Valores","Un impuesto","Una casa de bolsa"],0,"Agrupa a las empresas más grandes y con más operaciones."],
 ["El SIC en México permite…",["Comprar y vender acciones extranjeras en pesos","Registrar marcas","Pagar el IMSS"],0,"Sistema Internacional de Cotizaciones."]],
-t: ["Bolsa de valores","Mercado primario","Mercado secundario","Bolsa Mexicana de Valores","BIVA","Índice bursátil","Sistema Internacional de Cotizaciones","ADR"]
+t: ["Bolsa de valores", "Mercado primario"]
 },
 "M25-4": {
 s: `Lupita quiere aprender de las empresas que cotizan en bolsa y descarga el informe anual de una gran empresa mexicana. Tiene 300 páginas. Lo abre, ve tablas interminables, notas, glosarios… y lo cierra. «¿Por dónde se empieza a leer esto?», se pregunta.`,
@@ -1728,7 +1728,7 @@ q: [["¿Qué conviene leer primero en un informe anual?",["El comunicado de resu
 ["La sección de «factores de riesgo» explica…",["Qué podría salir mal para la empresa","Los premios que ganó","El menú del comedor"],0,"Es muy útil para entender el negocio."],
 {n:1,t:"Una empresa tiene deuda neta de 16,500 millones y un EBITDA de 8,250 millones. ¿Cuántas veces es la deuda neta su EBITDA?",a:2,tol:0,u:"veces",e:"16,500 ÷ 8,250 = 2.0 veces."},
 ["En Estados Unidos, el reporte anual de una empresa pública ante la SEC se llama…",["10-K","8-K","W-2"],0,"El trimestral es el 10-Q."]],
-t: ["Reporte trimestral","Reporte anual","Informe integrado","Relación con inversionistas","Deuda neta","Factores de riesgo","Cifras ajustadas"]
+t: ["Reporte trimestral", "Reporte anual"]
 },
 "M25-5": {
 s: `Una mañana, Toño ve que la acción de una cadena de restaurantes que cotiza en bolsa cayó 12 % en un día. La empresa ganó dinero en el trimestre, más que el año anterior. «¿Cómo puede bajar si ganó más?», pregunta. Lupita tampoco lo entiende. ¿Qué determina el valor de mercado de una empresa?`,
@@ -1817,7 +1817,7 @@ q: [{n:1,t:"Una empresa tiene 100 millones de acciones que valen 50 pesos cada u
 ["¿Por qué puede bajar una acción aunque la empresa haya ganado más?",["Porque los inversionistas esperaban todavía más o el futuro se ve peor","Porque la bolsa está cerrada","Porque las acciones nunca bajan"],0,"El precio refleja expectativas."],
 {n:1,t:"Una acción vale 120 y la empresa gana 4 pesos por acción al año. ¿Cuál es su precio-utilidad?",a:30,tol:0,u:"veces",e:"120 ÷ 4 = 30."},
 ["Cuando suben las tasas de interés, las acciones tienden a…",["Valer menos","Valer más siempre","No cambiar nunca"],0,"El dinero seguro rinde más."]],
-t: ["Valor de mercado","Precio-utilidad","Utilidad por acción","Burbuja"]
+t: ["Valor de mercado", "Precio-utilidad"]
 },
 "M25-6": {
 s: `Ana, la hermana de Toño, tiene acciones de Grupo Lupita pero no trabaja ahí. Pregunta: «Si la empresa gana tanto, ¿por qué no reparte más dividendos?». El director de finanzas propone otra opción: «En lugar de dividendos, podríamos recomprar acciones». Ana no entiende qué es eso ni por qué sería bueno para ella.`,
@@ -1903,7 +1903,7 @@ q: [["Un dividendo lo decreta normalmente…",["La asamblea de accionistas","El 
 {n:1,t:"Una acción vale 50 y paga 2 pesos de dividendo al año. ¿Cuál es su rendimiento por dividendo (en %)?",a:4,tol:0,u:"%",e:"2 ÷ 50 = 4 %."},
 ["Una recompra de acciones…",["Reduce el número de acciones en circulación","Aumenta el número de acciones","Es un préstamo a la empresa"],0,"Cada acción que queda representa una parte mayor."],
 {n:1,t:"Una empresa gana 1,000 millones y tiene 90 millones de acciones tras una recompra. ¿Cuál es su utilidad por acción? (dos decimales)",a:11.11,tol:0.001,u:"pesos",e:"1,000 ÷ 90 = 11.11."}],
-t: ["Recompra de acciones","Rendimiento por dividendo","Proporción de pago","Fondo de recompra","Política de dividendos"]
+t: ["Recompra de acciones", "Rendimiento por dividendo"]
 },
 "M25-7": {
 s: `Toño descubre que algunas de las empresas más grandes del mundo, como Cargill o Mars, no cotizan en bolsa. También lee que un fondo compró una gran cadena de restaurantes, la sacó de la bolsa y la reestructuró. «¿Por qué una empresa gigante no querría cotizar? ¿Y qué hacen esos fondos?», pregunta.`,
@@ -1991,7 +1991,7 @@ q: [["¿Cuál de estas es una ventaja de ser una empresa privada?",["Menos presi
 ["En una compra apalancada, la mayor parte del precio se paga con…",["Deuda que normalmente queda a cargo de la empresa comprada","Donaciones","Acciones del gobierno"],0,"El fondo pone una parte con su propio dinero."],
 {n:1,t:"Un fondo invierte 400 millones y al vender recibe 1,300 millones. ¿Cuál es su múltiplo sobre lo invertido?",a:3.25,tol:0,u:"veces",e:"1,300 ÷ 400 = 3.25."},
 ["Una crítica frecuente al capital privado es…",["El uso de deuda alta que puede hundir a la empresa en una crisis","Que nunca vende sus empresas","Que no invierte dinero"],0,"El apalancamiento multiplica el riesgo."]],
-t: ["Empresa privada","Capital privado","Compra apalancada","Presupuesto base cero","Fondo soberano"]
+t: ["Empresa privada", "Capital privado"]
 }
 });
 
@@ -2070,7 +2070,7 @@ q: [["Las estrategias genéricas de Porter son…",["Liderazgo en costos, difere
 ["Una aerolínea de bajo costo sigue sobre todo una estrategia de…",["Liderazgo en costos","Diferenciación por lujo","Integración vertical"],0,"Precios bajos con costos muy bajos."],
 ["Quedar «atrapado en medio» significa…",["No tener ninguna ventaja clara por querer ser todo para todos","Tener la mejor ventaja","Estar en el centro de la ciudad"],0,"Ni el más barato ni el más especial."],
 ["Una ventaja es más sostenible cuando…",["Es difícil de copiar por los competidores","Es una promoción de una semana","Cualquiera la puede imitar"],0,"Como la escala, la marca o el efecto red."]],
-t: ["Ventaja competitiva","Liderazgo en costos","Diferenciación","Estrategia de enfoque","Cadena de valor","Foso competitivo","Costos de cambio"]
+t: ["Ventaja competitiva", "Liderazgo en costos"]
 },
 "M26-2": {
 s: `Grupo Lupita compra la carne a 180 pesos el kilo. Una cadena nacional de comida rápida, que compra cien veces más, la consigue a 140. Además, reparte el costo de su publicidad en televisión entre 2,000 locales, mientras Grupo Lupita apenas puede pagar anuncios en redes sociales para 60. «¿Cómo competimos contra eso?», se pregunta Toño.`,
@@ -2150,7 +2150,7 @@ q: [["Las economías de escala significan que…",["El costo por unidad baja al 
 ["Vender pan, galletas y botanas en el mismo camión de reparto es un ejemplo de…",["Economías de alcance","Deseconomías de escala","Dilución"],0,"Varios productos comparten recursos."],
 {n:1,t:"Una planta tiene costos fijos de 600,000 al mes y un costo variable de 10 por frasco. ¿Cuál es el costo total por frasco si produce 60,000 frascos?",a:20,tol:0,u:"pesos",e:"600,000 ÷ 60,000 = 10 + 10 = 20."},
 ["Las deseconomías de escala aparecen por…",["Problemas de coordinación y burocracia al crecer demasiado","Tener pocos clientes","Comprar más barato"],0,"El costo por unidad puede subir."]],
-t: ["Economías de escala","Economías de alcance","Curva de experiencia","Deseconomías de escala","Tamaño mínimo eficiente"]
+t: ["Economías de escala", "Economías de alcance"]
 },
 "M26-3": {
 s: `Un inversionista le pregunta a Lupita: «¿Es atractiva la industria de la comida rápida en México? ¿Cuánto poder tienen tus proveedores y tus clientes? ¿Qué tan fácil es que llegue un nuevo competidor?». Lupita nunca había pensado en su negocio como parte de una «industria». ¿Cómo se analiza si una industria es atractiva?`,
@@ -2227,7 +2227,7 @@ q: [["¿Cuál NO es una de las cinco fuerzas de Porter?",["El número de emplead
 ["Las barreras de entrada afectan a la fuerza de…",["Amenaza de nuevos competidores","Poder de los clientes","Sustitutos"],0,"Si son altas, es difícil entrar."],
 ["Para una tortería, la comida casera es un ejemplo de…",["Producto sustituto","Proveedor","Barrera de entrada"],0,"Satisface la misma necesidad desde otra industria."],
 ["Si los proveedores tienen mucho poder, una respuesta posible es…",["Buscar alternativas o integrarse hacia atrás","Pagar lo que pidan sin discutir","Cerrar la empresa"],0,"Así se reduce la dependencia."]],
-t: ["Cinco fuerzas","Barreras de entrada","Producto sustituto","Poder de negociación","Rivalidad competitiva"]
+t: ["Cinco fuerzas", "Barreras de entrada"]
 },
 "M26-4": {
 s: `Toño quiere crear una app donde cualquier fonda o tortería de la ciudad pueda vender comida casera para llevar, no solo Tortas Lupita. «Sería como un Mercado Libre de la comida casera», dice. Un amigo le advierte: «Las plataformas son el mejor negocio del mundo… para el que gana. Los demás pierden todo». ¿Qué tienen de especial las plataformas?`,
@@ -2303,7 +2303,7 @@ q: [["Una plataforma se diferencia de un negocio tradicional en que…",["Conect
 ["El efecto red significa que…",["El valor del servicio aumenta cuando hay más usuarios","El servicio cuesta más con más usuarios","La red de computadoras es rápida"],0,"Puede ser directo o indirecto."],
 ["Más compradores atraen más vendedores y viceversa: es un efecto red…",["Indirecto o cruzado","Directo","Negativo"],0,"Entre lados distintos de la plataforma."],
 ["Un riesgo para una plataforma es la «multiconexión», que significa…",["Que los usuarios usan varias plataformas a la vez","Que tiene muchos servidores","Que cobra muchas comisiones"],0,"Debilita la protección del efecto red."]],
-t: ["Plataforma","Mercado de dos lados","Efecto red","Multiconexión","Desintermediación"]
+t: ["Plataforma", "Mercado de dos lados"]
 },
 "M26-5": {
 s: `En el supermercado, Lupita cuenta en el pasillo de galletas 40 marcas distintas. Descubre que casi todas pertenecen a solo cuatro empresas. Lo mismo pasa con los refrescos, los jabones y los cereales. «Pensé que había mucha competencia», le dice a Toño. «¿Por qué una empresa tendría tantas marcas que compiten entre sí?».`,
@@ -2377,7 +2377,7 @@ q: [["Una empresa tiene una marca económica y otra premium del mismo producto p
 ["Usar el nombre de la empresa en todos sus productos es una estrategia de…",["Marca paraguas","Marcas independientes","Marca blanca"],0,"Aprovecha la reputación de la empresa."],
 ["Un ecosistema de negocios aumenta…",["Los costos de cambio del cliente","El número de competidores","Los impuestos"],0,"Es más difícil irse si se usan varios productos."],
 ["En la matriz del BCG, un negocio con alta participación en un mercado que crece poco es una…",["Vaca lechera","Estrella","Interrogante"],0,"Genera efectivo con poca inversión."]],
-t: ["Portafolio de marcas","Marca paraguas","Marca respaldada","Ecosistema de negocios","Matriz BCG"]
+t: ["Portafolio de marcas", "Marca paraguas"]
 },
 "M26-6": {
 s: `Una nueva app de «tortas por suscripción» promete al cliente una torta diaria por un precio mensual fijo, con entrega a domicilio. Empezó con pocos clientes y Grupo Lupita la ignoró. Dos años después tiene 20,000 suscriptores en la ciudad y está quitándole clientes de oficinas. Lupita se pregunta: «¿Cómo es que no lo vimos venir?».`,
@@ -2451,7 +2451,7 @@ q: [["Según Christensen, una innovación disruptiva suele empezar…",["Más se
 ["El «dilema del innovador» es que el líder fracasa por…",["Escuchar solo a sus mejores clientes y buscar los mayores márgenes","No tener dinero","Innovar demasiado"],0,"Hace lo que parecía correcto."],
 ["Una forma de que una empresa grande innove es…",["Crear una unidad independiente para el proyecto nuevo","Medirlo igual que el negocio maduro","Prohibir la canibalización"],0,"Con sus propias metas y reglas."],
 ["La ambidestreza organizacional es…",["Explotar el negocio actual y explorar nuevos negocios al mismo tiempo","Escribir con las dos manos","Tener dos directores generales"],0,"Concepto de O'Reilly y Tushman."]],
-t: ["Innovación incremental","Innovación disruptiva","Dilema del innovador","Ambidestreza organizacional","Innovación en el modelo de negocio"]
+t: ["Innovación incremental", "Innovación disruptiva"]
 },
 "M26-7": {
 s: `Un inversionista de Estados Unidos ofrece llevar Grupo Lupita a Texas, California y Chicago. «Las tortas son mexicanas: allá hay que venderlas igual que aquí, la autenticidad es lo que vende», dice uno. «No, hay que adaptarlas al gusto de allá», dice otro. ¿Cómo deciden las empresas gigantes cuánto adaptar y cuánto mantener igual en cada país?`,
@@ -2537,7 +2537,7 @@ q: [["Una empresa que vende el mismo producto en todo el mundo con decisiones ce
 ["Una estrategia transnacional busca…",["Combinar eficiencia global con adaptación local","No adaptar nada","Operar solo en un país"],0,"Según Bartlett y Ghoshal."],
 ["Los alimentos suelen requerir más…",["Adaptación local","Estandarización total","Ninguna adaptación"],0,"Están muy ligados a la cultura y los gustos."],
 ["¿Qué suelen estandarizar las multinacionales?",["La marca principal, los procesos de calidad y los sistemas","Siempre los sabores","Siempre la publicidad"],0,"Lo visible para el cliente se adapta más."]],
-t: ["Estrategia global","Estrategia multidoméstica","Estrategia transnacional","Adaptación local","Integración global"]
+t: ["Estrategia global", "Estrategia multidoméstica"]
 },
 "M26-8": {
 s: `Grupo Lupita quiere comprar a su principal competidor en el norte de la ciudad, una cadena de 25 torterías. Juntas tendrían el 60 % de las torterías de cadena en esa zona. El abogado advierte: «Quizá tengamos que notificar la operación a la autoridad de competencia, y podrían condicionarla». Toño se sorprende: «¿El gobierno puede impedir que compremos una empresa?».`,
@@ -2604,7 +2604,7 @@ q: [["Un acuerdo entre competidores para fijar precios es…",["Una práctica mo
 ["Ser una empresa muy grande…",["No es ilegal por sí mismo; lo ilegal son ciertas conductas","Siempre es ilegal","Está prohibido en México"],0,"Se sancionan abusos y cárteles."],
 ["El «mercado relevante» es…",["El producto y el área donde se analiza la competencia","El mercado de abastos","El mercado de valores"],0,"Definirlo bien es clave."],
 ["Antes de cerrar una fusión grande, muchas veces hay que…",["Notificarla a la autoridad de competencia","Pedir permiso a los clientes","Cerrar las tiendas"],0,"La autoridad puede autorizar, condicionar o negar."]],
-t: ["Competencia económica","Monopolio","Oligopolio","Cártel","Práctica monopólica relativa","Mercado relevante","Concentración económica","Cofece"]
+t: ["Competencia económica", "Monopolio"]
 }
 });
 
@@ -2701,7 +2701,7 @@ q: [["La relación entre ley y ética es que…",["La ley es el mínimo; lo éti
 ["La «prueba del periódico» consiste en preguntarse…",["Si te sentirías cómodo si tu decisión apareciera en la primera plana","Cuánto cuesta un anuncio","Qué dice el horóscopo"],0,"Ayuda a ver la decisión desde fuera."],
 ["El «tono desde arriba» se refiere a…",["El ejemplo ético que dan los líderes de la empresa","El volumen de la música","El tono de voz del director"],0,"La ética se aprende viendo a los jefes."],
 ["El caso Wells Fargo muestra que…",["Metas de ventas agresivas pueden empujar a conductas no éticas","Las metas siempre son buenas","Los bancos no tienen reguladores"],0,"Los incentivos deben ser coherentes con la ética."]],
-t: ["Ética empresarial","Código de conducta","Tono desde arriba","Dilema ético","Prueba del periódico"]
+t: ["Ética empresarial", "Código de conducta"]
 },
 "M27-2": {
 s: `Un fondo de inversión internacional quiere invertir en Grupo Lupita, pero antes envía un cuestionario de 80 preguntas sobre «criterios ASG»: consumo de agua y energía, residuos, empaques de plástico, salarios, igualdad de género, rotación, seguridad de los alimentos, independencia del consejo, ética… Lupita se sorprende: «Pensé que solo les importaban las utilidades».`,
@@ -2785,7 +2785,7 @@ q: [["ASG significa…",["Ambiental, Social y de Gobierno corporativo","Ahorro, 
 ["El «lavado verde» es…",["Presumir acciones ambientales exageradas o falsas","Lavar los uniformes","Una técnica de limpieza"],0,"Daña la credibilidad y puede ser sancionado."],
 ["Según Milton Friedman (1970), la responsabilidad social de la empresa es…",["Aumentar sus utilidades dentro de las reglas del juego","Donar todas sus utilidades","No pagar impuestos"],0,"Otros autores proponen considerar a todas las partes interesadas."],
 ["El «valor compartido» de Porter y Kramer busca…",["Crear valor económico para la empresa creando valor para la sociedad","Repartir todas las acciones","Bajar los sueldos"],0,"Integra la responsabilidad en la estrategia."]],
-t: ["Responsabilidad social empresarial","Criterios ASG","Partes interesadas","Lavado verde","Valor compartido","Informe de sostenibilidad"]
+t: ["Responsabilidad social empresarial", "Criterios ASG"]
 },
 "M27-3": {
 s: `Para abrir un local en una plaza nueva, un funcionario municipal le insinúa al gerente de expansión de Grupo Lupita que «la licencia puede tardar seis meses… o una semana, si nos ayudamos». En otra ciudad, un intermediario ofrece «arreglar» los permisos de Protección Civil a cambio de una «comisión». ¿Qué debe hacer la empresa, y qué riesgo corre si acepta?`,
@@ -2863,7 +2863,7 @@ q: [["Dar dinero a un funcionario para acelerar un trámite es…",["Corrupción
 ["En México, la Ley General de Responsabilidades Administrativas puede sancionar…",["También a las empresas por faltas graves como el soborno","Solo a los funcionarios","A nadie"],0,"Y valora si la empresa tiene una política de integridad."],
 ["La FCPA es…",["Una ley de Estados Unidos contra el soborno de funcionarios extranjeros","Un impuesto mexicano","Una norma de etiquetado"],0,"Aprobada en 1977."],
 ["Una medida clave de un programa de integridad es…",["Revisar a los intermediarios y terceros antes de contratarlos","Pagar a cualquier gestor que prometa rapidez","No tener controles"],0,"Muchos sobornos ocurren a través de terceros."]],
-t: ["Corrupción","Soborno","Pago de facilitación","Programa de integridad","Debida diligencia de terceros","Lavado de dinero","Sistema Nacional Anticorrupción"]
+t: ["Corrupción", "Soborno"]
 },
 "M27-4": {
 s: `Un sábado por la mañana, en una sucursal de Grupo Lupita, doce clientes presentan síntomas de intoxicación después de comer. Dos terminan en el hospital. A mediodía, un video de un cliente enfermo ya tiene 200,000 reproducciones con la frase «No coman en Tortas Lupita». Los periodistas llaman. Lupita tiene que decidir qué hacer en las próximas horas.`,
@@ -2953,7 +2953,7 @@ q: [["En una crisis, lo primero es…",["Proteger a las personas y detener el ri
 ["¿Cuándo conviene dar el primer mensaje público?",["Pronto, aunque no se tenga toda la información","Cuando se sepa absolutamente todo, aunque pasen semanas","Nunca"],0,"Con lo que se sabe, lo que se hace y cuándo habrá más información."],
 ["El caso Tylenol (1982) se cita como ejemplo de…",["Una buena gestión de crisis que puso primero la seguridad","Un fraude contable","Una fusión exitosa"],0,"Retiró unos 31 millones de frascos."],
 ["Un error común en una crisis es…",["Negar o minimizar lo que es evidente","Mostrar empatía con los afectados","Cooperar con las autoridades"],0,"Agrava el daño a la reputación."]],
-t: ["Crisis","Reputación","Plan de crisis","Comité de crisis","Vocero","Retiro de producto"]
+t: ["Crisis", "Reputación"]
 },
 "M27-5": {
 s: `En la junta de consejo, un consejero independiente dice: «Hace veinte años, Kodak, Blockbuster y Nokia eran gigantes que parecían invencibles. Hoy, dos casi desaparecieron y la tercera ya no hace teléfonos. ¿Qué nos garantiza que no nos pasará algo parecido con las apps y la comida por suscripción?». Nadie responde. ¿Qué les pasó a esos gigantes?`,
@@ -3015,7 +3015,7 @@ q: [["¿En qué año, según la historia de Kodak, uno de sus ingenieros constru
 ["¿En qué año se declaró Blockbuster en quiebra?",["2010","1997","2020"],0,"En septiembre de 2010."],
 ["¿Qué hizo Nokia con su negocio de teléfonos?",["Lo vendió a Microsoft (operación completada en 2014)","Lo cerró en 1990","Lo vendió a Kodak"],0,"Después se enfocó en redes."],
 ["Un patrón común de los tres casos es que…",["Vieron el cambio, pero reaccionaron tarde por su modelo de negocio y su estructura","Nunca supieron de la nueva tecnología","Eran empresas pequeñas"],0,"Le puede pasar incluso a empresas bien dirigidas."]],
-t: ["Obsolescencia","Reinvención empresarial","Capítulo 11"]
+t: ["Obsolescencia", "Reinvención empresarial"]
 },
 "M27-6": {
 s: `Un proveedor importante de Grupo Lupita, una distribuidora de alimentos con 40 años de historia, anuncia que entró en «concurso mercantil». Lupita no sabe si eso significa que cerrará, si le pagarán lo que le deben o si tiene que buscar otro proveedor ya. ¿Qué pasa cuando una gran empresa no puede pagar sus deudas?`,
@@ -3091,7 +3091,7 @@ q: [["En México, la ley que regula la insolvencia de las empresas es…",["La L
 ["La etapa de conciliación del concurso mercantil busca…",["Un convenio con los acreedores para que la empresa siga operando","Vender todo de inmediato","Cerrar sin pagar"],0,"Si no hay acuerdo, se declara la quiebra."],
 ["¿Cuándo suspendió vuelos Mexicana de Aviación?",["El 28 de agosto de 2010","En 1921","En 2023"],0,"Tras solicitar el concurso mercantil."],
 ["En una liquidación, normalmente los accionistas…",["Cobran al final, si sobra algo (casi siempre nada)","Cobran primero","Cobran lo mismo que los trabajadores"],0,"Están al final del orden de pago."]],
-t: ["Insolvencia","Concurso mercantil","Quiebra","Reestructura","Prelación","Liquidación"]
+t: ["Insolvencia", "Concurso mercantil"]
 },
 "M27-7": {
 s: `Al terminar el módulo, Lupita le pide a su equipo un documento de una página: «¿Por qué caen los gigantes y qué haremos para que no nos pase?». Toño revisa todos los casos del curso: Enron, Wirecard, WeWork, Kodak, Blockbuster, Nokia, Mexicana, GM, Target en Canadá, Cemex… y busca lo que tienen en común.`,
@@ -3181,7 +3181,7 @@ q: [["Según Jim Collins, la primera etapa del declive es…",["La arrogancia na
 ["La frase atribuida a Buffett «solo cuando baja la marea se ve quién estaba nadando desnudo» significa que…",["Las crisis revelan las debilidades que ya existían","Hay que nadar con traje","Las mareas causan quiebras"],0,"Las crisis hunden sobre todo a los débiles."],
 ["Una señal temprana de alerta es…",["Que los mejores empleados se vayan","Que los clientes estén contentos","Que la deuda baje"],0,"Junto con caídas de ventas y márgenes."],
 ["Una práctica preventiva es…",["Mantener una cultura que acepte y premie las malas noticias","Castigar a quien detecta problemas","No revisar nunca la estrategia"],0,"Así los problemas se detectan a tiempo."]],
-t: ["Declive corporativo","Complacencia","Señales de alerta","Flexibilidad financiera"]
+t: ["Declive corporativo", "Complacencia"]
 }
 });
 
@@ -3276,7 +3276,7 @@ q: [["¿Cuál es la ventaja principal de una tienda de barrio frente a una caden
 {n:1,t:"Doña Mary gana 20,000 al mes antes de su sueldo y trabaja 390 horas. ¿Cuánto gana por hora? (redondea a entero)",a:51,tol:0.01,u:"pesos",e:"20,000 ÷ 390 = 51.28 ≈ 51 pesos."},
 ["El fiado es, en términos financieros…",["Una cuenta por cobrar que forma parte del capital de trabajo","Un ingreso seguro","Un gasto de publicidad"],0,"Es dinero que no siempre se recupera."],
 ["El mayor riesgo de gobierno de la tienda de Doña Mary es…",["La sucesión: nadie más sabe cómo funciona","Su consejo de administración","Sus accionistas minoritarios"],0,"Todo depende de la dueña."]],
-t: ["Tienda de abarrotes","Fiado","Radiografía de empresa","Censos Económicos"]
+t: ["Tienda de abarrotes", "Fiado"]
 },
 "M28-2": {
 s: `En el súper, Toño toma un paquete de pan Bimbo y lee: «Grupo Bimbo, presente en más de 30 países». Le cuesta creer que una panadería mexicana fundada después de la Segunda Guerra Mundial sea hoy una de las empresas de panificación más grandes del mundo. ¿Cómo lo logró?`,
@@ -3349,7 +3349,7 @@ q: [["¿En qué año se fundó Grupo Bimbo, según su historia corporativa?",["1
 ["La ventaja clave de Bimbo destacada en la lección es…",["Su distribución directa a tienda de productos frescos","Su tienda en línea","Su cadena de restaurantes"],0,"Una red enorme de rutas propias."],
 ["Bimbo creció en Estados Unidos sobre todo mediante…",["Adquisiciones de otras panificadoras","Franquicias de tortas","Exportaciones de tortillas"],0,"Por ejemplo, George Weston (2009) y Sara Lee (2011)."],
 ["Grupo Bimbo es un ejemplo de…",["Empresa familiar que cotiza en bolsa","Empresa del gobierno","Empresa emergente"],0,"Combina gobierno familiar y reglas de S.A.B."]],
-t: ["Distribución directa a tienda","Crecimiento inorgánico","Tipo de cambio constante"]
+t: ["Distribución directa a tienda", "Crecimiento inorgánico"]
 },
 "M28-3": {
 s: `Lupita visita una Bodega Aurrerá, un Walmart y un Sam's Club en la misma semana y descubre que los tres son de la misma empresa. Le sorprende cómo pueden tener precios tan bajos. Ella negocia con 20 proveedores; esta empresa negocia con miles. ¿Cómo funciona por dentro Walmart y su filial mexicana?`,
@@ -3422,7 +3422,7 @@ q: [["¿En qué año adquirió Walmart el control de Cifra en México?",["1997",
 ["La estrategia de Walmart se describe sobre todo como…",["Liderazgo en costos","Diferenciación de lujo","Enfoque en un nicho pequeño"],0,"«Precios bajos todos los días»."],
 {n:1,t:"Una empresa tiene 40 días de inventario, 2 de cuentas por cobrar y paga a 50 días. ¿Cuál es su ciclo de conversión de efectivo (en días)?",a:-8,tol:0,u:"días",e:"40 + 2 − 50 = −8 días."},
 ["¿Qué formato de Walmex atiende sobre todo a consumidores de ingresos medios y bajos?",["Bodega Aurrerá","Sam's Club","Superama"],0,"Es su formato principal en México."]],
-t: ["Precios bajos todos los días","Ciclo de conversión de efectivo","Walmex","Omnicanalidad"]
+t: ["Precios bajos todos los días", "Ciclo de conversión del efectivo"]
 },
 "M28-4": {
 s: `La nieta de Lupita compra ropa en Zara y se sorprende: «Cada dos semanas hay cosas nuevas, y lo que viste en una revista hace un mes ya está en la tienda». Lupita, que tarda semanas en cambiar un ingrediente del menú, se pregunta cómo una empresa con miles de tiendas en el mundo puede moverse tan rápido.`,
@@ -3502,7 +3502,7 @@ q: [["¿Dónde y cuándo abrió la primera tienda Zara?",["En A Coruña, en 1975
 ["La ventaja clave de Inditex es…",["Una cadena de suministro rápida y flexible","Tener los precios más bajos del mundo","Gastar mucho en publicidad en televisión"],0,"Diseño, producción cercana y logística rápida."],
 ["La «escasez intencional» de Zara consiste en…",["Producir cantidades limitadas de cada modelo","No tener tiendas","Vender solo en línea"],0,"Los clientes compran a precio completo antes de que se acabe."],
 ["Producir cerca (proximidad) cuesta más por prenda, pero permite…",["Responder rápido y vender más a precio completo","Tener más rebajas","No tener diseñadores"],0,"Reduce el riesgo de inventario."]],
-t: ["Moda rápida","Producción de proximidad","Escasez intencional","Inditex"]
+t: ["Moda rápida", "Producción de proximidad"]
 },
 "M28-5": {
 s: `En la cocina central de Grupo Lupita, un cocinero detecta que la salsa salió más salada, pero no dice nada porque «la producción no se puede parar». Se reparte a 60 locales y llueven las quejas. La directora de operaciones dice: «En Toyota, cualquier trabajador puede detener la línea si ve un problema». ¿Por qué Toyota es el modelo mundial de procesos y calidad?`,
@@ -3577,7 +3577,7 @@ q: [["El «justo a tiempo» consiste en…",["Producir solo lo necesario, cuando
 ["El «andon» en Toyota permite…",["Que cualquier trabajador avise de un problema y, si es necesario, se detenga la línea","Pagar a los proveedores","Pintar los autos"],0,"Es parte del jidoka."],
 ["Los «cinco porqués» sirven para…",["Encontrar la causa raíz de un problema","Contar el inventario","Hacer publicidad"],0,"Preguntar «¿por qué?» varias veces."],
 ["¿Qué aprendió Toyota de su crisis de 2009–2010, según su presidente?",["Que había crecido demasiado rápido y perdido de vista algunas prioridades","Que no necesitaba procesos","Que la calidad no importa"],0,"Reforzó sus procesos de calidad."]],
-t: ["Sistema de Producción Toyota","Manufactura esbelta","Justo a tiempo","Kanban","Jidoka","Andon","Cinco porqués","Desperdicio"]
+t: ["Sistema de Producción Toyota", "Manufactura esbelta"]
 }
 });
 
@@ -3663,7 +3663,7 @@ q: [["¿En qué año y dónde se fundó Mercado Libre?",["En 1999, en Buenos Air
 ["Mercado Pago nació sobre todo para…",["Resolver la desconfianza y la falta de medios de pago en línea","Vender ropa","Hacer publicidad"],0,"Después se volvió un negocio financiero propio."],
 ["En el ecosistema de Mercado Libre, los datos de la plataforma ayudan a…",["Evaluar el riesgo para dar créditos","Hacer tortas","Pagar impuestos"],0,"Es una ventaja frente a bancos tradicionales."],
 {n:1,t:"En una venta de 1,000 pesos, la plataforma cobra 15 % de comisión y 3 % por el pago. ¿Cuánto recibe por esos dos conceptos (en pesos)?",a:180,tol:0,u:"pesos",e:"150 + 30 = 180."}],
-t: ["Mercado Libre","Mercado Pago","Comercio electrónico en Latinoamérica"]
+t: ["Mercado Libre", "Mercado Pago"]
 },
 "M28-7": {
 s: `Toño descubre algo que le parece absurdo: la parte de Amazon que más dinero gana no es la tienda en línea, sino un negocio de «servidores en la nube» que alquila computadoras a otras empresas. «¿Cómo una librería en línea terminó siendo la empresa que guarda los datos de medio internet?», pregunta. ¿Cómo funciona por dentro Amazon?`,
@@ -3739,7 +3739,7 @@ q: [["¿Qué segmento de Amazon genera, en muchos años, la mayor parte de su ut
 ["¿En qué año lanzó Amazon su suscripción Prime?",["2005","1994","2017"],0,"AWS se lanzó en 2006."],
 {n:1,t:"Un segmento tiene ventas de 91 y utilidad de operación de 25 (miles de millones). ¿Cuál es su margen de operación? (redondea a entero, en %)",a:27,tol:0.02,u:"%",e:"25 ÷ 91 = 27.5 % ≈ 27 %."},
 ["El «volante» de Amazon describe…",["Cómo precios bajos atraen clientes y vendedores, y la escala baja los costos","Un juego infantil","El volante de sus camiones"],0,"Un círculo que se refuerza."]],
-t: ["Amazon Web Services","Computación en la nube","Volante de crecimiento","Vendedores externos"]
+t: ["Amazon Web Services", "Computación en la nube"]
 },
 "M28-8": {
 s: `Al final del módulo, Lupita estudia el caso de una empresa de Monterrey que se volvió una de las cementeras más grandes del mundo comprando empresas en varios continentes… y que en 2008 estuvo cerca de no poder pagar sus deudas. «Es la historia completa del curso: crecer, financiarse, expandirse, gobernar y sobrevivir», dice. ¿Qué le pasó a Cemex?`,
@@ -3818,7 +3818,7 @@ q: [["¿Con qué compra entró Cemex a Europa en 1992?",["Valenciana y Sanson, e
 ["Una característica de la industria del cemento es que…",["Sus mercados son regionales porque transportarlo por tierra es caro","Se vende igual en todo el mundo por internet","No tiene costos fijos"],0,"Además, es cíclica."],
 {n:1,t:"Una empresa tiene deuda neta de 18,000 millones y su EBITDA baja a 2,500 millones. ¿Cuántas veces es la deuda neta su EBITDA? (un decimal)",a:7.2,tol:0.01,u:"veces",e:"18,000 ÷ 2,500 = 7.2 veces."},
 ["¿Cómo enfrentó Cemex su crisis de deuda en 2009?",["Con un acuerdo de financiamiento con sus bancos, venta de activos y emisiones de capital","Dejando de producir cemento","Comprando más empresas con deuda"],0,"Un largo proceso de desendeudamiento."]],
-t: ["Cemex","Industria cíclica","Acuerdo de financiamiento","Grado de inversión","Concreto premezclado"]
+t: ["Cemex", "Industria cíclica"]
 }
 });
 
@@ -3923,7 +3923,7 @@ q: [["¿Cuál es el mejor criterio para elegir el negocio del proyecto?",["Que p
 ["«Vende tacos» es…",["El giro, no una propuesta de valor completa","Una propuesta de valor excelente","Un estado financiero"],0,"La propuesta dice qué problema resuelve y por qué lo eligen."],
 ["Si el dueño no conoce sus ventas exactas, lo correcto es…",["Hacer una estimación razonable y decir que lo es","Inventar un número exacto","Dejar el proyecto"],0,"Distingue datos de estimaciones."],
 ["Antes de publicar datos del negocio debes…",["Pedir permiso y cuidar la confidencialidad","Publicarlos sin preguntar","Venderlos"],0,"Puedes cambiar el nombre y redondear números."]],
-t: ["Proyecto final","Lienzo de modelo de negocio","Fuentes de información"]
+t: ["Proyecto final", "Lienzo de modelo de negocio"]
 },
 "M29-2": {
 s: `Con la ficha lista, empieza la parte más larga del proyecto: mirar el negocio «por dentro». Quién hace qué, cómo se compra, cómo se vende, cuánto entra y cuánto sale. Es lo que hiciste en el Nivel 2 con Tortas Lupita, pero ahora con un negocio real, con sus imperfecciones.`,
@@ -4030,7 +4030,7 @@ q: [{n:1,t:"Un negocio tiene costos fijos de 28,000 al mes y un margen de contri
 ["Al calcular la utilidad de un negocio chico, es un error frecuente olvidar…",["El sueldo del dueño","El nombre del negocio","El color del local"],0,"Si no se paga, la «utilidad» es en realidad su sueldo."],
 ["Si un cliente representa el 40 % de las ventas, hay un riesgo de…",["Concentración","Dilución","Canibalización"],0,"Si se va, el negocio sufre mucho."],
 ["El cuello de botella de un proceso es…",["La etapa que limita la capacidad de todo el proceso","El producto más vendido","El proveedor más barato"],0,"Lección M9-4."]],
-t: ["Radiografía interna","Margen de seguridad"]
+t: ["Radiografía interna", "Margen de seguridad"]
 },
 "M29-3": {
 s: `Ya sabes cómo funciona tu negocio por dentro. Ahora viene la pregunta que Lupita se hizo en cada etapa del curso: «¿Y ahora qué sigue?». La Parte 3 del proyecto es proponer un plan para que el negocio pase al siguiente nivel, con decisiones, riesgos y una forma realista de financiarlo.`,
@@ -4127,7 +4127,7 @@ q: [["Un negocio que cubre sus costos pero deja muy poco y depende totalmente de
 {n:1,t:"Una inversión de 30,000 genera un beneficio de 5,760 al mes. ¿En cuántos meses se recupera? (un decimal)",a:5.2,tol:0.02,u:"meses",e:"30,000 ÷ 5,760 = 5.21 ≈ 5.2 meses."},
 ["La prueba clave de un financiamiento con deuda es…",["Que los pagos quepan en el escenario pesimista","Que el banco lo apruebe","Que sea el de menor plazo"],0,"Lección M19-6."],
 ["Un buen plan de crecimiento…",["Propone pocos pasos razonables apoyados en los datos","Promete volverse gigante en un año","No tiene riesgos"],0,"El siguiente paso, no el último."]],
-t: ["Plan de crecimiento","Escenario pesimista","Siguiente etapa"]
+t: ["Plan de crecimiento", "Escenario pesimista"]
 },
 "M29-4": {
 s: `El proyecto está casi listo. Falta lo que Lupita aprendió a hacer cuando presentó su plan a los inversionistas y a su consejo: explicar en pocas palabras lo más importante, recibir preguntas y evaluar con honestidad su propio trabajo. Esta última lección cierra el curso.`,
@@ -4205,6 +4205,6 @@ q: [{n:1,t:"En la rúbrica, el plan de crecimiento pesa 20 %. Si lo calificas co
 ["¿Con qué porcentaje se aprueba el proyecto final?",["70 %","50 %","100 %"],0,"Y admite reentrega."],
 ["Unas buenas recomendaciones para el dueño son…",["Específicas, útiles y priorizadas","Genéricas para cualquier negocio","Solo críticas sin propuestas"],0,"Con su beneficio esperado."],
 ["¿Dónde se guarda el proyecto?",["Solo en tu navegador; conviene descargarlo","En un servidor del curso","En el banco"],0,"Descárgalo para no perderlo."]],
-t: ["Rúbrica","Autoevaluación","Certificado de autoaprendizaje"]
+t: ["Rúbrica", "Autoevaluación"]
 }
 });

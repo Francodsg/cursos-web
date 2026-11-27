@@ -65,7 +65,7 @@ q: [["¿Cuál de estas actividades es un negocio?",["Vender una vez tu celular u
 ["¿Qué condición le falta a un pasatiempo para ser negocio?",["La necesidad de alguien","El intercambio repetido buscando ganancia","Que sea divertido"],1,"Un pasatiempo no busca cobrar ni repetir ventas con ganancia."],
 ["Si alguien vende tortas a 20 pesos y cada una le cuesta 30, ¿qué pasa?",["Tiene un negocio sano porque vende mucho","Pierde dinero en cada venta y tarde o temprano se acaba","Gana 10 pesos por torta"],1,"Cada venta le cuesta 10 pesos más de lo que cobra."],
 ["¿Qué tienen en común una tiendita y una empresa gigante?",["El número de empleados","La misma lógica: necesidad, intercambio y repetición","Que cotizan en bolsa"],1,"Cambia la escala, no la lógica básica."]],
-t: ["Negocio","Cliente","Utilidad"]
+t: ["Negocio", "Cliente"]
 },
 "M1-2": {
 s: `En la misma esquina hay dos puestos de tortas. Uno cobra 35 pesos y el de Lupita cobra 40. Aun así, la fila más larga es la de Lupita. ¿Por qué la gente paga más?`,
@@ -144,7 +144,7 @@ q: [["Si una torta cuesta 16 pesos producirla y se vende en 40, ¿cuál es el ma
 ["¿Qué debe cumplirse para que un negocio venda y gane?",["Precio < costo","Costo < precio ≤ valor percibido","Valor < costo"],1,"El precio debe cubrir el costo y no superar el valor que siente el cliente."],
 ["¿Por qué alguien paga más por una torta en el puesto de Lupita que en el de enfrente?",["Porque no sabe sumar","Porque percibe más valor: tamaño, rapidez y trato","Porque está obligado"],1,"El cliente compra la mejor combinación de valor por lo que paga."],
 ["Una botella de agua cuesta más en un estadio que en el súper porque…",["El agua es distinta","El contexto cambia el valor percibido","El costo de producir agua es mayor"],1,"La urgencia y la falta de alternativas elevan el valor percibido."]],
-t: ["Valor percibido","Precio","Costo","Margen de contribución","Disposición a pagar"]
+t: ["Valor percibido", "Precio"]
 },
 "M1-3": {
 s: `Toño quiere ayudar a su mamá a ordenar el negocio, pero no sabe por dónde empezar. «Mamá, ¿de qué está hecho un negocio?». Lupita se ríe: «De tortas». Toño piensa que hay algo más.`,
@@ -221,7 +221,7 @@ q: [["¿Cuál NO es una de las seis piezas de un negocio?",["Procesos","Informac
 ["En una juguetería, el niño usa el juguete y el papá paga. ¿Qué muestra esto?",["Que no hay cliente","Que quien usa y quien paga pueden ser distintos","Que es un mal negocio"],1,"Conviene entender a los dos."],
 ["Un proceso es…",["Una forma repetible de hacer algo","Un pleito legal","Un tipo de producto"],0,"Por ejemplo, cómo se arma y se cobra una torta."],
 ["Si un negocio no registra sus ventas, ¿qué pieza tiene débil?",["Información","Producto","Cliente"],0,"Sin datos se decide al tanteo."]],
-t: ["Proceso","Cliente","Sistema"]
+t: ["Proceso", "Cliente"]
 },
 "M1-4": {
 s: `En una comida familiar, la tía de Toño le dice: «Tu mamá ya es empresaria». El primo responde: «No, es emprendedora». Otro dice: «Es autoempleo». ¿Quién tiene razón?`,
@@ -301,7 +301,7 @@ q: [["Un plomero que trabaja solo y cobra por servicio tiene…",["Una empresa c
 ["¿Qué distingue a una empresa de un negocio que depende del dueño?",["Que tiene vida propia: personas, procesos y registros","Que vende más caro","Que tiene logo"],0,"Puede funcionar un tiempo sin el dueño."],
 ["Una empresa emergente (startup) busca…",["Quedarse siempre pequeña","Un modelo que pueda crecer muy rápido","No tener clientes"],1,"Suele buscar crecimiento rápido, a menudo con inversionistas."],
 ["En una empresa gigante, dueños y directores suelen ser…",["Siempre la misma persona","Personas distintas","Empleados temporales"],1,"Se separan propiedad y dirección."]],
-t: ["Empresa","Emprendimiento","Autoempleo","Empresa emergente"]
+t: ["Empresa", "Emprendimiento"]
 },
 "M1-5": {
 s: `Lupita quiere poner una lona grande en su puesto. El vecino de la tienda se queja porque le tapa el anuncio, el inspector pregunta si tiene permiso y un cliente opina que se verá bonita. Lupita descubre que su negocio afecta a mucha gente.`,
@@ -373,7 +373,7 @@ q: [["¿Quién es una parte interesada de un negocio?",["Solo el dueño","Cualqu
 ["¿Qué espera normalmente un proveedor?",["Que le paguen tarde","Pedidos constantes y pago puntual","Que no le compren"],1,"Es la base de una buena relación."],
 ["La teoría de las partes interesadas se asocia con…",["R. Edward Freeman","Henry Ford","Adam Smith"],0,"Freeman propuso que la empresa crea valor para todas las partes."],
 ["Dirigir un negocio implica en buena medida…",["Complacer solo al cliente","Equilibrar intereses que a veces chocan","Ignorar al gobierno"],1,"Clientes, empleados, dueños y proveedores quieren cosas distintas."]],
-t: ["Partes interesadas","Accionista","Proveedor"]
+t: ["Partes interesadas", "Accionista"]
 },
 "M1-6": {
 s: `El precio del aguacate se dispara, abren una obra del metro frente al puesto y un cliente le pregunta a Lupita si acepta pagos con el celular. Nada de eso lo decidió ella, pero todo le afecta.`,
@@ -449,7 +449,7 @@ q: [["En PESTEL, la inflación es un factor…",["Político","Económico","Ecol�
 ["Los pagos con celular pertenecen al factor…",["Tecnológico","Legal","Social únicamente"],0,"Es un cambio tecnológico (que también cambia hábitos)."],
 ["¿Qué puede hacer un negocio frente al entorno general?",["Controlarlo","Observarlo, anticiparse y adaptarse","Ignorarlo"],1,"No puede cambiarlo solo, pero sí adaptarse."],
 ["Una obra pública frente al negocio es…",["Solo una amenaza","Puede ser amenaza y oportunidad","Irrelevante"],1,"Menos paso de gente, pero nuevos clientes: los trabajadores."]],
-t: ["Entorno","PESTEL","Inflación","Tipo de cambio"]
+t: ["Entorno", "PESTEL"]
 },
 "M1-7": {
 s: `En la cuadra de Lupita, en tres años abrieron una paletería, una tienda de celulares y una fonda. Hoy solo queda la fonda. Lupita se pregunta qué hizo distinto.`,
@@ -532,7 +532,7 @@ q: [["Según el INEGI, la esperanza de vida promedio de un negocio nuevo en Méx
 ["¿Cuál es una señal de alerta?",["Pedir prestado para pagar gastos normales","Tener clientes frecuentes","Pagar puntual"],0,"Indica que el negocio no genera suficiente efectivo."],
 ["Los negocios que sobreviven suelen…",["Gastar mucho desde el primer día","Conocer sus números y tener un colchón de efectivo","Mezclar el dinero del negocio y de la casa"],1,"El control y la reserva ayudan a resistir meses malos."],
 ["Un negocio puede cerrar aunque tenga ventas porque…",["Se queda sin efectivo o cada venta deja muy poco","Tiene demasiados clientes","Paga impuestos"],0,"Vender no garantiza ganar ni tener efectivo."]],
-t: ["Esperanza de vida de los negocios","Gastos fijos","Flujo de caja"]
+t: ["Esperanza de vida de los negocios", "Gastos fijos"]
 },
 "M1-8": {
 s: `Lupita y Toño deciden tomar en serio su negocio. Toño encuentra este curso y le dice a su mamá: «Vamos a aprender juntos cómo funciona un negocio, desde nuestro puesto hasta las empresas gigantes».`,
@@ -618,7 +618,7 @@ q: [["¿Cuántos niveles tiene el curso?",["2","4","10"],1,"Fundamentos, Por den
 ["¿Qué significa la estrella (★) en una lección?",["Que es opcional","Que es esencial y forma la ruta exprés","Que es la más larga"],1,"Las ★ forman la ruta exprés."],
 ["¿Con qué porcentaje se aprueba un quiz de módulo?",["50 %","70 %","100 %"],1,"Se aprueba con 70 % y se puede repetir."],
 ["Tortas Lupita es…",["Una empresa real de la bolsa","Un negocio ficticio que acompaña los ejemplos","Una franquicia internacional"],1,"Es inventado, pero basado en situaciones comunes."]],
-t: ["Negocio","Empresa"]
+t: ["Negocio", "Empresa"]
 }
 });
 // ===== M2. Tipos de negocio por tamaño =====
@@ -698,7 +698,7 @@ q: [["¿Cuáles son los criterios más comunes para medir el tamaño de un negoc
 ["En México, una microempresa tiene hasta…",["10 trabajadores","50 trabajadores","250 trabajadores"],0,"Micro: de 0 a 10 trabajadores en todos los sectores."],
 ["Aproximadamente, ¿qué proporción de los establecimientos de México son micronegocios?",["Alrededor del 50 %","Alrededor del 95 %","Alrededor del 10 %"],1,"Según los Censos Económicos 2019."],
 ["Cada tienda OXXO es pequeña, pero pertenece a…",["Una microempresa","Una empresa gigante (FEMSA)","Una cooperativa"],1,"No hay que confundir establecimiento con empresa."]],
-t: ["Microempresa","Pyme","Censos Económicos","Establecimiento"]
+t: ["Microempresa", "Pyme"]
 },
 "M2-2": {
 s: `En la cuadra de Lupita hay una tiendita, una fonda, un taller de bicicletas y una estética. Todas son de familias. Toño se pregunta por qué en México hay tantos changarros y cómo logran sobrevivir.`,
@@ -780,7 +780,7 @@ q: [["¿Cuál es una fortaleza típica del changarro?",["Trato personal y cercan
 ["Si no se paga sueldo a los familiares que trabajan, el negocio…",["Parece ganar más de lo que realmente gana","Gana más de verdad","Paga más impuestos"],0,"El trabajo de la familia tiene un costo aunque no se pague."],
 ["¿Qué es el «fiado»?",["Un impuesto","Vender a crédito informal a clientes conocidos","Un tipo de proveedor"],1,"El cliente paga después, normalmente sin papeles."],
 ["¿Cuál es un primer paso sencillo para ordenar un changarro?",["Salir a bolsa","Separar el dinero del negocio y el de la casa","Contratar a 20 personas"],1,"Así se sabe si el negocio realmente gana."]],
-t: ["Changarro","Negocio familiar","Fiado","Canal tradicional"]
+t: ["Changarro", "Negocio familiar"]
 },
 "M2-3": {
 s: `La prima de Toño es diseñadora gráfica y trabaja desde su casa para varios clientes. Toño le pregunta si eso es un negocio. Ella responde: «Es mi trabajo, pero también es mi negocio».`,
@@ -870,7 +870,7 @@ q: [["¿Qué es el tiempo no facturable?",["El tiempo que nadie paga: buscar cli
 ["Si necesitas 324,000 pesos al año y cobras 1,152 horas, tu tarifa mínima es de unos…",["180 pesos","281 pesos","1,000 pesos"],1,"324,000 ÷ 1,152 ≈ 281."],
 ["¿Cuál es un riesgo típico del autoempleo?",["Ingresos irregulares","Tener demasiados jefes","No poder decidir nada"],0,"Hay meses buenos y meses sin trabajo."],
 ["¿Qué ayuda a reducir el riesgo de no cobrar?",["Cobrar anticipos y cotizar por escrito","Trabajar sin acuerdos","Aceptar a cualquier cliente"],0,"El anticipo y la cotización protegen al independiente."]],
-t: ["Autoempleo","Tarifa por hora","Fondo de emergencia","Anticipo"]
+t: ["Autoempleo", "Tarifa por hora"]
 },
 "M2-4": {
 s: `Lupita contrata a su primera empleada externa, Rosa, para ayudar en la hora pico. A la segunda semana surgen preguntas que nunca se había hecho: ¿cuánto le pago?, ¿qué pasa si falta?, ¿quién le dice qué hacer?`,
@@ -950,7 +950,7 @@ q: [["¿Qué distingue a una microempresa de un autoempleo?",["Que tiene persona
 ["El dueño como «cuello de botella» significa que…",["Todo pasa por él y limita el crecimiento","Vende botellas","Trabaja poco"],0,"El negocio no puede crecer más allá de su tiempo."],
 ["Si un empleado cuesta 10,500 pesos al mes y cada torta deja 24 pesos, ¿cuántas tortas extra debe ayudar a vender para pagarse?",["Unas 438","Unas 100","Unas 2,000"],0,"10,500 ÷ 24 ≈ 438 tortas al mes."],
 ["¿Quién lleva normalmente la contabilidad en una microempresa formal?",["Un contador externo","El director financiero corporativo","Nadie"],0,"La mayoría usa un despacho contable."]],
-t: ["Microempresa","Cuello de botella","Contador externo","Delegar"]
+t: ["Microempresa", "Cuello de botella"]
 },
 "M2-5": {
 s: `Años después, Tortas Lupita tiene tres sucursales y 25 empleados. Lupita ya no puede estar en todos lados. Toño propone crear «áreas»: alguien que se encargue de compras, alguien de personal y alguien de las cuentas. Han llegado a ser una pyme.`,
@@ -1032,7 +1032,7 @@ q: [["¿Qué significa «pyme»?",["Pequeña y mediana empresa","Primera y mejor
 ["¿Qué aparece típicamente en una pyme que no había en el changarro?",["Áreas, gerentes y procesos escritos","Clientes","Un producto"],0,"La organización se vuelve más formal."],
 ["Una «crisis de crecimiento» ocurre cuando…",["El estilo que funcionó antes ya no sirve para seguir creciendo","El negocio deja de vender","Se paga a los proveedores"],0,"Hay que profesionalizar para seguir."],
 ["Un reto típico de la pyme es…",["Que el dueño no delegue","No tener clientes","No tener producto"],0,"El dueño que no suelta frena a sus gerentes."]],
-t: ["Pyme","Mipymes","Mando intermedio","Profesionalizar"]
+t: ["Pyme", "Mipymes"]
 },
 "M2-6": {
 s: `Toño hace una entrevista de trabajo en una cadena de supermercados con miles de empleados. Le hablan de «la dirección regional», «el área de cumplimiento» y «el corporativo». Sale confundido: ¿cómo funciona una empresa tan grande?`,
@@ -1124,7 +1124,7 @@ q: [["En México, una empresa de comercio es grande si tiene más de…",["10 tr
 ["¿Cuál es una desventaja típica de la gran empresa?",["Lentitud y burocracia","No tener marca","No poder comprar barato"],0,"Las decisiones pasan por muchos niveles."],
 ["Una economía de escala significa que…",["Al producir más, cada unidad sale más barata","Se paga más por unidad","Se producen menos unidades"],0,"Se reparten costos fijos entre más unidades y se negocia mejor."],
 ["¿Qué tienen en común un changarro y una gran empresa?",["Resuelven las mismas funciones: comprar, vender, cobrar, organizar personas","El número de empleados","El tamaño del local"],0,"Cambia la escala, no las funciones."]],
-t: ["Gran empresa","Economías de escala","Burocracia","Silos","ERP"]
+t: ["Gran empresa", "Economías de escala"]
 },
 "M2-7": {
 s: `Toño descubre que la panadería, la marca de pastelitos y la empresa de tortillas que ve en el súper pertenecen al mismo dueño. «¿Cómo puede ser?», pregunta. Está a punto de conocer los grupos empresariales.`,
@@ -1200,7 +1200,7 @@ q: [["¿Qué es una empresa controladora o holding?",["La empresa dueña de las 
 ["Una razón para formar un grupo es…",["Separar riesgos entre negocios","Pagar más impuestos","Tener menos control"],0,"Los problemas de una empresa quedan, en principio, dentro de ella."],
 ["Las ventas entre empresas del mismo grupo, al consolidar…",["Se eliminan","Se duplican","Se suman dos veces"],0,"Sería como venderse a sí mismo."],
 ["¿Qué hace normalmente el corporativo de un grupo?",["Estrategia, asignación de dinero, nombramientos y control","Atender cada mostrador","Fabricar todos los productos"],0,"Los detalles los deciden las subsidiarias."]],
-t: ["Grupo empresarial","Holding","Subsidiaria","Corporativo","Estados financieros consolidados"]
+t: ["Grupo empresarial", "Holding"]
 },
 "M2-8": {
 s: `Un amigo de Toño le dice: «¿Para qué te das de alta en Hacienda? Nadie lo hace y nadie te dice nada». Lupita duda: ¿le conviene seguir informal o formalizarse?`,
@@ -1281,7 +1281,7 @@ q: [["La economía informal se refiere a…",["Actividades legales que no cumple
 ["Aproximadamente, ¿qué proporción de los ocupados en México está en informalidad laboral?",["5 %","55 %","95 %"],1,"Según la ENOE del INEGI."],
 ["Un costo escondido de la informalidad es…",["No poder vender a empresas que piden factura","Tener demasiados clientes","Pagar al IMSS"],0,"Se pierden oportunidades de venta."],
 ["¿Cómo se recomienda formalizarse?",["Por etapas, empezando por lo que más beneficia","Todo en un día sin asesoría","Nunca"],0,"Así los costos crecen junto con el negocio."]],
-t: ["Economía informal","RFC","Régimen fiscal","IMSS","Factura electrónica (CFDI)"]
+t: ["Economía informal", "RFC"]
 }
 });
 // ===== M3. Tipos de negocio por sector, propiedad y forma legal =====
@@ -1356,7 +1356,7 @@ q: [["Una mina de cobre pertenece al sector…",["Primario","Secundario","Tercia
 ["Una fábrica de muebles pertenece al sector…",["Primario","Secundario","Cuaternario"],1,"Transforma madera en muebles."],
 ["Una tortería que prepara y vende al cliente se clasifica en…",["El sector terciario (servicios de alimentos)","El sector primario","Ningún sector"],0,"Es un servicio de preparación de alimentos."],
 ["¿Cómo se llama la clasificación detallada que usa el INEGI?",["SCIAN","PESTEL","SMART"],0,"Sistema de Clasificación Industrial de América del Norte."]],
-t: ["Sector primario","Sector secundario","Sector terciario","SCIAN","Cadena productiva"]
+t: ["Sector primario", "Sector secundario"]
 },
 "M3-2": {
 s: `Lupita piensa vender también refrescos embotellados y, más adelante, salsas envasadas en frasco. Toño le advierte: «Eso ya son tres negocios distintos: comercio, servicio y manufactura». ¿Qué cambia entre uno y otro?`,
@@ -1439,7 +1439,7 @@ q: [["Una ferretería que compra y revende herramientas es un negocio de…",["C
 ["El costo principal de un negocio de servicios suele ser…",["El personal","Las materias primas","Las licencias"],0,"La calidad y el costo dependen de las personas."],
 ["¿Por qué los negocios de tecnología pueden crecer rápido?",["Vender a un cliente más cuesta muy poco","Porque no tienen costos","Porque no tienen competencia"],0,"Una vez creado el producto, distribuirlo cuesta poco."],
 ["Si Lupita envasa su salsa para venderla en tiendas, entra a…",["La manufactura","El sector primario","La banca"],0,"Transforma y fabrica un producto para distribuir."]],
-t: ["Giro","Comercio al por menor","Comercio al por mayor","Manufactura","Rotación de inventario"]
+t: ["Giro", "Comercio al por menor"]
 },
 "M3-3": {
 s: `Toño lee que Pemex es «de todos los mexicanos», que la cementera Cruz Azul es una cooperativa y que la Cruz Roja no busca ganancias. Se pregunta: ¿un negocio siempre es de un dueño privado?`,
@@ -1502,7 +1502,7 @@ q: [["La regla «un socio, un voto» es típica de…",["Las cooperativas","Las 
 ["¿A dónde van los excedentes de una organización sin fines de lucro?",["Se reparten entre los dueños","Se reinvierten en la misión","Se pierden"],1,"No se reparten utilidades."],
 ["Pemex es un ejemplo de empresa…",["Privada","Pública o del Estado","Cooperativa"],1,"Pertenece al Estado mexicano."],
 ["El Grameen Bank es un ejemplo conocido de…",["Empresa social","Monopolio","Franquicia"],0,"Busca impacto social y ser sostenible."]],
-t: ["Empresa pública","Cooperativa","Empresa social","Asociación civil","Donataria autorizada"]
+t: ["Empresa pública", "Cooperativa"]
 },
 "M3-4": {
 s: `Un amigo le dice a Lupita: «Si te va mal y quedas debiendo, te pueden quitar tu casa». Lupita se asusta. ¿Es cierto? ¿Depende de cómo se registre el negocio?`,
@@ -1585,7 +1585,7 @@ q: [["En una persona física con actividad empresarial, la responsabilidad por l
 ["¿Cuándo puede un socio de una sociedad responder con sus bienes personales?",["Si firmó como aval del préstamo","Nunca","Siempre"],0,"El aval compromete su patrimonio."],
 ["Una persona moral es…",["Una entidad creada por la ley, distinta de sus socios","Una persona muy honrada","El contador de la empresa"],0,"Tiene nombre, RFC, bienes y deudas propios."],
 ["¿Cuándo conviene más una persona moral?",["Cuando hay varios socios o riesgos importantes","Cuando vendes por primera vez una bicicleta","Nunca"],0,"Ordena la relación entre socios y limita el riesgo."]],
-t: ["Persona física","Persona moral","Responsabilidad limitada","Aval","Patrimonio"]
+t: ["Persona física", "Persona moral"]
 },
 "M3-5": {
 s: `Lupita y Toño van a ser socios del nuevo local. El contador les pregunta: «¿Qué quieren: S.A. de C.V., S. de R.L. o una S.A.S.?». Les suena a sopa de letras. ¿Qué significa cada una?`,
@@ -1677,7 +1677,7 @@ q: [["¿Qué sociedad se puede constituir en línea, gratis y con un solo socio?
 ["En una S. de R.L., el capital se divide en…",["Partes sociales","Acciones en bolsa","Bonos"],0,"Y para vender una parte suele requerirse el consentimiento de los demás socios."],
 ["Una empresa emergente que recibe inversionistas suele usar…",["S.A.P.I.","S.C.","Persona física"],0,"Permite acuerdos especiales entre accionistas."],
 ["Las empresas que cotizan en la Bolsa Mexicana de Valores son…",["S.A.B.","S.A.S.","S.C."],0,"Sociedades anónimas bursátiles."]],
-t: ["S.A. de C.V.","S. de R.L. de C.V.","S.A.P.I.","S.A.S.","Acta constitutiva","Estatutos"]
+t: ["S.A. de C.V.", "S. de R.L. de C.V."]
 },
 "M3-6": {
 s: `Una prima de Toño vive en Bogotá y quiere abrir una tortería allá. Otro primo está en Madrid. Le preguntan a Toño: «¿Aquí también hay S.A. de C.V.?». Toño descubre que cada país tiene sus propias formas.`,
@@ -1770,7 +1770,7 @@ q: [["En Colombia, la forma de sociedad más usada hoy es…",["La S.A.S.","La S
 ["En España, la sociedad más común entre pymes es…",["La Sociedad Limitada (S.L.)","La S.A.P.I.","La SpA"],0,"Es la forma típica de las pymes españolas."],
 ["En Chile, la Sociedad por Acciones se abrevia…",["SpA","S.A.C.","S.R.L."],0,"Es flexible y puede tener un solo accionista."],
 ["¿Qué es lo correcto al abrir un negocio en otro país?",["Revisar la norma vigente y consultar a un profesional local","Usar las reglas de tu país","No registrarse"],0,"Cada país tiene sus propias leyes."]],
-t: ["Sociedad Limitada (S.L.)","Sociedad por Acciones (SpA)","Autónomo","S.A.S."]
+t: ["Sociedad Limitada (S.L.)", "Sociedad por Acciones (SpA)"]
 },
 "M3-7": {
 s: `Lupita escucha en la radio: «IVA», «ISR», «impuesto sobre nómina», «RESICO». Le da miedo. ¿Cuánto tiene que pagar? ¿Por qué tantos impuestos distintos?`,
@@ -1844,7 +1844,7 @@ q: [["¿Quién paga realmente el IVA?",["El consumidor final","El SAT","El prove
 ["Si una torta cuesta 40 pesos con IVA del 16 %, ¿cuál es su precio sin IVA?",["34.48 pesos","24 pesos","46.40 pesos"],0,"40 ÷ 1.16 = 34.48."],
 ["El impuesto sobre nómina lo cobra…",["El estado","El municipio","Otro país"],0,"Cada estado fija su tasa."],
 ["El RESICO es…",["Un régimen fiscal simplificado","Un tipo de sociedad","Un banco"],0,"Régimen Simplificado de Confianza, creado en 2022."]],
-t: ["IVA","ISR","IEPS","Régimen fiscal","RESICO","Impuesto sobre nómina","SAT"]
+t: ["IVA", "ISR"]
 },
 "M3-8": {
 s: `Lupita decide formalizar el puesto. Pregunta en la alcaldía, en el SAT y a una vecina que tiene una fonda. Cada uno le dice una cosa distinta. Toño propone hacer una lista ordenada de todos los pasos.`,
@@ -1936,7 +1936,7 @@ q: [["¿Qué conviene revisar antes de rentar un local?",["El uso de suelo","El 
 ["El registro patronal se hace ante…",["El IMSS","El IMPI","Profeco"],0,"Para inscribir a los trabajadores."],
 ["La licencia de funcionamiento o aviso de apertura es un trámite…",["Municipal o de la alcaldía","Federal ante el SAT","Internacional"],0,"Lo otorga la autoridad local."],
 ["Un negocio de alimentos debe cumplir además con…",["Normas sanitarias","Normas de aviación","Nada más"],0,"Higiene, refrigeración, control de plagas."]],
-t: ["RFC","e.firma","Uso de suelo","Licencia de funcionamiento","Protección Civil","Registro patronal"]
+t: ["RFC", "e.firma"]
 }
 });
 // ===== M4. El modelo de negocio =====
@@ -2023,7 +2023,7 @@ q: [["Un modelo de negocio describe…",["Cómo se crea, entrega y cobra el valo
 ["Una app gratuita puede ganar dinero con…",["Publicidad y suscripciones de pago","Nada","Solo donaciones"],0,"Lo gratis atrae usuarios; otros pagan."],
 ["¿Qué pregunta NO es parte de las tres del modelo?",["¿De qué color es el local?","¿Qué valor creo y para quién?","¿Cómo cobro y cuánto me queda?"],0,"El color no define el modelo."],
 ["Netflix es un ejemplo de empresa que…",["Cambió su modelo con el tiempo","Nunca cambió","Vende solo publicidad"],0,"Pasó de rentar discos a suscripción en línea."]],
-t: ["Modelo de negocio","Gratis con extras (freemium)","Suscripción","Propuesta de valor"]
+t: ["Modelo de negocio", "Gratis con extras (freemium)"]
 },
 "M4-2": {
 s: `Toño quiere explicar a un banco cómo funciona Tortas Lupita, pero no sabe por dónde empezar. Un amigo le muestra una hoja con nueve cuadros: «Con esto se explica cualquier negocio en una página».`,
@@ -2113,7 +2113,7 @@ q: [["¿Cuántos bloques tiene el lienzo de modelo de negocio?",["5","9","12"],1
 ["¿Qué bloque responde «por qué nos eligen»?",["Propuesta de valor","Estructura de costos","Socios clave"],0,"Es el centro del lienzo."],
 ["La panadería que surte el pan a Tortas Lupita va en…",["Socios clave","Segmentos de clientes","Canales"],0,"Es un aliado del que depende la operación."],
 ["¿Cuál es una buena práctica al llenar el lienzo?",["Ser concreto y empezar por el cliente","Usar frases generales","Empezar por el logo"],0,"La concreción permite detectar problemas."]],
-t: ["Lienzo de modelo de negocio","Propuesta de valor","Segmento de clientes","Canales","Socios clave"]
+t: ["Lienzo de modelo de negocio", "Propuesta de valor"]
 },
 "M4-3": {
 s: `Lupita quiere atraer a los estudiantes de la preparatoria cercana. Toño le dice: «Ellos no buscan lo mismo que los oficinistas; necesitas pensar qué problema les resuelves a ellos». ¿Cómo se diseña una propuesta para cada tipo de cliente?`,
@@ -2197,7 +2197,7 @@ q: [["Un segmento de clientes es…",["Un grupo con necesidades o comportamiento
 ["¿Cuál es una propuesta de valor más concreta?",["«Calidad y buen servicio»","«Tortas listas en 3 minutos o pedidas por WhatsApp sin fila»","«Somos los mejores»"],1,"Dice qué beneficio concreto recibe el cliente."],
 ["Las «frustraciones» del cliente son…",["Lo que le molesta o preocupa al intentar resolver su necesidad","Sus gustos musicales","El precio del competidor"],0,"La propuesta debe aliviarlas."],
 ["¿Por qué conviene elegir un segmento principal?",["Atender a muchos tiene costos y complejidad","Porque los demás no compran","Porque lo pide la ley"],0,"Así no se descuida al cliente más importante."]],
-t: ["Segmento de clientes","Propuesta de valor","Segmentación"]
+t: ["Segmento de clientes", "Propuesta de valor"]
 },
 "M4-4": {
 s: `Un cliente le dice a Lupita: «Me encantan tus tortas, pero no siempre puedo bajar; ¿no las llevas a la oficina?». Otro pregunta si tiene redes sociales. Lupita entiende que no basta con tener buen producto: hay que llegar al cliente y cuidarlo.`,
@@ -2288,7 +2288,7 @@ q: [["Un canal de socio es…",["Uno que pertenece a otro, como una plataforma d
 ["¿Cuál es una desventaja típica de las plataformas de reparto?",["Comisiones altas","Que no tienen clientes","Que son gratis"],0,"Pueden reducir mucho el margen."],
 ["Una tarjeta de sellos («la décima gratis») sirve para…",["Conservar clientes y que regresen","Pagar impuestos","Atraer proveedores"],0,"Es una herramienta de lealtad."],
 ["El autoservicio es un tipo de…",["Relación con el cliente","Fuente de ingreso","Socio clave"],0,"El cliente se atiende solo."]],
-t: ["Canales","Relación con el cliente","Programa de lealtad","Comisión"]
+t: ["Canales", "Relación con el cliente"]
 },
 "M4-5": {
 s: `Toño está sorprendido: el gimnasio cobra por mes aunque vayas poco, el banco cobra «comisiones», la app de videos es gratis y gana con anuncios, y la impresora barata se paga con cartuchos caros. «¿Cuántas formas de cobrar existen?», pregunta.`,
@@ -2380,7 +2380,7 @@ q: [["Un gimnasio que cobra una cuota mensual usa…",["Suscripción","Publicida
 ["Una plataforma que conecta compradores y vendedores y cobra un porcentaje usa…",["Comisión o intermediación","Renta","Licencia"],0,"Cobra por cada operación."],
 ["El modelo de «la navaja y las hojas» consiste en…",["Vender barato el producto base y ganar con los repuestos","Regalar todo","Cobrar solo publicidad"],0,"Ejemplo clásico: Gillette."],
 ["¿Cuál es la principal ventaja de una suscripción?",["Ingresos recurrentes y predecibles","No tener clientes","No tener costos"],0,"Se cobra cada periodo."]],
-t: ["Fuentes de ingreso","Suscripción","Comisión","Regalías","Gratis con extras (freemium)","Ingreso recurrente"]
+t: ["Fuentes de ingreso", "Suscripción"]
 },
 "M4-6": {
 s: `Toño ya entiende a los clientes de Tortas Lupita. Pero cuando un banco le pregunta «¿qué necesitan para operar y cuánto les cuesta?», no sabe qué responder. Le falta el lado de atrás del lienzo.`,
@@ -2470,7 +2470,7 @@ q: [["La receta secreta de la salsa es un recurso…",["Intelectual","Financiero
 ["¿Por qué un negocio busca socios clave?",["Para reducir costos, riesgos o conseguir recursos","Para tener más jefes","Para pagar más impuestos"],0,"Son las tres razones principales."],
 ["Si prometes rapidez, el lado de atrás debe incluir…",["Un proceso rápido y equipo adecuado","Más publicidad","Precios más altos"],0,"La operación debe sostener la promesa."],
 ["Los ingredientes de una torta son un costo…",["Variable","Fijo","Intelectual"],0,"Cambian con cada torta vendida."]],
-t: ["Recursos clave","Actividades clave","Socios clave","Estructura de costos","Costo fijo","Costo variable"]
+t: ["Recursos clave", "Actividades clave"]
 },
 "M4-7": {
 s: `Toño quiere entender por qué un restaurante, una fábrica de pan, una aplicación de transporte y una franquicia de hamburguesas ganan dinero de formas tan diferentes. Decide comparar sus modelos de negocio lado a lado.`,
@@ -2566,7 +2566,7 @@ q: [["¿Qué patrón depende más del efecto red?",["La plataforma","La fábrica
 ["Una franquicia gana principalmente con…",["Cuotas y regalías","Publicidad","Intereses"],0,"Cobra por usar su marca y su sistema."],
 ["¿Qué modelo suele necesitar más inversión en maquinaria?",["La fábrica","La plataforma","La suscripción"],0,"La manufactura requiere equipo e instalaciones."],
 ["¿Por qué los inversionistas valoran los ingresos recurrentes?",["Porque son más estables y predecibles","Porque son ilegales","Porque no tienen costos"],0,"Se repiten cada periodo."]],
-t: ["Modelo de negocio","Efecto red","Franquicia","Plataforma","Ingreso recurrente"]
+t: ["Modelo de negocio", "Efecto red"]
 }
 });
 // ===== M5. Cómo fluye el dinero I =====
@@ -2648,7 +2648,7 @@ q: [["El ciclo de conversión del efectivo se calcula como…",["Días de invent
 ["Si un negocio vende a crédito a 30 días, su ciclo…",["Se alarga","Se acorta","No cambia"],0,"Tarda más en cobrar."],
 ["Un ciclo negativo significa que el negocio…",["Cobra antes de pagar a sus proveedores","Pierde dinero","No tiene clientes"],0,"Es típico de grandes comercios que venden de contado."],
 ["¿Por qué una fábrica puede necesitar un préstamo aunque tenga utilidades?",["Porque su ciclo es largo y necesita capital de trabajo","Porque no vende","Porque no paga impuestos"],0,"Paga antes de cobrar."]],
-t: ["Ciclo de conversión del efectivo","Capital de trabajo","Cuentas por cobrar","Cuentas por pagar","Inventario"]
+t: ["Ciclo de conversión del efectivo", "Capital de trabajo"]
 },
 "M5-2": {
 s: `Toño empieza a anotar las ventas. Un lunes vendieron 6,800 pesos y un viernes 9,200. «¿Por qué tanta diferencia?», pregunta Lupita. Toño descubre que para entender los ingresos hay que separar cuántos clientes llegan y cuánto gasta cada uno.`,
@@ -2721,7 +2721,7 @@ q: [["Si un negocio tiene 200 tickets y vende 9,000 pesos, su ticket promedio es
 ["¿Cuál es una forma de subir el ticket promedio?",["Ofrecer combos o productos adicionales","Cerrar más temprano","Quitar el producto estrella"],0,"El cliente gasta más en cada compra."],
 ["Venta y cobro son distintos cuando…",["Se vende a crédito","Se vende de contado","Nunca"],0,"La venta se registra hoy y el cobro llega después."],
 ["El principio de Pareto dice que, a menudo…",["Una pequeña parte de los productos genera la mayoría de las ventas","Todos los productos venden igual","Los clientes no importan"],0,"Es la regla aproximada del 80/20."]],
-t: ["Ingresos","Ticket promedio","Ventas netas","Principio de Pareto"]
+t: ["Ingresos", "Ticket promedio"]
 },
 "M5-3": {
 s: `Lupita dice que cada torta le cuesta «como 15 pesos». Toño quiere saberlo exacto, y además descubre que hay gastos que no dependen de cuántas tortas venden, como el permiso o el gas. ¿Cómo se separan los costos?`,
@@ -2812,7 +2812,7 @@ q: [["La renta del local es un costo…",["Fijo","Variable","Semivariable siempr
 ["Los ingredientes de cada torta son un costo…",["Variable","Fijo","Intelectual"],0,"Uno por cada torta vendida."],
 ["¿Qué es la merma?",["Lo que se pierde por desperdicio, porciones de más o producto echado a perder","Un impuesto","Una venta extra"],0,"Aumenta el costo real por unidad."],
 ["Un pedido especial a 30 pesos con costo variable de 16, sin aumentar fijos, deja por torta…",["14 pesos de margen","Pérdida","46 pesos"],0,"30 − 16 = 14."]],
-t: ["Costo fijo","Costo variable","Costo semivariable","Receta costeada","Merma","Apalancamiento operativo"]
+t: ["Costo fijo", "Costo variable"]
 },
 "M5-4": {
 s: `Al final del mes, Toño suma los ingredientes y los sueldos, y le sale que debían quedar 60,000 pesos. Pero en la cuenta solo hay 41,000. «¿A dónde se fue el resto?», pregunta. Empieza la búsqueda de los gastos que no se ven.`,
@@ -2903,7 +2903,7 @@ q: [["Los ingredientes de una torta son…",["Costo de ventas","Gasto de adminis
 ["La renta del local es…",["Un gasto de operación","Costo de ventas","Un ingreso"],0,"Mantiene funcionando el negocio."],
 ["Si una plancha cuesta 12,000 pesos y dura 4 años, su depreciación mensual es…",["250 pesos","3,000 pesos","12,000 pesos"],0,"12,000 ÷ 48 meses = 250."],
 ["¿Cuál es un gasto escondido común?",["Las comisiones de la terminal de pagos","Las ventas","El ticket promedio"],0,"Se descuentan de cada venta con tarjeta."]],
-t: ["Costo de ventas","Gastos de operación","Depreciación","Gastos hormiga","Merma"]
+t: ["Costo de ventas", "Gastos de operación"]
 },
 "M5-5": {
 s: `El banco le pide a Lupita su «utilidad neta». Ella pregunta: «¿Neta de qué?». Toño descubre que hay varios tipos de utilidad, como capas de una cebolla, y que cada una cuenta una historia distinta.`,
@@ -2991,7 +2991,7 @@ q: [["La utilidad bruta se calcula como…",["Ventas − costo de ventas","Venta
 ["Si un negocio tiene buena utilidad bruta pero mala utilidad de operación, el problema suele estar en…",["Los gastos de operación","El precio del producto","Los clientes"],0,"La estructura es demasiado cara."],
 ["Si vendes 100,000 pesos y tu utilidad neta es 8,000, tu margen neto es…",["8 %","80 %","0.8 %"],0,"8,000 ÷ 100,000 = 8 %."],
 ["¿Qué utilidad queda para los dueños?",["La utilidad neta","La utilidad bruta","Las ventas"],0,"Es la última línea, después de intereses e impuestos."]],
-t: ["Utilidad bruta","Utilidad de operación","Utilidad neta","Margen bruto","Margen neto","Estado de resultados","EBITDA"]
+t: ["Utilidad bruta", "Utilidad de operación"]
 },
 "M5-6": {
 s: `Toño quiere que la torta nueva deje «60 % de ganancia». Le pone 60 % encima al costo de 16 pesos y le sale un precio de 25.60. Lupita frunce el ceño: «Así no vamos a ganar lo que crees». ¿Dónde está el error?`,
@@ -3084,7 +3084,7 @@ q: [["Una torta cuesta 16 y se vende en 40. ¿Cuál es su margen %?",["60 %","15
 ["Con los mismos datos, ¿cuál es su sobreprecio %?",["150 %","60 %","24 %"],0,"24 ÷ 16 = 150 %."],
 ["Si quieres un margen de 50 % y el costo es 30, el precio debe ser…",["60","45","80"],0,"30 ÷ (1 − 0.5) = 60."],
 ["Un sobreprecio de 100 % equivale a un margen de…",["50 %","100 %","200 %"],0,"Doblar el costo deja la mitad del precio como margen."]],
-t: ["Margen de contribución","Sobreprecio (markup)","Margen bruto","Costo de alimentos (food cost)","Mezcla de productos"]
+t: ["Margen de contribución", "Sobreprecio (markup)"]
 },
 "M5-7": {
 s: `Lupita encuentra un local en renta por 15,000 pesos al mes. Toño pregunta: «¿Cuántas tortas tendríamos que vender para no perder dinero?». Es la pregunta del punto de equilibrio.`,
@@ -3181,7 +3181,7 @@ q: [["Con costos fijos de 18,000, precio de 40 y costo variable de 16, el punto 
 ["Si suben los costos fijos, el punto de equilibrio…",["Sube","Baja","No cambia"],0,"Se necesitan más ventas para cubrirlos."],
 ["Con costos fijos de 30,000 y margen de contribución de 60 %, el equilibrio en ventas es…",["50,000 pesos","18,000 pesos","30,000 pesos"],0,"30,000 ÷ 0.6 = 50,000."],
 ["Un margen de seguridad de 10 % significa que…",["Las ventas pueden caer solo 10 % antes de perder","El negocio gana 10 %","El negocio pierde"],0,"Es una situación frágil."]],
-t: ["Punto de equilibrio","Margen de seguridad","Margen de contribución","Costo fijo"]
+t: ["Punto de equilibrio", "Margen de seguridad"]
 },
 "M5-8": {
 s: `Lupita quiere lanzar una torta especial de milanesa. Le cuesta 20 pesos. ¿A cuánto venderla? Toño propone 50 «para ganar lo mismo que con las demás». Un cliente dice que en la fonda de enfrente cuesta 45. Otro dice que pagaría 60 si es tan buena como la de jamón. ¿Quién tiene razón?`,
@@ -3280,7 +3280,7 @@ q: [["El precio basado en el costo marca…",["El piso del precio","El techo del
 ["Con costo de 20 y margen deseado de 60 %, el precio por costo es…",["50","32","80"],0,"20 ÷ 0.40 = 50."],
 ["Fijar precios por valor significa…",["Partir de lo que el cliente valora y está dispuesto a pagar","Copiar al competidor","Poner el precio más bajo"],0,"Captura más del valor creado."],
 ["¿Por qué hay que revisar precios con regularidad?",["Porque la inflación sube los costos y reduce el margen","Porque lo exige el cliente","No hace falta"],0,"Si no se ajustan, el margen se erosiona."]],
-t: ["Precio por costo","Precio por competencia","Precio por valor","Precio psicológico","Combo","Inflación"]
+t: ["Precio por costo", "Precio por competencia"]
 },
 "M5-9": {
 s: `Una cadena de comida rápida abre cerca y anuncia «2×1 los martes». Toño propone hacer lo mismo: «¡Si no, nos van a quitar a todos los clientes!». Lupita le pide que primero haga las cuentas.`,
@@ -3372,7 +3372,7 @@ q: [["Con precio 40, costo 16 y descuento de 10 %, ¿cuánto más hay que vender
 ["Un 2×1 equivale a un descuento de…",["50 % por unidad","2 %","100 %"],0,"El cliente paga una de cada dos."],
 ["¿Qué promoción suele ser más sana para un negocio chico?",["Un combo que sube el ticket","Un 2×1 permanente","Bajar todos los precios a la mitad"],0,"Aumenta la venta sin regalar el margen principal."],
 ["¿Por qué es peligrosa una guerra de precios con una cadena grande?",["Porque la cadena tiene costos más bajos y aguanta más","Porque está prohibida","Porque los clientes no compran barato"],0,"Gana quien tiene menor costo."]],
-t: ["Descuento","Promoción","Programa de lealtad","Guerra de precios","Combo"]
+t: ["Descuento", "Promoción"]
 },
 "M5-10": {
 s: `Al terminar el Nivel 1, Lupita recuerda a su amiga Chela, que tuvo una cocina económica durante seis años: «Siempre estaba llena, pero un día cerró debiendo dinero a todos». ¿Cómo puede pasar eso? Toño repasa los errores clásicos.`,
@@ -3473,6 +3473,6 @@ q: [["¿Por qué es un error no pagarse sueldo como dueño?",["Porque el negocio
 ["Un negocio con muchas ventas puede perder dinero si…",["Sus precios no cubren sus costos reales","Tiene muchos clientes","Paga a tiempo"],0,"Vende mucho precisamente porque cobra barato."],
 ["¿Qué conviene hacer antes de rentar un local más grande?",["Recalcular el punto de equilibrio","Bajar precios","Pedir un préstamo"],0,"Para saber si el negocio puede sostener el nuevo gasto fijo."],
 ["¿Cuándo tiene sentido pedir un préstamo?",["Para una inversión que traerá más utilidad","Para tapar pérdidas permanentes","Para pagar gastos personales"],0,"No para tapar agujeros sin corregir la causa."]],
-t: ["Fondo de emergencia","Retiro del dueño","Fiado","Punto de equilibrio","Depreciación"]
+t: ["Fondo de emergencia", "Retiro del dueño"]
 }
 });

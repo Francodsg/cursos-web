@@ -81,7 +81,7 @@ q: [["Abrir una sucursal en otra ciudad es una decisión…",["Estratégica","Op
 ["Una decisión programada es…",["Repetitiva y puede resolverse con una regla","Nueva y compleja","Siempre estratégica"],0,"Concepto de Herbert Simon."],
 ["Según Bezos, las decisiones reversibles deben tomarse…",["Rápido, por personas o equipos pequeños","Con meses de análisis","Solo por el consejo"],0,"Son «puertas de dos sentidos»."],
 ["¿Por qué conviene programar las decisiones repetitivas?",["Para liberar tiempo de la dirección para lo importante","Para tardar más","Porque lo exige la ley"],0,"Con reglas y procedimientos."]],
-t: ["Toma de decisiones","Decisión estratégica","Decisión táctica","Decisión operativa","Decisión programada","Decisión reversible"]
+t: ["Toma de decisiones", "Decisión estratégica"]
 },
 "M16-2": {
 s: `Toño cambió el menú sin consultar a la cocina. El jefe de cocina se enteró por un cliente. Lupita autorizó un descuento que Toño ya había rechazado. Karla prometió a una oficina algo que la cocina no podía hacer. Todos decidían todo y nadie sabía quién debía decidir qué.`,
@@ -171,7 +171,7 @@ q: [["En la matriz RACI, la «A» corresponde a…",["El aprobador: quien decide
 ["La diferencia entre «C» e «I» es que…",["C opina antes de decidir; I se entera después","Son lo mismo","I decide"],0,"Consultado frente a informado."],
 ["El pensamiento de grupo consiste en…",["Buscar el acuerdo a costa de analizar críticamente","Decidir solo","Votar siempre"],0,"Descrito por Irving Janis."],
 ["Ante una emergencia, como una inundación en la cocina, conviene un estilo…",["Individual, de inmediato","De grupo por consenso","Delegado a un comité"],0,"La rapidez es lo más importante."]],
-t: ["Matriz RACI","Estilos de decisión","Pensamiento de grupo","Abogado del diablo"]
+t: ["Matriz RACI", "Estilos de decisión"]
 },
 "M16-3": {
 s: `Lupita debe decidir dónde abrir la segunda sucursal. Toño quiere la colonia de su amigo; el contador sugiere la más barata; Karla, la que tiene más oficinas. Cada quien defiende su opción con entusiasmo, pero nadie ha dicho qué es lo que realmente importa. Lupita propone ordenar la decisión paso a paso.`,
@@ -258,7 +258,7 @@ q: [["¿Por qué conviene definir los criterios antes de evaluar las opciones?",
 ["¿Cuántas alternativas conviene tener al menos?",["Tres","Una","Ninguna"],0,"Evita decidir solo entre sí o no."],
 ["Un criterio eliminatorio es…",["Una condición que, si no se cumple, descarta la opción aunque tenga buen puntaje","El criterio con más peso","Un criterio opcional"],0,"Por ejemplo, el presupuesto máximo."],
 ["El «resultadismo» es el error de…",["Juzgar una decisión solo por su resultado","Analizar demasiado","Decidir en grupo"],0,"Lo controlable es la calidad del proceso."]],
-t: ["Proceso de decisión","Criterios de decisión","Matriz de decisión ponderada","Criterio eliminatorio","Supuesto"]
+t: ["Proceso de decisión", "Criterios de decisión"]
 },
 "M16-4": {
 s: `Toño está seguro de que los clientes prefieren la torta de milanesa. Los datos del punto de venta dicen otra cosa: la de pierna se vende el doble. Pero los datos también muestran que la milanesa se acaba antes de las 13:00. ¿A quién creerle: a la intuición o a los datos?`,
@@ -345,7 +345,7 @@ q: [["El primer paso para decidir con datos es…",["Definir la pregunta y la de
 ["Si las ventas suben los días de promoción y también eran días de quincena, ¿qué riesgo hay?",["Confundir correlación con causalidad","Ninguno","Que la promoción sea ilegal"],0,"Para saber la causa, conviene un experimento."],
 ["¿Por qué las ventas de la milanesa no mostraban su demanda real?",["Porque se acababa antes de la hora pico","Porque nadie la quería","Porque era muy cara"],0,"Las ventas no muestran lo que no se pudo vender."],
 ["¿Cuál es el papel de los datos en una decisión?",["Informarla; el criterio interpreta y decide","Sustituir por completo al criterio","Ninguno"],0,"Datos y experiencia se complementan."]],
-t: ["Decisión basada en datos","Correlación","Causalidad","Experimento","Datos cualitativos","Sesgo de muestra"]
+t: ["Decisión basada en datos", "Correlación"]
 },
 "M16-5": {
 s: `Toño ya invirtió 60,000 pesos en una línea de jugos que vende poco. Cada mes dice: «Ya gastamos mucho, no podemos dejarla ahora». Lupita, por su parte, está convencida de que su nueva sucursal será un éxito y solo escucha a quienes le dan la razón. Ambos están cayendo en trampas de la mente.`,
@@ -422,7 +422,7 @@ q: [["Seguir invirtiendo en algo «porque ya gastamos mucho» es el sesgo de…"
 ["El sesgo de confirmación consiste en…",["Buscar y valorar más la información que confirma lo que ya creemos","Confiar en los datos","Pedir opiniones contrarias"],0,"Se combate buscando evidencia contraria."],
 ["El ejercicio del «premortem» consiste en…",["Imaginar que la decisión fracasó y explicar por qué","Revisar los resultados al final","Votar"],0,"Propuesto por Gary Klein."],
 ["¿Quién recibió el Premio Nobel de Economía en 2002 por sus estudios sobre sesgos?",["Daniel Kahneman","Michael Porter","Peter Drucker"],0,"Trabajó con Amos Tversky."]],
-t: ["Sesgos cognitivos","Racionalidad limitada","Costo hundido","Sesgo de confirmación","Anclaje","Exceso de confianza","Premortem","Sesgo de supervivencia"]
+t: ["Sesgos cognitivos", "Racionalidad limitada"]
 },
 "M16-6": {
 s: `La nueva sucursal podría vender 120, 160 o 200 tortas al día, según cómo responda la zona. Lupita se pregunta: «¿Cómo decido si no sé cuál de las tres va a pasar?». Toño propone calcular qué pasaría en cada escenario.`,
@@ -508,7 +508,7 @@ q: [["El costo de oportunidad es…",["El valor de la mejor alternativa a la que
 {n:1, t:"Escenarios con resultados de 10,000 (probabilidad 20 %), 30,000 (60 %) y 50,000 (20 %). ¿Cuál es el valor esperado?", a:30000, tol:0, u:"pesos", e:"10,000 × 0.2 + 30,000 × 0.6 + 50,000 × 0.2 = 2,000 + 18,000 + 10,000 = 30,000."},
 ["Una decisión robusta es la que…",["Sigue siendo aceptable aun en el escenario pesimista","Tiene el valor esperado más alto siempre","No tiene riesgos"],0,"Aguanta que las cosas salgan peor."],
 ["El análisis de sensibilidad sirve para…",["Saber qué supuesto mueve más el resultado","Calcular impuestos","Elegir proveedores"],0,"Se cambia un supuesto a la vez."]],
-t: ["Análisis costo-beneficio","Costo de oportunidad","Escenarios","Valor esperado","Análisis de sensibilidad","Decisión robusta"]
+t: ["Análisis costo-beneficio", "Costo de oportunidad"]
 },
 "M16-7": {
 s: `Una noche roban en el local. Al mes, una inspección encuentra un extintor vencido. Después, la plancha se descompone en plena hora pico. Cada problema toma a Lupita por sorpresa. Toño propone dejar de «apagar fuegos» y empezar a pensar en los riesgos antes de que ocurran.`,
@@ -611,7 +611,7 @@ q: [["El nivel de un riesgo se calcula como…",["Probabilidad × impacto","Vent
 ["Contratar un seguro contra incendio es una estrategia de…",["Transferir el riesgo","Evitar el riesgo","Aceptar el riesgo"],0,"El impacto lo asume la aseguradora."],
 ["¿Por qué atender un riesgo de baja probabilidad e impacto muy alto?",["Porque si ocurre puede acabar con el negocio","No hay que atenderlo","Porque es muy frecuente"],0,"Por ejemplo, una intoxicación o un incendio."],
 ["Un plan de contingencia dice…",["Qué hacer si el riesgo ocurre a pesar de las medidas","Cuánto vender","A quién contratar"],0,"Se prepara antes de necesitarlo."]],
-t: ["Riesgo","Gestión de riesgos","Matriz de riesgos","Probabilidad e impacto","Transferir el riesgo","Plan de contingencia","ISO 31000"]
+t: ["Riesgo", "Gestión de riesgos"]
 },
 "M16-8": {
 s: `Un martes, el cliente más grande de Tortas Lupita (40 % de las ventas a oficinas) anuncia que cierra su oficina en la zona. Esa misma semana se descompone el refrigerador de la cocina central. Lupita siente que todo se derrumba. ¿Cómo se decide cuando no hay tiempo y todo parece urgente?`,
@@ -689,7 +689,7 @@ q: [["¿Cuál es la primera prioridad en una crisis?",["La seguridad de las pers
 ["En una crisis con mucha incertidumbre conviene preferir decisiones…",["Reversibles","Irreversibles","Sin información"],0,"Se pueden corregir al saber más."],
 ["¿Por qué es clave el efectivo en una crisis?",["Porque la supervivencia depende de cuánto tiempo alcance","Porque así se paga menos impuesto","No es importante"],0,"Proteger la liquidez."],
 ["El caso de Tylenol (1982) se estudia como ejemplo de…",["Manejo de crisis con personas primero y comunicación honesta","Publicidad engañosa","Fraude contable"],0,"Johnson & Johnson retiró millones de frascos."]],
-t: ["Crisis","Manejo de crisis","Liquidez","Fondo de emergencia","Comunicación de crisis"]
+t: ["Crisis", "Manejo de crisis"]
 }
 });
 // ===== M17. Presupuestos, indicadores y control =====
@@ -780,7 +780,7 @@ q: [["El presupuesto, desde la dirección, sirve sobre todo para…",["Decidir y
 ["El presupuesto de inversiones se refiere a…",["Compras de activos que duran varios años","Los sueldos del mes","La renta"],0,"También llamado presupuesto de capital."],
 ["¿Qué inversión suele tener prioridad 1?",["La que exige la ley o la seguridad","La publicidad","La más bonita"],0,"Lo obligatorio va primero."],
 ["Una trampa común del presupuesto es…",["Inflar los gastos para obtener más recursos","Revisarlo cada mes","Usar datos reales"],0,"Genera presupuestos poco realistas."]],
-t: ["Presupuesto operativo","Presupuesto de inversiones","Asignación de capital","Beyond Budgeting","Presupuesto participativo"]
+t: ["Presupuesto operativo", "Presupuesto de inversiones"]
 },
 "M17-2": {
 s: `Lupita quiere saber, mes a mes, cuánto va a vender, cuánto va a gastar y, sobre todo, cuánto efectivo tendrá en el primer trimestre del año. Toño le propone armarlo juntos, paso a paso, para las tres sucursales.`,
@@ -913,7 +913,7 @@ q: [["¿Cuál es el primer paso para armar un presupuesto?",["El presupuesto de 
 ["¿Por qué la depreciación no aparece en el presupuesto de pagos?",["Porque no sale efectivo","Porque es un ingreso","Porque es un impuesto"],0,"Reduce la utilidad, pero no es un pago."],
 ["Si un mes tiene utilidad pero el efectivo baja, puede ser por…",["Pagos anuales, inversiones o pago de deudas","Que vendió mucho","Que no hay gastos"],0,"Utilidad y efectivo no coinciden."],
 {n:1, t:"Saldo inicial de 80,000, cobros de 541,950 y pagos de 576,390. ¿Cuál es el saldo final?", a:45560, tol:0, u:"pesos", e:"80,000 + 541,950 − 576,390 = 45,560."}],
-t: ["Presupuesto de ventas","Presupuesto de efectivo","Presupuesto de cobros","Presupuesto de pagos","Saldo mínimo de seguridad"]
+t: ["Presupuesto de ventas", "Presupuesto de efectivo"]
 },
 "M17-3": {
 s: `Termina enero. Las ventas reales fueron 500,000 en lugar de 541,950 y los gastos, 290,000 en lugar de 274,000. Lupita se alarma. Toño le dice: «Antes de preocuparnos, entendamos exactamente qué pasó y por qué».`,
@@ -1014,7 +1014,7 @@ q: [["Si los gastos reales son mayores que los presupuestados, la variación es�
 {n:1, t:"Se presupuestaron 11,475 unidades a 42 pesos y se vendieron 10,500. ¿Cuál es la variación por volumen?", a:-40950, tol:0, u:"pesos", e:"(10,500 − 11,475) × 42 = −40,950."},
 ["La administración por excepción consiste en…",["Investigar solo las variaciones que superan un umbral","Revisar todo siempre","No revisar nada"],0,"Concentra la atención en lo importante."],
 ["Una obra pública que bloquea la calle es una causa de variación…",["No controlable","Controlable","Inexistente"],0,"Aun así, se pueden tomar acciones para reducir su efecto."]],
-t: ["Control presupuestal","Variación","Variación favorable","Variación desfavorable","Variación por volumen","Variación por precio","Administración por excepción"]
+t: ["Control presupuestal", "Variación"]
 },
 "M17-4": {
 s: `Con tres sucursales, Lupita recibe cada mes reportes larguísimos. Quiere ver en una sola pantalla cómo va cada sucursal en dinero, clientes, procesos y personas. Toño propone construir un tablero de control al estilo de las grandes empresas, pero sencillo.`,
@@ -1102,7 +1102,7 @@ q: [["Las cuatro perspectivas del cuadro de mando integral son…",["Financiera,
 ["El mapa estratégico muestra…",["Relaciones de causa y efecto entre las perspectivas","El mapa de la ciudad","El organigrama"],0,"Personas → procesos → clientes → finanzas."],
 ["Si una sucursal está en rojo en todas las perspectivas, conviene empezar por…",["Las causas de base: personas y procesos","Subir precios","Más publicidad"],0,"Explican los resultados de clientes y financieros."],
 ["¿Cuántos indicadores se recomiendan en un tablero de este tipo?",["Entre 8 y 12","Más de 50","Uno"],0,"Pocos y ligados a la estrategia."]],
-t: ["Cuadro de mando integral","Mapa estratégico","Perspectiva financiera","Perspectiva de clientes","Perspectiva de procesos","Perspectiva de aprendizaje","Semáforo de indicadores"]
+t: ["Cuadro de mando integral", "Mapa estratégico"]
 },
 "M17-5": {
 s: `Toño quiere comprar un horno para hacer el pan en la cocina central. Cuesta 60,000 pesos y ahorraría unos 5,000 al mes en pan. Lupita pregunta: «¿En cuánto tiempo lo recuperamos? ¿Y vale lo mismo un peso de ahorro dentro de dos años que hoy?».`,
@@ -1194,7 +1194,7 @@ q: [{n:1, t:"Una inversión de 60,000 pesos ahorra 5,000 al mes. ¿En cuántos m
 ["¿Por qué un peso hoy vale más que un peso dentro de un año?",["Porque se puede invertir, por la inflación y por el riesgo","No vale más","Porque lo dice el SAT"],0,"Es el valor del dinero en el tiempo."],
 ["Un VPN positivo significa que la inversión…",["Crea valor: rinde más que la tasa de descuento","Pierde dinero","No se recupera"],0,"Conviene, si los supuestos son realistas."],
 ["Una desventaja del periodo de recuperación es que…",["Ignora lo que pasa después de recuperar la inversión","Es difícil de calcular","Siempre da negativo"],0,"Por eso conviene complementarlo con el VPN."]],
-t: ["Inversión","Periodo de recuperación","Valor del dinero en el tiempo","Valor presente","Valor presente neto (VPN)","Tasa de descuento","Tasa interna de retorno (TIR)","Costo de capital"]
+t: ["Inversión", "Periodo de recuperación"]
 },
 "M17-6": {
 s: `Cada mes, las compras de queso suben aunque las ventas no. En la caja de la sucursal 2 aparecen diferencias pequeñas pero constantes. Un repartidor carga gasolina «de más». Nadie roba grandes cantidades, pero el dinero se escapa poco a poco, como hormigas.`,
@@ -1279,7 +1279,7 @@ q: [["El control interno busca…",["Proteger los recursos, tener información c
 ["La separación de funciones consiste en…",["Que una sola persona no controle todo un proceso de principio a fin","Que cada quien trabaje solo","Separar a los clientes"],0,"Es uno de los controles más importantes."],
 ["Comparar el consumo teórico con el real sirve para…",["Detectar mermas, porciones de más o robos","Calcular impuestos","Fijar precios"],0,"Según ventas y recetas."],
 ["El triángulo del fraude incluye…",["Presión, oportunidad y racionalización","Precio, plaza y promoción","Ventas, costos y gastos"],0,"El control interno ataca la oportunidad."]],
-t: ["Control interno","Marco COSO","Separación de funciones","Conciliación bancaria","Robo hormiga","Triángulo del fraude","Consumo teórico"]
+t: ["Control interno", "Marco COSO"]
 },
 "M17-7": {
 s: `El banco que podría financiar la tercera sucursal pide «estados financieros dictaminados». Un posible socio inversionista pide una «auditoría». Lupita se pregunta: ¿qué es una auditoría, quién la hace y para qué sirve?`,
@@ -1376,7 +1376,7 @@ q: [["La auditoría externa de estados financieros la hace…",["Un contador pú
 ["Un dictamen «sin salvedades» significa que…",["Los estados financieros son razonables","Hay fraude","El auditor no pudo opinar"],0,"Es una opinión limpia."],
 ["¿Por qué un banco pide estados financieros auditados?",["Porque dan más confianza que los preparados solo por el negocio","Por costumbre","Para cobrar más"],0,"Reducen la incertidumbre."],
 ["El caso Arthur Andersen se relaciona con…",["La falta de independencia y la destrucción de documentos en el caso Enron","Un fraude con tortas","Una franquicia"],0,"La firma prácticamente desapareció."]],
-t: ["Auditoría","Auditoría interna","Auditoría externa","Dictamen","Independencia del auditor","Auditoría de sucursal"]
+t: ["Auditoría", "Auditoría interna"]
 }
 });
 // ===== M18. Las etapas del crecimiento =====
@@ -1453,7 +1453,7 @@ q: [["Según Greiner, la fase de creatividad termina en una crisis de…",["Lide
 ["La crisis de autonomía aparece cuando…",["Los gerentes quieren decidir, pero todo sigue centralizado","No hay gerentes","Hay demasiadas reglas"],0,"Se resuelve delegando."],
 ["En el modelo de Churchill y Lewis, la etapa de «éxito» implica…",["Decidir si mantener el negocio estable o usarlo para crecer","Cerrar el negocio","Buscar los primeros clientes"],0,"Es una decisión del dueño."],
 ["La idea central de Greiner es que…",["Cada solución crea el siguiente problema","Las crisis no existen","Crecer es fácil"],0,"Por eso conviene anticiparse."]],
-t: ["Etapas de crecimiento","Modelo de Greiner","Crisis de liderazgo","Crisis de autonomía","Crisis de control","Crisis de burocracia","Modelo de Churchill y Lewis"]
+t: ["Etapas de crecimiento", "Modelo de Greiner"]
 },
 "M18-2": {
 s: `La prima diseñadora de Toño tiene tanto trabajo que rechaza proyectos. Duda entre seguir sola, subir precios o contratar a su primer empleado. «Si contrato y luego no hay trabajo, ¿cómo le pago?», pregunta. Es el primer gran salto de un negocio.`,
@@ -1551,7 +1551,7 @@ q: [["¿Qué crea un primer empleado que no existía antes?",["Un compromiso fij
 ["Una señal de que es momento de contratar es…",["Rechazar clientes por falta de tiempo con ventas estables","Un solo mes bueno","No tener clientes"],0,"Y tener un colchón de efectivo."],
 ["Antes de contratar conviene considerar…",["Subir precios, mejorar procesos o contratar medio tiempo","Cerrar","Bajar precios"],0,"Son alternativas con menos compromiso."],
 ["La regla básica para contratar es que…",["El margen extra que genera la persona supere su costo total","El sueldo sea el más bajo posible","Sea familiar"],0,"Así la contratación se paga."]],
-t: ["Primer empleado","Compromiso fijo","Subcontratar","Medio tiempo"]
+t: ["Primer empleado", "Compromiso fijo"]
 },
 "M18-3": {
 s: `Un fondo de inversión se interesa en Tortas Lupita, pero después de revisar el negocio dice: «Tienen buen producto y buenos números, pero todo depende de la familia y no hay sistemas. Primero profesionalícense». Lupita pregunta: «¿Qué significa exactamente profesionalizar?».`,
@@ -1655,7 +1655,7 @@ q: [["Profesionalizar un negocio significa…",["Que funcione con reglas, proces
 ["Un consejo consultivo es…",["Un grupo de asesores, incluidos externos, que ayuda a la dirección","Un sindicato","Una auditoría del SAT"],0,"Apoya la estrategia y vigila resultados."],
 ["¿Por qué un negocio profesionalizado vale más?",["Porque no depende del dueño y tiene información confiable","Porque paga menos impuestos","No vale más"],0,"Un comprador o inversionista lo ve menos riesgoso."],
 ["¿Cómo conviene profesionalizar?",["Por etapas, según el tamaño, conservando los valores","Todo en un mes","Nunca"],0,"Así los costos crecen con el negocio."]],
-t: ["Profesionalizar","Consejo consultivo","Sueldos de mercado","Dividendos","Gobierno de la empresa"]
+t: ["Profesionalizar", "Consejo consultivo"]
 },
 "M18-4": {
 s: `Lupita cumple 60 años. Toño trabaja en el negocio, su hermana Ana estudia arquitectura y no le interesa la cocina, y su hermano menor quiere entrar «cuando termine la prepa». En una comida familiar alguien pregunta: «¿Y quién se va a quedar con el negocio?». Se hace un silencio incómodo.`,
@@ -1748,7 +1748,7 @@ q: [["Los tres círculos del modelo de la empresa familiar son…",["Familia, pr
 ["Un familiar que trabaja en la empresa debería recibir…",["Un sueldo de mercado por su trabajo","Lo que necesite","Nada"],0,"Los dividendos son por ser dueño."],
 ["La sucesión en la dirección y la sucesión en la propiedad…",["Pueden ser distintas: todos heredan, pero uno dirige","Son siempre lo mismo","No existen"],0,"Conviene planear ambas."],
 ["Un protocolo familiar es…",["Un acuerdo con las reglas de la relación entre la familia y la empresa","Un tipo de impuesto","Un contrato de trabajo"],0,"Se construye antes de los conflictos."]],
-t: ["Empresa familiar","Modelo de los tres círculos","Sucesión","Plan de sucesión","Protocolo familiar","Consejo de familia"]
+t: ["Empresa familiar", "Modelo de los tres círculos"]
 },
 "M18-5": {
 s: `Tortas Lupita duplica sus ventas en un año gracias a las oficinas y a una nueva sucursal. Pero cada mes hay menos dinero en el banco: más inventario, más clientes a crédito, más empleados, más renta. Lupita no entiende: «¿Cómo es posible que crecer nos deje sin dinero?».`,
@@ -1835,7 +1835,7 @@ q: [["¿Por qué crecer puede dejar sin efectivo a un negocio con utilidades?",[
 ["La sobreexpansión consiste en…",["Crecer más rápido de lo que el efectivo puede sostener","No crecer","Tener demasiado efectivo"],0,"También llamada «morir de éxito»."],
 {n:1, t:"Un negocio tiene un ROE de 30 % y reinvierte la mitad de sus utilidades. ¿Cuál es su crecimiento sostenible aproximado en porcentaje?", a:15, tol:0.001, u:"%", e:"30 % × 50 % = 15 %."},
 ["¿Cuándo conviene conseguir el financiamiento para crecer?",["Antes de empezar a crecer","Cuando ya falta dinero","Nunca"],0,"Financiar antes de necesitar."]],
-t: ["Sobreexpansión","Crecimiento sostenible","Morir de éxito","Capital de trabajo","Saldo mínimo de seguridad"]
+t: ["Sobreexpansión", "Crecimiento sostenible"]
 },
 "M18-6": {
 s: `Toño tiene una lista de ideas para crecer: vender más tortas en las mismas sucursales, abrir en otra ciudad, lanzar desayunos y ensaladas, y hasta abrir una cafetería con otra marca. Lupita le pide ordenarlas: «¿Cuáles son más arriesgadas y cuáles más seguras?».`,
@@ -1919,7 +1919,7 @@ q: [["Vender más del mismo producto a los mismos clientes es…",["Penetración
 ["Abrir una sucursal en otra ciudad con el mismo menú es…",["Desarrollo de mercado","Desarrollo de producto","Penetración"],0,"Producto actual, mercado nuevo."],
 ["La estrategia más riesgosa según Ansoff es…",["La diversificación","La penetración","El desarrollo de producto"],0,"Producto y mercado nuevos."],
 ["¿Quién propuso la matriz producto-mercado en 1957?",["Igor Ansoff","Michael Porter","Peter Drucker"],0,"En Harvard Business Review."]],
-t: ["Matriz de Ansoff","Penetración de mercado","Desarrollo de mercado","Desarrollo de producto","Diversificación","Crecimiento orgánico"]
+t: ["Matriz de Ansoff", "Penetración de mercado"]
 },
 "M18-7": {
 s: `Una cadena de hospitales quiere comprar 500 tortas diarias para su personal. El área de compras le envía a Lupita una lista de requisitos: constancia fiscal, opinión de cumplimiento, alta en su portal, seguro de responsabilidad civil, certificación de higiene, capacidad comprobada y pago a 60 días. Lupita se pregunta si puede cumplir.`,
@@ -2010,7 +2010,7 @@ q: [["¿Qué documento suelen pedir las empresas grandes para verificar que un p
 {n:1, t:"Un cliente compra 300,000 pesos al mes y paga a 60 días. ¿Cuánto capital de trabajo aproximado exige ese plazo?", a:600000, tol:0, u:"pesos", e:"300,000 × 60 ÷ 30 = 600,000."},
 ["Un riesgo de vender a un cliente muy grande es…",["La concentración: depender mucho de él","No tener clientes","Pagar menos impuestos"],0,"Si se va, el golpe es enorme."],
 ["¿Qué ayuda a cobrar antes las facturas de un cliente que paga a 60 días?",["El factoraje","Bajar precios","No facturar"],0,"Se vende la factura a cambio de un adelanto."]],
-t: ["Cliente corporativo","Portal de proveedores","Opinión de cumplimiento","Programa de desarrollo de proveedores","Factoraje"]
+t: ["Cliente corporativo", "Portal de proveedores"]
 },
 "M18-8": {
 s: `Una amiga de Lupita tiene una pastelería famosa en su barrio. Gana bien, trabaja cinco días a la semana y toma vacaciones. Le han ofrecido abrir diez sucursales con un inversionista. Ella dice que no: «No quiero dejar de hacer pasteles para pasarme la vida en juntas». ¿Es un error no crecer?`,
@@ -2087,7 +2087,7 @@ q: [["Un negocio de estilo de vida busca principalmente…",["Un buen ingreso y 
 ["¿Es siempre un error no crecer?",["No: puede ser una decisión estratégica válida","Sí, siempre","Solo en tecnología"],0,"Lo importante es elegir conscientemente."],
 ["El libro «Pequeños gigantes» (2005) describe empresas que…",["Eligieron ser excelentes en lugar de ser grandes","Quebraron por crecer","Solo venden en línea"],0,"De Bo Burlingham."],
 ["Una forma de crecer sin abrir sucursales es…",["Subir el valor y el precio, o vender en línea y dar talleres","Cerrar","Bajar la calidad"],0,"Crecimiento en margen o «ligero»."]],
-t: ["Negocio de estilo de vida","Negocio de alto crecimiento","Pequeños gigantes","Crecimiento ligero"]
+t: ["Negocio de estilo de vida", "Negocio de alto crecimiento"]
 }
 });
 
@@ -2183,7 +2183,7 @@ q: [["¿Cuál es la diferencia principal entre deuda y capital?",["En la deuda s
 ["El crédito que da un proveedor al permitir pagar a 30 días es…",["Una forma de financiamiento","Un regalo","Un impuesto"],0,"Es el financiamiento más usado por los negocios chicos."],
 ["Para comprar un horno que durará diez años conviene…",["Un financiamiento de largo plazo","Un préstamo a un mes","No financiarlo nunca"],0,"Se iguala el plazo del financiamiento con el de lo que se financia."],
 ["El factoraje sirve para…",["Recibir hoy el dinero de facturas que te pagarán después","Comprar acciones","Pagar impuestos"],0,"La financiera adelanta el dinero a cambio de un descuento."]],
-t: ["Financiamiento","Deuda","Capital","Arrendamiento financiero","Factoraje","Nafin"]
+t: ["Financiamiento", "Deuda"]
 },
 "M19-2": {
 s: `Toño va al banco a preguntar por un crédito de 350,000 pesos para la sucursal. El ejecutivo le habla de «tasa anual», «CAT», «comisión por apertura», «aval» y «garantía hipotecaria». Le pide dos años de estados financieros y declaraciones. Toño sale con más preguntas que respuestas: ¿cuánto le va a costar en realidad y le conviene?`,
@@ -2274,7 +2274,7 @@ q: [["El CAT sirve para…",["Comparar el costo total de distintos créditos","S
 ["Si alargas el plazo de un crédito, normalmente…",["Pagas menos al mes pero más intereses en total","Pagas menos en total","No cambia nada"],0,"El costo total sube con el plazo."],
 ["¿Qué hacen los programas de garantías de Nafin?",["Respaldan una parte del crédito para que los bancos presten a pymes","Regalan dinero","Compran las empresas"],0,"Reducen el riesgo para el banco."],
 ["Un crédito conviene cuando…",["Lo que genera la inversión supera lo que cuesta el crédito","El banco lo ofrece","Se usa para pagar otra deuda sin cambiar nada"],0,"Y el flujo aguanta los pagos aun en un mes malo."]],
-t: ["Crédito bancario","Tasa de interés","CAT","Garantía","Aval","Banca de desarrollo","Tabla de amortización"]
+t: ["Crédito bancario", "Tasa de interés"]
 },
 "M19-3": {
 s: `Un cliente frecuente de Tortas Lupita, el ingeniero Ramírez, le ofrece a Toño poner 350,000 pesos para la segunda sucursal. A cambio quiere «una parte del negocio». Toño no sabe cuánto es justo: ¿10 %, 30 %, 50 %? Lupita, además, tiene una pregunta más profunda: «Si entra un socio, ¿quién va a mandar?».`,
@@ -2368,7 +2368,7 @@ q: [{n:1,t:"Un inversionista pone 500,000 por el 20 % de una empresa. ¿Cuál es
 ["Si Lupita tenía 70 % y entra un socio con 20 %, Lupita queda con…",["56 %","50 %","70 %"],0,"70 % × 80 % = 56 %."],
 ["La dilución significa que…",["Los socios anteriores conservan sus acciones pero su porcentaje baja","Los socios pierden sus acciones","El negocio pierde valor"],0,"Se crean acciones nuevas para el socio que entra."],
 ["El documento que define cómo deciden y cómo salen los socios es…",["El convenio entre socios","La factura","El organigrama"],0,"También los estatutos de la sociedad."]],
-t: ["Socio","Participación","Tabla de participación","Valuación previa","Valuación posterior","Dilución","Convenio entre socios"]
+t: ["Socio", "Participación"]
 },
 "M19-4": {
 s: `En una feria de emprendimiento, Toño escucha a una joven que fundó una app de reparto: «Levantamos una ronda semilla con inversionistas ángel y ahora vamos por la serie A con un fondo de capital emprendedor». Toño se pregunta si Tortas Lupita podría conseguir dinero así y qué esperan esas personas a cambio.`,
@@ -2449,7 +2449,7 @@ q: [["Un fondo de capital emprendedor busca empresas que…",["Puedan multiplica
 ["La etapa en que una empresa tiene producto inicial y primeros clientes se llama…",["Semilla","Salida","Quiebra"],0,"Antes de la serie A."],
 ["La «salida» de un fondo ocurre normalmente cuando…",["La empresa se vende o sale a bolsa","Se paga la luz","Se contrata a un gerente"],0,"El fondo vende su parte con ganancia."],
 ["¿Por qué una tortería rara vez atrae capital emprendedor?",["Porque crece local por local y no promete multiplicar su valor por 20","Porque es ilegal","Porque no tiene clientes"],0,"No es un mal negocio, pero no es escalable de forma explosiva."]],
-t: ["Inversionista ángel","Capital emprendedor","Ronda de inversión","Escalable","Acciones preferentes","Salida"]
+t: ["Inversionista ángel", "Capital emprendedor"]
 },
 "M19-5": {
 s: `El ingeniero Ramírez dice que Tortas Lupita vale 1 millón. Toño cree que vale 3 millones, «porque vendemos muchísimo». Lupita no tiene idea. Sin saber cuánto vale el negocio, es imposible decidir qué porcentaje darle a un socio. ¿Cómo se pone precio a un negocio?`,
@@ -2530,7 +2530,7 @@ q: [{n:1,t:"Un negocio deja 400,000 de utilidad normalizada al año. Con un múl
 ["Para valuar un negocio, lo más importante es…",["Lo que gana o el efectivo que genera","Lo que vende","El tamaño del local"],0,"Ventas no es valor."],
 ["Un negocio que depende totalmente del dueño suele tener un múltiplo…",["Más bajo","Más alto","Igual a cualquier otro"],0,"El comprador asume más riesgo."],
 ["Si el negocio vale 1,500,000 y debe 200,000, a los dueños les corresponde aproximadamente…",["1,300,000","1,700,000","200,000"],0,"Valor de la empresa menos la deuda."]],
-t: ["Valuación","Múltiplo","EBITDA","Utilidad normalizada","Valor de la empresa"]
+t: ["Valuación", "Múltiplo"]
 },
 "M19-6": {
 s: `Ya hay dos ofertas en la mesa para conseguir los 350,000 que faltan: el crédito del Banco A a 36 meses o el ingeniero Ramírez como socio con el 20 %. Toño quiere el socio («no hay que pagar nada cada mes»). Lupita prefiere el banco («el negocio sigue siendo nuestro»). Los dos tienen algo de razón.`,
@@ -2616,7 +2616,7 @@ q: [["¿En qué escenario la deuda resulta más barata que el capital?",["Cuando
 ["El apalancamiento es…",["Usar dinero prestado para multiplicar el rendimiento del dinero propio","No tener deudas","Vender acciones"],0,"Funciona en los dos sentidos."],
 ["Un proyecto muy arriesgado y sin flujo estable se financia mejor con…",["Capital (socios)","Deuda de corto plazo","Tarjetas de crédito"],0,"El socio comparte el riesgo."],
 ["La prueba más sencilla para saber si una deuda es prudente es…",["Ver si los pagos caben en el escenario pesimista","Ver si el banco la aprueba","Comparar el color del logo"],0,"Así se evita quedar ahogado en un mal año."]],
-t: ["Apalancamiento","Estructura de capital","Deuda convertible","Escenario pesimista"]
+t: ["Apalancamiento", "Estructura de capital"]
 },
 "M19-7": {
 s: `Una incubadora de la universidad le ofrece a Toño presentar el proyecto de franquicias de Tortas Lupita frente a un grupo de inversionistas. Tendrá diez minutos. Le piden un «plan de negocio» y una «presentación para inversionistas». Toño nunca ha hecho ninguno de los dos. ¿Qué debe llevar y qué le van a preguntar?`,
@@ -2722,7 +2722,7 @@ q: [["¿Qué parte del plan se escribe al final pero va al principio?",["El resu
 ["En una presentación a inversionistas, la «tracción» es…",["Lo que el negocio ya logró: ventas, clientes, crecimiento","El tipo de letra","El logo"],0,"Suele ser el argumento más convincente."],
 ["Las proyecciones son más creíbles cuando…",["Parten de datos reales, explican supuestos e incluyen escenarios","Muestran un crecimiento enorme sin explicación","No tienen números"],0,"Evitan el «palo de hockey» sin fundamento."],
 ["A un banco le interesa sobre todo…",["Que puedas pagar el crédito","Que tu empresa valga 100 veces más","El diseño de tu presentación"],0,"Mira historial, flujo y garantías."]],
-t: ["Plan de negocio","Resumen ejecutivo","Presentación para inversionistas","Tracción","Proyecciones financieras"]
+t: ["Plan de negocio", "Resumen ejecutivo"]
 }
 });
 
@@ -2805,7 +2805,7 @@ q: [["Si hay fila en el local pero los clientes no vienen de lejos, lo primero e
 ["La canibalización ocurre cuando…",["Una sucursal nueva le quita clientes a una propia","Se acaba el inventario","El proveedor sube precios"],0,"Por eso se cuida la distancia entre sucursales."],
 {n:1,t:"Una sucursal tiene costos fijos de 58,000 al mes y un margen de contribución de 24 pesos por torta. ¿Cuántas tortas al mes necesita para no perder? (redondea hacia arriba)",a:2417,tol:0.001,u:"tortas",e:"58,000 ÷ 24 = 2,416.7 → 2,417 tortas."},
 ["¿Por qué la segunda sucursal es un salto tan difícil?",["Porque el dueño ya no puede estar en ambos locales","Porque es ilegal tener dos","Porque los proveedores no venden a dos locales"],0,"El negocio debe funcionar sin la mirada constante del dueño."]],
-t: ["Sucursal","Canibalización","Maduración de una sucursal","Zona de influencia"]
+t: ["Sucursal", "Canibalización"]
 },
 "M20-2": {
 s: `Toño encontró tres locales en renta cerca del parque industrial. El primero está en la avenida principal, pero la renta es altísima. El segundo es barato, pero en una calle por donde casi no pasa nadie. El tercero está junto a la entrada de una fábrica, pero hay dos puestos de comida enfrente. ¿Cómo comparar ubicaciones sin dejarse llevar por la intuición?`,
@@ -2885,7 +2885,7 @@ q: [["Para un negocio de comida, ¿qué flujo importa?",["El de clientes potenci
 {n:1,t:"Pasan 2,500 personas al día; 60 % son clientes potenciales; compra el 6 % de ellos con un ticket de 75 pesos. ¿Cuánto se vendería al día (en pesos)?",a:6750,tol:0,u:"pesos",e:"2,500 × 0.60 = 1,500; × 0.06 = 90 clientes; × 75 = 6,750."},
 ["Una renta de 30,000 con ventas esperadas de 150,000 representa…",["20 % de las ventas: demasiado alta según la guía","2 % de las ventas","Lo ideal"],0,"La guía común es entre 8 % y 12 %."],
 ["La matriz ponderada sirve para…",["Comparar ubicaciones considerando varios criterios con distinto peso","Calcular impuestos","Hacer el organigrama"],0,"Evita decidir por un solo factor."]],
-t: ["Ubicación","Flujo de personas","Generador de tráfico","Matriz ponderada","DENUE"]
+t: ["Ubicación", "Flujo de personas"]
 },
 "M20-3": {
 s: `La segunda sucursal abrió. A las dos semanas, un cliente que va a ambas le dice a Lupita: «En la nueva la torta trae menos carne, la salsa es distinta y tardan el doble». Cada sucursal está haciendo las cosas «a su manera». ¿Cómo lograr que todas las sucursales sean iguales?`,
@@ -2964,7 +2964,7 @@ q: [["¿Cuál es un estándar medible?",["La torta lleva 120 g de carne (±10 g)
 ["El «cliente misterioso» es…",["Una persona que compra como cliente para evaluar la experiencia","Un cliente que no paga","Un proveedor"],0,"Es una herramienta de supervisión."],
 ["¿Por qué estandarizar ayuda a controlar costos?",["Porque las porciones y los insumos son los mismos en todas las sucursales","Porque sube los precios","Porque elimina los impuestos"],0,"El costo variable se vuelve predecible."],
 ["Estandarizar bien significa…",["Definir lo intocable y permitir adaptaciones donde no dañan la promesa","Prohibir cualquier cambio para siempre","Que cada sucursal haga lo que quiera"],0,"Equilibrio entre estándar y flexibilidad."]],
-t: ["Estandarizar","Ficha técnica","Manual de operación","Cliente misterioso","Consistencia"]
+t: ["Estandarizar", "Ficha técnica"]
 },
 "M20-4": {
 s: `Con dos sucursales, Lupita pasa el día en el coche yendo de una a otra y Toño ya habla de una tercera. Karla, la vendedora, pregunta a quién debe reportar ahora. El cajero de la sucursal nueva no sabe si puede hacer un descuento sin consultar. El organigrama de un solo local ya no sirve. ¿Cómo se organiza una cadena?`,
@@ -3050,7 +3050,7 @@ q: [["Un supervisor de zona normalmente…",["Visita y apoya a varias sucursales
 ["¿Qué conviene centralizar en una cadena?",["Receta, precio y proveedores","Los turnos de cada día","El orden de las mesas"],0,"Lo que afecta la marca y los costos."],
 {n:1,t:"Una cadena tiene 20 sucursales y cada supervisor puede atender 8. ¿Cuántos supervisores necesita? (redondea hacia arriba)",a:3,tol:0,u:"supervisores",e:"20 ÷ 8 = 2.5 → 3 supervisores."},
 ["¿Cuál es un riesgo de un bono que solo premia la utilidad de la sucursal?",["Que el gerente recorte personal y empeore el servicio","Que suban las ventas","Que el cliente esté más contento"],0,"Por eso se combinan varios indicadores."]],
-t: ["Gerente de sucursal","Oficina central","Supervisor de zona","Estructura regional"]
+t: ["Gerente de sucursal", "Oficina central"]
 },
 "M20-5": {
 s: `Desde que abrió la segunda sucursal, cada local hace sus propias salsas, cuece sus frijoles y empaniza sus milanesas. A veces una sucursal se queda sin milanesas mientras la otra tira lo que sobró. Además, el pedido de carne es más pequeño en cada local y el proveedor no da buen precio. Toño propone: «¿Y si preparamos todo en un solo lugar y lo repartimos?».`,
@@ -3124,7 +3124,7 @@ q: [["Un CEDIS sirve principalmente para…",["Recibir, guardar y repartir merca
 ["Una ventaja de la cocina central es…",["Que el producto sabe igual en todas las sucursales","Que cada sucursal usa su propia receta","Que no hace falta transporte"],0,"Una receta, un equipo especializado."],
 ["Un riesgo de la cocina central es…",["Que si falla, afecta a toda la cadena","Que mejora la consistencia","Que reduce la merma"],0,"Por eso se necesita un plan de contingencia."],
 {n:1,t:"Antes de centralizar, los costos eran 149,000 al mes; después son 137,800. ¿Cuánto se ahorra al mes (en pesos)?",a:11200,tol:0,u:"pesos",e:"149,000 − 137,800 = 11,200."}],
-t: ["Centro de distribución","Cocina central","Cadena de frío","Compras centralizadas"]
+t: ["Centro de distribución", "Cocina central"]
 },
 "M20-6": {
 s: `Al final del trimestre, la sucursal original vendió 1,620,000 pesos y la nueva solo 810,000: la mitad. Toño quiere cambiar al gerente de la nueva. Lupita piensa que no es justo: la nueva tiene menos tiempo, es más pequeña y está en una zona distinta. ¿Cómo comparar sucursales de forma justa?`,
@@ -3201,7 +3201,7 @@ q: [{n:1,t:"Una sucursal vende 810,000 en el trimestre y mide 30 m². ¿Cuáles 
 ["El indicador «ventas mismas tiendas» compara…",["Solo las tiendas que ya tenían al menos un año abiertas","Todas las tiendas, incluidas las nuevas","Solo las tiendas que cerraron"],0,"Evita que las aperturas inflen el crecimiento."],
 ["Para juzgar al gerente de sucursal conviene usar…",["Indicadores que él puede controlar","Los gastos de la oficina central","El precio del dólar"],0,"Como ventas, costo de alimentos, personal y servicio."],
 ["Si una sucursal tiene mejor costo de alimentos que otra, lo más útil es…",["Averiguar qué hace distinto y enseñarlo a las demás","Cerrar la otra","No hacer nada"],0,"Compartir mejores prácticas."]],
-t: ["Ventas por metro cuadrado","Ventas mismas tiendas","Utilidad de la sucursal","Costo de alimentos","Mejores prácticas"]
+t: ["Ventas por metro cuadrado", "Ventas mismas tiendas"]
 },
 "M20-7": {
 s: `Toño viaja a Monterrey y se sorprende: hay un OXXO en casi cada esquina. «¿Cómo hicieron para abrir miles de tiendas que funcionan igual?», se pregunta. Si Tortas Lupita quiere ser una cadena algún día, el caso OXXO es una escuela completa de lo que vimos en este módulo.`,
@@ -3268,7 +3268,7 @@ q: [["¿En qué año y ciudad abrió la primera tienda OXXO, según FEMSA?",["19
 ["La propuesta de valor principal de una tienda de conveniencia es…",["Cercanía, rapidez y horario amplio","El precio más bajo del mercado","La variedad más grande"],0,"Por eso se llama «de conveniencia»."],
 ["Ofrecer pagos de servicios en la tienda es un ejemplo de…",["Economías de alcance: usar los mismos activos para más negocios","Canibalización","Dilución"],0,"Se aprovecha la red física."],
 ["¿Qué puede copiar una cadena pequeña de OXXO?",["Sus principios: formato claro, estándares, ubicación con datos, logística y medición","Su escala de miles de tiendas de inmediato","Su marca"],0,"La escala depende de recursos que una pyme no tiene."]],
-t: ["Tienda de conveniencia","Comisionista","Aperturas netas","Economías de alcance","FEMSA"]
+t: ["Tienda de conveniencia", "Comisionista"]
 }
 });
 
@@ -3361,7 +3361,7 @@ q: [["En una franquicia, ¿quién pone normalmente el dinero del local?",["El fr
 ["El «saber hacer» que se transmite en una franquicia se documenta en…",["El manual de operación","El acta de nacimiento","La factura"],0,"Es lo más valioso del sistema."],
 ["Una franquicia maestra da derecho a…",["Desarrollar la marca en todo un país o región","Abrir un solo local","Cambiar la receta"],0,"Común en la expansión internacional."],
 ["¿Cuál es una desventaja del modelo para el franquiciante?",["Gana menos por local y tiene menos control","Tiene que poner todo el dinero","No puede crecer"],0,"A cambio, crece con dinero de otros."]],
-t: ["Franquicia","Franquiciante","Franquiciatario","Saber hacer","Franquicia maestra"]
+t: ["Franquicia", "Franquiciante"]
 },
 "M21-2": {
 s: `El interesado de otra ciudad, el señor Gómez, ya habla en serio. Pregunta qué tendría que hacer él y qué haría Lupita. «¿Puedo agregar tacos al menú? ¿Puedo comprar el pan donde me salga más barato? ¿Qué pasa si usted abre otra Tortas Lupita en mi misma colonia?». Para responder, Lupita necesita entender los derechos y obligaciones de cada lado.`,
@@ -3455,7 +3455,7 @@ q: [["¿Quién es el patrón de los empleados de un local franquiciado?",["El fr
 ["Un territorio exclusivo significa que…",["La marca no abrirá otro local en esa zona","El franquiciatario puede abrir en cualquier país","No hay que pagar regalías"],0,"Protege la inversión del franquiciatario."],
 ["¿Puede un franquiciatario cambiar el menú por su cuenta?",["No, salvo autorización del franquiciante","Sí, siempre","Solo los domingos"],0,"El menú es parte del sistema y de la promesa de la marca."],
 ["Una obligación del franquiciante es…",["Capacitar y dar apoyo continuo","Pagar la nómina del franquiciatario","Poner el dinero del local"],0,"Además de proteger la marca y mantener el manual."]],
-t: ["Contrato de franquicia","Territorio exclusivo","Proveedor autorizado","Cláusula de no competencia"]
+t: ["Contrato de franquicia", "Territorio exclusivo"]
 },
 "M21-3": {
 s: `El señor Gómez pide números: «¿Cuánto me cuesta entrar y cuánto le pago al mes?». Lupita investiga otras franquicias de comida y encuentra palabras como «cuota de franquicia», «regalías del 5 al 8 %», «fondo de publicidad» y «cuota por renovación». Necesita armar un esquema que sea justo: que ella gane, pero que a Gómez también le quede dinero.`,
@@ -3537,7 +3537,7 @@ q: [{n:1,t:"Ventas mensuales de 400,000, regalía de 6 % y publicidad de 2 %. ¿
 ["Las regalías suelen calcularse sobre…",["Las ventas","La utilidad","El número de empleados"],0,"Porque las ventas son fáciles de verificar."],
 ["¿Qué consecuencia tiene que la regalía se cobre sobre ventas?",["Se paga aunque el local tenga pérdidas","Se paga solo si hay utilidad","No se paga nunca"],0,"Por eso hay que revisar el margen antes de comprar."],
 ["El fondo de publicidad se usa para…",["Publicidad común de la marca en toda la red","Pagar la renta del franquiciatario","Pagar impuestos"],0,"El franquiciante debe rendir cuentas de su uso."]],
-t: ["Cuota inicial","Regalía","Fondo de publicidad","Manual de operación"]
+t: ["Cuota inicial", "Regalía"]
 },
 "M21-4": {
 s: `Lupita se convence: quiere que Tortas Lupita sea una franquicia. Toño ya hasta diseñó un folleto. Pero un consultor les dice: «Antes de vender una sola franquicia, necesitan seis cosas que todavía no tienen». ¿Qué hace falta para convertir un negocio exitoso en una franquicia seria?`,
@@ -3622,7 +3622,7 @@ q: [["Un negocio es franquiciable cuando su éxito depende de…",["Un sistema q
 ["¿Por qué conviene una franquicia piloto?",["Para probar el sistema y el modelo antes de vender muchas","Para cobrar más caro","Para no hacer manuales"],0,"Permite ajustar lo que no funciona."],
 ["Un error común al franquiciar es…",["Vender a cualquiera con tal de cobrar la cuota inicial","Registrar la marca","Escribir el manual"],0,"Un mal franquiciatario daña la marca."],
 {n:1,t:"Un franquiciatario invierte 950,000 en total y gana 40,000 al mes. ¿En cuántos meses recupera su inversión (aproximado)?",a:23.75,tol:0.03,u:"meses",e:"950,000 ÷ 40,000 = 23.75 meses, unos 24."}],
-t: ["Franquiciable","Franquicia piloto","Diagnóstico de franquiciabilidad","IMPI"]
+t: ["Franquiciable", "Franquicia piloto"]
 },
 "M21-5": {
 s: `La prima de Toño quiere comprar la franquicia de una cadena de cafés que vio en una feria. El vendedor le prometió «recuperar tu inversión en 12 meses». Le entregaron un folleto brillante y le piden firmar esta semana para «apartar la zona». Toño recuerda algo de la ley: «¿Ya te dieron la Circular de Oferta de Franquicia?».`,
@@ -3721,7 +3721,7 @@ q: [["¿Qué es la Circular de Oferta de Franquicia?",["Un documento con informa
 ["¿Cuál es una señal de alerta al comprar una franquicia?",["Presión para firmar rápido y promesas de ganancias garantizadas","Que te dejen hablar con franquiciatarios","Que te entreguen la COF"],0,"Una buena marca da tiempo e información."],
 ["Para evaluar una franquicia conviene hablar con…",["Franquiciatarios actuales y con los que salieron","Solo con el vendedor","Nadie"],0,"Su experiencia es la información más valiosa."],
 ["La inversión total de una franquicia incluye…",["Cuota inicial, local, equipo, inventario y colchón","Solo la cuota inicial","Solo las regalías"],0,"La cuota inicial es solo una parte."]],
-t: ["Circular de Oferta de Franquicia","Inversión total","Tasa de cierre"]
+t: ["Circular de Oferta de Franquicia", "Inversión total"]
 },
 "M21-6": {
 s: `Un supermercado de la ciudad le ofrece a Lupita vender sus salsas embotelladas con la marca Tortas Lupita. Una empresa de alimentos le propone usar su marca en tortas congeladas a cambio de un porcentaje. Y el aeropuerto abre una licitación para un local de comida. Ninguna es una franquicia. ¿Qué son y cómo se comparan?`,
@@ -3804,7 +3804,7 @@ q: [["Una licencia de marca, a diferencia de una franquicia…",["Solo permite u
 ["Un local de comida dentro de un aeropuerto que paga renta y porcentaje suele operar mediante…",["Una concesión","Una licencia de tecnología","Un distribuidor"],0,"El aeropuerto concede el espacio."],
 ["Un distribuidor gana con…",["El margen entre lo que compra y lo que vende","Las regalías que cobra","El sueldo que le paga la marca"],0,"Compra y revende los productos."],
 ["Si lo valioso de un negocio es su marca y hay un socio que sabe fabricar, conviene…",["Una licencia","Cerrar","Una concesión de carretera"],0,"Con control de calidad."]],
-t: ["Licencia de marca","Concesión","Distribuidor","Licitación"]
+t: ["Licencia de marca", "Concesión"]
 },
 "M21-7": {
 s: `En una charla, un empresario dice: «McDonald's no está en el negocio de las hamburguesas; está en el negocio de los bienes raíces». Toño se ríe, pero luego se queda pensando. ¿Cómo gana dinero realmente una de las franquicias más grandes del mundo?`,
@@ -3881,7 +3881,7 @@ q: [["¿Quién abrió en 1955 el primer local franquiciado de McDonald's que dio
 ["Según sus informes, ¿qué proporción aproximada de restaurantes de McDonald's es franquiciada?",["Alrededor del 95 %","Alrededor del 10 %","Ninguno"],0,"La mayoría la operan franquiciatarios."],
 ["¿Por qué se dice que McDonald's está en el negocio de los bienes raíces?",["Porque es dueña o arrendataria de muchos locales y cobra renta a los franquiciatarios","Porque vende casas","Porque no vende hamburguesas"],0,"La renta es una fuente central de ingresos y de control."],
 ["Arcos Dorados es…",["El mayor franquiciatario de McDonald's, con la franquicia maestra en gran parte de Latinoamérica","Un competidor","Un proveedor de papas"],0,"Cotiza en la Bolsa de Nueva York."]],
-t: ["Modelo inmobiliario","Subarrendamiento","Arcos Dorados"]
+t: ["Modelo inmobiliario", "Subarrendamiento"]
 }
 });
 
@@ -3971,7 +3971,7 @@ q: [["Al expandirse a otra ciudad, ¿qué ventaja se pierde casi siempre?",["El 
 ["Una cocina oculta es…",["Una cocina sin local de atención que vende solo por apps de reparto","Una cocina ilegal","Un comedor industrial"],0,"Sirve para probar la demanda con poca inversión."],
 ["El efecto «isla» se refiere a…",["Abrir un solo local aislado en una ciudad lejana","Abrir en una isla turística","Cerrar los domingos"],0,"La marca no se conoce y la supervisión cuesta mucho."],
 ["¿Cuál es la forma de entrada con menor riesgo?",["Una prueba temporal o una cocina oculta","Tres sucursales propias de golpe","Comprar un edificio"],0,"Da información real con poca inversión."]],
-t: ["Expansión geográfica","Cocina oculta","Prueba de mercado","Socio local"]
+t: ["Expansión geográfica", "Cocina oculta"]
 },
 "M22-2": {
 s: `Los clientes de Tortas Lupita piden más cosas: desayunos, tortas de pierna para fiestas, aguas frescas para llevar, y hasta que vendan su salsa. Toño quiere lanzar todo. Lupita teme que se pierda lo que los hizo famosos: las mejores tortas de la zona. ¿Cómo crecer con productos nuevos sin dañar la marca?`,
@@ -4044,7 +4044,7 @@ q: [["Una torta nueva de chilaquiles en Tortas Lupita es un ejemplo de…",["Ext
 ["Vender «Salsas Tortas Lupita» en el supermercado es…",["Extensión de marca","Extensión de línea","Integración vertical"],0,"La marca en otra categoría."],
 ["En la ingeniería de menú, un «perro» es un producto…",["Poco popular y de margen bajo","Muy popular y de margen alto","Nuevo"],0,"Candidato a eliminarse."],
 ["La dilución de marca ocurre cuando…",["La marca se estira a productos que no encajan con su promesa","La marca se registra","Se baja un precio"],0,"El cliente deja de saber qué representa."]],
-t: ["Extensión de línea","Extensión de marca","Ingeniería de menú","Dilución de marca","Portafolio de productos"]
+t: ["Extensión de línea", "Extensión de marca"]
 },
 "M22-3": {
 s: `Las apps de reparto le ofrecen a Tortas Lupita entrar a su plataforma: «Llegarás a toda la ciudad sin abrir locales». Pero cobran una comisión de alrededor del 25 % de cada pedido. Toño también quiere una tienda en línea propia y vender por redes sociales. ¿Cuánto gana realmente el negocio con cada canal digital?`,
@@ -4125,7 +4125,7 @@ q: [{n:1,t:"Una torta de 40 pesos con costo variable de 16 y empaque de 3 se ven
 ["¿Cuándo conviene vender por apps aunque el margen sea menor?",["Cuando atrae ventas nuevas y se usa capacidad ociosa","Siempre en hora pico","Nunca"],0,"Los costos fijos ya están pagados."],
 ["Un riesgo de depender de una sola app es…",["Que puede subir la comisión o cambiar las reglas","Que vende demasiado","Que regala clientes"],0,"La plataforma tiene mucho poder."],
 ["Un «marketplace» o mercado en línea es…",["Una plataforma donde muchos vendedores ofrecen productos y se cobra comisión","Un mercado sobre ruedas","Una tienda física"],0,"Como Mercado Libre o Amazon."]],
-t: ["Comercio electrónico","Mercado en línea","App de reparto","Comisión de plataforma","Canal propio"]
+t: ["Comercio electrónico", "Mercado en línea"]
 },
 "M22-4": {
 s: `Un turista estadounidense que probó una torta de Lupita le escribe: «Quiero abrir Tortas Lupita en Texas». En otra conversación, un distribuidor ofrece exportar su salsa a Guatemala. Toño se emociona: «¡Vamos a ser internacionales!». Lupita pregunta: «¿Y cómo se hace eso sin perder hasta la camisa?».`,
@@ -4214,7 +4214,7 @@ q: [["La forma de entrada a otro país con menor inversión y menor control es�
 ["En el marco CAGE, la «A» se refiere a la distancia…",["Administrativa (leyes, acuerdos, instituciones)","Alimentaria","Anual"],0,"Cultural, administrativa, geográfica y económica."],
 ["La «demanda de nostalgia» se refiere a…",["Migrantes que buscan productos de su país de origen","Clientes que compran antigüedades","Ventas en temporada navideña"],0,"Suele ser el primer mercado internacional de muchos productos."],
 {n:1,t:"Una venta de 10,000 dólares se cobra con un tipo de cambio de 17 pesos por dólar. ¿Cuánto se recibe en pesos?",a:170000,tol:0,u:"pesos",e:"10,000 × 17 = 170,000."}],
-t: ["Internacionalización","Exportación","Inversión extranjera directa","Tipo de cambio","Marco CAGE","Agente aduanal"]
+t: ["Internacionalización", "Exportación"]
 },
 "M22-5": {
 s: `Una cadena de cines de la ciudad le propone a Lupita una alianza: vender «tortas Lupita» en sus salas, con una marca conjunta. Por otro lado, una empresa de banquetes quiere crear con ella una nueva empresa para atender eventos corporativos, mitad y mitad. ¿Qué tipos de alianzas existen y cómo se evita que terminen mal?`,
@@ -4299,7 +4299,7 @@ q: [["Una empresa conjunta es…",["Una nueva empresa creada por dos o más soci
 ["¿Cuándo conviene negociar la salida de una alianza?",["Al principio, cuando hay buena relación","Cuando ya hay un pleito","Nunca"],0,"Es más fácil acordarla de buena fe al inicio."],
 ["Un riesgo de una empresa conjunta 50 y 50 es…",["Que se paralice si no hay acuerdo","Que un socio tenga todo el control","Que no haya socios"],0,"Se necesitan mecanismos para desempatar."],
 ["Vender una torta especial con la marca de un cine es un ejemplo de…",["Co-marca","Integración vertical","Exportación"],0,"Dos marcas aparecen juntas."]],
-t: ["Alianza estratégica","Empresa conjunta","Co-marca"]
+t: ["Alianza estratégica", "Empresa conjunta"]
 },
 "M22-6": {
 s: `Don Beto, dueño de una tortería con tres locales en el sur de la ciudad, quiere retirarse y le ofrece a Lupita venderle su negocio completo: locales, empleados, clientes y su marca «Tortas Don Beto». Toño ve la oportunidad de pasar de dos a cinco locales de golpe. Lupita pregunta: «¿Cuánto vale, qué estamos comprando realmente y qué puede salir mal?».`,
@@ -4378,7 +4378,7 @@ q: [["La auditoría de compra (due diligence) sirve para…",["Revisar a fondo l
 ["¿Por qué en negocios chicos se prefiere a veces la compra de activos?",["Para no heredar deudas ocultas de la empresa","Porque es más cara","Porque es obligatoria"],0,"Se compran solo los bienes y contratos elegidos."],
 ["Una causa frecuente de que una adquisición decepcione es…",["Pagar de más y sobreestimar las sinergias","Hacer una auditoría de compra","Integrar bien a las personas"],0,"El exceso de confianza es un sesgo común."],
 {n:1,t:"Se paga 1,500,000 por un negocio que deja 500,000 de utilidad normalizada al año. ¿Cuántas veces la utilidad se pagó?",a:3,tol:0,u:"veces",e:"1,500,000 ÷ 500,000 = 3."}],
-t: ["Adquisición","Fusión","Auditoría de compra","Sinergia","Compra de activos","Integración posterior a la compra"]
+t: ["Adquisición", "Fusión"]
 },
 "M22-7": {
 s: `El panadero que surte a Tortas Lupita quiere vender su panadería. Si Lupita la compra, controlaría su ingrediente principal. Al mismo tiempo, una tortería competidora de la colonia está en venta. Toño no sabe cuál conviene más: «¿Comprar al proveedor o comprar al competidor?».`,
@@ -4470,7 +4470,7 @@ q: [["Una tortería que compra la panadería que le surte el pan hace una integr
 ["Una cervecera que compra otra cervecera hace una integración…",["Horizontal","Vertical hacia atrás","Vertical hacia adelante"],0,"Ambas están en la misma etapa."],
 ["Un fabricante que abre sus propias tiendas hace una integración…",["Vertical hacia adelante","Horizontal","Vertical hacia atrás"],0,"Avanza hacia el cliente."],
 ["Conviene integrarse verticalmente cuando…",["El insumo es crítico y hay pocos proveedores confiables","El insumo es estándar y hay muchos proveedores","Nunca"],0,"Es una decisión de hacer o comprar."]],
-t: ["Integración vertical","Integración horizontal","Cadena de valor","Hacer o comprar"]
+t: ["Integración vertical", "Integración horizontal"]
 },
 "M22-8": {
 s: `Toño lee un artículo: «Target perdió miles de millones de dólares en Canadá y se fue en menos de dos años». Se pregunta cómo una de las cadenas más grandes de Estados Unidos, con todo su dinero y experiencia, pudo fracasar en un país vecino que habla el mismo idioma. Si a un gigante le pasa, ¿qué no le puede pasar a Tortas Lupita?`,
@@ -4549,6 +4549,6 @@ q: [["Según la información pública, ¿cuál fue uno de los problemas principa
 ["¿Cuántas tiendas llegó a tener Target en Canadá en menos de un año?",["Más de 130","5","Más de 5,000"],0,"Una expansión muy rápida."],
 ["El mejor antídoto contra la «velocidad excesiva» es…",["Una prueba piloto con metas claras","Abrir todo de golpe","No medir"],0,"Permite aprender y corregir con poco riesgo."],
 ["Seguir invirtiendo en una expansión fallida solo porque ya se invirtió mucho es el sesgo de…",["Costo hundido","Anclaje positivo","Ventaja competitiva"],0,"Lección M16-5."]],
-t: ["Expansión fallida","Plan de salida","Límite de pérdidas","Prueba piloto"]
+t: ["Expansión fallida", "Plan de salida"]
 }
 });
