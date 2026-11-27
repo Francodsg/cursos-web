@@ -177,7 +177,7 @@ function pageModulo(id){
    <div class="card"><h3>Prácticas</h3>${lista(m.prac)}</div>
    <div class="card"><h3>Materiales</h3>${lista(m.mat)}</div>
    <div class="card"><h3>Evaluación</h3><p>Quiz del módulo (12 preguntas, aprobado con 70 %). ${q ? `Tu mejor nota: <b>${q.mejor} %</b> (${q.intentos} intento${q.intentos > 1 ? "s" : ""}).` : "Aún no lo has hecho."}</p><a class="btn small" href="${H("quiz/" + m.id)}">Hacer el quiz</a>
-   ${m.pj ? `<p>Proyecto: <b>${esc(m.pj.t)}</b> (${fmt(m.pj.h)} h) ${pjDone(m) ? '<span class="pill ok">completado</span>' : ""}</p><a class="btn small alt" href="${H("proyecto/" + m.id)}">Ver el proyecto</a>` : ""}
+   ${m.pj ? `<p>Proyecto: <b>${esc(m.pj.t)}</b>${m.pj.h ? ` (${fmt(m.pj.h)} h)` : ""} ${pjDone(m) ? '<span class="pill ok">completado</span>' : ""}</p><a class="btn small alt" href="${H("proyecto/" + m.id)}">Ver el proyecto</a>` : ""}
    ${m.examen ? `<p>Este módulo cierra con el <a href="${H("examen")}">examen final</a>.</p>` : ""}</div></div>
   <div class="row">${i > 0 ? `<a class="btn alt" href="${H("modulo/" + MODS[i - 1].id)}">← ${MODS[i - 1].id}</a>` : ""}${i < MODS.length - 1 ? `<a class="btn alt" href="${H("modulo/" + MODS[i + 1].id)}">${MODS[i + 1].id} →</a>` : ""}</div>`;
 }
@@ -230,7 +230,7 @@ function bindQuizPage(id){
 }
 function pageProyecto(id){
   const m = mod(id); if (!m || !m.pj) return notFound(); const pj = m.pj, v = P.proyectos[m.id] || [];
-  return crumbs([["Curso", H("curso")], [m.id, H("modulo/" + m.id)], "Proyecto"]) + `<h1>Proyecto: ${esc(pj.t)}</h1><p class="meta">${m.id}. ${esc(m.t)} · ${fmt(pj.h)} h</p><p class="lead">${md(pj.d)}</p>
+  return crumbs([["Curso", H("curso")], [m.id, H("modulo/" + m.id)], "Proyecto"]) + `<h1>Proyecto: ${esc(pj.t)}</h1><p class="meta">${m.id}. ${esc(m.t)}${pj.h ? ` · ${fmt(pj.h)} h` : ""}</p><p class="lead">${md(pj.d)}</p>
   ${pj.mat ? `<h2>Materiales</h2>${lista(pj.mat)}` : ""}<h2>Pasos</h2><ol>${pj.pasos.map(s => `<li>${md(s)}</li>`).join("")}</ol>
   ${pj.rub ? `<h2>Rúbrica</h2><div class="tbl"><table><thead><tr><th>Criterio</th><th>Peso</th></tr></thead><tbody>${pj.rub.map(r => `<tr><td>${md(r[0])}</td><td>${r[1]} %</td></tr>`).join("")}</tbody></table></div>` : ""}
   <h2>Lista de comprobación</h2><p class="meta">Marca cada criterio cuando lo cumplas. Se guarda en este navegador.</p><div class="check" id="crit">${pj.crit.map((c, i) => `<label><input type="checkbox" data-i="${i}"${v[i] ? " checked" : ""}> <span>${md(c)}</span></label>`).join("")}</div>

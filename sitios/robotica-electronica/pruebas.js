@@ -89,7 +89,7 @@ for (const [, ruta] of texto.matchAll(/\]\(#\/([^)]+)\)/g)){
   if (r === "leccion") check(lesIds.has(a) || parcial, `Enlace a lección inexistente: ${ruta}`);
   else if (r === "modulo") check(ids.includes(a) || parcial, `Enlace a módulo inexistente: ${ruta}`);
   else if (r === "herramientas") check(!a || W.TOOLS.some(t => t.id === a), `Enlace a herramienta inexistente: ${ruta}`);
-  else check(["seguridad", "materiales", "progreso", "glosario", "componentes", "solucion-de-problemas", "rutas", "curso", "examen", "buscar"].includes(r), `Enlace desconocido: ${ruta}`);
+  else check(["seguridad", "materiales", "progreso", "glosario", "componentes", "solucion-de-problemas", "rutas", "curso", "examen", "certificado", "buscar"].includes(r), `Enlace desconocido: ${ruta}`);
 }
 (W.EXTRA.COMPONENTES || []).forEach(c => (c.lec || []).forEach(x => check(lesIds.has(x) || parcial, `Componente ${c.id}: lección inexistente ${x}`)));
 (W.EXTRA.RUTAS || []).forEach(r => (r.ids || []).forEach(x => check(lesIds.has(x) || ids.includes(x) || parcial, `Ruta «${r.t}»: paso inexistente ${x}`)));
