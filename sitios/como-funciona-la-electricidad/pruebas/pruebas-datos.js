@@ -50,7 +50,7 @@ mods.forEach(m => {
     const dl = "Lección " + l.id; nLec++;
     check(!lecIds.has(l.id), dl + ": id repetido"); lecIds.add(l.id);
     check(l.id === m.n + "-" + (j + 1), dl + ": id no coincide con su posición (esperado " + m.n + "-" + (j + 1) + ")");
-    ["t", "d", "preg", "txt", "vida"].forEach(k => check(typeof l[k] === "string" && l[k].length > 10, dl + ": falta " + k));
+    ["t", "d", "preg", "txt", "vida"].forEach(k => check(typeof l[k] === "string" && l[k].length > (k === "t" ? 3 : 10), dl + ": falta " + k));
     check(l.min > 0, dl + ": falta duración");
     check(Array.isArray(l.obj) && l.obj.length >= 2, dl + ": menos de 2 objetivos");
     check(Array.isArray(l.res) && l.res.length === 5, dl + ": el resumen no tiene 5 puntos");

@@ -69,8 +69,9 @@
     cont.appendChild(w); window.CALC.render(w, id);
   }
   var SEGT = { verde: "🟢 Sin riesgo", amarillo: "🟡 Precaución (con un adulto)", rojo: "🔴 Nunca en casa: solo simulación" };
-  function htmlExperimento(e, corto) {
-    var h = '<article class="panel experimento" id="exp-' + e.id + '"><h3>' + esc(e.t) + ' <span class="seg ' + e.seg + '">' + SEGT[e.seg] + "</span></h3>" + "<p><b>Objetivo:</b> " + inline(e.obj) + "</p>";
+  function htmlExperimento(e, corto, tag) {
+    tag = tag || "h3";
+    var h = '<article class="panel experimento" id="exp-' + e.id + '"><' + tag + '>' + esc(e.t) + ' <span class="seg ' + e.seg + '">' + SEGT[e.seg] + "</span></" + tag + ">" + "<p><b>Objetivo:</b> " + inline(e.obj) + "</p>";
     if (corto) return h + '<p><a href="#/experimento/' + e.id + '">Ver la ficha completa</a></p></article>';
     if (e.seg === "rojo") h += '<div class="recuadro peligro"><p><b>No lo hagas en casa.</b> Este experimento se presenta solo como demostración o simulación porque involucra la red eléctrica o voltajes peligrosos.</p></div>';
     h += (e.mat && e.mat.length ? "<h4>Materiales</h4><ul>" + e.mat.map(function (x) { return "<li>" + inline(x) + "</li>"; }).join("") + "</ul>" : "") +
@@ -262,7 +263,7 @@
     var ir = function () { location.hash = "#/experimentos?seg=" + document.getElementById("f-seg").value + "&mod=" + document.getElementById("f-mod").value; };
     document.getElementById("f-seg").onchange = ir; document.getElementById("f-mod").onchange = ir;
   };
-  R.experimento = function (id) { var e = experimento(id); if (!e) return R.noEncontrado(); titulo(e.t); var m = modulo(e.mod); app.innerHTML = migas([["Inicio", "#/"], ["Experimentos", "#/experimentos"], [e.t]]) + (m ? '<p>Módulo: <a href="#/modulo/' + m.id + '">M' + m.n + ". " + esc(m.titulo) + "</a></p>" : "") + htmlExperimento(e); };
+  R.experimento = function (id) { var e = experimento(id); if (!e) return R.noEncontrado(); titulo(e.t); var m = modulo(e.mod); app.innerHTML = migas([["Inicio", "#/"], ["Experimentos", "#/experimentos"], [e.t]]) + (m ? '<p>Módulo: <a href="#/modulo/' + m.id + '">M' + m.n + ". " + esc(m.titulo) + "</a></p>" : "") + htmlExperimento(e, false, "h1"); };
 
   R.glosario = function (term) {
     titulo("Glosario"); var g = (window.GLOSARIO || []).slice().sort(function (a, b) { return a.t.localeCompare(b.t, "es"); });
