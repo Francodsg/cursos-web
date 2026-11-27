@@ -156,7 +156,7 @@ Es una aplicación directa de la ley de corrientes de Kirchhoff (lección 3.6) y
 Existen interruptores que combinan ambas funciones (**magnetotérmicos diferenciales**).
 
 ## El botón de prueba
-Todo diferencial tiene un botón marcado **«T»** o **«Prueba» / «Test»**. Al pulsarlo, crea internamente una pequeña fuga simulada: el diferencial **debe dispararse**. Se recomienda probarlo **una vez al mes** o cada pocos meses. Si no se dispara, está dañado y hay que cambiarlo (lo hace un electricista).
+Todo diferencial tiene un botón marcado **«T»** o **«Prueba»**. Al pulsarlo, crea internamente una pequeña fuga simulada: el diferencial **debe dispararse**. Se recomienda probarlo **una vez al mes** o cada pocos meses. Si no se dispara, está dañado y hay que cambiarlo (lo hace un electricista).
 
 ## Por qué se dispara un diferencial
 - Una **persona** recibiendo una descarga (¡está haciendo su trabajo!).
@@ -169,7 +169,7 @@ Si se dispara repetidamente, hay que buscar la causa desconectando aparatos y, s
 Prueba en la simulación S14 qué pasa al simular una fuga en el baño con diferencial y sin él.`,
       form: [["I(fase) − I(neutro) = I(fuga)", "El diferencial mide esta diferencia."], ["Dispara si I(fuga) ≥ 30 mA (en < 40 ms)", "Sensibilidad típica para proteger personas."]],
       ej: { enun: "Por la fase de un circuito salen 8,000 A y por el neutro vuelven 7,962 A. ¿Hay fuga? ¿Se disparará un diferencial de 30 mA?", pasos: ["Fuga = 8,000 − 7,962 = 0,038 A = 38 mA.", "38 mA ≥ 30 mA → el diferencial se dispara.", "Esos 38 mA están yendo a tierra por otro camino, quizá una persona."], res: "Sí: hay una fuga de 38 mA y el diferencial de 30 mA corta el circuito." },
-      vida: "En muchos baños y cocinas de América hay contactos con dos botones («TEST» y «RESET»): son contactos GFCI, un diferencial integrado en el propio contacto.",
+      vida: "En muchos baños y cocinas de América hay contactos con dos botones (prueba y rearme): son contactos GFCI, un diferencial integrado en el propio contacto.",
       err: ["Pensar que el termomagnético protege igual que el diferencial.", "No probar nunca el botón del diferencial.", "Anular el diferencial porque «se bota mucho»."],
       ejer: [["¿Qué compara un interruptor diferencial?", "La corriente que sale por la fase con la que vuelve por el neutro."], ["¿Cada cuánto se recomienda pulsar el botón de prueba?", "Una vez al mes o cada pocos meses."], ["¿Protege el diferencial a una persona que toca fase y neutro a la vez estando aislada del suelo?", "No: la corriente va y vuelve por el circuito, sin diferencia."]],
       quiz: [

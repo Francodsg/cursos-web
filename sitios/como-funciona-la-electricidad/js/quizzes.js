@@ -182,10 +182,13 @@
   function generar(lista, lec) { return (lista || []).map(function (g) { var q = GEN[g](); q._lec = lec || null; q._gen = g; return q; }); }
   function quizModulo(m) {
     var n = m.quizN || 15, banco = bancoModulo(m), gens = generar(m.gen, null);
-    var crit = banco.filter(function (q) { return q.crit; }), resto = barajar(banco.filter(function (q) { return !q.crit; }));
-    var sel = crit.concat(gens.slice(0, Math.min(gens.length, Math.ceil(n / 4))));
+    // Solo en los módulos con preguntas críticas obligatorias se garantizan (hasta 8 por intento).
+    var crit = m.criticas ? barajar(banco.filter(function (q) { return q.crit; })).slice(0, 8) : [];
+    var resto = barajar(banco.filter(function (q) { return m.criticas ? !q.crit : true; }));
+    var nGen = Math.min(gens.length, Math.ceil(n / 4), Math.max(0, n - crit.length));
+    var sel = crit.concat(gens.slice(0, nGen));
     for (var i = 0; sel.length < n && i < resto.length; i++) sel.push(resto[i]);
-    return barajar(sel).slice(0, Math.max(n, crit.length)).map(function (q) { return preparar(q); });
+    return barajar(sel).map(function (q) { return preparar(q); });
   }
   function examenFinal() {
     var mods = window.CURSO.modulos.filter(function (m) { return m.n > 0; }), sel = [];

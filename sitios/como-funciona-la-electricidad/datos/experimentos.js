@@ -275,7 +275,7 @@ EXPERIMENTOS.push(
     pasos: ["Con un adulto, avisa a la familia de que se cortará la luz de algunos circuitos unos segundos.", "Localiza el interruptor diferencial (tiene un botón marcado «T» o «Prueba»).", "El adulto pulsa el botón de prueba una vez, sin mantenerlo apretado.", "Observa: la palanca del diferencial debe bajar y cortar la corriente de sus circuitos.", "El adulto vuelve a subir la palanca.", "Anota la fecha en el tablero para repetir la prueba cada uno a tres meses."],
     obs: "El diferencial se dispara de inmediato. Si no se dispara, está dañado.",
     expl: "El botón crea dentro del diferencial una pequeña fuga simulada entre la fase y el neutro que no pasa por el toroide; el aparato la detecta como una diferencia entre ida y vuelta y corta.",
-    var: ["Si tienes contactos GFCI (con botones TEST y RESET), pruébalos de la misma manera."],
+    var: ["Si tienes contactos GFCI (con botones de prueba y rearme), pruébalos de la misma manera."],
     seguridad: ["Es el uso previsto del botón, pero hazlo siempre un adulto.", "Si el diferencial no se dispara, no lo uses como si protegiera: llama a un electricista para cambiarlo.", "Ten en cuenta que se apagarán computadoras y otros aparatos de esos circuitos."],
     desecho: "No genera residuos." },
   { id: "e-escalera", t: "Maqueta de interruptor de escalera con pila", mod: "m11", seg: "verde", v: 9, sim: "S21",
@@ -296,4 +296,62 @@ EXPERIMENTOS.push(
     expl: "Trabajar en la red requiere formación, herramientas aisladas, instrumentos certificados y conocer la norma. Un error puede causar electrocución o un incendio meses después.",
     seguridad: ["Nunca lo hagas tú: es trabajo exclusivo de un electricista calificado.", "Para practicar la lógica de los circuitos usa la simulación S21 o la maqueta de 9 V."],
     desecho: "No aplica." }
+);
+
+// ---------- Nivel 3 (M12) ----------
+EXPERIMENTOS.push(
+  { id: "e-medir-pilas", t: "Mide y ordena tus pilas", mod: "m12", seg: "verde", v: 9, sim: "S15",
+    obj: "Medir el voltaje de varias pilas sin carga y con carga y decidir cuáles sirven.",
+    mat: ["Multímetro", "4 pilas usadas de distintos aparatos (AA, AAA o 9 V)", "Una resistencia de 10 Ω y 1 W (para pilas de 1,5 V) o de 470 Ω (para la de 9 V)", "Cables con pinzas"],
+    pasos: ["Perilla en V⎓, negra en COM, roja en VΩ.", "Mide cada pila sin carga y anota.", "Conecta la resistencia a la pila con las pinzas y mide de nuevo durante 2 o 3 segundos.", "Desconecta enseguida la resistencia.", "Ordena las pilas de mejor a peor según el voltaje con carga."],
+    obs: "Las pilas gastadas caen mucho más con carga que las buenas.",
+    tabla: ["Pila", "Sin carga (V)", "Con carga (V)", "Estado"],
+    expl: "La resistencia interna de una pila crece al gastarse; con carga, el voltaje en sus terminales baja más (V = Vpila − I·Rinterna).",
+    var: ["Mide una pila recargable recién cargada y otra después de usarla."],
+    seguridad: ["La resistencia de 10 Ω se calienta: conéctala solo unos segundos.", "No midas baterías de litio de celulares ni las cortocircuites."],
+    desecho: "Lleva las pilas agotadas a un punto de recolección." },
+  { id: "e-medir-resistores", t: "Comprueba el código de colores", mod: "m12", seg: "verde", v: 0, sim: "S15",
+    obj: "Comparar el valor del código de colores con la medición del multímetro.",
+    mat: ["Multímetro", "5 resistencias de distintos valores", "La calculadora de código de colores (C9)"],
+    pasos: ["Lee las bandas de cada resistencia y calcula su valor y su tolerancia (puedes usar la C9).", "Perilla en Ω; junta las puntas y anota la lectura cero.", "Mide cada resistencia sin tocar sus dos patitas con los dedos.", "Comprueba si la lectura cae dentro de la tolerancia."],
+    obs: "Las lecturas quedan cerca del valor nominal, dentro de ±5 % en las de banda dorada.",
+    tabla: ["Colores", "Valor nominal", "Tolerancia", "Lectura", "¿Dentro?"],
+    expl: "El código de colores indica el valor nominal; la tolerancia es el margen de fabricación. El multímetro mide el valor real.",
+    var: ["Mide una resistencia de 1 MΩ tocando sus patitas con los dedos y sin tocarlas: ¿qué cambia?"],
+    seguridad: ["Sin riesgo: se mide sin ninguna fuente conectada."],
+    desecho: "Guarda las resistencias para otros montajes." },
+  { id: "e-medir-corriente-led", t: "Mide la corriente de un LED", mod: "m12", seg: "verde", v: 9, sim: "S15",
+    obj: "Medir la corriente en serie y comprobar la ley de Ohm.",
+    mat: ["Multímetro", "Pila de 9 V con broche", "LED rojo", "Resistencias de 390 Ω y 1 kΩ", "Protoboard y cables"],
+    pasos: ["Monta pila → resistencia de 390 Ω → LED → pila, y comprueba que enciende.", "Desconecta la pila.", "Perilla en mA⎓, roja en mA, negra en COM.", "Abre el circuito entre la pila y la resistencia e intercala el multímetro.", "Conecta la pila y lee la corriente.", "Repite con la resistencia de 1 kΩ.", "Al terminar, vuelve la punta roja al borne VΩ."],
+    obs: "Unos 18 mA con 390 Ω y unos 7 mA con 1 kΩ; el LED brilla menos con menos corriente.",
+    tabla: ["Resistencia (Ω)", "Corriente calculada (mA)", "Corriente medida (mA)"],
+    expl: "I = (Vpila − VLED) / R. Con más resistencia, menos corriente. El amperímetro debe ir en serie para que toda la corriente lo atraviese.",
+    var: ["Mide también el voltaje en el LED y en la resistencia (en paralelo) y comprueba la LVK."],
+    seguridad: ["Nunca pongas el multímetro en modo corriente directamente sobre la pila: fundirías su fusible.", "Solo con la pila de 9 V."],
+    desecho: "Guarda los componentes; recicla la pila agotada." },
+  { id: "e-continuidad", t: "Caza de cables rotos y fusibles", mod: "m12", seg: "verde", v: 0, sim: "S15",
+    obj: "Usar la continuidad y la prueba de diodo para revisar componentes.",
+    mat: ["Multímetro con continuidad", "Cables viejos (de audífonos, USB) desconectados", "Fusibles de auto o de electrónica (buenos y fundidos si los tienes)", "Un LED", "Papel de aluminio, una goma, un clip"],
+    pasos: ["Perilla en continuidad (🔊). Junta las puntas: debe pitar.", "Prueba cada hilo de los cables de punta a punta, moviéndolos mientras mides.", "Prueba los fusibles.", "Prueba el papel de aluminio, el clip y la goma.", "Cambia a prueba de diodo y mide el LED en ambos sentidos."],
+    obs: "Los conductores y fusibles buenos pitan; los rotos y la goma marcan OL. El LED marca unos 1,8–2 V en un sentido y OL en el otro.",
+    tabla: ["Elemento", "¿Pita?", "Lectura", "Conclusión"],
+    expl: "La continuidad detecta caminos de baja resistencia. El diodo solo conduce en un sentido, desde el ánodo hacia el cátodo.",
+    var: ["Busca el punto exacto de rotura de un cable doblándolo poco a poco."],
+    seguridad: ["Solo objetos desconectados: nunca pruebes continuidad en aparatos enchufados."],
+    desecho: "Desecha los cables y fusibles dañados en un punto de residuos electrónicos." }
+);
+
+// ---------- Nivel 3 (M13) ----------
+EXPERIMENTOS.push(
+  { id: "e-recorrido-seguridad", t: "Recorrido de seguridad eléctrica por tu casa", mod: "m13", seg: "verde", v: 0, sim: "S16",
+    obj: "Detectar riesgos eléctricos en casa con una lista de comprobación, sin tocar nada energizado.",
+    mat: ["Libreta o la lista impresa", "Linterna", "Un adulto que acompañe"],
+    pasos: ["Recorre cada habitación con un adulto.", "Revisa los contactos: ¿están rotos, flojos, ennegrecidos o calientes al tacto de la placa (sin meter nada)?", "Revisa extensiones y regletas: ¿cadenas, sobrecargas, bajo alfombras?", "Revisa los cables de los aparatos: ¿pelados, aplastados, mordidos?", "Revisa baño y cocina: ¿aparatos cerca del agua? ¿Hay diferencial?", "Revisa si hay tapas para los contactos (si hay niños pequeños) y detectores de humo.", "Anota los problemas y decide con el adulto cómo resolverlos (desconectar, reemplazar, llamar a un electricista)."],
+    obs: "Una lista de puntos seguros y de puntos que hay que corregir.",
+    tabla: ["Lugar", "Riesgo encontrado", "Acción", "¿Resuelto?"],
+    expl: "La mayoría de los accidentes eléctricos domésticos se deben a cables dañados, sobrecargas y agua. Detectarlos a tiempo evita incendios y descargas.",
+    var: ["Repite el recorrido en casa de un familiar mayor.", "Elabora el plan familiar: dónde está el tablero y cómo se corta la luz."],
+    seguridad: ["Solo mirar: no toques cables pelados ni abras contactos o cajas.", "No metas nada en los contactos.", "Si encuentras algo caliente o con olor a quemado, avisa de inmediato a un adulto para que corte el circuito."],
+    desecho: "Lleva los cables o aparatos dañados a un punto de reciclaje de residuos electrónicos." }
 );
