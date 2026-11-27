@@ -32,7 +32,7 @@ registrarModulo({
 - Las antiguas **series de luces navideñas**: decenas de foquitos de bajo voltaje en serie.
 
 ## La respuesta a la pregunta inicial
-En una serie navideña antigua de 50 focos conectada a 127 V, cada foquito recibe unos 2,5 V. Si uno se funde, el circuito se abre y se apagan todos. Por eso los fabricantes empezaron a poner en cada foquito un **puente** (shunt) que se cierra cuando el filamento se rompe, para que el resto siga funcionando. Las tiras LED modernas suelen tener grupos en paralelo.
+En una serie navideña antigua de 50 focos conectada a 127 V, cada foquito recibe unos 2,5 V. Si uno se funde, el circuito se abre y se apagan todos. Por eso los fabricantes empezaron a poner en cada foquito un **puente** que se cierra cuando el filamento se rompe, para que el resto siga funcionando. Las tiras LED modernas suelen tener grupos en paralelo.
 
 ## Ventajas e inconvenientes
 | Ventajas | Inconvenientes |
@@ -310,7 +310,7 @@ Con tres o más ramas, la forma más sencilla es:
 3. Cada corriente: Iₖ = V / Rₖ.
 
 ## Aplicaciones
-- **Derivador (shunt) de un amperímetro:** para medir corrientes grandes, el instrumento se pone en paralelo con una resistencia muy pequeña. Casi toda la corriente pasa por el shunt y solo una fracción conocida por el medidor.
+- **Derivador de un amperímetro:** para medir corrientes grandes, el instrumento se pone en paralelo con una resistencia muy pequeña. Casi toda la corriente pasa por el derivador y solo una fracción conocida por el medidor.
 - **Seguridad:** si una persona toca un aparato con fuga y a la vez está conectada a tierra, su cuerpo queda en paralelo con el cable de tierra. Como el cable de tierra tiene muchísima menos resistencia, casi toda la corriente de fuga se va por él: por eso la **puesta a tierra** protege (lección 11.8).`,
       form: [["I₁ = I · R₂ / (R₁ + R₂)", "Corriente por R₁ en un divisor de corriente (nota el cruce)."], ["I₁ / I₂ = R₂ / R₁", "Las corrientes son inversamente proporcionales a las resistencias."]],
       ej: { enun: "A dos ramas en paralelo de 100 Ω y 400 Ω llegan 50 mA. ¿Cuánto pasa por cada una?", pasos: ["I₁ (100 Ω) = 0,05 × 400 / 500 = 0,04 A = 40 mA.", "I₂ (400 Ω) = 0,05 × 100 / 500 = 0,01 A = 10 mA.", "Comprobación: 40 + 10 = 50 mA ✓; 0,04 × 100 = 4 V = 0,01 × 400 ✓."], res: "40 mA por la de 100 Ω y 10 mA por la de 400 Ω." },
