@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo funciona un negocio</title>
+<meta name="description" content="Curso en español: cómo se organiza y cómo funciona por dentro un negocio, desde un changarro hasta una empresa gigante.">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#app">Saltar al contenido</a>
+<header class="top">
+ <button id="menubtn" class="iconbtn menubtn" aria-label="Menú" aria-expanded="false" aria-controls="menu">☰</button>
+ <a class="brand" href="#/"><span class="logo" aria-hidden="true">▣</span> Cómo funciona un negocio</a>
+ <nav id="mainnav" class="mainnav" aria-label="Principal"></nav>
+ <div class="tools">
+  <form id="searchform" class="search" role="search"><input id="q" type="search" placeholder="Buscar en el curso…" aria-label="Buscar en el curso"></form>
+  <button id="theme" class="iconbtn" aria-label="Cambiar tema claro u oscuro">☾</button>
+ </div>
+ <nav id="menu" class="menu" hidden aria-label="Todas las secciones"><div id="menulist"></div></nav>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="foot">
+ <p><b>Contenido educativo:</b> no es asesoría legal, fiscal, laboral ni de inversión. Las reglas cambian; consulta siempre la norma vigente de tu país y a un profesional. «Tortas Lupita» y otros casos marcados como ficticios son inventados.</p>
+ <p>Tu progreso se guarda solo en este navegador. · <a href="#/acerca">Acerca del curso</a> · <a href="#/aviso-legal">Aviso legal</a> · <a href="#/glosario">Glosario</a> · <a href="#/mi-progreso">Mi progreso</a></p>
+</footer>
+<nav class="bottombar" aria-label="Accesos rápidos"><a href="#/curso">Curso</a><a href="#/herramientas">Calculadoras</a><a href="#/glosario">Glosario</a><a href="#/mi-progreso">Progreso</a></nav>
+<script src="data-curso.js"></script>
+<script src="data-lecciones-1.js"></script><script src="data-lecciones-2.js"></script><script src="data-lecciones-3.js"></script><script src="data-lecciones-4.js"></script>
+<script src="data-quizzes.js"></script><script src="data-casos.js"></script><script src="data-glosario.js"></script>
+<script src="tools.js"></script><script src="app.js"></script>
+</body></html>
