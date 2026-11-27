@@ -108,8 +108,21 @@ function check(c, m) { if (c) ok++; else { fallos++; console.log("FALLO: " + m);
   check(await p.evaluate(id => !!JSON.parse(localStorage.getItem("electricidad-progreso-v1")).quizzes["m-" + id], mq.id), "El resultado del quiz de módulo no se guarda");
   await p.click("#qz .reintentar"); check((await p.$$("#qz .q")).length > 0, "El botón «Volver a intentar» no genera un quiz nuevo");
 
+  // 5 bis. Examen final y certificado
+  await ir(p, "#/examen-final");
+  check((await p.$$("#qz .q")).length === 40, "El examen final no tiene 40 preguntas");
+  await ir(p, "#/certificado");
+  check((await p.$$("#nombre-cert")).length === 0, "El certificado no debería estar disponible sin aprobar el examen");
+  const respaldo = await p.evaluate(() => window.PROGRESO.exportar());
+  await p.evaluate(() => window.PROGRESO.registrarQuiz("examen-final", 85));
+  await ir(p, "#/"); await ir(p, "#/certificado");
+  await p.fill("#nombre-cert", "Persona de prueba");
+  check((await p.textContent("#cert-nombre")) === "Persona de prueba", "El certificado no muestra el nombre");
+  await ir(p, "#/progreso"); check((await p.textContent("main")).indexOf("Examen final aprobado") >= 0, "Falta la insignia del examen final");
+  await p.evaluate(t => window.PROGRESO.importar(t), respaldo);
+
   // 6. Exportar e importar progreso
-  const exp = await p.evaluate(() => window.PROGRESO.exportar());
+  const exp =await p.evaluate(() => window.PROGRESO.exportar());
   await p.evaluate(() => window.PROGRESO.reiniciar()); check(await p.evaluate(() => window.PROGRESO.avanceTotal().hechas) === 0, "Reiniciar no borra el progreso");
   await p.evaluate(t => window.PROGRESO.importar(t), exp); check(await p.evaluate(() => window.PROGRESO.avanceTotal().hechas) === 1, "Importar no recupera el progreso");
 

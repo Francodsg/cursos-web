@@ -1,7 +1,7 @@
 # Plan 7: curso web «Cómo funciona la electricidad»
 
 > Documento de planificación. No incluye código. **Solo en español.**
-> Estado: **aprobado** (sin cambios) el 27 de noviembre de 2026. El sitio está en `sitios/como-funciona-la-electricidad/`.
+> Estado: **aprobado** (sin cambios) el 27 de noviembre de 2026 y **construido**. El sitio está en `sitios/como-funciona-la-electricidad/`.
 
 ---
 

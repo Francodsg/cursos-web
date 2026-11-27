@@ -1,6 +1,6 @@
 # Cómo funciona la electricidad
 
-Curso web completo en español (Plan 7). Abre `index.html` con doble clic en cualquier navegador: no necesita servidor ni internet.
+Curso web completo en español (Plan 7): 16 módulos, 128 lecciones (86 h 25 min), 21 simulaciones, 17 calculadoras, 38 experimentos seguros, quizzes, examen final y certificados. Abre `index.html` con doble clic en cualquier navegador: no necesita servidor ni internet.
 
 ## Estructura
 
