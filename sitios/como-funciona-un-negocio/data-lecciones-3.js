@@ -2364,7 +2364,7 @@ f: `Comunicados de prensa y cobertura de medios de negocios sobre las rondas de 
 err: ["Aceptar un socio sin firmar un convenio entre socios.","Confundir el porcentaje de propiedad con el control de las decisiones.","Calcular el porcentaje del nuevo socio sobre la valuación previa en lugar de la posterior.","Elegir un socio solo por el dinero, sin revisar si comparte la visión.","No prever qué pasa si un socio quiere salir."],
 a: `Usa la calculadora «Tabla de participación»: un inversionista pone 500,000 por el 20 % de Tortas Lupita, donde Lupita tiene 70 % y Toño 30 %. Calcula la valuación posterior, la previa y el porcentaje final de cada uno. Después, escribe tres cláusulas que Lupita debería pedir en el convenio entre socios.`,
 sol: `Valuación posterior: 2,500,000; previa: 2,000,000. Lupita 56 %, Toño 24 %, inversionista 20 %. Cláusulas posibles: quién dirige el día a día; decisiones que requieren unanimidad (vender la empresa, deuda grande); derecho de preferencia si alguien quiere vender; no competencia.`,
-q: [{n:1,t:"Un inversionista pone 500,000 por el 20 % de una empresa. ¿Cuál es la valuación posterior (en pesos)?",a:2500000,tol:1,u:"pesos",e:"500,000 ÷ 0.20 = 2,500,000."},
+q: [{n:1,t:"Un inversionista pone 500,000 por el 20 % de una empresa. ¿Cuál es la valuación posterior (en pesos)?",a:2500000,tol:0,u:"pesos",e:"500,000 ÷ 0.20 = 2,500,000."},
 ["Si Lupita tenía 70 % y entra un socio con 20 %, Lupita queda con…",["56 %","50 %","70 %"],0,"70 % × 80 % = 56 %."],
 ["La dilución significa que…",["Los socios anteriores conservan sus acciones pero su porcentaje baja","Los socios pierden sus acciones","El negocio pierde valor"],0,"Se crean acciones nuevas para el socio que entra."],
 ["El documento que define cómo deciden y cómo salen los socios es…",["El convenio entre socios","La factura","El organigrama"],0,"También los estatutos de la sociedad."]],
@@ -2526,7 +2526,7 @@ f: `Comunicados de AB InBev y Grupo Modelo (2012–2013); cobertura de la prensa
 err: ["Creer que un negocio vale por lo que vende y no por lo que gana.","Usar un múltiplo alto para un negocio que depende totalmente del dueño.","Olvidar restar las deudas para saber lo que corresponde a los dueños.","Pensar que existe un único valor «correcto».","No ajustar la utilidad por gastos extraordinarios o por el sueldo del dueño."],
 a: `Un negocio deja 300,000 de utilidad normalizada al año. Estima su valor con un múltiplo de 2, de 3 y de 4. Después, lista tres cambios que el dueño podría hacer en un año para justificar un múltiplo más alto.`,
 sol: `Valores: 600,000, 900,000 y 1,200,000. Cambios: escribir procesos y tener un encargado que funcione sin el dueño, diversificar clientes, registrar la marca, formalizar la contabilidad, firmar un contrato de renta largo.`,
-q: [{n:1,t:"Un negocio deja 400,000 de utilidad normalizada al año. Con un múltiplo de 3.5, ¿cuánto vale (en pesos)?",a:1400000,tol:1,u:"pesos",e:"400,000 × 3.5 = 1,400,000."},
+q: [{n:1,t:"Un negocio deja 400,000 de utilidad normalizada al año. Con un múltiplo de 3.5, ¿cuánto vale (en pesos)?",a:1400000,tol:0,u:"pesos",e:"400,000 × 3.5 = 1,400,000."},
 ["Para valuar un negocio, lo más importante es…",["Lo que gana o el efectivo que genera","Lo que vende","El tamaño del local"],0,"Ventas no es valor."],
 ["Un negocio que depende totalmente del dueño suele tener un múltiplo…",["Más bajo","Más alto","Igual a cualquier otro"],0,"El comprador asume más riesgo."],
 ["Si el negocio vale 1,500,000 y debe 200,000, a los dueños les corresponde aproximadamente…",["1,300,000","1,700,000","200,000"],0,"Valor de la empresa menos la deuda."]],
@@ -2803,7 +2803,7 @@ a: `Haz una lista de verificación de 10 puntos para decidir si un negocio que c
 sol: `La lista debería incluir: rentabilidad estable, procesos escritos, encargado capacitado, números ordenados, sistema de control, compras centralizadas, financiamiento con colchón, mercado nuevo identificado, punto de equilibrio realista y requisitos legales.`,
 q: [["Si hay fila en el local pero los clientes no vienen de lejos, lo primero es…",["Revisar si se puede ampliar la capacidad del local actual","Abrir tres sucursales","Subir el precio al doble"],0,"Puede ser falta de capacidad, no mercado nuevo."],
 ["La canibalización ocurre cuando…",["Una sucursal nueva le quita clientes a una propia","Se acaba el inventario","El proveedor sube precios"],0,"Por eso se cuida la distancia entre sucursales."],
-{n:1,t:"Una sucursal tiene costos fijos de 58,000 al mes y un margen de contribución de 24 pesos por torta. ¿Cuántas tortas al mes necesita para no perder? (redondea hacia arriba)",a:2417,tol:1,u:"tortas",e:"58,000 ÷ 24 = 2,416.7 → 2,417 tortas."},
+{n:1,t:"Una sucursal tiene costos fijos de 58,000 al mes y un margen de contribución de 24 pesos por torta. ¿Cuántas tortas al mes necesita para no perder? (redondea hacia arriba)",a:2417,tol:0.001,u:"tortas",e:"58,000 ÷ 24 = 2,416.7 → 2,417 tortas."},
 ["¿Por qué la segunda sucursal es un salto tan difícil?",["Porque el dueño ya no puede estar en ambos locales","Porque es ilegal tener dos","Porque los proveedores no venden a dos locales"],0,"El negocio debe funcionar sin la mirada constante del dueño."]],
 t: ["Sucursal","Canibalización","Maduración de una sucursal","Zona de influencia"]
 },
@@ -2882,7 +2882,7 @@ err: ["Elegir el local más barato sin medir el flujo de clientes.","Visitar la 
 a: `Elige dos esquinas o locales de tu colonia. Cuenta durante 15 minutos a las personas que pasan en dos horarios distintos y multiplica para estimar el flujo diario. Arma una matriz ponderada con cinco criterios y decide cuál elegirías para una tortería.`,
 sol: `La respuesta debe incluir conteos en al menos dos horarios, una estimación del flujo diario, cinco criterios con pesos que sumen 100 %, calificaciones de 1 a 5 y un total ponderado para cada opción, con una conclusión justificada.`,
 q: [["Para un negocio de comida, ¿qué flujo importa?",["El de clientes potenciales que pueden detenerse a comprar","Cualquier auto que pase a alta velocidad","El de aviones"],0,"No basta con que pase gente: deben ser clientes potenciales."],
-{n:1,t:"Pasan 2,500 personas al día; 60 % son clientes potenciales; compra el 6 % de ellos con un ticket de 75 pesos. ¿Cuánto se vendería al día (en pesos)?",a:6750,tol:1,u:"pesos",e:"2,500 × 0.60 = 1,500; × 0.06 = 90 clientes; × 75 = 6,750."},
+{n:1,t:"Pasan 2,500 personas al día; 60 % son clientes potenciales; compra el 6 % de ellos con un ticket de 75 pesos. ¿Cuánto se vendería al día (en pesos)?",a:6750,tol:0,u:"pesos",e:"2,500 × 0.60 = 1,500; × 0.06 = 90 clientes; × 75 = 6,750."},
 ["Una renta de 30,000 con ventas esperadas de 150,000 representa…",["20 % de las ventas: demasiado alta según la guía","2 % de las ventas","Lo ideal"],0,"La guía común es entre 8 % y 12 %."],
 ["La matriz ponderada sirve para…",["Comparar ubicaciones considerando varios criterios con distinto peso","Calcular impuestos","Hacer el organigrama"],0,"Evita decidir por un solo factor."]],
 t: ["Ubicación","Flujo de personas","Generador de tráfico","Matriz ponderada","DENUE"]
@@ -3621,7 +3621,7 @@ sol: `Los puntos más débiles suelen ser «sistema replicable» (falta document
 q: [["Un negocio es franquiciable cuando su éxito depende de…",["Un sistema que se puede enseñar y replicar","El talento único del dueño","La suerte"],0,"Debe funcionar sin el dueño presente."],
 ["¿Por qué conviene una franquicia piloto?",["Para probar el sistema y el modelo antes de vender muchas","Para cobrar más caro","Para no hacer manuales"],0,"Permite ajustar lo que no funciona."],
 ["Un error común al franquiciar es…",["Vender a cualquiera con tal de cobrar la cuota inicial","Registrar la marca","Escribir el manual"],0,"Un mal franquiciatario daña la marca."],
-{n:1,t:"Un franquiciatario invierte 950,000 en total y gana 40,000 al mes. ¿En cuántos meses recupera su inversión (aproximado)?",a:23.75,tol:0.5,u:"meses",e:"950,000 ÷ 40,000 = 23.75 meses, unos 24."}],
+{n:1,t:"Un franquiciatario invierte 950,000 en total y gana 40,000 al mes. ¿En cuántos meses recupera su inversión (aproximado)?",a:23.75,tol:0.03,u:"meses",e:"950,000 ÷ 40,000 = 23.75 meses, unos 24."}],
 t: ["Franquiciable","Franquicia piloto","Diagnóstico de franquiciabilidad","IMPI"]
 },
 "M21-5": {
@@ -3882,5 +3882,673 @@ q: [["¿Quién abrió en 1955 el primer local franquiciado de McDonald's que dio
 ["¿Por qué se dice que McDonald's está en el negocio de los bienes raíces?",["Porque es dueña o arrendataria de muchos locales y cobra renta a los franquiciatarios","Porque vende casas","Porque no vende hamburguesas"],0,"La renta es una fuente central de ingresos y de control."],
 ["Arcos Dorados es…",["El mayor franquiciatario de McDonald's, con la franquicia maestra en gran parte de Latinoamérica","Un competidor","Un proveedor de papas"],0,"Cotiza en la Bolsa de Nueva York."]],
 t: ["Modelo inmobiliario","Subarrendamiento","Arcos Dorados"]
+}
+});
+
+// ===== M22. Expansión: nuevos mercados, países y adquisiciones =====
+Object.assign(window.LECC, {
+"M22-1": {
+s: `Con dos sucursales funcionando y la franquicia en preparación, a Toño le llega una propuesta: un empresario de Monterrey quiere asociarse para abrir Tortas Lupita allá. «Si funciona aquí, funciona en cualquier lado», dice Toño. Lupita no está tan segura: en Monterrey la gente come distinto, los precios son otros y no conocen la marca. ¿Qué cambia al salir de la ciudad?`,
+o: ["Identificar qué cambia al expandir un negocio a otra ciudad.","Evaluar una nueva ciudad con criterios de mercado, operación y costos.","Diseñar una forma de entrada de bajo riesgo."],
+x: `## Lo que funciona en casa no siempre funciona fuera
+Un negocio exitoso en su ciudad tiene ventajas que a veces ni el dueño ve: **lo conocen**, entiende a sus clientes, tiene proveedores de confianza, sabe dónde están las mejores esquinas y puede resolver cualquier problema en persona. Al mudarse a otra ciudad, **casi todas esas ventajas desaparecen**. Hay que construirlas de nuevo.
+
+## Qué cambia
+1. **Los clientes:** gustos, costumbres, horarios de comida, poder de compra. La torta que es un éxito en la Ciudad de México puede competir en otra ciudad con platillos locales muy queridos.
+2. **La competencia:** otros negocios ya tienen la lealtad de los clientes.
+3. **El reconocimiento de marca:** en tu ciudad, la gente te recomienda; fuera, eres un desconocido.
+4. **Los proveedores:** hay que encontrar nuevos o enviar insumos desde lejos (con costos de transporte y riesgos de calidad).
+5. **Los costos:** rentas, sueldos y servicios distintos.
+6. **Las reglas:** cada municipio y cada estado tiene sus trámites, permisos y requisitos.
+7. **La supervisión:** el dueño ya no puede «darse una vuelta». Hace falta un equipo local de confianza y sistemas de control a distancia (lección M20-4).
+8. **El talento:** encontrar y formar gerentes en un lugar donde no conoces a nadie.
+
+## Cómo evaluar una nueva ciudad
+Antes de decidir, conviene reunir información:
+- **Tamaño del mercado:** población, crecimiento, zonas de oficinas, fábricas, escuelas. El INEGI ofrece datos de población y de unidades económicas por municipio y por colonia.
+- **Hábitos de consumo:** visitar, comer en la competencia, hacer encuestas o pruebas.
+- **Competencia:** quién vende algo parecido, a qué precio, qué tan lleno está.
+- **Costos:** rentas, salarios promedio, insumos.
+- **Logística:** distancia, carreteras, posibilidad de surtir desde la cocina central o necesidad de una nueva.
+- **Socios o talento local:** ¿hay alguien de confianza que conozca la ciudad?
+
+## Formas de entrar
+| Forma | Inversión | Control | Velocidad | Riesgo |
+|---|---|---|---|---|
+| Sucursal propia | Alta | Total | Lenta | Alto (todo el riesgo es tuyo) |
+| Socio local | Media | Compartido | Media | Compartido |
+| Franquicia | Baja | Por contrato | Rápida | Bajo en dinero, medio en marca |
+| Prueba temporal (puesto, evento, cocina oculta) | Muy baja | Total | Muy rápida | Muy bajo |
+| Venta por apps desde una cocina | Baja | Total | Rápida | Bajo |
+
+## Probar antes de apostar
+La forma más inteligente de entrar a una nueva ciudad suele ser **probar con poco**:
+- Participar en una feria gastronómica o un evento.
+- Abrir un puesto temporal o un local pequeño en un centro comercial.
+- Operar una **cocina oculta** (*dark kitchen*): una cocina sin local de atención que solo vende por apps de reparto, para medir la demanda sin invertir en un local a la calle.
+- Vender a empresas (comedores, eventos) antes de abrir al público.
+
+Con los resultados de la prueba (ventas, repetición de clientes, comentarios), se decide si se invierte en grande.
+
+## Adaptar sin perder la identidad
+Al llegar a otra ciudad, a veces conviene **adaptar** algo: un producto local en el menú, el tamaño de las porciones, el horario, el precio. Pero hay que cuidar lo que hace única a la marca. La regla de la lección M20-3 aplica aquí: definir qué es intocable y qué puede adaptarse.
+
+## El efecto «isla»
+Un error común es abrir **un solo local** en una ciudad lejana. Queda aislado: la marca no se conoce, la publicidad no rinde, la supervisión cuesta mucho y no hay economías de escala en compras o logística. Las cadenas suelen preferir entrar a una ciudad con **varios locales en poco tiempo** (o no entrar), para ganar presencia y repartir costos. Para una pyme, eso implica más inversión, y por eso el socio local o la franquicia son atractivos.
+
+## Las preguntas que hace Lupita
+1. ¿Qué tan parecidos son los clientes de Monterrey a los nuestros?
+2. ¿Quién va a dirigir allá y cómo lo vamos a supervisar?
+3. ¿De dónde saldrán el pan y las salsas?
+4. ¿Cuánto cuesta abrir y cuánto tiempo aguantamos con pérdidas?
+5. ¿Qué pasa si no funciona? ¿Cuánto perdemos?
+6. ¿Es mejor que el empresario de Monterrey sea socio o franquiciatario?
+
+## La decisión
+Toño viaja dos fines de semana, come en 15 lugares, cuenta flujo en tres zonas y descubre que las tortas compiten con muchas opciones locales y que el pan que usan no se consigue igual. Proponen al empresario una prueba: tres meses de una cocina oculta que venda por apps, con pan horneado en Monterrey según la ficha técnica. Si las ventas superan 150,000 al mes y la recompra es alta, el empresario se convertirá en franquiciatario de la región. Mientras tanto, el estudio de la expansión por apps en su propia ciudad sigue abierto (es el caso de este módulo).
+
+## Medir la prueba
+Una prueba solo sirve si se mide. Antes de empezar, Lupita y Toño escriben las metas: ventas mensuales, porcentaje de clientes que vuelven a pedir y calificación promedio en la app.`,
+k: `**Expandirse a otra ciudad** significa perder ventajas de casa: reconocimiento, conocimiento de clientes, proveedores, supervisión directa. Evalúa mercado, hábitos, competencia, costos y logística. Formas de entrar: sucursal propia, socio local, franquicia, prueba temporal o **cocina oculta**. **Prueba con poco antes de apostar** y evita el efecto «isla».`,
+ch: `Una nevería de Michoacán prueba vender en otra ciudad con un carrito en una plaza durante tres fines de semana. Como la venta es buena, busca a una persona de la ciudad para abrir un local como franquiciatario.`,
+gi: `Las grandes cadenas de restaurantes suelen entrar a una nueva ciudad con varios locales a la vez, apoyadas en estudios de mercado, para ganar presencia de marca y repartir los costos de logística y publicidad.`,
+e: `Comparación de dos formas de entrar a Monterrey (primer año):
+
+| | Sucursal propia | Cocina oculta por apps (prueba) |
+|---|---|---|
+| Inversión inicial | 650,000 | 120,000 |
+| Gastos fijos mensuales | 65,000 | 28,000 |
+| Ventas esperadas al mes (si va bien) | 220,000 | 150,000 |
+| Pérdida máxima si fracasa en 6 meses | 650,000 + 6 × 65,000 = 1,040,000 (menos ventas) | 120,000 + 6 × 28,000 = 288,000 (menos ventas) |
+
+La prueba arriesga mucho menos y da información real antes de invertir en grande.`,
+r: `El INEGI ofrece en su sitio información de población por municipio y localidad, y el Directorio Estadístico Nacional de Unidades Económicas (DENUE), que permite ver la competencia de una zona; son fuentes gratuitas para estudiar una ciudad antes de expandirse.`,
+f: `INEGI, Censo de Población y Vivienda y DENUE (inegi.org.mx).`,
+err: ["Suponer que lo que funciona en tu ciudad funcionará igual en otra.","Abrir un solo local aislado en una ciudad lejana.","No resolver de antemano el abasto de insumos clave.","No tener a nadie de confianza para dirigir y supervisar a distancia.","Invertir en grande sin probar primero."],
+a: `Elige una ciudad distinta a la tuya y un negocio que conozcas. Investiga tres datos: población, dos competidores directos y el precio de un producto parecido. Propón una forma de entrada de bajo riesgo y qué resultado tendría que lograr para invertir más.`,
+sol: `Una buena propuesta usa datos concretos (por ejemplo, del INEGI), compara con la competencia local y plantea una prueba con inversión limitada y una meta medible (ventas, recompra, calificaciones) para decidir el siguiente paso.`,
+q: [["Al expandirse a otra ciudad, ¿qué ventaja se pierde casi siempre?",["El reconocimiento de la marca y el conocimiento de los clientes","La receta","El nombre"],0,"Hay que construirlo de nuevo."],
+["Una cocina oculta es…",["Una cocina sin local de atención que vende solo por apps de reparto","Una cocina ilegal","Un comedor industrial"],0,"Sirve para probar la demanda con poca inversión."],
+["El efecto «isla» se refiere a…",["Abrir un solo local aislado en una ciudad lejana","Abrir en una isla turística","Cerrar los domingos"],0,"La marca no se conoce y la supervisión cuesta mucho."],
+["¿Cuál es la forma de entrada con menor riesgo?",["Una prueba temporal o una cocina oculta","Tres sucursales propias de golpe","Comprar un edificio"],0,"Da información real con poca inversión."]],
+t: ["Expansión geográfica","Cocina oculta","Prueba de mercado","Socio local"]
+},
+"M22-2": {
+s: `Los clientes de Tortas Lupita piden más cosas: desayunos, tortas de pierna para fiestas, aguas frescas para llevar, y hasta que vendan su salsa. Toño quiere lanzar todo. Lupita teme que se pierda lo que los hizo famosos: las mejores tortas de la zona. ¿Cómo crecer con productos nuevos sin dañar la marca?`,
+o: ["Distinguir extensiones de línea, extensiones de marca y nuevas marcas.","Evaluar si un producto nuevo encaja con la marca y con la operación.","Reconocer los riesgos de diluir la marca o complicar la operación."],
+x: `## Crecer con lo que ya tienes
+Otra forma de crecer, distinta de abrir más locales, es **vender más cosas a los mismos clientes** o atraer nuevos clientes con productos nuevos. En la matriz de Ansoff (lección M18-6) corresponde al **desarrollo de productos**. Tiene una ventaja enorme: se aprovechan la marca, los clientes, el local y los proveedores que ya existen.
+
+## Tres caminos
+1. **Extensión de línea:** nuevas versiones dentro de la misma categoría. Por ejemplo, una torta nueva de chilaquiles, una versión vegetariana, un tamaño «mini». Riesgo bajo; se apoya en lo que el cliente ya compra.
+2. **Extensión de marca:** usar la marca en **otra categoría** de producto. Por ejemplo, «Salsas Tortas Lupita» en el supermercado o desayunos con la marca. Riesgo medio: la marca ayuda a vender, pero si el nuevo producto es malo, daña la marca original.
+3. **Nueva marca:** lanzar un producto con otro nombre para no confundir a los clientes ni arriesgar la marca original. Por ejemplo, si Lupita quisiera abrir un restaurante de mariscos, quizá convendría otro nombre. Riesgo alto: hay que construir la marca desde cero.
+
+## Las preguntas de encaje
+Antes de lanzar un producto, pregúntate:
+- **¿Encaja con la promesa de la marca?** Si Tortas Lupita promete «tortas generosas, sabrosas y rápidas», una torta de chilaquiles encaja; un sushi, no.
+- **¿Lo pide el cliente o lo queremos nosotros?** Busca evidencia: pedidos, preguntas, ventas de la competencia.
+- **¿Encaja con la operación?** ¿Se prepara con el mismo equipo, los mismos ingredientes y el mismo personal? ¿O exige nuevos procesos, nuevos proveedores y más espacio?
+- **¿Qué margen deja?** Calcula el costo, el precio y el margen de contribución (Módulo 5).
+- **¿Canibaliza?** ¿El nuevo producto atrae ventas nuevas o solo reemplaza otras ventas propias?
+- **¿Complica el servicio?** Un menú más largo puede hacer más lenta la atención en hora pico.
+
+## El costo oculto de la complejidad
+Cada producto nuevo agrega: ingredientes que hay que comprar y guardar, recetas que hay que enseñar, posibilidad de errores, merma de productos que se venden poco, espacio en el refrigerador, tiempo de preparación. Un menú de 12 tortas que se venden bien suele ser más rentable que uno de 40 donde la mitad casi no se vende. Muchas cadenas revisan periódicamente su menú y **eliminan** los productos de poca venta.
+
+Una herramienta útil es la **ingeniería de menú**: clasificar cada producto según su **popularidad** (cuánto se vende) y su **margen** (cuánto deja).
+| | Margen alto | Margen bajo |
+|---|---|---|
+| **Popularidad alta** | Estrellas: cuidarlas y destacarlas | Caballos de batalla: revisar costo o precio |
+| **Popularidad baja** | Enigmas: promoverlas o reposicionarlas | Perros: eliminarlas |
+
+## La dilución de la marca
+Cuando una marca se estira demasiado hacia productos que no tienen relación con su promesa, el cliente deja de saber qué representa. A eso se le llama **dilución de marca**. Hay ejemplos públicos de marcas que lanzaron productos muy alejados de su categoría y que fracasaron o confundieron a sus clientes. Al revés, hay marcas que extendieron con éxito porque el nuevo producto compartía la misma promesa (por ejemplo, calidad, salud o diversión).
+
+## Probar en pequeño
+Igual que con una ciudad nueva, conviene **probar**: lanzar el producto como «especial de temporada» o solo en una sucursal, medir ventas y comentarios durante algunas semanas, y decidir con datos. Si funciona, se agrega al menú; si no, se retira sin costo de imagen.
+
+## Productos para otros canales
+A veces el producto nuevo no se vende en el local, sino en **otro canal**: salsas embotelladas en tiendas, paquetes para fiestas, comida para empresas. Esto puede ser muy rentable, pero exige otras capacidades: permisos sanitarios para producir alimentos envasados, etiquetado conforme a la norma (en México, la NOM-051 sobre etiquetado de alimentos y bebidas), distribución y negociación con tiendas (lección M21-6).
+
+## Los gigantes
+Grupo Bimbo creció durante décadas agregando productos y marcas dentro de su gran categoría (pan, pastelitos, galletas, tortillas, botanas), según su historia corporativa, a menudo con marcas distintas para segmentos distintos. Otras empresas alimentarias extendieron marcas exitosas a nuevas presentaciones. Al mismo tiempo, todas revisan su portafolio y retiran productos que no venden.
+
+## La decisión de Tortas Lupita
+Analizan las cuatro ideas:
+1. **Torta de chilaquiles para desayuno (extensión de línea):** usan el mismo pan y la plancha; atrae clientes en un horario en el que el local está vacío. Se prueba un mes. **Sí.**
+2. **Paquete para fiestas de 20 tortas mini:** mismo producto, otro tamaño y otro canal; buen margen. **Sí**, con pedido anticipado de 48 horas.
+3. **Aguas frescas para llevar en litro:** sencillas, buen margen, aumentan el ticket. **Sí.**
+4. **Salsa embotellada en supermercados (extensión de marca):** atractiva, pero exige permisos, etiquetado y producción aparte. **Más adelante**, cuando la cocina central esté lista.
+
+Además, con la ingeniería de menú detectan tres tortas «perro» que casi nadie pide y que obligan a tener ingredientes extra: las retiran.`,
+k: `**Extensión de línea:** nuevas versiones en la misma categoría (riesgo bajo). **Extensión de marca:** la marca en otra categoría (riesgo medio, puede diluirla). **Nueva marca:** otro nombre (riesgo alto). Evalúa encaje con la promesa, la operación, el margen y la canibalización. **Ingeniería de menú:** estrellas, caballos de batalla, enigmas y perros. La complejidad tiene costos ocultos.`,
+ch: `Una cafetería de barrio agrega pan dulce de una panadería cercana y café en grano para llevar a casa. Ambos encajan con su promesa («buen café cerca de ti») y no exigen equipo nuevo.`,
+gi: `Las grandes empresas de consumo administran portafolios de cientos de productos y marcas; lanzan extensiones cada año, prueban en mercados limitados y retiran los que no alcanzan sus metas.`,
+e: `Ingeniería de menú de cuatro tortas (mes de prueba):
+
+| Torta | Vendidas al mes | Margen por torta | Clasificación |
+|---|---|---|---|
+| Milanesa | 2,400 | 24 | Estrella (popular y buen margen) |
+| Jamón | 1,800 | 15 | Caballo de batalla (popular, margen bajo) |
+| Cubana especial | 300 | 30 | Enigma (poco popular, buen margen) |
+| Pierna con piña | 120 | 12 | Perro (poco popular, margen bajo) |
+
+Contribución de la pierna con piña: 120 × 12 = 1,440 al mes, pero obliga a comprar y guardar piña y pierna aparte. Se elimina. A la cubana especial se le da un lugar destacado en el menú para promoverla.`,
+r: `Según la historia corporativa de Grupo Bimbo, la empresa nació en 1945 con pan de caja y fue sumando categorías y marcas (pastelitos, galletas, tortillas, botanas) durante décadas, tanto con lanzamientos propios como con adquisiciones; hoy administra un portafolio de más de 100 marcas, según su información pública.`,
+f: `Grupo Bimbo, historia corporativa e informe anual integrado (grupobimbo.com).`,
+err: ["Lanzar productos porque al dueño le gustan, sin evidencia de que los clientes los quieren.","Alargar el menú sin medir el costo de la complejidad.","Usar la marca en productos que no encajan con su promesa.","No retirar nunca los productos que no se venden.","Lanzar en todas las sucursales sin probar primero."],
+a: `Toma el menú de un negocio que conozcas (o inventa uno de 8 productos con ventas y márgenes). Clasifica cada producto en estrella, caballo de batalla, enigma o perro, y propón qué harías con cada grupo.`,
+sol: `Estrellas: mantener y destacar. Caballos de batalla: revisar costo o precio, o combinarlos con otros productos. Enigmas: promoverlos o cambiar su presentación. Perros: eliminarlos o rediseñarlos.`,
+q: [["Una torta nueva de chilaquiles en Tortas Lupita es un ejemplo de…",["Extensión de línea","Nueva marca","Adquisición"],0,"Nueva versión dentro de la misma categoría."],
+["Vender «Salsas Tortas Lupita» en el supermercado es…",["Extensión de marca","Extensión de línea","Integración vertical"],0,"La marca en otra categoría."],
+["En la ingeniería de menú, un «perro» es un producto…",["Poco popular y de margen bajo","Muy popular y de margen alto","Nuevo"],0,"Candidato a eliminarse."],
+["La dilución de marca ocurre cuando…",["La marca se estira a productos que no encajan con su promesa","La marca se registra","Se baja un precio"],0,"El cliente deja de saber qué representa."]],
+t: ["Extensión de línea","Extensión de marca","Ingeniería de menú","Dilución de marca","Portafolio de productos"]
+},
+"M22-3": {
+s: `Las apps de reparto le ofrecen a Tortas Lupita entrar a su plataforma: «Llegarás a toda la ciudad sin abrir locales». Pero cobran una comisión de alrededor del 25 % de cada pedido. Toño también quiere una tienda en línea propia y vender por redes sociales. ¿Cuánto gana realmente el negocio con cada canal digital?`,
+o: ["Describir los canales digitales de venta: tienda en línea propia, mercados en línea y apps de reparto.","Calcular el margen de una venta por app considerando la comisión.","Decidir qué canales usar y cómo ajustar precios y operación."],
+x: `## Vender en línea
+Hoy, un negocio puede vender sin que el cliente entre al local. Las principales opciones son:
+1. **Tienda en línea propia:** una página o una app del propio negocio donde el cliente compra y paga. Ejemplos de herramientas: plataformas de tienda en línea, catálogos de WhatsApp Business con ligas de pago.
+2. **Mercados en línea (*marketplaces*):** plataformas donde muchos vendedores ofrecen productos y la plataforma cobra una comisión (Mercado Libre, Amazon). Más usados para productos que se envían por paquetería.
+3. **Apps de reparto de comida:** plataformas que reciben el pedido, cobran y llevan la comida en minutos (en México y Latinoamérica operan, por ejemplo, Rappi, Uber Eats y DiDi Food). Cobran comisión al restaurante y, a veces, cargos al cliente.
+4. **Redes sociales y mensajería:** pedidos por WhatsApp, Instagram o Facebook, con entrega propia o recolección en el local.
+
+## Lo que ofrecen las plataformas
+- **Alcance:** millones de usuarios que ya tienen la app instalada.
+- **Logística:** repartidores, sin que el restaurante tenga que contratarlos.
+- **Pagos:** cobro con tarjeta y otros medios.
+- **Visibilidad:** aparecer en búsquedas, promociones y listas.
+- **Datos:** reportes de ventas por producto y horario.
+
+## Lo que cuestan
+- **Comisión:** un porcentaje de cada pedido. Varía según la plataforma, el país, el tipo de contrato y si el restaurante usa repartidores propios o de la plataforma; en muchos casos ronda entre el 15 % y el 30 %. Siempre hay que leer el contrato.
+- **Promociones:** descuentos que el restaurante financia para destacar.
+- **Publicidad dentro de la app:** pagar por aparecer arriba.
+- **Empaques:** cajas, bolsas, contenedores que mantengan la calidad.
+- **Menor control:** la plataforma controla la relación con el cliente (sus datos, sus reseñas, el tiempo de entrega).
+
+## El margen real de una venta por app
+Este cálculo es indispensable. Una torta que se vende a 40 en el local tiene un costo variable de 16 y deja 24 de margen de contribución (60 %). Si se vende igual a 40 por una app con comisión del 25 % y un empaque de 3 pesos:
+- Comisión: 40 × 25 % = 10.
+- Margen: 40 − 16 − 3 − 10 = **11**. ¡Menos de la mitad que en el local!
+
+Por eso muchos restaurantes **suben el precio en las apps** (por ejemplo, de 40 a 48) o crean **combos** con más margen. Con 48: comisión 12, margen 48 − 16 − 3 − 12 = **17**. Hay que revisar si la plataforma permite precios distintos y si los clientes lo aceptan.
+
+## ¿Cuándo convienen las apps?
+- Cuando atraen **ventas nuevas** (clientes que nunca vendrían al local), no solo pedidos que antes eran en el local.
+- Cuando el local tiene **capacidad ociosa** en la cocina (por ejemplo, en horarios bajos): los costos fijos ya están pagados y cada venta extra suma, aunque deje menos margen.
+- Cuando el margen, aun con comisión, es positivo y suficiente.
+
+## El riesgo de depender de un solo canal
+Si la mitad de tus ventas llegan por una app, la app tiene mucho poder: puede subir la comisión, cambiar las reglas o bajar tu visibilidad. Es el mismo riesgo del proveedor único (lección M10-6), pero con un cliente intermediario. Por eso conviene:
+- Usar las apps para **atraer** clientes y luego invitarlos a pedir directo (por ejemplo, con una tarjeta en la bolsa con el WhatsApp del negocio y un beneficio).
+- Tener un **canal propio** (pedidos por WhatsApp, tienda en línea) con mejor margen.
+- Estar en más de una plataforma.
+
+## Operación para el canal digital
+Vender por apps cambia la operación:
+- **Empaque** adecuado: que la torta llegue caliente y entera.
+- **Tiempo de preparación** controlado: la app mide y castiga los retrasos.
+- **Menú adaptado:** no todo viaja bien (las bebidas con hielo, los productos que se aguadan).
+- **Una persona** encargada de recibir pedidos digitales en hora pico, para no descuidar a los clientes del local.
+- **Reseñas:** responder y cuidar la calificación.
+
+## Comercio electrónico de productos
+Para productos que se envían (salsas, mercancía, productos secos), la tienda en línea o los mercados en línea abren mercados en todo el país. Pero hay que sumar: costo de envío, empaque, devoluciones, comisiones y publicidad digital. Un producto que se vende a 100 puede dejar muy poco si el envío cuesta 90.
+
+## La estrategia de Tortas Lupita
+Deciden: (1) entrar a dos apps con precios 20 % más altos que en el local y un menú de 8 tortas que viajan bien; (2) recibir pedidos digitales solo entre 11:00 y 13:00 y de 16:00 a 19:00 (fuera de la hora pico), cuando la cocina tiene capacidad; (3) incluir en cada pedido una tarjeta con su WhatsApp y un 10 % de descuento en el primer pedido directo; (4) medir cada mes cuántas ventas son nuevas y cuál es el margen real por canal.`,
+k: `Canales digitales: **tienda en línea propia**, **mercados en línea**, **apps de reparto** y **redes sociales**. Las apps dan alcance y logística, pero cobran **comisión** (muchas veces del 15 % al 30 %). **Margen por app = precio − costo variable − empaque − comisión.** Ajusta precios o combos, usa la capacidad ociosa y no dependas de un solo canal.`,
+ch: `Una pizzería de barrio vende por una app de reparto en las tardes, cuando su horno está libre. Sube 15 % el precio en la app y en cada caja pone su número de WhatsApp para que la próxima vez le pidan directo.`,
+gi: `Mercado Libre, la mayor plataforma de comercio electrónico de Latinoamérica según sus informes, cobra comisiones a los vendedores y ofrece servicios de envío y de pagos (Mercado Pago), lo que le permite ganar en varios puntos de cada venta.`,
+e: `Margen de una torta según el canal:
+
+| Concepto | Local | App a 40 | App a 48 | WhatsApp propio (entrega propia) |
+|---|---|---|---|---|
+| Precio | 40 | 40 | 48 | 40 |
+| Costo variable | 16 | 16 | 16 | 16 |
+| Empaque | 0 | 3 | 3 | 3 |
+| Comisión (25 %) | 0 | 10 | 12 | 0 |
+| Costo de entrega | 0 | 0 | 0 | 5 |
+| **Margen por torta** | **24** | **11** | **17** | **16** |
+
+Vender por app a 40 deja menos de la mitad del margen del local. Con precio ajustado y con el canal propio, el margen mejora.`,
+r: `Mercado Libre reporta en sus informes anuales que opera en 18 países de Latinoamérica y que sus ingresos provienen principalmente de comisiones de su mercado en línea, servicios de envío (Mercado Envíos), pagos y créditos (Mercado Pago), y publicidad.`,
+f: `MercadoLibre, Inc., informes anuales (Formulario 10-K) y presentación para inversionistas.`,
+err: ["Vender por app al mismo precio del local sin calcular el margen después de la comisión.","Depender de una sola plataforma para gran parte de las ventas.","Aceptar pedidos digitales en hora pico y descuidar a los clientes del local.","No adaptar el menú y el empaque a la entrega.","Contar como ventas nuevas pedidos que antes eran en el local."],
+a: `Calcula el margen por unidad de un producto que conozcas en tres canales: local, app (comisión del 25 % y empaque de 4 pesos) y venta directa por WhatsApp (entrega de 6 pesos). Después propón un precio para la app que deje al menos el 70 % del margen del local.`,
+sol: `Ejemplo con precio 60 y costo 25: local 35; app 60 − 25 − 4 − 15 = 16; WhatsApp 60 − 25 − 6 = 29. Para dejar 70 % de 35 (24.5) en la app: precio × 0.75 − 29 ≥ 24.5 → precio ≥ 71.33; un precio de 72 cumple.`,
+q: [{n:1,t:"Una torta de 40 pesos con costo variable de 16 y empaque de 3 se vende por una app con comisión del 25 %. ¿Cuál es su margen (en pesos)?",a:11,tol:0,u:"pesos",e:"Comisión 40 × 25 % = 10; margen 40 − 16 − 3 − 10 = 11."},
+["¿Cuándo conviene vender por apps aunque el margen sea menor?",["Cuando atrae ventas nuevas y se usa capacidad ociosa","Siempre en hora pico","Nunca"],0,"Los costos fijos ya están pagados."],
+["Un riesgo de depender de una sola app es…",["Que puede subir la comisión o cambiar las reglas","Que vende demasiado","Que regala clientes"],0,"La plataforma tiene mucho poder."],
+["Un «marketplace» o mercado en línea es…",["Una plataforma donde muchos vendedores ofrecen productos y se cobra comisión","Un mercado sobre ruedas","Una tienda física"],0,"Como Mercado Libre o Amazon."]],
+t: ["Comercio electrónico","Mercado en línea","App de reparto","Comisión de plataforma","Canal propio"]
+},
+"M22-4": {
+s: `Un turista estadounidense que probó una torta de Lupita le escribe: «Quiero abrir Tortas Lupita en Texas». En otra conversación, un distribuidor ofrece exportar su salsa a Guatemala. Toño se emociona: «¡Vamos a ser internacionales!». Lupita pregunta: «¿Y cómo se hace eso sin perder hasta la camisa?».`,
+o: ["Explicar por qué las empresas se internacionalizan y qué riesgos enfrentan.","Describir las formas de entrar a otro país, de menor a mayor compromiso.","Evaluar una oportunidad internacional con criterios básicos."],
+x: `## Por qué salir del país
+Las empresas se internacionalizan por varias razones:
+- **Nuevos clientes:** el mercado nacional ya está cubierto o es pequeño.
+- **Clientes que ya existen fuera:** por ejemplo, comunidades de migrantes que buscan productos de su país (la llamada «demanda de nostalgia»).
+- **Diversificar riesgos:** no depender de la economía de un solo país.
+- **Aprovechar escala:** repartir costos de marca, investigación o producción entre más ventas.
+- **Seguir a un cliente:** un proveedor que acompaña a una empresa grande a otros países.
+- **Acceso a insumos o costos menores.**
+
+## Los riesgos y las diferencias
+Salir del país multiplica los retos de expandirse a otra ciudad (lección M22-1):
+- **Cultura y gustos** distintos.
+- **Leyes:** permisos sanitarios, etiquetado, impuestos, reglas laborales, protección de marca (hay que registrar la marca **en cada país**).
+- **Tipo de cambio:** si cobras en otra moneda, tus ingresos en pesos suben o bajan con el tipo de cambio.
+- **Logística y aduanas:** transporte, aranceles, trámites, tiempos.
+- **Distancia:** supervisar a miles de kilómetros.
+- **Competencia local** que conoce mejor el mercado.
+- **Riesgo político y económico** del otro país.
+
+Uno de los marcos más usados para pensar estas diferencias es el de la **distancia CAGE** del profesor Pankaj Ghemawat: distancia **c**ultural, **a**dministrativa (leyes, acuerdos comerciales), **g**eográfica y **e**conómica. Cuanto mayor es la distancia en estas cuatro dimensiones, más difícil es tener éxito.
+
+## Las formas de entrar, de menor a mayor compromiso
+1. **Exportación indirecta:** vendes a un intermediario en tu país (una comercializadora) que se encarga de exportar. Poco riesgo y poco control.
+2. **Exportación directa:** vendes tú a un importador o distribuidor en el otro país. Más control y más trabajo (trámites, logística, cobranza).
+3. **Venta en línea internacional:** a través de mercados en línea o tienda propia con envíos internacionales.
+4. **Licencia:** permites a una empresa del otro país usar tu marca o tu tecnología a cambio de regalías (lección M21-6).
+5. **Franquicia internacional:** un franquiciatario o un **franquiciatario maestro** desarrolla la marca en el otro país (lección M21-1).
+6. **Empresa conjunta (*joint venture*):** te asocias con una empresa local y crean una nueva empresa en ese país (lección M22-5).
+7. **Inversión directa:** abres tu propia filial (oficina, tienda, fábrica) o compras una empresa local. Máximo control, máxima inversión y máximo riesgo.
+
+| Forma | Inversión | Control | Riesgo | Aprendizaje del mercado |
+|---|---|---|---|---|
+| Exportación indirecta | Muy baja | Muy bajo | Bajo | Bajo |
+| Exportación directa | Baja | Medio | Medio | Medio |
+| Licencia o franquicia | Baja | Medio | Medio (marca) | Medio |
+| Empresa conjunta | Media-alta | Compartido | Compartido | Alto |
+| Inversión directa | Alta | Total | Alto | Alto |
+
+Muchas empresas siguen un camino **gradual**: empiezan exportando a un país cercano, aprenden, y luego aumentan su compromiso. A esto se le llama a veces el modelo de internacionalización por etapas (modelo de Uppsala, propuesto por investigadores suecos en la década de 1970).
+
+## Exportar en México: apoyos y reglas
+- México tiene **tratados comerciales** con muchos países (por ejemplo, el T-MEC con Estados Unidos y Canadá), que reducen o eliminan aranceles si se cumplen las **reglas de origen**.
+- Para exportar se requiere estar inscrito en el padrón correspondiente, contar con un **agente aduanal**, y cumplir las normas del país de destino. En el caso de alimentos hacia Estados Unidos, la **FDA** (la agencia que regula alimentos y medicamentos) tiene requisitos de registro de instalaciones y de etiquetado.
+- Existen programas públicos y privados de apoyo a exportadores; conviene revisar los vigentes.
+
+## La demanda de nostalgia
+Para muchos productos mexicanos, el primer mercado internacional natural son las **comunidades mexicanas y latinas en Estados Unidos**, que buscan los sabores de su tierra. Marcas de alimentos, bebidas, dulces y salsas han crecido así, y después han llegado a consumidores de otros orígenes.
+
+## Un caso conocido
+La cerveza **Corona**, de Grupo Modelo, se convirtió en una de las cervezas importadas más vendidas en Estados Unidos, según la propia empresa y fuentes de la industria. Su crecimiento internacional se apoyó durante años en importadores y distribuidores en cada país, antes de que Grupo Modelo fuera adquirido por AB InBev en 2013 (lección M22-6). Es un ejemplo de exportación con socios distribuidores.
+
+## Las preguntas para Tortas Lupita
+1. ¿Qué queremos internacionalizar: el restaurante (servicio) o el producto (salsa)?
+2. ¿Qué tan grande es la distancia cultural, administrativa, geográfica y económica?
+3. ¿Qué forma de entrada exige menos inversión y nos permite aprender?
+4. ¿Está registrada la marca en ese país?
+5. ¿Cumplimos los requisitos sanitarios y de etiquetado?
+6. ¿Quién del equipo tiene tiempo para esto?
+
+## La decisión
+Para la salsa: aceptan exportar a Guatemala a través del distribuidor, en una primera orden pequeña pagada por adelantado, después de revisar los requisitos sanitarios. Para el restaurante en Texas: antes de nada, registran la marca en Estados Unidos; si el interesado demuestra capacidad financiera y experiencia, podría ser un franquiciatario cuando el sistema de franquicias esté probado en México.`,
+k: `**Internacionalizarse:** buscar clientes en otros países por crecimiento, nostalgia, diversificación o escala. Riesgos: cultura, leyes, tipo de cambio, aduanas, distancia (**marco CAGE**: cultural, administrativa, geográfica, económica). Formas de entrar, de menor a mayor compromiso: exportación indirecta → exportación directa → licencia o franquicia → empresa conjunta → **inversión directa**. Lo común es avanzar **por etapas**.`,
+ch: `Un productor de mole de Puebla empieza vendiendo a una comercializadora que exporta a tiendas latinas de California. Después de dos años, ya con experiencia, vende directamente a un distribuidor en Chicago.`,
+gi: `Las grandes empresas mexicanas como Grupo Bimbo, Cemex o FEMSA se internacionalizaron combinando exportaciones, adquisiciones de empresas locales y empresas conjuntas, según sus historias corporativas.`,
+e: `Efecto del tipo de cambio en una exportación de salsa a Estados Unidos (precio fijo en dólares):
+
+| | Escenario A | Escenario B |
+|---|---|---|
+| Venta | 10,000 dólares | 10,000 dólares |
+| Tipo de cambio | 20 pesos por dólar | 17 pesos por dólar |
+| Ingreso en pesos | 200,000 | 170,000 |
+| Costos en pesos | 150,000 | 150,000 |
+| **Utilidad** | **50,000** | **20,000** |
+
+Una baja del dólar de 20 a 17 pesos (15 %) reduce la utilidad en 60 %. Por eso el tipo de cambio es un riesgo central al exportar.`,
+r: `Según información de Grupo Modelo y de AB InBev, la cerveza Corona se vende en más de 180 países y se ha ubicado durante años entre las cervezas importadas más vendidas en Estados Unidos; su expansión internacional se apoyó en importadores y distribuidores en cada mercado.`,
+f: `Grupo Modelo y AB InBev, información corporativa sobre la marca Corona; P. Ghemawat, «Distance Still Matters» (Harvard Business Review, 2001).`,
+err: ["Internacionalizarse sin registrar la marca en el otro país.","Ignorar el riesgo del tipo de cambio.","Empezar con una inversión directa grande sin conocer el mercado.","No cumplir los requisitos sanitarios y de etiquetado del país de destino.","Subestimar la distancia cultural."],
+a: `Elige un producto mexicano (o de tu país) y un país de destino. Analiza las cuatro distancias del marco CAGE y propón una forma de entrada. Justifica por qué es la adecuada para una empresa pequeña.`,
+sol: `Una buena respuesta compara idioma y costumbres (cultural), tratados y reglas (administrativa), distancia física (geográfica) e ingresos y costos (económica), y suele proponer empezar con exportación indirecta o directa a través de un distribuidor, con pedidos pequeños y pagos asegurados.`,
+q: [["La forma de entrada a otro país con menor inversión y menor control es…",["Exportación indirecta","Inversión directa","Empresa conjunta"],0,"Un intermediario se encarga de exportar."],
+["En el marco CAGE, la «A» se refiere a la distancia…",["Administrativa (leyes, acuerdos, instituciones)","Alimentaria","Anual"],0,"Cultural, administrativa, geográfica y económica."],
+["La «demanda de nostalgia» se refiere a…",["Migrantes que buscan productos de su país de origen","Clientes que compran antigüedades","Ventas en temporada navideña"],0,"Suele ser el primer mercado internacional de muchos productos."],
+{n:1,t:"Una venta de 10,000 dólares se cobra con un tipo de cambio de 17 pesos por dólar. ¿Cuánto se recibe en pesos?",a:170000,tol:0,u:"pesos",e:"10,000 × 17 = 170,000."}],
+t: ["Internacionalización","Exportación","Inversión extranjera directa","Tipo de cambio","Marco CAGE","Agente aduanal"]
+},
+"M22-5": {
+s: `Una cadena de cines de la ciudad le propone a Lupita una alianza: vender «tortas Lupita» en sus salas, con una marca conjunta. Por otro lado, una empresa de banquetes quiere crear con ella una nueva empresa para atender eventos corporativos, mitad y mitad. ¿Qué tipos de alianzas existen y cómo se evita que terminen mal?`,
+o: ["Distinguir alianzas estratégicas, acuerdos de colaboración y empresas conjuntas.","Identificar los beneficios y los riesgos de crecer con otro.","Reconocer los elementos de un buen acuerdo de alianza."],
+x: `## Crecer con otro
+A veces la mejor forma de crecer no es hacerlo solo, sino **con otra empresa** que tiene algo que tú no tienes: clientes, canales, tecnología, conocimiento del mercado, permisos o dinero. A esto se le llama **alianza estratégica**. Las alianzas permiten crecer más rápido y con menos inversión que si cada uno lo hiciera solo, pero exigen confianza, reglas claras y una buena salida si no funciona.
+
+## Los tipos de alianza
+1. **Acuerdo de colaboración (sin crear una empresa nueva):** dos empresas acuerdan hacer algo juntas, cada una con su parte, mediante un contrato. Ejemplos:
+   - **De distribución:** una vende los productos de la otra.
+   - **De co-marca (*co-branding*):** dos marcas aparecen juntas en un producto o promoción (por ejemplo, una torta especial con la marca de un cine).
+   - **De abastecimiento:** un proveedor y un cliente se comprometen a largo plazo.
+   - **De tecnología o investigación:** desarrollan algo juntas.
+   - **De marketing cruzado:** se recomiendan mutuamente o hacen promociones conjuntas.
+2. **Participación minoritaria:** una empresa compra una parte pequeña de la otra para sellar la relación.
+3. **Empresa conjunta (*joint venture*):** dos o más empresas crean una **nueva empresa**, de la que son socias, para un proyecto específico. Cada una aporta algo (dinero, marca, conocimiento, activos) y comparten la propiedad, las decisiones, las utilidades y los riesgos.
+
+## Por qué hacer una alianza
+- **Complementar capacidades:** «yo tengo el producto, tú tienes los clientes».
+- **Entrar a un mercado nuevo:** un socio local conoce el país o la ciudad (lección M22-4). En algunos países, la ley exige tener un socio local en ciertos sectores.
+- **Compartir costos y riesgos** de un proyecto grande.
+- **Aprender:** adquirir conocimiento de la otra empresa.
+- **Velocidad:** llegar antes que la competencia.
+
+## Por qué fracasan muchas alianzas
+Diversos estudios de consultoras y académicos han encontrado que una proporción importante de las alianzas y empresas conjuntas no logra sus objetivos o termina antes de lo previsto. Las causas más comunes:
+- **Objetivos distintos:** cada socio quería algo diferente y nunca lo dijo.
+- **Culturas incompatibles:** formas muy distintas de trabajar y decidir.
+- **Aportes desiguales:** un socio siente que pone más de lo que recibe.
+- **Falta de confianza:** se ocultan información.
+- **Reglas de decisión poco claras:** si cada socio tiene 50 %, ¿quién desempata?
+- **El socio aprende y se vuelve competidor.**
+- **Cambian las prioridades** de uno de los socios.
+
+## Los elementos de un buen acuerdo
+| Elemento | Preguntas clave |
+|---|---|
+| Objetivo | ¿Qué queremos lograr juntos y en cuánto tiempo? ¿Cómo mediremos el éxito? |
+| Aportaciones | ¿Qué pone cada uno (dinero, marca, personal, clientes, activos)? |
+| Propiedad y utilidades | ¿Cómo se reparten? ¿Cómo se reinvierte? |
+| Gobierno | ¿Quién dirige? ¿Cómo se toman las decisiones? ¿Cómo se desempata? |
+| Exclusividad | ¿Puede cada socio hacer lo mismo con otros? |
+| Propiedad intelectual | ¿De quién son la marca, las recetas, los clientes y lo que se desarrolle juntos? |
+| Información | ¿Qué reportes se comparten y cada cuánto? |
+| Conflictos | ¿Mediación, arbitraje? |
+| Salida | ¿Qué pasa si uno quiere salir? ¿Quién compra a quién y a qué precio? ¿Qué pasa con la marca y los clientes? |
+
+La cláusula de **salida** se negocia al principio, cuando hay buena relación, no al final, cuando ya hay pleito.
+
+## El problema del 50 y 50
+Las empresas conjuntas con 50 % para cada socio parecen justas, pero pueden **paralizarse** si no hay acuerdo. Para evitarlo se pueden pactar: un socio con voto de calidad en ciertos temas, un consejero independiente que desempata, un director general con autoridad clara, o mecanismos de salida (por ejemplo, que uno ofrezca un precio y el otro decida si compra o vende a ese precio).
+
+## Ejemplos públicos
+- **Sony Ericsson:** empresa conjunta creada en 2001 por Sony (Japón) y Ericsson (Suecia) para fabricar teléfonos celulares. En 2012 Sony compró la parte de Ericsson y la empresa pasó a ser de Sony, según los comunicados de ambas empresas.
+- **FEMSA y Raízen:** FEMSA formó con la empresa brasileña Raízen una empresa conjunta para operar tiendas OXXO en Brasil, según sus informes, combinando la experiencia en tiendas de conveniencia de FEMSA con la red de gasolineras de Raízen.
+- En muchos sectores (autos, aerolíneas, telecomunicaciones) son comunes las alianzas y empresas conjuntas para compartir inversiones enormes o para entrar a países con reglas especiales.
+
+## Las decisiones de Lupita
+- **Alianza con el cine (co-marca):** atractiva y de bajo riesgo. Lupita la acepta con un contrato de un año: el cine compra tortas preparadas en la cocina central a un precio fijo, las vende con ambas marcas, y debe seguir la ficha técnica para conservarlas. Si hay quejas sobre la calidad, Lupita puede terminar el acuerdo.
+- **Empresa conjunta de banquetes:** más compleja. Antes de aceptar, Lupita pide definir quién dirige, cómo se desempata, de quién son los clientes corporativos y qué pasa si uno quiere salir. La empresa de banquetes no quiere hablar de la salida: Lupita decide esperar.`,
+k: `**Alianza estratégica:** crecer con otra empresa que aporta lo que te falta. Tipos: **acuerdos de colaboración** (distribución, co-marca, abastecimiento, tecnología), **participación minoritaria** y **empresa conjunta** (nueva empresa con socios). Fallan por objetivos distintos, culturas, desconfianza y reglas poco claras. Un buen acuerdo define objetivo, aportes, gobierno, propiedad intelectual y **salida desde el principio**.`,
+ch: `Una cafetería y una librería de la misma calle hacen una alianza: la librería pone mesas para leer y la cafetería sirve dentro. Comparten clientes y firman un acuerdo de un año que dice cómo se reparten la renta y qué pasa si una de las dos se va.`,
+gi: `Sony y Ericsson crearon en 2001 la empresa conjunta Sony Ericsson para fabricar celulares, combinando la electrónica de consumo de Sony con la tecnología de telecomunicaciones de Ericsson; en 2012 Sony adquirió la participación de Ericsson.`,
+e: `Lupita compara las dos propuestas:
+
+| Criterio (1 a 5) | Peso | Co-marca con el cine | Empresa conjunta de banquetes |
+|---|---|---|---|
+| Ingreso potencial | 30 % | 3 | 5 |
+| Riesgo bajo | 25 % | 5 | 2 |
+| Inversión baja | 20 % | 5 | 2 |
+| Control de la marca | 15 % | 4 | 3 |
+| Claridad del acuerdo | 10 % | 5 | 1 |
+| **Total** | 100 % | **4.25** | **2.95** |
+
+Cine: 3 × 0.30 + 5 × 0.25 + 5 × 0.20 + 4 × 0.15 + 5 × 0.10 = 0.90 + 1.25 + 1.00 + 0.60 + 0.50 = 4.25. Banquetes: 1.50 + 0.50 + 0.40 + 0.45 + 0.10 = 2.95.`,
+r: `Sony Ericsson fue una empresa conjunta creada en octubre de 2001 por Sony Corporation y Telefonaktiebolaget LM Ericsson para fabricar teléfonos celulares. En febrero de 2012, Sony completó la compra de la participación de Ericsson y la empresa se convirtió en Sony Mobile Communications, según los comunicados de ambas compañías.`,
+f: `Comunicados de prensa de Sony y Ericsson (2001 y 2011–2012).`,
+err: ["Hacer una alianza sin definir objetivos comunes y medibles.","No acordar desde el principio cómo se sale de la alianza.","Crear una empresa conjunta 50 y 50 sin mecanismo para desempatar.","No proteger la propiedad de la marca, las recetas y los clientes.","Elegir socio solo por lo que aporta, sin revisar si la cultura es compatible."],
+a: `Imagina una alianza para un negocio que conozcas (por ejemplo, un gimnasio con una tienda de alimentos saludables). Escribe un acuerdo de una página que incluya: objetivo, qué aporta cada uno, cómo se reparten los beneficios, quién decide, qué pasa con los clientes y cómo se termina.`,
+sol: `Un buen acuerdo es concreto y medible (por ejemplo, «aumentar 15 % las ventas de ambos en 6 meses»), detalla las aportaciones, define una regla de decisión clara, aclara la propiedad de los clientes y la marca, y establece plazo, causas de terminación y aviso previo.`,
+q: [["Una empresa conjunta es…",["Una nueva empresa creada por dos o más socios para un proyecto","Un contrato de compraventa","Una sucursal"],0,"Comparten propiedad, decisiones y riesgos."],
+["¿Cuándo conviene negociar la salida de una alianza?",["Al principio, cuando hay buena relación","Cuando ya hay un pleito","Nunca"],0,"Es más fácil acordarla de buena fe al inicio."],
+["Un riesgo de una empresa conjunta 50 y 50 es…",["Que se paralice si no hay acuerdo","Que un socio tenga todo el control","Que no haya socios"],0,"Se necesitan mecanismos para desempatar."],
+["Vender una torta especial con la marca de un cine es un ejemplo de…",["Co-marca","Integración vertical","Exportación"],0,"Dos marcas aparecen juntas."]],
+t: ["Alianza estratégica","Empresa conjunta","Co-marca"]
+},
+"M22-6": {
+s: `Don Beto, dueño de una tortería con tres locales en el sur de la ciudad, quiere retirarse y le ofrece a Lupita venderle su negocio completo: locales, empleados, clientes y su marca «Tortas Don Beto». Toño ve la oportunidad de pasar de dos a cinco locales de golpe. Lupita pregunta: «¿Cuánto vale, qué estamos comprando realmente y qué puede salir mal?».`,
+o: ["Explicar qué son las fusiones y las adquisiciones y por qué se hacen.","Describir las etapas de una adquisición, incluida la auditoría de compra.","Reconocer las razones por las que muchas adquisiciones no crean el valor esperado."],
+x: `## Comprar en lugar de construir
+Una empresa puede crecer **construyendo** (abriendo locales, lanzando productos) o **comprando** otra empresa que ya tiene lo que busca. Comprar es más rápido: de un día para otro se tienen locales, clientes, empleados y ventas. Pero también es más caro y más riesgoso.
+
+## Las definiciones
+- **Adquisición:** una empresa compra otra (o el control de otra). La empresa comprada puede seguir existiendo como subsidiaria o integrarse por completo.
+- **Fusión:** dos empresas se unen para formar una sola. En la práctica, muchas «fusiones» son adquisiciones en las que una empresa es claramente la compradora.
+- **Compra de activos:** en lugar de comprar la empresa (con sus acciones y sus deudas), se compran solo ciertos activos: locales, equipo, marca, inventario, contratos. Es común en negocios chicos porque reduce el riesgo de heredar deudas ocultas.
+
+## Por qué se hacen
+1. **Crecer rápido:** más ventas, más locales, más clientes de inmediato.
+2. **Entrar a un mercado nuevo:** otra ciudad, otro país, otro segmento (por ejemplo, Walmart compró el control de Cifra en México en 1997, según su historia corporativa).
+3. **Adquirir capacidades:** tecnología, talento, marcas, permisos, patentes.
+4. **Sinergias:** ahorros o ingresos extra que solo existen al juntar las dos empresas (compras conjuntas, una sola oficina central, vender los productos de una en los locales de la otra).
+5. **Eliminar a un competidor** o ganar participación de mercado (con límites legales; lección M26-8).
+6. **Integrarse verticalmente:** comprar al proveedor o al distribuidor (lección M22-7).
+
+## Las etapas de una adquisición
+1. **Estrategia:** ¿por qué queremos comprar? ¿Qué buscamos? ¿Comprar es mejor que construir?
+2. **Búsqueda y primer contacto:** identificar candidatos y explorar el interés.
+3. **Valuación preliminar:** estimar cuánto vale la empresa (lección M19-5) y cuánto valen las sinergias.
+4. **Carta de intención:** un documento que fija los términos generales (precio aproximado, forma de pago, exclusividad para negociar) antes de la revisión detallada.
+5. **Auditoría de compra (*due diligence*):** el comprador revisa a fondo la empresa: finanzas, impuestos, contratos, empleados, aspectos legales, permisos, inventarios, clientes, proveedores, litigios. El objetivo es confirmar que lo que se dice es cierto y encontrar **riesgos ocultos**.
+6. **Negociación final y contrato:** precio, forma de pago (contado, en partes, con acciones), garantías del vendedor (lo que el vendedor asegura que es cierto), indemnizaciones si aparecen deudas ocultas, y condiciones para cerrar.
+7. **Autorizaciones:** en operaciones grandes, la autoridad de competencia (en México, la Comisión Federal de Competencia Económica, o la autoridad que la sustituya según la ley vigente) debe autorizarlas.
+8. **Cierre:** se paga y se transfiere la propiedad.
+9. **Integración:** juntar las dos empresas: sistemas, procesos, personas, cultura, marcas. Es la etapa más difícil y la que más se subestima.
+
+## La auditoría de compra en pequeño
+En la compra de la tortería de Don Beto, Lupita debe revisar:
+- **Ventas reales:** cortes de caja, estados de cuenta bancarios, facturas, declaraciones. ¿Coinciden?
+- **Utilidad real** y gastos (incluido el sueldo que se paga Don Beto).
+- **Contratos de renta:** ¿cuánto falta? ¿Se pueden ceder? ¿Qué aumentos tienen?
+- **Empleados:** ¿están dados de alta en el IMSS? ¿Hay antigüedad acumulada que genere obligaciones? ¿Demandas?
+- **Impuestos:** ¿hay adeudos con el SAT?
+- **Permisos** de funcionamiento, sanitarios y de Protección Civil.
+- **Marca:** ¿está registrada? ¿A nombre de quién?
+- **Equipo:** estado y vida útil.
+- **Clientes:** ¿dependen de Don Beto personalmente? ¿Se quedarán con el cambio de dueño?
+
+## Por qué muchas adquisiciones decepcionan
+Numerosos estudios académicos y de consultoras han encontrado que una parte importante de las adquisiciones no crea el valor esperado para los accionistas del comprador. Las causas típicas:
+- **Pagar de más:** el entusiasmo o la competencia con otros compradores lleva a pagar un precio que las sinergias no justifican (el sesgo de exceso de confianza, lección M16-5).
+- **Sinergias sobreestimadas:** los ahorros esperados no se materializan o tardan más.
+- **Mala integración:** choques de cultura, sistemas incompatibles, salida de personas clave.
+- **Riesgos ocultos** no detectados en la auditoría.
+- **Distracción:** la dirección se concentra en la compra y descuida el negocio original.
+
+## El cálculo de Lupita
+Don Beto pide 2,000,000 por los tres locales. Sus estados muestran una utilidad normalizada de 500,000 al año (4 veces la utilidad). Lupita estima sinergias: compras de carne y pan juntas (ahorro de 60,000 al año) y una sola administración (ahorro de 90,000). Con sinergias, la utilidad sería 650,000. Pero la auditoría encuentra: dos empleados sin alta en el IMSS (contingencia estimada de 150,000), un contrato de renta que vence en 8 meses y la marca registrada a nombre del hijo de Don Beto. Con eso, Lupita ofrece 1,500,000 por la compra de activos (no de la empresa), con 20 % del pago retenido durante un año para cubrir posibles deudas ocultas, la renovación del contrato de renta como condición y la cesión de la marca.`,
+k: `**Adquisición:** comprar otra empresa o su control. **Fusión:** unirse en una sola. **Compra de activos:** comprar solo locales, equipo, marca, etc. (reduce el riesgo de deudas ocultas). Etapas: estrategia → valuación → carta de intención → **auditoría de compra** → contrato → autorizaciones → cierre → **integración**. Muchas decepcionan por pagar de más, sinergias sobreestimadas y mala integración.`,
+ch: `Una dueña de dos estéticas compra una tercera a una colega que se retira. Compra solo el equipo, la cartera de clientes y el contrato de renta, no la empresa, y retiene parte del pago tres meses para ver si los clientes se quedan.`,
+gi: `En 2013, AB InBev completó la compra de la parte de Grupo Modelo que no poseía, en una operación de alrededor de 20,000 millones de dólares, según los comunicados de la empresa; la operación requirió autorizaciones de autoridades de competencia, entre ellas en Estados Unidos, donde se condicionó a vender el negocio de Modelo en ese país.`,
+e: `Valuación de la compra de Tortas Don Beto:
+
+| Concepto | Monto |
+|---|---|
+| Utilidad normalizada anual de Don Beto | 500,000 |
+| Precio pedido | 2,000,000 (4 veces la utilidad) |
+| Sinergias estimadas (compras + administración) | 150,000 al año |
+| Utilidad con sinergias | 650,000 |
+| Contingencia por empleados sin alta en el IMSS | −150,000 |
+| Riesgo de perder un local por renta que vence | Alto |
+| **Oferta de Lupita** | **1,500,000** (compra de activos, 20 % retenido un año) |
+
+1,500,000 ÷ 500,000 = 3 veces la utilidad sin sinergias; si las sinergias se logran, Lupita paga 1,500,000 ÷ 650,000 ≈ 2.3 veces.`,
+r: `Walmart adquirió en 1997 el control de Cifra, la cadena mexicana dueña de tiendas como Aurrerá, Bodega Aurrerá, Superama y Vips, que después se convirtió en Walmart de México; la operación se realizó tras años de una empresa conjunta entre ambas, según la historia corporativa de Walmart de México.`,
+f: `Walmart de México y Centroamérica, historia corporativa; comunicados de AB InBev y Grupo Modelo (2012–2013).`,
+err: ["Pagar de más por entusiasmo o por competir con otros compradores.","Saltarse o hacer superficialmente la auditoría de compra.","Sobreestimar las sinergias y no planear cómo lograrlas.","Comprar la empresa con todas sus deudas cuando bastaba comprar los activos.","Descuidar la integración: personas, cultura y sistemas."],
+a: `Haz la lista de verificación de una auditoría de compra para un negocio pequeño, con al menos 12 puntos agrupados en: finanzas, legal y fiscal, empleados, operación y clientes. Indica qué documento pedirías en cada punto.`,
+sol: `Por ejemplo: estados de cuenta y declaraciones (finanzas); contratos de renta, permisos, registro de marca, constancia de no adeudo fiscal (legal y fiscal); altas en el IMSS, contratos y antigüedades (empleados); inventario y estado del equipo (operación); lista de clientes principales y concentración de ventas (clientes).`,
+q: [["La auditoría de compra (due diligence) sirve para…",["Revisar a fondo la empresa y encontrar riesgos ocultos antes de comprar","Hacer publicidad","Pagar menos impuestos"],0,"Confirma que lo que se dice es cierto."],
+["¿Por qué en negocios chicos se prefiere a veces la compra de activos?",["Para no heredar deudas ocultas de la empresa","Porque es más cara","Porque es obligatoria"],0,"Se compran solo los bienes y contratos elegidos."],
+["Una causa frecuente de que una adquisición decepcione es…",["Pagar de más y sobreestimar las sinergias","Hacer una auditoría de compra","Integrar bien a las personas"],0,"El exceso de confianza es un sesgo común."],
+{n:1,t:"Se paga 1,500,000 por un negocio que deja 500,000 de utilidad normalizada al año. ¿Cuántas veces la utilidad se pagó?",a:3,tol:0,u:"veces",e:"1,500,000 ÷ 500,000 = 3."}],
+t: ["Adquisición","Fusión","Auditoría de compra","Sinergia","Compra de activos","Integración posterior a la compra"]
+},
+"M22-7": {
+s: `El panadero que surte a Tortas Lupita quiere vender su panadería. Si Lupita la compra, controlaría su ingrediente principal. Al mismo tiempo, una tortería competidora de la colonia está en venta. Toño no sabe cuál conviene más: «¿Comprar al proveedor o comprar al competidor?».`,
+o: ["Distinguir la integración vertical (hacia atrás y hacia adelante) de la integración horizontal.","Evaluar ventajas y riesgos de cada tipo de integración.","Clasificar adquisiciones reales como verticales u horizontales."],
+x: `## Dos direcciones para crecer comprando
+Cuando una empresa compra (o crea) otro negocio relacionado con el suyo, puede crecer en dos direcciones:
+- **Integración horizontal:** comprar o fusionarse con un **competidor** o con una empresa que hace lo **mismo** (en la misma etapa de la cadena). Por ejemplo, una tortería que compra otra tortería.
+- **Integración vertical:** comprar o crear un negocio en **otra etapa de la cadena de valor** (lección M10-7), del mismo producto:
+  - **Hacia atrás (aguas arriba):** hacia los proveedores. Por ejemplo, la tortería que compra la panadería que le surte el pan.
+  - **Hacia adelante (aguas abajo):** hacia los clientes o la distribución. Por ejemplo, una fábrica de salsas que abre sus propias tiendas, o un fabricante de ropa que abre sus propias boutiques.
+
+## La cadena de una torta
+Campo (trigo, cerdo, aguacate) → molino, rastro, empacadora → panadería, carnicería, distribuidor → **tortería** → reparto → cliente.
+Si Tortas Lupita compra la panadería, se integra **hacia atrás**. Si crea su propia flota de reparto en lugar de usar apps, se integra **hacia adelante**. Si compra otra tortería, se integra **horizontalmente**.
+
+## Integración horizontal: ventajas y riesgos
+**Ventajas:**
+- **Más participación de mercado** y más clientes de inmediato.
+- **Economías de escala:** compras más grandes, una sola administración (lección M26-2).
+- **Menos competencia** directa.
+- Acceso a nuevas ubicaciones o segmentos.
+
+**Riesgos:**
+- Pagar de más (lección M22-6).
+- Integrar culturas y procesos distintos.
+- Canibalización entre locales cercanos.
+- En empresas grandes, **límites legales**: las autoridades de competencia pueden prohibir o condicionar fusiones que reduzcan demasiado la competencia (lección M26-8).
+
+## Integración vertical: ventajas y riesgos
+**Ventajas:**
+- **Control de la calidad y del abasto** de un insumo clave.
+- **Captar el margen** del proveedor o del distribuidor.
+- **Coordinación:** producir exactamente lo que se necesita, cuando se necesita.
+- **Proteger secretos** o diferenciarse (por ejemplo, un pan que nadie más tiene).
+- Reducir la dependencia de un proveedor único (lección M10-6).
+
+**Riesgos:**
+- **Exige capacidades nuevas:** hacer pan bien es un oficio distinto de hacer tortas.
+- **Más inversión y más complejidad.**
+- **Menos flexibilidad:** si aparece un proveedor mejor o más barato, ya invertiste en el tuyo.
+- **Escala insuficiente:** si la panadería solo surte a dos locales, puede ser ineficiente; quizá necesite vender a otros clientes (que pueden ser tus competidores).
+- **Distracción** de la actividad principal.
+
+## Comprar o hacer: la pregunta de fondo
+Integrarse verticalmente es, en el fondo, una decisión de **«hacer o comprar»**: ¿me conviene producir yo este insumo o servicio, o comprarlo a otros? En general, conviene **integrarse** cuando:
+- El insumo es **crítico** para la calidad o la diferenciación.
+- Hay **pocos proveedores** o son poco confiables.
+- El margen del proveedor es alto y la empresa tiene escala suficiente.
+- La coordinación es difícil a través de contratos.
+
+Y conviene **seguir comprando** cuando el mercado de proveedores es competitivo, el insumo es estándar y la empresa no tiene la capacidad ni la escala para producirlo bien.
+
+## Ejemplos públicos
+- **Integración vertical hacia atrás:** Inditex (Zara) produce una parte importante de su ropa en fábricas propias o cercanas a España, lo que le permite responder rápido a la moda, según sus informes (Módulo 28). Grupo Bimbo ha integrado parte de la producción de insumos y de su distribución.
+- **Integración vertical hacia adelante:** muchas marcas de ropa, de tecnología y de cosméticos abren tiendas propias para controlar la experiencia del cliente.
+- **Integración horizontal:** la compra de Grupo Modelo por AB InBev en 2013 unió a dos cerveceras (lección M22-6); en otros sectores, la unión de cadenas de supermercados o de bancos.
+- **Ambas:** Amazon, que empezó como tienda en línea, se integró hacia atrás (marcas propias) y hacia adelante (logística y entregas propias), según sus informes anuales (Módulo 28).
+
+## La decisión de Tortas Lupita
+Toño analiza las dos opciones:
+- **La panadería (vertical hacia atrás):** el pan es clave para la calidad, y el panadero actual es su único proveedor (un riesgo). La panadería también vende al público y a otros restaurantes, así que tendría escala. Pero nadie en Tortas Lupita sabe hacer pan; necesitarían conservar al maestro panadero.
+- **La tortería competidora (horizontal):** más clientes y ubicaciones, pero en la misma colonia, con riesgo de canibalizar las ventas propias, y con una marca que no aporta mucho.
+
+Deciden negociar la compra de la panadería con una condición: que el maestro panadero se quede al menos dos años con un sueldo y un bono por resultados, y que la panadería siga vendiendo a sus clientes actuales.
+
+## Integrarse sin comprar
+No siempre hace falta comprar una empresa para lograr los beneficios de la integración. Hay formas intermedias: un **contrato de abastecimiento de largo plazo** con precio y calidad pactados, una **participación minoritaria** en el proveedor o una **alianza** (lección M22-5). Por ejemplo, Lupita podría firmar con el panadero un contrato de tres años con una receta exclusiva y un precio ajustable solo por inflación. Obtendría buena parte del control sobre el pan sin tener que aprender a dirigir una panadería.`,
+k: `**Integración horizontal:** comprar o unirse a un **competidor** (misma etapa): más mercado y escala, con riesgos de integración y límites legales. **Integración vertical:** entrar a otra etapa de la cadena: **hacia atrás** (proveedores) o **hacia adelante** (distribución, clientes): más control y margen, pero exige capacidades nuevas y quita flexibilidad. Es una decisión de **hacer o comprar**.`,
+ch: `Un restaurante de mariscos compra una lancha y contrata a un pescador para asegurar pescado fresco todos los días (integración hacia atrás). Otro restaurante de la misma playa compra al restaurante de junto para ampliar su terraza (integración horizontal).`,
+gi: `Inditex, dueña de Zara, combina producción propia y de proveedores cercanos con tiendas propias, lo que le da control de casi toda la cadena: diseño, producción, logística y venta, según sus informes anuales.`,
+e: `Clasificación de adquisiciones (ejercicio del módulo):
+
+| Adquisición | Tipo |
+|---|---|
+| Una tortería compra la panadería que le surte | Vertical hacia atrás |
+| Una tortería compra otra tortería | Horizontal |
+| Un fabricante de salsas abre tiendas propias | Vertical hacia adelante |
+| Una cervecera compra otra cervecera | Horizontal |
+| Una cadena de cafés compra una finca de café | Vertical hacia atrás |
+| Una fábrica de ropa compra una cadena de boutiques | Vertical hacia adelante |
+| Un banco compra otro banco | Horizontal |
+| Una cadena de supermercados crea su propia empresa de transporte | Vertical (logística, hacia atrás en su cadena de abasto) |`,
+r: `Según sus informes anuales, Inditex mantiene una parte relevante de su producción en proveedores y fábricas de proximidad (España, Portugal, Marruecos y Turquía), lo que le permite reponer y cambiar colecciones en pocas semanas, una ventaja que suele atribuirse a su alto grado de integración vertical.`,
+f: `Inditex, informes anuales (inditex.com); comunicados de AB InBev y Grupo Modelo (2013).`,
+err: ["Integrarse hacia atrás sin tener la capacidad de producir bien el insumo.","Comprar a un competidor cercano y canibalizar las ventas propias.","Creer que integrarse siempre baja los costos.","Perder flexibilidad al quedar amarrado a un proveedor propio ineficiente.","Ignorar los límites legales a la concentración en empresas grandes."],
+a: `Elige una empresa conocida y dibuja su cadena de valor desde las materias primas hasta el cliente. Señala en qué etapas está integrada (hace ella misma) y en cuáles compra a otros. Propón una integración que le convendría y explica por qué.`,
+sol: `Una buena respuesta dibuja 5 o 6 etapas, identifica cuáles hace la empresa, y propone una integración justificada por calidad, abasto, margen o coordinación, mencionando al menos un riesgo.`,
+q: [["Una tortería que compra la panadería que le surte el pan hace una integración…",["Vertical hacia atrás","Horizontal","Vertical hacia adelante"],0,"Avanza hacia su proveedor."],
+["Una cervecera que compra otra cervecera hace una integración…",["Horizontal","Vertical hacia atrás","Vertical hacia adelante"],0,"Ambas están en la misma etapa."],
+["Un fabricante que abre sus propias tiendas hace una integración…",["Vertical hacia adelante","Horizontal","Vertical hacia atrás"],0,"Avanza hacia el cliente."],
+["Conviene integrarse verticalmente cuando…",["El insumo es crítico y hay pocos proveedores confiables","El insumo es estándar y hay muchos proveedores","Nunca"],0,"Es una decisión de hacer o comprar."]],
+t: ["Integración vertical","Integración horizontal","Cadena de valor","Hacer o comprar"]
+},
+"M22-8": {
+s: `Toño lee un artículo: «Target perdió miles de millones de dólares en Canadá y se fue en menos de dos años». Se pregunta cómo una de las cadenas más grandes de Estados Unidos, con todo su dinero y experiencia, pudo fracasar en un país vecino que habla el mismo idioma. Si a un gigante le pasa, ¿qué no le puede pasar a Tortas Lupita?`,
+o: ["Analizar las causas del fracaso de Target en Canadá según información pública.","Identificar patrones comunes en las expansiones fallidas.","Aplicar una lista de verificación para reducir el riesgo de una expansión."],
+x: `## El caso Target en Canadá
+**Target** es una de las mayores cadenas de tiendas de descuento de Estados Unidos. Según su información pública y la prensa de negocios de la época:
+- En **2011**, Target anunció la compra de los derechos de arrendamiento de alrededor de 200 tiendas de la cadena canadiense Zellers, por unos 1,800 millones de dólares.
+- En **2013** abrió sus primeras tiendas en Canadá y, en menos de un año, llegó a más de **130 tiendas**: una de las expansiones más rápidas de la historia del comercio en ese país.
+- Los clientes canadienses, que conocían Target por sus viajes a Estados Unidos, se decepcionaron: encontraron **anaqueles vacíos**, **precios más altos** que en las tiendas de Estados Unidos y tiendas que no se sentían como el Target que conocían.
+- En **enero de 2015**, Target anunció que cerraría todas sus tiendas en Canadá. Reportó pérdidas y cargos relacionados de **miles de millones de dólares** y alrededor de 17,000 personas perdieron su empleo, según lo reportado en ese momento.
+
+## ¿Qué salió mal?
+Los análisis publicados (entre ellos, reportajes extensos de la prensa canadiense de negocios) señalaron varias causas que se reforzaron entre sí:
+1. **Velocidad excesiva:** abrir más de 130 tiendas en un año, en lugar de probar con pocas y aprender. La presión venía en parte de los contratos de renta ya comprados: cada tienda vacía costaba dinero.
+2. **Problemas de cadena de suministro:** el nuevo sistema de gestión de inventario y los centros de distribución no funcionaron bien al principio. Hubo errores en los datos de los productos (medidas, cantidades por caja), lo que provocó que los centros de distribución estuvieran llenos mientras las tiendas tenían anaqueles vacíos.
+3. **Ubicaciones heredadas:** muchas tiendas de Zellers no estaban en los mejores lugares ni tenían el formato ideal, pero Target las usó porque ya tenía los contratos.
+4. **Precios que no cumplían la expectativa:** por costos más altos en Canadá (transporte, aranceles en algunos productos, escala menor), los precios no podían igualar a los de Estados Unidos, y los clientes lo compararon.
+5. **No entender al cliente local:** se subestimó la competencia (Walmart y cadenas canadienses ya establecidas) y las expectativas creadas por la marca.
+6. **Sin margen para corregir:** al abrir todas las tiendas casi al mismo tiempo, los problemas aparecieron en todas a la vez.
+
+## Otros casos públicos
+- **Walmart en Alemania:** Walmart entró en 1997 comprando cadenas locales y salió en 2006, vendiendo sus tiendas a la empresa alemana Metro. Los análisis citan diferencias culturales (por ejemplo, prácticas de servicio que no gustaban a los clientes y empleados alemanes), un mercado muy competitivo con cadenas de descuento fuertes y dificultades con las reglas laborales y de comercio, según la prensa de negocios y estudios de caso.
+- **Home Depot en China:** la cadena entró comprando una cadena local en 2006 y en 2012 cerró sus grandes tiendas restantes. Los análisis señalaron que el modelo «hágalo usted mismo» no encajaba con un mercado donde muchas personas preferían contratar a alguien para hacer las reparaciones.
+- Hay casos de expansiones exitosas también: lo importante es aprender de los patrones.
+
+## Los patrones comunes del fracaso
+| Patrón | Pregunta que lo previene |
+|---|---|
+| Velocidad excesiva | ¿Probamos con pocos locales antes de multiplicar? |
+| Copiar el modelo de casa sin adaptarlo | ¿Qué es distinto en este mercado? |
+| Subestimar a la competencia local | ¿Por qué nos elegirían a nosotros y no a los que ya están? |
+| Sistemas y logística no probados | ¿Funcionan el inventario y el abasto antes de abrir? |
+| Malas ubicaciones por prisa o por oportunidad | ¿Elegimos los lugares por su potencial o porque estaban disponibles? |
+| Expectativas que no se cumplen | ¿Lo que prometemos es lo que el cliente encontrará? |
+| Exceso de confianza de la dirección | ¿Quién en el equipo está retando el plan? |
+| Sin plan de salida | ¿Cuánto estamos dispuestos a perder antes de corregir o salir? |
+
+Muchos de estos patrones son **sesgos** que vimos en la lección M16-5: exceso de confianza, costo hundido (seguir porque ya se invirtió mucho), sesgo de confirmación (ver solo lo que confirma el plan).
+
+## La lista de verificación antes de expandirse
+1. **Concepto probado** en el mercado de origen y, si es posible, en un mercado parecido al nuevo.
+2. **Estudio del nuevo mercado:** clientes, competencia, costos, reglas.
+3. **Prueba piloto** con pocos locales, con metas claras para seguir, ajustar o detenerse.
+4. **Sistemas y logística probados** antes de crecer.
+5. **Ubicaciones elegidas por su potencial**, no por disponibilidad.
+6. **Equipo local** con conocimiento del mercado.
+7. **Plan financiero con escenarios** y un colchón para los meses de maduración.
+8. **Límite de pérdidas y plan de salida** definidos de antemano.
+9. **Alguien que haga de «abogado del diablo»** en las decisiones.
+10. **Revisión periódica** con datos, dispuestos a corregir.
+
+## Lo que aprende Tortas Lupita
+El caso de Target confirma lo que Lupita intuía: la prisa es el enemigo de la expansión. Para su plan de Monterrey y de las apps (el caso de este módulo), deciden: prueba de tres meses con metas claras; un límite de pérdida de 300,000 antes de detenerse; sistemas de inventario y reparto funcionando antes de abrir; y una reunión mensual en la que Karla, que es la más escéptica del equipo, tiene la tarea de encontrar todos los problemas del plan.
+
+## Cierre del Nivel 3
+En este nivel viste cómo se decide, cómo se controla con presupuestos e indicadores, cómo crecen los negocios, cómo se financian, cómo se replican en sucursales y franquicias y cómo se expanden a nuevos mercados. En el Nivel 4 veremos cómo funcionan por dentro las empresas que llegaron al final de ese camino: las gigantes.`,
+k: `**Target en Canadá (2013–2015):** más de 130 tiendas en menos de un año, anaqueles vacíos por fallas de inventario y logística, ubicaciones heredadas, precios más altos de lo esperado; cerró en 2015 con pérdidas de miles de millones de dólares. Patrones del fracaso: **velocidad excesiva**, copiar sin adaptar, subestimar la competencia, sistemas no probados, exceso de confianza y falta de plan de salida. Antídoto: **piloto, sistemas probados, escenarios y límite de pérdidas**.`,
+ch: `Un dueño de una pizzería exitosa abre cuatro locales nuevos en un año en otra ciudad, sin probar primero. Los hornos llegan tarde, no encuentra buen queso y la gente prefiere a los competidores locales. Cierra tres en el segundo año; si hubiera probado con uno, habría perdido mucho menos.`,
+gi: `Walmart entró a Alemania en 1997 comprando cadenas locales y salió en 2006 vendiendo sus tiendas a Metro; los estudios de caso suelen citar las diferencias culturales, la fuerte competencia de las cadenas de descuento alemanas y la falta de escala.`,
+e: `Límite de pérdidas para la prueba en Monterrey:
+
+| Concepto | Monto |
+|---|---|
+| Inversión en la cocina oculta | 120,000 |
+| Gastos fijos mensuales | 28,000 |
+| Margen de contribución esperado | 30 % de las ventas |
+| Límite de pérdida acordado | 300,000 |
+
+Si las ventas fueran solo de 50,000 al mes, el margen sería 15,000 y la pérdida mensual 28,000 − 15,000 = 13,000. Pérdida en 3 meses: 120,000 + 3 × 13,000 = **159,000**: dentro del límite, pero se detiene la prueba porque no se alcanzó la meta de 150,000 al mes. Con ventas de 150,000, el margen sería 45,000 y habría una utilidad mensual de 17,000.`,
+r: `Target Corporation anunció en enero de 2015 la salida de Canadá y el cierre de sus 133 tiendas en ese país, menos de dos años después de abrir las primeras, según su comunicado oficial; reportó cargos y pérdidas de miles de millones de dólares relacionados con esa operación.`,
+f: `Target Corporation, comunicado del 15 de enero de 2015 e informe anual 2014; reportaje «The Last Days of Target» (Canadian Business, 2016).`,
+err: ["Expandirse a toda velocidad sin probar primero.","Elegir ubicaciones porque estaban disponibles, no por su potencial.","Abrir antes de que los sistemas de inventario y logística funcionen.","Creer que la fama de la marca garantiza el éxito en otro mercado.","No definir de antemano cuánto se está dispuesto a perder."],
+a: `Elige una expansión fallida que conozcas (de una empresa grande o de un negocio de tu ciudad). Identifica al menos tres patrones de la tabla de esta lección y escribe qué pregunta de la lista de verificación habría ayudado a prevenir el fracaso.`,
+sol: `Una buena respuesta describe el caso con hechos, identifica patrones concretos (por ejemplo, velocidad, falta de adaptación, logística) y vincula cada uno con una pregunta de prevención, como probar con un piloto o definir un límite de pérdidas.`,
+q: [["Según la información pública, ¿cuál fue uno de los problemas principales de Target en Canadá?",["Anaqueles vacíos por fallas en la cadena de suministro","Exceso de inventario en las tiendas","Precios más bajos que en Estados Unidos"],0,"Los centros de distribución estaban llenos y las tiendas vacías."],
+["¿Cuántas tiendas llegó a tener Target en Canadá en menos de un año?",["Más de 130","5","Más de 5,000"],0,"Una expansión muy rápida."],
+["El mejor antídoto contra la «velocidad excesiva» es…",["Una prueba piloto con metas claras","Abrir todo de golpe","No medir"],0,"Permite aprender y corregir con poco riesgo."],
+["Seguir invirtiendo en una expansión fallida solo porque ya se invirtió mucho es el sesgo de…",["Costo hundido","Anclaje positivo","Ventaja competitiva"],0,"Lección M16-5."]],
+t: ["Expansión fallida","Plan de salida","Límite de pérdidas","Prueba piloto"]
 }
 });

@@ -24,7 +24,7 @@ const tot = M.reduce((s, m) => s + modMin(m), 0) + 4 * C.examenMin + C.finalMin;
 t(new Set(M.map(m => m.id)).size === 29, "Identificadores de módulo únicos");
 
 // 2. Lecciones
-const valQ = (q, where) => { if (Array.isArray(q)) { t(q.length === 4 && typeof q[0] === "string" && Array.isArray(q[1]) && q[1].length >= 2 && Number.isInteger(q[2]) && q[2] >= 0 && q[2] < q[1].length && q[3] && q[3].length > 5, where + ": pregunta válida «" + String(q[0]).slice(0, 50) + "»"); t(new Set(q[1]).size === q[1].length, where + ": opciones sin repetir «" + String(q[0]).slice(0, 40) + "»"); } else t(q && q.n && typeof q.a === "number" && q.t && q.e, where + ": pregunta numérica válida"); };
+const valQ = (q, where) => { if (Array.isArray(q)) { t(q.length === 4 && typeof q[0] === "string" && Array.isArray(q[1]) && q[1].length >= 2 && Number.isInteger(q[2]) && q[2] >= 0 && q[2] < q[1].length && q[3] && q[3].length > 5, where + ": pregunta válida «" + String(q[0]).slice(0, 50) + "»"); t(new Set(q[1]).size === q[1].length, where + ": opciones sin repetir «" + String(q[0]).slice(0, 40) + "»"); } else t(q && q.n && typeof q.a === "number" && q.t && q.e && (q.tol == null || (q.tol >= 0 && q.tol < 0.05)), where + ": pregunta numérica válida (tolerancia relativa < 5 %) «" + String(q && q.t).slice(0, 40) + "»"); };
 let faltan = 0, cortas = [];
 M.forEach(m => m.L.forEach((l, i) => {
  const id = m.id + "-" + (i + 1), X = LECC[id];
