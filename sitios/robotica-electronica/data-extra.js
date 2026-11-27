@@ -165,6 +165,13 @@ EXTRA.GLOSARIO = [
  ["Voltaje", "Diferencia de potencial eléctrico entre dos puntos: lo que «empuja» la corriente. Se mide en voltios."],
  ["Voltio (V)", "Unidad de voltaje."],
  ["WiFi", "Red inalámbrica local que permite conectar dispositivos a internet o entre sí."],
+ ["Electrolítico", "Condensador de gran capacidad con polaridad y voltaje máximo indicado en su cuerpo."],
+ ["Huella", "En diseño de PCB, forma física de un componente sobre la placa: pads, agujeros y contorno."],
+ ["Nivel lógico", "Voltaje que representa un 1 o un 0. Arduino Uno trabaja a 5 V; ESP32 y Raspberry Pi, a 3,3 V."],
+ ["Ruido eléctrico", "Variaciones no deseadas de voltaje, a menudo causadas por motores, que alteran lecturas y señales."],
+ ["Saturación", "Estado de un transistor totalmente encendido, en el que actúa como un interruptor cerrado."],
+ ["Servidor web", "Programa que entrega páginas a un navegador; un ESP32 puede ser uno para controlar un robot desde el móvil."],
+ ["Zócalo", "Base soldada a la placa donde se inserta un chip, para poder cambiarlo sin desoldar."],
  ["Zener", "Diodo diseñado para conducir en inversa a un voltaje fijo; se usa como referencia de voltaje."],
  ["Zumbador", "Componente que produce un sonido; activo (suena solo con voltaje) o pasivo (necesita una señal)."]
 ];
