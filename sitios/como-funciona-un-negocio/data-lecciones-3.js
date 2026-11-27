@@ -1379,3 +1379,714 @@ q: [["La auditoría externa de estados financieros la hace…",["Un contador pú
 t: ["Auditoría","Auditoría interna","Auditoría externa","Dictamen","Independencia del auditor","Auditoría de sucursal"]
 }
 });
+// ===== M18. Las etapas del crecimiento =====
+Object.assign(window.LECC, {
+"M18-1": {
+s: `Lupita recuerda que cuando era un puesto, «todo era más fácil». Con el local aparecieron problemas nuevos; con tres sucursales, otros distintos. Toño lee que esos problemas no son mala suerte: muchos negocios pasan por las mismas etapas y las mismas crisis al crecer.`,
+o: ["Conocer los modelos de etapas de crecimiento de Greiner y de Churchill y Lewis.","Identificar en qué etapa está un negocio.","Anticipar la crisis que viene y qué necesita para superarla."],
+x: `## Crecer no es «más de lo mismo»
+Cuando un negocio crece, no solo vende más: cambia su forma de funcionar. Lo que servía con dos personas deja de servir con veinte; lo que funcionaba con un local se rompe con cinco. Varios investigadores han estudiado este fenómeno y han propuesto **modelos de etapas**: descripciones de las fases típicas por las que pasa un negocio y de los problemas propios de cada una. No son leyes exactas (cada negocio es distinto), pero ayudan a **anticipar** lo que viene.
+
+## El modelo de Greiner: evolución y revolución
+En 1972, el profesor Larry Greiner publicó en Harvard Business Review un artículo muy influyente, «Evolución y revolución en el crecimiento de las organizaciones». Propuso que las organizaciones crecen en fases: cada fase tiene un periodo de crecimiento tranquilo (**evolución**) que termina en una **crisis** (revolución), porque la forma de trabajar que llevó al éxito se vuelve el problema de la siguiente etapa.
+
+| Fase | Cómo se crece | Crisis que termina la fase |
+|---|---|---|
+| 1. Creatividad | El fundador inventa, vende y hace todo; comunicación informal | **Crisis de liderazgo:** el negocio crece y hace falta dirección profesional y orden |
+| 2. Dirección | Un líder fuerte pone estructura, procesos y control centralizado | **Crisis de autonomía:** los gerentes quieren decidir, pero todo sigue centralizado |
+| 3. Delegación | Se da autonomía a gerentes de áreas o unidades | **Crisis de control:** la dirección siente que pierde el control; cada unidad va por su lado |
+| 4. Coordinación | Sistemas formales de planeación, presupuesto y control unen a las unidades | **Crisis de burocracia:** demasiadas reglas y trámites vuelven lenta a la organización |
+| 5. Colaboración | Trabajo en equipo, flexibilidad, solución de problemas entre áreas | Greiner sugirió que podría venir una crisis por agotamiento o por la necesidad de nuevas soluciones |
+
+La idea central: **cada solución crea el siguiente problema**. La dirección centralizada resuelve el caos del inicio, pero después asfixia a los gerentes; la delegación libera a los gerentes, pero luego hace perder el control; los sistemas de coordinación recuperan el control, pero después generan burocracia.
+
+## El modelo de Churchill y Lewis: las cinco etapas de la pequeña empresa
+En 1983, Neil Churchill y Virginia Lewis propusieron, también en Harvard Business Review, un modelo pensado específicamente para **pequeñas empresas**:
+
+| Etapa | Situación | Reto principal |
+|---|---|---|
+| 1. Existencia | El dueño hace todo; busca clientes y que el producto funcione | Conseguir suficientes clientes y sobrevivir |
+| 2. Supervivencia | Ya hay clientes y algunos empleados; el negocio cubre sus costos | Generar suficiente efectivo para sostenerse y crecer |
+| 3. Éxito | El negocio es rentable y estable; el dueño elige entre mantenerlo («desvinculación») o usarlo como plataforma para crecer | Decidir el rumbo; profesionalizar |
+| 4. Despegue | Crecimiento rápido; necesita financiamiento y delegación | Crecer sin quedarse sin dinero ni perder el control |
+| 5. Madurez de recursos | Empresa grande, con gerencia profesional y sistemas | No perder la agilidad y el espíritu emprendedor |
+
+Un aporte valioso de Churchill y Lewis es mostrar que la **etapa 3** es una **decisión**: muchos dueños prefieren quedarse en un negocio estable y rentable, y eso puede ser una excelente elección (lección M18-8).
+
+## Tortas Lupita en las etapas
+| Momento | Greiner | Churchill y Lewis | Problema que vivió |
+|---|---|---|---|
+| Puesto | Creatividad | Existencia → Supervivencia | Conseguir clientes, ordenar el dinero |
+| Local con 6 empleados | Crisis de liderazgo → Dirección | Supervivencia → Éxito | Nadie sabía quién decidía; hicieron estructura (Módulo 6) |
+| Tres sucursales | Crisis de autonomía → Delegación | Éxito → Despegue | Lupita no soltaba; tuvo que delegar (lección M7-7) |
+| Varias sucursales y franquicias (futuro) | Crisis de control → Coordinación | Despegue | Necesitará presupuestos, tablero y control interno (Módulo 17) |
+| Grupo Lupita (futuro) | Riesgo de burocracia | Madurez de recursos | Mantener la agilidad (Módulo 23) |
+
+## Cómo usar los modelos
+1. **Identifica tu etapa actual** con honestidad.
+2. **Reconoce los síntomas** de la crisis que viene: si el dueño trabaja más que nunca y todo pasa por él, se acerca la crisis de liderazgo o de autonomía.
+3. **Prepara la solución antes:** estructura, procesos, gerentes, sistemas o financiamiento, según la etapa.
+4. **No te saltes etapas:** querer tener sistemas de gran empresa en la etapa de existencia, o un comité para cada decisión con cinco empleados, también es un error.
+5. **Acepta que cada etapa exige un dueño distinto:** del que hace todo al que dirige, y del que dirige al que gobierna.
+
+## Las etapas en empresas gigantes
+Muchas empresas gigantes pasaron por estas mismas crisis. Algunas tuvieron que traer directores profesionales cuando el fundador ya no podía manejar la complejidad; otras se reorganizaron en divisiones (lección M6-5) o crearon sistemas de coordinación; y muchas grandes corporaciones luchan hoy contra la burocracia, con programas para simplificar procesos y dar más autonomía a equipos pequeños. Greiner revisó su artículo en 1998 y sostuvo que el modelo seguía siendo útil, aunque las fases podían ser más rápidas en industrias de cambio veloz.`,
+k: `**Greiner (1972):** cada fase termina en una crisis — creatividad (crisis de **liderazgo**) → dirección (crisis de **autonomía**) → delegación (crisis de **control**) → coordinación (crisis de **burocracia**) → colaboración. **Churchill y Lewis (1983):** existencia → supervivencia → **éxito** (decidir si crecer) → despegue → madurez de recursos. **Cada solución crea el siguiente problema:** anticípalo.`,
+ch: `Una panadería que pasó de una a cuatro sucursales vivió la crisis de autonomía: el dueño seguía decidiendo todo y sus encargados renunciaban. Al delegar con reglas claras, la panadería volvió a crecer.`,
+gi: `Muchas grandes corporaciones combaten hoy la crisis de burocracia de Greiner con programas para simplificar procesos, reducir niveles y dar autonomía a equipos pequeños.`,
+e: `Toño revisa los síntomas para saber qué crisis se acerca con la cuarta sucursal:
+
+| Síntoma | ¿Se presenta? | Crisis asociada |
+|---|---|---|
+| Lupita decide todo y trabaja más de 60 horas | Ya no (delegó) | Liderazgo / autonomía |
+| Cada sucursal compra a sus propios proveedores sin coordinarse | Sí | Control |
+| No hay un reporte común de resultados por sucursal | A medias | Control |
+| Demasiados formatos y trámites | No | Burocracia |
+
+Conclusión: se acerca la **crisis de control**. Antes de abrir la cuarta sucursal, implementan presupuestos por sucursal, un tablero común y compras centralizadas de insumos A.`,
+r: `Larry Greiner publicó «Evolution and Revolution as Organizations Grow» en Harvard Business Review en 1972 y una revisión en 1998. Neil Churchill y Virginia Lewis publicaron «The Five Stages of Small Business Growth» en la misma revista en 1983.`,
+f: `L. Greiner, Harvard Business Review (1972 y 1998); N. Churchill y V. Lewis, Harvard Business Review (1983).`,
+err: ["Creer que crecer es solo vender más.","No anticipar la crisis de la siguiente etapa.","Copiar los sistemas de una gran empresa en una etapa temprana.","No aceptar que el papel del dueño debe cambiar."],
+a: `Ubica al negocio que observas en los modelos de Greiner y de Churchill y Lewis. Lista los síntomas que ves y qué crisis podría venir. Propón dos acciones para prepararse.`,
+sol: `Si el dueño es el centro de todo, la acción suele ser estructura y delegación; si ya hay gerentes autónomos que van cada uno por su lado, la acción es coordinación: presupuestos, tablero y reglas comunes.`,
+q: [["Según Greiner, la fase de creatividad termina en una crisis de…",["Liderazgo","Burocracia","Control"],0,"Hace falta dirección y orden."],
+["La crisis de autonomía aparece cuando…",["Los gerentes quieren decidir, pero todo sigue centralizado","No hay gerentes","Hay demasiadas reglas"],0,"Se resuelve delegando."],
+["En el modelo de Churchill y Lewis, la etapa de «éxito» implica…",["Decidir si mantener el negocio estable o usarlo para crecer","Cerrar el negocio","Buscar los primeros clientes"],0,"Es una decisión del dueño."],
+["La idea central de Greiner es que…",["Cada solución crea el siguiente problema","Las crisis no existen","Crecer es fácil"],0,"Por eso conviene anticiparse."]],
+t: ["Etapas de crecimiento","Modelo de Greiner","Crisis de liderazgo","Crisis de autonomía","Crisis de control","Crisis de burocracia","Modelo de Churchill y Lewis"]
+},
+"M18-2": {
+s: `La prima diseñadora de Toño tiene tanto trabajo que rechaza proyectos. Duda entre seguir sola, subir precios o contratar a su primer empleado. «Si contrato y luego no hay trabajo, ¿cómo le pago?», pregunta. Es el primer gran salto de un negocio.`,
+o: ["Reconocer las señales de que es momento de contratar al primer empleado.","Evaluar el costo y el riesgo de esa decisión.","Elegir qué tareas delegar primero y cómo hacerlo bien."],
+x: `## El salto más difícil
+Pasar de trabajar solo (o con la familia, sin sueldo) a contratar al **primer empleado** es uno de los saltos más grandes de un negocio. Hasta ese momento, si las ventas bajan, el dueño simplemente gana menos. Con un empleado, hay un **compromiso fijo**: un sueldo, prestaciones y obligaciones legales que se pagan aunque las ventas bajen. A cambio, el negocio puede **crecer más allá del tiempo del dueño**.
+
+En México, una parte muy grande de los micronegocios funciona solo con el dueño y, a veces, con familiares sin pago, según los Censos Económicos del INEGI. Dar el paso de contratar es, para muchos, la frontera entre el autoempleo y la empresa (lección M1-4).
+
+## Señales de que es momento
+- **Se rechazan clientes o pedidos** por falta de tiempo.
+- **La calidad baja** porque el dueño está saturado.
+- **El dueño hace tareas de bajo valor** (cargar, limpiar, capturar) que le quitan tiempo para vender o mejorar.
+- **Las ventas son estables** desde hace varios meses (no un pico pasajero).
+- **Hay un colchón de efectivo** para pagar el sueldo algunos meses aunque las ventas bajen.
+- **El dueño no puede enfermarse ni descansar** sin que el negocio se detenga.
+
+## Las alternativas antes de contratar
+Contratar no es la única opción. Antes, conviene considerar:
+1. **Subir precios:** si sobra demanda, quizá el precio está bajo (lección M5-8). Con precios más altos, el dueño gana más trabajando lo mismo y algunos clientes de menor margen se van.
+2. **Mejorar procesos:** hacer lo mismo en menos tiempo (lección M9-2).
+3. **Automatizar:** herramientas que ahorran horas (lección M15-7).
+4. **Subcontratar por proyecto:** pagar a otro independiente solo cuando hay trabajo (sin compromiso fijo, pero con menos control).
+5. **Contratar por horas o medio tiempo** antes que tiempo completo.
+
+Muchas veces, la mejor respuesta es una combinación: subir un poco los precios y contratar a alguien de medio tiempo para las tareas que más tiempo consumen.
+
+## Calcular si alcanza
+La regla básica: **el margen adicional que genera la persona debe ser mayor que su costo total** (lección M13-5).
+
+Para la diseñadora:
+- Costo total de un asistente de medio tiempo: unos 8,000 pesos al mes (sueldo más prestaciones y cuotas).
+- Proyectos rechazados al mes por falta de tiempo: 3, de 6,000 pesos cada uno, con 70 % de margen (el resto son programas, impresiones y otros costos).
+- Si el asistente le libera tiempo para aceptar 2 de esos 3 proyectos: 2 × 6,000 × 70 % = 8,400 pesos de margen extra.
+- Beneficio neto: 8,400 − 8,000 = 400 pesos al mes. Apenas alcanza.
+- Si además sube 10 % sus precios: el margen de los proyectos actuales sube y el beneficio neto mejora mucho.
+
+El cálculo muestra que la contratación es razonable solo si viene acompañada de un ajuste de precios o de más ventas.
+
+## Qué delegar primero
+Conviene empezar por las tareas que:
+- **Consumen mucho tiempo del dueño.**
+- **Son repetitivas** y se pueden enseñar.
+- **No requieren** el talento o el juicio especial del dueño.
+
+Una herramienta útil es clasificar las tareas del dueño en una semana:
+
+| Tarea | Horas a la semana | ¿Solo yo? | ¿Delegable? |
+|---|---|---|---|
+| Diseñar (el trabajo principal) | 20 | Sí | Parcialmente (ajustes menores) |
+| Reuniones con clientes y ventas | 8 | Sí | No (por ahora) |
+| Ajustes y correcciones menores | 8 | No | Sí |
+| Preparar archivos para impresión | 6 | No | Sí |
+| Facturación y cobranza | 4 | No | Sí |
+| Redes sociales del negocio | 3 | No | Sí |
+
+Delegar las cuatro últimas libera 21 horas a la semana para diseñar más y vender más.
+
+## Contratar bien al primero
+El primer empleado es especialmente importante: marca la cultura del negocio. Conviene:
+- **Definir el puesto** por escrito (lección M6-8).
+- **Seleccionar con cuidado:** entrevista estructurada y prueba práctica (lección M13-2), aunque sea un negocio pequeño.
+- **Cumplir la ley** desde el inicio: contrato, alta en el IMSS, prestaciones (lección M13-3).
+- **Dedicar tiempo a capacitar** las primeras semanas (lección M13-4).
+- **Dar retroalimentación** frecuente (lección M13-6).
+- **Revisar después de tres meses** si la contratación cumplió lo esperado.
+
+## El cambio en el papel del dueño
+Con el primer empleado, el dueño se convierte también en **jefe**. Eso implica nuevas tareas: explicar, revisar, motivar, corregir y, a veces, despedir. Muchos dueños descubren que dirigir personas es una habilidad que hay que aprender. Lo que se aprende aquí es la base para todo el crecimiento posterior (Módulo 7).
+
+## El primer empleado de Tortas Lupita
+En su momento, la primera contratación de Lupita fue Rosa, para la hora pico (lección M2-4). Lo hizo bien: calculó que el margen extra cubría el costo, la registró en el IMSS y le escribió sus tareas. Esa experiencia fue la base para contratar después a todo el equipo del local.
+
+## En las empresas gigantes
+Muchas empresas que hoy tienen miles de empleados recuerdan a sus primeros colaboradores como piezas clave de su cultura. En las empresas emergentes, los primeros empleados suelen recibir una participación en la empresa (opciones sobre acciones) como parte de su compensación, porque asumen un riesgo alto al unirse a un proyecto que apenas empieza (Módulo 19).`,
+k: `Contratar al **primer empleado** crea un **compromiso fijo**, pero permite crecer más allá del tiempo del dueño. Señales: clientes rechazados, calidad que baja, ventas estables y colchón de efectivo. Antes, considera **subir precios, mejorar procesos, automatizar, subcontratar o medio tiempo**. Regla: el **margen extra** debe superar el **costo total**. Delega primero lo repetitivo y que consume tiempo.`,
+ch: `Un plomero independiente que rechaza dos trabajos por semana contrata a un ayudante tres días a la semana: el ayudante prepara materiales y hace tareas sencillas, y el plomero atiende un trabajo más al día.`,
+gi: `En muchas empresas emergentes, los primeros empleados reciben opciones sobre acciones como parte de su compensación, por el riesgo de unirse a una empresa que apenas empieza.`,
+e: `La prima de Toño compara tres opciones para su exceso de trabajo:
+
+| Opción | Margen extra mensual | Costo extra mensual | Beneficio neto |
+|---|---|---|---|
+| Seguir sola y rechazar 3 proyectos | 0 | 0 | 0 |
+| Subir precios 10 % (ingresos actuales 30,000, margen 70 %) | 2,100 | 0 | 2,100 |
+| Asistente de medio tiempo y aceptar 2 proyectos más | 8,400 | 8,000 | 400 |
+| Subir precios 10 % + asistente + 2 proyectos (a precio nuevo) | 2,100 + 9,240 = 11,340 | 8,000 | 3,340 |
+
+La mejor combinación es subir precios y contratar al asistente.`,
+r: `Los Censos Económicos del INEGI muestran que una gran proporción de los micronegocios en México opera solo con el dueño y familiares, sin personal remunerado, lo que hace del primer empleado un paso decisivo en la formalización y el crecimiento de un negocio.`,
+f: `INEGI, Censos Económicos 2019, resultados sobre personal ocupado en micronegocios.`,
+err: ["Contratar por un pico de ventas pasajero.","Contratar sin colchón de efectivo.","No considerar subir precios antes de contratar.","Contratar «a la familia» sin reglas ni cumplir la ley."],
+a: `Si el negocio que observas está saturado (o imagina uno), clasifica las tareas del dueño en una semana con la tabla de esta lección. Calcula si conviene contratar y qué tareas delegaría primero.`,
+sol: `Si el beneficio neto de contratar es muy pequeño, revisa primero los precios o la posibilidad de medio tiempo; si es claramente positivo y hay colchón de efectivo, contrata.`,
+q: [["¿Qué crea un primer empleado que no existía antes?",["Un compromiso fijo de sueldo y prestaciones","Más tiempo libre siempre","Menos obligaciones"],0,"Se paga aunque las ventas bajen."],
+["Una señal de que es momento de contratar es…",["Rechazar clientes por falta de tiempo con ventas estables","Un solo mes bueno","No tener clientes"],0,"Y tener un colchón de efectivo."],
+["Antes de contratar conviene considerar…",["Subir precios, mejorar procesos o contratar medio tiempo","Cerrar","Bajar precios"],0,"Son alternativas con menos compromiso."],
+["La regla básica para contratar es que…",["El margen extra que genera la persona supere su costo total","El sueldo sea el más bajo posible","Sea familiar"],0,"Así la contratación se paga."]],
+t: ["Primer empleado","Compromiso fijo","Subcontratar","Medio tiempo"]
+},
+"M18-3": {
+s: `Un fondo de inversión se interesa en Tortas Lupita, pero después de revisar el negocio dice: «Tienen buen producto y buenos números, pero todo depende de la familia y no hay sistemas. Primero profesionalícense». Lupita pregunta: «¿Qué significa exactamente profesionalizar?».`,
+o: ["Explicar qué significa profesionalizar un negocio.","Identificar las áreas que hay que profesionalizar.","Diseñar un plan gradual de profesionalización."],
+x: `## ¿Qué es profesionalizar?
+**Profesionalizar** un negocio significa que deje de depender de la presencia, la memoria y las decisiones personales del dueño y su familia, y pase a funcionar con **reglas, procesos, información y personas capaces**, de modo que pueda crecer, ser evaluado por terceros (bancos, inversionistas, compradores) y sobrevivir a cambios de personas. No significa volverse frío ni burocrático: significa ser **ordenado y confiable**.
+
+En la lección M7-7 viste el lado personal (el dueño que no suelta). Aquí verás el lado de la **empresa**: qué hay que construir.
+
+## Las siete áreas de la profesionalización
+**1. Finanzas separadas y ordenadas**
+- Cuentas bancarias de la empresa separadas de las personales.
+- Contabilidad formal al día, estados financieros mensuales.
+- Presupuesto anual y flujo de caja proyectado (Módulos 8 y 17).
+- Sueldos de mercado para los familiares que trabajan; dividendos aparte para los dueños.
+- Estados financieros auditados cuando el tamaño lo justifica (lección M17-7).
+
+**2. Estructura y puestos claros**
+- Organigrama actualizado (Módulo 6).
+- Descripciones de puesto y matriz de delegación.
+- Puestos ocupados por **capacidad**, no por parentesco.
+
+**3. Procesos documentados**
+- Procedimientos de las tareas clave (lección M9-9).
+- Manual de operación que permita replicar el negocio.
+
+**4. Personas y talento**
+- Selección, contratación e inducción profesionales (Módulo 13).
+- Gerentes con autoridad y metas.
+- Evaluación del desempeño y plan de crecimiento.
+
+**5. Información y sistemas**
+- Punto de venta, sistema administrativo integrado (Módulo 15).
+- Tablero de indicadores (lección M17-4).
+
+**6. Cumplimiento legal**
+- Sociedad bien constituida, contratos, marca registrada, obligaciones al día (Módulo 14).
+
+**7. Gobierno**
+- Reglas claras sobre quién decide qué entre los dueños y la dirección.
+- En empresas medianas, un **consejo consultivo** con asesores externos independientes que ayudan a la dirección a pensar la estrategia y a vigilar los resultados (Módulo 24).
+- En empresas familiares, reglas para la familia (lección M18-4).
+
+## Por qué profesionalizar
+- **Crecer:** sin procesos ni gerentes, el negocio no puede tener más sucursales de las que el dueño puede supervisar.
+- **Financiarse:** bancos e inversionistas exigen información confiable, controles y una dirección que no dependa de una sola persona.
+- **Valer más:** un negocio profesionalizado vale más si algún día se vende, porque el comprador no depende del dueño anterior.
+- **Sobrevivir:** a una enfermedad, a una sucesión, a un conflicto familiar.
+- **Atraer talento:** los buenos gerentes prefieren empresas ordenadas, donde pueden decidir y crecer.
+
+## Lo que se pierde (y cómo evitarlo)
+Profesionalizar tiene costos:
+- **Dinero:** sistemas, auditorías, sueldos de gerentes.
+- **Velocidad:** algunas decisiones toman más tiempo.
+- **Cercanía:** el riesgo de perder el trato personal y la cultura original.
+
+Para evitar lo malo:
+- **Profesionalizar por etapas**, según el tamaño.
+- **Conservar los valores** y escribirlos (lección M7-2).
+- **Mantener cerca al cliente:** que la dirección siga visitando sucursales y hablando con clientes.
+- **Evitar la burocracia excesiva** (crisis de burocracia de Greiner, lección M18-1).
+
+## Un plan gradual
+| Etapa | Acciones de profesionalización |
+|---|---|
+| Año 1 | Cuentas separadas, contabilidad mensual, sueldos de mercado para la familia, organigrama, procedimientos de las 10 tareas clave |
+| Año 2 | Presupuesto anual, tablero de indicadores, sistema administrativo integrado, gerente de operaciones externo a la familia |
+| Año 3 | Estados financieros auditados, consejo consultivo con dos asesores externos, protocolo familiar |
+| Año 4 | Gerentes por sucursal con metas y bonos, auditoría interna trimestral, manual de operación completo |
+
+## El diagnóstico del fondo
+El fondo identificó tres problemas concretos en Tortas Lupita: (1) Toño y su hermana cobraban de la caja según sus necesidades, sin sueldo fijo; (2) no había estados financieros auditados; (3) todas las decisiones importantes las tomaba Lupita sola, sin ningún contrapeso. Lupita acepta el plan: sueldos fijos de mercado para la familia, auditoría externa, un consejo consultivo con dos asesores independientes que se reúne cada trimestre y un gerente de finanzas profesional. Un año después, el fondo vuelve a revisar el negocio y decide invertir (Módulo 19).
+
+## Profesionalizar sin perder el alma
+Muchas empresas familiares mexicanas que hoy son gigantes se profesionalizaron sin perder su identidad. Grupo Bimbo, fundado por la familia Servitje en 1945, es un ejemplo: con los años incorporó consejeros independientes, directivos profesionales y prácticas de gobierno corporativo, y en 1980 empezó a cotizar en la Bolsa Mexicana de Valores, mientras la familia mantuvo una participación importante y un papel relevante en la empresa y en la transmisión de sus valores.
+
+## Una prueba sencilla para saber si ya profesionalizaste
+
+Hazte cinco preguntas. ¿El negocio puede operar una semana completa sin el dueño? ¿Las cuentas del negocio y las personales están separadas desde hace al menos seis meses? ¿Cada puesto tiene una descripción escrita y alguien que responde por él? ¿Hay un tablero con los números clave que se revisa cada semana? ¿Las decisiones de compra, precio y contratación siguen una regla conocida y no el humor del día? Si respondes «sí» a cuatro o cinco, el negocio ya está profesionalizado en lo esencial. Si respondes «sí» a dos o menos, todavía depende de una sola persona, y ese es el primer riesgo que hay que atender antes de crecer.
+
+Profesionalizar no se hace en un mes. Lo normal es avanzar por partes: primero el dinero, luego los procesos, después los puestos y al final el gobierno. Lo importante es empezar por lo que más duele hoy.`,
+k: `**Profesionalizar:** que el negocio funcione con **reglas, procesos, información y personas capaces**, no con la presencia del dueño. Siete áreas: **finanzas separadas**, **estructura y puestos por capacidad**, **procesos documentados**, **talento**, **sistemas**, **cumplimiento legal** y **gobierno** (consejo consultivo). Permite crecer, financiarse, valer más y sobrevivir. Hazlo **por etapas** y sin perder los valores.`,
+ch: `Una ferretería familiar con dos generaciones separa las cuentas, fija sueldos a los hijos que trabajan, contrata a un gerente de compras externo a la familia y crea un consejo con su contador y un empresario amigo.`,
+gi: `Grupo Bimbo, empresa familiar fundada en 1945, incorporó con los años directivos profesionales y consejeros independientes, y cotiza en la Bolsa Mexicana de Valores desde 1980, manteniendo la participación y los valores de la familia fundadora.`,
+e: `Lupita calcula el efecto de fijar sueldos de mercado a la familia en lugar de retiros variables:
+
+| Concepto (mensual) | Antes (retiros variables) | Después (sueldos fijos) |
+|---|---|---|
+| Retiros de Toño y su hermana | Entre 20,000 y 45,000 | Sueldos fijos: 32,000 |
+| Variabilidad del efectivo | Alta, difícil de proyectar | Predecible |
+| ¿Aparece como gasto en los estados financieros? | No (se mezclaba) | Sí (gasto de nómina) |
+| Reparto a los dueños | Mezclado con los retiros | Dividendos anuales aprobados |
+
+Ahora la utilidad del negocio es real y comparable, y el flujo de caja se puede proyectar.`,
+r: `Grupo Bimbo empezó a cotizar en la Bolsa Mexicana de Valores en 1980. En sus informes de gobierno corporativo describe la integración de su consejo de administración, con consejeros independientes, y los comités que lo apoyan, mientras la familia Servitje conserva una participación relevante.`,
+f: `Grupo Bimbo, informe anual y sección de gobierno corporativo (grupobimbo.com).`,
+err: ["Profesionalizar de golpe, con costos que el negocio no aguanta.","Poner a familiares en puestos clave por parentesco y no por capacidad.","Mezclar retiros de la familia con los gastos del negocio.","Perder los valores y el contacto con el cliente al profesionalizar."],
+a: `Evalúa al negocio que observas en las siete áreas de profesionalización (de 1 a 5 cada una). Elige las dos más débiles y escribe un plan de un año para mejorarlas.`,
+sol: `Las áreas que más rápido dan resultado suelen ser las finanzas separadas y los procesos documentados; el gobierno (consejo consultivo) suele venir después.`,
+q: [["Profesionalizar un negocio significa…",["Que funcione con reglas, procesos, información y personas capaces, no solo con el dueño","Despedir a la familia","Salir a bolsa"],0,"Ordenado y confiable."],
+["Un consejo consultivo es…",["Un grupo de asesores, incluidos externos, que ayuda a la dirección","Un sindicato","Una auditoría del SAT"],0,"Apoya la estrategia y vigila resultados."],
+["¿Por qué un negocio profesionalizado vale más?",["Porque no depende del dueño y tiene información confiable","Porque paga menos impuestos","No vale más"],0,"Un comprador o inversionista lo ve menos riesgoso."],
+["¿Cómo conviene profesionalizar?",["Por etapas, según el tamaño, conservando los valores","Todo en un mes","Nunca"],0,"Así los costos crecen con el negocio."]],
+t: ["Profesionalizar","Consejo consultivo","Sueldos de mercado","Dividendos","Gobierno de la empresa"]
+},
+"M18-4": {
+s: `Lupita cumple 60 años. Toño trabaja en el negocio, su hermana Ana estudia arquitectura y no le interesa la cocina, y su hermano menor quiere entrar «cuando termine la prepa». En una comida familiar alguien pregunta: «¿Y quién se va a quedar con el negocio?». Se hace un silencio incómodo.`,
+o: ["Explicar el modelo de los tres círculos de la empresa familiar.","Reconocer los retos de la sucesión.","Conocer herramientas como el protocolo familiar y el plan de sucesión."],
+x: `## La empresa familiar
+Una **empresa familiar** es aquella en la que una familia tiene la propiedad (o el control) y participa en su dirección, con la intención de que continúe en manos de la familia. La mayoría de los negocios del mundo son familiares, desde los changarros hasta grandes corporaciones. En México, muchas de las empresas más grandes del país tienen origen y control familiar.
+
+Las empresas familiares tienen fortalezas propias: compromiso, visión de largo plazo, confianza, valores compartidos y capacidad de sacrificio en los momentos difíciles. Pero también retos propios: mezclar los asuntos de la familia con los del negocio, conflictos entre parientes, favoritismos y, sobre todo, la **sucesión**.
+
+## El modelo de los tres círculos
+En 1982, los investigadores Renato Tagiuri y John Davis propusieron un modelo que se volvió clásico: la empresa familiar es la intersección de **tres sistemas** que se superponen:
+- **Familia:** las personas unidas por parentesco.
+- **Propiedad:** quienes son dueños (accionistas o socios).
+- **Empresa:** quienes trabajan en el negocio.
+
+Cada persona puede estar en uno, dos o los tres círculos, y su posición define sus intereses:
+
+| Persona | Familia | Propiedad | Empresa | Lo que suele querer |
+|---|---|---|---|---|
+| Lupita | ✓ | ✓ | ✓ | Que el negocio dure y la familia esté unida |
+| Toño | ✓ | ✓ (30 %) | ✓ | Crecer, tener autoridad, un sueldo justo |
+| Ana | ✓ | — | — | Que la traten igual que a sus hermanos; quizá recibir parte de la herencia |
+| El hermano menor | ✓ | — | Quizá en el futuro | Un lugar en el negocio |
+| El gerente de finanzas | — | — | ✓ | Reglas claras, crecimiento profesional |
+| Un futuro socio inversionista | — | ✓ | — | Rendimiento y buen gobierno |
+
+Muchos conflictos surgen porque las personas mezclan los papeles: Ana, que no trabaja en el negocio, puede sentir que es injusto que Toño gane más; Toño puede sentir que, por trabajar ahí, debería ser dueño de más. El modelo ayuda a separar las preguntas: **¿qué le corresponde a cada quien como familiar, como dueño y como trabajador?**
+
+## Reglas para separar los círculos
+- **Como trabajador:** se gana un **sueldo de mercado** según el puesto y el desempeño, igual que cualquier otro empleado (lección M18-3).
+- **Como dueño:** se reciben **dividendos** según la participación, cuando la empresa los reparte, trabaje o no en ella.
+- **Como familiar:** se pertenece a la familia, con su cariño y sus apoyos, pero eso no da automáticamente un puesto ni un sueldo en la empresa.
+
+## La sucesión
+La **sucesión** es el proceso de pasar la **dirección** y la **propiedad** del negocio a la siguiente generación (o a otras personas). Es uno de los momentos más difíciles de una empresa familiar. Estudios clásicos sobre empresas familiares, como los del profesor John Ward, citan con frecuencia que solo alrededor de tres de cada diez empresas familiares llegan a la segunda generación y que muchas menos llegan a la tercera. Aunque las cifras exactas varían según el país y el estudio, la conclusión es clara: **la sucesión no planeada pone en riesgo al negocio**.
+
+Hay que distinguir dos sucesiones que no siempre van juntas:
+- **Sucesión en la dirección:** quién dirigirá el negocio. Puede ser un familiar preparado o un director profesional externo.
+- **Sucesión en la propiedad:** cómo se repartirá la propiedad entre los herederos (testamento, donaciones en vida, estructura de acciones). Puede ser que todos los hijos hereden la propiedad, pero solo uno dirija.
+
+## El plan de sucesión
+Un buen plan de sucesión se prepara **con años de anticipación** e incluye:
+1. **Decidir con tiempo** quién y cómo dirigirá, con criterios de capacidad.
+2. **Preparar al sucesor:** formación, experiencia fuera de la empresa (recomendada por muchos especialistas), rotación por las áreas, responsabilidades crecientes.
+3. **Definir el papel del fundador** después: presidente del consejo, asesor, o retirarse por completo. Un fundador que «se retira» pero sigue decidiendo todo frena al sucesor.
+4. **Ordenar la propiedad:** testamento, acuerdos entre accionistas, reglas sobre qué pasa si un heredero quiere vender su parte.
+5. **Plan para emergencias:** qué pasa si el fundador falta de repente.
+6. **Comunicar** a la familia y al equipo.
+
+## El protocolo familiar
+Muchas familias empresarias firman un **protocolo familiar**: un acuerdo escrito, construido entre todos, que establece las reglas de la relación entre la familia y la empresa. Suele incluir:
+- Los valores de la familia y su visión para la empresa.
+- Requisitos para que un familiar trabaje en la empresa (estudios, experiencia previa fuera, proceso de selección).
+- Cómo se fijan los sueldos de los familiares.
+- Política de dividendos.
+- Reglas para la venta de acciones entre familiares o a terceros.
+- Cómo se elige al sucesor.
+- Cómo se resuelven los conflictos.
+- Órganos de la familia: por ejemplo, un **consejo de familia** que se reúne para tratar los temas familiares, separado del consejo de la empresa.
+
+El protocolo no es solo un documento legal (aunque partes de él pueden plasmarse en los estatutos de la sociedad y en convenios entre accionistas): es, sobre todo, una **conversación** que la familia tiene antes de que surjan los conflictos.
+
+## La decisión de la familia de Lupita
+Con ayuda de una asesora en empresas familiares, la familia acuerda:
+- **Dirección:** Toño se prepara durante tres años para ser director general; mientras tanto, hará un curso de dirección y pasará seis meses trabajando en otra cadena de restaurantes. Lupita será presidenta del consejo.
+- **Propiedad:** los tres hijos heredarán partes iguales de las acciones de Lupita, pero Toño conservará su 30 % actual. Habrá un convenio entre accionistas con derecho de preferencia para comprar las acciones de quien quiera vender.
+- **Trabajo de familiares:** el hermano menor podrá entrar si termina sus estudios, trabaja dos años fuera y pasa el mismo proceso de selección que cualquier candidato.
+- **Ana:** recibirá dividendos como accionista, aunque no trabaje en el negocio.
+- **Consejo de familia:** dos reuniones al año.
+
+El silencio incómodo de la comida se convierte en un plan.`,
+k: `**Empresa familiar:** la familia es dueña y participa en la dirección. **Modelo de los tres círculos** (Tagiuri y Davis, 1982): **familia, propiedad y empresa**; separa papeles: **sueldo** por trabajar, **dividendos** por ser dueño. **Sucesión** en la dirección y en la propiedad, planeada con años. **Protocolo familiar** y **consejo de familia**. Pocas empresas familiares llegan a la segunda y tercera generación.`,
+ch: `Una tortillería familiar acuerda que el hijo que la dirige gana un sueldo, y que la hermana que no trabaja ahí recibe cada año su parte de las utilidades como copropietaria. Los pleitos familiares se reducen mucho.`,
+gi: `Muchas grandes empresas familiares tienen consejos de familia y protocolos familiares, además de consejos de administración con consejeros independientes, para separar los asuntos de la familia de los de la empresa.`,
+e: `La asesora ayuda a la familia a separar los pagos según los tres círculos (cifras anuales ilustrativas):
+
+| Persona | Sueldo (trabaja en la empresa) | Dividendos (es dueña) | Total |
+|---|---|---|---|
+| Lupita (presidenta del consejo, 70 %) | 300,000 | 280,000 | 580,000 |
+| Toño (director de operaciones, 30 %) | 420,000 | 120,000 | 540,000 |
+| Ana (no trabaja ahí; heredará acciones) | 0 | 0 hoy; dividendos cuando herede | 0 |
+
+Dividendos totales del año: 400,000, repartidos 70 % y 30 %. Cada pago tiene una razón clara, lo que reduce las discusiones sobre «quién gana más».`,
+r: `Renato Tagiuri y John Davis desarrollaron en 1982 el modelo de los tres círculos de la empresa familiar en la Escuela de Negocios de Harvard. John L. Ward, profesor en la Universidad Northwestern, estudió la continuidad de empresas familiares y es citado con frecuencia por sus datos sobre la baja proporción que sobrevive a la segunda y tercera generación.`,
+f: `R. Tagiuri y J. Davis, «Bivalent Attributes of the Family Firm» (1982; publicado en 1996); John L. Ward, «Keeping the Family Business Healthy» (1987).`,
+err: ["No hablar de la sucesión hasta que es urgente.","Dar puestos por parentesco y no por capacidad.","Confundir el sueldo por trabajar con los dividendos por ser dueño.","Que el fundador «se retire» pero siga decidiendo todo."],
+a: `Dibuja los tres círculos para una empresa familiar que conozcas (o para Tortas Lupita) y ubica a cada persona. Escribe cinco reglas de un protocolo familiar que propondrías.`,
+sol: `Las reglas más útiles suelen ser: requisitos para que un familiar trabaje en la empresa, sueldos de mercado, política de dividendos y cómo se elige al sucesor.`,
+q: [["Los tres círculos del modelo de la empresa familiar son…",["Familia, propiedad y empresa","Ventas, costos y gastos","Padre, madre e hijos"],0,"Tagiuri y Davis, 1982."],
+["Un familiar que trabaja en la empresa debería recibir…",["Un sueldo de mercado por su trabajo","Lo que necesite","Nada"],0,"Los dividendos son por ser dueño."],
+["La sucesión en la dirección y la sucesión en la propiedad…",["Pueden ser distintas: todos heredan, pero uno dirige","Son siempre lo mismo","No existen"],0,"Conviene planear ambas."],
+["Un protocolo familiar es…",["Un acuerdo con las reglas de la relación entre la familia y la empresa","Un tipo de impuesto","Un contrato de trabajo"],0,"Se construye antes de los conflictos."]],
+t: ["Empresa familiar","Modelo de los tres círculos","Sucesión","Plan de sucesión","Protocolo familiar","Consejo de familia"]
+},
+"M18-5": {
+s: `Tortas Lupita duplica sus ventas en un año gracias a las oficinas y a una nueva sucursal. Pero cada mes hay menos dinero en el banco: más inventario, más clientes a crédito, más empleados, más renta. Lupita no entiende: «¿Cómo es posible que crecer nos deje sin dinero?».`,
+o: ["Explicar por qué el crecimiento consume efectivo.","Calcular de forma sencilla cuánto puede crecer un negocio con sus propios recursos.","Planear el crecimiento para no quedarse sin efectivo."],
+x: `## Morir de éxito
+En la lección M8-5 viste que **crecer consume efectivo**: cuando las ventas aumentan, normalmente también aumentan los inventarios, las cuentas por cobrar y los gastos, y todo eso hay que pagarlo **antes** de cobrar las ventas adicionales. Si un negocio crece más rápido de lo que su efectivo puede sostener, se queda sin dinero aunque venda mucho y tenga utilidades. A esto se le llama «morir de éxito» o, en términos técnicos, **sobreexpansión** o sobrecomercio (en inglés, *overtrading*).
+
+## Por qué crecer cuesta efectivo
+Cuando Tortas Lupita crece, necesita dinero para:
+1. **Capital de trabajo adicional:** más inventario de insumos y más cuentas por cobrar a oficinas (lección M8-5).
+2. **Inversiones:** equipo, remodelación y depósito de la nueva sucursal.
+3. **Gastos que llegan antes que las ventas:** contratar y capacitar al personal de la sucursal antes de abrir; publicidad de apertura; los primeros meses, cuando la sucursal aún no alcanza el equilibrio.
+4. **Errores y aprendizaje:** merma más alta y menor productividad mientras el equipo nuevo aprende.
+
+## El ejemplo de Tortas Lupita
+| Concepto | Año anterior | Año de crecimiento | Cambio |
+|---|---|---|---|
+| Ventas anuales | 2,800,000 | 5,600,000 | +100 % |
+| Utilidad neta | 300,000 | 480,000 | +60 % |
+| Cuentas por cobrar (oficinas) | 30,000 | 180,000 | +150,000 |
+| Inventarios | 20,000 | 60,000 | +40,000 |
+| Proveedores (financian una parte) | 40,000 | 90,000 | −50,000 (alivio) |
+| Inversión en la nueva sucursal | — | 400,000 | +400,000 |
+| Pérdida de los primeros 4 meses de la sucursal | — | 80,000 | +80,000 |
+| **Necesidad de efectivo del año** | | | **≈ 620,000** |
+
+El negocio generó 480,000 de utilidad, pero necesitó unos 620,000 para crecer (150,000 + 40,000 − 50,000 + 400,000 + 80,000). Aun sin repartir dividendos, le faltaron unos **140,000 pesos**. Por eso el efectivo bajaba cada mes.
+
+## ¿Cuánto puede crecer un negocio con sus propios recursos?
+En finanzas existe un concepto llamado **tasa de crecimiento sostenible**, popularizado por el profesor Robert C. Higgins: el ritmo al que una empresa puede crecer **sin pedir más deuda ni nuevas aportaciones de los dueños**, manteniendo su estructura financiera. Una fórmula simplificada es:
+
+**Crecimiento sostenible ≈ rendimiento sobre el capital (ROE) × proporción de utilidades que se reinvierte**
+
+Si un negocio tiene un ROE de 30 % y reinvierte la mitad de sus utilidades (reparte la otra mitad como dividendos), puede crecer de forma sostenible alrededor de 30 % × 50 % = **15 % al año**. Si quiere crecer más rápido, necesita **financiamiento** (deuda o socios), **mejorar su rentabilidad**, **reinvertir más** o **reducir su necesidad de capital** (por ejemplo, cobrando más rápido).
+
+No es una fórmula exacta para un negocio pequeño, pero muestra una idea poderosa: **el crecimiento tiene que financiarse de alguna forma**.
+
+## Cómo crecer sin quedarse sin dinero
+1. **Proyecta el efectivo del crecimiento:** antes de abrir una sucursal o aceptar un cliente grande, arma el flujo de caja de los próximos 12 meses con todas las necesidades (lección M17-2).
+2. **Financia antes de necesitar:** consigue la línea de crédito o el socio **antes** de empezar a crecer, no cuando ya falta dinero (Módulo 19).
+3. **Crece por etapas:** una sucursal a la vez; esperar a que la nueva alcance el equilibrio antes de abrir otra.
+4. **Cuida el capital de trabajo:** cobrar rápido, inventarios ajustados, buenos plazos con proveedores (lección M8-5).
+5. **Reinvierte utilidades:** en etapas de crecimiento, repartir menos dividendos.
+6. **Mantén un colchón:** un saldo mínimo de efectivo de varios meses de gastos fijos.
+7. **Mide** el flujo de efectivo de operación, no solo las utilidades.
+8. **Aprende a decir que no:** a veces, el pedido más grande o la sucursal más atractiva no conviene ahora.
+
+## El caso extremo: crecer demasiado rápido
+La historia de los negocios está llena de empresas que crecieron más rápido de lo que podían sostener. Un ejemplo citado con frecuencia es **Webvan**, una empresa estadounidense de venta de abarrotes en línea con entrega a domicilio, que a finales de los años noventa recaudó mucho dinero de inversionistas, construyó enormes centros de distribución automatizados y se expandió rápidamente a varias ciudades antes de comprobar que su modelo era rentable. Cuando el dinero se acabó, quebró en 2001. Años después, otras empresas lograron con éxito modelos parecidos, creciendo de forma más gradual.
+
+## La solución de Lupita
+Lupita y la administradora proyectan el año completo y deciden:
+- Negociar una línea de crédito de 200,000 pesos.
+- Reducir el plazo de cobro a oficinas de 15 a 7 días (libera unos 80,000).
+- No repartir dividendos este año.
+- Posponer la cuarta sucursal hasta que la tercera alcance el equilibrio.
+- Mantener un saldo mínimo de 100,000 pesos.
+
+Con eso, el efectivo deja de bajar y el crecimiento se vuelve sostenible.
+
+## La regla práctica para no ahogarse
+
+Antes de aprobar cualquier plan de crecimiento, Lupita ahora se hace una pregunta: «¿cuántos meses de gastos tengo en caja después de pagar la inversión?». Si la respuesta es menos de dos, el plan espera o se busca financiamiento antes de empezar, no a la mitad. Crecer con la caja vacía es como manejar en carretera con el tanque en reserva: quizá llegues, pero cualquier imprevisto te deja tirado.`,
+k: `**Crecer consume efectivo:** capital de trabajo, inversiones, gastos antes de las ventas y aprendizaje. Si se crece más rápido de lo que el efectivo sostiene: **sobreexpansión** («morir de éxito»). **Crecimiento sostenible ≈ ROE × proporción reinvertida** (Higgins). Proyecta el efectivo, **financia antes de necesitar**, crece **por etapas**, cuida el capital de trabajo, reinvierte y mantén un colchón.`,
+ch: `Una tienda de ropa que abre tres sucursales en seis meses se queda sin dinero para surtir inventario en la temporada fuerte; si hubiera abierto una a la vez, habría tenido efectivo para todas.`,
+gi: `Webvan, empresa estadounidense de abarrotes en línea, se expandió muy rápido a finales de los años noventa con grandes inversiones en centros de distribución y quebró en 2001 antes de lograr un modelo rentable; se cita como ejemplo de crecimiento demasiado rápido.`,
+e: `Toño calcula la tasa de crecimiento sostenible de Tortas Lupita:
+
+| Concepto | Valor |
+|---|---|
+| Utilidad neta anual | 480,000 |
+| Capital contable | 1,200,000 |
+| ROE | 480,000 ÷ 1,200,000 = 40 % |
+| Proporción de utilidades reinvertida (sin dividendos) | 100 % |
+| Crecimiento sostenible aproximado | 40 % × 100 % = 40 % al año |
+
+Querían crecer 100 % en un año: más del doble de lo que pueden sostener con sus propios recursos. Para crecer así necesitan financiamiento o crecer más despacio.`,
+r: `Webvan Group fue fundada en 1996, salió a bolsa en 1999 y se declaró en quiebra en julio de 2001, después de invertir grandes sumas en infraestructura y expansión a varias ciudades. Robert C. Higgins popularizó el concepto de tasa de crecimiento sostenible en su libro «Análisis para la dirección financiera».`,
+f: `Robert C. Higgins, «Analysis for Financial Management»; notas de prensa económica sobre la quiebra de Webvan (2001).`,
+err: ["Celebrar el crecimiento de ventas sin mirar el efectivo.","Buscar financiamiento cuando ya falta dinero.","Abrir varias sucursales al mismo tiempo sin que la anterior alcance el equilibrio.","Repartir dividendos en plena etapa de crecimiento."],
+a: `Para un plan de crecimiento del negocio que observas (una sucursal, un cliente grande), lista todas las necesidades de efectivo del primer año. Compara con la utilidad esperada y decide cómo cubrir la diferencia.`,
+sol: `Si la necesidad de efectivo supera la utilidad, las opciones son: crecer más despacio, cobrar más rápido, financiarse (deuda o socio) o reinvertir más.`,
+q: [["¿Por qué crecer puede dejar sin efectivo a un negocio con utilidades?",["Porque hay que pagar inventario, cuentas por cobrar e inversiones antes de cobrar","Porque las ventas bajan","Porque no hay clientes"],0,"Crecer consume efectivo."],
+["La sobreexpansión consiste en…",["Crecer más rápido de lo que el efectivo puede sostener","No crecer","Tener demasiado efectivo"],0,"También llamada «morir de éxito»."],
+{n:1, t:"Un negocio tiene un ROE de 30 % y reinvierte la mitad de sus utilidades. ¿Cuál es su crecimiento sostenible aproximado en porcentaje?", a:15, tol:0.001, u:"%", e:"30 % × 50 % = 15 %."},
+["¿Cuándo conviene conseguir el financiamiento para crecer?",["Antes de empezar a crecer","Cuando ya falta dinero","Nunca"],0,"Financiar antes de necesitar."]],
+t: ["Sobreexpansión","Crecimiento sostenible","Morir de éxito","Capital de trabajo","Saldo mínimo de seguridad"]
+},
+"M18-6": {
+s: `Toño tiene una lista de ideas para crecer: vender más tortas en las mismas sucursales, abrir en otra ciudad, lanzar desayunos y ensaladas, y hasta abrir una cafetería con otra marca. Lupita le pide ordenarlas: «¿Cuáles son más arriesgadas y cuáles más seguras?».`,
+o: ["Conocer la matriz de Ansoff y sus cuatro estrategias de crecimiento.","Comparar el riesgo de cada estrategia.","Elegir y combinar estrategias de crecimiento."],
+x: `## Cuatro caminos para crecer
+En 1957, el matemático y profesor de estrategia **Igor Ansoff** publicó en Harvard Business Review una matriz muy sencilla y muy usada para ordenar las opciones de crecimiento. Cruza dos preguntas: **¿con productos actuales o nuevos?** y **¿en mercados (clientes) actuales o nuevos?**. Resultan cuatro estrategias:
+
+| | Productos actuales | Productos nuevos |
+|---|---|---|
+| **Mercados actuales** | 1. Penetración de mercado | 3. Desarrollo de producto |
+| **Mercados nuevos** | 2. Desarrollo de mercado | 4. Diversificación |
+
+## 1. Penetración de mercado
+Vender **más de lo mismo a los mismos clientes** (o a más clientes del mismo tipo, en la misma zona). Es la estrategia **menos riesgosa**, porque el negocio ya conoce el producto y el mercado.
+- Cómo: atraer clientes de la competencia, aumentar la frecuencia de compra, subir el ticket promedio, mejorar la conversión (Módulo 11), promociones, programas de lealtad, mejorar la ubicación o los horarios.
+- Ejemplo en Tortas Lupita: que los oficinistas de la zona vengan tres veces por semana en lugar de dos; conseguir más oficinas cercanas; abrir los sábados.
+
+## 2. Desarrollo de mercado
+Llevar **los productos actuales a mercados nuevos**: otra zona, otra ciudad, otro país, otro tipo de cliente o un canal nuevo. Riesgo **medio**: el producto se conoce, pero el mercado no.
+- Cómo: abrir sucursales en otras zonas (Módulo 20), vender en línea o en plataformas (lección M15-5), atender a un nuevo segmento (escuelas, hospitales, eventos), exportar (Módulo 22).
+- Ejemplo: abrir en Puebla; vender tortas para eventos y fiestas.
+
+## 3. Desarrollo de producto
+Ofrecer **productos nuevos a los clientes actuales**. Riesgo **medio**: el mercado se conoce, pero el producto no.
+- Cómo: ampliar el menú, nuevas presentaciones, servicios adicionales, versiones mejoradas.
+- Ejemplo: desayunos, ensaladas, paquetes para juntas, la salsa en frasco para que los clientes la lleven a casa.
+
+## 4. Diversificación
+Ofrecer **productos nuevos en mercados nuevos**. Es la estrategia **más riesgosa**, porque el negocio no conoce ni el producto ni el mercado.
+- **Diversificación relacionada:** el nuevo negocio tiene algo en común con el actual (la cocina, la marca, los proveedores, el conocimiento). Ejemplo: una cafetería con otra marca que aprovecha la cocina central y la experiencia en alimentos.
+- **Diversificación no relacionada (conglomerado):** el nuevo negocio no tiene relación con el actual. Ejemplo: Tortas Lupita abre una agencia de viajes. Es mucho más riesgosa y rara vez conviene a un negocio pequeño (Módulo 23).
+
+## Ordenar por riesgo
+Una regla práctica que se deriva de la matriz: **mientras más lejos se va del cuadrante de penetración, más riesgo**. Muchos negocios exitosos crecen primero por penetración (hasta aprovechar bien su mercado actual), luego por desarrollo de producto o de mercado (un paso a la vez) y solo después, con más recursos y experiencia, consideran la diversificación.
+
+## Las ideas de Toño en la matriz
+| Idea | Cuadrante | Riesgo | Inversión | Comentario |
+|---|---|---|---|---|
+| Más frecuencia de oficinistas (lealtad, combos) | Penetración | Bajo | Baja | Hacer primero |
+| Más oficinas en la zona | Penetración | Bajo | Baja | Ya en marcha con Karla |
+| Desayunos y ensaladas | Desarrollo de producto | Medio | Media | Probar en una sucursal (ya probado: funciona) |
+| Salsa en frasco | Desarrollo de producto (y de mercado si se vende en tiendas) | Medio | Media | Requiere permisos y etiquetado |
+| Sucursal en Puebla | Desarrollo de mercado | Medio-alto | Alta | Después de estabilizar las sucursales actuales |
+| Cafetería con otra marca | Diversificación relacionada | Alto | Alta | Más adelante, cuando haya un gerente para ella |
+| Agencia de viajes | Diversificación no relacionada | Muy alto | Alta | Descartar |
+
+## Cómo elegir
+- **Empieza por lo que aprovecha tus fortalezas** y lo que mejor conoces.
+- **Prueba en pequeño** antes de invertir mucho (pruebas piloto, lección M12-2).
+- **Considera el efectivo** que exige cada opción (lección M18-5).
+- **No hagas todo a la vez:** cada estrategia exige atención de la dirección.
+- **Revisa la coherencia** con el posicionamiento y la marca (lección M12-3): una ensalada «sabor de casa, rápida» encaja; un platillo gourmet de 45 minutos, no.
+
+## Más allá de Ansoff
+Ansoff se ocupó del **qué** y el **dónde** del crecimiento. Otras lecciones del curso tratan el **cómo**: con recursos propios (crecimiento orgánico), con sucursales propias (Módulo 20), con franquicias (Módulo 21), con alianzas o adquisiciones (Módulo 22). Combinar las dos preguntas ayuda a diseñar un plan de crecimiento completo.
+
+## La matriz en las empresas gigantes
+Las grandes empresas usan la misma lógica. Una cadena de cafeterías puede crecer por penetración (más tiendas en ciudades donde ya está, pedidos por aplicación), desarrollo de mercado (entrar a nuevos países), desarrollo de producto (alimentos, bebidas nuevas, productos para el súper) y diversificación (nuevos formatos o negocios). Las adquisiciones de empresas de otros sectores son una forma de diversificación que, como verás en el Módulo 22, tiene un historial de éxito muy variable.
+
+## Un consejo final
+
+Ninguna casilla de la matriz es buena o mala por sí misma; todo depende de lo que el negocio ya sabe hacer. La matriz solo ordena la conversación y obliga a decir en voz alta cuánto riesgo se está tomando.`,
+k: `**Matriz de Ansoff** (1957): **penetración** (productos actuales, mercados actuales: menos riesgo), **desarrollo de mercado** (productos actuales, mercados nuevos), **desarrollo de producto** (productos nuevos, mercados actuales) y **diversificación** (ambos nuevos: más riesgo; relacionada o no relacionada). Crece paso a paso, prueba en pequeño y cuida el efectivo.`,
+ch: `Una estética crece por penetración (tarjeta de lealtad), luego por desarrollo de producto (uñas y maquillaje) y, años después, por desarrollo de mercado (una segunda estética en otra colonia).`,
+gi: `Las grandes cadenas de cafeterías han crecido abriendo más tiendas donde ya estaban, entrando a nuevos países, lanzando alimentos y bebidas nuevas y vendiendo sus productos en supermercados: las cuatro estrategias de Ansoff.`,
+e: `Toño compara el margen anual esperado por peso invertido en tres ideas:
+
+| Idea | Cuadrante | Inversión | Margen anual esperado | Margen por peso invertido |
+|---|---|---|---|---|
+| Programa de lealtad y combos | Penetración | 15,000 | 120,000 | 8.0 |
+| Desayunos en las tres sucursales | Desarrollo de producto | 60,000 | 400,000 | 6.7 |
+| Sucursal en Puebla | Desarrollo de mercado | 450,000 | 500,000 | 1.1 |
+
+Las ideas de menor riesgo también dan más margen por peso invertido. Conviene hacerlas primero y dejar Puebla para después.`,
+r: `Igor Ansoff publicó «Strategies for Diversification» en Harvard Business Review en 1957, donde presentó la matriz producto-mercado. Es una de las herramientas de estrategia más enseñadas en el mundo y se usa para organizar las opciones de crecimiento de empresas de todos los tamaños.`,
+f: `H. Igor Ansoff, «Strategies for Diversification», Harvard Business Review (1957).`,
+err: ["Saltar directo a la diversificación sin aprovechar el mercado actual.","Intentar todas las estrategias al mismo tiempo.","No considerar el efectivo que exige cada opción.","Lanzar productos que no encajan con el posicionamiento."],
+a: `Escribe cinco ideas de crecimiento para el negocio que observas y ubícalas en la matriz de Ansoff. Ordénalas por riesgo y por margen por peso invertido, y elige las dos primeras que harías.`,
+sol: `Si tus ideas de mayor margen por peso invertido están en penetración o desarrollo de producto, empieza por ahí; la diversificación suele venir al final.`,
+q: [["Vender más del mismo producto a los mismos clientes es…",["Penetración de mercado","Diversificación","Desarrollo de mercado"],0,"La estrategia de menor riesgo."],
+["Abrir una sucursal en otra ciudad con el mismo menú es…",["Desarrollo de mercado","Desarrollo de producto","Penetración"],0,"Producto actual, mercado nuevo."],
+["La estrategia más riesgosa según Ansoff es…",["La diversificación","La penetración","El desarrollo de producto"],0,"Producto y mercado nuevos."],
+["¿Quién propuso la matriz producto-mercado en 1957?",["Igor Ansoff","Michael Porter","Peter Drucker"],0,"En Harvard Business Review."]],
+t: ["Matriz de Ansoff","Penetración de mercado","Desarrollo de mercado","Desarrollo de producto","Diversificación","Crecimiento orgánico"]
+},
+"M18-7": {
+s: `Una cadena de hospitales quiere comprar 500 tortas diarias para su personal. El área de compras le envía a Lupita una lista de requisitos: constancia fiscal, opinión de cumplimiento, alta en su portal, seguro de responsabilidad civil, certificación de higiene, capacidad comprobada y pago a 60 días. Lupita se pregunta si puede cumplir.`,
+o: ["Conocer los requisitos típicos de los clientes corporativos.","Evaluar si conviene y si se puede cumplir con ellos.","Prepararse para vender a empresas grandes."],
+x: `## Vender a una empresa grande
+Venderle a una empresa grande (un hospital, una cadena de tiendas, una fábrica, el gobierno) puede transformar a un negocio pequeño: pedidos grandes y constantes, prestigio y estabilidad. Pero las empresas grandes tienen **procesos de compra formales** y piden requisitos que muchos negocios pequeños no cumplen. Prepararse para ellos es una forma de crecer, y también de profesionalizarse (lección M18-3).
+
+## Los requisitos típicos
+**Requisitos legales y fiscales**
+- Constancia de situación fiscal y facturación CFDI correcta (lección M8-10).
+- **Opinión de cumplimiento** de obligaciones fiscales positiva (y, a veces, también de seguridad social e Infonavit).
+- Acta constitutiva y poderes del representante (si es sociedad).
+- Comprobante de domicilio y datos bancarios a nombre del negocio.
+- En ciertos servicios, cumplir con las reglas de subcontratación (por ejemplo, el registro REPSE si se prestan servicios especializados con personal en las instalaciones del cliente, lección M13-3).
+
+**Requisitos de calidad y seguridad**
+- Certificaciones o constancias de higiene (por ejemplo, cumplimiento de la NOM-251 en alimentos) y, en algunos sectores, certificaciones de calidad como ISO 9001 (lección M9-7).
+- Visitas o auditorías del cliente a las instalaciones.
+- Fichas técnicas de los productos (ingredientes, alérgenos, información nutrimental).
+
+**Requisitos de capacidad y confiabilidad**
+- Capacidad comprobada para surtir los volúmenes pedidos, sin fallar.
+- Plan de contingencia si algo falla (lecciones M10-6 y M16-7).
+- Referencias de otros clientes.
+
+**Requisitos comerciales**
+- Precios fijos por un periodo y descuentos por volumen.
+- **Plazos de pago largos** (30, 60 o 90 días).
+- Contrato con penalizaciones por retraso o incumplimiento (lección M14-2).
+- Alta en el **portal de proveedores** del cliente y uso de su sistema de órdenes y facturas.
+
+**Requisitos de protección**
+- Seguro de responsabilidad civil con cierta cobertura mínima (lección M14-6).
+- Acuerdo de confidencialidad, código de ética para proveedores, políticas anticorrupción.
+
+## ¿Conviene?
+Antes de lanzarse, conviene evaluar:
+1. **¿Puedo cumplir los requisitos?** ¿Cuánto cuesta y cuánto tiempo toma?
+2. **¿Puedo con el volumen** sin descuidar a mis clientes actuales?
+3. **¿El precio deja margen** suficiente después de los costos adicionales (empaques especiales, entregas, seguro)?
+4. **¿Puedo financiar el plazo de pago?** Un plazo de 60 días con ventas grandes exige mucho capital de trabajo (lección M8-5).
+5. **¿Qué pasa con la concentración?** Si este cliente llega a ser una parte muy grande de las ventas, el riesgo de depender de él crece (lección M11-6).
+
+## El cálculo del hospital
+- 500 tortas diarias, 22 días al mes: 11,000 tortas.
+- Precio por volumen: 35 pesos (sin IVA). Ventas: **385,000 pesos al mes**.
+- Costo variable con empaque especial: 17.50. Margen de contribución: 17.50 × 11,000 = **192,500**.
+- Costos adicionales: dos cocineros y un repartidor más (36,000), camioneta rentada (12,000), seguro y certificaciones (4,000 al mes prorrateado): **52,000**.
+- Margen después de costos adicionales: **140,500 pesos al mes**.
+- Capital de trabajo por pago a 60 días: unos **770,000 pesos** (dos meses de ventas a este cliente).
+- Concentración: el hospital sería alrededor de 40 % de las ventas totales.
+
+El negocio es muy atractivo en margen, pero exige mucho capital de trabajo y crea una gran dependencia. Opciones: negociar un plazo de pago menor (30 días), usar **factoraje** para cobrar antes las facturas (lección M8-8), empezar con una parte del volumen (200 tortas en un hospital) y crecer, y seguir diversificando clientes.
+
+## Prepararse aunque no haya un cliente grande todavía
+Cumplir con estos requisitos tiene beneficios aunque no se consiga el cliente:
+- Un negocio con opinión de cumplimiento positiva, seguro, certificaciones y procesos escritos es **más sólido**.
+- Muchos requisitos son los mismos que piden los **bancos** y los **inversionistas**.
+- Abre la puerta a **licitaciones** del gobierno y a programas de desarrollo de proveedores.
+
+## Programas de desarrollo de proveedores
+Algunas grandes empresas, cámaras empresariales y programas de gobierno apoyan a pequeños negocios para que cumplan los requisitos y se conviertan en proveedores de empresas grandes: capacitación, asesoría para certificarse, financiamiento con base en las facturas del cliente grande (como el programa de cadenas productivas de Nafin, lección M8-6). Vale la pena preguntar si el cliente o la cámara de la industria tienen uno.
+
+## La decisión de Lupita
+Lupita propone al hospital empezar con una de sus clínicas (200 tortas diarias) durante tres meses, con pago a 30 días y la posibilidad de usar factoraje. Mientras tanto, obtiene la certificación de higiene, contrata el seguro y se da de alta en el portal. Si el piloto funciona, crecerán al resto de las clínicas con una línea de crédito para el capital de trabajo. El hospital acepta: prefiere un proveedor que sabe lo que puede cumplir.
+
+## En las empresas gigantes
+Las grandes empresas tienen áreas de **abastecimiento** que califican y auditan a sus proveedores y que, cada vez más, les piden cumplir criterios ambientales, sociales y de ética (Módulo 27). Para un proveedor pequeño, cumplir esos criterios puede ser el boleto de entrada a cadenas de suministro de alcance nacional o internacional.`,
+k: `Los clientes corporativos piden requisitos **legales y fiscales** (constancia, **opinión de cumplimiento**, CFDI), de **calidad e higiene** (certificaciones, auditorías), de **capacidad**, **comerciales** (precios fijos, **plazos largos**, contratos con penalizaciones, **portal de proveedores**) y de **protección** (seguro). Evalúa margen, capacidad, **capital de trabajo** y **concentración**. Empieza con un **piloto**.`,
+ch: `Un taller de costura que quiere hacer uniformes para una cadena de tiendas obtiene su opinión de cumplimiento, contrata un seguro y acepta un primer pedido pequeño; al cumplirlo bien, la cadena le duplica el pedido.`,
+gi: `Las áreas de abastecimiento de las grandes empresas califican a sus proveedores con requisitos fiscales, de calidad, de capacidad y, cada vez más, ambientales, sociales y de ética.`,
+e: `Lupita compara el piloto con el contrato completo del hospital:
+
+| Concepto | Piloto (200 tortas al día, pago a 30 días) | Contrato completo (500 al día, pago a 60 días) |
+|---|---|---|
+| Ventas al mes | 154,000 | 385,000 |
+| Margen después de costos adicionales | ≈ 55,000 | 140,500 |
+| Capital de trabajo por el plazo | ≈ 154,000 | ≈ 770,000 |
+| Concentración en ventas totales | ≈ 21 % | ≈ 40 % |
+
+El piloto deja un buen margen con mucho menos riesgo y capital de trabajo. Si funciona, la empresa estará lista para el contrato completo.`,
+r: `Nacional Financiera opera el programa de Cadenas Productivas, que permite a proveedores de grandes empresas y del gobierno obtener financiamiento mediante factoraje con base en las cuentas por cobrar a esos clientes, para no tener que esperar los plazos de pago largos.`,
+f: `Nacional Financiera, programa de Cadenas Productivas (nafin.com); SAT, opinión del cumplimiento de obligaciones fiscales.`,
+err: ["Aceptar un cliente grande sin calcular el capital de trabajo que exige.","Prometer volúmenes que no se pueden cumplir.","Depender de un solo cliente para una gran parte de las ventas.","Descuidar a los clientes actuales por atender al grande."],
+a: `Elige una empresa grande o institución que podría ser cliente del negocio que observas. Investiga (o imagina) sus requisitos y haz una lista de lo que el negocio ya cumple y lo que le falta. Calcula el capital de trabajo que exigiría su plazo de pago.`,
+sol: `Capital de trabajo aproximado = ventas mensuales al cliente × días de plazo ÷ 30. Si es mayor que el efectivo disponible, considera un piloto, factoraje o una línea de crédito.`,
+q: [["¿Qué documento suelen pedir las empresas grandes para verificar que un proveedor está al corriente con el SAT?",["La opinión de cumplimiento","El menú","El organigrama"],0,"Debe ser positiva."],
+{n:1, t:"Un cliente compra 300,000 pesos al mes y paga a 60 días. ¿Cuánto capital de trabajo aproximado exige ese plazo?", a:600000, tol:0, u:"pesos", e:"300,000 × 60 ÷ 30 = 600,000."},
+["Un riesgo de vender a un cliente muy grande es…",["La concentración: depender mucho de él","No tener clientes","Pagar menos impuestos"],0,"Si se va, el golpe es enorme."],
+["¿Qué ayuda a cobrar antes las facturas de un cliente que paga a 60 días?",["El factoraje","Bajar precios","No facturar"],0,"Se vende la factura a cambio de un adelanto."]],
+t: ["Cliente corporativo","Portal de proveedores","Opinión de cumplimiento","Programa de desarrollo de proveedores","Factoraje"]
+},
+"M18-8": {
+s: `Una amiga de Lupita tiene una pastelería famosa en su barrio. Gana bien, trabaja cinco días a la semana y toma vacaciones. Le han ofrecido abrir diez sucursales con un inversionista. Ella dice que no: «No quiero dejar de hacer pasteles para pasarme la vida en juntas». ¿Es un error no crecer?`,
+o: ["Reconocer que no crecer puede ser una decisión estratégica válida.","Distinguir los negocios de estilo de vida de los de alto crecimiento.","Evaluar cuándo no conviene crecer o conviene crecer de otra forma."],
+x: `## Crecer no es obligatorio
+En el mundo de los negocios se suele asumir que **crecer siempre es bueno**: más ventas, más sucursales, más empleados. Pero crecer tiene costos (dinero, riesgo, complejidad, tiempo del dueño, cambio de su papel) y no siempre es lo que el dueño quiere ni lo que conviene al negocio. Churchill y Lewis lo reconocieron en su modelo (lección M18-1): en la etapa de «éxito», el dueño puede decidir **mantener** el negocio estable y rentable, y esa puede ser una excelente decisión.
+
+## Negocios de estilo de vida y de alto crecimiento
+Se suele distinguir entre dos tipos de negocio según la intención de su dueño:
+- **Negocio de estilo de vida:** el objetivo principal es que el negocio dé un buen ingreso, estabilidad y una vida que el dueño disfrute (horarios, tipo de trabajo, cercanía con los clientes). Crece poco o de forma controlada. Ejemplos: la pastelería de barrio, el consultorio del médico, el despacho de una diseñadora, un restaurante de autor.
+- **Negocio de alto crecimiento:** el objetivo es crecer mucho y rápido, normalmente con inversionistas, para llegar a muchos mercados. Exige que el dueño acepte riesgos altos, ceda parte de la propiedad y cambie radicalmente su papel. Ejemplos: empresas emergentes de tecnología, cadenas que buscan presencia nacional.
+
+Ninguno es mejor que el otro. Lo importante es que el dueño **elija conscientemente** y que sus decisiones sean coherentes con lo que eligió.
+
+## Razones válidas para no crecer (o crecer poco)
+1. **La calidad depende de la persona:** el talento del dueño es el corazón del negocio y no se puede replicar fácilmente.
+2. **El dueño disfruta su trabajo actual:** prefiere hacer pasteles que dirigir gerentes.
+3. **Calidad de vida:** más sucursales significan más horas, más estrés y más riesgo.
+4. **Control:** crecer con inversionistas implica compartir decisiones (lección M7-7, el dilema de «rico o rey»).
+5. **Riesgo:** el negocio actual es seguro; la expansión podría ponerlo en peligro (sobreexpansión, lección M18-5).
+6. **El mercado es limitado:** el nicho no da para mucho más.
+7. **Rentabilidad:** a veces, un negocio más pequeño es **más rentable** por peso invertido que uno más grande (menos costos de estructura).
+
+## El concepto de los «pequeños gigantes»
+El periodista de negocios Bo Burlingham publicó en 2005 el libro «Pequeños gigantes» (*Small Giants*), en el que describió empresas que decidieron **ser excelentes en lugar de ser grandes**: negocios que eligieron no crecer más allá de cierto tamaño para conservar su calidad, su cultura, su relación con la comunidad y la satisfacción de sus dueños y empleados. Muchas de ellas eran muy rentables y admiradas en su sector.
+
+## Crecer de otra forma
+No crecer en tamaño no significa quedarse quieto. Un negocio de estilo de vida puede crecer en otras dimensiones:
+- **En margen y rentabilidad:** mejores precios, mejores procesos, menos merma.
+- **En calidad y reputación.**
+- **En eficiencia:** el mismo ingreso con menos horas del dueño.
+- **En un producto o servicio de mayor valor** (pasteles de bodas, cursos).
+- **Con crecimiento «ligero»:** licenciar recetas, vender en línea, dar talleres, sin abrir sucursales.
+- **En el bienestar de su equipo:** mejores sueldos, más estabilidad.
+
+## Cuándo sí conviene considerar crecer
+Aun en un negocio de estilo de vida, hay razones para revisar la decisión:
+- **El mercado cambia** y quedarse pequeño se vuelve una desventaja (por ejemplo, si una cadena llega y compite por precio).
+- **Hay una oportunidad única** que no se repetirá.
+- **El equipo quiere crecer** y el negocio corre el riesgo de perder a sus mejores personas si no les da oportunidades.
+- **El dueño quiere retirarse** y un negocio más profesionalizado sería más fácil de vender o heredar.
+
+## Preguntas para decidir
+1. ¿Qué quiero que me dé este negocio dentro de diez años: dinero, tiempo, prestigio, legado, independencia?
+2. ¿Qué parte del trabajo disfruto y cuál no?
+3. ¿Qué tan dispuesto estoy a compartir el control y a asumir riesgos?
+4. ¿El negocio actual es estable y rentable?
+5. ¿Qué pasaría con mi calidad de vida si creciera?
+6. ¿Hay formas de crecer que no impliquen cambiar lo que más me importa?
+
+## La decisión de la amiga de Lupita
+La pastelera decide no abrir diez sucursales. En cambio: sube sus precios 10 % (tiene lista de espera), contrata a una segunda pastelera para los pedidos de bodas y lanza un taller mensual de repostería. Gana más que antes, trabaja lo mismo y conserva lo que ama de su negocio. Lupita, en cambio, sí quiere crecer: ella disfruta dirigir y su sueño es que Tortas Lupita llegue a otras ciudades. Las dos decisiones son correctas porque son **coherentes con lo que cada una quiere**.
+
+## Cierre del módulo
+Crecer exige entender las etapas y sus crisis, dar el salto al primer empleado, profesionalizarse, resolver la sucesión, financiar el crecimiento, elegir entre estrategias y prepararse para clientes grandes. Pero también exige una pregunta previa: ¿quiero crecer y para qué? Con esa respuesta, Tortas Lupita entra al resto del Nivel 3 para estudiar las formas concretas de crecer: financiamiento, sucursales, franquicias y expansión.`,
+k: `**No crecer puede ser una decisión estratégica válida.** **Negocio de estilo de vida** (buen ingreso y vida que el dueño disfruta) frente a **alto crecimiento** (crecer mucho y rápido, con riesgo y socios). «**Pequeños gigantes**» (Burlingham, 2005): ser excelentes en lugar de grandes. Se puede crecer en **margen, calidad, eficiencia** o de forma ligera. Lo importante: **elegir conscientemente** y ser coherente.`,
+ch: `Un médico con consultorio propio decide no abrir una clínica con socios; prefiere atender a sus pacientes personalmente, sube sus tarifas de forma gradual y contrata a una asistente para la agenda.`,
+gi: `Bo Burlingham describió en «Small Giants» (2005) empresas de distintos sectores que eligieron no crecer más allá de cierto tamaño para conservar su calidad, su cultura y su relación con la comunidad, y que siguieron siendo muy rentables.`,
+e: `La amiga de Lupita compara sus opciones (resultado para ella al año):
+
+| Opción | Ingreso para la dueña | Horas por semana | Riesgo | Control |
+|---|---|---|---|---|
+| Seguir igual | 900,000 | 40 | Bajo | Total |
+| Subir precios, segunda pastelera y talleres | 1,150,000 | 42 | Bajo | Total |
+| Diez sucursales con inversionista (estimado, año 3) | 1,500,000 a 3,000,000 o pérdidas | 60+ | Alto | Compartido |
+
+La segunda opción aumenta su ingreso casi 28 % sin cambiar su vida. La tercera podría dar más, pero con mucho más riesgo y un trabajo que no quiere.`,
+r: `En «Small Giants: Companies That Choose to Be Great Instead of Big» (2005), Bo Burlingham, editor de la revista Inc., estudió empresas que decidieron limitar su crecimiento para preservar su cultura, su calidad y su vínculo con la comunidad.`,
+f: `Bo Burlingham, «Small Giants» (2005); N. Churchill y V. Lewis, «The Five Stages of Small Business Growth» (1983).`,
+err: ["Creer que crecer siempre es mejor.","Crecer por presión de otros sin saber para qué.","Quedarse quieto sin mejorar margen, calidad ni eficiencia.","No revisar la decisión cuando cambia el mercado."],
+a: `Responde las seis preguntas de esta lección para el negocio que observas (o para un negocio que te gustaría tener). ¿Es un negocio de estilo de vida o de alto crecimiento? Propón dos formas de crecer coherentes con esa respuesta.`,
+sol: `Si el dueño valora el control y la calidad de vida, las formas de crecer más coherentes suelen ser subir el valor y el precio, mejorar procesos y crecer de forma ligera (en línea, talleres, licencias).`,
+q: [["Un negocio de estilo de vida busca principalmente…",["Un buen ingreso y una vida que el dueño disfrute","Crecer lo más rápido posible","Salir a bolsa"],0,"Crece poco o de forma controlada."],
+["¿Es siempre un error no crecer?",["No: puede ser una decisión estratégica válida","Sí, siempre","Solo en tecnología"],0,"Lo importante es elegir conscientemente."],
+["El libro «Pequeños gigantes» (2005) describe empresas que…",["Eligieron ser excelentes en lugar de ser grandes","Quebraron por crecer","Solo venden en línea"],0,"De Bo Burlingham."],
+["Una forma de crecer sin abrir sucursales es…",["Subir el valor y el precio, o vender en línea y dar talleres","Cerrar","Bajar la calidad"],0,"Crecimiento en margen o «ligero»."]],
+t: ["Negocio de estilo de vida","Negocio de alto crecimiento","Pequeños gigantes","Crecimiento ligero"]
+}
+});
