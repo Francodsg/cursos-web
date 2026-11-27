@@ -2090,3 +2090,1184 @@ q: [["Un negocio de estilo de vida busca principalmente…",["Un buen ingreso y 
 t: ["Negocio de estilo de vida","Negocio de alto crecimiento","Pequeños gigantes","Crecimiento ligero"]
 }
 });
+
+// ===== M19. Financiar el crecimiento =====
+Object.assign(window.LECC, {
+"M19-1": {
+s: `Tortas Lupita ya tiene un local que funciona y Toño quiere abrir una segunda sucursal. Calcularon que necesitan unos 600,000 pesos entre obra, equipo, inventario inicial y tres meses de gastos de colchón. En caja hay 150,000. ¿De dónde sale el resto? Toño ha escuchado de bancos, de Nafin, de socios, de inversionistas y hasta de «pedirle al proveedor». No sabe por dónde empezar.`,
+o: ["Describir las principales fuentes de financiamiento de un negocio.","Clasificar el financiamiento en interno y externo, y en deuda y capital.","Relacionar cada fuente con la etapa y la necesidad del negocio."],
+x: `## Qué es financiar un negocio
+**Financiar** es conseguir el dinero que el negocio necesita para operar o para crecer, cuando lo que genera por sí mismo no alcanza o no llega a tiempo. Todo negocio necesita financiamiento en algún momento: al nacer, al crecer, al pasar por una mala temporada o al aprovechar una oportunidad.
+
+La pregunta clave no es solo «¿de dónde saco dinero?», sino **«¿cuánto me cuesta, qué me piden a cambio y qué riesgo tomo?»**. Cada fuente tiene un precio distinto: algunas cobran intereses, otras piden una parte de la empresa, otras piden garantías y otras solo piden paciencia.
+
+## Las dos grandes familias: deuda y capital
+- **Deuda:** alguien te presta dinero y tú te comprometes a devolverlo, casi siempre con intereses y en un plazo. El prestamista **no se vuelve dueño** del negocio. Si te va bien, le pagas lo pactado y ya. Si te va mal, le debes igual.
+- **Capital (o patrimonio):** alguien pone dinero a cambio de **una parte de la propiedad** del negocio. No hay que devolverlo en un plazo fijo, pero el nuevo socio participa de las utilidades y, muchas veces, de las decisiones. Si te va bien, él gana mucho; si te va mal, él también pierde.
+
+Más adelante, en la lección M19-6, compararemos ambas a fondo. Por ahora basta con saber que casi todas las fuentes caen en una de estas dos familias.
+
+## Interno o externo
+Otra forma de clasificar es por el origen del dinero:
+- **Financiamiento interno:** sale del propio negocio o del dueño. Reinvertir utilidades, ahorros personales, vender activos que no se usan, cobrar más rápido a los clientes o reducir inventario.
+- **Financiamiento externo:** viene de fuera: bancos, gobierno, proveedores, socios, inversionistas, plataformas de financiamiento colectivo.
+
+## El mapa de fuentes
+| Fuente | Familia | Para qué sirve mejor | Qué te piden |
+|---|---|---|---|
+| Ahorro del dueño | Capital propio | Arrancar, probar la idea | Arriesgar tu patrimonio |
+| Reinversión de utilidades | Interno | Crecer poco a poco | Paciencia; menos dinero para el dueño |
+| Familia y amigos | Deuda o capital | Primeros pasos | Confianza; riesgo para la relación |
+| Crédito de proveedores | Deuda | Inventario, capital de trabajo | Pagar puntual |
+| Crédito bancario | Deuda | Equipo, local, capital de trabajo | Historial, garantías, intereses |
+| Banca de fomento (Nafin y similares) | Deuda | Pymes con proyectos concretos | Requisitos y trámite |
+| Arrendamiento financiero | Deuda | Equipo, vehículos | Pagos mensuales |
+| Factoraje | Deuda | Convertir facturas en efectivo | Un descuento sobre las facturas |
+| Socios | Capital | Proyectos medianos | Compartir propiedad y decisiones |
+| Inversionistas ángel | Capital | Empresas con alto potencial | Una parte de la empresa |
+| Capital emprendedor | Capital | Crecimiento muy rápido | Parte importante y control |
+| Financiamiento colectivo | Deuda, capital o recompensa | Proyectos con comunidad | Comisiones y mostrar el proyecto |
+| Apoyos de gobierno | Subsidio o deuda | Programas específicos | Cumplir reglas |
+
+## Algunas fuentes que se olvidan
+- **Arrendamiento financiero (*leasing*):** en lugar de comprar la plancha o la camioneta, la rentas con opción a compra al final. No necesitas el dinero completo hoy y el pago mensual suele ser deducible.
+- **Factoraje:** si vendes a una empresa que te paga a 60 días, una financiera te adelanta el dinero de esa factura a cambio de un porcentaje. Sirve para no quedarte sin efectivo mientras esperas el cobro.
+- **Crédito de proveedores:** es el financiamiento más usado por los negocios chicos. Si el panadero te da 15 días para pagar, te está prestando ese pan sin intereses durante 15 días.
+- **Mejorar el capital de trabajo:** cobrar antes, comprar mejor, tener menos inventario parado. Es dinero que ya es tuyo y que está atorado en el negocio (lección M8-5).
+
+## La escalera del financiamiento
+En la práctica, los negocios suelen subir por una especie de escalera según su tamaño y su historia:
+1. **Arranque:** ahorro propio, familia y amigos, crédito de proveedores.
+2. **Primeros años:** reinversión, microcréditos, tarjetas empresariales (con cuidado), arrendamiento.
+3. **Negocio estable con historial:** crédito bancario, banca de fomento, factoraje.
+4. **Crecimiento fuerte:** socios, inversionistas, capital privado.
+5. **Gran empresa:** bonos, emisión de acciones en bolsa (Nivel 4).
+
+No es obligatorio subir todos los escalones. Muchos negocios exitosos nunca pasan del tercero.
+
+## Antes de pedir dinero: cuatro preguntas
+1. **¿Para qué exactamente?** No es lo mismo financiar un horno que dura diez años que pagar la nómina del mes. Lo que dura mucho se financia a largo plazo; lo que se consume rápido, a corto plazo.
+2. **¿Cuánto necesito realmente?** Suma inversión, inventario inicial, gastos de arranque y un colchón de varios meses. Pedir de menos es tan peligroso como pedir de más.
+3. **¿Cómo y cuándo lo voy a devolver (o qué gana quien lo pone)?** Haz un flujo de caja proyectado (lección M8-4) y comprueba que los pagos caben.
+4. **¿Qué pasa si las cosas salen peor de lo esperado?** Usa escenarios (lección M16-6): si las ventas son 20 % menores, ¿aun así puedes pagar?
+
+## Igualar plazos
+Una regla de oro de las finanzas es **igualar el plazo del financiamiento con el plazo de lo que financias**. Si pides un préstamo a seis meses para construir un local que tardará tres años en pagarse solo, te vas a quedar sin efectivo a la mitad. Al revés, endeudarte a cinco años para comprar el inventario de una semana es pagar intereses de más.
+
+## El caso de Toño
+Toño arma su lista: 150,000 propios, 100,000 de crédito de proveedores (pan, carnes y refrescos a 30 días al abrir), y faltan 350,000. Para eso tiene dos caminos que estudiaremos en este módulo: un crédito bancario o de fomento, o un socio que ponga el dinero a cambio de una parte. La respuesta dependerá del costo, del riesgo y de cuánto control quieran conservar Lupita y él.
+
+## Cierre
+Financiarse bien no es conseguir dinero «como sea». Es elegir la fuente adecuada para cada necesidad, al costo más bajo posible y con un riesgo que el negocio pueda aguantar. En las siguientes lecciones veremos cada opción con detalle.`,
+k: `**Financiamiento:** conseguir el dinero que el negocio necesita cuando lo que genera no alcanza o no llega a tiempo. Dos familias: **deuda** (se devuelve con intereses; el prestamista no es dueño) y **capital** (alguien pone dinero a cambio de una parte de la empresa). Regla de oro: **igualar el plazo** del financiamiento con el plazo de lo que se financia.`,
+ch: `Una fonda compra su refrigerador con arrendamiento financiero y paga 2,500 al mes durante dos años, en lugar de desembolsar 50,000 de golpe. El pan y la carne los paga a 15 días gracias al crédito de sus proveedores.`,
+gi: `Las grandes empresas combinan muchas fuentes a la vez: créditos bancarios, emisión de bonos, papel comercial a corto plazo, arrendamientos y emisión de acciones. Sus informes anuales detallan cada deuda con su tasa y su vencimiento.`,
+e: `Toño calcula cuánto necesita para la segunda sucursal:
+
+| Concepto | Monto |
+|---|---|
+| Obra y adecuación del local | 220,000 |
+| Equipo (plancha, refrigerador, mostrador) | 140,000 |
+| Inventario inicial | 40,000 |
+| Depósito y permisos | 50,000 |
+| Colchón: 3 meses de gastos fijos | 150,000 |
+| **Total** | **600,000** |
+
+Fuentes: 150,000 de caja + 100,000 de crédito de proveedores = 250,000. **Faltan 350,000**, que deben venir de deuda (banco) o de capital (socio).`,
+r: `Nacional Financiera (Nafin) es la banca de desarrollo de México dedicada a las micro, pequeñas y medianas empresas. Ofrece, entre otros, programas de garantías para que los bancos comerciales presten a pymes y servicios de factoraje para proveedores de grandes empresas y del gobierno, según su información institucional.`,
+f: `Nacional Financiera, información institucional en nafin.com; Banco de México, materiales de educación financiera.`,
+err: ["Pedir dinero sin saber exactamente para qué y cuánto.","Financiar a corto plazo algo que tarda años en pagarse.","Olvidar el colchón para los primeros meses.","Usar tarjetas de crédito personales para financiar el negocio por largo tiempo.","No comparar el costo total de varias fuentes."],
+a: `Elige un negocio que conozcas (o Tortas Lupita) y una necesidad concreta (equipo, inventario, nueva sucursal). Calcula cuánto necesita y propón tres fuentes de financiamiento distintas, indicando para cada una si es deuda o capital y qué piden a cambio.`,
+sol: `Una buena respuesta separa la necesidad en partes: el equipo puede ir con arrendamiento o crédito a largo plazo; el inventario, con crédito de proveedores; y la parte de mayor riesgo, con recursos propios o un socio.`,
+q: [["¿Cuál es la diferencia principal entre deuda y capital?",["En la deuda se devuelve el dinero; en el capital se entrega una parte de la propiedad","No hay diferencia","El capital siempre cobra intereses"],0,"La deuda se paga; el capital convierte al que invierte en socio."],
+["El crédito que da un proveedor al permitir pagar a 30 días es…",["Una forma de financiamiento","Un regalo","Un impuesto"],0,"Es el financiamiento más usado por los negocios chicos."],
+["Para comprar un horno que durará diez años conviene…",["Un financiamiento de largo plazo","Un préstamo a un mes","No financiarlo nunca"],0,"Se iguala el plazo del financiamiento con el de lo que se financia."],
+["El factoraje sirve para…",["Recibir hoy el dinero de facturas que te pagarán después","Comprar acciones","Pagar impuestos"],0,"La financiera adelanta el dinero a cambio de un descuento."]],
+t: ["Financiamiento","Deuda","Capital","Arrendamiento financiero","Factoraje","Nafin"]
+},
+"M19-2": {
+s: `Toño va al banco a preguntar por un crédito de 350,000 pesos para la sucursal. El ejecutivo le habla de «tasa anual», «CAT», «comisión por apertura», «aval» y «garantía hipotecaria». Le pide dos años de estados financieros y declaraciones. Toño sale con más preguntas que respuestas: ¿cuánto le va a costar en realidad y le conviene?`,
+o: ["Explicar cómo funciona un crédito bancario: tasa, plazo, pago y garantías.","Calcular de forma aproximada el costo de un crédito.","Conocer qué hace la banca de fomento y qué piden los bancos a una pyme."],
+x: `## Qué es un crédito bancario
+Un **crédito bancario** es dinero que un banco te presta hoy a cambio de que lo devuelvas en pagos, con intereses, en un plazo acordado. Para el banco, el riesgo es que no le pagues; por eso estudia tu negocio, pide documentos y a veces garantías.
+
+## Las piezas de un crédito
+- **Monto:** cuánto te prestan.
+- **Plazo:** en cuánto tiempo lo devuelves (12, 24, 36, 60 meses…).
+- **Tasa de interés:** el precio del dinero, normalmente expresado como **porcentaje anual**. Puede ser **fija** (no cambia) o **variable** (sube o baja con una tasa de referencia, como la TIIE en México).
+- **Comisiones:** por apertura, por pago tardío, por pago anticipado, por manejo de cuenta.
+- **Pago:** lo que pagas cada mes; incluye una parte de capital (lo que debes) y una parte de intereses.
+- **Garantías:** lo que respalda el crédito si no pagas: un inmueble (hipoteca), el equipo comprado (prenda), un aval (una persona que se compromete a pagar por ti) o un programa de garantía del gobierno.
+
+## El costo real: el CAT
+En México, los bancos deben informar el **CAT (Costo Anual Total)**: un porcentaje que suma la tasa de interés **y** las comisiones y otros costos, para que puedas comparar créditos «manzanas con manzanas». El CAT se informa **sin IVA**, así que el costo final puede ser algo mayor. Dos créditos con la misma tasa pueden tener CAT muy distintos por las comisiones.
+
+## Cómo se calcula el pago (versión sencilla)
+En la mayoría de los créditos a plazo, el pago mensual es **fijo** y se calcula con una fórmula financiera (la llamada amortización francesa). No necesitas memorizarla; basta con saber que:
+- Al principio, la mayor parte del pago son **intereses**; al final, casi todo es **capital**.
+- Cuanto **más largo el plazo**, **menor el pago mensual** pero **más intereses pagas en total**.
+- Cuanto **más alta la tasa**, más pagas.
+
+Una forma aproximada de estimar los intereses totales es: **intereses ≈ monto × tasa anual × años × 0.55**. El factor 0.55 refleja que vas debiendo menos con el tiempo. Es solo una estimación; el banco te debe dar la **tabla de amortización** exacta.
+
+## Qué revisa el banco: las «cinco C»
+Los bancos suelen evaluar al solicitante con cinco criterios clásicos:
+1. **Carácter:** tu historial de pagos (en México, el Buró de Crédito y el Círculo de Crédito).
+2. **Capacidad:** si el flujo del negocio alcanza para pagar. Muchos bancos piden que el flujo libre sea al menos 1.2 o 1.3 veces el pago mensual.
+3. **Capital:** cuánto dinero propio tiene el negocio y cuánto arriesga el dueño.
+4. **Colateral (garantías):** qué respalda el crédito.
+5. **Condiciones:** la situación del sector y de la economía, y para qué se usará el dinero.
+
+## Los documentos típicos
+- Identificación y RFC del negocio y del dueño.
+- Constancia de situación fiscal.
+- Estados financieros de uno o dos años (a veces firmados por contador).
+- Declaraciones de impuestos.
+- Estados de cuenta bancarios de varios meses.
+- Comprobante de domicilio y, a veces, plan de inversión.
+
+Por eso un negocio **informal** casi nunca consigue crédito bancario: no puede demostrar sus ventas. Formalizarse (lección M2-8) abre esta puerta.
+
+## La banca de fomento o de desarrollo
+Muchos países tienen bancos públicos cuya misión es financiar sectores que la banca comercial atiende poco. En México:
+- **Nafin (Nacional Financiera):** pymes e industria. Uno de sus mecanismos más importantes son los **programas de garantías**: Nafin respalda una parte del crédito que da un banco comercial, de modo que el banco se anima a prestar a pymes con menos garantías propias.
+- **Bancomext:** empresas que exportan o compiten con importaciones.
+- **FIRA:** sector agropecuario, forestal y pesquero.
+
+En otros países existen equivalentes: Bancóldex en Colombia, ICO en España, CORFO en Chile (con programas de garantía), COFIDE en Perú, o el Banco de la Nación Argentina con líneas para pymes. Los programas cambian con frecuencia; hay que revisar los vigentes.
+
+## Otras formas de crédito
+- **Crédito simple:** un monto, un plazo y pagos fijos. Ideal para equipo o una obra.
+- **Crédito revolvente o línea de crédito:** un límite que usas, pagas y vuelves a usar. Útil para capital de trabajo.
+- **Tarjeta de crédito empresarial:** práctica para gastos chicos, pero con tasas altas si no se paga completa.
+- **Microfinancieras y sociedades financieras populares:** prestan montos pequeños a negocios chicos, a veces sin tanto papeleo, pero con tasas mucho más altas.
+- **Plataformas de financiamiento en línea:** en México están reguladas por la Ley Fintech; revisa siempre que la plataforma esté autorizada.
+
+## ¿Cuándo conviene un crédito?
+Un crédito conviene cuando **lo que genera la inversión es mayor que lo que cuesta el crédito** y cuando el flujo del negocio aguanta los pagos incluso en un mes malo. Si la nueva sucursal deja 25,000 al mes de utilidad y el pago es 12,000, el crédito tiene sentido. Si deja 10,000 y el pago es 12,000, el crédito hunde al negocio.
+
+## Señales de alerta
+- Pedir prestado para pagar otras deudas sin cambiar nada del negocio.
+- Firmar sin leer la tabla de amortización y las comisiones.
+- Poner la casa de la familia como garantía sin medir el riesgo.
+- Aceptar el primer crédito sin comparar el CAT de al menos tres opciones.
+- Prestamistas informales «gota a gota» con tasas abusivas y cobranza violenta: nunca son una opción.`,
+k: `**Crédito bancario:** monto + plazo + tasa + comisiones + garantías. El **CAT** (Costo Anual Total) suma tasa y comisiones para comparar créditos. Plazo más largo = pago mensual menor pero más intereses totales. Conviene si **lo que genera la inversión supera lo que cuesta el crédito** y el flujo aguanta los pagos.`,
+ch: `Una estética pide un crédito de 80,000 a una sociedad financiera popular para comprar dos sillones y un lavacabezas. Compara tres ofertas por su CAT y elige la que tiene menos comisiones, aunque su tasa sea un poco mayor.`,
+gi: `Las grandes empresas negocian créditos sindicados (varios bancos prestan juntos) por miles de millones y publican en sus informes las tasas, los plazos y las condiciones, como mantener cierto nivel de deuda frente a su flujo.`,
+e: `Toño compara dos créditos de 350,000:
+
+| | Banco A | Banco B |
+|---|---|---|
+| Plazo | 36 meses | 60 meses |
+| Pago mensual aproximado | 11,900 | 8,300 |
+| Total pagado | 428,400 | 498,000 |
+| Intereses totales | 78,400 | 148,000 |
+
+La sucursal debería dejar unos 25,000 de utilidad al mes en el escenario probable y 14,000 en el pesimista. Con el Banco A, en el escenario pesimista le quedan 2,100 al mes: muy justo. Con el Banco B le quedan 5,700, pero paga casi el doble de intereses. Toño decide pedir el Banco A **solo si** consigue un periodo de gracia de 3 meses, o el Banco B con la opción de pagar antes sin penalización.`,
+r: `En México, el Banco de México y la Condusef publican herramientas para comparar el CAT de créditos a pymes, y la Condusef supervisa que las instituciones informen el CAT en su publicidad y contratos. Nafin opera programas de garantías con bancos comerciales para facilitar el crédito a pymes.`,
+f: `Banco de México, información sobre el Costo Anual Total; Condusef; Nacional Financiera, programas de garantías.`,
+err: ["Comparar solo la tasa y no el CAT.","Elegir siempre el plazo más largo sin ver los intereses totales.","Pedir un crédito sin un flujo proyectado que demuestre que se puede pagar.","Poner como garantía el patrimonio familiar sin medir el riesgo.","Acudir a prestamistas informales con tasas abusivas."],
+a: `Busca en el sitio de un banco o de la Condusef un crédito para pymes. Anota la tasa, el CAT, las comisiones, el plazo y los requisitos. Explica con tus palabras por qué el CAT es mayor que la tasa.`,
+sol: `El CAT es mayor porque, además de la tasa de interés, incluye comisiones (apertura, administración) y otros costos del crédito. Por eso sirve para comparar el costo real de diferentes créditos.`,
+q: [["El CAT sirve para…",["Comparar el costo total de distintos créditos","Saber el precio de una torta","Calcular impuestos"],0,"Incluye tasa, comisiones y otros costos."],
+["Si alargas el plazo de un crédito, normalmente…",["Pagas menos al mes pero más intereses en total","Pagas menos en total","No cambia nada"],0,"El costo total sube con el plazo."],
+["¿Qué hacen los programas de garantías de Nafin?",["Respaldan una parte del crédito para que los bancos presten a pymes","Regalan dinero","Compran las empresas"],0,"Reducen el riesgo para el banco."],
+["Un crédito conviene cuando…",["Lo que genera la inversión supera lo que cuesta el crédito","El banco lo ofrece","Se usa para pagar otra deuda sin cambiar nada"],0,"Y el flujo aguanta los pagos aun en un mes malo."]],
+t: ["Crédito bancario","Tasa de interés","CAT","Garantía","Aval","Banca de desarrollo","Tabla de amortización"]
+},
+"M19-3": {
+s: `Un cliente frecuente de Tortas Lupita, el ingeniero Ramírez, le ofrece a Toño poner 350,000 pesos para la segunda sucursal. A cambio quiere «una parte del negocio». Toño no sabe cuánto es justo: ¿10 %, 30 %, 50 %? Lupita, además, tiene una pregunta más profunda: «Si entra un socio, ¿quién va a mandar?».`,
+o: ["Explicar qué significa repartir la propiedad de un negocio con socios.","Calcular porcentajes de participación antes y después de una inversión.","Distinguir propiedad, control y derechos económicos de un socio."],
+x: `## Qué es un socio
+Un **socio** es una persona (o empresa) que es **dueña de una parte** del negocio. Puede haber llegado desde el inicio, aportando dinero, trabajo o conocimiento, o puede entrar después, cuando el negocio necesita dinero para crecer. A diferencia de un banco, el socio **no tiene derecho a que le devuelvas su dinero** en un plazo fijo: gana si al negocio le va bien (por las utilidades o porque su parte vale más) y pierde si le va mal.
+
+## Participación: cuánto es de cada quién
+La **participación** es el porcentaje de la empresa que pertenece a cada socio. En una sociedad anónima se expresa en **acciones**; en una sociedad de responsabilidad limitada, en **partes sociales**. Si una empresa tiene 1,000 acciones y tú tienes 300, eres dueño del 30 %.
+
+La participación determina, en principio:
+- **Derechos económicos:** qué parte de las utilidades repartidas (dividendos) te toca y qué parte del dinero recibirías si se vende la empresa.
+- **Derechos políticos:** cuántos votos tienes en la asamblea de socios para tomar decisiones importantes.
+
+## Antes y después de una inversión: la tabla de participación
+Una **tabla de participación** (en inglés se le llama *cap table*) es una lista de quién tiene qué porcentaje del negocio. Cuando entra un nuevo socio con dinero, normalmente **se crean acciones nuevas** para él. Los socios anteriores no venden las suyas, pero su porcentaje **se diluye**: tienen el mismo número de acciones, pero de un pastel más grande.
+
+Para calcularlo se usan dos números:
+- **Valuación previa (*pre-money*):** cuánto vale el negocio **antes** de recibir el dinero.
+- **Valuación posterior (*post-money*):** valuación previa **+** el dinero que entra.
+
+**Porcentaje del nuevo socio = inversión ÷ valuación posterior.**
+
+Si al revés conoces la inversión y el porcentaje pactado: **valuación posterior = inversión ÷ porcentaje**. Por ejemplo, si un inversionista pone 500,000 por el 20 %, la valuación posterior es 500,000 ÷ 0.20 = **2,500,000**, y la previa es 2,000,000.
+
+## La dilución, paso a paso
+Supón que Lupita tiene el 70 % y Toño el 30 % de Tortas Lupita (como en el resto del curso). Entra un inversionista que pone 500,000 por el 20 %:
+1. El inversionista queda con el 20 %.
+2. Los socios anteriores se reparten el 80 % restante **en la misma proporción que antes**.
+3. Lupita: 70 % × 80 % = **56 %**. Toño: 30 % × 80 % = **24 %**.
+
+Lupita conserva la mayoría (más del 50 %), pero ya no tiene el 70 %. Su parte vale más en pesos, porque el pastel creció: 56 % de 2.5 millones = 1.4 millones, frente al 70 % de 2 millones = 1.4 millones antes. El valor de su parte **no cambia en el momento de la inversión**; lo que cambia es que ahora hay dinero en la empresa para crecer.
+
+La calculadora «Tabla de participación» de este módulo hace estas cuentas por ti.
+
+## Propiedad no es lo mismo que control
+Tener un porcentaje no siempre significa mandar en esa proporción. El control se define en los **estatutos** de la sociedad y en el **convenio entre socios**. Algunos puntos que se negocian:
+- **Mayorías:** qué decisiones se toman con mayoría simple (más del 50 %) y cuáles con mayoría calificada (por ejemplo, 75 %).
+- **Derechos de veto:** el socio minoritario puede pedir que ciertas decisiones (vender la empresa, pedir deuda grande, cambiar de giro) requieran su voto.
+- **Lugares en el consejo:** quién nombra a los consejeros.
+- **Tipos de acciones:** algunas acciones pueden tener voto limitado o preferencia en dividendos.
+
+## El convenio entre socios
+Antes de recibir el dinero, conviene firmar un **convenio entre socios** (también llamado pacto de socios). Suele incluir:
+- Qué aporta cada uno (dinero, trabajo, local, marca).
+- Cómo se toman las decisiones y quién dirige el día a día.
+- Cómo se reparten las utilidades y cada cuánto.
+- **Salida:** qué pasa si un socio quiere vender, se muere o se pelea. Cláusulas como el **derecho de preferencia** (los demás socios pueden comprar primero), **arrastre** (si la mayoría vende, el minoritario debe vender en las mismas condiciones) y **acompañamiento** (si la mayoría vende, el minoritario puede vender también).
+- Qué pasa si se necesita más dinero en el futuro.
+- No competencia: que un socio no abra un negocio igual enfrente.
+
+Recuerda el caso del Módulo 3 sobre dos socios sin papeles que se pelean: el convenio existe justamente para evitar eso.
+
+## Tipos de socios
+- **Socio capitalista:** pone dinero y no trabaja en el negocio.
+- **Socio operativo o industrial:** aporta trabajo o conocimiento.
+- **Socio estratégico:** aporta algo más que dinero: clientes, un canal de distribución, tecnología, contactos.
+
+El socio ideal aporta dinero **y** algo que el negocio no tiene. Un mal socio puede ser más caro que cualquier crédito.
+
+## Preguntas antes de aceptar un socio
+1. ¿Compartimos la visión de lo que debe ser el negocio en cinco años?
+2. ¿Qué aporta además del dinero?
+3. ¿Cuánto control quiere? ¿Quiere dirigir o solo invertir?
+4. ¿Qué espera ganar y en cuánto tiempo?
+5. ¿Qué pasa si las cosas salen mal o si queremos separarnos?
+6. ¿Confío en esta persona para decisiones difíciles?
+
+## El trato con el ingeniero Ramírez
+Toño y Lupita estiman que el negocio vale hoy unos 1,400,000 (lección M19-5 explicará cómo). Si Ramírez pone 350,000, la valuación posterior es 1,750,000 y su porcentaje sería 350,000 ÷ 1,750,000 = **20 %**. Lupita quedaría con 56 % y Toño con 24 %. Antes de firmar, Lupita pide un convenio donde ella siga dirigiendo el día a día y donde vender la empresa o pedir créditos mayores a un millón requiera el voto de todos.`,
+k: `**Participación:** porcentaje de la empresa de cada socio. **Valuación posterior = valuación previa + inversión.** **% del nuevo socio = inversión ÷ valuación posterior.** Los socios anteriores se **diluyen** en proporción. **Propiedad no es control:** el control se define en estatutos y en el **convenio entre socios**.`,
+hr: "participacion",
+ch: `Dos amigas abren una cafetería: una pone 200,000 y la otra pone su trabajo de tiempo completo. Acuerdan 50 % y 50 %, pero firman un convenio que dice qué pasa si una de ellas deja de trabajar en el negocio.`,
+gi: `Cuando una empresa grande recibe inversión de un fondo, los acuerdos incluyen tablas de participación con decenas de accionistas, clases de acciones, derechos de veto y lugares en el consejo para el inversionista.`,
+e: `Tabla de participación de Tortas Lupita si entra el ingeniero Ramírez:
+
+| Socio | Antes | Después |
+|---|---|---|
+| Lupita | 70 % | 70 % × 80 % = **56 %** |
+| Toño | 30 % | 30 % × 80 % = **24 %** |
+| Ramírez | 0 % | 350,000 ÷ 1,750,000 = **20 %** |
+| **Total** | 100 % | 100 % |
+
+Valuación previa: 1,400,000. Valuación posterior: 1,400,000 + 350,000 = 1,750,000. Comprobación: 20 % de 1,750,000 = 350,000.`,
+r: `Las empresas emergentes que reciben inversión de fondos publican a menudo el monto de sus rondas y, a veces, su valuación. Por ejemplo, la mexicana Kavak anunció en 2021 una ronda que, según los comunicados de prensa de la época, la valuó en más de 8,000 millones de dólares, lo que implicó que sus fundadores fueran diluyéndose con cada ronda sucesiva.`,
+f: `Comunicados de prensa y cobertura de medios de negocios sobre las rondas de inversión de Kavak (2020–2021).`,
+err: ["Aceptar un socio sin firmar un convenio entre socios.","Confundir el porcentaje de propiedad con el control de las decisiones.","Calcular el porcentaje del nuevo socio sobre la valuación previa en lugar de la posterior.","Elegir un socio solo por el dinero, sin revisar si comparte la visión.","No prever qué pasa si un socio quiere salir."],
+a: `Usa la calculadora «Tabla de participación»: un inversionista pone 500,000 por el 20 % de Tortas Lupita, donde Lupita tiene 70 % y Toño 30 %. Calcula la valuación posterior, la previa y el porcentaje final de cada uno. Después, escribe tres cláusulas que Lupita debería pedir en el convenio entre socios.`,
+sol: `Valuación posterior: 2,500,000; previa: 2,000,000. Lupita 56 %, Toño 24 %, inversionista 20 %. Cláusulas posibles: quién dirige el día a día; decisiones que requieren unanimidad (vender la empresa, deuda grande); derecho de preferencia si alguien quiere vender; no competencia.`,
+q: [{n:1,t:"Un inversionista pone 500,000 por el 20 % de una empresa. ¿Cuál es la valuación posterior (en pesos)?",a:2500000,tol:1,u:"pesos",e:"500,000 ÷ 0.20 = 2,500,000."},
+["Si Lupita tenía 70 % y entra un socio con 20 %, Lupita queda con…",["56 %","50 %","70 %"],0,"70 % × 80 % = 56 %."],
+["La dilución significa que…",["Los socios anteriores conservan sus acciones pero su porcentaje baja","Los socios pierden sus acciones","El negocio pierde valor"],0,"Se crean acciones nuevas para el socio que entra."],
+["El documento que define cómo deciden y cómo salen los socios es…",["El convenio entre socios","La factura","El organigrama"],0,"También los estatutos de la sociedad."]],
+t: ["Socio","Participación","Tabla de participación","Valuación previa","Valuación posterior","Dilución","Convenio entre socios"]
+},
+"M19-4": {
+s: `En una feria de emprendimiento, Toño escucha a una joven que fundó una app de reparto: «Levantamos una ronda semilla con inversionistas ángel y ahora vamos por la serie A con un fondo de capital emprendedor». Toño se pregunta si Tortas Lupita podría conseguir dinero así y qué esperan esas personas a cambio.`,
+o: ["Explicar qué son los inversionistas ángel y los fondos de capital emprendedor.","Describir las etapas de inversión (presemilla, semilla, series) y lo que espera cada inversionista.","Evaluar si un negocio es candidato a este tipo de inversión."],
+x: `## Dos tipos de inversionistas de riesgo
+- **Inversionista ángel:** una persona con dinero propio (empresarios, ejecutivos, profesionistas exitosos) que invierte en empresas muy jóvenes a cambio de una parte. Suele invertir montos pequeños o medianos, a veces en grupo con otros ángeles, y aporta consejos y contactos.
+- **Capital emprendedor (*venture capital*):** fondos profesionales que reúnen dinero de varios inversionistas (fondos de pensiones, familias ricas, empresas) y lo invierten en empresas jóvenes con **potencial de crecer muchísimo**. Lo administran gestores que cobran comisiones y una parte de las ganancias.
+
+## Lo que buscan: crecimiento enorme
+Este punto es el más importante para entender si un negocio es candidato. Los inversionistas de capital emprendedor saben que **la mayoría de sus inversiones va a fracasar o a dar poco**. Por eso necesitan que unas pocas den rendimientos gigantescos que compensen todas las pérdidas. Buscan empresas que puedan **multiplicar su valor 10, 20 o más veces** en cinco a diez años.
+
+Eso significa que buscan negocios:
+- **Escalables:** que puedan crecer mucho sin que sus costos crezcan igual (típicamente tecnología, plataformas, software).
+- **En mercados enormes:** millones de clientes potenciales o varios países.
+- **Con un equipo fundador fuerte** y capaz de dirigir una empresa grande.
+- **Con alguna ventaja difícil de copiar.**
+
+Una tortería, aunque sea excelente, **casi nunca encaja** en este molde: crece sucursal por sucursal, con inversión física en cada una. No es que sea un mal negocio; es que no promete multiplicar su valor por 20 en cinco años. Para Tortas Lupita, un socio local o un crédito son opciones más naturales.
+
+## Las etapas de inversión
+| Etapa | En qué está la empresa | Quién invierte | Montos típicos (orden de magnitud) |
+|---|---|---|---|
+| Presemilla | Idea o prototipo | Fundadores, familia, amigos | Pequeños |
+| Semilla | Producto inicial, primeros clientes | Ángeles, aceleradoras, fondos semilla | Cientos de miles a pocos millones de dólares |
+| Serie A | Modelo probado, crece rápido | Fondos de capital emprendedor | Varios millones de dólares |
+| Serie B, C y siguientes | Expansión a nuevos mercados | Fondos más grandes | Decenas o cientos de millones |
+| Salida | Venta a otra empresa o salida a bolsa | Compradores o mercado | — |
+
+Los montos varían mucho por país, sector y momento; la tabla solo da una idea del tamaño relativo.
+
+## Qué piden a cambio
+- **Una parte de la empresa:** en cada ronda los fundadores se diluyen (lección M19-3). Es común que un fundador termine con un porcentaje pequeño de una empresa muy valiosa.
+- **Derechos especiales:** acciones preferentes (cobran primero si se vende la empresa), lugares en el consejo, derecho de veto en decisiones importantes, información periódica.
+- **Una salida:** el fondo necesita, en algún momento, vender su parte con ganancia. Eso suele ocurrir cuando la empresa se vende a otra más grande o sale a bolsa. Un fondo no quiere quedarse para siempre.
+- **Crecimiento rápido:** presión para crecer, a veces más rápido de lo que el fundador quería, incluso perdiendo dinero durante años.
+
+## Las aceleradoras e incubadoras
+Son programas que apoyan a empresas muy jóvenes con mentoría, espacio, contactos y a veces una pequeña inversión a cambio de un porcentaje. Algunas internacionales y latinoamericanas son muy conocidas; también hay programas universitarios y de gobierno.
+
+## Ventajas
+- Dinero para crecer sin tener que pagar intereses ni devolverlo en un plazo.
+- Experiencia, contactos y prestigio del inversionista.
+- Posibilidad de construir una empresa mucho más grande de lo que se lograría solo.
+
+## Riesgos y desventajas
+- Pérdida de propiedad y, a veces, de control.
+- Presión por crecer rápido, que puede llevar a decisiones arriesgadas.
+- Conflictos si el fundador y el fondo quieren cosas distintas.
+- Si la empresa no logra la siguiente ronda, puede quedarse sin dinero de golpe.
+
+## Cómo se ve desde el lado del inversionista
+Un ángel que invierte en diez empresas sabe que quizá seis pierdan todo, tres le devuelvan su dinero y una le dé diez o veinte veces lo invertido. Por eso pregunta: «¿esta empresa puede ser la que pague por todas las demás?». Si la respuesta es no, aunque el negocio sea bueno, no invierte.
+
+## Latinoamérica
+En la última década crecieron mucho los fondos que invierten en empresas de la región. Empresas como Rappi (Colombia), Kavak (México) o Nubank (Brasil) recibieron rondas de cientos de millones de dólares de fondos internacionales, según lo publicado por las propias empresas y la prensa de negocios. También hubo años de «sequía» en los que las inversiones cayeron con fuerza: este tipo de dinero es muy sensible al ánimo de los mercados.
+
+## ¿Y Tortas Lupita?
+Toño entiende que, si algún día quieren capital de riesgo, tendrían que ser algo distinto: por ejemplo, una plataforma de franquicias con tecnología propia o una marca de productos empacados para todo el país. Por ahora, su camino está en el crédito, en un socio local o en franquiciar (Módulo 21).`,
+k: `**Inversionista ángel:** persona que invierte su propio dinero en empresas muy jóvenes. **Capital emprendedor:** fondos profesionales que invierten en empresas con potencial de **crecer muchísimo**. A cambio piden una parte de la empresa, derechos especiales y una **salida** (venta o bolsa). Etapas: presemilla → semilla → series A, B, C → salida.`,
+ch: `Un taller de reparación de celulares no atrae capital emprendedor, aunque gane bien. En cambio, una app que conecta a miles de talleres con clientes en todo el país sí podría atraerlo, porque puede crecer sin abrir locales.`,
+gi: `Mercado Libre recibió inversión de fondos de capital emprendedor en sus primeros años (1999–2001) antes de salir a la bolsa Nasdaq en 2007, según su historia corporativa y su prospecto de salida a bolsa.`,
+e: `Un ángel invierte en 10 empresas, 100,000 en cada una (1,000,000 en total). Cinco años después:
+
+| Resultado | Empresas | Recupera |
+|---|---|---|
+| Pierde todo | 6 | 0 |
+| Recupera lo invertido | 3 | 300,000 |
+| Multiplica por 15 | 1 | 1,500,000 |
+| **Total** | 10 | **1,800,000** |
+
+Ganó 800,000 sobre 1,000,000 **gracias a una sola empresa**. Por eso solo invierte en negocios que podrían ser «esa una».`,
+r: `Mercado Libre, fundada en Argentina en 1999, obtuvo financiamiento de fondos de capital emprendedor en sus primeros años y salió a la bolsa Nasdaq en agosto de 2007, según su prospecto público y su información para inversionistas.`,
+f: `Mercado Libre, información para inversionistas; prospecto de oferta pública ante la SEC (2007).`,
+err: ["Buscar capital emprendedor para un negocio que no puede crecer de forma explosiva.","No entender que el fondo necesita vender su parte algún día.","Aceptar inversión sin entender las acciones preferentes y los vetos.","Crecer a cualquier costo para conseguir la siguiente ronda."],
+a: `Elige tres negocios que conozcas (uno chico, uno mediano y una app o empresa de tecnología). Para cada uno, explica si sería candidato a capital emprendedor usando estos criterios: escalable, mercado enorme, equipo y ventaja difícil de copiar.`,
+sol: `Normalmente solo la empresa de tecnología cumple con ser escalable y tener un mercado enorme. Los negocios físicos que crecen local por local suelen financiarse mejor con crédito, socios o franquicias.`,
+q: [["Un fondo de capital emprendedor busca empresas que…",["Puedan multiplicar mucho su valor en pocos años","Paguen intereses fijos","Nunca crezcan"],0,"Necesita grandes ganadores que compensen las pérdidas."],
+["La etapa en que una empresa tiene producto inicial y primeros clientes se llama…",["Semilla","Salida","Quiebra"],0,"Antes de la serie A."],
+["La «salida» de un fondo ocurre normalmente cuando…",["La empresa se vende o sale a bolsa","Se paga la luz","Se contrata a un gerente"],0,"El fondo vende su parte con ganancia."],
+["¿Por qué una tortería rara vez atrae capital emprendedor?",["Porque crece local por local y no promete multiplicar su valor por 20","Porque es ilegal","Porque no tiene clientes"],0,"No es un mal negocio, pero no es escalable de forma explosiva."]],
+t: ["Inversionista ángel","Capital emprendedor","Ronda de inversión","Escalable","Acciones preferentes","Salida"]
+},
+"M19-5": {
+s: `El ingeniero Ramírez dice que Tortas Lupita vale 1 millón. Toño cree que vale 3 millones, «porque vendemos muchísimo». Lupita no tiene idea. Sin saber cuánto vale el negocio, es imposible decidir qué porcentaje darle a un socio. ¿Cómo se pone precio a un negocio?`,
+o: ["Explicar por qué valuar un negocio es una estimación y no un número exacto.","Aplicar la valuación por múltiplos de utilidad de forma sencilla.","Reconocer otros métodos (activos, flujos descontados) y sus límites."],
+x: `## Valuar es estimar
+**Valuar** un negocio es estimar cuánto dinero pagaría por él una persona informada que quiere comprarlo, a alguien que quiere venderlo, sin presiones. No hay una cifra «correcta»: el valor depende de lo que el negocio va a ganar en el futuro, del riesgo y de lo que el comprador piensa hacer con él. Por eso dos personas razonables pueden llegar a números distintos. El precio final se **negocia**.
+
+## Primero: ¿qué se está vendiendo?
+Antes de calcular, hay que aclarar qué incluye el negocio: ¿la marca, las recetas, el equipo, el contrato de renta, la clientela, las deudas, el inventario? No es lo mismo vender «el negocio con todo» que vender solo el equipo.
+
+## Método 1: valor de los activos
+Suma lo que valen las cosas que tiene el negocio (equipo, inventario, local si es propio, efectivo) y resta lo que debe. Es el **piso**: un negocio rentable debería valer al menos eso. Para Tortas Lupita, el equipo usado, el inventario y el efectivo menos las deudas podrían dar unos 250,000. Pero ese número ignora lo más importante: **la capacidad de ganar dinero**. Un negocio que deja 200,000 al año vale mucho más que su plancha y su refrigerador.
+
+## Método 2: múltiplos de utilidad (el más usado en negocios chicos y medianos)
+La idea es sencilla: **valor ≈ utilidad anual × un múltiplo**. El múltiplo refleja cuántos años de utilidad está dispuesto a pagar un comprador. Si un negocio deja 200,000 al año y el múltiplo es 3, vale unos 600,000.
+
+¿Qué utilidad se usa?
+- En negocios chicos se suele usar la **utilidad del dueño** o una utilidad «normalizada»: la utilidad antes de impuestos, **ajustada** por cosas que no se repetirán (un gasto extraordinario) y por el sueldo que habría que pagarle a alguien para hacer el trabajo del dueño.
+- En empresas medianas y grandes se usa mucho el **EBITDA**: utilidad de operación antes de restar depreciación y amortización. Es una aproximación al efectivo que genera la operación.
+
+¿Qué múltiplo?
+- Negocios chicos que dependen mucho del dueño: múltiplos **bajos** (por ejemplo, 1.5 a 3 veces la utilidad).
+- Negocios con procesos, gerentes, marca y crecimiento estable: múltiplos **más altos**.
+- Sectores con crecimiento muy alto o tecnología: múltiplos mucho mayores.
+
+Los múltiplos cambian por sector, país y momento económico. Se obtienen comparando con ventas de negocios parecidos o, en empresas grandes, con empresas similares que cotizan en bolsa.
+
+## Qué sube o baja el múltiplo
+| Sube el valor | Baja el valor |
+|---|---|
+| Ventas que crecen de forma constante | Ventas que bajan o muy irregulares |
+| Procesos escritos y equipo que funciona sin el dueño | Todo depende del dueño |
+| Muchos clientes, ninguno demasiado grande | Un cliente es la mitad de las ventas |
+| Marca registrada y reputación | Marca sin registrar |
+| Contabilidad formal y ordenada | Cuentas mezcladas o informales |
+| Contrato de renta largo | Contrato a punto de vencer |
+
+Aquí se ve por qué profesionalizar (lección M18-3) **aumenta el valor** de un negocio: el mismo nivel de utilidad vale más si el negocio no depende de una sola persona.
+
+## Método 3: flujos futuros descontados (idea general)
+Es el método más «técnico»: se proyecta el efectivo que generará el negocio en los próximos años y se trae a valor de hoy con una tasa que refleja el riesgo (como en la lección M17-5 sobre valor presente). Es muy usado en empresas grandes, pero depende de muchos supuestos: un pequeño cambio en el crecimiento o en la tasa cambia mucho el resultado. En negocios chicos, los múltiplos suelen ser más prácticos.
+
+## Valor de la empresa y valor de las acciones
+Una distinción importante:
+- **Valor de la empresa (o del negocio):** lo que vale la operación completa.
+- **Valor del capital (o de las acciones):** valor de la empresa **menos la deuda** más el efectivo en exceso. Es lo que reciben los dueños.
+
+Si un negocio vale 1,500,000 pero debe 200,000 al banco, a los dueños les corresponden unos 1,300,000.
+
+## Ventas no es valor
+El error de Toño es común: pensar que un negocio vale mucho porque vende mucho. Lo que se valora es **lo que queda** (utilidad y efectivo), no lo que entra. Un negocio que vende 3 millones al año pero gana 50,000 vale menos que uno que vende 1 millón y gana 300,000.
+
+## La negociación
+El vendedor tiende a sobrevalorar (es su esfuerzo de años); el comprador, a subvalorar (asume el riesgo). Lo sensato es que cada parte haga sus números, explique sus supuestos y negocien. En inversiones de socios, además del precio importan las condiciones: control, derechos y salida.
+
+## Tortas Lupita
+Con el estado de resultados mensual del Módulo 8, el local deja 36,600 de utilidad antes de impuestos al mes (25,620 después de impuestos), unos 439,000 al año antes de impuestos. Como no todos los meses son tan buenos como el del ejemplo, Lupita y Toño prefieren ser conservadores y usar una utilidad normalizada de 400,000 anuales. Con un múltiplo de 3.5 (negocio con algo de estructura, pero todavía dependiente de la familia), el valor del negocio sería unos 1,400,000. Si restamos la deuda neta, el valor para los dueños sería algo menor; para negociar con Ramírez usan 1,400,000 como punto de partida.`,
+k: `**Valuar** es estimar, no calcular un número exacto. Método más práctico para pymes: **valor ≈ utilidad anual normalizada (o EBITDA) × múltiplo**. El múltiplo sube con crecimiento, procesos, independencia del dueño y diversificación de clientes. **Valor para los dueños = valor de la empresa − deuda + efectivo en exceso.** Ventas no es valor.`,
+ch: `Un taller mecánico deja 240,000 al año, pero todo depende del dueño. Un comprador le ofrece 2 veces esa utilidad (480,000). Si el taller tuviera un jefe de mecánicos y clientes de flotillas con contrato, podría pedir 3.5 veces (840,000).`,
+gi: `En las adquisiciones de empresas que cotizan en bolsa, analistas y bancos de inversión comparan el precio pagado con el EBITDA de la empresa comprada («se pagó 10 veces EBITDA») y lo comparan con transacciones similares del sector.`,
+e: `Valuación de Tortas Lupita por múltiplos:
+
+| Paso | Cálculo | Resultado |
+|---|---|---|
+| Utilidad normalizada antes de impuestos (anual) | — | 400,000 |
+| Múltiplo estimado | Negocio con algo de estructura | 3.5 |
+| Valor del negocio | 400,000 × 3.5 | **1,400,000** |
+| Escenario pesimista | 400,000 × 2.5 | 1,000,000 |
+| Escenario optimista | 400,000 × 4.5 | 1,800,000 |
+
+Rango razonable: 1,000,000 a 1,800,000. Ni el millón de Ramírez ni los 3 millones de Toño son «la» respuesta; 1,400,000 es un buen punto de partida para negociar.`,
+r: `En 2013, AB InBev completó la compra de la parte de Grupo Modelo que aún no poseía. La prensa financiera y los análisis de la época compararon el precio pagado con el EBITDA de Modelo, lo que dio un múltiplo alto, justificado según los compradores por la fortaleza de marcas como Corona y su potencial internacional.`,
+f: `Comunicados de AB InBev y Grupo Modelo (2012–2013); cobertura de la prensa financiera internacional.`,
+err: ["Creer que un negocio vale por lo que vende y no por lo que gana.","Usar un múltiplo alto para un negocio que depende totalmente del dueño.","Olvidar restar las deudas para saber lo que corresponde a los dueños.","Pensar que existe un único valor «correcto».","No ajustar la utilidad por gastos extraordinarios o por el sueldo del dueño."],
+a: `Un negocio deja 300,000 de utilidad normalizada al año. Estima su valor con un múltiplo de 2, de 3 y de 4. Después, lista tres cambios que el dueño podría hacer en un año para justificar un múltiplo más alto.`,
+sol: `Valores: 600,000, 900,000 y 1,200,000. Cambios: escribir procesos y tener un encargado que funcione sin el dueño, diversificar clientes, registrar la marca, formalizar la contabilidad, firmar un contrato de renta largo.`,
+q: [{n:1,t:"Un negocio deja 400,000 de utilidad normalizada al año. Con un múltiplo de 3.5, ¿cuánto vale (en pesos)?",a:1400000,tol:1,u:"pesos",e:"400,000 × 3.5 = 1,400,000."},
+["Para valuar un negocio, lo más importante es…",["Lo que gana o el efectivo que genera","Lo que vende","El tamaño del local"],0,"Ventas no es valor."],
+["Un negocio que depende totalmente del dueño suele tener un múltiplo…",["Más bajo","Más alto","Igual a cualquier otro"],0,"El comprador asume más riesgo."],
+["Si el negocio vale 1,500,000 y debe 200,000, a los dueños les corresponde aproximadamente…",["1,300,000","1,700,000","200,000"],0,"Valor de la empresa menos la deuda."]],
+t: ["Valuación","Múltiplo","EBITDA","Utilidad normalizada","Valor de la empresa"]
+},
+"M19-6": {
+s: `Ya hay dos ofertas en la mesa para conseguir los 350,000 que faltan: el crédito del Banco A a 36 meses o el ingeniero Ramírez como socio con el 20 %. Toño quiere el socio («no hay que pagar nada cada mes»). Lupita prefiere el banco («el negocio sigue siendo nuestro»). Los dos tienen algo de razón.`,
+o: ["Comparar deuda y capital por costo, riesgo y control.","Calcular cuál de las dos opciones cuesta más en un escenario dado.","Elegir una mezcla razonable de deuda y capital según la situación del negocio."],
+x: `## La gran decisión
+Cuando un negocio necesita dinero externo, casi siempre elige entre **endeudarse** o **traer socios**, o una mezcla. No hay una respuesta universal: depende de cuánto riesgo tiene el proyecto, de cuánto flujo genera el negocio y de cuánto valora el dueño el control.
+
+## Comparación general
+| | Deuda | Capital |
+|---|---|---|
+| ¿Hay que devolverlo? | Sí, en un plazo | No, el socio se queda |
+| ¿Cuesta cada mes? | Sí, pagos fijos | No hay pagos fijos; comparte utilidades |
+| ¿Quién gana si va muy bien? | El dueño (el banco solo cobra lo pactado) | Se reparte con el socio |
+| ¿Qué pasa si va mal? | Hay que pagar igual; riesgo de perder garantías | El socio pierde también |
+| ¿Cambia la propiedad? | No | Sí, hay dilución |
+| ¿Cambia el control? | No (salvo condiciones del crédito) | Puede cambiar |
+| Impuestos | Los intereses suelen ser deducibles | Los dividendos no son deducibles |
+| Requisitos | Historial, flujo, garantías | Un proyecto atractivo y confianza |
+
+## Deuda: más barata si todo sale bien, más peligrosa si sale mal
+La deuda tiene un costo conocido: los intereses. Si el proyecto rinde más que ese costo, **toda la ganancia extra es para el dueño**. A esto se le llama **apalancamiento**: usar dinero prestado para multiplicar el rendimiento del dinero propio.
+
+Pero el apalancamiento funciona en los dos sentidos. Si las ventas caen, los pagos siguen ahí. Muchos negocios quiebran no porque sean malos, sino porque **se endeudaron más de lo que su flujo podía aguantar** en un mal año.
+
+## Capital: más caro si todo sale bien, más seguro si sale mal
+El socio no cobra intereses, pero se lleva una parte de **todas las utilidades futuras** y de lo que valga la empresa si se vende. Si el negocio va muy bien, el capital resulta **mucho más caro** que la deuda. Pero si va mal, el socio comparte la pérdida y no hay pagos que ahoguen al negocio.
+
+Por eso se dice que el capital es la fuente **más cara** en los buenos escenarios y la **más segura** en los malos.
+
+## Una comparación con números
+Volvamos a Tortas Lupita. La nueva sucursal debería dejar 25,000 de utilidad al mes en el escenario probable, unos 300,000 al año, antes del financiamiento.
+- **Con el Banco A:** paga 11,900 al mes durante 3 años. En 3 años paga 78,400 de intereses. Después, el negocio es 100 % de Lupita y Toño.
+- **Con Ramírez:** no paga nada mensual, pero Ramírez tiene el 20 % de **todo el negocio** (las dos sucursales) para siempre. Si el negocio completo deja 600,000 al año y se reparte todo, a Ramírez le tocan 120,000 **cada año**, no solo tres años.
+
+En el escenario probable, en tres años Ramírez recibiría unos 360,000 en utilidades (y conserva su 20 %), mientras el banco cobra 78,400 de intereses y se va. **Si el negocio va bien, el banco es mucho más barato.**
+
+Pero en el escenario pesimista (la sucursal deja solo 10,000 al mes), el pago de 11,900 no cabe: el negocio tendría que poner dinero de la primera sucursal cada mes. Con Ramírez, simplemente habría menos utilidades que repartir.
+
+## Señales para preferir deuda
+- El negocio tiene **flujo estable y predecible**.
+- El proyecto tiene **poco riesgo** (por ejemplo, un equipo que ahorra costos de forma segura).
+- Los pagos caben aun en un escenario pesimista.
+- El dueño valora mucho conservar el control y las ganancias futuras.
+- Hay acceso a crédito a un costo razonable.
+
+## Señales para preferir capital
+- El proyecto es **arriesgado** o incierto.
+- El negocio **no genera todavía flujo suficiente** para pagar.
+- El socio aporta algo más que dinero (clientes, experiencia, canal).
+- El negocio ya tiene mucha deuda.
+- El crecimiento esperado es tan alto que conviene compartir el riesgo.
+
+## La mezcla
+En la práctica, muchas empresas combinan ambos. Una regla de prudencia es que la deuda no crezca más allá de lo que el flujo puede pagar con holgura. En empresas grandes se mide, por ejemplo, con la **deuda neta entre EBITDA**: cuántos años de flujo operativo harían falta para pagar la deuda. En negocios chicos, la prueba más sencilla es el **flujo en el escenario pesimista**.
+
+## Otras opciones intermedias
+- **Préstamo de un socio:** el socio presta dinero en lugar de comprar una parte; cobra intereses, no se diluye nadie.
+- **Deuda convertible:** un préstamo que, bajo ciertas condiciones, se convierte en acciones. Común en empresas emergentes.
+- **Participación en ventas:** el inversionista recibe un porcentaje de las ventas hasta recuperar cierto monto.
+- **Combinación:** parte con crédito y parte con socio, para reducir el pago mensual sin ceder tanto.
+
+## La decisión de Lupita y Toño
+Después de comparar, deciden una mezcla: piden 200,000 al banco (pago aproximado de 6,800 al mes a 36 meses, que cabe aun en el escenario pesimista) y Ramírez presta 150,000 con un interés acordado y la opción de convertir ese préstamo en un 8 % del negocio si en dos años la segunda sucursal funciona. Así reducen el riesgo de los pagos y no ceden propiedad de inmediato.`,
+k: `**Deuda:** costo conocido, el dueño se queda con todo lo extra si va bien (**apalancamiento**), pero hay que pagar aunque vaya mal. **Capital:** sin pagos fijos y comparte el riesgo, pero el socio se lleva una parte de **todas** las ganancias futuras. Deuda para proyectos de flujo estable; capital para proyectos arriesgados. Prueba clave: **¿los pagos caben en el escenario pesimista?**`,
+ch: `Una papelería necesita 100,000 para surtir en el regreso a clases. Como es un gasto de temporada que se recupera en dos meses, usa crédito de proveedores y una línea de crédito, no un socio que se quede con parte del negocio para siempre.`,
+gi: `Las grandes empresas mantienen una estructura de capital que combina deuda (bonos y créditos) y capital (acciones). Las agencias calificadoras vigilan su nivel de deuda frente a su EBITDA; si sube demasiado, bajan su calificación y su deuda se encarece.`,
+e: `Comparación a 3 años (escenario probable, toda la utilidad se reparte):
+
+| | Banco A (350,000) | Socio Ramírez (20 %) |
+|---|---|---|
+| Pagos mensuales | 11,900 × 36 | 0 |
+| Costo financiero en 3 años | 78,400 de intereses | 20 % de 600,000 × 3 = 360,000 en utilidades |
+| Después de 3 años | Sin deuda; 100 % de los dueños | Ramírez sigue con el 20 % para siempre |
+| Escenario pesimista | El pago de 11,900 no cabe si la sucursal deja 10,000 | Solo hay menos utilidades para repartir |
+
+Conclusión: si el negocio va bien, la deuda es mucho más barata; si va mal, el capital es más seguro. Por eso eligen una mezcla con un pago que cabe en el escenario pesimista.`,
+r: `Cemex creció en la década de 2000 con adquisiciones financiadas en gran parte con deuda; tras comprar la australiana Rinker en 2007, la crisis de 2008 redujo sus ventas y la empresa tuvo que refinanciar su deuda con sus bancos en 2009 y vender activos, según sus informes anuales. Es un ejemplo público de los riesgos del apalancamiento alto (se estudia en el Módulo 28).`,
+f: `Cemex, informes anuales 2007–2010 y comunicados sobre el acuerdo de financiamiento de 2009.`,
+err: ["Pensar que el dinero de un socio es «gratis» porque no tiene pagos mensuales.","Endeudarse sin revisar si los pagos caben en un escenario pesimista.","Ceder capital para un proyecto de bajo riesgo que se podría pagar con crédito.","No considerar opciones intermedias, como el préstamo de un socio o la deuda convertible."],
+a: `Un negocio necesita 300,000 para un proyecto que dejará 15,000 al mes en el escenario probable y 6,000 en el pesimista. Opción A: crédito con pago de 9,500 al mes por 3 años. Opción B: un socio por el 25 % del negocio, que deja 400,000 al año en total. Compara ambas en los dos escenarios y recomienda una.`,
+sol: `En el escenario pesimista, el pago de 9,500 no cabe con 6,000, así que la deuda pura es peligrosa. El socio cuesta 100,000 al año para siempre. Una buena recomendación es una mezcla (un crédito menor con pago que quepa en 6,000 y el resto con socio o préstamo de socio) o reducir el proyecto.`,
+q: [["¿En qué escenario la deuda resulta más barata que el capital?",["Cuando el negocio va bien","Cuando el negocio va mal","Nunca"],0,"El banco solo cobra lo pactado; el socio comparte todas las ganancias."],
+["El apalancamiento es…",["Usar dinero prestado para multiplicar el rendimiento del dinero propio","No tener deudas","Vender acciones"],0,"Funciona en los dos sentidos."],
+["Un proyecto muy arriesgado y sin flujo estable se financia mejor con…",["Capital (socios)","Deuda de corto plazo","Tarjetas de crédito"],0,"El socio comparte el riesgo."],
+["La prueba más sencilla para saber si una deuda es prudente es…",["Ver si los pagos caben en el escenario pesimista","Ver si el banco la aprueba","Comparar el color del logo"],0,"Así se evita quedar ahogado en un mal año."]],
+t: ["Apalancamiento","Estructura de capital","Deuda convertible","Escenario pesimista"]
+},
+"M19-7": {
+s: `Una incubadora de la universidad le ofrece a Toño presentar el proyecto de franquicias de Tortas Lupita frente a un grupo de inversionistas. Tendrá diez minutos. Le piden un «plan de negocio» y una «presentación para inversionistas». Toño nunca ha hecho ninguno de los dos. ¿Qué debe llevar y qué le van a preguntar?`,
+o: ["Describir las partes de un plan de negocio sencillo.","Preparar una presentación breve para inversionistas o bancos.","Anticipar las preguntas más comunes y responderlas con datos."],
+x: `## Para qué sirve un plan de negocio
+Un **plan de negocio** es un documento que explica qué es el negocio, a quién le vende, cómo gana dinero, qué necesita, cuánto dinero pide y qué espera lograr. Sirve para dos cosas:
+1. **Para el dueño:** obliga a pensar con orden, a poner números y a detectar huecos antes de arriesgar dinero.
+2. **Para terceros:** bancos, socios, inversionistas o programas de gobierno quieren entender el proyecto antes de poner dinero.
+
+Un buen plan no tiene que ser largo. Para una pyme, de 10 a 20 páginas bien pensadas valen más que 80 páginas de relleno.
+
+## Las partes de un plan de negocio
+1. **Resumen ejecutivo:** una página con lo esencial: qué es, qué problema resuelve, el mercado, los números clave, cuánto dinero se pide y para qué. Se escribe al final, pero va al principio.
+2. **El negocio y su historia:** qué hace, desde cuándo, logros hasta hoy.
+3. **El problema y la propuesta de valor:** qué necesidad atiende y por qué los clientes eligen este negocio (Módulo 4).
+4. **El mercado y los clientes:** tamaño del mercado, segmentos, tendencias, competidores.
+5. **Modelo de negocio:** cómo gana dinero; puedes incluir el lienzo de 9 bloques.
+6. **Marketing y ventas:** cómo llegará a los clientes.
+7. **Operaciones:** cómo se produce y entrega; proveedores; ubicación.
+8. **Equipo y organización:** quién dirige, organigrama, puestos clave que faltan.
+9. **Finanzas:** historia (si existe) y proyecciones de 3 a 5 años: ventas, estado de resultados, flujo de caja y escenarios.
+10. **Necesidad de dinero:** cuánto, para qué exactamente (tabla de usos) y qué se ofrece a cambio (intereses o participación).
+11. **Riesgos:** los principales riesgos y cómo se reducirán (matriz de riesgos, lección M16-7).
+12. **Anexos:** documentos de respaldo.
+
+## La presentación para inversionistas
+Para una reunión, el plan se resume en una presentación de **10 a 15 diapositivas**. Una estructura muy usada:
+1. **Portada:** nombre, una frase que diga qué hace.
+2. **Problema.**
+3. **Solución** (tu producto o servicio).
+4. **Mercado:** cuántos clientes potenciales y cuánto gastan.
+5. **Modelo de negocio:** cómo ganas dinero.
+6. **Tracción:** lo que ya lograste (ventas, crecimiento, clientes). Es lo que más convence.
+7. **Competencia:** quién más lo hace y por qué eres distinto.
+8. **Estrategia de crecimiento.**
+9. **Equipo.**
+10. **Finanzas:** proyecciones resumidas.
+11. **La petición:** cuánto pides, para qué y qué ofreces.
+12. **Cierre:** contacto.
+
+## Las preguntas que siempre hacen
+Prepárate para estas preguntas; muchas veces la reunión se decide en las respuestas:
+- **¿Cuánto venden hoy y cuánto ganan?** Ten los números a la mano, sin redondear de más.
+- **¿Por qué los clientes los eligen a ustedes y no a la competencia?**
+- **¿Qué pasa si un competidor grande copia la idea?**
+- **¿Cómo llegaron a esas proyecciones?** Cada número debe tener un supuesto explicable.
+- **¿En qué exactamente gastarán el dinero?**
+- **¿Cuándo se recupera la inversión o cuándo ganará el inversionista?**
+- **¿Qué riesgos ven y qué harán si las cosas salen peor?**
+- **¿Quién del equipo hace qué, y quién falta?**
+- **¿Por qué esta valuación?** (lección M19-5).
+
+## Proyecciones creíbles
+Los inversionistas y los bancos desconfían de las proyecciones que muestran crecimiento enorme sin explicación (la famosa gráfica en forma de «palo de hockey»). Para que sean creíbles:
+- Parten de **datos reales** del negocio actual.
+- Explican cada supuesto: «una sucursal nueva vende el 80 % de la primera durante el primer año, porque…».
+- Incluyen **escenarios** pesimista, probable y optimista.
+- Muestran el **flujo de caja**, no solo las utilidades.
+
+## Errores que hacen perder la confianza
+- Decir «no tenemos competencia».
+- Inflar el tamaño del mercado («si cada mexicano compra una torta…»).
+- No saber los números propios.
+- No explicar para qué es el dinero.
+- Pedir una valuación sin fundamento.
+- Hablar 20 minutos sin dejar espacio a preguntas.
+
+## Presentar a un banco frente a un inversionista
+| | Banco | Inversionista |
+|---|---|---|
+| Le interesa más | Que puedas pagar | Cuánto puede crecer su parte |
+| Mira | Historial, flujo, garantías | Mercado, equipo, potencial |
+| Riesgo que acepta | Bajo | Alto |
+| Pregunta clave | «¿Cómo me vas a pagar?» | «¿Cuánto puede valer esto?» |
+
+Adapta el énfasis según a quién le presentas.
+
+## La presentación de Toño
+Toño arma 11 diapositivas. Su mejor argumento es la **tracción**: el local lleva cuatro años con ventas crecientes y una utilidad estable, y tiene procesos escritos (Módulo 9) que permiten replicarlo. Su petición: 350,000 para la segunda sucursal, con dos alternativas (crédito o participación). Ensaya con Lupita las preguntas difíciles y prepara una hoja con los supuestos de sus proyecciones.
+
+## Después de la reunión
+Pocas veces un inversionista o un banco dice «sí» en la primera reunión. Lo normal es que pida más información, una segunda reunión o revisar documentos (a esa revisión se le llama **auditoría de compra** o *due diligence*). Toño debe enviar al día siguiente un correo de agradecimiento con lo que le pidieron, responder rápido y con datos, y llevar un registro de cada contacto. Un «no» también deja algo: pregunta por qué, porque esa respuesta te dice qué mejorar para la próxima presentación.`,
+k: `**Plan de negocio:** documento que explica el negocio, el mercado, el modelo, las operaciones, el equipo, las finanzas, cuánto dinero se pide y los riesgos. **Presentación para inversionistas:** 10–15 diapositivas: problema, solución, mercado, modelo, **tracción**, competencia, equipo, finanzas y la petición. Proyecciones creíbles = datos reales + supuestos explicados + escenarios.`,
+ch: `Una cocinera que quiere un crédito de un programa de gobierno para comprar un horno industrial presenta un plan de 8 páginas: qué vende, a quién, cuánto vende hoy, cuánto venderá con el horno y cómo pagará el crédito.`,
+gi: `Antes de salir a bolsa, una empresa prepara un prospecto de cientos de páginas con su historia, su negocio, sus riesgos, sus estados financieros auditados y el uso de los recursos: es el «plan de negocio» más exigente que existe.`,
+e: `Tabla de usos del dinero que Toño presenta:
+
+| Uso | Monto | % |
+|---|---|---|
+| Obra y adecuación | 120,000 | 34 % |
+| Equipo | 140,000 | 40 % |
+| Inventario inicial | 40,000 | 11 % |
+| Colchón de operación | 50,000 | 14 % |
+| **Total solicitado** | **350,000** | 100 % (redondeado) |
+
+Supuestos de ventas de la sucursal: primer año, 80 % de las ventas de la primera (por ser nueva); segundo año, 95 %. Escenario pesimista: 60 %.`,
+r: `Muchas aceleradoras y fondos publican guías sobre cómo preparar una presentación para inversionistas. Coinciden en mostrar el problema, la solución, el mercado, la tracción, el equipo y la petición en pocas diapositivas, y en que la tracción con datos reales suele ser el argumento más convincente.`,
+f: `Guías públicas de aceleradoras y de programas de emprendimiento de universidades y de gobierno.`,
+err: ["Decir que no hay competencia.","Presentar proyecciones sin supuestos ni escenarios.","No saber los números del propio negocio.","No explicar para qué exactamente se usará el dinero.","Usar la misma presentación para un banco y para un inversionista sin adaptarla."],
+a: `Escribe el resumen ejecutivo (una página) de un plan de negocio para la segunda sucursal de Tortas Lupita o para un negocio que conozcas. Incluye: qué es, qué problema resuelve, números clave, cuánto dinero se pide, para qué y qué se ofrece a cambio.`,
+sol: `Un buen resumen cabe en una página, empieza con lo que hace el negocio y su tracción, da cifras concretas (ventas, utilidad, crecimiento), dice exactamente cuánto se pide y para qué, y termina con lo que se ofrece (intereses o participación) y el plazo esperado.`,
+q: [["¿Qué parte del plan se escribe al final pero va al principio?",["El resumen ejecutivo","Los anexos","El índice"],0,"Resume lo esencial en una página."],
+["En una presentación a inversionistas, la «tracción» es…",["Lo que el negocio ya logró: ventas, clientes, crecimiento","El tipo de letra","El logo"],0,"Suele ser el argumento más convincente."],
+["Las proyecciones son más creíbles cuando…",["Parten de datos reales, explican supuestos e incluyen escenarios","Muestran un crecimiento enorme sin explicación","No tienen números"],0,"Evitan el «palo de hockey» sin fundamento."],
+["A un banco le interesa sobre todo…",["Que puedas pagar el crédito","Que tu empresa valga 100 veces más","El diseño de tu presentación"],0,"Mira historial, flujo y garantías."]],
+t: ["Plan de negocio","Resumen ejecutivo","Presentación para inversionistas","Tracción","Proyecciones financieras"]
+}
+});
+
+// ===== M20. Sucursales y cadenas =====
+Object.assign(window.LECC, {
+"M20-1": {
+s: `El local de Tortas Lupita tiene fila todos los días a la hora de la comida y hasta rechaza pedidos de oficinas. Toño dice: «Es la señal: hay que abrir otra sucursal ya». Lupita duda: «¿Y si lo que pasa es que nos falta una plancha más aquí?». Abrir una segunda sucursal es una de las decisiones más grandes de un negocio. ¿Cómo saber si es el momento?`,
+o: ["Reconocer las señales de que un negocio está listo para una segunda sucursal.","Distinguir entre falta de capacidad y oportunidad de mercado nuevo.","Revisar los requisitos mínimos antes de abrir."],
+x: `## La segunda sucursal: el salto más difícil
+Muchos empresarios dicen que abrir la segunda sucursal es más difícil que abrir la décima. La razón: con un solo local, **el dueño está presente** y resuelve todo con su experiencia. Con dos locales, el dueño **ya no puede estar en ambos**. Por primera vez, el negocio tiene que funcionar sin su mirada constante. Es una prueba de profesionalización (lección M18-3).
+
+## Señales de que puede ser el momento
+- **Demanda que no cabe:** filas largas, pedidos rechazados, clientes que vienen de lejos.
+- **Rentabilidad probada y estable:** el primer local gana dinero de forma constante desde hace al menos uno o dos años, no solo en una buena temporada.
+- **Procesos escritos:** recetas, procedimientos de apertura y cierre, estándares de calidad y de servicio (Módulo 9).
+- **Un equipo que funciona sin el dueño:** hay al menos una persona capaz de encargarse del local actual o del nuevo.
+- **Números ordenados:** se sabe cuánto se vende, cuánto cuesta cada torta y cuál es el margen (Módulos 5 y 8).
+- **Dinero o financiamiento** para la inversión y un colchón (Módulo 19).
+- **Clientes de otras zonas** que piden una sucursal cerca.
+
+## Señales de alerta: todavía no
+- El primer local gana poco o depende de una temporada.
+- Todo depende del dueño: si se va un día, el servicio cae.
+- No hay recetas ni procedimientos escritos.
+- El dueño quiere abrir para «salir del local» porque está cansado (abrir otro local lo cansará más).
+- El dinero de la inversión dejaría al negocio sin colchón.
+
+## ¿Falta de capacidad o mercado nuevo?
+La pregunta de Lupita es muy buena. Hay dos situaciones distintas que pueden parecer iguales:
+1. **Falta de capacidad en el local actual:** los clientes vienen, pero no alcanzan a atenderse. La solución puede ser **ampliar** en el mismo lugar: otra plancha, mejor flujo de trabajo, preparar ingredientes antes de la hora pico, pedidos por WhatsApp para recoger, otra persona en la hora pico. Es más barato y menos riesgoso.
+2. **Mercado nuevo:** hay clientes potenciales **en otra zona** que no vendrán al local actual por distancia. Ahí sí, una nueva sucursal capta ventas que hoy no existen.
+
+Antes de abrir, conviene resolver los cuellos de botella del local actual (lección M9-4). Si con eso la demanda sigue sin caber, o si hay clientes en otra zona, se justifica la sucursal.
+
+## El riesgo de la «canibalización»
+Si la nueva sucursal está demasiado cerca de la primera, puede **quitarle clientes** a la propia: a eso se le llama **canibalización**. Las ventas totales crecen menos de lo esperado. Las cadenas grandes estudian cuidadosamente la distancia entre sus tiendas para que cada una tenga su propia zona de clientes.
+
+## Los requisitos mínimos
+Antes de firmar un contrato de renta, revisa:
+1. **Manual de operación básico:** recetas con cantidades, procedimientos, lista de verificación diaria.
+2. **Encargado:** una persona de confianza, capacitada, con autoridad definida.
+3. **Sistema de control:** punto de venta en ambas sucursales, corte de caja diario, inventario (Módulo 15 y lección M17-6).
+4. **Compras centralizadas:** un solo responsable que negocie con los proveedores para ambas sucursales.
+5. **Plan financiero:** inversión, punto de equilibrio de la nueva sucursal, flujo de caja de 12 meses y escenarios.
+6. **Requisitos legales:** licencia de funcionamiento, Protección Civil, permisos sanitarios y alta del nuevo establecimiento ante el SAT.
+
+## El punto de equilibrio de la sucursal
+La nueva sucursal tiene sus propios costos fijos: renta, sueldos, servicios. En Tortas Lupita, la sucursal tendría costos fijos de 58,000 al mes. Con un margen de contribución de 24 pesos por torta (precio 40 menos costo variable 16), el punto de equilibrio es 58,000 ÷ 24 ≈ **2,417 tortas al mes**, unas **93 tortas al día** en 26 días de trabajo. Si la zona elegida no puede dar esa venta de forma realista, la sucursal perderá dinero.
+
+## El tiempo de maduración
+Una sucursal nueva casi nunca vende desde el primer día lo mismo que la original. La gente tiene que conocerla. Es normal que tarde de 6 a 18 meses en **madurar**. El plan financiero debe incluir esos meses de ventas bajas, y el colchón debe cubrirlos.
+
+## La decisión de Tortas Lupita
+Lupita y Toño hacen primero lo barato: compran una segunda plancha, organizan la preparación de ingredientes antes de las 13:00 y abren pedidos por WhatsApp para recoger. La fila baja de 25 a 10 minutos. Pero las oficinas de un parque industrial a 6 kilómetros siguen pidiendo pedidos grandes, y varios clientes dicen que «si estuvieran más cerca, vendrían diario». Eso sí es un mercado nuevo. Deciden preparar la segunda sucursal en esa zona, con un plan de 12 meses.
+
+## Una última pregunta
+Antes de firmar, Lupita se hace una pregunta sencilla: «Si mañana la nueva sucursal tuviera que cerrar, ¿el local original seguiría sano?». Si la respuesta es sí, el riesgo es aceptable.`,
+k: `**Abrir una segunda sucursal** exige: rentabilidad probada, procesos escritos, un equipo que funcione sin el dueño, números ordenados y dinero con colchón. Distingue **falta de capacidad** (se resuelve ampliando) de **mercado nuevo** (justifica sucursal). Cuida la **canibalización** y calcula el **punto de equilibrio** propio de la sucursal y su tiempo de **maduración**.`,
+ch: `Una tienda de abarrotes con mucha clientela decide, antes de abrir otra, ampliar su horario y agregar un refrigerador. Solo cuando ve que llegan clientes de una colonia lejana abre una segunda tienda ahí.`,
+gi: `Las cadenas de conveniencia y de comida rápida usan estudios de zonas de influencia para decidir dónde abrir, de modo que una tienda nueva no le quite demasiados clientes a las existentes.`,
+e: `Punto de equilibrio de la segunda sucursal:
+
+| Dato | Valor |
+|---|---|
+| Costos fijos mensuales | 58,000 |
+| Precio por torta | 40 |
+| Costo variable por torta | 16 |
+| Margen de contribución | 24 |
+| Punto de equilibrio | 58,000 ÷ 24 ≈ **2,417 tortas/mes** |
+| Por día (26 días) | ≈ **93 tortas** |
+
+El local original vende unas 300 tortas al día. Si la sucursal madura al 80 % (240 al día), deja buena utilidad; si se queda en 35 % (105 al día), apenas supera el equilibrio.`,
+hr: "equilibrio",
+r: `En sus informes, FEMSA explica que analiza cada nueva ubicación de OXXO considerando factores como el flujo de personas, la población de la zona y la distancia con otras tiendas; el modelo de crecimiento de la cadena se basa en abrir muchas tiendas pequeñas con un formato estandarizado (lección M20-7).`,
+f: `FEMSA, informes anuales (sección de FEMSA Comercio / Proximidad).`,
+err: ["Abrir una sucursal porque hay fila, sin intentar antes ampliar la capacidad del local actual.","Abrir cuando el primer local aún no es rentable de forma estable.","Ubicar la nueva sucursal tan cerca que le quita clientes a la primera.","No prever los meses de maduración con ventas bajas.","Dejar al primer local sin encargado capacitado."],
+a: `Haz una lista de verificación de 10 puntos para decidir si un negocio que conoces está listo para una segunda sucursal. Califícalo (sí / no / a medias) en cada punto y escribe tu conclusión.`,
+sol: `La lista debería incluir: rentabilidad estable, procesos escritos, encargado capacitado, números ordenados, sistema de control, compras centralizadas, financiamiento con colchón, mercado nuevo identificado, punto de equilibrio realista y requisitos legales.`,
+q: [["Si hay fila en el local pero los clientes no vienen de lejos, lo primero es…",["Revisar si se puede ampliar la capacidad del local actual","Abrir tres sucursales","Subir el precio al doble"],0,"Puede ser falta de capacidad, no mercado nuevo."],
+["La canibalización ocurre cuando…",["Una sucursal nueva le quita clientes a una propia","Se acaba el inventario","El proveedor sube precios"],0,"Por eso se cuida la distancia entre sucursales."],
+{n:1,t:"Una sucursal tiene costos fijos de 58,000 al mes y un margen de contribución de 24 pesos por torta. ¿Cuántas tortas al mes necesita para no perder? (redondea hacia arriba)",a:2417,tol:1,u:"tortas",e:"58,000 ÷ 24 = 2,416.7 → 2,417 tortas."},
+["¿Por qué la segunda sucursal es un salto tan difícil?",["Porque el dueño ya no puede estar en ambos locales","Porque es ilegal tener dos","Porque los proveedores no venden a dos locales"],0,"El negocio debe funcionar sin la mirada constante del dueño."]],
+t: ["Sucursal","Canibalización","Maduración de una sucursal","Zona de influencia"]
+},
+"M20-2": {
+s: `Toño encontró tres locales en renta cerca del parque industrial. El primero está en la avenida principal, pero la renta es altísima. El segundo es barato, pero en una calle por donde casi no pasa nadie. El tercero está junto a la entrada de una fábrica, pero hay dos puestos de comida enfrente. ¿Cómo comparar ubicaciones sin dejarse llevar por la intuición?`,
+o: ["Identificar los factores que hacen buena una ubicación para un negocio.","Estimar las ventas potenciales de una ubicación a partir del flujo de personas.","Comparar ubicaciones con una matriz ponderada."],
+x: `## La ubicación es parte del producto
+En los negocios de venta al público, **la ubicación es una de las decisiones más importantes y más difíciles de corregir**. Un error de precio se corrige mañana; un mal local se queda contigo durante años de contrato. Por eso las cadenas grandes estudian cada ubicación con mucho cuidado.
+
+## Los factores clave
+1. **Flujo de personas o de autos:** cuánta gente pasa por enfrente, a qué horas y en qué dirección. No basta con que pasen: tienen que ser **clientes potenciales** (una avenida con autos a 70 km/h no sirve para una tortería).
+2. **Perfil de la zona:** ¿quiénes viven o trabajan cerca? ¿Oficinas, fábricas, escuelas, casas? ¿Qué poder de compra tienen?
+3. **Generadores de tráfico:** lugares que atraen gente: escuelas, hospitales, estaciones de transporte, mercados, oficinas, fábricas.
+4. **Competencia:** cuántos negocios parecidos hay, qué precios tienen y qué tan llenos están. A veces la competencia **ayuda** (una zona conocida por su comida atrae gente); otras veces satura.
+5. **Visibilidad y acceso:** ¿se ve el local desde lejos? ¿Hay dónde estacionarse o pararse? ¿Es fácil entrar?
+6. **Costo:** renta, depósito, adecuaciones, mantenimiento. La renta debe guardar proporción con las ventas esperadas.
+7. **Condiciones del contrato:** plazo, aumentos anuales, quién paga las reparaciones, si se puede ceder.
+8. **Requisitos legales:** uso de suelo permitido para alimentos, Protección Civil, instalaciones de gas y agua.
+9. **Seguridad de la zona.**
+10. **Espacio y distribución:** tamaño de la cocina, área de atención, bodega.
+
+## Estimar ventas a partir del flujo
+Un método sencillo, inspirado en el embudo de ventas (lección M11-3):
+1. **Contar** a las personas que pasan frente al local en distintos horarios (por ejemplo, 15 minutos en cada franja y multiplicar).
+2. Estimar qué porcentaje **son clientes potenciales** (trabajadores, estudiantes con hambre a la hora de comer).
+3. Estimar qué porcentaje de ellos **compraría** (la tasa de conversión), comparando con el local actual.
+4. Multiplicar por el **ticket promedio**.
+
+Por ejemplo: pasan 2,500 personas al día; 60 % son trabajadores de la zona (1,500); si 6 % compra (90 personas) con un ticket de 75 pesos (casi dos tortas o torta con bebida), las ventas serían 6,750 al día. Es una estimación: conviene hacerla para varios días, incluido un fin de semana.
+
+## La regla de la renta
+Una guía común en restaurantes es que la **renta no supere entre el 8 % y el 12 % de las ventas** (varía por país y tipo de negocio). Si un local cuesta 30,000 al mes y se esperan ventas de 150,000, la renta es el 20 %: demasiado alta, salvo que el local tenga algo excepcional.
+
+## La matriz ponderada
+Para comparar varias ubicaciones con orden, se usa una **matriz ponderada** (la misma idea que la matriz de proveedores de la lección M10-2 y la de decisiones de la lección M16-3):
+1. Elegir los **criterios** importantes.
+2. Darle a cada uno un **peso** (que sumen 100 %).
+3. Calificar cada ubicación de 1 a 5 en cada criterio.
+4. Multiplicar calificación por peso y sumar.
+
+La matriz no decide por ti, pero obliga a pensar en todos los factores y a no dejarse llevar por uno solo (como la renta baja).
+
+## Investigar antes de firmar
+- Visita la zona **en distintos días y horarios**: lunes, viernes, sábado; mañana, mediodía y noche.
+- Habla con vecinos y negocios cercanos: ¿cómo les va? ¿Por qué cerró el negocio que estaba antes en ese local?
+- Revisa planes de la zona: ¿viene una obra, un centro comercial, un cambio de rutas de transporte?
+- Pregunta en el municipio por el **uso de suelo**.
+- Revisa el contrato con un abogado (lección M14-2).
+
+## Herramientas que hoy son accesibles
+Además de contar personas a mano, hay herramientas gratuitas o baratas: los mapas en línea muestran negocios cercanos y sus reseñas; el INEGI publica el **DENUE** (Directorio Estadístico Nacional de Unidades Económicas), donde se pueden ver los negocios de una zona por giro, y datos de población por manzana. Las cadenas grandes usan además datos de celulares, sistemas de información geográfica y modelos estadísticos.
+
+## La elección de Toño
+Toño cuenta personas en los tres locales durante tres días y arma la matriz (ver el ejemplo). El local de la avenida tiene el mejor flujo, pero la renta se come casi el 20 % de las ventas esperadas. El de la calle tranquila es barato pero no tiene clientes. El de la entrada de la fábrica tiene competencia, pero 1,200 trabajadores entran y salen dos veces al día y los puestos de enfrente tienen filas: hay demanda insatisfecha. Gana la tercera opción.
+
+## Negociar el contrato
+Una vez elegido el local, negocia: meses de gracia mientras haces la obra, un plazo de al menos tres a cinco años con aumentos anuales limitados (por ejemplo, ligados a la inflación), el derecho a renovar y la posibilidad de ceder el contrato si vendes el negocio. Pon todo por escrito.`,
+k: `**Ubicación:** flujo de clientes potenciales, perfil de la zona, generadores de tráfico, competencia, visibilidad, costo y requisitos legales. **Ventas estimadas = personas que pasan × % de clientes potenciales × % que compra × ticket promedio.** Guía: renta entre 8 % y 12 % de las ventas. Compara opciones con una **matriz ponderada**.`,
+ch: `Una señora que quiere abrir una papelería cuenta durante una semana cuántos estudiantes pasan por dos esquinas cerca de una secundaria, a la entrada y a la salida. Elige la esquina por donde pasa el doble, aunque la renta sea un poco mayor.`,
+gi: `Las grandes cadenas de tiendas utilizan sistemas de información geográfica que combinan datos de población, ingresos, tráfico y ubicación de la competencia para predecir las ventas de una tienda antes de abrirla.`,
+e: `Matriz ponderada de las tres ubicaciones (calificaciones de 1 a 5):
+
+| Criterio | Peso | Avenida | Calle tranquila | Entrada de fábrica |
+|---|---|---|---|---|
+| Flujo de clientes potenciales | 35 % | 5 | 2 | 4 |
+| Costo de renta | 25 % | 1 | 5 | 4 |
+| Competencia | 15 % | 3 | 4 | 2 |
+| Visibilidad y acceso | 15 % | 5 | 2 | 4 |
+| Espacio y permisos | 10 % | 4 | 3 | 4 |
+| **Total** | 100 % | **3.60** | **3.15** | **3.70** |
+
+Cálculo de la avenida: 5 × 0.35 + 1 × 0.25 + 3 × 0.15 + 5 × 0.15 + 4 × 0.10 = 1.75 + 0.25 + 0.45 + 0.75 + 0.40 = 3.60. La entrada de la fábrica gana por poco; la diferencia la hace la renta.`,
+r: `El INEGI publica el Directorio Estadístico Nacional de Unidades Económicas (DENUE), que permite consultar en un mapa los establecimientos de una zona por actividad económica. Es una herramienta gratuita útil para conocer la competencia antes de elegir un local.`,
+f: `INEGI, Directorio Estadístico Nacional de Unidades Económicas (DENUE), inegi.org.mx.`,
+err: ["Elegir el local más barato sin medir el flujo de clientes.","Visitar la zona solo una vez y en un solo horario.","Firmar el contrato sin revisar el uso de suelo y los permisos.","No preguntar por qué cerró el negocio anterior en ese local.","Pagar una renta desproporcionada respecto a las ventas esperadas."],
+a: `Elige dos esquinas o locales de tu colonia. Cuenta durante 15 minutos a las personas que pasan en dos horarios distintos y multiplica para estimar el flujo diario. Arma una matriz ponderada con cinco criterios y decide cuál elegirías para una tortería.`,
+sol: `La respuesta debe incluir conteos en al menos dos horarios, una estimación del flujo diario, cinco criterios con pesos que sumen 100 %, calificaciones de 1 a 5 y un total ponderado para cada opción, con una conclusión justificada.`,
+q: [["Para un negocio de comida, ¿qué flujo importa?",["El de clientes potenciales que pueden detenerse a comprar","Cualquier auto que pase a alta velocidad","El de aviones"],0,"No basta con que pase gente: deben ser clientes potenciales."],
+{n:1,t:"Pasan 2,500 personas al día; 60 % son clientes potenciales; compra el 6 % de ellos con un ticket de 75 pesos. ¿Cuánto se vendería al día (en pesos)?",a:6750,tol:1,u:"pesos",e:"2,500 × 0.60 = 1,500; × 0.06 = 90 clientes; × 75 = 6,750."},
+["Una renta de 30,000 con ventas esperadas de 150,000 representa…",["20 % de las ventas: demasiado alta según la guía","2 % de las ventas","Lo ideal"],0,"La guía común es entre 8 % y 12 %."],
+["La matriz ponderada sirve para…",["Comparar ubicaciones considerando varios criterios con distinto peso","Calcular impuestos","Hacer el organigrama"],0,"Evita decidir por un solo factor."]],
+t: ["Ubicación","Flujo de personas","Generador de tráfico","Matriz ponderada","DENUE"]
+},
+"M20-3": {
+s: `La segunda sucursal abrió. A las dos semanas, un cliente que va a ambas le dice a Lupita: «En la nueva la torta trae menos carne, la salsa es distinta y tardan el doble». Cada sucursal está haciendo las cosas «a su manera». ¿Cómo lograr que todas las sucursales sean iguales?`,
+o: ["Explicar qué es estandarizar y por qué es la base de una cadena.","Describir las herramientas de estandarización: recetas, manuales, capacitación y supervisión.","Diseñar estándares medibles para un producto y un servicio."],
+x: `## Qué es estandarizar
+**Estandarizar** es definir **una sola forma correcta** de hacer cada cosa importante y lograr que todos la sigan, en cualquier sucursal y en cualquier turno. Es lo que permite que una cadena entregue la misma experiencia en mil lugares distintos. Sin estándares, cada sucursal es un negocio diferente con el mismo nombre, y la marca pierde su promesa.
+
+## Por qué importa tanto
+- **El cliente compra una promesa:** si una sucursal decepciona, el cliente desconfía de todas.
+- **Costos controlados:** si cada tortero pone «más o menos» carne, el costo variable cambia y el margen se vuelve impredecible.
+- **Capacitación más rápida:** un nuevo empleado aprende un método, no diez.
+- **Control:** solo se puede comparar y supervisar lo que está definido.
+- **Crecimiento:** sin estándares no hay cadena ni franquicia posible (Módulo 21).
+
+## Qué se estandariza
+1. **Producto:** recetas con cantidades exactas (gramos de carne, rebanadas de aguacate), presentación, temperatura, tiempo de preparación.
+2. **Servicio:** saludo, tiempo máximo de espera, forma de tomar el pedido, cómo resolver una queja.
+3. **Procesos:** apertura y cierre, limpieza, recepción de mercancía, corte de caja.
+4. **Imagen:** letreros, colores, uniformes, menú, música, distribución del local.
+5. **Compras:** proveedores autorizados y especificaciones de cada insumo.
+6. **Información:** mismos reportes, mismo sistema de punto de venta, mismos indicadores.
+
+## Las herramientas
+- **Ficha técnica o receta estándar:** cada producto con ingredientes, cantidades, costo, pasos y una foto de cómo debe verse. Ejemplo: «Torta de milanesa: 1 telera, 120 g de milanesa, 30 g de frijoles, 2 rebanadas de jitomate, 20 g de aguacate…».
+- **Manual de operación:** el libro que reúne todos los procedimientos (lección M9-9). Es la «memoria» del negocio.
+- **Listas de verificación:** para que nada se olvide en la apertura, el cierre o la limpieza.
+- **Capacitación estructurada:** cada empleado nuevo pasa por el mismo programa y una prueba práctica antes de atender solo.
+- **Herramientas físicas que obligan al estándar:** cucharas medidoras, básculas, porcionadores, moldes, temporizadores. Es más fácil cumplir el estándar cuando la herramienta ya trae la medida.
+- **Supervisión y auditorías:** visitas periódicas con una lista de puntos a revisar, y a veces el **cliente misterioso**: una persona contratada que compra como cliente y evalúa la experiencia.
+- **Indicadores comparables:** tiempo de espera, costo de alimentos como porcentaje de las ventas, quejas, calificaciones (lección M20-6).
+
+## Estándares medibles
+Un estándar sirve solo si se puede **verificar**. «La torta debe estar bien servida» no es un estándar; «la torta lleva 120 g de carne (±10 g)» sí lo es. Algunos ejemplos:
+| Aspecto | Estándar vago | Estándar medible |
+|---|---|---|
+| Porción | «Buena cantidad de carne» | 120 g (±10 g) |
+| Tiempo | «Rápido» | Entrega en máximo 6 minutos desde que se paga |
+| Limpieza | «Que esté limpio» | Lista de 12 puntos revisada cada 2 horas |
+| Servicio | «Ser amables» | Saludar en menos de 10 segundos; repetir el pedido al cliente |
+
+## El equilibrio: estándar y flexibilidad
+Estandarizar no significa robotizar. Las cadenas exitosas definen **qué es intocable** (la receta, la higiene, el precio) y **qué puede adaptarse** a cada sucursal (horarios, algún producto local, la decoración de temporada). También necesitan que los empleados entiendan **el porqué** de cada estándar; si no, lo cumplen solo cuando los supervisan.
+
+## Cómo mejorar un estándar
+Los estándares no son eternos. Si un empleado descubre una forma mejor de hacer algo, el proceso debe probarse, medirse y, si funciona, **cambiarse el estándar para todos**. Esa es la mejora continua (lección M9-7) aplicada a una cadena.
+
+## Lo que pasó en Tortas Lupita
+Cuando Lupita investiga, descubre que en la nueva sucursal no había báscula y el tortero «calculaba a ojo»; que la salsa se hacía en cada local con distinta receta; y que nadie había capacitado al cajero en el sistema de pedidos. Toma tres decisiones: (1) fichas técnicas con foto para las 12 tortas del menú y una báscula en cada sucursal; (2) la salsa se prepara en un solo lugar y se reparte (lección M20-5); (3) todos los empleados nuevos pasan dos días en el local original antes de empezar. Un mes después, el cliente misterioso que contrata califica ambas sucursales con 9 de 10.
+
+## Capacitar con el estándar
+Un estándar escrito no sirve si nadie lo aprende. La capacitación de una cadena suele seguir cuatro pasos sencillos: **1)** el capacitador explica y muestra cómo se hace; **2)** el empleado lo hace con el capacitador al lado; **3)** el empleado lo hace solo mientras el capacitador observa y corrige; **4)** el empleado lo hace solo y se le evalúa con la lista de verificación. Solo después de aprobar, atiende clientes por su cuenta.
+
+## Revisar sin castigar
+Las auditorías de estándares funcionan mejor cuando se ven como una ayuda y no como una cacería. Si una sucursal falla un punto, la pregunta no es «¿quién tiene la culpa?», sino «¿por qué no se pudo cumplir?»: quizá faltó una herramienta, el estándar no estaba claro o la hora pico no deja tiempo. Corregir la causa evita que el error se repita en todas las sucursales.`,
+k: `**Estandarizar:** definir una sola forma correcta de hacer lo importante (producto, servicio, procesos, imagen, compras, información) y lograr que todos la sigan. Herramientas: **fichas técnicas**, **manual de operación**, listas de verificación, capacitación, herramientas de medida, supervisión y **cliente misterioso**. Un estándar sirve solo si es **medible**.`,
+ch: `Una paletería con dos locales usa la misma ficha técnica para cada sabor (litros de agua, kilos de fruta, gramos de azúcar) y la misma báscula. Así las paletas saben igual en los dos lugares y el costo es el mismo.`,
+gi: `Las grandes cadenas de comida rápida tienen manuales de operación detallados y programas de capacitación en centros especializados, para que un producto se prepare igual en miles de restaurantes de distintos países.`,
+e: `Efecto de no estandarizar la porción de carne en la sucursal nueva:
+
+| | Estándar | Sucursal sin báscula |
+|---|---|---|
+| Carne por torta | 120 g | 150 g promedio |
+| Costo de carne por kilo | 180 | 180 |
+| Costo de carne por torta | 21.60 | 27.00 |
+| Diferencia por torta | — | 5.40 |
+| Tortas al mes | 3,000 | 3,000 |
+| **Costo extra al mes** | — | **16,200** |
+
+Una báscula de 1,500 pesos se paga en menos de tres días. Y además, en la otra sucursal el cliente recibe menos carne: la experiencia no es la misma.`,
+r: `Starbucks cerró temporalmente más de 7,000 de sus cafeterías en Estados Unidos durante una tarde de febrero de 2008 para volver a capacitar a sus baristas en la preparación del espresso, según informó la propia empresa, como parte del esfuerzo de su fundador Howard Schultz por recuperar la consistencia de la experiencia.`,
+f: `Comunicados de Starbucks (febrero de 2008) y cobertura de prensa de la época; H. Schultz, «Onward» (2011).`,
+err: ["Confiar en que cada sucursal «sabe hacerlo» sin estándares escritos.","Escribir estándares vagos que no se pueden medir.","Tener manuales que nadie lee ni actualiza.","Estandarizar todo sin dejar espacio a mejoras ni a adaptaciones locales.","Supervisar solo cuando hay quejas."],
+a: `Escribe la ficha técnica de un producto que conozcas bien (una torta, un café, un corte de cabello, un servicio de limpieza): ingredientes o materiales con cantidades, pasos, tiempo máximo, cómo debe verse el resultado y tres puntos que un supervisor revisaría.`,
+sol: `Una buena ficha usa cantidades exactas, pasos numerados, un tiempo máximo medible, una descripción o foto del resultado esperado y puntos de revisión verificables (por ejemplo, peso, temperatura, tiempo).`,
+q: [["¿Cuál es un estándar medible?",["La torta lleva 120 g de carne (±10 g)","La torta debe estar bien servida","La torta debe gustar"],0,"Se puede verificar con una báscula."],
+["El «cliente misterioso» es…",["Una persona que compra como cliente para evaluar la experiencia","Un cliente que no paga","Un proveedor"],0,"Es una herramienta de supervisión."],
+["¿Por qué estandarizar ayuda a controlar costos?",["Porque las porciones y los insumos son los mismos en todas las sucursales","Porque sube los precios","Porque elimina los impuestos"],0,"El costo variable se vuelve predecible."],
+["Estandarizar bien significa…",["Definir lo intocable y permitir adaptaciones donde no dañan la promesa","Prohibir cualquier cambio para siempre","Que cada sucursal haga lo que quiera"],0,"Equilibrio entre estándar y flexibilidad."]],
+t: ["Estandarizar","Ficha técnica","Manual de operación","Cliente misterioso","Consistencia"]
+},
+"M20-4": {
+s: `Con dos sucursales, Lupita pasa el día en el coche yendo de una a otra y Toño ya habla de una tercera. Karla, la vendedora, pregunta a quién debe reportar ahora. El cajero de la sucursal nueva no sabe si puede hacer un descuento sin consultar. El organigrama de un solo local ya no sirve. ¿Cómo se organiza una cadena?`,
+o: ["Describir el papel y las responsabilidades del gerente de sucursal.","Explicar cómo cambia la estructura al pasar de una sucursal a varias y a una estructura regional.","Definir qué decide la sucursal y qué decide la oficina central."],
+x: `## El gerente de sucursal
+Cuando un negocio tiene varios locales, cada uno necesita a alguien que **responda por él**: el **gerente de sucursal** (o encargado). Es como el «dueño» de ese local en el día a día. Sus responsabilidades típicas:
+- **Ventas y servicio:** que el local venda y que el cliente salga contento.
+- **Equipo:** organizar turnos, capacitar, motivar, resolver conflictos; muchas veces participa en contratar y despedir.
+- **Operación:** que se cumplan los estándares (lección M20-3), la limpieza y la seguridad.
+- **Inventario y pedidos:** controlar existencias y pedir a tiempo.
+- **Caja:** cortes, depósitos y reportes.
+- **Indicadores:** conocer y mejorar los números de su sucursal (lección M20-6).
+
+## El perfil
+El mejor tortero no siempre es el mejor gerente. Un gerente necesita, además de conocer la operación, saber **dirigir personas**, **organizar** y **entender números**. Muchas cadenas forman a sus gerentes desde adentro: suben a empleados destacados y les dan capacitación en liderazgo y administración. Otras contratan gerentes con experiencia en otras empresas.
+
+## Autoridad: qué decide la sucursal
+El problema del cajero que no sabe si puede dar un descuento es un problema de **autoridad no definida**. Con varias sucursales, hay que escribir claramente qué decide cada nivel. Es la matriz de autoridad de la lección M16-2 aplicada a una cadena:
+| Decisión | Gerente de sucursal | Oficina central (dueños) |
+|---|---|---|
+| Turnos y horarios del personal | Decide | Se informa |
+| Contratar a un ayudante | Propone y decide dentro del presupuesto | Aprueba la plantilla total |
+| Descuento a un cliente por una queja | Hasta 100 pesos | Más de 100 pesos |
+| Cambiar el precio del menú | No | Decide |
+| Cambiar de proveedor | No | Decide |
+| Reparación urgente | Hasta 3,000 pesos | Más de 3,000 pesos |
+| Promociones locales | Propone | Aprueba |
+
+## Cómo cambia la estructura
+**Una sucursal:** el dueño dirige todo; hay un encargado de turno y empleados.
+
+**Dos o tres sucursales:** el dueño se convierte en **director**; cada local tiene un gerente; aparece la **oficina central** (aunque sea pequeña) con funciones compartidas: compras, contabilidad, recursos humanos, marketing. Es una estructura con un nivel más.
+
+**De cinco a diez o más sucursales:** aparece el **supervisor de zona** o **gerente de operaciones**, que visita varias sucursales, apoya a sus gerentes y vigila los estándares. Un supervisor suele atender de 5 a 10 sucursales, según la distancia y la complejidad (recuerda el tramo de control, lección M6-7).
+
+**Decenas o cientos de sucursales:** se organiza por **regiones** (estructura divisional por región, lección M6-5): un director regional con varios supervisores, y cada uno con varias sucursales. La oficina central crece con áreas especializadas.
+
+## La oficina central: qué hace
+- **Compras centralizadas:** negociar con proveedores para todas las sucursales (mejores precios por volumen).
+- **Finanzas y contabilidad:** pagos, impuestos, reportes consolidados.
+- **Recursos humanos:** nómina, políticas, capacitación.
+- **Marketing y marca:** campañas, redes sociales, menú.
+- **Expansión:** buscar y abrir nuevas ubicaciones.
+- **Sistemas:** punto de venta, reportes.
+- **Calidad y estándares:** manuales, auditorías.
+
+La oficina central cuesta dinero; su gasto se reparte entre las sucursales. Un error común es crearla demasiado grande demasiado pronto.
+
+## Centralizar o descentralizar
+- **Centralizar** (decidir en la oficina central) da consistencia y control, y aprovecha la escala.
+- **Descentralizar** (dejar que la sucursal decida) da rapidez y adaptación local, y motiva al gerente.
+
+Las cadenas suelen centralizar lo que afecta la marca y los costos (receta, precio, proveedores) y descentralizar el día a día (turnos, atención, pequeñas soluciones).
+
+## Incentivos para los gerentes
+Para que el gerente actúe como dueño, muchas cadenas le pagan un **bono ligado a los resultados** de su sucursal: ventas, utilidad de la sucursal, calificación de clientes, cumplimiento de estándares. Hay que diseñarlo con cuidado: si el bono solo premia la utilidad, el gerente podría recortar personal y empeorar el servicio.
+
+## Tortas Lupita con dos sucursales
+El nuevo organigrama: Lupita, directora general; Toño, director de operaciones y expansión; una administradora en la oficina (compras, pagos, nómina); un gerente en cada sucursal, con sus torteros y cajeros. Karla, que vende pedidos a empresas para ambas sucursales, reporta a Toño. Se escribe la matriz de autoridad y se pega en cada cocina.
+
+## La comunicación entre sucursales
+Con varias sucursales, la información deja de viajar sola. Lo que antes Lupita decía en voz alta en la cocina ahora debe llegar a dos o más equipos en distintos lugares. Por eso las cadenas establecen ritmos fijos (lección M7-5): una junta semanal breve de gerentes, un reporte diario de ventas y faltantes, un grupo de mensajería solo para avisos importantes y una visita del director a cada sucursal al menos una vez por semana. Cuando cambia un estándar, un precio o una promoción, se comunica por escrito a todas las sucursales al mismo tiempo, con la fecha en que empieza a aplicarse. Así se evita que cada local se entere «de oídas» y que el cliente encuentre reglas distintas en cada lugar.`,
+k: `**Gerente de sucursal:** responde por ventas, equipo, operación, inventario, caja e indicadores de su local. Al crecer aparecen la **oficina central** (compras, finanzas, RH, marketing), el **supervisor de zona** (5–10 sucursales) y la **estructura regional**. Se **centraliza** lo que afecta la marca y los costos y se **descentraliza** el día a día. La autoridad de cada nivel debe estar escrita.`,
+ch: `Una farmacia con tres sucursales nombra a una encargada en cada una con autoridad para hacer turnos y cambiar productos de lugar, pero los precios y los proveedores los decide el dueño desde la sucursal principal.`,
+gi: `Las grandes cadenas minoristas se organizan en divisiones regionales, con directores regionales, gerentes de distrito y gerentes de tienda, y una oficina corporativa que fija precios, compras y estándares.`,
+e: `Tramo de control según el número de sucursales de Tortas Lupita:
+
+| Sucursales | Estructura | ¿Quién supervisa a los gerentes? |
+|---|---|---|
+| 1 | Dueña + encargado | La dueña directamente |
+| 2–4 | Directora + gerentes + oficina pequeña | Toño (director de operaciones) |
+| 5–10 | Se agrega 1 supervisor de zona | Supervisor (8 sucursales máximo) |
+| 20 | 2 o 3 supervisores | Gerente de operaciones |
+| 60+ | Regiones | Directores regionales |
+
+Con 20 sucursales y un tramo de 8, harían falta 20 ÷ 8 = 2.5 → **3 supervisores**.`,
+r: `En sus informes anuales, las grandes cadenas de tiendas describen su organización en divisiones o regiones con gerentes de tienda y estructuras de supervisión, y en muchas de ellas los gerentes de tienda llegaron al puesto después de empezar como empleados de piso, como destaca, por ejemplo, Walmart en sus informes sobre desarrollo de talento.`,
+f: `Informes anuales y de responsabilidad corporativa de grandes cadenas minoristas (por ejemplo, Walmart).`,
+err: ["Ascender al mejor operador a gerente sin capacitarlo en dirigir personas.","No escribir qué puede decidir cada gerente.","Crear una oficina central demasiado grande y costosa antes de tiempo.","Pagar bonos que premian solo un número y descuidan el servicio.","Que el dueño siga resolviendo todo personalmente en cada sucursal."],
+a: `Diseña el organigrama de Tortas Lupita con 6 sucursales e incluye la oficina central. Después escribe una matriz de autoridad con 8 decisiones, indicando qué decide el gerente de sucursal, qué el supervisor y qué la dirección.`,
+sol: `Con 6 sucursales conviene un supervisor de zona (o el director de operaciones en ese papel), seis gerentes y una oficina central con compras, administración y finanzas, recursos humanos y marketing. La matriz debe asignar límites claros, por ejemplo en descuentos, gastos y contrataciones.`,
+q: [["Un supervisor de zona normalmente…",["Visita y apoya a varias sucursales","Atiende la caja de una sucursal","Hace las tortas"],0,"Suele atender de 5 a 10 sucursales."],
+["¿Qué conviene centralizar en una cadena?",["Receta, precio y proveedores","Los turnos de cada día","El orden de las mesas"],0,"Lo que afecta la marca y los costos."],
+{n:1,t:"Una cadena tiene 20 sucursales y cada supervisor puede atender 8. ¿Cuántos supervisores necesita? (redondea hacia arriba)",a:3,tol:0,u:"supervisores",e:"20 ÷ 8 = 2.5 → 3 supervisores."},
+["¿Cuál es un riesgo de un bono que solo premia la utilidad de la sucursal?",["Que el gerente recorte personal y empeore el servicio","Que suban las ventas","Que el cliente esté más contento"],0,"Por eso se combinan varios indicadores."]],
+t: ["Gerente de sucursal","Oficina central","Supervisor de zona","Estructura regional"]
+},
+"M20-5": {
+s: `Desde que abrió la segunda sucursal, cada local hace sus propias salsas, cuece sus frijoles y empaniza sus milanesas. A veces una sucursal se queda sin milanesas mientras la otra tira lo que sobró. Además, el pedido de carne es más pequeño en cada local y el proveedor no da buen precio. Toño propone: «¿Y si preparamos todo en un solo lugar y lo repartimos?».`,
+o: ["Explicar qué son un centro de distribución y una cocina central.","Evaluar las ventajas, los costos y los riesgos de producir en un lugar y vender en muchos.","Calcular el ahorro aproximado de centralizar compras y producción."],
+x: `## Producir en un lugar, vender en muchos
+Cuando un negocio crece a varias sucursales, aparece una oportunidad: en lugar de que cada una compre, guarde y prepare todo por su cuenta, **una sola instalación** se encarga de ello y **reparte** a las sucursales. Hay dos figuras principales:
+- **Centro de distribución (CEDIS):** un almacén que **recibe, guarda y reparte** mercancía a las tiendas. Los proveedores entregan en un solo lugar y desde ahí se surte a todas las sucursales.
+- **Cocina central (o centro de producción):** una cocina donde se **preparan** alimentos o componentes (salsas, carnes marinadas, masa, postres) que se envían listos o semilistos a los locales, que solo terminan y sirven.
+
+## Ventajas
+1. **Compras por volumen:** al pedir para todas las sucursales juntas, se negocian mejores precios (economías de escala, lección M26-2).
+2. **Consistencia:** la salsa se hace con una sola receta, por un equipo especializado: sabe igual en todos lados (lección M20-3).
+3. **Control de calidad e higiene:** es más fácil vigilar un solo lugar de producción.
+4. **Menos merma:** se produce según los pedidos de cada sucursal y se redistribuye.
+5. **Locales más pequeños y baratos:** si la sucursal solo termina el producto, necesita menos cocina, menos equipo y menos personal especializado.
+6. **Especialización:** los cocineros de la cocina central se especializan y son más productivos.
+7. **Proveedores atendidos en un solo punto:** menos entregas, menos tiempo perdido en cada local.
+
+## Costos y riesgos
+1. **Inversión:** el lugar, el equipo, los vehículos.
+2. **Logística:** hay que transportar todos los días, con horarios, rutas y vehículos (lección M9-8). Si el reparto falla, todas las sucursales se quedan sin producto.
+3. **Cadena de frío:** los alimentos deben mantenerse a la temperatura correcta durante el transporte; requiere equipo y control.
+4. **Dependencia:** si la cocina central tiene un problema (una falla eléctrica, una inspección sanitaria), afecta a toda la cadena. Conviene un plan de contingencia.
+5. **Frescura:** algunos productos pierden calidad si se preparan lejos; hay que decidir qué se centraliza y qué no.
+6. **Requisitos sanitarios:** una cocina central que produce para varios locales puede tener requisitos adicionales.
+
+## ¿Cuándo conviene?
+Una regla práctica es que la cocina central o el CEDIS empiezan a convenir cuando el **ahorro** (en compras, merma, personal y espacio en los locales) **supera el costo** de la instalación y de la logística. Esto suele pasar a partir de cierto número de sucursales, que depende del negocio: para algunos con 3 locales ya conviene; para otros, con 10.
+
+Una forma de empezar sin gran inversión es usar **la cocina del primer local** como cocina central en un horario distinto (temprano en la mañana), antes de invertir en una instalación aparte.
+
+## Qué centralizar y qué no
+| Centralizar | Dejar en la sucursal |
+|---|---|
+| Salsas, aderezos, marinados | Armado final de la torta |
+| Corte y porcionado de carne | Cocinar la carne en la plancha |
+| Frijoles, guisos de preparación larga | Bebidas preparadas al momento |
+| Compras de insumos no perecederos | Productos que requieren máxima frescura |
+
+## La logística del reparto
+Para repartir hace falta definir: **cuándo** (una o dos entregas al día), **cuánto** (cada sucursal hace su pedido el día anterior, basado en sus ventas), **cómo** (vehículo, contenedores, temperatura) y **quién** recibe y verifica la mercancía en cada sucursal. El inventario de cada local se reduce porque se surte con frecuencia.
+
+## Los gigantes
+Las grandes cadenas llevan esta idea al extremo. Walmart construyó su ventaja competitiva en buena parte sobre su red de centros de distribución y su logística, que le permiten surtir tiendas con eficiencia y bajos costos (Módulo 28). Las cadenas de tiendas de conveniencia tienen CEDIS regionales que surten a cientos de tiendas varias veces por semana. Las cadenas de restaurantes de comida casual y café suelen tener centros de producción o «comisariatos» que preparan bases, panes y postres.
+
+## La decisión de Tortas Lupita
+Toño hace números (ver el ejemplo resuelto). Deciden empezar con la cocina del local original: de 6:00 a 10:00, un cocinero prepara salsas, frijoles y milanesas para las dos sucursales, y una camioneta hace una entrega diaria a las 10:30. Las compras de carne y pan se negocian para ambos locales. Si abren una tercera sucursal, buscarán una cocina central separada.
+
+## Empezar pequeño y medir
+La experiencia de muchas cadenas pequeñas aconseja no centralizar todo de golpe. Conviene empezar con uno o dos productos (por ejemplo, las salsas), medir durante un mes el ahorro, la merma y la satisfacción de los clientes, y después ir sumando otros. También es buena idea llevar un registro sencillo de cada entrega: qué salió de la cocina central, qué llegó a la sucursal, a qué hora y a qué temperatura. Ese registro sirve para detectar errores de reparto, para cumplir con los requisitos sanitarios y para ajustar las cantidades de cada pedido según lo que realmente se vende.`,
+k: `**Centro de distribución (CEDIS):** recibe, guarda y reparte mercancía a las sucursales. **Cocina central:** prepara alimentos o componentes que se envían a los locales. Ventajas: compras por volumen, consistencia, menos merma, locales más pequeños. Riesgos: logística, cadena de frío, dependencia de un solo lugar. Conviene cuando el **ahorro supera el costo** de la instalación y del reparto.`,
+ch: `Una cadena de tres cafeterías hornea todos sus panes y pasteles en el local principal muy temprano y los reparte en una camioneta antes de abrir. Las otras dos solo tienen cafetera y vitrina.`,
+gi: `Walmart desarrolló una red de centros de distribución y sistemas de logística que, según su propia historia corporativa y análisis de negocios, fueron una de las bases de sus bajos costos y de su expansión.`,
+e: `Ahorro mensual estimado de usar la cocina del local original como cocina central:
+
+| Concepto | Antes (cada local por su cuenta) | Después (centralizado) |
+|---|---|---|
+| Costo de carne y pan (por volumen) | 120,000 | 112,800 (−6 %) |
+| Merma de preparados | 7,000 | 3,000 |
+| Personal de preparación | 2 personas = 22,000 | 1 cocinero central = 13,000 |
+| Reparto (camioneta, gasolina, chofer de medio tiempo) | 0 | 9,000 |
+| **Total** | **149,000** | **137,800** |
+
+**Ahorro: 11,200 al mes**, además de sabor consistente en ambas sucursales.`,
+r: `FEMSA informa en sus reportes que la cadena OXXO se apoya en una red de centros de distribución en México que surten a sus tiendas de forma frecuente, lo que permite que las tiendas sean pequeñas y tengan poco inventario almacenado.`,
+f: `FEMSA, informes anuales (sección de FEMSA Comercio / Proximidad).`,
+err: ["Centralizar productos que pierden calidad si no se preparan al momento.","No tener plan de contingencia si falla la cocina central o el reparto.","Descuidar la cadena de frío en el transporte.","Construir una cocina central grande antes de tener suficientes sucursales.","No verificar la mercancía al recibirla en cada sucursal."],
+a: `Elige una cadena con 3 o más locales (real o imaginaria). Haz una tabla con 6 productos o insumos y decide para cada uno si conviene centralizarlo o dejarlo en la sucursal, explicando por qué.`,
+sol: `Suelen centralizarse los productos de preparación larga, los que se benefician de una receta exacta y los insumos que se compran en volumen. Se dejan en la sucursal los que requieren frescura al momento o se preparan en segundos frente al cliente.`,
+q: [["Un CEDIS sirve principalmente para…",["Recibir, guardar y repartir mercancía a las sucursales","Atender clientes","Pagar impuestos"],0,"Los proveedores entregan en un solo lugar."],
+["Una ventaja de la cocina central es…",["Que el producto sabe igual en todas las sucursales","Que cada sucursal usa su propia receta","Que no hace falta transporte"],0,"Una receta, un equipo especializado."],
+["Un riesgo de la cocina central es…",["Que si falla, afecta a toda la cadena","Que mejora la consistencia","Que reduce la merma"],0,"Por eso se necesita un plan de contingencia."],
+{n:1,t:"Antes de centralizar, los costos eran 149,000 al mes; después son 137,800. ¿Cuánto se ahorra al mes (en pesos)?",a:11200,tol:0,u:"pesos",e:"149,000 − 137,800 = 11,200."}],
+t: ["Centro de distribución","Cocina central","Cadena de frío","Compras centralizadas"]
+},
+"M20-6": {
+s: `Al final del trimestre, la sucursal original vendió 1,620,000 pesos y la nueva solo 810,000: la mitad. Toño quiere cambiar al gerente de la nueva. Lupita piensa que no es justo: la nueva tiene menos tiempo, es más pequeña y está en una zona distinta. ¿Cómo comparar sucursales de forma justa?`,
+o: ["Identificar los indicadores clave para medir y comparar sucursales.","Calcular ventas por metro cuadrado, ticket promedio y utilidad por sucursal.","Interpretar diferencias entre sucursales considerando su contexto."],
+x: `## Por qué medir por sucursal
+Con una sola sucursal, los números del negocio son los números del local. Con varias, hay que medir **cada una por separado** para saber cuál funciona, cuál necesita ayuda y qué aprende una de la otra. Pero comparar solo las **ventas totales** es injusto y engañoso: una sucursal más grande, más vieja o en una zona más transitada venderá más aunque esté peor dirigida.
+
+## Los indicadores más usados
+**De ventas:**
+- **Ventas totales** del periodo.
+- **Ventas por metro cuadrado:** ventas ÷ superficie del local. Permite comparar locales de distinto tamaño.
+- **Número de tickets (clientes) y ticket promedio:** ventas ÷ número de tickets.
+- **Crecimiento contra el mismo periodo del año anterior.** En cadenas grandes se usa mucho el indicador de **ventas mismas tiendas**: se comparan solo las tiendas que ya tenían al menos un año abiertas, para que las aperturas nuevas no inflen el crecimiento.
+
+**De rentabilidad:**
+- **Margen bruto** de la sucursal.
+- **Costo de alimentos como porcentaje de las ventas** (en restaurantes): revela porciones, merma o robos.
+- **Costo de personal como porcentaje de las ventas.**
+- **Utilidad de la sucursal (o contribución de la sucursal):** ventas menos los costos y gastos **propios** de la sucursal (insumos, personal, renta, servicios). No incluye los gastos de la oficina central, que no controla el gerente.
+
+**De clientes y operación:**
+- Tiempo de espera, quejas, calificación en reseñas, resultado del cliente misterioso.
+- Cumplimiento de estándares en las auditorías.
+- Rotación del personal.
+
+## La utilidad de la sucursal: separar lo controlable
+Un punto clave para ser justos: el gerente de sucursal **no controla** la renta que negoció el dueño, ni los gastos de la oficina central. Por eso se mide su desempeño con lo que **sí** puede influir: ventas, costos de alimentos, personal, merma, servicio. Los gastos centrales se reparten después para conocer la rentabilidad total, pero no para juzgar al gerente.
+
+## Comparar con contexto
+Antes de concluir que una sucursal «es mala», pregunta:
+- **¿Cuánto tiempo tiene abierta?** Una sucursal nueva está madurando (lección M20-1).
+- **¿De qué tamaño es?** Mira ventas por metro cuadrado.
+- **¿Qué zona atiende?** Una zona de oficinas vende de lunes a viernes; una residencial, el fin de semana.
+- **¿Cómo va contra su propio plan?** Compara con el presupuesto de esa sucursal, no solo con las demás (lección M17-3).
+- **¿Cómo va su tendencia?** Una sucursal que vende poco pero crece cada mes puede ser mejor noticia que una que vende mucho pero cae.
+
+## Tableros por sucursal
+Las cadenas suelen tener un **tablero** (lección M17-4) donde cada sucursal aparece en una fila y cada indicador en una columna, con colores (verde, amarillo, rojo) según la meta. Así el director ve de un vistazo dónde actuar. Además, es útil una **clasificación** (de la mejor a la peor en cada indicador), siempre explicando el contexto.
+
+## Aprender de la mejor
+Comparar no sirve solo para corregir a la peor; sirve sobre todo para **copiar a la mejor**. Si una sucursal tiene costo de alimentos de 38 % y otra de 44 %, hay que averiguar qué hace distinto la primera y enseñarlo a la segunda. A esto se le llama **compartir mejores prácticas**.
+
+## Cuidado con los incentivos
+Si los indicadores determinan bonos (lección M20-4), los gerentes buscarán mejorarlos, a veces de formas indeseadas: reducir porciones para bajar el costo de alimentos, recortar personal y empeorar el servicio, o «esconder» merma. Por eso los tableros combinan indicadores financieros y de clientes, y se auditan.
+
+## El análisis de Tortas Lupita
+Lupita arma la tabla (ver el ejemplo resuelto). La sucursal nueva tiene la mitad de metros cuadrados, solo seis meses abierta, y abre de lunes a sábado porque está en zona industrial. Sus ventas por metro cuadrado son iguales a las del original, su costo de alimentos es más bajo (gracias a la cocina central) y su tiempo de espera es mejor. Su punto débil: el ticket promedio es menor, porque los trabajadores de la fábrica compran solo la torta y no la bebida. Conclusión: el gerente no es el problema; hay que crear un combo de torta con agua fresca para subir el ticket.
+
+## Frecuencia y formato de los reportes
+No todos los indicadores se revisan con la misma frecuencia. Las ventas y los tickets conviene verlos **cada día**; el costo de alimentos y de personal, **cada semana**; la utilidad de la sucursal, la rotación del personal y los resultados de las auditorías, **cada mes**. Un buen reporte por sucursal cabe en una hoja: arriba, los números del periodo comparados con la meta y con el mismo periodo del año anterior; abajo, tres comentarios del gerente sobre lo que pasó y lo que hará. Ese último punto es importante: los números dicen **qué** pasó, pero el gerente explica **por qué** y qué va a hacer.`,
+k: `Compara sucursales con indicadores **relativos y controlables**: **ventas por metro cuadrado**, ticket promedio, costo de alimentos y de personal como % de ventas, **utilidad de la sucursal** (sin gastos centrales), servicio y estándares. Considera contexto: antigüedad, tamaño, zona, plan y tendencia. **Ventas mismas tiendas** compara solo tiendas con más de un año. Usa la comparación para copiar a la mejor.`,
+ch: `Un dueño de tres lavanderías no compara solo cuánto vende cada una: mira cuántas cargas hace cada máquina al día, porque una de ellas tiene la mitad de máquinas que las otras.`,
+gi: `Las cadenas minoristas que cotizan en bolsa, como Walmart de México, publican cada mes o cada trimestre sus «ventas mismas tiendas», un indicador que los inversionistas siguen de cerca porque muestra el crecimiento sin el efecto de las aperturas.`,
+e: `Comparación del trimestre:
+
+| Indicador | Sucursal original | Sucursal nueva |
+|---|---|---|
+| Ventas | 1,620,000 | 810,000 |
+| Superficie | 60 m² | 30 m² |
+| **Ventas por m²** | 1,620,000 ÷ 60 = **27,000** | 810,000 ÷ 30 = **27,000** |
+| Tickets | 21,600 | 13,500 |
+| **Ticket promedio** | **75** | **60** |
+| Costo de alimentos | 41 % | 38 % |
+| Tiempo de espera | 8 min | 6 min |
+| Meses abierta | 48 | 6 |
+
+Por metro cuadrado venden igual. La nueva es más eficiente en costos y servicio; su debilidad es el ticket promedio, que se puede mejorar con un combo.`,
+r: `Walmart de México y Centroamérica publica periódicamente sus ventas totales y sus ventas a «tiendas iguales» (mismas tiendas), separando el crecimiento que viene de las tiendas existentes del que aportan las nuevas aperturas, según sus reportes a la Bolsa Mexicana de Valores.`,
+f: `Walmart de México y Centroamérica, reportes de ventas y reportes trimestrales a la BMV.`,
+err: ["Comparar sucursales solo por ventas totales.","Juzgar al gerente con gastos que no controla, como la renta o la oficina central.","Olvidar que una sucursal nueva está madurando.","Usar la comparación solo para castigar y no para copiar lo que funciona.","Premiar un solo indicador y provocar comportamientos indeseados."],
+a: `Con estos datos de cuatro sucursales, calcula ventas por metro cuadrado y ticket promedio, y ordénalas: A (ventas 900,000, 50 m², 12,000 tickets), B (600,000, 25 m², 9,000 tickets), C (1,200,000, 80 m², 15,000 tickets), D (500,000, 40 m², 8,000 tickets). ¿Cuál es la más eficiente por espacio? ¿Cuál tiene el mejor ticket?`,
+sol: `Ventas por m²: A 18,000; B 24,000; C 15,000; D 12,500. La más eficiente por espacio es B. Ticket promedio: A 75; B 66.67; C 80; D 62.50. El mejor ticket es C. Aunque C vende más en total, es menos eficiente por metro cuadrado.`,
+q: [{n:1,t:"Una sucursal vende 810,000 en el trimestre y mide 30 m². ¿Cuáles son sus ventas por metro cuadrado (en pesos)?",a:27000,tol:0,u:"pesos",e:"810,000 ÷ 30 = 27,000."},
+["El indicador «ventas mismas tiendas» compara…",["Solo las tiendas que ya tenían al menos un año abiertas","Todas las tiendas, incluidas las nuevas","Solo las tiendas que cerraron"],0,"Evita que las aperturas inflen el crecimiento."],
+["Para juzgar al gerente de sucursal conviene usar…",["Indicadores que él puede controlar","Los gastos de la oficina central","El precio del dólar"],0,"Como ventas, costo de alimentos, personal y servicio."],
+["Si una sucursal tiene mejor costo de alimentos que otra, lo más útil es…",["Averiguar qué hace distinto y enseñarlo a las demás","Cerrar la otra","No hacer nada"],0,"Compartir mejores prácticas."]],
+t: ["Ventas por metro cuadrado","Ventas mismas tiendas","Utilidad de la sucursal","Costo de alimentos","Mejores prácticas"]
+},
+"M20-7": {
+s: `Toño viaja a Monterrey y se sorprende: hay un OXXO en casi cada esquina. «¿Cómo hicieron para abrir miles de tiendas que funcionan igual?», se pregunta. Si Tortas Lupita quiere ser una cadena algún día, el caso OXXO es una escuela completa de lo que vimos en este módulo.`,
+o: ["Describir los elementos del modelo de crecimiento de OXXO según información pública.","Relacionar el caso con los temas del módulo: ubicación, estandarización, estructura, CEDIS e indicadores.","Extraer lecciones aplicables a una cadena pequeña."],
+x: `## Un poco de historia
+OXXO es la cadena de tiendas de conveniencia de **FEMSA** (Fomento Económico Mexicano), un grupo empresarial de Monterrey que nació ligado a la Cervecería Cuauhtémoc. Según la historia corporativa de FEMSA, la **primera tienda OXXO abrió en Monterrey en 1978**. La idea original estaba relacionada con tener puntos de venta propios para productos del grupo; con el tiempo, la cadena se convirtió en un negocio por sí mismo y en uno de los más importantes del grupo.
+
+Según los informes anuales de FEMSA, la cadena superó las **20,000 tiendas** en la primera mitad de la década de 2020, la mayoría en México, y se expandió a otros países de Latinoamérica como Colombia, Chile y Perú, además de una presencia en Brasil a través de una empresa conjunta. Las cifras exactas cambian cada año; para datos vigentes hay que consultar el informe más reciente.
+
+## El formato: tienda pequeña, estandarizada y cercana
+Una tienda OXXO típica es **pequeña**, con un surtido acotado de productos de alta rotación (bebidas, botanas, productos básicos, comida rápida para llevar), con **horarios amplios** (muchas abren las 24 horas) y ubicada **cerca** de donde la gente vive, trabaja o transita. Su propuesta de valor es la **conveniencia**: encontrar algo rápido, cerca y a cualquier hora, aunque no sea el precio más bajo.
+
+Todas las tiendas se parecen: misma imagen, misma distribución general, mismos procesos. Eso es la **estandarización** de la lección M20-3 llevada a gran escala, y es lo que permite abrir cientos de tiendas al año.
+
+## La ubicación como ciencia
+FEMSA ha explicado en sus informes y presentaciones que usa información detallada para elegir ubicaciones: datos de población, de flujo de personas, de competencia y de desempeño de tiendas existentes. Como vimos en la lección M20-2, la ubicación se analiza con método, no con intuición. Al abrir muchas tiendas en una misma ciudad, la cadena gana presencia de marca y eficiencia en el reparto, cuidando la canibalización (lección M20-1).
+
+## Los centros de distribución
+La red de **centros de distribución** permite que tiendas pequeñas, con poco espacio de almacén, se surtan con frecuencia (lección M20-5). Además, muchos proveedores, sobre todo de bebidas y pan, entregan directamente a las tiendas. Esta logística es una de las bases del modelo: sin ella, no podrían existir tantas tiendas pequeñas con anaqueles llenos.
+
+## La operación de las tiendas
+Según la información pública de FEMSA, muchas tiendas OXXO han sido operadas por **comisionistas**: personas o familias que administran la tienda (personal, operación diaria) a cambio de una comisión, mientras FEMSA es dueña de la marca, del formato, del inventario y de los sistemas. Es un modelo intermedio entre la sucursal propia y la franquicia (Módulo 21), que combina el control central con el incentivo de un operador local. Las condiciones de este modelo han cambiado con los años y han tenido sus críticas; vale la pena revisar las fuentes actuales.
+
+## Más allá de vender productos: los servicios
+Con el tiempo, OXXO añadió **servicios**: pago de recibos de luz, agua y teléfono, depósitos a cuentas bancarias, recargas de celular, pagos de compras en línea en efectivo y otros. Esto atrae a millones de personas a la tienda, aunque no vengan a comprar, y aprovecha la red física para nuevos negocios. FEMSA ha desarrollado también servicios financieros digitales vinculados a la tienda (Spin by OXXO). Es un ejemplo de **economías de alcance** (lección M26-2): usar los mismos activos para ofrecer más cosas.
+
+## Indicadores y control
+Como cadena que reporta a inversionistas en bolsa, FEMSA publica indicadores como el número de tiendas, las aperturas netas, las **ventas mismas tiendas** y el ticket promedio, entre otros (lección M20-6). Internamente, cada tienda se mide con un tablero de ventas, márgenes, inventario y cumplimiento de estándares.
+
+## Las críticas y los retos
+No todo es positivo. A lo largo de los años, las tiendas de conveniencia como OXXO han enfrentado críticas por su impacto en las tiendas de abarrotes tradicionales, por la venta de productos ultraprocesados y bebidas azucaradas, por condiciones laborales y por temas de seguridad (asaltos). También enfrentan competencia de otras cadenas y de nuevos modelos digitales. Analizar un caso real implica ver luces y sombras.
+
+## Lo que aprende Tortas Lupita
+| Tema del módulo | Lo que hace OXXO | Versión Tortas Lupita |
+|---|---|---|
+| Cuándo crecer | Formato probado antes de multiplicarlo | Probar bien la segunda sucursal antes de la tercera |
+| Ubicación | Análisis con datos | Conteos, DENUE, matriz ponderada |
+| Estandarizar | Formato idéntico y procesos escritos | Fichas técnicas, manual, cliente misterioso |
+| Estructura | Gerentes, supervisores, regiones | Gerentes y un supervisor al llegar a 5 locales |
+| CEDIS | Red de distribución | Cocina central y reparto diario |
+| Indicadores | Ventas mismas tiendas, ticket | Ventas por m², ticket, costo de alimentos |
+| Modelo de operación | Comisionistas | Analizar socios operadores o franquicias (Módulo 21) |
+
+## Una advertencia
+OXXO creció con el respaldo de un grupo grande, con acceso a capital, a proveedores propios y a décadas de experiencia. Una cadena pequeña no puede copiar su escala, pero sí sus **principios**: un formato claro, estandarizado, bien ubicado, con buena logística y medido con disciplina.`,
+k: `**Caso OXXO (FEMSA):** primera tienda en Monterrey en 1978; más de 20,000 tiendas en la década de 2020, según informes de FEMSA. Claves: **formato pequeño y estandarizado**, propuesta de **conveniencia**, ubicación con datos, red de **CEDIS**, operación con **comisionistas**, **servicios** adicionales e indicadores como ventas mismas tiendas. Lección: copiar los principios, no la escala.`,
+ch: `Una tienda de abarrotes de barrio adopta algunas ideas de las cadenas: ordena sus anaqueles por categorías, amplía su horario, cobra servicios de recargas y pagos, y lleva un registro de sus productos más vendidos.`,
+gi: `FEMSA publica cada año un informe con el número de tiendas OXXO, sus aperturas, sus ventas mismas tiendas y su expansión internacional, información que se puede consultar en su sitio de relación con inversionistas.`,
+e: `Ejercicio con cifras ilustrativas (no son datos reales de OXXO): una cadena tiene 1,000 tiendas al inicio del año, abre 120 y cierra 15.
+
+| Concepto | Cálculo | Resultado |
+|---|---|---|
+| Aperturas netas | 120 − 15 | **105** |
+| Tiendas al final del año | 1,000 + 105 | **1,105** |
+| Crecimiento en número de tiendas | 105 ÷ 1,000 | **10.5 %** |
+
+Si sus ventas mismas tiendas crecieron 4 %, el resto del crecimiento de sus ventas totales viene de las tiendas nuevas.`,
+r: `Según la historia corporativa y los informes anuales de FEMSA, la primera tienda OXXO abrió en Monterrey en 1978; la cadena alcanzó más de 20,000 tiendas en la primera mitad de la década de 2020 y opera en México y en otros países de Latinoamérica. FEMSA reporta sus resultados en la Bolsa Mexicana de Valores y en la Bolsa de Nueva York.`,
+f: `FEMSA, historia corporativa e informes anuales (femsa.com, relación con inversionistas).`,
+err: ["Creer que una cadena pequeña puede copiar la escala de un gigante sin sus recursos.","Ver solo los aciertos de un caso real e ignorar sus críticas.","Usar cifras de hace años como si fueran actuales.","Pensar que el éxito se debe solo a la ubicación, sin la logística ni los estándares."],
+a: `Visita (o recuerda) una tienda de conveniencia y una tienda de abarrotes tradicional. Compara: surtido, horario, precios de tres productos, servicios que ofrecen, rapidez y experiencia. ¿Qué podría copiar la tienda de abarrotes para competir mejor sin perder lo que la hace distinta?`,
+sol: `La tienda de conveniencia suele ganar en horario, servicios y estandarización; la de abarrotes, en cercanía personal, crédito a vecinos («fiado») y a veces en precio de algunos productos. Puede copiar orden, servicios de pago y registro de ventas, conservando el trato personal.`,
+q: [["¿En qué año y ciudad abrió la primera tienda OXXO, según FEMSA?",["1978, Monterrey","2005, Guadalajara","1950, Ciudad de México"],0,"Según la historia corporativa de FEMSA."],
+["La propuesta de valor principal de una tienda de conveniencia es…",["Cercanía, rapidez y horario amplio","El precio más bajo del mercado","La variedad más grande"],0,"Por eso se llama «de conveniencia»."],
+["Ofrecer pagos de servicios en la tienda es un ejemplo de…",["Economías de alcance: usar los mismos activos para más negocios","Canibalización","Dilución"],0,"Se aprovecha la red física."],
+["¿Qué puede copiar una cadena pequeña de OXXO?",["Sus principios: formato claro, estándares, ubicación con datos, logística y medición","Su escala de miles de tiendas de inmediato","Su marca"],0,"La escala depende de recursos que una pyme no tiene."]],
+t: ["Tienda de conveniencia","Comisionista","Aperturas netas","Economías de alcance","FEMSA"]
+}
+});
