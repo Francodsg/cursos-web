@@ -534,3 +534,165 @@ prob: [
 ["Minicaso. La segunda sucursal de Tortas Lupita vende la mitad que la primera, pero mide la mitad, tiene seis meses abierta y su ticket promedio es menor. ¿Qué es lo más adecuado?",["Comparar con indicadores relativos y trabajar en subir el ticket, sin culpar de inmediato al gerente","Cerrar la sucursal","Despedir al gerente"],0,"Por metro cuadrado vende igual; el contexto importa."]
 ]
 };
+
+// ===== NIVEL 4 =====
+Object.assign(window.BANCOS, {
+M23: [
+["El «alcance» de una empresa se refiere a…",["La variedad de negocios, productos y marcas","Solo sus ventas","Su número de empleados"],0,"La escala mide volumen; el alcance, variedad."],
+["La lista Fortune Global 500 ordena a las empresas por…",["Sus ingresos","Su antigüedad","Su número de tiendas"],0,"Las 500 con más ingresos del mundo."],
+["Una desventaja frecuente de ser gigante es…",["Lentitud y burocracia","Costos menores por unidad","Acceso a capital barato"],0,"Las otras son ventajas."],
+["Una empresa controladora (holding) es…",["La que controla a otras empresas del grupo","Una tienda","Un banco central"],0,"Las controladas son subsidiarias."],
+["Normalmente una empresa controla a otra cuando tiene…",["Más del 50 % de las acciones con voto","El 5 %","Ninguna acción"],0,"También puede ser por acuerdos."],
+["Los estados financieros consolidados…",["Suman las empresas del grupo eliminando operaciones internas","Solo muestran a la controladora","Suman todo sin eliminar nada"],0,"El grupo como una entidad económica."],
+{n:1,t:"Una subsidiaria al 60 % gana 50 millones. ¿Cuántos millones corresponden a la participación no controladora?",a:20,tol:0,u:"millones",e:"40 % de 50 = 20."},
+["Una empresa asociada es aquella en la que se tiene…",["Influencia significativa sin control","El 100 %","Ninguna relación"],0,"Suele ser entre 20 % y 50 %."],
+["Una unidad de negocio tiene normalmente…",["Su propio director, estrategia y estado de resultados","Ningún responsable","Solo costos"],0,"Una empresa dentro de la empresa."],
+["Un centro de costos se mide sobre todo por…",["Costo y eficiencia frente al presupuesto","Ventas","Rendimiento sobre el capital"],0,"Su responsable solo controla costos."],
+{n:1,t:"Una unidad gana 12 millones (después de impuestos) con un capital de 100 millones. ¿Cuál es su rendimiento sobre el capital (en %)?",a:12,tol:0,u:"%",e:"12 ÷ 100 = 12 %."},
+["Los precios de transferencia son…",["Los precios entre empresas o unidades del mismo grupo","Los precios a clientes","Los precios de las acciones"],0,"Deben ser de mercado."],
+["Una función típica del corporativo es…",["La asignación de capital entre las unidades","Atender clientes en tienda","Preparar productos"],0,"Decide cuánto dinero recibe cada negocio."],
+["Los servicios compartidos concentran…",["Tareas repetitivas como contabilidad, nómina y sistemas","La estrategia de cada producto","Las ventas"],0,"Aprovechan economías de escala."],
+["El CFO es el director de…",["Finanzas","Marketing","Operaciones"],0,"Chief Financial Officer."],
+["El director general rinde cuentas ante…",["El consejo de administración","El director de marketing","Nadie"],0,"El consejo lo nombra y lo evalúa."],
+["Un proyecto que rinde 9 % cuando el costo de capital es 12 %…",["Destruye valor","Siempre conviene","Rinde más de lo necesario"],0,"Debe superar el mínimo."],
+["Un conglomerado es un grupo con negocios…",["Muy distintos entre sí","Del mismo producto","Solo en un país"],0,"Diversificación no relacionada."],
+["Alphabet se creó en 2015 para…",["Separar Google de otros negocios («Otras apuestas»)","Cerrar Google","Vender tortas"],0,"Da transparencia y autonomía."],
+["Según Jeff Bezos, las decisiones reversibles deben…",["Tomarse rápido por personas o equipos pequeños","Pasar siempre por el consejo","Evitarse"],0,"«Puertas de dos sentidos»."]
+],
+M24: [
+["En el gobierno corporativo, ¿quién vigila a la dirección?",["El consejo de administración","Los clientes","El proveedor principal"],0,"La dirección maneja; el consejo vigila."],
+["¿Quién elige a los consejeros?",["La asamblea de accionistas","El director general","El auditor externo"],0,"Los dueños eligen al consejo."],
+["Un principio de buen gobierno es…",["Trato equitativo a todos los accionistas","Que el mayoritario decida sin informar","Ocultar información"],0,"Incluye a los minoritarios."],
+["Las acciones preferentes suelen tener…",["Prioridad económica y voto limitado","Más votos que todas","Ningún derecho"],0,"A cambio de prioridad, votan menos."],
+["Una fusión se decide en…",["Asamblea extraordinaria","Junta de cocina","Comité de marketing"],0,"Cambia la sociedad."],
+{n:1,t:"Un fundador tiene 300 acciones de 10 votos y los demás 700 de 1 voto. ¿Qué porcentaje de los votos tiene? (redondea a entero)",a:81,tol:0.01,u:"%",e:"3,000 ÷ 3,700 = 81.1 % ≈ 81 %."},
+["El deber de lealtad de un consejero implica…",["Actuar en interés de la sociedad y abstenerse en conflictos","Votar con el mayoritario","Aprobar todo"],0,"Junto con el deber de diligencia."],
+["El comité de auditoría vigila…",["La información financiera, el control interno y la auditoría","La publicidad","El menú"],0,"Con consejeros independientes."],
+["Un consejo que aprueba todo sin preguntar es…",["Un «sello de goma»","Un buen consejo","Obligatorio"],0,"Debe cuestionar."],
+["Un consejero independiente es alguien…",["Sin vínculos que afecten su juicio sobre la empresa","Honesto aunque sea proveedor","Que trabaja en la empresa"],0,"Independencia es ausencia de conflictos."],
+["¿Puede ser independiente el contador externo de la empresa?",["No, presta servicios profesionales relevantes","Sí, siempre","Solo si es amigo"],0,"Tiene una relación económica."],
+["¿Quién nombra y puede remover al director general?",["El consejo de administración","Los clientes","El auditor"],0,"Es una de sus funciones principales."],
+{n:1,t:"Un director cumple 100 % de una meta que pesa 50 %, 60 % de otra que pesa 30 % y 0 % de una que pesa 20 %. ¿Cuál es su cumplimiento ponderado (en %)?",a:68,tol:0,u:"%",e:"50 + 18 + 0 = 68 %."},
+["En el problema de agencia, el «agente» es…",["El directivo","El accionista","El cliente"],0,"Actúa en nombre de los dueños."],
+["Recortar el mantenimiento para cobrar el bono del año es…",["Cortoplacismo","Diversificación","Buen gobierno"],0,"Se sacrifica el futuro."],
+["El protocolo familiar es…",["Un acuerdo escrito sobre la relación entre la familia y la empresa","El acta constitutiva","Un menú"],0,"Sus puntos clave van a los estatutos."],
+["En una empresa familiar conviene separar…",["La sucesión de la propiedad de la sucesión de la dirección","El logo de la marca","Las ventas de los costos"],0,"Quien hereda acciones no tiene que dirigir."],
+["Máximo de consejeros de una S.A.B. según la Ley del Mercado de Valores:",["21","5","100"],0,"Con al menos 25 % independientes."],
+["Un «evento relevante» debe…",["Informarse al mercado de forma oportuna","Ocultarse","Celebrarse"],0,"Puede influir en el precio de la acción."],
+["Una falla central en el caso Enron fue…",["Usar entidades fuera del balance para esconder deudas","Vender barato","No tener clientes"],0,"Llevó a la Ley Sarbanes-Oxley."]
+],
+M25: [
+["Tener una acción te convierte en…",["Socio de la empresa","Prestamista","Empleado"],0,"Dueño de una parte del capital."],
+{n:1,t:"Compras una acción a 40, recibes 2 de dividendo y la vendes a 44. ¿Cuál es tu rendimiento (en %)?",a:15,tol:0,u:"%",e:"(44 − 40 + 2) ÷ 40 = 15 %."},
+["Si una empresa quiebra, cobran primero…",["Los acreedores","Los accionistas","Nadie"],0,"Los accionistas cobran al final."],
+["Diversificar significa…",["Repartir la inversión entre muchas empresas o activos","Invertir todo en una acción","No invertir"],0,"Reduce el riesgo."],
+["En una oferta secundaria, el dinero va a…",["Los accionistas que venden","La empresa","El gobierno"],0,"En la primaria va a la empresa."],
+["El documento con la información de una oferta pública se llama…",["Prospecto","Factura","Organigrama"],0,"Se revisa con el regulador."],
+["En México, la autoridad que autoriza las ofertas públicas es…",["La CNBV","La Profeco","El IMSS"],0,"Comisión Nacional Bancaria y de Valores."],
+["La segunda bolsa de México, que empezó en 2018, es…",["BIVA","Nasdaq","NYSE"],0,"Bolsa Institucional de Valores."],
+["En el mercado secundario…",["Los inversionistas se compran y venden valores entre sí","La empresa recibe el dinero","Se emiten acciones nuevas"],0,"Da liquidez."],
+["El S&P/BMV IPC es…",["El principal índice de la Bolsa Mexicana de Valores","Un impuesto","Una casa de bolsa"],0,"Agrupa a las empresas más grandes."],
+["Lo primero que conviene leer de un informe anual es…",["El comunicado de resultados o la carta del director","Las notas finales","Las fotos"],0,"Resume lo esencial."],
+["En Estados Unidos, el reporte anual ante la SEC se llama…",["10-K","8-K","W-2"],0,"El trimestral es el 10-Q."],
+{n:1,t:"Una empresa tiene 200 millones de acciones a 30 pesos. ¿Cuál es su valor de mercado (en millones de pesos)?",a:6000,tol:0,u:"millones",e:"200 × 30 = 6,000 millones."},
+["Una acción puede bajar aunque la empresa gane más porque…",["Los inversionistas esperaban más o el futuro se ve peor","La bolsa cerró","Las acciones no bajan"],0,"El precio refleja expectativas."],
+{n:1,t:"Una acción vale 90 y la empresa gana 6 pesos por acción al año. ¿Cuál es su precio-utilidad?",a:15,tol:0,u:"veces",e:"90 ÷ 6 = 15."},
+["Cuando suben las tasas de interés, las acciones tienden a…",["Valer menos","Valer más siempre","No cambiar"],0,"El dinero seguro rinde más."],
+{n:1,t:"Una acción vale 80 y paga 4 de dividendo al año. ¿Cuál es su rendimiento por dividendo (en %)?",a:5,tol:0,u:"%",e:"4 ÷ 80 = 5 %."},
+["Una recompra de acciones…",["Reduce el número de acciones en circulación","Aumenta el número de acciones","Es un préstamo"],0,"Cada acción representa una parte mayor."],
+["En una compra apalancada, la mayor parte del precio se paga con…",["Deuda que suele quedar a cargo de la empresa comprada","Donaciones","Acciones del gobierno"],0,"El fondo pone una parte."],
+["Una ventaja de ser una empresa privada es…",["Menos presión de los resultados trimestrales","Más acceso al capital del público","Más liquidez"],0,"Las otras son ventajas de cotizar."]
+],
+M26: [
+["Las estrategias genéricas de Porter son…",["Liderazgo en costos, diferenciación y enfoque","Comprar, vender y ahorrar","Ventas, marketing y finanzas"],0,"De «Estrategia competitiva» (1980)."],
+["Quedar «atrapado en medio» significa…",["No tener ventaja clara por querer ser todo para todos","Tener la mejor ventaja","Estar en el centro"],0,"Ni el más barato ni el más especial."],
+["Una ventaja es más sostenible cuando…",["Es difícil de copiar","Es una promoción de una semana","Cualquiera la imita"],0,"Escala, marca, efecto red."],
+["El marco VRIO evalúa si un recurso es…",["Valioso, raro, difícil de imitar y bien aprovechado por la organización","Viejo, rápido, inútil y oculto","Visible, rentable, interno y obligatorio"],0,"Propuesto por Jay Barney."],
+["Las economías de escala significan que…",["El costo por unidad baja al producir más","El precio siempre sube","Hay que tener muchas marcas"],0,"Por repartir costos fijos, entre otras causas."],
+{n:1,t:"Una planta tiene costos fijos de 500,000 al mes y un costo variable de 8 por unidad. ¿Cuál es el costo total por unidad si produce 50,000?",a:18,tol:0,u:"pesos",e:"500,000 ÷ 50,000 = 10 + 8 = 18."},
+["Vender varios productos en el mismo camión es un ejemplo de…",["Economías de alcance","Deseconomías de escala","Dilución"],0,"Comparten recursos."],
+["¿Cuál NO es una de las cinco fuerzas de Porter?",["El número de empleados de la empresa","El poder de los proveedores","La amenaza de sustitutos"],0,"Las fuerzas son externas."],
+["Para una tortería, la comida casera es…",["Un producto sustituto","Un proveedor","Una barrera de entrada"],0,"Satisface la misma necesidad."],
+["Las barreras de entrada afectan la fuerza de…",["Amenaza de nuevos competidores","Poder de los clientes","Sustitutos"],0,"Si son altas, es difícil entrar."],
+["El efecto red significa que…",["El valor del servicio sube con más usuarios","El servicio cuesta más","La red es rápida"],0,"Directo o indirecto."],
+["Más compradores atraen más vendedores: es un efecto red…",["Indirecto","Directo","Negativo"],0,"Entre lados distintos."],
+["Una marca paraguas consiste en…",["Usar el nombre de la empresa en todos sus productos","Tener marcas independientes","No tener marca"],0,"Aprovecha la reputación."],
+["Un ecosistema de negocios aumenta…",["Los costos de cambio del cliente","El número de competidores","Los impuestos"],0,"Es más difícil irse."],
+["Según Christensen, una innovación disruptiva suele empezar…",["Más sencilla o barata, con clientes que el líder ignora","Más cara y mejor","En el laboratorio del líder"],0,"Mejora hasta quitar el mercado."],
+["El «dilema del innovador» es que el líder fracasa por…",["Escuchar solo a sus mejores clientes y buscar mayores márgenes","No tener dinero","Innovar demasiado"],0,"Hace lo que parecía correcto."],
+["Una estrategia transnacional busca…",["Eficiencia global y adaptación local a la vez","No adaptar nada","Operar en un solo país"],0,"Bartlett y Ghoshal (1989)."],
+["Los alimentos suelen requerir más…",["Adaptación local","Estandarización total","Nada"],0,"Ligados a la cultura."],
+["Un acuerdo entre competidores para fijar precios es…",["Una práctica monopólica absoluta (cártel)","Permitido","Marketing"],0,"De las conductas más graves."],
+["El «mercado relevante» es…",["El producto y el área donde se analiza la competencia","El mercado de abastos","La bolsa"],0,"Definirlo es clave."]
+],
+M27: [
+["La relación entre ley y ética es que…",["La ley es el mínimo; lo ético puede exigir más","Son lo mismo","La ética no importa"],0,"Hay conductas legales no éticas."],
+["La «prueba del periódico» consiste en…",["Preguntarte si te sentirías cómodo si tu decisión saliera en primera plana","Comprar un anuncio","Leer el horóscopo"],0,"Ver la decisión desde fuera."],
+["El «tono desde arriba» es…",["El ejemplo ético de los líderes","El volumen de la música","El tono de voz del director"],0,"La ética se aprende viendo a los jefes."],
+["El caso Wells Fargo muestra que…",["Metas de ventas agresivas pueden empujar a conductas no éticas","Las metas siempre son buenas","Los bancos no tienen reguladores"],0,"Incentivos coherentes con la ética."],
+["ASG significa…",["Ambiental, Social y de Gobierno corporativo","Ahorro, Salario y Ganancia","Activos, Servicios y Gastos"],0,"En inglés, ESG."],
+["El «lavado verde» es…",["Presumir acciones ambientales exageradas o falsas","Lavar uniformes","Una técnica de limpieza"],0,"Daña la credibilidad."],
+["El «valor compartido» busca…",["Crear valor para la empresa creando valor para la sociedad","Repartir acciones","Bajar sueldos"],0,"Porter y Kramer (2011)."],
+["Dar dinero a un funcionario para acelerar un trámite es…",["Corrupción (cohecho)","Permitido","Gestoría legal"],0,"Aunque el monto sea pequeño."],
+["La Ley General de Responsabilidades Administrativas puede sancionar…",["También a las empresas por faltas graves","Solo a funcionarios","A nadie"],0,"Y valora la política de integridad."],
+["La FCPA es…",["Una ley de EE. UU. contra el soborno de funcionarios extranjeros","Un impuesto","Una norma de etiquetado"],0,"De 1977."],
+["Una medida clave de un programa de integridad es…",["Revisar a los intermediarios antes de contratarlos","Pagar a cualquier gestor","No tener controles"],0,"Muchos sobornos ocurren por terceros."],
+["En una crisis, lo primero es…",["Proteger a las personas y detener el riesgo","Publicar una promoción","Borrar comentarios"],0,"La seguridad va primero."],
+["El primer mensaje público en una crisis conviene darlo…",["Pronto, aunque no se tenga toda la información","Cuando se sepa todo, aunque pasen semanas","Nunca"],0,"Con lo que se sabe y lo que se hace."],
+["El caso Tylenol (1982) es ejemplo de…",["Buena gestión de crisis que priorizó la seguridad","Fraude contable","Fusión exitosa"],0,"Retiró unos 31 millones de frascos."],
+["¿En qué año se declaró Kodak en quiebra?",["2012","1975","1995"],0,"En 1975 desarrolló un prototipo de cámara digital."],
+["Blockbuster se declaró en quiebra en…",["2010","2000","2020"],0,"En septiembre de 2010."],
+["Nokia vendió su negocio de teléfonos a…",["Microsoft","Kodak","Apple"],0,"Operación completada en 2014."],
+["La etapa de conciliación del concurso mercantil busca…",["Un convenio con los acreedores para seguir operando","Vender todo de inmediato","Cerrar sin pagar"],0,"Si no hay acuerdo, se declara la quiebra."],
+["General Motors se acogió al capítulo 11 en…",["2009","1990","2020"],0,"En junio de 2009."],
+["Según Jim Collins, la primera etapa del declive es…",["La arrogancia nacida del éxito","La quiebra","La salida a bolsa"],0,"Olvidar las razones reales del éxito."]
+],
+M28: [
+["La ventaja principal de una tienda de abarrotes frente a una cadena es…",["Cercanía, relación personal y servicios como el fiado","Precios siempre más bajos","Publicidad nacional"],0,"Difícil de copiar para una cadena."],
+["El fiado es, en términos financieros…",["Una cuenta por cobrar","Un ingreso seguro","Un gasto de publicidad"],0,"Parte del capital de trabajo."],
+["¿En qué año se fundó Grupo Bimbo?",["1945","1980","2009"],0,"Cotiza en la BMV desde 1980."],
+["La ventaja clave de Bimbo destacada en el curso es…",["Su distribución directa a tienda de productos frescos","Su tienda en línea","Sus restaurantes"],0,"Una red enorme de rutas."],
+["Bimbo creció en Estados Unidos sobre todo mediante…",["Adquisiciones","Franquicias de tortas","Exportación de tortillas"],0,"Por ejemplo, George Weston (2009) y Sara Lee (2011)."],
+["Walmart adquirió el control de Cifra en…",["1997","1962","2012"],0,"Después de una empresa conjunta desde 1991."],
+["La estrategia de Walmart es sobre todo de…",["Liderazgo en costos","Lujo","Nicho pequeño"],0,"«Precios bajos todos los días»."],
+{n:1,t:"Una empresa tiene 30 días de inventario, 5 de cuentas por cobrar y paga a 45 días. ¿Cuál es su ciclo de conversión de efectivo (en días)?",a:-10,tol:0,u:"días",e:"30 + 5 − 45 = −10."},
+["La primera tienda Zara abrió en…",["A Coruña, en 1975","Madrid, en 2001","Ciudad de México, en 1990"],0,"Según Inditex."],
+["La ventaja clave de Inditex es…",["Su cadena de suministro rápida y flexible","Ser la más barata del mundo","Su publicidad en televisión"],0,"Producción cercana y logística rápida."],
+["El «justo a tiempo» de Toyota consiste en…",["Producir solo lo necesario, cuando se necesita","Producir todo lo posible","Llegar puntual"],0,"Reduce inventarios."],
+["El «andon» permite…",["Que cualquier trabajador avise de un problema y se detenga la línea","Pagar proveedores","Pintar autos"],0,"Parte del jidoka."],
+["Los «cinco porqués» sirven para…",["Encontrar la causa raíz","Contar inventario","Hacer publicidad"],0,"Preguntar varias veces «¿por qué?»."],
+["Mercado Libre se fundó en…",["1999, en Buenos Aires","2007, en Nueva York","1994, en Seattle"],0,"Salió a Nasdaq en 2007."],
+["Mercado Pago nació sobre todo para…",["Resolver la desconfianza y la falta de medios de pago en línea","Vender ropa","Hacer publicidad"],0,"Luego se volvió un negocio propio."],
+["El segmento de Amazon que genera gran parte de su utilidad de operación es…",["AWS","La tienda de libros","Kindle"],0,"Con una parte menor de las ventas."],
+["Amazon lanzó Prime en…",["2005","1994","2017"],0,"AWS en 2006."],
+["Cemex entró a Europa en 1992 comprando…",["Valenciana y Sanson, en España","Rinker","Southdown"],0,"Rinker fue en 2007."],
+{n:1,t:"Una empresa tiene deuda neta de 16,000 millones y un EBITDA de 2,000 millones. ¿Cuántas veces es la deuda neta su EBITDA?",a:8,tol:0,u:"veces",e:"16,000 ÷ 2,000 = 8."},
+["Cemex enfrentó su crisis de deuda de 2009 con…",["Un acuerdo con sus bancos, venta de activos y emisiones de capital","Dejar de producir","Comprar más con deuda"],0,"Un largo desendeudamiento."]
+]
+});
+window.EXAMENES[4] = {
+extra: [
+["Grupo Lupita tiene tres marcas, cada una con su contador y su nómina. ¿Qué conviene?",["Crear un centro de servicios compartidos con acuerdos de nivel de servicio","Que cada marca contrate más contadores","Eliminar la contabilidad"],0,"Ahorra y da información consolidada más rápido."],
+["Para decidir a qué unidad dar más capital conviene comparar…",["Su rendimiento sobre el capital frente al costo de capital, el riesgo y la estrategia","Solo sus ventas","Quién lo pide con más fuerza"],0,"Asignación de capital."],
+["Un fundador con el 30 % de las acciones firma contratos con la empresa de su cuñado sin informar. Esto es…",["Una operación con partes relacionadas que debe revisar el consejo","Una práctica normal","Asunto de la asamblea familiar"],0,"Con el comité de prácticas societarias."],
+["Una empresa con acciones de voto múltiple para su fundador…",["Puede tener control de los votos con una parte menor del capital","Da a todos los mismos votos","Está prohibida en todo el mundo"],0,"Clase dual."],
+["¿Por qué puede bajar la acción de una empresa que ganó más que el año anterior?",["Porque ganó menos de lo esperado o bajó su pronóstico","Porque las acciones nunca suben","Por error de la bolsa"],0,"El precio refleja expectativas."],
+["Una empresa madura sin proyectos que superen su costo de capital debería…",["Regresar dinero a los accionistas con dividendos o recompras","Comprar cualquier empresa","Guardar todo el efectivo para siempre"],0,"Es mejor que invertir mal."],
+["En la industria de comida rápida en locales, la fuerza más intensa suele ser…",["La rivalidad entre competidores","El poder de los proveedores","Ninguna"],0,"Muchos competidores parecidos."],
+["Una plataforma nueva enfrenta el problema del «huevo y la gallina» porque…",["Ningún lado llega si no está el otro","No tiene logo","No paga impuestos"],0,"Se empieza en un mercado pequeño o subsidiando un lado."],
+["Ante una solicitud de «mordida» para un permiso, lo correcto es…",["Rechazarla, documentarla, informarla y seguir el trámite formal","Negociar un monto menor","Pagar por medio de un gestor"],0,"Política de integridad."],
+["Kodak, Blockbuster y Nokia tienen en común que…",["Vieron el cambio, pero reaccionaron tarde por su modelo y su estructura","Nunca supieron del cambio","Eran empresas pequeñas"],0,"Le puede pasar a cualquiera."]
+],
+prob: [
+{n:1, t:"Problema. Un fondo compra una empresa en 1,000 millones: 400 de su dinero y 600 de deuda. En cinco años la empresa paga 300 de deuda y el fondo la vende en 1,600. ¿Cuántas veces multiplicó el fondo su inversión?", a:3.25, tol:0, u:"veces", e:"Deuda restante 300; el fondo recibe 1,600 − 300 = 1,300; 1,300 ÷ 400 = 3.25."},
+["Minicaso. Grupo Lupita quiere salir a bolsa, pero tiene solo 2 de 7 consejeros independientes, no tiene comité de prácticas societarias ni política de partes relacionadas, y el fondo necesita vender en dos años. ¿Qué es lo más adecuado?",["Resolver la salida del fondo con una venta privada y preparar el gobierno corporativo antes de pensar en la bolsa","Salir a bolsa la próxima semana","Ignorar al fondo"],0,"El gobierno se prepara años antes de una oferta."]
+]
+};
+window.EXAMENES.final = {
+extra: [],
+prob: [
+{n:1, t:"Problema 1. Tortas Lupita vende cada torta a 40 pesos con un costo variable de 16 y tiene costos fijos de 18,000 al mes. ¿Cuántas tortas necesita vender al mes para no perder?", a:750, tol:0, u:"tortas", e:"Margen de contribución 40 − 16 = 24; 18,000 ÷ 24 = 750 tortas."},
+{n:1, t:"Problema 2. Un inversionista pone 500,000 pesos por el 20 % de un negocio. ¿Cuál es la valuación posterior a la inversión (en pesos)?", a:2500000, tol:0, u:"pesos", e:"500,000 ÷ 0.20 = 2,500,000."},
+["Caso integrador. Grupo Lupita tiene 60 locales, una marca de salsas que crece y una cadena de cafés que no alcanza su rendimiento mínimo; su deuda neta es 1.6 veces su EBITDA, una app de suscripción le quita clientes de oficinas y el fondo socio quiere salir en dos años. ¿Cuál es el mejor plan?",["Invertir en salsas, dar un plazo con metas a los cafés o venderlos, crear una unidad independiente de suscripción, resolver la salida del fondo con una venta privada y mantener la deuda prudente","Comprar una constructora para diversificar y salir a bolsa de inmediato","Endeudarse para abrir 50 locales en Estados Unidos sin piloto"],0,"Integra asignación de capital, portafolio, innovación, financiamiento y gobierno."]
+]
+};

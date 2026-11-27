@@ -335,3 +335,78 @@ preg:["Calcula la utilidad mensual esperada de cada opción (y la parte de Torta
 resp:`**Monterrey:** 220,000 × 55 % = 121,000 − 65,000 = 56,000 al mes; a Tortas Lupita le toca la mitad: **28,000**. Recupera 325,000 en unos 11.6 meses. **Apps:** 300,000 × 35 % = 105,000 − 56,000 = **49,000** al mes; recupera 240,000 en unos 4.9 meses. Riesgos de Monterrey: mercado desconocido, gustos distintos, supervisión a distancia, efecto «isla», conflicto con el socio. Riesgos de las apps: dependencia de las plataformas (pueden subir la comisión), margen bajo, calidad en la entrega, canibalización si las zonas se cruzan con los locales. Prueba: para Monterrey, tres meses de una cocina oculta con el socio; para las apps, empezar con una sola cocina oculta y medir ventas nuevas y recompra. Recomendación: **primero las apps en la ciudad** (mejor recuperación, mercado conocido), con precios ajustados y un canal propio por WhatsApp; Monterrey, como prueba pequeña con límite de pérdidas, para decidir en un año.`,
 lec:["Calcula el margen real de cada canal, no solo las ventas.","Expandirse cerca y con conocimiento del mercado suele ser menos riesgoso.","Prueba con poco y define de antemano cuánto estás dispuesto a perder."]}
 );
+
+// ===== Casos del Nivel 4 =====
+window.CASOS.push(
+{id:"grupo-lupita", t:"Grupo Lupita con tres marcas: ¿qué hace el corporativo?", mod:"M23", tipo:"ficticio", les:"M23-4",
+ctx:`Grupo Lupita tiene tres marcas: Tortas Lupita (restaurantes propios y franquicias), Salsas Lupita (venta en supermercados) y Cafés del Barrio (cadena comprada). Cada una tiene su director, su contador, su nómina y su proveedor de sistemas. La oficina de Lupita creció a 25 personas sin un diseño claro. Los directores se quejan de que el corporativo «pide muchos reportes y no ayuda», y el consejo quiere saber cuánto cuesta y qué aporta.`,
+dil:`¿Qué debe hacer el corporativo, qué debe dejar a las unidades y cómo medir si agrega valor?`,
+datos:`| Unidad | Ventas (millones) | Utilidad de operación después de impuestos | Capital invertido |
+|---|---|---|---|
+| Restaurantes | 400 | 42 | 300 |
+| Salsas | 60 | 9 | 30 |
+| Cafés | 50 | 3 | 40 |
+
+Costo actual del corporativo: 18 millones al año. Funciones duplicadas en las tres unidades (contabilidad, nómina, sistemas): 9.6 millones al año. Rendimiento mínimo del grupo: 12 %.`,
+preg:["¿Qué funciones debería tener el corporativo y cuáles deberían quedarse en las unidades?","¿Qué funciones convendría llevar a servicios compartidos y cuánto se ahorraría?","Calcula el rendimiento sobre el capital de cada unidad. ¿Cuál debería recibir más inversión?","¿Cómo medirías si el corporativo agrega valor?","¿Qué harías con Cafés del Barrio?"],
+resp:`El corporativo debería concentrarse en **estrategia del grupo, asignación de capital, finanzas corporativas (bancos, tesorería, consolidación), control de desempeño, gobierno y cumplimiento, y selección de directores**. Las unidades deben conservar **clientes, ventas, marketing, operación y compras de sus insumos**. Llevar contabilidad, nómina y sistemas a un **centro de servicios compartidos** podría bajar su costo de 9.6 a unos 6.3 millones (ahorro de 3.3 millones, 34 %), con acuerdos de nivel de servicio. Rendimientos: Restaurantes 14 %, Salsas 30 %, Cafés 7.5 %. Salsas merece más inversión si tiene proyectos con rendimiento similar; Restaurantes supera el mínimo; Cafés no lo alcanza. Para medir al corporativo: su costo como porcentaje de las ventas del grupo (hoy 18 ÷ 510 ≈ 3.5 %), el ahorro logrado, la rapidez de los reportes y una encuesta anual a los directores. Para Cafés: un plan de 12 a 18 meses con metas claras (remodelación y nuevo formato); si no supera el 12 %, evaluar venderla.`,
+lec:["El corporativo debe agregar valor, no solo costos.","Los servicios compartidos ahorran en tareas repetitivas.","El capital se asigna por rendimiento, riesgo y estrategia, no por quién lo pide más fuerte."]},
+{id:"fundador-30", t:"El fundador quiere seguir decidiendo todo con el 30 % de las acciones", mod:"M24", tipo:"ficticio", les:"M24-5",
+ctx:`Después de una ronda de inversión y la entrada de un fondo, Toño, fundador de una nueva marca del grupo (Tortas Lupita Express, cocinas ocultas y suscripciones), conserva el 30 % de las acciones de esa empresa. El fondo tiene el 45 % y Grupo Lupita el 25 %. Toño sigue como director general y quiere decidir solo las adquisiciones, los sueldos de su equipo y la estrategia. Ha firmado contratos con una empresa de su cuñado sin informar al consejo. Las ventas crecen, pero las pérdidas también.`,
+dil:`¿Qué puede decidir Toño, qué le corresponde al consejo y a la asamblea, y cómo resolver el conflicto sin destruir la empresa?`,
+datos:`| Dato | Valor |
+|---|---|
+| Acciones: Toño / fondo / Grupo Lupita | 30 % / 45 % / 25 % |
+| Consejo | 5 miembros: Toño, 2 del fondo, 1 de Grupo Lupita, 1 independiente |
+| Ventas del año | 80 millones (+60 %) |
+| Pérdida de operación | −12 millones |
+| Contratos con la empresa del cuñado | 6 millones al año, sin aprobación del consejo |
+| Convenio entre accionistas | Las adquisiciones y los contratos con partes relacionadas requieren aprobación del consejo |`,
+preg:["¿Qué decisiones corresponden al director general, al consejo y a la asamblea?","¿Qué problema de gobierno representan los contratos con la empresa del cuñado?","¿Hay un problema de agencia? ¿Cuál?","¿Qué opciones tiene el consejo?","¿Qué recomendarías para conservar el talento de Toño y proteger a todos los accionistas?"],
+resp:`Toño, como **director general**, dirige el día a día y propone la estrategia, pero **el consejo** aprueba la estrategia, el presupuesto, las adquisiciones, los contratos con partes relacionadas y la compensación de la alta dirección, y puede removerlo; la **asamblea** elige al consejo y decide sobre capital, fusiones y estatutos. Con 30 % de las acciones, Toño **no controla** la empresa: el fondo y Grupo Lupita suman 70 %. Los contratos con la empresa de su cuñado son **operaciones con partes relacionadas** sin aprobación: un conflicto de interés y una violación del convenio. Hay un **problema de agencia**: el director busca crecer y controlar aunque se pierda dinero, y puede beneficiar a su familia a costa de los socios. Opciones del consejo: exigir que los contratos se revisen por el consejero independiente y se ajusten a precios de mercado o se cancelen; aprobar un plan con metas de rentabilidad; fijar una matriz de autoridad; ligar su bono a metas de largo plazo; y, si no hay cambio, removerlo como director general (conservando sus acciones). Recomendación: separar los cargos (Toño como presidente del producto o director de innovación y un director general con experiencia operativa), sumar otro independiente y aplicar una política formal de partes relacionadas.`,
+lec:["Tener una parte de las acciones no da el control de la empresa.","Las operaciones con partes relacionadas deben aprobarse y revelarse.","El consejo protege a todos los accionistas, incluido el fundador."]},
+{id:"lupita-bolsa", t:"Grupo Lupita evalúa salir a bolsa", mod:"M25", tipo:"ficticio", les:"M25-2",
+ctx:`El fondo de capital privado que tiene el 20 % de Grupo Lupita quiere vender su parte en dos años. Al mismo tiempo, el grupo quiere 500 millones de pesos para crecer en Estados Unidos. Un banco de inversión propone una oferta pública en la Bolsa Mexicana de Valores; otro asesor propone una venta privada de la parte del fondo y un crédito para la expansión.`,
+dil:`¿Conviene salir a bolsa ahora, esperar o buscar otra vía?`,
+datos:`| Dato | Valor |
+|---|---|
+| Ventas anuales | 900 millones |
+| EBITDA | 135 millones |
+| Utilidad neta | 60 millones |
+| Deuda neta | 120 millones |
+| Múltiplo valor de la empresa ÷ EBITDA de empresas comparables en bolsa | 9 veces |
+| Costo estimado de la oferta | 5 % del monto colocado + 8 millones al año de cumplimiento |
+| Gobierno actual | 7 consejeros, 2 independientes; sin comité de prácticas societarias |`,
+preg:["Estima el valor de la empresa y el valor de las acciones con el múltiplo.","¿Cuánto valdría la parte del fondo?","¿Qué ventajas y desventajas tendría la salida a bolsa para Grupo Lupita?","¿Está lista la empresa en gobierno corporativo?","¿Qué recomiendas y en qué plazo?"],
+resp:`Valor de la empresa: 135 × 9 = **1,215 millones**; valor de las acciones: 1,215 − 120 = **1,095 millones**. La parte del fondo (20 %) valdría unos **219 millones**. Una oferta de 500 millones primarios más 219 secundarios (unos 719 millones) costaría unos 36 millones de comisiones más 8 millones al año. **Ventajas:** capital para crecer sin más deuda, liquidez para el fondo y los familiares, visibilidad. **Desventajas:** costos, transparencia (los competidores verán sus márgenes), presión trimestral, pérdida parcial de control y un tamaño todavía pequeño para atraer a grandes inversionistas. **Gobierno:** no está lista: necesita comités de auditoría y prácticas societarias solo con independientes, política de partes relacionadas, área de relación con inversionistas y estados conforme a NIIF. Recomendación: **no salir ahora**; resolver la salida del fondo con una **venta privada** a otro fondo o inversionista estratégico, financiar la primera etapa en Estados Unidos con crédito y utilidades (deuda neta ÷ EBITDA pasaría de 0.9 a unas 2.5 veces si se piden 220 millones, en el límite de la prudencia), adoptar el Código de Mejores Prácticas durante dos años y reconsiderar la bolsa cuando el grupo sea más grande.`,
+lec:["Salir a bolsa es un cambio de forma de vida, no solo una forma de conseguir dinero.","El gobierno corporativo se prepara años antes de la oferta.","Hay otras vías para dar liquidez a un fondo."]},
+{id:"amazon-pierde-gana", t:"¿Por qué Amazon pierde dinero en algunos negocios y gana en otros?", mod:"M26", tipo:"real", les:"M28-7",
+ctx:`Amazon informa sus resultados en tres segmentos: Norteamérica, Internacional y AWS. Durante años, su tienda internacional perdió dinero, mientras AWS, que representa una parte menor de las ventas, generaba la mayor parte de la utilidad de operación. Muchos analistas se han preguntado si Amazon debería separar AWS o cerrar los negocios que pierden.`,
+dil:`¿Es razonable que una empresa mantenga negocios que pierden dinero? ¿Cómo se relacionan los negocios de Amazon entre sí?`,
+datos:`Datos de 2023, según el Formulario 10-K de Amazon (redondeados, miles de millones de dólares):
+
+| Segmento | Ventas | Utilidad de operación |
+|---|---|---|
+| Norteamérica | 353 | 15 |
+| Internacional | 131 | −3 |
+| AWS | 91 | 25 |
+| **Total** | **575** | **37** |`,
+preg:["¿Qué porcentaje de las ventas y de la utilidad aporta cada segmento?","¿Qué ventaja competitiva tiene cada negocio (lecciones M26-1, M26-2 y M26-4)?","¿Por qué Amazon podría aceptar pérdidas en el segmento Internacional?","¿Qué economías de alcance comparten sus negocios?","¿Qué riesgos tiene depender tanto de AWS para la utilidad?"],
+resp:`Ventas: Norteamérica ≈ 61 %, Internacional ≈ 23 %, AWS ≈ 16 %. Utilidad: Norteamérica ≈ 41 %, Internacional ≈ −8 %, AWS ≈ 68 %. **Ventajas:** la tienda compite por **costo y conveniencia** (escala, logística, Prime) con efecto red en el mercado para vendedores externos; AWS tiene **escala**, tecnología y **costos de cambio** altos para sus clientes; la publicidad aprovecha el tráfico de la tienda. Amazon acepta pérdidas internacionales porque las considera **inversiones** para ganar posición en mercados grandes, financiadas por el efectivo de AWS y de Norteamérica, con una visión de **largo plazo** que su fundador explicó desde la carta de 1997. **Economías de alcance:** infraestructura tecnológica (de donde nació AWS), centros de distribución usados por vendedores externos, clientes Prime que compran más y alimentan la publicidad. **Riesgos:** si la competencia en la nube reduce los márgenes de AWS, la empresa tendría menos recursos para sostener las inversiones; además, los reguladores de competencia vigilan su poder en varios mercados. La clave es la **disciplina**: Amazon también ha cerrado proyectos que no funcionaron.`,
+fuentes:`Amazon.com, Inc., Formulario 10-K 2023; carta de Jeff Bezos a los accionistas (1997).`,
+lec:["Mira los resultados por segmento para saber dónde se gana el dinero.","Perder dinero en un negocio puede ser una inversión si hay una lógica de largo plazo y disciplina.","Los negocios que comparten recursos se refuerzan entre sí."]},
+{id:"crisis-intoxicacion", t:"Crisis por intoxicación en una sucursal de Tortas Lupita", mod:"M27", tipo:"ficticio", les:"M27-4",
+ctx:`Un sábado, doce clientes de una sucursal de Tortas Lupita presentan síntomas de intoxicación; dos son hospitalizados. A mediodía, un video viral acusa a la marca. Los periodistas llaman, los franquiciatarios preguntan qué decir y un abogado recomienda «no reconocer nada». Lupita debe decidir en las próximas horas.`,
+dil:`¿Cómo responder para proteger a las personas, a la marca y a la empresa?`,
+datos:`| Dato | Valor |
+|---|---|
+| Afectados | 12 (2 hospitalizados) |
+| Reproducciones del video a las 12:00 | 200,000 |
+| Sucursales de la marca | 60 (40 propias, 20 franquiciadas) |
+| Proveedor de carne de esa sucursal | El mismo que surte a otras 15 |
+| Plan de crisis | Existe, pero nunca se ha practicado |
+| Seguro de responsabilidad civil | Sí, con cobertura limitada |`,
+preg:["¿Qué hacer en la primera hora y en las primeras seis horas?","¿Qué decir en el primer mensaje público y qué no decir?","¿Qué hacer con las otras sucursales y con el proveedor?","¿Cómo comunicarse con los franquiciatarios y los empleados?","¿Qué cambios se deben hacer después?"],
+resp:`**Primera hora:** cerrar la sucursal, atender a los afectados y llamar a servicios de salud, guardar muestras, avisar al comité de crisis. **Primeras seis horas:** activar el comité (dirección, operaciones, legal, comunicación), avisar a la autoridad sanitaria y cooperar, **inmovilizar los lotes** del mismo proveedor en las otras 15 sucursales como precaución, y visitar a los afectados. **Primer mensaje (en unas tres horas):** reconocer lo ocurrido, expresar preocupación genuina, informar que la sucursal está cerrada, que se atiende a los afectados y se coopera con las autoridades, y cuándo habrá más información. **No decir:** negar, minimizar, culpar al cliente o al proveedor sin pruebas, ni «sin comentarios». El consejo legal de «no reconocer nada» debe equilibrarse: se puede ser responsable y empático sin aceptar culpas legales antes de la investigación. **Franquiciatarios y empleados:** un mensaje interno inmediato con instrucciones claras y un solo vocero. **Después:** investigar la causa raíz (por ejemplo, falla de refrigeración), cubrir gastos médicos, auditoría externa de seguridad alimentaria, nueva capacitación, revisión del proveedor, practicar el plan de crisis con simulacros y comunicar públicamente los cambios antes de reabrir.`,
+lec:["Primero las personas, después la imagen.","Comunicar pronto, con la verdad y con acciones.","Un plan de crisis sirve solo si se practica."]}
+);
