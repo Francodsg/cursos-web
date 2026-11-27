@@ -3821,3 +3821,390 @@ q: [["¿Con qué compra entró Cemex a Europa en 1992?",["Valenciana y Sanson, e
 t: ["Cemex","Industria cíclica","Acuerdo de financiamiento","Grado de inversión","Concreto premezclado"]
 }
 });
+
+// ===== M29. Proyecto final integrador =====
+Object.assign(window.LECC, {
+"M29-1": {
+s: `Llegó el final del curso. Lupita recuerda su primer día con el puesto de tortas: no sabía qué era un margen, un organigrama ni un flujo de caja. Ahora te toca a ti: elegir un negocio real que conozcas y hacer su radiografía completa, como hicimos con la tienda de Doña Mary, Bimbo o Toyota. El primer paso es elegir bien el negocio y armar su ficha.`,
+o: ["Elegir un negocio real adecuado para el proyecto final.","Reunir información con respeto y de fuentes confiables.","Completar la Parte 1 del proyecto: ficha y modelo de negocio."],
+x: `## El proyecto final
+El proyecto final integra **todo el curso**: harás la radiografía de un negocio real, desde su forma legal hasta su plan de crecimiento. Se trabaja en la página **Proyecto final** del sitio, donde cada respuesta se guarda en tu navegador, y al final te autoevaluarás con una **rúbrica** (lección M29-4). Tiene cuatro partes:
+1. **Ficha del negocio** (esta lección).
+2. **Radiografía interna** (lección M29-2).
+3. **Plan de crecimiento** (lección M29-3).
+4. **Conclusiones, presentación y autoevaluación** (lección M29-4).
+
+## Cómo elegir el negocio
+Elige un negocio que **realmente puedas conocer**. Algunas opciones:
+- El negocio de tu familia o de un conocido (una tienda, un taller, una fonda, una estética, un despacho).
+- Un negocio donde trabajas o trabajaste.
+- Un negocio de tu colonia cuyo dueño acepte platicar contigo.
+- Una empresa grande que cotice en bolsa, usando su informe anual (más información pública, pero menos acceso a lo de adentro).
+
+Criterios para elegir:
+| Criterio | Pregunta |
+|---|---|
+| Acceso | ¿Puedo hablar con el dueño o con alguien que conozca el negocio? ¿Hay información pública? |
+| Interés | ¿Me interesa de verdad? |
+| Tamaño manejable | ¿Puedo entenderlo en pocas semanas? (Un changarro o una pyme es ideal para empezar.) |
+| Variedad | ¿Tiene suficientes áreas y decisiones para analizar? |
+
+## Cómo reunir información con respeto
+- **Pide permiso** y explica que es un proyecto educativo.
+- **Cuida la confidencialidad:** no publiques datos sensibles (ventas exactas, nombres de clientes, deudas) sin autorización. Puedes cambiar el nombre del negocio y redondear números.
+- **Pregunta con tacto:** muchos dueños no conocen sus números exactos; acepta estimaciones y anota que lo son.
+- **Observa:** visita el negocio en distintos horarios, cuenta clientes, mira los procesos (lección M20-2).
+- **Usa fuentes públicas:** INEGI (DENUE, Censos Económicos), sitios de la empresa, informes anuales si cotiza, notas de prensa confiables. Anota siempre la fuente y la fecha.
+- **Distingue** entre lo que **sabes** (dato verificado), lo que **estimas** (cálculo razonable) y lo que **supones** (hipótesis). Esa honestidad es parte de la calificación.
+
+## Guion de preguntas para el dueño (Parte 1)
+1. ¿Cuándo y cómo empezó el negocio? ¿Por qué?
+2. ¿Cuántas personas trabajan aquí, incluyéndose a usted?
+3. ¿Está dado de alta ante el SAT? ¿Como persona física o como sociedad? (lección M3-4)
+4. ¿Quiénes son sus clientes principales? ¿Por qué cree que le compran a usted?
+5. ¿Qué vende más y qué le deja más ganancia?
+6. ¿Cómo llegan los clientes: pasan por enfrente, recomendación, redes, pedidos?
+7. ¿Qué es lo más difícil del negocio?
+
+## La ficha del negocio
+Llena en la página del proyecto:
+- **Nombre** (real o cambiado).
+- **Tamaño** (lección M2-1): número de empleados y, si lo sabes, ventas aproximadas; clasificación (micro, pequeña, mediana, grande).
+- **Sector y giro** (lecciones M3-1 y M3-2): primario, secundario o terciario; comercio, servicios, manufactura.
+- **Propiedad y forma legal** (lecciones M3-3 a M3-5): privada, familiar, cooperativa; persona física o moral; tipo de sociedad.
+- **Antigüedad** y una frase sobre su historia.
+
+## El modelo de negocio
+Usa el **lienzo de 9 bloques** (lección M4-2; está en las herramientas del sitio):
+1. **Segmentos de clientes.**
+2. **Propuesta de valor:** ¿qué problema resuelve y por qué lo eligen?
+3. **Canales.**
+4. **Relación con los clientes.**
+5. **Fuentes de ingreso** (lección M4-5).
+6. **Recursos clave.**
+7. **Actividades clave.**
+8. **Socios clave.**
+9. **Estructura de costos.**
+
+En la página del proyecto, resume en el campo «Modelo de negocio» la propuesta de valor, los clientes, los canales y las fuentes de ingreso, y si quieres, llena también el lienzo interactivo.
+
+## Errores frecuentes en esta parte
+- Elegir un negocio del que no se puede obtener información.
+- Describir lo que el negocio «debería ser» en lugar de lo que es.
+- Confundir el giro con la propuesta de valor («vende tacos» no es una propuesta de valor; «tacos de guisado caseros, rápidos y baratos cerca de la estación del metro» sí).
+- Inventar datos sin decir que son estimaciones.
+
+## Ejemplo de ficha bien hecha
+«**Taller Hermanos Ruiz** (nombre cambiado). Taller mecánico con 4 personas (el dueño, su hermano y dos mecánicos). Microempresa del sector terciario (servicios de reparación). Persona física con actividad empresarial, dada de alta en el SAT; no es sociedad. Abrió en 2009 en un local rentado en una avenida con mucho tráfico. **Propuesta de valor:** diagnóstico honesto y reparaciones rápidas para autos de más de 10 años, a precio menor que las agencias. **Clientes:** vecinos y taxistas de la zona (estos últimos, el 40 % de las ventas, según el dueño). **Canales:** el local y recomendaciones por WhatsApp. **Ingresos:** mano de obra y margen sobre refacciones.»
+
+## Un calendario sugerido
+Dedica a la Parte 1 una o dos semanas: una visita para platicar con el dueño, otra para observar el negocio en un horario de mucho movimiento y unas horas para investigar en fuentes públicas. No intentes llenar todo en un solo día: la información mejora cuando vuelves con preguntas nuevas.`,
+k: `**Proyecto final:** radiografía de un negocio real en 4 partes: ficha, radiografía interna, plan de crecimiento y conclusiones con autoevaluación. **Parte 1:** elegir un negocio accesible, reunir información **con permiso y confidencialidad**, distinguir **datos, estimaciones y supuestos**, y completar la ficha (tamaño, sector, forma legal, antigüedad) y el **modelo de negocio** (lienzo de 9 bloques).`,
+ch: `Un estudiante elige la papelería de su tía: puede visitarla cuando quiera, preguntarle cómo compra y observar a los clientes en la hora de salida de la escuela.`,
+gi: `Si eliges una empresa grande, su informe anual y su sitio de relación con inversionistas te dan información sobre su historia, su forma legal (por ejemplo, S.A.B. de C.V.), sus segmentos y sus riesgos (lección M25-4).`,
+e: `Cómo distinguir datos, estimaciones y supuestos en la ficha del Taller Hermanos Ruiz:
+
+| Afirmación | Tipo | Fuente |
+|---|---|---|
+| Tiene 4 personas trabajando | Dato | Observación y dueño |
+| Abrió en 2009 | Dato | Dueño |
+| Atiende unos 12 autos por semana | Estimación | Conteo de una semana |
+| Vende unos 60,000 pesos al mes | Estimación | 12 autos × 4.3 semanas × ticket promedio de 1,150 ≈ 59,340 |
+| Los taxistas son el 40 % de las ventas | Dato aproximado | Dueño |
+| La competencia de las agencias crecerá | Supuesto | Opinión propia |
+
+Marcar el tipo de cada afirmación hace el proyecto más honesto y más útil.`,
+r: `El INEGI ofrece el Directorio Estadístico Nacional de Unidades Económicas (DENUE), donde se puede consultar en un mapa información básica de los establecimientos de una zona, útil para ubicar a la competencia del negocio que analices.`,
+f: `INEGI, DENUE (inegi.org.mx); lecciones M2-1, M3-1 a M3-5 y M4-2 del curso.`,
+err: ["Elegir un negocio del que no se puede obtener información.","Publicar datos confidenciales sin permiso.","Presentar estimaciones como si fueran datos exactos.","Confundir el giro con la propuesta de valor.","Describir lo que el negocio debería ser y no lo que es."],
+a: `Elige tu negocio y completa en la página del Proyecto final la Parte 1: nombre, ficha (tamaño, sector, giro, forma legal y antigüedad) y modelo de negocio. Marca qué información es dato, estimación o supuesto.`,
+sol: `Una buena Parte 1 tiene una ficha completa con clasificaciones correctas del curso, una propuesta de valor específica (no solo el giro), clientes y canales concretos, fuentes de ingreso claras y la distinción entre datos, estimaciones y supuestos.`,
+q: [["¿Cuál es el mejor criterio para elegir el negocio del proyecto?",["Que puedas obtener información sobre él","Que sea el más famoso del mundo","Que no tenga clientes"],0,"El acceso a la información es clave."],
+["«Vende tacos» es…",["El giro, no una propuesta de valor completa","Una propuesta de valor excelente","Un estado financiero"],0,"La propuesta dice qué problema resuelve y por qué lo eligen."],
+["Si el dueño no conoce sus ventas exactas, lo correcto es…",["Hacer una estimación razonable y decir que lo es","Inventar un número exacto","Dejar el proyecto"],0,"Distingue datos de estimaciones."],
+["Antes de publicar datos del negocio debes…",["Pedir permiso y cuidar la confidencialidad","Publicarlos sin preguntar","Venderlos"],0,"Puedes cambiar el nombre y redondear números."]],
+t: ["Proyecto final","Lienzo de modelo de negocio","Fuentes de información"]
+},
+"M29-2": {
+s: `Con la ficha lista, empieza la parte más larga del proyecto: mirar el negocio «por dentro». Quién hace qué, cómo se compra, cómo se vende, cuánto entra y cuánto sale. Es lo que hiciste en el Nivel 2 con Tortas Lupita, pero ahora con un negocio real, con sus imperfecciones.`,
+o: ["Dibujar el organigrama y describir el funcionamiento de cada área del negocio elegido.","Describir sus procesos, su inventario, su calidad, sus clientes y sus proveedores.","Estimar sus números principales: ventas, costos, margen, punto de equilibrio y flujo de caja."],
+x: `## La Parte 2: radiografía interna
+En esta parte completarás cinco campos de la página del proyecto: **organigrama**, **áreas**, **procesos**, **clientes y proveedores**, y **números**. Es la parte con más peso en la rúbrica (estructura y áreas 20 %, números 20 %, clientes y proveedores 15 %).
+
+## 1. Organigrama (Módulo 6)
+Dibuja quién hace qué y a quién reporta. En un negocio chico, una persona puede tener varios puestos: anótalo («Dueño: dirección, compras y caja»). Identifica:
+- El **tipo de estructura** (lecciones M6-3 a M6-6): changarro, funcional, por divisiones…
+- El **tramo de control** del dueño: ¿cuántas personas le reportan? (lección M6-7).
+- Si hay **descripciones de puesto** o todo es «de palabra» (lección M6-8).
+Puedes usar el **constructor de organigramas** del sitio y copiar el resultado al proyecto.
+
+## 2. Las áreas (Módulos 7 a 15)
+Para cada área, escribe **quién la hace** y **cómo funciona**, aunque sea en pocas líneas. Usa esta guía:
+| Área | Preguntas clave |
+|---|---|
+| Dirección (M7) | ¿Quién decide? ¿Hay metas o indicadores? ¿El negocio funciona sin el dueño? |
+| Finanzas (M8) | ¿Se separan las cuentas personales y del negocio? ¿Se lleva registro? ¿Hay contador? |
+| Operaciones (M9) | ¿Cómo es el día a día? ¿Dónde se atora? |
+| Compras (M10) | ¿A quién compra? ¿Cómo elige proveedores? ¿Depende de uno solo? |
+| Ventas (M11) | ¿Cómo consigue y conserva clientes? |
+| Marketing (M12) | ¿Cómo se da a conocer? ¿Redes, letrero, recomendaciones? |
+| Recursos humanos (M13) | ¿Cómo contrata, paga y capacita? ¿Están dados de alta en la seguridad social? |
+| Legal (M14) | ¿Tiene permisos, contratos, marca registrada? |
+| Tecnología (M15) | ¿Qué herramientas usa: cuaderno, hoja de cálculo, punto de venta? |
+
+## 3. Procesos, inventario y calidad (Módulo 9)
+- Describe el **proceso principal** paso a paso (por ejemplo, «recibir un auto → diagnosticar → cotizar → reparar → probar → entregar y cobrar»). Si puedes, haz un diagrama de flujo (lección M9-2).
+- Identifica el **cuello de botella** (lección M9-4).
+- ¿Cómo controla el **inventario**? ¿Hay merma o productos parados? (lecciones M9-5 y M9-6).
+- ¿Cómo asegura la **calidad**? ¿Hay estándares? (lecciones M9-7 y M9-9).
+
+## 4. Clientes y proveedores (Módulos 10 y 11)
+- **Clientes:** perfil, cómo llegan (embudo, lección M11-3), por qué regresan, ticket promedio, si hay clientes que pesen demasiado en las ventas (concentración, lección M16-7).
+- **Proveedores:** principales, condiciones de pago (crédito de proveedores), riesgo de depender de uno solo (lección M10-6).
+
+## 5. Números (Módulos 5 y 8)
+Estima, aunque sea de forma aproximada, los números de un **mes típico**:
+1. **Ventas** = clientes × ticket promedio (lección M5-2).
+2. **Costos variables** (mercancía, insumos, comisiones) y **costos fijos** (renta, sueldos, servicios) (lección M5-3).
+3. **Utilidad** antes de impuestos y **margen** (lecciones M5-5 y M5-6). No olvides el **sueldo del dueño** (lección M5-10).
+4. **Punto de equilibrio** = costos fijos ÷ margen de contribución unitario o porcentual (lección M5-7). Usa la calculadora del sitio.
+5. **Flujo de caja:** ¿hay meses buenos y malos? ¿Le falta efectivo en algún momento? (lección M8-4). Si puedes, usa la calculadora de flujo de 6 meses.
+
+Escribe siempre **cómo** calculaste cada número y de dónde salió.
+
+## Ejemplo: números del Taller Hermanos Ruiz (estimados)
+| Concepto (mes) | Cálculo | Monto |
+|---|---|---|
+| Ventas | 52 autos × 1,150 | 59,800 |
+| Refacciones (costo) | 40 % de las ventas | 23,920 |
+| **Margen de contribución** | 60 % | **35,880** |
+| Renta | — | 8,000 |
+| Sueldos de dos mecánicos | 2 × 8,500 | 17,000 |
+| Luz, herramientas, otros | — | 3,000 |
+| **Costos fijos** | | **28,000** |
+| **Utilidad antes del sueldo de los dueños** | 35,880 − 28,000 | **7,880** |
+| **Punto de equilibrio** | 28,000 ÷ 0.60 | **46,667 en ventas** |
+
+Conclusión: el taller cubre sus costos, pero lo que queda (7,880) es muy poco para dos dueños que trabajan tiempo completo. Esto será clave para el plan de crecimiento.
+
+## Errores frecuentes
+- Olvidar el sueldo del dueño o los gastos «que no se ven».
+- Mezclar números de un día con números de un mes.
+- Escribir «no tiene finanzas» en lugar de describir cómo maneja el dinero (aunque sea con un cuaderno).
+- Describir las áreas de forma genérica, sin ejemplos del negocio real.
+
+## Cómo conseguir los números sin incomodar
+Muchos dueños no quieren decir cuánto venden o cuánto ganan, y está bien. Hay formas respetuosas de estimar:
+- **Contar clientes** durante una o dos horas en distintos días y multiplicar (lección M20-2).
+- **Preguntar el ticket promedio** o calcularlo con los precios del menú o de la lista.
+- **Preguntar por los costos que conoce bien**, como la renta o lo que paga cada semana al proveedor principal.
+- **Usar porcentajes típicos** del giro (por ejemplo, el costo de los alimentos en restaurantes suele estar entre el 30 % y el 40 % de las ventas) y aclarar que son supuestos.
+- **Comparar** con negocios parecidos o con información pública del sector.
+
+Después de estimar, **muéstrale al dueño** tus cálculos: muchas veces corrige un dato o agrega algo que no habías visto. Esa conversación suele ser una de las partes más valiosas del proyecto, para ti y para él.
+
+## Lo que no se ve
+Revisa también los costos «escondidos» que suelen olvidarse: mantenimiento y reparaciones, depreciación del equipo, comisiones bancarias, merma, gastos personales que se pagan con dinero del negocio, y el tiempo de los familiares que ayudan sin sueldo.`,
+k: `**Parte 2 del proyecto:** **organigrama** (tipo de estructura, tramo de control), **áreas** (dirección, finanzas, operaciones, compras, ventas, marketing, RH, legal, tecnología), **procesos** (proceso principal, cuello de botella, inventario, calidad), **clientes y proveedores** (embudo, concentración, crédito) y **números** de un mes típico: ventas, costos fijos y variables, utilidad, margen, **punto de equilibrio** y flujo de caja, explicando cómo se calcularon.`,
+ch: `En un negocio chico, el organigrama puede tener solo tres cajas, pero las nueve áreas siguen existiendo: alguien compra, alguien vende, alguien cobra, alguien decide.`,
+gi: `En una empresa grande, la radiografía interna se apoya en el informe anual: la estructura por segmentos, los directivos, los riesgos y los estados financieros (lecciones M23-3, M23-5 y M25-4).`,
+e: `Punto de equilibrio del Taller Hermanos Ruiz con la calculadora del curso:
+
+| Dato | Valor |
+|---|---|
+| Costos fijos mensuales | 28,000 |
+| Margen de contribución | 60 % de las ventas |
+| **Ventas de equilibrio** | 28,000 ÷ 0.60 = **46,667** |
+| En autos (ticket de 1,150) | 46,667 ÷ 1,150 ≈ **41 autos al mes** |
+| Autos atendidos hoy | 52 |
+| **Margen de seguridad** | (52 − 41) ÷ 52 ≈ **21 %** |
+
+Si las ventas bajaran más de 21 %, el taller empezaría a perder dinero.`,
+hr: "equilibrio",
+r: `Las calculadoras del curso (punto de equilibrio, margen, flujo de caja, costo de un empleado) permiten estimar los números del negocio elegido con los mismos métodos que se usaron con Tortas Lupita en los Niveles 1 y 2.`,
+f: `Lecciones de los Módulos 5 a 15 del curso; calculadoras del sitio.`,
+err: ["Olvidar el sueldo del dueño al calcular la utilidad.","Mezclar números diarios, semanales y mensuales.","Describir las áreas de forma genérica, sin ejemplos reales.","No explicar cómo se calculó cada número.","Copiar el organigrama ideal en lugar del real."],
+a: `Completa en la página del Proyecto final los cinco campos de la Parte 2: organigrama, áreas, procesos, clientes y proveedores, y números. Usa al menos una calculadora del sitio y explica cada cálculo.`,
+sol: `Una buena Parte 2 describe el organigrama real con su tipo de estructura, cubre las nueve áreas con ejemplos concretos, identifica un cuello de botella, analiza la concentración de clientes y proveedores, y presenta los números de un mes típico con su punto de equilibrio y su margen de seguridad.`,
+q: [{n:1,t:"Un negocio tiene costos fijos de 28,000 al mes y un margen de contribución del 60 %. ¿Cuáles son sus ventas de equilibrio? (redondea a entero)",a:46667,tol:0.001,u:"pesos",e:"28,000 ÷ 0.60 = 46,666.7 ≈ 46,667."},
+["Al calcular la utilidad de un negocio chico, es un error frecuente olvidar…",["El sueldo del dueño","El nombre del negocio","El color del local"],0,"Si no se paga, la «utilidad» es en realidad su sueldo."],
+["Si un cliente representa el 40 % de las ventas, hay un riesgo de…",["Concentración","Dilución","Canibalización"],0,"Si se va, el negocio sufre mucho."],
+["El cuello de botella de un proceso es…",["La etapa que limita la capacidad de todo el proceso","El producto más vendido","El proveedor más barato"],0,"Lección M9-4."]],
+t: ["Radiografía interna","Margen de seguridad"]
+},
+"M29-3": {
+s: `Ya sabes cómo funciona tu negocio por dentro. Ahora viene la pregunta que Lupita se hizo en cada etapa del curso: «¿Y ahora qué sigue?». La Parte 3 del proyecto es proponer un plan para que el negocio pase al siguiente nivel, con decisiones, riesgos y una forma realista de financiarlo.`,
+o: ["Identificar la etapa de crecimiento del negocio elegido y la siguiente etapa posible.","Proponer decisiones clave con sus riesgos y formas de reducirlos.","Diseñar una forma realista de financiar el crecimiento."],
+x: `## La Parte 3: plan de crecimiento
+Esta parte tiene tres campos en la página del proyecto: **etapa**, **decisiones y riesgos**, y **financiamiento**. En la rúbrica vale **20 %**. No se trata de imaginar que el negocio será gigante, sino de proponer **el siguiente paso razonable**.
+
+## 1. ¿En qué etapa está? (Módulo 18)
+Usa los modelos de crecimiento (lección M18-1):
+- **Existencia:** el negocio apenas sobrevive; el dueño hace todo.
+- **Supervivencia:** ya tiene clientes, pero sus números son justos.
+- **Éxito:** es rentable y estable; el dueño puede elegir entre mantenerlo o crecer.
+- **Despegue:** crece rápido y necesita dinero, gerentes y sistemas.
+- **Madurez:** empresa grande y establecida.
+
+Describe las señales: ¿el negocio funciona sin el dueño? ¿Tiene procesos escritos? ¿Sus números son estables? ¿Tiene dinero o acceso a él?
+
+## 2. ¿Cuál es la siguiente etapa y qué necesita?
+No todo negocio debe crecer en tamaño (lección M18-8). El siguiente paso puede ser:
+- **Profesionalizar** (lección M18-3): separar cuentas, escribir procesos, delegar.
+- **Crecer en el mismo lugar:** más clientes, más ticket, más productos (matriz de Ansoff, lección M18-6).
+- **Abrir una sucursal** (Módulo 20) o **franquiciar** (Módulo 21).
+- **Vender en nuevos canales** (lección M22-3).
+- **Formalizarse** para vender a empresas grandes (lección M18-7).
+- **Mejorar la rentabilidad** sin crecer: precios, costos, merma.
+
+Elige **una o dos** estrategias principales y explica **por qué**, con los datos de la Parte 2.
+
+## 3. Decisiones clave, riesgos y cómo reducirlos (Módulo 16)
+Para tu estrategia, haz:
+1. **Una lista de 3 a 5 decisiones** concretas (por ejemplo: «contratar a un encargado», «comprar una segunda plancha», «abrir pedidos por WhatsApp», «registrar la marca»).
+2. **Una matriz de riesgos** (lección M16-7): para cada riesgo, su probabilidad, su impacto y cómo reducirlo.
+3. **Escenarios** (lección M16-6): ¿qué pasa si las ventas son 20 % menores de lo esperado?
+4. **Indicadores** para saber si el plan funciona (lección M17-4).
+
+## 4. ¿Cómo se financia? (Módulo 19)
+- **Cuánto se necesita:** inversión + capital de trabajo + colchón (lección M19-1).
+- **De dónde:** recursos propios, reinversión de utilidades, crédito de proveedores, crédito bancario o de fomento, socio (lecciones M19-2 a M19-6).
+- **¿Los pagos caben en el escenario pesimista?** Es la prueba clave (lección M19-6).
+- **¿Cuándo se recupera la inversión?** Usa la calculadora de periodo de recuperación (lección M17-5).
+
+## Ejemplo: plan del Taller Hermanos Ruiz
+**Etapa:** supervivencia. El taller cubre sus costos, pero deja muy poco a los dueños; todo depende de ellos; no hay registros más allá de un cuaderno.
+
+**Siguiente paso propuesto:** **mejorar la rentabilidad y profesionalizar** antes de crecer:
+1. Ofrecer **contratos mensuales de mantenimiento a taxistas** (ya son el 40 % de los clientes): ingresos estables.
+2. **Subir 10 % la mano de obra** de los servicios con más demanda (hoy cobran mucho menos que las agencias).
+3. Registrar cada servicio en una **hoja de cálculo** (lección M15-3) para conocer qué deja más.
+4. Comprar un **escáner de diagnóstico** para reducir el tiempo de diagnóstico (el cuello de botella).
+
+**Riesgos principales:**
+| Riesgo | Probabilidad | Impacto | Cómo reducirlo |
+|---|---|---|---|
+| Los taxistas no aceptan el contrato | Media | Medio | Probar con 5 taxistas un mes con precio de introducción |
+| Perder clientes por subir precios | Baja | Medio | Subir solo en servicios con lista de espera |
+| El escáner no se usa bien | Media | Bajo | Capacitación del proveedor incluida |
+
+**Financiamiento:** el escáner cuesta 30,000. Se compra con un **crédito del proveedor** a 6 meses (5,000 al mes). Ahorra unas 15 horas al mes de diagnóstico, que permiten atender unos 4 autos más (unos 2,760 de margen extra al mes), y la subida de precios aporta unos 3,000 al mes. Total: unos 5,760 al mes; el pago cabe incluso si solo se lograra la mitad del beneficio. Recuperación: unos 5 a 6 meses.
+
+**Indicadores:** autos por semana, ticket promedio, número de contratos, utilidad mensual antes del sueldo de los dueños.
+
+## Errores frecuentes
+- Proponer un crecimiento que no tiene relación con los datos de la Parte 2.
+- Olvidar los riesgos o poner riesgos genéricos.
+- Proponer financiamiento sin revisar si los pagos caben.
+- Querer hacer todo a la vez.
+
+## Revisar el plan con alguien más
+Antes de dar el plan por terminado, compártelo con alguien que conozca el negocio o el giro (el dueño, un familiar, un compañero del curso) y pídele que haga de «abogado del diablo»: que busque todo lo que podría salir mal. Recuerda los sesgos de la lección M16-5: es fácil enamorarse del propio plan. Las mejores ideas suelen salir de esas objeciones.
+
+## Un plan en una página
+Al final, resume tu plan en una página con cinco preguntas: ¿qué vamos a hacer?, ¿por qué?, ¿cuánto cuesta y cómo se paga?, ¿qué puede salir mal y qué haremos? y ¿cómo sabremos si funciona? Si puedes responder las cinco con claridad, tu plan está listo para la presentación.`,
+k: `**Parte 3 del proyecto:** identificar la **etapa** del negocio (existencia, supervivencia, éxito, despegue, madurez) y el **siguiente paso razonable** (profesionalizar, crecer en el mismo lugar, sucursal, franquicia, nuevos canales, formalizarse o mejorar rentabilidad). Proponer 3 a 5 **decisiones**, una **matriz de riesgos**, **escenarios**, indicadores y un **financiamiento** cuyos pagos quepan en el escenario pesimista.`,
+ch: `Para una fonda en etapa de supervivencia, el siguiente paso razonable no es abrir otra sucursal, sino separar las cuentas, registrar ventas y crear un menú de comida corrida para oficinas cercanas.`,
+gi: `Las empresas grandes presentan su plan de crecimiento a su consejo con estrategia, inversiones, riesgos y financiamiento (lección M23-6); tu plan es una versión pequeña del mismo ejercicio.`,
+e: `Periodo de recuperación del escáner del Taller Hermanos Ruiz:
+
+| Concepto | Valor |
+|---|---|
+| Inversión | 30,000 |
+| Beneficio mensual estimado (margen extra + precios) | 5,760 |
+| **Periodo de recuperación** | 30,000 ÷ 5,760 ≈ **5.2 meses** |
+| Escenario pesimista (mitad del beneficio) | 2,880 al mes → 30,000 ÷ 2,880 ≈ **10.4 meses** |
+| Pago mensual al proveedor | 5,000 durante 6 meses |
+
+En el escenario pesimista, el beneficio (2,880) no cubre el pago (5,000): la diferencia de 2,120 al mes tendría que salir de la utilidad actual (7,880), que alcanza. El plan es arriesgado, pero viable.`,
+hr: "recuperacion",
+r: `Los modelos de etapas de crecimiento de Churchill y Lewis (1983) y de Greiner (1972), estudiados en la lección M18-1, sirven para ubicar en qué momento está un negocio y qué necesita para pasar al siguiente.`,
+f: `N. Churchill y V. Lewis, «The Five Stages of Small Business Growth» (1983); L. Greiner, «Evolution and Revolution as Organizations Grow» (1972); lecciones de los Módulos 16 a 19 del curso.`,
+err: ["Proponer un crecimiento que no se apoya en los datos de la radiografía.","Querer hacer todo a la vez.","Poner riesgos genéricos sin probabilidad, impacto ni acciones.","Financiar con deuda sin revisar el escenario pesimista.","Olvidar los indicadores para saber si el plan funciona."],
+a: `Completa en la página del Proyecto final la Parte 3: etapa actual y siguiente, decisiones clave con su matriz de riesgos y la forma de financiar el plan. Usa la calculadora de periodo de recuperación y revisa el escenario pesimista.`,
+sol: `Una buena Parte 3 justifica la etapa con señales concretas, propone pocas decisiones bien conectadas con los datos, presenta riesgos con probabilidad, impacto y medidas, y demuestra con números que el financiamiento es viable incluso en un escenario pesimista.`,
+q: [["Un negocio que cubre sus costos pero deja muy poco y depende totalmente del dueño está probablemente en la etapa de…",["Supervivencia","Madurez","Despegue"],0,"Según Churchill y Lewis."],
+{n:1,t:"Una inversión de 30,000 genera un beneficio de 5,760 al mes. ¿En cuántos meses se recupera? (un decimal)",a:5.2,tol:0.02,u:"meses",e:"30,000 ÷ 5,760 = 5.21 ≈ 5.2 meses."},
+["La prueba clave de un financiamiento con deuda es…",["Que los pagos quepan en el escenario pesimista","Que el banco lo apruebe","Que sea el de menor plazo"],0,"Lección M19-6."],
+["Un buen plan de crecimiento…",["Propone pocos pasos razonables apoyados en los datos","Promete volverse gigante en un año","No tiene riesgos"],0,"El siguiente paso, no el último."]],
+t: ["Plan de crecimiento","Escenario pesimista","Siguiente etapa"]
+},
+"M29-4": {
+s: `El proyecto está casi listo. Falta lo que Lupita aprendió a hacer cuando presentó su plan a los inversionistas y a su consejo: explicar en pocas palabras lo más importante, recibir preguntas y evaluar con honestidad su propio trabajo. Esta última lección cierra el curso.`,
+o: ["Redactar conclusiones y recomendaciones útiles para el dueño del negocio.","Preparar una presentación breve del proyecto.","Autoevaluar el proyecto con la rúbrica y decidir qué mejorar."],
+x: `## La Parte 4: conclusiones
+En el último campo del proyecto escribe **tres aprendizajes** y **tres recomendaciones** para el dueño:
+- **Aprendizajes:** lo que descubriste sobre cómo funciona el negocio y que conecta con el curso. Ejemplo: «El taller depende de los taxistas para el 40 % de sus ventas: es su fortaleza y su mayor riesgo».
+- **Recomendaciones:** acciones concretas, ordenadas por prioridad, con su beneficio esperado. Ejemplo: «1) Registrar cada servicio en una hoja de cálculo durante tres meses para saber qué servicios dejan más; costo: cero; beneficio: decisiones de precio con datos».
+
+Unas buenas conclusiones son **específicas** (del negocio real, no genéricas), **útiles** (el dueño podría aplicarlas) y **honestas** (reconocen lo que no sabes).
+
+## La presentación
+Prepara una presentación de **5 a 10 minutos** (para tu familia, tus compañeros, un maestro o el propio dueño). Una estructura sencilla, inspirada en la lección M19-7:
+1. **El negocio en una frase** (qué hace y para quién).
+2. **Cómo gana dinero** (modelo de negocio).
+3. **Cómo funciona por dentro** (organigrama y una o dos áreas clave).
+4. **Sus números** (ventas, margen, punto de equilibrio).
+5. **Su mayor fortaleza y su mayor riesgo.**
+6. **El plan:** el siguiente paso, cómo se financia, qué riesgos tiene.
+7. **Tus recomendaciones.**
+
+Consejos:
+- Usa **pocas palabras y números clave** en cada diapositiva o lámina.
+- Prepara las **preguntas difíciles**: ¿de dónde salió este número?, ¿qué pasa si las ventas bajan?, ¿por qué no otra estrategia?
+- Si presentas al dueño, sé **respetuoso**: reconoce lo que hace bien antes de proponer cambios.
+
+## Exportar el proyecto
+En la página del proyecto puedes **descargar** todo el texto en un archivo o **imprimirlo**. Recuerda que el proyecto se guarda **solo en tu navegador**: descárgalo para no perderlo y, si quieres, exporta también tu progreso desde **Mi progreso**.
+
+## La rúbrica de autoevaluación
+Evalúa tu proyecto con la rúbrica de la página, con sinceridad. Para cada criterio elige un nivel: **no está (0 %)**, **incompleto (50 %)**, **correcto (75 %)** o **excelente (100 %)**.
+| Criterio | Peso | ¿Qué significa «excelente»? |
+|---|---|---|
+| Modelo de negocio | 15 % | Propuesta de valor específica; lienzo completo y coherente |
+| Estructura y áreas | 20 % | Organigrama real; las nueve áreas descritas con ejemplos |
+| Números | 20 % | Ventas, costos, margen, punto de equilibrio y flujo, con cálculos explicados y fuentes |
+| Clientes y proveedores | 15 % | Embudo, concentración, condiciones y riesgos analizados |
+| Plan de crecimiento y riesgos | 20 % | Etapa justificada; decisiones conectadas con los datos; matriz de riesgos; financiamiento que pasa el escenario pesimista |
+| Claridad | 10 % | Ordenado, breve, sin errores, con datos, estimaciones y supuestos distinguidos |
+
+**Calificación** = suma de (nivel × peso). Por ejemplo: excelente en modelo (100 % × 15 = 15), correcto en estructura (75 % × 20 = 15), correcto en números (15), excelente en clientes (15), incompleto en plan (50 % × 20 = 10), correcto en claridad (7.5) → **77.5 %**, que la página redondea a 78 %. Se aprueba con **70 %**. Si no llegas, mejora las partes más débiles y vuelve a evaluarte: el proyecto admite **reentrega**.
+
+## El certificado
+Para obtener el **certificado** del curso (generado en tu navegador e imprimible), necesitas: completar las lecciones, aprobar los quizzes de módulo y los exámenes de los cuatro niveles, aprobar la evaluación final y obtener al menos 70 % en la autoevaluación del proyecto. Revisa tu avance en **Mi progreso** y en la página **Certificado**. Recuerda que es un certificado de autoaprendizaje, no un título oficial.
+
+## El cierre del curso
+Empezaste preguntándote qué es un negocio. Recorriste el camino de Tortas Lupita: del puesto en la calle (Nivel 1) al local con seis empleados y todas sus áreas (Nivel 2), a las sucursales, las franquicias y la expansión (Nivel 3), y al grupo con consejo, accionistas y una posible salida a bolsa (Nivel 4). Y en cada paso viste que **lo esencial no cambia**: un negocio existe porque resuelve una necesidad de sus clientes, de forma repetible, con un modelo que deja dinero, con personas organizadas y con decisiones bien tomadas. Lo que cambia con el tamaño es **cómo** se organiza todo eso.
+
+Ahora puedes mirar cualquier negocio, desde la tienda de la esquina hasta una empresa gigante, y entender cómo funciona por dentro. Ese es el objetivo de este curso.
+
+## Después del curso
+Aprender cómo funciona un negocio no termina aquí. Algunas ideas para seguir: lee cada año el informe anual de una empresa que te interese, visita negocios con «ojos de radiografía» (¿cuál es su propuesta de valor?, ¿dónde está su cuello de botella?, ¿cómo gana dinero?), practica con las calculadoras del sitio con negocios reales y, si tienes o vas a tener un negocio propio, aplica una mejora a la vez, mide su resultado y sigue con la siguiente. El glosario y los casos del curso seguirán disponibles para repasar cualquier tema.`,
+k: `**Parte 4 del proyecto:** tres **aprendizajes** y tres **recomendaciones** específicas y útiles; una **presentación** de 5 a 10 minutos; **descargar** el proyecto (se guarda solo en el navegador). **Rúbrica:** modelo 15 %, estructura y áreas 20 %, números 20 %, clientes y proveedores 15 %, plan y riesgos 20 %, claridad 10 %. **Calificación = suma de nivel × peso**; se aprueba con **70 %** y admite reentrega. El certificado exige además lecciones, quizzes, exámenes y evaluación final.`,
+ch: `Un estudiante presenta su proyecto al dueño de la papelería que analizó. El dueño adopta una de sus recomendaciones (registrar las ventas por categoría) y, tres meses después, descubre que las impresiones le dejan más que los cuadernos.`,
+gi: `Las grandes empresas presentan sus resultados y sus planes a su consejo y a sus inversionistas con la misma lógica de esta lección: lo esencial primero, números claros, riesgos reconocidos y respuestas preparadas (lecciones M19-7 y M25-4).`,
+e: `Cálculo de la autoevaluación de un proyecto:
+
+| Criterio | Peso | Nivel elegido | Puntos (nivel × peso) |
+|---|---|---|---|
+| Modelo de negocio | 15 % | Excelente (100 %) | 15.0 |
+| Estructura y áreas | 20 % | Correcto (75 %) | 15.0 |
+| Números | 20 % | Correcto (75 %) | 15.0 |
+| Clientes y proveedores | 15 % | Excelente (100 %) | 15.0 |
+| Plan de crecimiento y riesgos | 20 % | Incompleto (50 %) | 10.0 |
+| Claridad | 10 % | Correcto (75 %) | 7.5 |
+| **Total** | 100 % | | **77.5 %** |
+
+Aprueba (70 % o más). Para mejorar, lo más rentable es completar el plan: pasar de «incompleto» a «correcto» suma 5 puntos.`,
+r: `La rúbrica del proyecto final de este curso usa los mismos criterios con los que se analizaron las empresas reales del Módulo 28: modelo de negocio, estructura y áreas, números, clientes y proveedores, crecimiento y riesgos, y claridad.`,
+f: `Rúbrica del proyecto final del curso (página Proyecto final); lecciones M19-7, M25-4 y M28-1.`,
+err: ["Escribir conclusiones genéricas que servirían para cualquier negocio.","Autoevaluarse con niveles más altos de los que el trabajo merece.","No descargar el proyecto y perderlo al borrar el navegador.","Presentar sin preparar las preguntas difíciles.","Proponer recomendaciones sin prioridad ni beneficio esperado."],
+a: `Completa la Parte 4 del proyecto, prepara tu presentación con la estructura de siete puntos y autoevalúate con la rúbrica. Si obtienes menos de 70 %, identifica los dos criterios más débiles, mejóralos y vuelve a evaluarte. Al final, descarga tu proyecto.`,
+sol: `Un proyecto terminado tiene las cuatro partes completas, conclusiones específicas, recomendaciones priorizadas, una autoevaluación honesta de al menos 70 % y una copia descargada. La mejor señal de éxito es que el dueño del negocio encuentre útil al menos una de tus recomendaciones.`,
+q: [{n:1,t:"En la rúbrica, el plan de crecimiento pesa 20 %. Si lo calificas como «correcto» (75 %), ¿cuántos puntos aporta?",a:15,tol:0,u:"puntos",e:"75 % × 20 = 15 puntos."},
+["¿Con qué porcentaje se aprueba el proyecto final?",["70 %","50 %","100 %"],0,"Y admite reentrega."],
+["Unas buenas recomendaciones para el dueño son…",["Específicas, útiles y priorizadas","Genéricas para cualquier negocio","Solo críticas sin propuestas"],0,"Con su beneficio esperado."],
+["¿Dónde se guarda el proyecto?",["Solo en tu navegador; conviene descargarlo","En un servidor del curso","En el banco"],0,"Descárgalo para no perderlo."]],
+t: ["Rúbrica","Autoevaluación","Certificado de autoaprendizaje"]
+}
+});
