@@ -1994,3 +1994,616 @@ q: [["¿Cuál de estas es una ventaja de ser una empresa privada?",["Menos presi
 t: ["Empresa privada","Capital privado","Compra apalancada","Presupuesto base cero","Fondo soberano"]
 }
 });
+
+// ===== M26. La estrategia de los gigantes =====
+Object.assign(window.LECC, {
+"M26-1": {
+s: `Grupo Lupita compite con tres tipos de rivales: las taquerías de barrio que venden más barato, una cadena internacional de sándwiches con mucha publicidad y una tortería «gourmet» que cobra el doble. Lupita se pregunta: «¿Por qué nos eligen los clientes? ¿Y qué tenemos que no puedan copiar fácilmente?».`,
+o: ["Definir qué es una ventaja competitiva.","Explicar las estrategias genéricas de Porter: liderazgo en costos, diferenciación y enfoque.","Evaluar si una ventaja es sostenible."],
+x: `## Qué es una ventaja competitiva
+Una empresa tiene **ventaja competitiva** cuando logra, de forma **sostenida**, mejores resultados que sus competidores (más utilidad, más crecimiento, más clientes fieles) porque hace algo que **los clientes valoran** y que **los rivales no pueden igualar fácilmente**. No basta con ser bueno: hay que ser **distinto o más eficiente** de una forma que dure.
+
+## Las estrategias genéricas de Porter
+El profesor de Harvard **Michael Porter** propuso, en su libro *Estrategia competitiva* (**1980**) y desarrolló en *Ventaja competitiva* (**1985**), que hay básicamente dos formas de lograr una ventaja, y dos ámbitos donde aplicarlas:
+| | Ventaja por **costo bajo** | Ventaja por **diferenciación** |
+|---|---|---|
+| **Mercado amplio** | Liderazgo en costos | Diferenciación |
+| **Mercado reducido (un nicho)** | Enfoque en costos | Enfoque en diferenciación |
+
+1. **Liderazgo en costos:** producir y vender **más barato** que todos los competidores, con calidad aceptable, para poder ofrecer precios bajos y aun así ganar. Requiere escala, eficiencia, procesos estandarizados, compras con poder y control estricto de gastos. Ejemplos públicos: Walmart con su lema de «precios bajos todos los días»; las aerolíneas de bajo costo como Southwest en Estados Unidos o Volaris y Viva en México; las tiendas de descuento.
+2. **Diferenciación:** ofrecer algo **único** que los clientes valoran y por lo que están dispuestos a pagar **más**: calidad, diseño, marca, servicio, innovación, experiencia. Ejemplos: Apple en tecnología, Starbucks en café, marcas de lujo.
+3. **Enfoque (o nicho):** concentrarse en un **segmento específico** de clientes, una región o un tipo de producto, y servirlo mejor que nadie, ya sea con costos bajos (enfoque en costos) o con algo especial (enfoque en diferenciación). Ejemplos: una cadena de comida vegana, una marca de ropa para deportistas de montaña, una tienda especializada en refacciones antiguas.
+
+## El riesgo de quedarse «atrapado en medio»
+Porter advirtió que las empresas que intentan ser **todo para todos** (un poco más baratas, un poco más diferentes, para todos los clientes) corren el riesgo de **no tener ninguna ventaja**: no son las más baratas ni las más especiales. Lo llamó quedar «atrapado en medio». Algunas empresas han logrado combinar costo bajo y diferenciación (por ejemplo, Toyota con su sistema de producción, Módulo 28, o IKEA con diseño a bajo precio), pero suele ser difícil.
+
+## Qué hace sostenible una ventaja
+Una ventaja dura si es **difícil de copiar**. Algunas fuentes de ventaja sostenible:
+- **Escala** que nadie más tiene (lección M26-2).
+- **Efecto red** (lección M26-4).
+- **Marca** fuerte construida durante años.
+- **Tecnología o patentes.**
+- **Ubicaciones** únicas.
+- **Costos de cambio** para el cliente (es caro o molesto cambiarse a otro proveedor).
+- **Cultura y procesos** difíciles de imitar (como el sistema de producción de Toyota).
+- **Acceso exclusivo** a recursos, proveedores o permisos.
+
+Una forma de revisarlo es el marco **VRIO** (de Jay Barney): un recurso da ventaja sostenible si es **V**alioso, **R**aro, difícil de **I**mitar y la empresa está **O**rganizada para aprovecharlo.
+
+Warren Buffett usa una metáfora parecida: las buenas empresas tienen un **foso** (como el de un castillo) que las protege de los competidores; su tarea es hacer ese foso cada vez más ancho.
+
+## La cadena de valor
+Porter también propuso analizar la **cadena de valor** de la empresa: todas las actividades que realiza (logística de entrada, operaciones, logística de salida, marketing y ventas, servicio, y actividades de apoyo como compras, tecnología, recursos humanos e infraestructura). La ventaja competitiva surge de **cómo** se hacen y se combinan esas actividades: más barato o de forma más única que los rivales. Una estrategia sólida tiene actividades que **encajan entre sí** y se refuerzan.
+
+## Las ventajas no son eternas
+Los competidores copian, la tecnología cambia, los gustos cambian. Muchas ventajas que parecían permanentes desaparecieron (Módulo 27). Por eso las empresas deben **renovar** su ventaja: mejorar continuamente, innovar y vigilar a los competidores y a los nuevos que llegan (lección M26-6).
+
+## El análisis de Grupo Lupita
+Lupita analiza a sus rivales:
+- **Taquerías de barrio:** compiten por **costo** (precio muy bajo, poca estructura). Grupo Lupita no puede ganarles en precio sin destruir su margen.
+- **Cadena internacional de sándwiches:** **diferenciación** por marca global y publicidad, con costos razonables por su escala.
+- **Tortería gourmet:** **enfoque en diferenciación** (clientes de alto poder de compra, ingredientes premium).
+- **Grupo Lupita:** su ventaja es una **diferenciación accesible**: la torta mexicana «generosa, sabrosa y rápida», con una receta reconocida, a un precio medio, con la consistencia que le da su cocina central y sus estándares. Su «foso» son su marca local, sus recetas, sus ubicaciones y su sistema de franquicias.
+La conclusión: no intentar competir por precio con las taquerías, ni con la publicidad global de la cadena, sino reforzar lo que la hace única y difícil de copiar.
+
+## Una prueba rápida
+Pregúntate: «Si mi negocio desapareciera mañana, ¿qué extrañarían mis clientes que no encontrarían en otro lado?». La respuesta es tu ventaja.`,
+k: `**Ventaja competitiva:** lograr mejores resultados de forma sostenida porque haces algo que los clientes valoran y los rivales no pueden igualar fácilmente. **Estrategias genéricas de Porter (1980):** **liderazgo en costos**, **diferenciación** y **enfoque** (en costos o en diferenciación). Riesgo: quedar **atrapado en medio**. Ventaja sostenible = difícil de copiar (escala, efecto red, marca, patentes, costos de cambio, cultura). Marco **VRIO**.`,
+ch: `Dos papelerías en la misma calle: una compite por precio (la más barata de la colonia, con poco servicio); la otra por diferenciación (imprime, engargola, ayuda con tareas y abre temprano). Las dos sobreviven porque atienden a clientes distintos.`,
+gi: `Walmart ha basado su estrategia en el liderazgo en costos, con el lema de «precios bajos todos los días», apoyado en su escala de compras y su logística; Apple, en cambio, en la diferenciación por diseño, ecosistema y marca, con precios superiores a los de muchos competidores.`,
+e: `Lupita compara la posición de cada competidor (calificaciones de 1 a 5):
+
+| Competidor | Precio bajo | Calidad percibida | Rapidez | Marca | Estrategia |
+|---|---|---|---|---|---|
+| Taquería de barrio | 5 | 3 | 4 | 2 | Costo (nicho local) |
+| Cadena internacional de sándwiches | 3 | 3 | 4 | 5 | Diferenciación por marca |
+| Tortería gourmet | 1 | 5 | 2 | 3 | Enfoque en diferenciación |
+| **Grupo Lupita** | 3 | 4 | 4 | 4 | Diferenciación accesible |
+
+Grupo Lupita no es la más barata ni la más exclusiva: su ventaja es la combinación de buena calidad, rapidez y marca a un precio medio. Si dejara de cuidar la calidad o la consistencia, quedaría «atrapada en medio».`,
+r: `Michael Porter publicó «Competitive Strategy» en 1980 y «Competitive Advantage» en 1985; en ellos propuso las estrategias genéricas (liderazgo en costos, diferenciación y enfoque) y el concepto de cadena de valor, que siguen siendo de los marcos más usados en estrategia empresarial.`,
+f: `M. Porter, «Competitive Strategy» (1980) y «Competitive Advantage» (1985); J. Barney, «Firm Resources and Sustained Competitive Advantage» (1991).`,
+err: ["Querer ser todo para todos y quedar atrapado en medio.","Competir solo por precio sin tener los costos más bajos.","Creer que una ventaja dura para siempre.","Confundir una ventaja temporal (una promoción) con una ventaja sostenible.","Diferenciarse en algo que los clientes no valoran."],
+a: `Identifica el tipo de ventaja (liderazgo en costos, diferenciación o enfoque) de 8 empresas que conozcas, incluidas al menos dos pequeñas de tu colonia. Para cada una, escribe qué la hace difícil de copiar o por qué crees que su ventaja no es sostenible.`,
+sol: `Por ejemplo: una aerolínea de bajo costo (liderazgo en costos, difícil de copiar por su flota uniforme y procesos); una marca de lujo (diferenciación por marca); una tienda de productos para celíacos (enfoque en diferenciación). Una respuesta crítica señala cuándo la ventaja es fácil de imitar.`,
+q: [["Las estrategias genéricas de Porter son…",["Liderazgo en costos, diferenciación y enfoque","Comprar, vender y ahorrar","Ventas, marketing y finanzas"],0,"Propuestas en «Estrategia competitiva» (1980)."],
+["Una aerolínea de bajo costo sigue sobre todo una estrategia de…",["Liderazgo en costos","Diferenciación por lujo","Integración vertical"],0,"Precios bajos con costos muy bajos."],
+["Quedar «atrapado en medio» significa…",["No tener ninguna ventaja clara por querer ser todo para todos","Tener la mejor ventaja","Estar en el centro de la ciudad"],0,"Ni el más barato ni el más especial."],
+["Una ventaja es más sostenible cuando…",["Es difícil de copiar por los competidores","Es una promoción de una semana","Cualquiera la puede imitar"],0,"Como la escala, la marca o el efecto red."]],
+t: ["Ventaja competitiva","Liderazgo en costos","Diferenciación","Estrategia de enfoque","Cadena de valor","Foso competitivo","Costos de cambio"]
+},
+"M26-2": {
+s: `Grupo Lupita compra la carne a 180 pesos el kilo. Una cadena nacional de comida rápida, que compra cien veces más, la consigue a 140. Además, reparte el costo de su publicidad en televisión entre 2,000 locales, mientras Grupo Lupita apenas puede pagar anuncios en redes sociales para 60. «¿Cómo competimos contra eso?», se pregunta Toño.`,
+o: ["Explicar qué son las economías de escala y de dónde vienen.","Explicar qué son las economías de alcance.","Reconocer los límites del tamaño: las deseconomías de escala."],
+x: `## Por qué lo grande sale más barato
+Las **economías de escala** existen cuando el **costo por unidad baja** a medida que una empresa **produce o vende más**. Son una de las razones principales por las que las empresas gigantes pueden ofrecer precios más bajos o ganar más que las pequeñas.
+
+## De dónde vienen
+1. **Repartir los costos fijos:** muchos costos no crecen al mismo ritmo que las ventas: la investigación, el desarrollo de un sistema, una campaña de publicidad nacional, la oficina central, una planta grande. Si una campaña de 50 millones se reparte entre 2,000 locales, cuesta 25,000 por local; entre 60, más de 830,000 por local (lección M5-3).
+2. **Poder de compra:** quien compra mucho negocia **precios más bajos** con los proveedores (lección M10-4), como la cadena que paga 140 por la carne.
+3. **Especialización:** en una operación grande, cada persona y cada máquina se especializa en una tarea y la hace mejor y más rápido.
+4. **Tecnología y equipo más eficientes:** solo las empresas grandes pueden pagar ciertas máquinas, sistemas o automatización que bajan el costo por unidad.
+5. **Logística:** redes de distribución más densas: un camión que surte a diez tiendas cercanas cuesta menos por tienda que uno que surte a una sola (lección M20-5).
+6. **Financiamiento más barato:** las empresas grandes consiguen crédito a tasas menores (lección M23-1).
+7. **Aprendizaje:** al producir mucho, la empresa aprende a hacerlo mejor; a esto se le llama la **curva de experiencia**.
+
+## Las economías de alcance
+Las **economías de alcance** existen cuando es **más barato producir o vender varios productos juntos** que por separado, porque comparten recursos: la misma marca, los mismos locales, los mismos clientes, la misma red de distribución o la misma tecnología.
+
+Ejemplos:
+- Una tienda de conveniencia que, además de productos, cobra servicios, vende boletos y recibe paquetes, aprovechando el mismo local y el mismo personal (lección M20-7).
+- Una empresa de alimentos que reparte pan, galletas y botanas en el mismo camión.
+- Amazon, que usa su infraestructura tecnológica y logística para varios negocios (tienda, mercado en línea, nube, publicidad, Módulo 28).
+- Grupo Lupita, que vende salsas en sus restaurantes y cafés, usando la misma cocina central y la misma marca.
+
+## Las economías de escala en números
+Imagina una planta de salsas con costos fijos de 600,000 al mes y un costo variable de 10 por frasco:
+| Frascos al mes | Costo fijo por frasco | Costo variable | Costo total por frasco |
+|---|---|---|---|
+| 20,000 | 30.00 | 10 | **40.00** |
+| 60,000 | 10.00 | 10 | **20.00** |
+| 150,000 | 4.00 | 10 | **14.00** |
+
+Al multiplicar el volumen por 7.5, el costo por frasco baja a casi un tercio. Quien vende 150,000 frascos puede venderlos a 25 con buen margen; quien vende 20,000 pierde si vende a ese precio.
+
+## Las deseconomías de escala
+Crecer no siempre baja los costos. A partir de cierto tamaño pueden aparecer **deseconomías de escala**: el costo por unidad **sube** porque:
+- La **coordinación** se vuelve difícil y costosa (burocracia, silos, lección M23-8).
+- La **motivación** baja: las personas se sienten piezas de una máquina.
+- La **información** se distorsiona al pasar por muchos niveles.
+- La **logística** se complica: abastecer desde lejos es más caro.
+- La empresa se vuelve **lenta** para reaccionar.
+
+Por eso no siempre «más grande es mejor»: cada industria tiene un **tamaño mínimo eficiente** (a partir del cual los costos ya no bajan mucho) y un punto donde crecer más empieza a costar.
+
+## Cómo compite el pequeño
+Si las economías de escala favorecen a los gigantes, ¿cómo sobreviven los pequeños?
+1. **Elegir batallas donde la escala importa poco:** servicio personal, productos frescos, cercanía, flexibilidad.
+2. **Diferenciarse o enfocarse** en un nicho (lección M26-1).
+3. **Unirse con otros pequeños:** compras conjuntas, cooperativas, franquicias, asociaciones (por ejemplo, grupos de tiendas de abarrotes que compran juntos).
+4. **Usar la escala de otros:** plataformas digitales, distribuidores mayoristas, servicios en la nube que dan a un negocio pequeño acceso a herramientas que antes solo tenían los grandes.
+5. **Moverse más rápido** que los gigantes.
+
+## La respuesta de Grupo Lupita
+Toño propone tres acciones: (1) negociar la compra de carne junto con otras dos cadenas regionales de comida que no compiten directamente con ellos, para pedir volumen; (2) concentrar la publicidad en lo digital y en las zonas donde tienen muchos locales juntos, donde su escala local es mayor; (3) aprovechar las economías de alcance: vender salsas, aguas y postres de su cocina central en todos sus locales y en supermercados, para repartir mejor los costos fijos de la planta.
+
+## Escala local frente a escala nacional
+No toda la escala es igual. Para un negocio de comida, muchas veces importa más la **escala local** (tener muchos locales en la misma ciudad) que la nacional: permite repartir la publicidad local, abastecer desde una sola cocina central y que la marca se vea en cada esquina. Por eso cadenas regionales pueden competir con éxito contra cadenas nacionales en su propio territorio: en esa zona, ellas son las «grandes».`,
+k: `**Economías de escala:** el **costo por unidad baja** al producir o vender más. Fuentes: repartir costos fijos, poder de compra, especialización, tecnología, logística, financiamiento, **curva de experiencia**. **Economías de alcance:** es más barato hacer varios productos juntos porque comparten recursos. **Deseconomías de escala:** a partir de cierto tamaño, la coordinación y la burocracia suben los costos.`,
+ch: `Diez tiendas de abarrotes de un mismo barrio se ponen de acuerdo para comprar juntas refrescos, aceite y papel higiénico a un mayorista. Consiguen mejores precios, como si fueran una pequeña cadena.`,
+gi: `Las grandes cadenas de supermercados negocian con sus proveedores condiciones que una tienda pequeña no puede obtener, por el volumen que compran; en México, la autoridad de competencia ha revisado en distintos momentos las prácticas de grandes cadenas con sus proveedores (lección M26-8).`,
+e: `Costo de publicidad por local según la escala:
+
+| Empresa | Campaña anual | Locales | Costo por local |
+|---|---|---|---|
+| Cadena nacional | 50,000,000 | 2,000 | 25,000 |
+| Grupo Lupita | 50,000,000 | 60 | 833,333 |
+| Grupo Lupita (solo digital y local) | 3,000,000 | 60 | 50,000 |
+
+Si Grupo Lupita intentara copiar la campaña nacional, cada local cargaría 833,333 al año, más que su utilidad. Con una estrategia digital y concentrada en sus zonas, el costo por local es de 50,000, comparable con el de la cadena.`,
+r: `Grupo Bimbo opera, según sus informes, decenas de miles de rutas de distribución en el mundo con las que lleva pan, pastelitos, galletas y botanas a cientos de miles de puntos de venta, un ejemplo de economías de escala y de alcance en la distribución.`,
+f: `Grupo Bimbo, informe anual integrado; M. Porter, «Competitive Advantage» (1985).`,
+err: ["Creer que crecer siempre baja los costos.","Competir en precio contra un gigante sin tener su escala.","Ignorar las deseconomías de escala: burocracia, lentitud, coordinación.","No aprovechar las economías de alcance de los recursos que ya se tienen.","Pensar que los pequeños no pueden unirse para ganar escala."],
+a: `Una panadería tiene costos fijos de 90,000 al mes y un costo variable de 3 por pieza. Calcula el costo total por pieza si produce 15,000, 30,000 y 60,000 piezas al mes. ¿Qué te dice el resultado? Propón dos formas en que podría vender más piezas sin abrir otra panadería.`,
+sol: `15,000: 90,000 ÷ 15,000 = 6 + 3 = 9; 30,000: 3 + 3 = 6; 60,000: 1.50 + 3 = 4.50. Al duplicar el volumen, el costo por pieza baja mucho porque se reparten los costos fijos. Formas: vender a cafeterías y tiendas cercanas (mayoreo), vender por pedido para eventos o por apps.`,
+q: [["Las economías de escala significan que…",["El costo por unidad baja al producir más","El precio siempre sube","Hay que tener muchas marcas"],0,"Por ejemplo, al repartir los costos fijos."],
+["Vender pan, galletas y botanas en el mismo camión de reparto es un ejemplo de…",["Economías de alcance","Deseconomías de escala","Dilución"],0,"Varios productos comparten recursos."],
+{n:1,t:"Una planta tiene costos fijos de 600,000 al mes y un costo variable de 10 por frasco. ¿Cuál es el costo total por frasco si produce 60,000 frascos?",a:20,tol:0,u:"pesos",e:"600,000 ÷ 60,000 = 10 + 10 = 20."},
+["Las deseconomías de escala aparecen por…",["Problemas de coordinación y burocracia al crecer demasiado","Tener pocos clientes","Comprar más barato"],0,"El costo por unidad puede subir."]],
+t: ["Economías de escala","Economías de alcance","Curva de experiencia","Deseconomías de escala","Tamaño mínimo eficiente"]
+},
+"M26-3": {
+s: `Un inversionista le pregunta a Lupita: «¿Es atractiva la industria de la comida rápida en México? ¿Cuánto poder tienen tus proveedores y tus clientes? ¿Qué tan fácil es que llegue un nuevo competidor?». Lupita nunca había pensado en su negocio como parte de una «industria». ¿Cómo se analiza si una industria es atractiva?`,
+o: ["Describir las cinco fuerzas de Porter.","Analizar una industria con las cinco fuerzas.","Usar el análisis para tomar decisiones de estrategia."],
+x: `## Por qué unas industrias ganan más que otras
+Hay industrias donde casi todas las empresas ganan bien y otras donde casi todas sufren. Michael Porter publicó en **1979**, en la revista *Harvard Business Review*, el artículo «Cómo las fuerzas competitivas moldean la estrategia», donde propuso que la rentabilidad de una industria depende de **cinco fuerzas**. Lo amplió en su libro de 1980.
+
+## Las cinco fuerzas
+1. **Rivalidad entre los competidores existentes:** qué tan intensa es la competencia. Es alta cuando hay muchos competidores parecidos, el mercado crece poco, los productos son casi iguales, los costos fijos son altos o es difícil salir de la industria. Una rivalidad intensa lleva a guerras de precios y márgenes bajos.
+2. **Amenaza de nuevos competidores:** qué tan fácil es que entren nuevas empresas. Depende de las **barreras de entrada**: inversión necesaria, economías de escala, marcas establecidas, acceso a canales de distribución, permisos y regulación, tecnología o patentes, costos de cambio de los clientes. Si entrar es fácil, las utilidades atraen a nuevos rivales y bajan.
+3. **Poder de negociación de los proveedores:** si hay pocos proveedores de un insumo importante, si su producto es único o si cambiar de proveedor es caro, ellos pueden subir los precios y quedarse con parte de la utilidad de la industria.
+4. **Poder de negociación de los clientes (compradores):** si los clientes compran mucho, son pocos, tienen muchas opciones o pueden cambiar fácilmente, pueden exigir precios bajos y más servicio.
+5. **Amenaza de productos sustitutos:** productos de **otras industrias** que satisfacen la misma necesidad. Para una tortería, los sustitutos son la comida casera, las comidas preparadas del supermercado, la comida por apps o cualquier otro tipo de comida rápida.
+
+Porter insistió en que hay que mirar **toda la estructura** de la industria, no solo a los competidores directos.
+
+## Cómo se hace el análisis
+1. **Definir la industria:** con precisión (no es lo mismo «comida» que «comida rápida en locales en México»).
+2. **Evaluar cada fuerza** (alta, media o baja) con argumentos y datos.
+3. **Identificar qué fuerzas son las más importantes** para la rentabilidad.
+4. **Pensar en el futuro:** ¿cómo cambiarán las fuerzas con la tecnología, la regulación o nuevos competidores?
+5. **Definir la estrategia:** cómo posicionarse para protegerse de las fuerzas más fuertes o cómo aprovecharlas.
+
+## Ejemplo: tiendas de conveniencia en México
+Un análisis sencillo (con base en información pública general, no en datos de ninguna empresa):
+| Fuerza | Nivel | Razones |
+|---|---|---|
+| Rivalidad | Media-alta | Pocas cadenas grandes compiten con miles de tiendas de abarrotes y con tiendas de descuento |
+| Nuevos competidores | Media-baja | Abrir una cadena grande requiere mucha inversión, logística y ubicaciones; pero abrir una tienda aislada es fácil |
+| Poder de proveedores | Medio | Grandes fabricantes de bebidas y botanas tienen marcas fuertes, pero también necesitan a las cadenas como canal |
+| Poder de clientes | Bajo-medio | Cada cliente compra poco y no negocia, pero puede ir a otra tienda cercana |
+| Sustitutos | Medio | Supermercados, tiendas de descuento, comercio electrónico, entregas rápidas por apps |
+
+Conclusión: la industria puede ser atractiva para los **grandes** que tienen escala, logística y ubicaciones, y difícil para los **nuevos** que quieran competir en el mismo formato.
+
+## Usar las fuerzas para decidir
+- Si los **proveedores** tienen mucho poder: buscar alternativas, integrarse hacia atrás (lección M22-7) o crear productos propios.
+- Si los **clientes** tienen mucho poder: diferenciarse, crear lealtad, aumentar los costos de cambio.
+- Si es **fácil entrar**: construir barreras (marca, escala, ubicaciones, contratos).
+- Si hay **sustitutos** fuertes: mejorar la propuesta frente a ellos o incorporarlos (por ejemplo, vender también por apps).
+- Si la **rivalidad** es feroz: buscar un nicho o un tipo de ventaja distinto (lección M26-1).
+
+## Límites del modelo
+- Es una **foto** de un momento; las industrias cambian.
+- No considera bien la **colaboración** entre empresas ni los **complementos** (productos que aumentan el valor de otros, como las apps para los teléfonos). Algunos autores propusieron una «sexta fuerza»: los complementadores.
+- En industrias digitales con efecto red (lección M26-4), la dinámica puede ser distinta: el ganador se queda con casi todo.
+
+## La industria de Grupo Lupita
+Lupita analiza la comida rápida en locales en México: rivalidad **alta** (miles de taquerías, torterías, cadenas), entrada **fácil** para negocios pequeños pero **difícil** para cadenas grandes, poder de proveedores **bajo-medio** (hay muchos proveedores de pan y carne, salvo algunas marcas), poder de clientes **medio** (cada cliente compra poco, pero tiene muchísimas opciones), y sustitutos **altos** (comida casera, apps, supermercados). Conclusión: es una industria difícil, donde solo ganan bien quienes tienen una **marca fuerte**, **consistencia** y **eficiencia**. Eso confirma su estrategia: reforzar la marca y la cocina central, y estar presente en los canales sustitutos (apps y supermercados).
+
+## Un consejo práctico
+Al hacer el análisis, no te quedes con «alta» o «baja»: escribe al menos un dato o un ejemplo concreto por cada fuerza. Las conclusiones apoyadas en hechos convencen; las opiniones sueltas, no.`,
+k: `**Las cinco fuerzas de Porter (1979):** **rivalidad** entre competidores, **amenaza de nuevos competidores** (barreras de entrada), **poder de los proveedores**, **poder de los clientes** y **amenaza de sustitutos**. Explican por qué unas industrias son más rentables que otras. Se analiza cada fuerza, se identifican las más fuertes y se define cómo posicionarse frente a ellas.`,
+ch: `Antes de abrir una lavandería, una persona analiza su colonia: hay dos lavanderías (rivalidad media), abrir otra es fácil (barreras bajas), las máquinas las venden pocos proveedores (poder medio), los clientes pueden lavar en casa (sustituto fuerte). Decide ofrecer recolección a domicilio para diferenciarse.`,
+gi: `El artículo «How Competitive Forces Shape Strategy», publicado por Michael Porter en la Harvard Business Review en 1979, y su versión actualizada de 2008, son de los textos más citados en estrategia empresarial.`,
+e: `Calificación sencilla de dos industrias (1 = fuerza débil, favorable para las empresas; 5 = fuerza fuerte, desfavorable):
+
+| Fuerza | Comida rápida en locales | Software para empresas |
+|---|---|---|
+| Rivalidad | 5 | 3 |
+| Nuevos competidores | 4 | 3 |
+| Poder de proveedores | 2 | 2 |
+| Poder de clientes | 3 | 3 |
+| Sustitutos | 4 | 2 |
+| **Total (de 25)** | **18** | **13** |
+
+Con este ejercicio (ilustrativo, no un dato oficial), la comida rápida enfrenta fuerzas más intensas que el software para empresas, lo que ayuda a explicar por qué sus márgenes promedio suelen ser menores.`,
+r: `Michael Porter publicó en 1979 en la Harvard Business Review el artículo en que presentó las cinco fuerzas competitivas y en 2008 publicó una versión actualizada en la misma revista, en la que reiteró que la estructura de la industria determina en buena parte su rentabilidad.`,
+f: `M. Porter, «How Competitive Forces Shape Strategy» (Harvard Business Review, 1979) y «The Five Competitive Forces That Shape Strategy» (2008).`,
+err: ["Analizar solo a los competidores directos y olvidar las demás fuerzas.","Definir la industria de forma demasiado amplia o demasiado estrecha.","Tomar el análisis como una foto permanente.","Olvidar los productos sustitutos de otras industrias.","Hacer el análisis sin sacar conclusiones para la estrategia."],
+a: `Haz el análisis de las cinco fuerzas de la industria de las tiendas de conveniencia en tu ciudad (o de otra industria que conozcas). Califica cada fuerza (alta, media o baja), justifica con dos razones y escribe una conclusión: ¿es atractiva para entrar? ¿Para quién?`,
+sol: `Una buena respuesta define la industria, justifica cada fuerza con ejemplos concretos (competidores, barreras, proveedores, clientes, sustitutos) y concluye para quién es atractiva (por ejemplo, para cadenas con escala y logística, no para un nuevo participante sin ellas).`,
+q: [["¿Cuál NO es una de las cinco fuerzas de Porter?",["El número de empleados de la empresa","El poder de los proveedores","La amenaza de sustitutos"],0,"Las cinco fuerzas son externas a la empresa."],
+["Las barreras de entrada afectan a la fuerza de…",["Amenaza de nuevos competidores","Poder de los clientes","Sustitutos"],0,"Si son altas, es difícil entrar."],
+["Para una tortería, la comida casera es un ejemplo de…",["Producto sustituto","Proveedor","Barrera de entrada"],0,"Satisface la misma necesidad desde otra industria."],
+["Si los proveedores tienen mucho poder, una respuesta posible es…",["Buscar alternativas o integrarse hacia atrás","Pagar lo que pidan sin discutir","Cerrar la empresa"],0,"Así se reduce la dependencia."]],
+t: ["Cinco fuerzas","Barreras de entrada","Producto sustituto","Poder de negociación","Rivalidad competitiva"]
+},
+"M26-4": {
+s: `Toño quiere crear una app donde cualquier fonda o tortería de la ciudad pueda vender comida casera para llevar, no solo Tortas Lupita. «Sería como un Mercado Libre de la comida casera», dice. Un amigo le advierte: «Las plataformas son el mejor negocio del mundo… para el que gana. Los demás pierden todo». ¿Qué tienen de especial las plataformas?`,
+o: ["Explicar qué es una plataforma y en qué se diferencia de un negocio tradicional.","Describir el efecto red y por qué puede llevar a que «el ganador se quede con casi todo».","Analizar los casos de Mercado Libre, Uber y Airbnb."],
+x: `## Negocio tradicional frente a plataforma
+En un **negocio tradicional** (de «tubería»), la empresa compra o fabrica un producto y lo vende al cliente: el valor fluye en una sola dirección, de la empresa al cliente. Tortas Lupita es así.
+
+Una **plataforma** no vende principalmente sus propios productos: **conecta a dos o más grupos** de usuarios que se necesitan entre sí, y facilita que hagan intercambios. Por ejemplo:
+- **Mercado Libre:** conecta a vendedores con compradores.
+- **Uber o DiDi:** conectan a conductores con pasajeros.
+- **Airbnb:** conecta a anfitriones que tienen un espacio con viajeros.
+- **Apps de reparto:** conectan a restaurantes, repartidores y clientes.
+- **Sistemas operativos de teléfonos:** conectan a usuarios con desarrolladores de aplicaciones.
+- **Tarjetas de crédito:** conectan a quienes pagan con los comercios que cobran.
+
+A estas plataformas también se les llama **mercados de dos lados** (o de varios lados).
+
+## El efecto red
+La característica más poderosa de muchas plataformas es el **efecto red**: el valor del servicio para cada usuario **aumenta cuando hay más usuarios**.
+- **Efecto red directo:** más usuarios del mismo tipo hacen más valioso el servicio. Ejemplo: una app de mensajería es más útil si todos tus contactos la usan.
+- **Efecto red indirecto (o cruzado):** más usuarios de un lado atraen más usuarios del otro. Más compradores en Mercado Libre atraen más vendedores; más vendedores dan más variedad y mejores precios, lo que atrae más compradores. Es un **círculo virtuoso**.
+
+## Por qué el ganador puede quedarse con casi todo
+Cuando el efecto red es fuerte, la plataforma más grande se vuelve **cada vez más atractiva**, y las pequeñas cada vez menos: los vendedores van donde están los compradores y viceversa. Esto puede llevar a mercados donde **una o dos plataformas** dominan (en inglés se dice *winner takes all*, «el ganador se lo lleva todo», aunque en la práctica suelen quedar varios competidores). Por eso:
+- Las plataformas buscan **crecer muy rápido** al principio, aunque pierdan dinero, para llegar primero al tamaño que activa el efecto red.
+- Suelen **subsidiar** a uno de los lados (por ejemplo, descuentos a los pasajeros o bonos a los conductores) para atraer al otro.
+- Atraen mucho **capital emprendedor** (lección M19-4).
+
+## El problema del huevo y la gallina
+Al empezar, una plataforma enfrenta un dilema: los compradores no llegan si no hay vendedores, y los vendedores no llegan si no hay compradores. Algunas soluciones:
+- Empezar en un **mercado pequeño** (una ciudad, una universidad, un nicho) y dominarlo antes de expandirse.
+- **Subsidiar** o atraer primero al lado más difícil.
+- Ofrecer una herramienta útil aunque todavía haya pocos usuarios del otro lado.
+
+## Cómo ganan dinero las plataformas
+- **Comisiones** por cada transacción (lección M22-3).
+- **Suscripciones** para usuarios o vendedores.
+- **Publicidad:** vender visibilidad dentro de la plataforma.
+- **Servicios adicionales:** pagos, envíos, créditos, seguros (Mercado Libre con Mercado Pago y Mercado Envíos, lección M22-3).
+
+## Tres casos
+1. **Mercado Libre:** fundada en **1999** en Argentina por Marcos Galperin. Creció como mercado en línea en Latinoamérica y construyó un **ecosistema**: pagos (Mercado Pago), logística (Mercado Envíos), créditos y publicidad. Según sus informes, opera en 18 países de la región y es una de las empresas más valiosas de Latinoamérica (lección M28-6).
+2. **Uber:** fundada en **2009** en San Francisco. Conecta conductores con pasajeros y se expandió a muchos países, además de reparto de comida (Uber Eats). Durante años perdió mucho dinero mientras crecía y subsidiaba viajes; según sus informes, registró su primer año completo con utilidad de operación en **2023**. Ha enfrentado conflictos con taxistas, gobiernos y debates sobre la situación laboral de los conductores.
+3. **Airbnb:** fundada en **2008** en San Francisco. Conecta a anfitriones con viajeros. Su crecimiento ha generado debates en muchas ciudades sobre el efecto en el precio de la vivienda y en el turismo, y varias ciudades han impuesto reglas o límites.
+
+## Los riesgos de las plataformas
+- **Multiconexión:** si los usuarios pueden usar varias plataformas a la vez sin costo (por ejemplo, un conductor con dos apps), el efecto red protege menos.
+- **Regulación:** temas laborales, fiscales, de competencia y de protección al consumidor.
+- **Confianza:** fraudes, mala calidad o problemas de seguridad pueden destruir la reputación; por eso las plataformas invierten en calificaciones, reseñas y garantías.
+- **Desintermediación:** que los usuarios se pongan de acuerdo fuera de la plataforma para no pagar la comisión.
+- **Pérdidas largas** antes de ser rentables.
+
+## La idea de Toño
+Lupita y el consejo analizan la idea con estas preguntas: ¿quién sería el lado difícil de atraer? (las fondas), ¿cómo se resuelve el huevo y la gallina? (empezar en una sola colonia con los 60 locales de Grupo Lupita como «ancla»), ¿qué impide que las fondas usen también las apps grandes? (nada: multiconexión), ¿cuánto dinero se perdería antes de llegar al tamaño necesario? (mucho). Concluyen que competir contra plataformas ya establecidas sería muy costoso y riesgoso para Grupo Lupita. Deciden, en cambio, **aprovechar** las plataformas existentes como canales (lección M22-3).`,
+k: `**Plataforma:** conecta a dos o más grupos de usuarios que se necesitan (mercado de dos lados). **Efecto red:** el valor para cada usuario aumenta con más usuarios; **directo** (mismo tipo) o **indirecto** (del otro lado). Puede llevar a que **el ganador se quede con casi todo**. Problema del **huevo y la gallina**. Ganan con comisiones, suscripciones, publicidad y servicios. Casos: **Mercado Libre** (1999), **Uber** (2009), **Airbnb** (2008).`,
+ch: `Un tianguis es una plataforma física: los vendedores van porque hay compradores y los compradores van porque hay muchos puestos. El que organiza el tianguis cobra a los puestos por su lugar.`,
+gi: `Según sus informes anuales, Uber registró en 2023 su primer año completo con utilidad de operación, después de más de una década de crecimiento con pérdidas, mientras construía su red de conductores, pasajeros, restaurantes y repartidores en muchos países.`,
+e: `El efecto red indirecto de forma muy simplificada (una regla ilustrativa: el número de intercambios posibles crece con compradores × vendedores):
+
+| Plataforma | Compradores | Vendedores | Intercambios posibles (compradores × vendedores) |
+|---|---|---|---|
+| Pequeña | 1,000 | 50 | 50,000 |
+| Mediana | 10,000 | 500 | 5,000,000 |
+| Grande | 100,000 | 5,000 | 500,000,000 |
+
+Al multiplicar por 10 cada lado, las combinaciones posibles se multiplican por 100. Por eso una plataforma grande es mucho más atractiva que una pequeña, aunque esta regla exagera: no todos los compradores quieren comprar a todos los vendedores.`,
+r: `Mercado Libre fue fundada en 1999 en Argentina y, según su información para inversionistas, opera en 18 países de Latinoamérica con su mercado en línea, Mercado Pago, Mercado Envíos, créditos y publicidad; Airbnb fue fundada en 2008 y Uber en 2009, ambas en San Francisco.`,
+f: `MercadoLibre, Inc., informes anuales; Uber Technologies, informe anual 2023; Airbnb, información corporativa; G. Parker, M. Van Alstyne y S. Choudary, «Platform Revolution» (2016).`,
+err: ["Creer que cualquier app con dos tipos de usuarios tendrá un efecto red fuerte.","Subestimar cuánto dinero se pierde antes de que una plataforma sea rentable.","Ignorar la multiconexión: los usuarios pueden usar varias plataformas.","Descuidar la confianza: calificaciones, garantías y seguridad.","Olvidar la regulación laboral, fiscal y de competencia."],
+a: `Elige una plataforma que uses. Identifica: los lados que conecta, el tipo de efecto red (directo o indirecto), cómo gana dinero, cómo resolvió el problema del huevo y la gallina (si lo sabes o lo puedes deducir) y un riesgo que enfrenta.`,
+sol: `Por ejemplo, una app de reparto: conecta restaurantes, repartidores y clientes; efecto red indirecto; gana con comisiones a restaurantes, cargos de envío y publicidad; empezó en pocas ciudades con restaurantes populares y descuentos; riesgo: multiconexión de restaurantes y regulación laboral de repartidores.`,
+q: [["Una plataforma se diferencia de un negocio tradicional en que…",["Conecta a grupos de usuarios que se necesitan entre sí","Fabrica todo lo que vende","No usa internet"],0,"Es un mercado de dos o más lados."],
+["El efecto red significa que…",["El valor del servicio aumenta cuando hay más usuarios","El servicio cuesta más con más usuarios","La red de computadoras es rápida"],0,"Puede ser directo o indirecto."],
+["Más compradores atraen más vendedores y viceversa: es un efecto red…",["Indirecto o cruzado","Directo","Negativo"],0,"Entre lados distintos de la plataforma."],
+["Un riesgo para una plataforma es la «multiconexión», que significa…",["Que los usuarios usan varias plataformas a la vez","Que tiene muchos servidores","Que cobra muchas comisiones"],0,"Debilita la protección del efecto red."]],
+t: ["Plataforma","Mercado de dos lados","Efecto red","Multiconexión","Desintermediación"]
+},
+"M26-5": {
+s: `En el supermercado, Lupita cuenta en el pasillo de galletas 40 marcas distintas. Descubre que casi todas pertenecen a solo cuatro empresas. Lo mismo pasa con los refrescos, los jabones y los cereales. «Pensé que había mucha competencia», le dice a Toño. «¿Por qué una empresa tendría tantas marcas que compiten entre sí?».`,
+o: ["Explicar qué es un portafolio de marcas y por qué las grandes empresas tienen muchas.","Distinguir las estrategias de marca corporativa, marcas independientes y marcas respaldadas.","Describir qué es un ecosistema de negocios."],
+x: `## Muchas marcas, un dueño
+Las grandes empresas de consumo suelen tener **portafolios de marcas**: decenas o cientos de marcas que venden productos parecidos o distintos. Algunos ejemplos públicos:
+- **Grupo Bimbo:** según su información, más de 100 marcas en el mundo, como Bimbo, Marinela, Tía Rosa, Barcel, Sara Lee (en algunos mercados), Entenmann's o Thomas', entre otras.
+- **Unilever, Procter & Gamble y Nestlé:** cientos de marcas de alimentos, cuidado personal y limpieza.
+- **The Coca-Cola Company:** además de Coca-Cola, cientos de marcas de refrescos, aguas, jugos y otras bebidas en el mundo, según la empresa.
+- **Inditex:** Zara, Pull&Bear, Massimo Dutti, Bershka, Stradivarius, Oysho y Zara Home.
+
+## Por qué tener muchas marcas
+1. **Atender segmentos distintos:** cada marca habla a un tipo de cliente con un precio, un estilo y una promesa diferentes. Una misma empresa puede tener una marca económica, una media y una premium.
+2. **Ocupar más espacio en el anaquel** y en la mente del consumidor; dejar menos espacio a los competidores.
+3. **Proteger la marca principal:** lanzar un producto riesgoso o de precio bajo con otra marca, para no dañar la imagen de la principal.
+4. **Adquisiciones:** muchas marcas llegan al comprar otras empresas (lección M22-6), y se mantienen porque los clientes las conocen.
+5. **Adaptación local:** marcas fuertes en un país que no existen en otros.
+6. **Competir consigo misma antes de que lo haga otro:** si los clientes quieren variedad, es mejor que cambien a otra marca de la misma empresa.
+
+## Las estrategias de marca
+| Estrategia | Cómo funciona | Ejemplo |
+|---|---|---|
+| Marca corporativa o «marca paraguas» | Todos los productos llevan el nombre de la empresa | Samsung en televisiones, teléfonos y electrodomésticos |
+| Marcas independientes («casa de marcas») | Cada producto tiene su propia marca; el consumidor casi no ve la empresa | Procter & Gamble con muchas marcas propias |
+| Marcas respaldadas | Cada marca es propia, pero lleva el respaldo de la empresa | Productos que dicen «de Nestlé» |
+| Mixta | Combinación de las anteriores | Muchas grandes empresas |
+
+Cada una tiene ventajas: la marca paraguas aprovecha la reputación y ahorra en publicidad; las marcas independientes permiten llegar a segmentos muy distintos y aíslan los riesgos (si una marca tiene un escándalo, las demás no se contaminan).
+
+## Administrar el portafolio
+Tener muchas marcas también tiene costos: publicidad para cada una, complejidad, canibalización. Por eso las grandes empresas **revisan su portafolio** periódicamente:
+- Invierten en las marcas con más **potencial** de crecimiento y margen.
+- **Venden o eliminan** las que no encajan o no crecen.
+- Buscan **comprar** marcas en categorías que crecen.
+Por ejemplo, Unilever y Procter & Gamble han vendido o eliminado decenas de marcas en distintos momentos para concentrarse en las más fuertes, según sus comunicados.
+
+Se puede usar una matriz similar a la ingeniería de menú (lección M22-2): marcas grandes y que crecen; grandes que no crecen; pequeñas que crecen; pequeñas que no crecen. Una herramienta clásica para portafolios de negocios es la **matriz de crecimiento y participación** del Boston Consulting Group (BCG), de la década de 1970, que clasifica los negocios en «estrellas», «vacas lecheras», «interrogantes» y «perros».
+
+## Los ecosistemas
+Un **ecosistema de negocios** es un conjunto de productos, servicios y socios que funcionan **juntos** alrededor de una empresa central, de modo que el cliente obtiene más valor al usar varios de ellos. Ejemplos:
+- **Apple:** teléfono, computadora, reloj, audífonos, tienda de aplicaciones, servicios de música y almacenamiento en la nube, que funcionan mejor juntos. Además, miles de desarrolladores crean aplicaciones para sus dispositivos.
+- **Mercado Libre:** mercado en línea, pagos, envíos, créditos y publicidad (lección M26-4).
+- **Amazon:** tienda, mercado en línea, logística, suscripción Prime, video, nube y publicidad (Módulo 28).
+- **FEMSA:** tiendas OXXO, servicios financieros digitales, combustibles y farmacias, con la tienda como punto de contacto.
+
+Los ecosistemas aumentan los **costos de cambio**: si usas muchos productos de un ecosistema, es más difícil irte a otro. Eso protege a la empresa, aunque también ha atraído la atención de los reguladores de competencia (lección M26-8).
+
+## La tentación de Grupo Lupita
+Grupo Lupita tiene tres marcas: Tortas Lupita, Cafés del Barrio y Salsas Lupita. Toño quiere lanzar una cuarta marca de comida saludable. El consejo analiza el portafolio: Tortas Lupita es la marca fuerte y rentable; Salsas Lupita crece y aprovecha la marca principal (marca respaldada); Cafés del Barrio es pequeña y no crece (habrá que decidir si invertir más o venderla). La nueva marca saludable se lanzaría como **marca independiente**, para no confundir a los clientes de las tortas, pero solo después de probarla en dos locales.
+
+## Marcas propias de las tiendas
+Además de las marcas de los fabricantes, muchas cadenas de supermercados y tiendas venden **marcas propias** (también llamadas marcas blancas o de distribuidor): productos fabricados por terceros que llevan el nombre de la cadena o una marca exclusiva, con precios menores. Para la cadena son una forma de ganar más margen y de negociar con los fabricantes; para los fabricantes son un competidor dentro del mismo anaquel. Muchas grandes cadenas tienen hoy marcas propias en casi todas las categorías.`,
+k: `**Portafolio de marcas:** muchas marcas de un mismo dueño para atender segmentos, ocupar espacio, proteger la marca principal y aprovechar adquisiciones. Estrategias: **marca paraguas**, **marcas independientes**, **marcas respaldadas** o mixta. El portafolio se revisa: invertir, vender o eliminar marcas. **Ecosistema:** productos y socios que funcionan juntos y aumentan los **costos de cambio**.`,
+ch: `Una panadería de barrio vende pan de dulce con su nombre y, aparte, pasteles de lujo con otra marca, para que los clientes de los pasteles caros no los asocien con el pan económico.`,
+gi: `Según su informe anual, Grupo Bimbo administra un portafolio de más de 100 marcas en el mundo, entre ellas Bimbo, Marinela, Tía Rosa, Barcel, Entenmann's y Thomas', con marcas distintas según el país y el segmento.`,
+e: `Revisión del portafolio de Grupo Lupita (millones de pesos al año):
+
+| Marca | Ventas | Crecimiento anual | Margen de operación | Diagnóstico |
+|---|---|---|---|---|
+| Tortas Lupita | 400 | 8 % | 12 % | Grande y estable: mantener y cuidar |
+| Salsas Lupita | 60 | 25 % | 15 % | Pequeña que crece: invertir |
+| Cafés del Barrio | 50 | 1 % | 3 % | Pequeña que no crece: corregir o vender |
+
+Si Grupo Lupita vendiera Cafés del Barrio y usara ese dinero en Salsas Lupita, mejoraría el margen promedio del grupo: hoy es (48 + 9 + 1.5) ÷ 510 ≈ 11.5 %; sin cafés, sería (48 + 9) ÷ 460 ≈ 12.4 %.`,
+r: `Procter & Gamble anunció en 2014 que se desharía de entre 90 y 100 marcas para concentrarse en unas 70 a 80 marcas principales que generaban la mayor parte de sus ventas y utilidades, según sus comunicados de esa época.`,
+f: `Procter & Gamble, comunicados (agosto de 2014); Grupo Bimbo, informe anual integrado; Boston Consulting Group, matriz de crecimiento y participación.`,
+err: ["Lanzar marcas nuevas sin un segmento claro.","Mantener marcas que no crecen ni dejan margen por costumbre.","Confundir a los clientes con demasiadas marcas parecidas.","Usar la marca principal en productos que pueden dañarla.","Creer que tener muchas marcas significa que hay mucha competencia en el mercado."],
+a: `En un supermercado (o en línea), elige una categoría (galletas, jabones, refrescos, cereales). Anota 15 marcas y averigua a qué empresa pertenece cada una. ¿Cuántas empresas controlan esas 15 marcas? ¿Qué estrategia de marca usa cada empresa?`,
+sol: `Es común descubrir que pocas empresas controlan la mayoría de las marcas de una categoría, y que combinan estrategias: algunas marcas llevan el nombre de la empresa (respaldadas) y otras parecen independientes.`,
+q: [["Una empresa tiene una marca económica y otra premium del mismo producto para…",["Atender segmentos distintos de clientes","Confundir al gobierno","Pagar menos impuestos"],0,"Cada marca tiene su promesa y su precio."],
+["Usar el nombre de la empresa en todos sus productos es una estrategia de…",["Marca paraguas","Marcas independientes","Marca blanca"],0,"Aprovecha la reputación de la empresa."],
+["Un ecosistema de negocios aumenta…",["Los costos de cambio del cliente","El número de competidores","Los impuestos"],0,"Es más difícil irse si se usan varios productos."],
+["En la matriz del BCG, un negocio con alta participación en un mercado que crece poco es una…",["Vaca lechera","Estrella","Interrogante"],0,"Genera efectivo con poca inversión."]],
+t: ["Portafolio de marcas","Marca paraguas","Marca respaldada","Ecosistema de negocios","Matriz BCG"]
+},
+"M26-6": {
+s: `Una nueva app de «tortas por suscripción» promete al cliente una torta diaria por un precio mensual fijo, con entrega a domicilio. Empezó con pocos clientes y Grupo Lupita la ignoró. Dos años después tiene 20,000 suscriptores en la ciudad y está quitándole clientes de oficinas. Lupita se pregunta: «¿Cómo es que no lo vimos venir?».`,
+o: ["Distinguir la innovación incremental de la innovación disruptiva.","Explicar la teoría de la innovación disruptiva de Clayton Christensen.","Describir prácticas que ayudan a las empresas establecidas a innovar."],
+x: `## Innovar es necesario, pero de distintas formas
+**Innovar** es introducir algo nuevo que crea valor: un producto, un servicio, un proceso, un modelo de negocio o una forma de llegar al cliente. Hay distintos tipos:
+- **Innovación incremental (o de mejora):** mejoras pequeñas y continuas a lo que ya existe: una receta mejor, un empaque más práctico, un proceso más rápido. Es la que más hacen las empresas establecidas (y es muy valiosa).
+- **Innovación radical:** un cambio muy grande en la tecnología o en el producto, que crea algo muy distinto (por ejemplo, el teléfono inteligente frente al teléfono de teclas).
+- **Innovación en el modelo de negocio:** cambiar la forma de ganar dinero o de entregar el valor, aunque la tecnología no sea nueva (por ejemplo, vender por suscripción algo que antes se vendía por unidad).
+
+## La innovación disruptiva
+El profesor de Harvard **Clayton Christensen** propuso en su libro *El dilema del innovador* (**1997**) la teoría de la **innovación disruptiva**. Su idea central:
+1. Las empresas establecidas mejoran sus productos para sus **mejores clientes**, que piden más y pagan más. Es lo correcto según los datos.
+2. Mientras tanto, un **recién llegado** ofrece algo **más sencillo, más barato o más cómodo**, que al principio es «peor» según los criterios tradicionales y que atiende a clientes que el líder no atiende o que no le interesan (clientes con poco dinero, o que no usaban el producto).
+3. El líder **ignora** al recién llegado: sus clientes no lo quieren y el margen es bajo.
+4. El recién llegado **mejora con el tiempo** hasta ser «suficientemente bueno» para los clientes principales del líder, y entonces les quita el mercado.
+5. Cuando el líder reacciona, ya es tarde.
+
+El **dilema** es que el líder fracasa precisamente por hacer lo que parecía correcto: escuchar a sus mejores clientes y buscar los mayores márgenes.
+
+Christensen distinguió dos tipos:
+- **Disrupción desde abajo:** el recién llegado atiende a los clientes menos exigentes con un producto más barato (por ejemplo, las aerolíneas de bajo costo, o las computadoras personales frente a las grandes computadoras).
+- **Disrupción de nuevo mercado:** el recién llegado atiende a personas que **no consumían** el producto porque era caro o complicado (por ejemplo, las cámaras digitales en los teléfonos, que convirtieron a casi todos en fotógrafos).
+
+Christensen advirtió que no toda innovación que cambia una industria es «disruptiva» en su sentido técnico; el término se usa mucho, a veces sin precisión.
+
+## Ejemplos que suelen citarse
+- **Netflix y Blockbuster:** Netflix empezó enviando DVD por correo, un servicio que al principio no interesaba a los clientes de Blockbuster que querían la película esa misma noche. Después pasó a la transmisión en línea. Blockbuster se declaró en quiebra en **2010** (lección M27-5).
+- **La fotografía digital y Kodak:** Kodak inventó una de las primeras cámaras digitales en **1975**, según la propia empresa, pero su negocio principal seguía siendo la película; se declaró en quiebra en **2012** (lección M27-5).
+- **Los teléfonos inteligentes y Nokia** (lección M27-5).
+- **Las tiendas de descuento** frente a las tiendas departamentales tradicionales.
+
+## Por qué a las empresas grandes les cuesta innovar
+- Sus **procesos** están diseñados para lo que ya hacen bien.
+- Sus **incentivos** premian los resultados de corto plazo del negocio actual.
+- Los proyectos nuevos son **pequeños** al inicio y no «mueven la aguja».
+- **Canibalización:** el nuevo producto puede quitarle ventas al actual.
+- **Cultura:** el éxito pasado genera confianza excesiva («siempre lo hemos hecho así»).
+
+## Qué pueden hacer las empresas establecidas
+1. **Vigilar** a los recién llegados y a los clientes que **no** atienden.
+2. **Separar** los proyectos disruptivos en **unidades independientes**, con su propio presupuesto, metas y reglas (lección M23-8), para que la estructura del negocio principal no los ahogue.
+3. **Aceptar la canibalización:** es mejor que tu nuevo producto le quite ventas al viejo a que lo haga un competidor.
+4. **Experimentar** con pruebas pequeñas y baratas (lección M22-1).
+5. **Invertir** en empresas emergentes o comprarlas.
+6. **Ambidestreza:** la capacidad de **explotar** el negocio actual con eficiencia y, al mismo tiempo, **explorar** nuevos negocios. Es un concepto estudiado por varios académicos (como Charles O'Reilly y Michael Tushman).
+7. **Medir distinto:** a los proyectos nuevos se les mide por aprendizaje y crecimiento, no por el margen del primer año.
+
+## El caso de las tortas por suscripción
+La app empezó atendiendo a un cliente que a Grupo Lupita no le interesaba: oficinistas que querían comer en su escritorio, con un precio fijo y sin pensar. Al principio sus tortas eran más sencillas, pero cómodas. Fue mejorando la calidad y el servicio hasta convertirse en una alternativa real para los clientes de Grupo Lupita en oficinas. Es un ejemplo clásico de **disrupción desde un modelo de negocio** distinto.
+
+Grupo Lupita decide: (1) crear un pequeño equipo independiente para lanzar su propio servicio de suscripción en una zona, con metas de aprendizaje y sin exigirle el margen de los locales en el primer año; (2) revisar cada trimestre qué nuevos competidores aparecen y qué clientes no está atendiendo; (3) considerar, en lugar de competir, comprar una participación en la app de suscripción.`,
+k: `**Innovación incremental** (mejoras), **radical** (cambio tecnológico grande) y **de modelo de negocio**. **Innovación disruptiva (Christensen, 1997):** un recién llegado con algo más sencillo o barato atiende a clientes que el líder ignora, mejora y termina quitándole el mercado; el **dilema del innovador** es que el líder falla por escuchar solo a sus mejores clientes. Respuestas: vigilar, **unidades independientes**, aceptar la canibalización, experimentar, **ambidestreza**.`,
+ch: `Las papelerías de barrio vendían impresiones a un precio alto. Llegaron las impresoras caseras baratas y después los teléfonos que reemplazaron muchas impresiones. Las papelerías que sobrevivieron agregaron servicios: trámites en línea, copias de documentos oficiales, regalos.`,
+gi: `Kodak, que según su propia historia desarrolló uno de los primeros prototipos de cámara digital en 1975, siguió concentrada en su negocio de película y papel fotográfico; se declaró en quiebra en 2012, en un caso muy citado como ejemplo de las dificultades de las empresas establecidas ante la disrupción.`,
+e: `Crecimiento de la app de suscripción frente a Grupo Lupita en la zona de oficinas (cifras ficticias):
+
+| Año | Suscriptores de la app | Tortas al mes de la app | Tortas al mes de Grupo Lupita en la zona |
+|---|---|---|---|
+| 1 | 1,000 | 20,000 | 60,000 |
+| 2 | 6,000 | 120,000 | 52,000 |
+| 3 | 20,000 | 400,000 | 38,000 |
+
+Del año 1 al 3, Grupo Lupita perdió 22,000 tortas al mes en la zona (−37 %). En el año 1, la app parecía irrelevante: vendía la tercera parte que Grupo Lupita en la zona.`,
+r: `Clayton Christensen publicó «The Innovator's Dilemma» en 1997, donde explicó cómo empresas líderes y bien administradas pierden su posición ante innovaciones disruptivas; en 2015 publicó con otros autores el artículo «What Is Disruptive Innovation?» en la Harvard Business Review, en el que precisó el concepto y advirtió sobre su uso excesivo.`,
+f: `C. Christensen, «The Innovator's Dilemma» (1997); C. Christensen, M. Raynor y R. McDonald, «What Is Disruptive Innovation?» (Harvard Business Review, 2015); Kodak, historia corporativa.`,
+err: ["Ignorar a un competidor nuevo porque al principio es pequeño o «peor».","Escuchar solo a los mejores clientes actuales.","Medir los proyectos nuevos con las mismas metas que el negocio maduro.","Evitar innovar por miedo a canibalizar las ventas actuales.","Llamar «disruptiva» a cualquier novedad."],
+a: `Elige una industria que haya cambiado mucho en los últimos 20 años (música, taxis, televisión, bancos, tiendas). Identifica al líder anterior, al recién llegado, qué ofrecía el recién llegado al principio, a qué clientes atendía y cómo reaccionó el líder. ¿Fue disrupción en el sentido de Christensen?`,
+sol: `Una buena respuesta describe los hechos con fechas aproximadas, identifica si el recién llegado empezó con clientes ignorados o con no consumidores, explica cómo mejoró y evalúa con criterio si encaja en la definición de Christensen o si fue otro tipo de innovación.`,
+q: [["Según Christensen, una innovación disruptiva suele empezar…",["Más sencilla o barata, atendiendo a clientes que el líder ignora","Siendo más cara y mejor que todo","En el laboratorio del líder"],0,"Mejora con el tiempo hasta quitar el mercado."],
+["El «dilema del innovador» es que el líder fracasa por…",["Escuchar solo a sus mejores clientes y buscar los mayores márgenes","No tener dinero","Innovar demasiado"],0,"Hace lo que parecía correcto."],
+["Una forma de que una empresa grande innove es…",["Crear una unidad independiente para el proyecto nuevo","Medirlo igual que el negocio maduro","Prohibir la canibalización"],0,"Con sus propias metas y reglas."],
+["La ambidestreza organizacional es…",["Explotar el negocio actual y explorar nuevos negocios al mismo tiempo","Escribir con las dos manos","Tener dos directores generales"],0,"Concepto de O'Reilly y Tushman."]],
+t: ["Innovación incremental","Innovación disruptiva","Dilema del innovador","Ambidestreza organizacional","Innovación en el modelo de negocio"]
+},
+"M26-7": {
+s: `Un inversionista de Estados Unidos ofrece llevar Grupo Lupita a Texas, California y Chicago. «Las tortas son mexicanas: allá hay que venderlas igual que aquí, la autenticidad es lo que vende», dice uno. «No, hay que adaptarlas al gusto de allá», dice otro. ¿Cómo deciden las empresas gigantes cuánto adaptar y cuánto mantener igual en cada país?`,
+o: ["Explicar las presiones de integración global y de adaptación local.","Describir las estrategias internacionales: global, multidoméstica, transnacional e internacional.","Analizar ejemplos de empresas que adaptan o estandarizan."],
+x: `## Dos presiones contrarias
+Cuando una empresa opera en muchos países, enfrenta dos fuerzas que tiran en direcciones opuestas:
+1. **Presión por la integración global (estandarizar):** hacer lo mismo en todos los países para lograr **economías de escala** (lección M26-2), una **marca** consistente, menos costos de diseño, procesos únicos y una sola cadena de suministro.
+2. **Presión por la adaptación local (adaptar):** ajustarse a los **gustos**, la **cultura**, las **leyes**, los **canales** de distribución, el **poder de compra** y la **competencia** de cada país.
+
+Los profesores Christopher Bartlett y Sumantra Ghoshal estudiaron cómo las multinacionales manejan esta tensión en su libro *Gestión a través de las fronteras* (**1989**).
+
+## Las estrategias internacionales
+| Estrategia | Integración global | Adaptación local | Cómo funciona |
+|---|---|---|---|
+| **Internacional** | Baja | Baja | Exporta o replica su modelo de casa con pocos cambios; la matriz decide casi todo |
+| **Multidoméstica (multinacional)** | Baja | Alta | Cada país funciona casi como una empresa local, con mucha autonomía y productos adaptados |
+| **Global** | Alta | Baja | Productos estandarizados en todo el mundo, decisiones centralizadas, máxima eficiencia |
+| **Transnacional** | Alta | Alta | Combina eficiencia global con adaptación local; las ideas fluyen entre países |
+
+No hay una estrategia correcta para todos: depende de la **industria** y del **producto**.
+- Productos con muchas economías de escala y gustos parecidos en todo el mundo (chips, aviones, teléfonos, software) tienden a la estrategia **global**.
+- Productos muy ligados a la cultura y a los gustos locales (alimentos, medios de comunicación, servicios financieros a personas) tienden a la **adaptación local**.
+- Muchas empresas gigantes buscan un modelo **transnacional**: lo central se estandariza y lo visible para el cliente se adapta.
+
+## Ejemplos de adaptación
+- **McDonald's** adapta parte de su menú en cada país, según información pública de la empresa: en India no ofrece carne de res por razones culturales y religiosas, y tiene opciones vegetarianas; en otros países ofrece productos locales. Pero mantiene estandarizados sus procesos, su imagen y su sistema de franquicias (lección M21-7).
+- **Coca-Cola** mantiene su marca y su fórmula principal, pero adapta el portafolio de bebidas, los tamaños, los precios y la publicidad en cada país, y trabaja con embotelladores locales como Coca-Cola FEMSA.
+- **Grupo Bimbo** combina marcas globales con marcas locales en cada país, muchas veces adquiridas (lección M26-5).
+- **Walmart** adaptó sus formatos en México (por ejemplo, Bodega Aurrerá para consumidores de menores ingresos), en lugar de copiar solo el formato de Estados Unidos.
+
+## Ejemplos de dificultades por no adaptarse
+- **Walmart en Alemania** (lección M22-8): prácticas de servicio que no encajaron con la cultura local.
+- **Home Depot en China** (lección M22-8): un modelo de «hágalo usted mismo» en un mercado que prefería contratar servicios.
+- Muchas empresas han tenido problemas por **nombres o anuncios** que en otro idioma o cultura significaban algo distinto.
+
+## Qué se suele estandarizar y qué se adapta
+| Normalmente se estandariza | Normalmente se adapta |
+|---|---|
+| Marca principal y valores | Algunos productos y sabores |
+| Procesos de calidad y seguridad | Tamaños, empaques, precios |
+| Sistemas de información | Publicidad, idioma, mensajes |
+| Tecnología central | Canales de distribución |
+| Finanzas y control | Horarios, formatos de tienda |
+| Estándares éticos y de cumplimiento | Relaciones con el gobierno y la comunidad |
+
+## La estructura de una multinacional
+Según la estrategia, cambia la organización:
+- En la **multidoméstica**, cada país tiene un director con mucho poder (estructura por regiones).
+- En la **global**, mandan las divisiones de producto mundiales.
+- En la **transnacional**, suele haber una **matriz**: directores de país y directores de producto o función global que deben ponerse de acuerdo (lección M6-6).
+
+## La autenticidad y la adaptación
+En el debate de Grupo Lupita, ambos tienen algo de razón. La «autenticidad mexicana» es parte de la propuesta de valor; pero el cliente en Estados Unidos tiene otras costumbres (por ejemplo, porciones, horarios, picante, opciones vegetarianas, pedidos en línea). La decisión: mantener **intocables** la receta base, el pan, la marca y los estándares; **adaptar** el nivel de picante disponible, agregar opciones vegetarianas, el tamaño de las bebidas, los horarios y la comunicación en inglés y español. Y empezar con un **franquiciatario maestro** que conozca el mercado (lección M21-1).
+
+## Aprender de los países
+En la estrategia transnacional, la matriz no es la única fuente de ideas: un producto o una práctica que nace en un país puede llevarse a otros. Por ejemplo, una multinacional puede descubrir en un mercado emergente una forma más barata de distribuir o un empaque más pequeño y accesible, y después usarla en otros países con clientes parecidos. A esto se le llama a veces **innovación inversa**, porque las ideas viajan de los mercados emergentes hacia los desarrollados.
+
+## Errores culturales que cuestan caro
+Adaptarse no es solo cambiar el menú. También importan detalles como los colores (que tienen significados distintos según la cultura), los números que se consideran de mala suerte, las formas de saludar, los días festivos, la manera de negociar con proveedores o la forma de tratar a los empleados. Antes de entrar a un país, conviene contratar a personas locales en puestos clave y escuchar su opinión sobre todo lo que verán los clientes y los empleados.`,
+k: `Las multinacionales equilibran **integración global** (estandarizar para escala y marca) y **adaptación local** (gustos, cultura, leyes, canales). Estrategias (Bartlett y Ghoshal, 1989): **internacional** (poca adaptación, poca integración), **multidoméstica** (mucha adaptación), **global** (mucha integración) y **transnacional** (ambas). Se suele estandarizar lo central (marca, procesos, sistemas) y adaptar lo visible para el cliente.`,
+ch: `Un restaurante de comida oaxaqueña que abre en otra ciudad mantiene sus moles con la receta original, pero agrega un menú de comida corrida a mediodía porque descubre que los oficinistas de la zona lo piden.`,
+gi: `Según información pública de la empresa, McDonald's no ofrece carne de res en sus restaurantes de India y desarrolló un menú con muchas opciones vegetarianas para ese mercado, mientras mantiene sus procesos y estándares en todo el mundo.`,
+e: `Decisión de estandarizar o adaptar en la entrada de Grupo Lupita a Estados Unidos:
+
+| Elemento | Decisión | Razón |
+|---|---|---|
+| Receta base y pan | Estandarizar | Es la promesa de la marca |
+| Nombre «Tortas Lupita» | Estandarizar | Autenticidad mexicana |
+| Nivel de picante | Adaptar (opciones) | Gustos distintos |
+| Opciones vegetarianas | Adaptar (agregar) | Demanda local mayor |
+| Tamaño de bebidas | Adaptar | Costumbre local |
+| Idioma del menú | Adaptar (bilingüe) | Clientes diversos |
+| Estándares de higiene | Estandarizar y cumplir la norma local | Seguridad y ley |
+| Sistema de pedidos en línea | Adaptar (plataformas de allá) | Canales distintos |
+
+De 8 elementos, 3 se estandarizan y 5 se adaptan: una estrategia cercana a la transnacional.`,
+r: `Christopher Bartlett y Sumantra Ghoshal publicaron en 1989 «Managing Across Borders: The Transnational Solution», donde propusieron la estrategia transnacional como forma de combinar eficiencia global, adaptación local y aprendizaje entre países.`,
+f: `C. Bartlett y S. Ghoshal, «Managing Across Borders» (1989); McDonald's, información corporativa sobre sus menús por país.`,
+err: ["Copiar el modelo de casa sin adaptar nada.","Adaptar tanto que se pierde la identidad y la escala.","Ignorar las diferencias culturales en nombres y publicidad.","Usar la misma estructura organizacional para cualquier estrategia.","No aprender de lo que funciona en otros países."],
+a: `Elige una empresa multinacional que conozcas (de comida, bebidas, ropa o tecnología). Investiga qué hace igual en todos los países y qué adapta en México. Clasifica su estrategia (internacional, multidoméstica, global o transnacional) y justifica tu respuesta.`,
+sol: `Una buena respuesta da ejemplos concretos de lo que se mantiene (marca, procesos, producto central) y de lo que cambia (productos locales, precios, publicidad), y clasifica la estrategia según el equilibrio entre ambas presiones.`,
+q: [["Una empresa que vende el mismo producto en todo el mundo con decisiones centralizadas sigue una estrategia…",["Global","Multidoméstica","Local"],0,"Máxima integración, poca adaptación."],
+["Una estrategia transnacional busca…",["Combinar eficiencia global con adaptación local","No adaptar nada","Operar solo en un país"],0,"Según Bartlett y Ghoshal."],
+["Los alimentos suelen requerir más…",["Adaptación local","Estandarización total","Ninguna adaptación"],0,"Están muy ligados a la cultura y los gustos."],
+["¿Qué suelen estandarizar las multinacionales?",["La marca principal, los procesos de calidad y los sistemas","Siempre los sabores","Siempre la publicidad"],0,"Lo visible para el cliente se adapta más."]],
+t: ["Estrategia global","Estrategia multidoméstica","Estrategia transnacional","Adaptación local","Integración global"]
+},
+"M26-8": {
+s: `Grupo Lupita quiere comprar a su principal competidor en el norte de la ciudad, una cadena de 25 torterías. Juntas tendrían el 60 % de las torterías de cadena en esa zona. El abogado advierte: «Quizá tengamos que notificar la operación a la autoridad de competencia, y podrían condicionarla». Toño se sorprende: «¿El gobierno puede impedir que compremos una empresa?».`,
+o: ["Explicar qué es la competencia económica y por qué se protege.","Describir las principales prácticas prohibidas: monopolios, acuerdos entre competidores y abuso de poder.","Conocer el papel de la autoridad de competencia en México y casos públicos."],
+x: `## Por qué importa la competencia
+Cuando varias empresas compiten, tienen incentivos para **bajar precios**, **mejorar la calidad** e **innovar**. Cuando una sola empresa domina un mercado (un **monopolio**) o unas pocas se ponen de acuerdo, los consumidores pueden pagar **más** por productos **peores**, y la economía crece menos. Por eso la mayoría de los países tienen **leyes de competencia económica** (también llamadas antimonopolio o *antitrust*) y autoridades que las aplican.
+
+Ser grande **no es ilegal**. Lo que las leyes prohíben son ciertas **conductas** que dañan la competencia, y ciertas **concentraciones** (fusiones y adquisiciones) que la reducen demasiado.
+
+## Conceptos básicos
+- **Monopolio:** un solo vendedor en un mercado.
+- **Oligopolio:** pocos vendedores (común en industrias como telecomunicaciones, cemento, cerveza, aviación).
+- **Poder sustancial de mercado (o dominancia):** cuando una empresa puede subir precios o restringir la oferta sin que los competidores puedan contrarrestarlo.
+- **Mercado relevante:** el producto y el área geográfica donde se analiza la competencia (por ejemplo, «torterías de cadena en el norte de la ciudad» o «comida rápida en la ciudad»). Definirlo bien es clave.
+- **Barreras a la entrada** (lección M26-3).
+
+## Las conductas prohibidas
+Las leyes suelen prohibir:
+1. **Prácticas monopólicas absolutas (cárteles):** **acuerdos entre competidores** para fijar precios, repartirse mercados o clientes, limitar la producción o coordinar ofertas en licitaciones. Son las más graves; en México pueden tener multas muy altas y también consecuencias penales para las personas involucradas.
+2. **Prácticas monopólicas relativas (abuso de poder):** conductas de una empresa con poder sustancial que dañan a competidores o a clientes, como: obligar a los distribuidores a no vender productos de la competencia (exclusividad), condicionar la venta de un producto a la compra de otro (ventas atadas), vender por debajo del costo para eliminar a un competidor (precios predatorios), negarse a vender un insumo esencial, discriminar precios sin justificación.
+3. **Concentraciones ilícitas:** fusiones o adquisiciones que reduzcan de forma importante la competencia.
+
+## Las concentraciones: notificar antes de comprar
+En muchos países, las fusiones y adquisiciones **por encima de ciertos montos** deben **notificarse** a la autoridad **antes** de cerrarse. La autoridad analiza si la operación reduciría la competencia en algún mercado relevante y puede:
+- **Autorizarla** sin condiciones.
+- **Autorizarla con condiciones** (por ejemplo, vender algunos locales o marcas a un competidor, o comprometerse a ciertas conductas).
+- **Negarla.**
+
+Por ejemplo, cuando AB InBev compró Grupo Modelo en 2013, las autoridades de competencia de Estados Unidos condicionaron la operación a que el negocio de las marcas de Modelo en ese país se vendiera a otra empresa (Constellation Brands), según los comunicados de la época.
+
+## La autoridad de competencia en México
+Durante años, la autoridad fue la **Comisión Federal de Competencia Económica (Cofece)**, creada como organismo autónomo con la reforma constitucional de **2013**, con base en la **Ley Federal de Competencia Económica** (2014). En telecomunicaciones y radiodifusión, la competencia la vigilaba el Instituto Federal de Telecomunicaciones (IFT). En **2024 y 2025**, una reforma constitucional y una nueva ley eliminaron a la Cofece y al IFT como organismos autónomos y crearon una nueva autoridad de competencia dependiente del Poder Ejecutivo, la **Comisión Nacional Antimonopolio**. Como las reglas e instituciones cambian, conviene revisar siempre cuál es la autoridad vigente y sus procedimientos.
+
+## Casos públicos
+- En México, la autoridad de competencia ha sancionado **cárteles** en distintos sectores, por ejemplo de medicamentos, de servicios a gobiernos y de productos de consumo, según sus comunicados.
+- En **2024**, la Cofece anunció una sanción a **Walmart de México** por prácticas monopólicas relativas en su relación con proveedores; la empresa informó que impugnaría la resolución, según los comunicados públicos de ambas partes.
+- **Estados Unidos contra Microsoft** (1998–2001): el gobierno acusó a Microsoft de abusar de su dominio en sistemas operativos para favorecer su navegador de internet; el caso terminó en un acuerdo.
+- **Unión Europea y Google:** la Comisión Europea impuso a Google, en **2017**, una multa de unos 2,400 millones de euros por favorecer su propio servicio de comparación de compras en sus resultados de búsqueda; la decisión fue confirmada por los tribunales europeos en 2024. También ha habido otras multas y casos.
+- **Estados Unidos contra Google:** en **agosto de 2024**, un juez federal concluyó que Google había mantenido ilegalmente un monopolio en las búsquedas en internet; el caso siguió con la discusión de las medidas correctivas.
+
+## El cumplimiento en las empresas
+Las empresas grandes tienen **programas de cumplimiento de competencia**: capacitan a su personal (sobre todo de ventas y compras) para que **no hablen de precios** con los competidores, revisan sus contratos de exclusividad y consultan a abogados antes de fusiones o de conductas que puedan considerarse abusivas. Una simple conversación en una feria sobre «subir todos los precios el próximo mes» puede ser un delito.
+
+## La compra de Grupo Lupita
+El abogado analiza: si el mercado relevante es «torterías de cadena en el norte de la ciudad», Grupo Lupita tendría el 60 %, una concentración alta. Si es «comida rápida en la ciudad» (donde los clientes pueden ir a taquerías, cadenas de sándwiches, fondas, apps), su participación sería pequeña. Además, hay que revisar si la operación supera los montos que obligan a notificar. Recomendación: hacer el análisis con un abogado de competencia, notificar si corresponde y estar dispuestos a vender algunos locales si la autoridad lo pide. Y, sobre todo, **nunca** acordar precios con los competidores que no se compren.`,
+k: `Las leyes de **competencia económica** protegen a los consumidores de **monopolios** y **acuerdos entre competidores**. Prohíben: **prácticas monopólicas absolutas** (cárteles: fijar precios, repartir mercados), **prácticas monopólicas relativas** (abuso de poder sustancial: exclusividades, ventas atadas, precios predatorios) y **concentraciones** que dañen la competencia. Las fusiones grandes se **notifican**. En México, la Cofece (desde 2013) fue sustituida en 2025 por la **Comisión Nacional Antimonopolio**.`,
+ch: `Los dueños de las tres tortillerías de un pueblo se reúnen y acuerdan subir el precio del kilo al mismo tiempo. Aunque sean negocios pequeños, ese acuerdo es un cártel y puede ser sancionado.`,
+gi: `En agosto de 2024, un juez federal de Estados Unidos resolvió que Google había mantenido de forma ilegal un monopolio en el mercado de búsquedas en internet; en 2017, la Comisión Europea había multado a Google con unos 2,400 millones de euros por favorecer su servicio de comparación de compras, decisión confirmada por el Tribunal de Justicia de la Unión Europea en 2024.`,
+e: `Participación de mercado de Grupo Lupita según cómo se defina el mercado relevante (ventas anuales, millones de pesos, cifras ficticias):
+
+| Mercado relevante | Ventas totales del mercado | Grupo Lupita + competidor | Participación |
+|---|---|---|---|
+| Torterías de cadena en el norte de la ciudad | 150 | 90 | **60 %** |
+| Comida rápida en locales en el norte de la ciudad | 1,200 | 90 | **7.5 %** |
+| Comida rápida en toda la ciudad (locales y apps) | 9,000 | 90 | **1 %** |
+
+La definición del mercado relevante cambia por completo la conclusión. Por eso es el punto más discutido en los análisis de competencia.`,
+r: `La Comisión Federal de Competencia Económica de México se creó con la reforma constitucional en materia de telecomunicaciones y competencia económica de 2013; la Ley Federal de Competencia Económica de 2014 reguló sus funciones. En 2025 entró en funciones la Comisión Nacional Antimonopolio, que la sustituyó, conforme a la reforma constitucional de 2024 y la nueva ley de competencia.`,
+f: `Ley Federal de Competencia Económica (México); comunicados de la Cofece y de la Comisión Nacional Antimonopolio; Comisión Europea, caso Google Shopping (2017); sentencia en United States v. Google LLC (2024).`,
+err: ["Creer que ser grande es ilegal por sí mismo.","Hablar de precios o repartirse clientes con competidores.","Cerrar una adquisición grande sin revisar si debe notificarse.","Definir el mercado relevante a conveniencia, sin sustento.","No capacitar al personal de ventas y compras en temas de competencia."],
+a: `Clasifica cada situación como práctica absoluta, práctica relativa, concentración o conducta permitida: (1) dos cadenas acuerdan no abrir en las colonias de la otra; (2) una empresa dominante exige a las tiendas no vender productos de sus rivales; (3) una empresa baja sus precios porque es más eficiente; (4) dos empresas grandes se fusionan; (5) tres constructoras se ponen de acuerdo en quién gana una licitación.`,
+sol: `(1) Práctica absoluta (reparto de mercados). (2) Práctica relativa (exclusividad impuesta por una empresa con poder). (3) Conducta permitida (competencia por eficiencia), salvo que sean precios predatorios para eliminar a un rival. (4) Concentración: debe analizarse y, si supera los montos, notificarse. (5) Práctica absoluta (colusión en licitaciones).`,
+q: [["Un acuerdo entre competidores para fijar precios es…",["Una práctica monopólica absoluta (cártel)","Una práctica permitida","Una estrategia de marketing"],0,"Es de las conductas más graves."],
+["Ser una empresa muy grande…",["No es ilegal por sí mismo; lo ilegal son ciertas conductas","Siempre es ilegal","Está prohibido en México"],0,"Se sancionan abusos y cárteles."],
+["El «mercado relevante» es…",["El producto y el área donde se analiza la competencia","El mercado de abastos","El mercado de valores"],0,"Definirlo bien es clave."],
+["Antes de cerrar una fusión grande, muchas veces hay que…",["Notificarla a la autoridad de competencia","Pedir permiso a los clientes","Cerrar las tiendas"],0,"La autoridad puede autorizar, condicionar o negar."]],
+t: ["Competencia económica","Monopolio","Oligopolio","Cártel","Práctica monopólica relativa","Mercado relevante","Concentración económica","Cofece"]
+}
+});
