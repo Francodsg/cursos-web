@@ -232,3 +232,106 @@ preg:["¿Qué tipo de fraude es y por qué funcionó?","¿Qué debe hacer el neg
 resp:`Es un fraude de **suplantación del proveedor** (falso proveedor); funcionó porque no había ningún control para verificar cambios de cuenta y una sola persona podía pagar. De inmediato: llamar al banco para intentar detener o rastrear la transferencia, guardar pruebas, denunciar ante la autoridad y avisar a otros proveedores y clientes. Controles: 1) ningún cambio de cuenta sin llamar al número ya registrado; 2) lista oficial de cuentas de proveedores en el sistema; 3) doble autorización para pagos de más de 5,000 pesos o a cuentas nuevas; 4) verificación en dos pasos en WhatsApp y banca en línea; 5) revisión semanal de pagos por Lupita. Capacitación: una sesión breve con ejemplos reales y una regla fácil de recordar: «si cambian la cuenta, llama antes de pagar».`,
 lec:["Los fraudes digitales atacan los procesos débiles, no la tecnología.","Verificar por otro canal es la defensa más simple.","La separación de funciones protege el dinero."]}
 );
+
+// ===== Casos del Nivel 3 =====
+window.CASOS.push(
+{id:"maquina-o-persona", t:"¿Comprar una máquina de 120,000 o contratar a otra persona?", mod:"M16", tipo:"ficticio", les:"M16-3",
+ctx:`En la hora pico, la cocina de Tortas Lupita no se da abasto. Toño propone comprar una máquina rebanadora y freidora automática de 120,000 pesos que acelera la preparación. Lupita prefiere contratar a un ayudante más, con un costo total de unos 14,000 pesos al mes. Los dos tienen argumentos y discuten cada semana.`,
+dil:`¿Qué opción conviene más y cómo decidir sin dejarse llevar por la preferencia de cada uno?`,
+datos:`| Concepto | Máquina | Ayudante |
+|---|---|---|
+| Inversión inicial | 120,000 | 0 |
+| Costo mensual | 1,500 (mantenimiento y luz) | 14,000 |
+| Tortas extra por hora pico | 40 | 30 |
+| Vida útil | 5 años | — |
+| Flexibilidad | Baja (solo ciertas tareas) | Alta (también limpia, atiende) |
+| Riesgo | Descompostura | Rotación, faltas |
+
+Margen de contribución por torta: 24. Hora pico: 2 horas al día, 26 días al mes.`,
+preg:["Calcula cuánto margen extra genera cada opción al mes y cuánto cuesta.","¿En cuántos meses se recupera la máquina?","Arma una matriz ponderada con al menos cuatro criterios.","¿Qué sesgos podrían influir en Toño y en Lupita?","¿Qué recomendarías y cómo revisarías la decisión?"],
+resp:`**Máquina:** 40 tortas × 2 horas × 26 días = 2,080 tortas extra al mes × 24 = 49,920 de margen, menos 1,500 de costo = 48,420 netos al mes, siempre que haya clientes para esas tortas. Se recupera en 120,000 ÷ 48,420 ≈ 2.5 meses. **Ayudante:** 30 × 2 × 26 = 1,560 tortas × 24 = 37,440, menos 14,000 = 23,440 al mes. En números, la máquina gana; pero el supuesto clave es que **la demanda existe** para 2,080 tortas más. Si solo hay demanda para 800 tortas extra al mes (19,200 de margen), la máquina deja 17,700 y el ayudante 5,200. Una matriz con criterios de margen (35 %), flexibilidad (25 %), riesgo (20 %) y facilidad de implementación (20 %) suele favorecer a la máquina, salvo que la flexibilidad pese mucho. Sesgos: Toño, **exceso de confianza** y entusiasmo por la tecnología; Lupita, **aversión al cambio** y apego a lo conocido. Recomendación: medir primero la demanda real no atendida (clientes que se van de la fila) durante dos semanas; si supera 1,000 tortas al mes, comprar la máquina con un plan de mantenimiento; si no, contratar al ayudante en medio tiempo para la hora pico. Revisar en tres meses con los datos de ventas por hora.`,
+lec:["Una inversión solo rinde si hay demanda para lo que produce.","Pon los supuestos por escrito y mídelos antes de decidir.","Reconocer los sesgos de cada parte mejora la conversación."]},
+{id:"falta-dinero-viernes", t:"Falta dinero en caja todos los viernes", mod:"M17", tipo:"ficticio", les:"M17-6",
+ctx:`Desde hace dos meses, el corte de caja de los viernes sale con faltantes de entre 400 y 900 pesos. Los demás días cuadra o casi. Los viernes hay más clientes, dos cajeros rotan en la misma caja y Rosa, la cajera de confianza, sale temprano porque estudia. Nadie quiere acusar a nadie.`,
+dil:`¿Cómo encontrar la causa y qué controles poner sin crear un mal ambiente?`,
+datos:`| Día | Ventas promedio | Diferencia promedio en el corte |
+|---|---|---|
+| Lunes a jueves | 7,500 | −20 |
+| Viernes | 12,800 | −650 |
+| Sábado | 10,200 | −40 |
+
+Viernes: dos cajeros comparten caja de 14:00 a 18:00; no hay corte al cambiar de turno; los pagos con tarjeta se registran a mano cuando la terminal falla; hay descuentos sin autorización escrita.`,
+preg:["¿Qué patrón muestran los datos?","Menciona al menos cuatro posibles causas, no solo robo.","¿Qué controles internos propondrías?","¿Cómo comunicarías los cambios al equipo?","¿Qué indicador usarías para saber si funcionó?"],
+resp:`El patrón es claro: el problema se concentra **los viernes**, cuando hay más volumen y **dos personas comparten la caja sin corte al cambiar de turno**. Causas posibles: errores al dar cambio por la prisa; pagos con tarjeta registrados a mano con errores; descuentos o cortesías sin registro; billetes falsos; y, también, robo. Sin control no se puede saber cuál es. Controles: 1) **una caja por cajero** o, al menos, corte parcial firmado en cada cambio de turno; 2) fondo fijo contado al inicio de cada turno; 3) todos los descuentos con autorización y registro en el sistema; 4) cuando falle la terminal, anotar el folio del comprobante; 5) arqueos sorpresa; 6) revisar las cámaras solo si persiste el faltante. Comunicación: explicar que los controles **protegen a los cajeros**, porque permiten demostrar que cuadraron su turno, y no son una acusación. Indicador: diferencia promedio en el corte de los viernes; meta, menos de 50 pesos en un mes.`,
+lec:["Los datos por día y por turno revelan dónde está el problema.","El control interno protege a los empleados honestos.","Separar responsabilidades permite saber qué pasó."]},
+{id:"crecer-rapido", t:"Toño quiere crecer rápido; Lupita no", mod:"M18", tipo:"ficticio", les:"M18-4",
+ctx:`Toño, socio con el 30 %, quiere abrir cinco sucursales en dos años con un inversionista. Lupita, con el 70 %, prefiere consolidar las dos que tienen y tal vez abrir una tercera. Las discusiones empiezan a afectar el trabajo y la relación familiar. El resto del equipo no sabe a quién hacerle caso.`,
+dil:`¿Cómo resolver un desacuerdo sobre el crecimiento entre socios que además son familia?`,
+datos:`| Opción | Inversión | Utilidad esperada al año 3 | Riesgo | Control de la familia |
+|---|---|---|---|---|
+| Consolidar (2 locales) | 0 | 650,000 | Bajo | 100 % |
+| Crecimiento moderado (3 locales) | 600,000 | 900,000 | Medio | 100 % |
+| Crecimiento rápido (7 locales con inversionista) | 3,500,000 | 1,000,000 a 2,500,000 o pérdidas | Alto | 60 % |
+
+Situación: procesos escritos parciales; un solo gerente formado; caja equivalente a 2 meses de gastos.`,
+preg:["¿En qué etapa de crecimiento está Tortas Lupita?","¿Qué capacidades le faltan para crecer rápido?","Analiza cada opción con la matriz de Ansoff y con el flujo de caja.","¿Qué papel juegan los círculos de familia, propiedad y empresa en el conflicto?","¿Qué acuerdo propondrías?"],
+resp:`Tortas Lupita está saliendo de la etapa de **supervivencia** hacia el **éxito**, en plena transición a la profesionalización. Para crecer rápido le faltan: procesos completos, más gerentes formados, sistemas de control a distancia y caja; crecer siete locales con un solo gerente formado es muy arriesgado. Las tres opciones son **penetración o desarrollo de mercado**, de bajo a medio riesgo en producto, pero la rápida tiene alto riesgo financiero y de ejecución. En el conflicto se mezclan los círculos: Toño es **familia, socio minoritario y directivo**; Lupita, **familia, socia mayoritaria y directora**. Conviene separar la conversación de negocio de la familiar. Acuerdo propuesto: un plan por etapas con **metas medibles**: año 1, terminar el manual, formar dos gerentes y abrir la tercera sucursal; si la tercera alcanza su punto de equilibrio en seis meses y la caja llega a tres meses de gastos, en el año 2 evaluar dos más o franquicias. Firmar un **protocolo familiar** y un convenio entre socios con reglas para decidir y para salir.`,
+lec:["Crecer exige capacidades, no solo ganas.","Las metas por etapas convierten un pleito en un plan.","En la empresa familiar, separar los círculos reduce el conflicto."]},
+{id:"banco-o-socio", t:"¿Banco o socio para la segunda sucursal?", mod:"M19", tipo:"ficticio", les:"M19-6",
+ctx:`Para abrir la segunda sucursal faltan 350,000 pesos. El Banco A ofrece un crédito a 36 meses con pago de unos 11,900 al mes. El ingeniero Ramírez, cliente frecuente, ofrece poner el dinero a cambio del 20 % de todo el negocio. Toño prefiere el socio; Lupita, el banco.`,
+dil:`¿Qué opción conviene, o qué combinación?`,
+datos:`| Escenario de la sucursal | Utilidad mensual antes del financiamiento |
+|---|---|
+| Pesimista | 10,000 |
+| Probable | 25,000 |
+| Optimista | 35,000 |
+
+Utilidad anual del negocio completo en el escenario probable: unos 600,000. Valuación previa estimada: 1,400,000. Ramírez también podría prestar en lugar de comprar una parte.`,
+preg:["¿Qué pasa con el pago del banco en cada escenario?","¿Cuánto le costaría Ramírez en utilidades en tres años en el escenario probable?","Compara el control del negocio en cada opción.","¿Qué alternativas intermedias existen?","¿Qué recomiendas?"],
+resp:`Con el banco, el pago de 11,900 **no cabe** en el escenario pesimista (10,000) y obliga a usar dinero del primer local; en el probable deja 13,100 al mes y en el optimista 23,100. Con Ramírez como socio del 20 %, en el escenario probable recibiría unos 120,000 al año, es decir, **360,000 en tres años**, y conservaría su 20 % para siempre; el banco cobra unos 78,400 de intereses en total. Control: con el banco, la familia conserva el 100 %; con Ramírez, Lupita baja a 56 % y Toño a 24 %, y hay que negociar un convenio. Alternativas: crédito menor (200,000, pago de unos 6,800 que sí cabe en el pesimista) más un **préstamo de Ramírez** de 150,000 con interés, o **deuda convertible** en una participación pequeña si la sucursal funciona. Recomendación: la mezcla, porque reduce el riesgo de los pagos sin ceder propiedad de inmediato.`,
+lec:["Prueba siempre la deuda en el escenario pesimista.","El capital es caro cuando el negocio va bien y seguro cuando va mal.","Las opciones intermedias suelen ser las mejores."]},
+{id:"segunda-sucursal", t:"La segunda sucursal vende la mitad que la primera", mod:"M20", tipo:"ficticio", les:"M20-6",
+ctx:`Seis meses después de abrir, la segunda sucursal de Tortas Lupita vendió 810,000 pesos en el trimestre, contra 1,620,000 de la original. Toño quiere cambiar al gerente. Lupita cree que no es justo compararlas así.`,
+dil:`¿La sucursal va mal o se está comparando de forma injusta? ¿Qué hacer?`,
+datos:`| Indicador | Original | Nueva |
+|---|---|---|
+| Ventas del trimestre | 1,620,000 | 810,000 |
+| Superficie | 60 m² | 30 m² |
+| Tickets | 21,600 | 13,500 |
+| Costo de alimentos | 41 % | 38 % |
+| Tiempo de espera | 8 min | 6 min |
+| Días abiertos por semana | 7 | 6 |
+| Meses abierta | 48 | 6 |`,
+preg:["Calcula ventas por metro cuadrado y ticket promedio de cada una.","¿Qué indicadores favorecen a la nueva y cuáles no?","¿Qué contexto hay que considerar?","¿El gerente es el problema?","Propón dos acciones concretas."],
+resp:`Ventas por m²: original 27,000; nueva 27,000: **iguales**. Ticket promedio: original 75; nueva 60. La nueva gana en costo de alimentos (38 % contra 41 %) y en tiempo de espera; pierde en ticket promedio. Contexto: tiene la mitad de superficie, abre un día menos, lleva solo seis meses (está **madurando**) y atiende a trabajadores de una fábrica que compran solo la torta. El gerente **no** es el problema: opera con más eficiencia. Acciones: 1) crear un **combo** de torta con agua fresca a precio atractivo para subir el ticket; 2) abrir pedidos para llevar a las oficinas de la fábrica antes del turno; además, fijar metas de ticket y comparar con el presupuesto propio de la sucursal, no solo con la original.`,
+lec:["Compara sucursales con indicadores relativos.","Juzga al gerente por lo que puede controlar.","La comparación sirve más para aprender que para castigar."]},
+{id:"franquiciar-o-no", t:"¿Franquiciar o abrir sucursales propias?", mod:"M21", tipo:"ficticio", les:"M21-4",
+ctx:`Con dos sucursales funcionando, Tortas Lupita recibe tres solicitudes de personas que quieren comprar una franquicia. Lupita duda: con sucursales propias gana más por local, pero necesita mucho dinero; con franquicias crecería más rápido, pero tendría menos control y necesita preparar todo el sistema.`,
+dil:`¿Qué camino conviene en los próximos tres años?`,
+datos:`| Concepto | Sucursal propia | Franquicia |
+|---|---|---|
+| Inversión de Tortas Lupita por local | 600,000 | 0 (más la preparación del sistema) |
+| Ingreso para Tortas Lupita por local al mes | Utilidad del local: 25,000 | Regalía 6 % de 400,000 = 24,000 (la publicidad del 2 % va al fondo común) |
+| Preparación del sistema (una vez) | — | 450,000 (manual, abogados, marca, estructura) |
+| Costo anual de la estructura de apoyo | — | 360,000 |
+| Locales posibles en 3 años | 2 (por dinero) | 8 |
+
+Requisitos pendientes para franquiciar: manual completo, registro de marca en todas las clases, contrato y Circular de Oferta, un año de la segunda sucursal funcionando sin Lupita.`,
+preg:["Calcula el ingreso anual para Tortas Lupita con 2 sucursales propias nuevas y con 8 franquicias.","¿Cuánto tarda en recuperarse la preparación del sistema de franquicias?","¿Qué riesgos tiene cada camino?","¿Está lista Tortas Lupita para franquiciar hoy?","¿Qué recomiendas?"],
+resp:`**Sucursales propias:** 2 × 25,000 × 12 = 600,000 al año, con 1,200,000 de inversión. **Franquicias:** 8 × 24,000 × 12 = 2,304,000 en regalías, menos 360,000 de estructura = 1,944,000 al año, con 450,000 de preparación. Con todas las franquicias abiertas, la preparación se recupera en unos 3 meses de su margen; pero al principio, con 1 o 2 franquicias (24,000 a 48,000 al mes contra 30,000 de estructura), tarda mucho más. Riesgos: las sucursales propias exigen capital y gerentes; las franquicias, perder control de la calidad y dañar la marca con un mal franquiciatario. **Hoy no está lista**: faltan manual, registro, documentos legales y probar el sistema sin Lupita. Recomendación: un plan mixto: preparar la franquicia durante 12 meses, abrir una tercera sucursal propia como laboratorio y lanzar una **franquicia piloto** con uno de los interesados mejor calificados.`,
+lec:["Franquiciar es construir un sistema, no vender un nombre.","Los números deben funcionar para el franquiciante y el franquiciatario.","Una franquicia piloto reduce el riesgo de crecer rápido."]},
+{id:"monterrey-o-apps", t:"¿Abrir en Monterrey o vender por apps en toda la ciudad?", mod:"M22", tipo:"ficticio", les:"M22-1",
+ctx:`Tortas Lupita tiene dos opciones de expansión para el próximo año: abrir una sucursal en Monterrey con un empresario local, o usar su cocina central para vender por apps de reparto en toda su propia ciudad, con dos cocinas ocultas en zonas donde no tiene locales.`,
+dil:`¿Qué expansión conviene más y cómo reducir el riesgo?`,
+datos:`| Concepto | Monterrey (sucursal con socio, 50 %) | Apps en la ciudad (2 cocinas ocultas) |
+|---|---|---|
+| Inversión de Tortas Lupita | 325,000 (su mitad) | 240,000 |
+| Ventas esperadas al mes | 220,000 | 300,000 |
+| Margen de contribución | 55 % | 35 % (por comisiones de 25 % y empaque) |
+| Gastos fijos al mes | 65,000 | 56,000 |
+| Conocimiento del mercado | Bajo (lo aporta el socio) | Alto |
+| Supervisión | Difícil (a distancia) | Fácil |`,
+preg:["Calcula la utilidad mensual esperada de cada opción (y la parte de Tortas Lupita en Monterrey).","¿En cuántos meses se recupera la inversión de cada una?","¿Qué riesgos tiene cada opción?","¿Qué prueba de bajo costo harías antes?","¿Qué recomiendas?"],
+resp:`**Monterrey:** 220,000 × 55 % = 121,000 − 65,000 = 56,000 al mes; a Tortas Lupita le toca la mitad: **28,000**. Recupera 325,000 en unos 11.6 meses. **Apps:** 300,000 × 35 % = 105,000 − 56,000 = **49,000** al mes; recupera 240,000 en unos 4.9 meses. Riesgos de Monterrey: mercado desconocido, gustos distintos, supervisión a distancia, efecto «isla», conflicto con el socio. Riesgos de las apps: dependencia de las plataformas (pueden subir la comisión), margen bajo, calidad en la entrega, canibalización si las zonas se cruzan con los locales. Prueba: para Monterrey, tres meses de una cocina oculta con el socio; para las apps, empezar con una sola cocina oculta y medir ventas nuevas y recompra. Recomendación: **primero las apps en la ciudad** (mejor recuperación, mercado conocido), con precios ajustados y un canal propio por WhatsApp; Monterrey, como prueba pequeña con límite de pérdidas, para decidir en un año.`,
+lec:["Calcula el margen real de cada canal, no solo las ventas.","Expandirse cerca y con conocimiento del mercado suele ser menos riesgoso.","Prueba con poco y define de antemano cuánto estás dispuesto a perder."]}
+);
