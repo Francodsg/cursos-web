@@ -3580,3 +3580,244 @@ q: [["El «justo a tiempo» consiste en…",["Producir solo lo necesario, cuando
 t: ["Sistema de Producción Toyota","Manufactura esbelta","Justo a tiempo","Kanban","Jidoka","Andon","Cinco porqués","Desperdicio"]
 }
 });
+
+Object.assign(window.LECC, {
+"M28-6": {
+s: `Ana, la hermana de Toño, compra casi todo por Mercado Libre: desde refacciones hasta ropa. Paga con Mercado Pago, le llega en un día y hasta le ofrecieron un préstamo. «Empezó como una página para vender cosas usadas», le cuenta a Lupita. ¿Cómo pasó de ser una empresa emergente argentina a una de las más valiosas de Latinoamérica?`,
+o: ["Aplicar la ficha de radiografía a Mercado Libre con información pública.","Explicar cómo construyó un ecosistema de comercio, pagos, logística y crédito.","Analizar los retos de crecer en varios países latinoamericanos."],
+x: `## 1. Origen
+**Mercado Libre** fue fundada en **1999** en Buenos Aires por **Marcos Galperin**, junto con otros socios, mientras estudiaba una maestría en Estados Unidos, según la historia de la empresa. La idea era crear un **sitio de subastas y compraventa en línea** para Latinoamérica, inspirado en modelos como eBay, que incluso compró una participación en la empresa en 2001, según los informes de la época. Recibió capital de fondos de inversión en sus primeros años (lección M19-4) y salió a la bolsa **Nasdaq** en **agosto de 2007**.
+
+## 2. Modelo de negocio
+Mercado Libre es una **plataforma** (lección M26-4) que conecta a compradores y vendedores, y que construyó un **ecosistema** (lección M26-5) de servicios:
+- **Mercado en línea (*marketplace*):** cobra **comisiones** a los vendedores por cada venta y cargos por publicaciones destacadas.
+- **Mercado Pago:** pagos en línea y en tiendas físicas, cuenta digital, tarjetas, transferencias. Nació para resolver la desconfianza en los pagos en línea y la falta de tarjetas bancarias en la región.
+- **Mercado Envíos:** logística propia y de socios para entregar los productos, con centros de distribución y entregas rápidas.
+- **Crédito (Mercado Crédito):** préstamos a vendedores y compradores, usando los datos de la plataforma para evaluar el riesgo.
+- **Publicidad (Mercado Ads):** las marcas pagan por aparecer en las búsquedas.
+
+Cada servicio **refuerza** a los demás: más compradores atraen más vendedores (efecto red), los pagos y envíos dan confianza, los datos permiten dar créditos, y el crédito ayuda a que se vendan más productos.
+
+## 3. Estructura
+MercadoLibre, Inc. es una empresa registrada en Estados Unidos, con operaciones en **18 países** de Latinoamérica, según sus informes. Sus mercados más grandes, por ingresos, son **Brasil, México y Argentina**. Informa sus resultados por país y por línea de negocio (comercio y servicios financieros).
+
+## 4. Áreas destacadas
+- **Tecnología:** miles de ingenieros; la plataforma, los pagos y la logística dependen del software.
+- **Logística:** centros de distribución, aviones de carga propios o arrendados, entregas en el mismo día o al día siguiente en las grandes ciudades.
+- **Riesgo y fraude:** fundamental en pagos y créditos.
+- **Atención a usuarios y protección al comprador** (garantías de devolución).
+- **Regulación:** en México, sus servicios financieros están sujetos a las reglas de la Ley Fintech y otras normas.
+
+## 5. Dinero
+Según sus informes, los ingresos netos anuales de Mercado Libre superaron los **14,000 millones de dólares** en 2023 y siguieron creciendo con fuerza en 2024, con utilidades positivas después de años de reinvertir mucho en logística y pagos. Durante años, la empresa priorizó **crecer** sobre tener utilidades altas. Una parte creciente de sus ingresos viene de los **servicios financieros**. Su valor de mercado la ha ubicado entre las empresas más valiosas de Latinoamérica. Las cifras cambian cada trimestre.
+
+Un riesgo constante es la **inflación y la devaluación** en algunos países, en especial Argentina, que afectan los resultados en dólares (lección M22-4).
+
+## 6. Decisiones clave
+1. **Pensar en toda la región** desde el inicio, no en un solo país.
+2. **Crear Mercado Pago** (a inicios de la década de 2000) para resolver el problema de la confianza y los pagos.
+3. **Invertir en logística propia**, aunque fuera muy costoso, para controlar la experiencia de entrega.
+4. **Pasar de subastas y artículos usados a productos nuevos** con vendedores profesionales y marcas.
+5. **Convertirse en una empresa financiera** además de comercial.
+
+## 7. Crecimiento y competencia
+Mercado Libre compite con **Amazon** (que entró con fuerza a México y Brasil), con plataformas asiáticas de precios muy bajos, con tiendas en línea de cadenas como Walmart y con bancos y empresas de pagos. Su ventaja es el **ecosistema** y el conocimiento de la región.
+
+## 8. Gobierno
+Es una empresa pública en Nasdaq, con un consejo con consejeros independientes. Marcos Galperin fue su director general desde la fundación hasta el **1 de enero de 2026**, cuando, según la empresa, pasó a ser presidente ejecutivo del consejo y Ariel Szarfsztejn asumió como director general, un ejemplo de **sucesión planeada** (lección M24-5).
+
+## 9. Lecciones
+- Una plataforma con **efecto red** puede volverse muy poderosa, pero requiere años de inversión.
+- Resolver los **problemas reales** del cliente (confianza, pagos, entregas) puede crear nuevos negocios.
+- Un ecosistema aumenta los **costos de cambio** y la lealtad.
+- Operar en varios países emergentes exige manejar **riesgos de inflación, tipo de cambio y regulación**.
+
+## 10. Fuentes
+MercadoLibre, Inc., historia corporativa, Formulario 10-K, informes trimestrales y comunicados (investor.mercadolibre.com).
+
+## La confianza como producto
+En los primeros años del comercio en línea en Latinoamérica, muchas personas no se atrevían a comprar por internet: temían pagar y no recibir nada, o recibir algo distinto. Mercado Libre atacó ese problema con varias herramientas: **calificaciones** públicas de vendedores y compradores, un sistema de **reputación** con colores, la **protección al comprador** (devolver el dinero si el producto no llega o no es lo prometido) y Mercado Pago, que retiene el pago hasta que la operación se completa. En una plataforma, la **confianza** es parte esencial del producto (lección M26-4).`,
+k: `**Mercado Libre:** fundada en 1999 en Buenos Aires por Marcos Galperin; en Nasdaq desde 2007; opera en 18 países. **Plataforma** con **ecosistema**: mercado en línea (comisiones), **Mercado Pago**, **Mercado Envíos**, crédito y publicidad, que se refuerzan entre sí. Sus mayores mercados: Brasil, México y Argentina. Retos: competencia de Amazon y plataformas asiáticas, inflación y regulación.`,
+ch: `Una tienda de refacciones de barrio empieza a vender en Mercado Libre. En un año, la mitad de sus ventas llegan de otras ciudades, usa Mercado Envíos para entregar y recibe un préstamo de la plataforma para comprar más inventario.`,
+gi: `Según sus informes, los servicios financieros de Mercado Libre (Mercado Pago y crédito) se han convertido en una parte cada vez más importante de sus ingresos, y en varios países es una de las principales cuentas digitales de pago.`,
+e: `Cómo gana Mercado Libre en una sola venta (cifras ilustrativas, no tarifas reales):
+
+| Concepto | Monto |
+|---|---|
+| Precio del producto | 1,000 |
+| Comisión del mercado en línea (15 %) | 150 |
+| Cargo por envío cobrado al vendedor o al comprador | 90 |
+| Costo de envío para la plataforma | 70 |
+| Comisión de pago con tarjeta procesada por Mercado Pago (3 %) | 30 |
+| Publicidad pagada por el vendedor para destacar (prorrateada) | 20 |
+| **Ingreso total de la plataforma** | 150 + 90 + 30 + 20 = **290** |
+| **Margen antes de otros costos** | 290 − 70 = **220** |
+
+Una sola venta genera ingresos por varios servicios del ecosistema.`,
+r: `Según su información para inversionistas, MercadoLibre, Inc. fue fundada en 1999, comenzó a cotizar en Nasdaq en 2007 y opera en 18 países de Latinoamérica; en 2025 anunció que Ariel Szarfsztejn sucedería a Marcos Galperin como director general a partir del 1 de enero de 2026.`,
+f: `MercadoLibre, Inc., Formulario 10-K, informes trimestrales y comunicados (investor.mercadolibre.com).`,
+err: ["Creer que Mercado Libre solo gana con comisiones de ventas.","Ignorar los años de inversión en logística y pagos antes de las utilidades.","Pensar que el efecto red elimina a los competidores.","Olvidar los riesgos de inflación y tipo de cambio en la región."],
+a: `Dibuja el ecosistema de Mercado Libre: coloca en el centro el mercado en línea y alrededor Mercado Pago, Mercado Envíos, crédito y publicidad. Traza flechas que muestren cómo cada servicio ayuda a los demás. Después, compáralo con el ecosistema de otra empresa que conozcas.`,
+sol: `Las flechas deben mostrar, por ejemplo: el mercado en línea genera transacciones para Mercado Pago; Mercado Pago da confianza y datos para el crédito; el crédito permite a los vendedores tener más inventario; Mercado Envíos mejora la experiencia y aumenta las compras; más compras atraen más publicidad.`,
+q: [["¿En qué año y dónde se fundó Mercado Libre?",["En 1999, en Buenos Aires","En 2007, en Nueva York","En 1994, en Seattle"],0,"Salió a Nasdaq en 2007."],
+["Mercado Pago nació sobre todo para…",["Resolver la desconfianza y la falta de medios de pago en línea","Vender ropa","Hacer publicidad"],0,"Después se volvió un negocio financiero propio."],
+["En el ecosistema de Mercado Libre, los datos de la plataforma ayudan a…",["Evaluar el riesgo para dar créditos","Hacer tortas","Pagar impuestos"],0,"Es una ventaja frente a bancos tradicionales."],
+{n:1,t:"En una venta de 1,000 pesos, la plataforma cobra 15 % de comisión y 3 % por el pago. ¿Cuánto recibe por esos dos conceptos (en pesos)?",a:180,tol:0,u:"pesos",e:"150 + 30 = 180."}],
+t: ["Mercado Libre","Mercado Pago","Comercio electrónico en Latinoamérica"]
+},
+"M28-7": {
+s: `Toño descubre algo que le parece absurdo: la parte de Amazon que más dinero gana no es la tienda en línea, sino un negocio de «servidores en la nube» que alquila computadoras a otras empresas. «¿Cómo una librería en línea terminó siendo la empresa que guarda los datos de medio internet?», pregunta. ¿Cómo funciona por dentro Amazon?`,
+o: ["Aplicar la ficha de radiografía a Amazon con información pública.","Explicar por qué Amazon es «varios negocios en uno» y cómo se relacionan.","Analizar por qué algunos de sus negocios pierden dinero o ganan poco y otros ganan mucho."],
+x: `## 1. Origen
+**Amazon** fue fundada por **Jeff Bezos** en **1994** en Seattle (Estados Unidos) y empezó a vender **libros** en línea en **1995**, según la historia de la empresa. Bezos eligió los libros porque había millones de títulos, ninguna tienda física podía tenerlos todos y eran fáciles de enviar. Amazon salió a la bolsa **Nasdaq** en **1997**. En su primera carta a los accionistas, ese año, Bezos escribió que la empresa pensaría **a largo plazo** y priorizaría el crecimiento y el liderazgo de mercado sobre las utilidades de corto plazo.
+
+## 2. Modelo de negocio: varios negocios en uno
+Amazon informa sus resultados en tres segmentos: **Norteamérica**, **Internacional** y **AWS** (Amazon Web Services), según su 10-K. Dentro de ellos hay varios negocios:
+1. **Tienda en línea propia (1P):** Amazon compra productos y los vende. Márgenes bajos.
+2. **Mercado en línea para vendedores externos (3P):** desde **2000**, otros vendedores ofrecen sus productos en Amazon, que cobra comisiones. Según la empresa, más de la mitad de las unidades vendidas en su tienda son de vendedores externos.
+3. **Servicios de logística para vendedores (Fulfillment by Amazon):** Amazon guarda, empaca y envía los productos de otros, a cambio de tarifas.
+4. **Suscripciones (Prime):** lanzada en **2005**; envíos rápidos sin costo extra, video, música y otros beneficios por una cuota anual o mensual. Aumenta la lealtad y la frecuencia de compra.
+5. **Publicidad:** marcas y vendedores pagan por aparecer en las búsquedas de Amazon. Se ha vuelto uno de sus negocios más grandes y rentables.
+6. **AWS (Amazon Web Services):** lanzada en **2006**; alquila capacidad de cómputo, almacenamiento, bases de datos e inteligencia artificial a empresas, gobiernos y otras organizaciones.
+7. **Otros:** dispositivos (Kindle desde 2007, Alexa), tiendas físicas (Whole Foods, comprada en 2017), video y música, salud.
+
+## 3. Cómo se conectan
+Los negocios comparten recursos (**economías de alcance**, lección M26-2): la infraestructura tecnológica que Amazon construyó para su tienda se convirtió en AWS; la logística para sus productos se ofrece a vendedores externos; los clientes Prime compran más; el tráfico de la tienda alimenta la publicidad. Bezos describió en varias ocasiones un «volante» (*flywheel*): precios bajos → más clientes → más vendedores → más variedad → más clientes, mientras la escala baja los costos y permite bajar más los precios.
+
+## 4. Por qué algunos negocios pierden y otros ganan
+Este es el tema del **caso del módulo**. Según sus informes:
+- **AWS**, que representa una parte menor de las ventas totales, genera en muchos años **la mayor parte de la utilidad de operación** de Amazon, con márgenes de operación altos.
+- El segmento **Internacional** (tiendas fuera de Norteamérica) **perdió dinero** en varios años, mientras invertía para crecer en nuevos países.
+- La **tienda** en Norteamérica tiene márgenes bajos, pero la **publicidad** y las **suscripciones** han mejorado su rentabilidad.
+
+Amazon ha estado dispuesta a **perder dinero durante años** en negocios nuevos (países, dispositivos, logística) si cree que en el largo plazo crearán valor. Es una forma de **asignación de capital** (lección M23-6) con horizonte largo, que ha sido posible porque otros negocios (como AWS) generan mucho efectivo y porque sus accionistas han aceptado esa estrategia.
+
+## 5. Dinero
+Según su 10-K, Amazon tuvo ventas netas de más de **570,000 millones de dólares** en 2023 y más de **630,000 millones** en 2024, con una utilidad de operación de decenas de miles de millones de dólares. Su flujo de efectivo de operación es enorme, y gran parte se reinvierte en centros de datos, logística y tecnología. Las cifras cambian cada año.
+
+## 6. Decisiones clave
+1. **Empezar con libros** y ampliar a «todo».
+2. **Abrir la tienda a vendedores externos** (2000), aunque compitieran con sus propios productos.
+3. **Crear Prime** (2005).
+4. **Lanzar AWS** (2006), vendiendo a otros lo que había construido para sí misma.
+5. **Construir logística propia**, incluyendo aviones y entregas de última milla.
+6. **Comprar Whole Foods** (2017) para entrar al comercio de alimentos.
+
+## 7. Crecimiento y críticas
+Amazon creció hasta ser una de las empresas más grandes del mundo. También ha enfrentado críticas y procesos: condiciones de trabajo en sus almacenes, el trato a los vendedores externos, investigaciones de competencia en Estados Unidos y en Europa (lección M26-8), y su impacto en los comercios pequeños.
+
+## 8. Gobierno
+Jeff Bezos fue director general hasta **2021**, cuando lo sucedió **Andy Jassy**, quien había dirigido AWS, según la empresa; Bezos se mantuvo como presidente ejecutivo del consejo. Bezos sigue siendo uno de sus mayores accionistas.
+
+## 9. Lecciones
+- Una empresa puede ser **varios negocios** que comparten recursos.
+- Lo que construyes para ti puede convertirse en un **negocio para otros** (AWS, logística).
+- Perder dinero en un negocio puede ser una **inversión** si el resto genera efectivo y la apuesta tiene sentido a largo plazo, pero exige disciplina para cerrar lo que no funciona (Amazon también ha cerrado proyectos, como su teléfono Fire Phone).
+- Las **métricas por segmento** muestran dónde se gana realmente el dinero.
+
+## 10. Fuentes
+Amazon.com, Inc., cartas a los accionistas (desde 1997), Formulario 10-K e historia corporativa (aboutamazon.com, ir.aboutamazon.com).`,
+k: `**Amazon:** fundada por Jeff Bezos en 1994; vende libros desde 1995; en Nasdaq desde 1997. Varios negocios: tienda propia, **mercado para vendedores externos** (2000), logística para terceros, **Prime** (2005), **publicidad**, **AWS** (2006) y otros. Comparten recursos (economías de alcance) y un «volante» de crecimiento. **AWS genera gran parte de la utilidad** con una parte menor de las ventas; el segmento Internacional perdió dinero varios años. Andy Jassy, director general desde 2021.`,
+ch: `Una panadería que desarrolló un buen sistema de reparto para su propio pan empieza a ofrecer ese servicio de reparto a otras tiendas de la zona: como Amazon con su logística o con AWS, convierte una capacidad interna en un negocio.`,
+gi: `Según su Formulario 10-K, AWS representó en 2023 alrededor de una sexta parte de las ventas netas de Amazon, pero cerca de dos terceras partes de su utilidad de operación total.`,
+e: `Ventas y utilidad de operación por segmento de Amazon en 2023 (cifras redondeadas en miles de millones de dólares, según su 10-K):
+
+| Segmento | Ventas | Utilidad de operación | Margen |
+|---|---|---|---|
+| Norteamérica | 353 | 15 | ≈ 4 % |
+| Internacional | 131 | −3 | ≈ −2 % |
+| AWS | 91 | 25 | ≈ 27 % |
+| **Total** | **575** | **37** | **≈ 6 %** |
+
+AWS tuvo cerca del 16 % de las ventas, pero alrededor del 67 % de la utilidad de operación (25 ÷ 37). Internacional perdió dinero ese año.`,
+r: `En su primera carta a los accionistas (1997), Jeff Bezos escribió que Amazon tomaría decisiones pensando en el liderazgo de mercado a largo plazo más que en la rentabilidad de corto plazo; la empresa ha incluido esa carta en sus cartas anuales posteriores.`,
+f: `Amazon.com, Inc., carta a los accionistas de 1997 y siguientes; Formulario 10-K 2023 y 2024 (ir.aboutamazon.com).`,
+err: ["Creer que Amazon gana la mayor parte de su dinero con la tienda en línea.","Pensar que perder dinero en un negocio siempre es un error.","Ignorar que la estrategia de largo plazo requiere negocios que generen efectivo.","Mirar solo las ventas totales sin ver los segmentos."],
+a: `Con los datos de la tabla del ejemplo, calcula qué porcentaje de las ventas y de la utilidad de operación representa cada segmento. Después, explica en un párrafo por qué Amazon podría aceptar pérdidas en el segmento Internacional.`,
+sol: `Ventas: Norteamérica ≈ 61 %, Internacional ≈ 23 %, AWS ≈ 16 %. Utilidad: Norteamérica ≈ 41 %, Internacional ≈ −8 %, AWS ≈ 68 % (sobre 37). Amazon puede aceptar pérdidas internacionales porque invierte para crecer en mercados donde espera ganar en el futuro, financiado por el efectivo de AWS y de Norteamérica, aunque debe vigilar que esas inversiones lleguen a ser rentables.`,
+q: [["¿Qué segmento de Amazon genera, en muchos años, la mayor parte de su utilidad de operación?",["AWS (servicios en la nube)","La tienda de libros","Los dispositivos Kindle"],0,"Con una parte menor de las ventas."],
+["¿En qué año lanzó Amazon su suscripción Prime?",["2005","1994","2017"],0,"AWS se lanzó en 2006."],
+{n:1,t:"Un segmento tiene ventas de 91 y utilidad de operación de 25 (miles de millones). ¿Cuál es su margen de operación? (redondea a entero, en %)",a:27,tol:0.02,u:"%",e:"25 ÷ 91 = 27.5 % ≈ 27 %."},
+["El «volante» de Amazon describe…",["Cómo precios bajos atraen clientes y vendedores, y la escala baja los costos","Un juego infantil","El volante de sus camiones"],0,"Un círculo que se refuerza."]],
+t: ["Amazon Web Services","Computación en la nube","Volante de crecimiento","Vendedores externos"]
+},
+"M28-8": {
+s: `Al final del módulo, Lupita estudia el caso de una empresa de Monterrey que se volvió una de las cementeras más grandes del mundo comprando empresas en varios continentes… y que en 2008 estuvo cerca de no poder pagar sus deudas. «Es la historia completa del curso: crecer, financiarse, expandirse, gobernar y sobrevivir», dice. ¿Qué le pasó a Cemex?`,
+o: ["Aplicar la ficha de radiografía a Cemex con información pública.","Analizar su internacionalización por adquisiciones y su modelo de integración.","Explicar su crisis de deuda de 2008–2009 y cómo la enfrentó."],
+x: `## 1. Origen
+Según su historia corporativa, **Cemex** nació en **1906** con la fundación de **Cementos Hidalgo**, en el norte de México, y en **1931** se fusionó con Cementos Portland Monterrey para formar **Cementos Mexicanos**. Durante décadas creció en México comprando otras cementeras nacionales. En **1985**, **Lorenzo Zambrano**, nieto de uno de los fundadores, se convirtió en director general y lo fue hasta su muerte en **2014**. Bajo su dirección, Cemex se volvió una empresa global.
+
+## 2. Modelo de negocio
+- **Qué vende:** **cemento**, **concreto premezclado** y **agregados** (arena, grava), además de otros materiales y soluciones para la construcción.
+- **A quién:** constructoras, distribuidores de materiales, gobiernos (obra pública) y, en México, también **autoconstructores** (familias que construyen su casa poco a poco).
+- **Características de la industria:** el cemento es un producto **pesado y barato por tonelada**: transportarlo lejos por tierra cuesta mucho, así que los mercados son **regionales**. Las plantas son **muy caras** (altos costos fijos y economías de escala, lección M26-2) y el consumo de **energía** es enorme. La demanda depende del ciclo de la construcción y de la economía.
+
+## 3. Estructura
+Cemex, S.A.B. de C.V. es una empresa controladora que cotiza en la **Bolsa Mexicana de Valores** y, a través de ADS, en la **Bolsa de Nueva York**. Opera por regiones (México, Estados Unidos, Europa, Medio Oriente y África, y Centroamérica, Sudamérica y el Caribe, entre otras, según sus informes), con plantas de cemento, plantas de concreto, canteras y terminales marítimas en decenas de países.
+
+## 4. Áreas destacadas
+- **Operaciones:** plantas de alta eficiencia; uso de combustibles alternos para reducir costos y emisiones.
+- **Logística:** terminales y barcos para mover cemento por mar entre países; despacho de concreto con sistemas satelitales para coordinar las entregas (una innovación muy estudiada en la década de 1990).
+- **Integración de adquisiciones:** la llamada **«Cemex Way»**: un método para integrar rápidamente las empresas compradas con los mismos procesos, sistemas y prácticas, según la empresa y estudios de caso.
+- **Tecnología:** fue pionera en el uso de tecnología de información en su industria; hoy tiene plataformas digitales para pedidos de clientes.
+- **Responsabilidad social:** programas como **Patrimonio Hoy**, que desde finales de la década de 1990 ayuda a familias de bajos ingresos a construir con un esquema de ahorro y asesoría, según la empresa.
+
+## 5. Decisiones clave: la expansión internacional
+Según sus informes y comunicados, Cemex hizo una serie de adquisiciones que la llevaron a todo el mundo:
+- **1992:** compra de **Valenciana** y **Sanson**, dos cementeras de **España**: su gran entrada a Europa.
+- Década de 1990: adquisiciones en **Venezuela, Colombia, Panamá, República Dominicana, Filipinas, Indonesia** y otros países.
+- **2000:** compra de **Southdown**, en **Estados Unidos**.
+- **2005:** compra de **RMC**, empresa británica con operaciones en muchos países de Europa: Cemex se convirtió en uno de los mayores productores de concreto del mundo.
+- **2007:** compra de **Rinker**, empresa australiana con grandes operaciones en Estados Unidos, por más de **14,000 millones de dólares**, según los comunicados de la época, financiada en gran parte con **deuda**.
+
+La lógica: diversificar geográficamente (si un país está en recesión, otro crece), aprovechar economías de escala y aplicar su modelo de eficiencia a las empresas compradas.
+
+## 6. La crisis de 2008–2009
+La compra de Rinker se cerró justo antes de la **crisis financiera de 2008**, que golpeó con fuerza a la construcción de vivienda en **Estados Unidos** (donde Rinker tenía sus operaciones principales) y en **España**. Según los informes de Cemex:
+- Sus ventas y su flujo cayeron mientras tenía una **deuda muy alta** (lección M19-6).
+- Además, registró pérdidas por **instrumentos derivados** en 2008.
+- Los mercados de crédito se cerraron, lo que hacía difícil refinanciar.
+
+En **agosto de 2009**, Cemex firmó un **acuerdo de financiamiento** con sus bancos acreedores para extender los plazos de unos **15,000 millones de dólares** de deuda. A cambio se comprometió a **reducir su deuda**: vendió activos (por ejemplo, sus operaciones en **Australia**, que compró Holcim en 2009), emitió acciones y bonos, redujo costos y suspendió temporalmente los dividendos. Fue un proceso largo: durante más de una década, Cemex trabajó para reducir su apalancamiento. Según la empresa, en **2023** recuperó la calificación de **grado de inversión** de las agencias calificadoras, que había perdido durante la crisis.
+
+## 7. Crecimiento después de la crisis
+Cemex pasó de crecer por adquisiciones a enfocarse en **reducir deuda**, **vender activos** no estratégicos, **mejorar márgenes** y, en años recientes, en **reducir sus emisiones de carbono** (la producción de cemento es una de las grandes fuentes de emisiones de CO₂ en el mundo), según su estrategia publicada.
+
+## 8. Gobierno
+Es una S.A.B. con consejo con independientes. La sucesión tras la muerte de Lorenzo Zambrano en 2014 se resolvió con un director general profesional que ya era parte del equipo y la separación entre la presidencia del consejo y la dirección general, según la empresa.
+
+## 9. Lecciones del caso (y del curso)
+- **Internacionalizarse** puede convertir a una empresa regional en global (Módulo 22).
+- **Integrar** bien las adquisiciones es una capacidad valiosa (lección M22-6).
+- El **momento** importa: una compra grande con mucha deuda justo antes de una crisis puede poner en riesgo a toda la empresa.
+- **Igualar el riesgo con el financiamiento** (Módulo 19): la deuda alta en una industria cíclica es peligrosa.
+- Una crisis puede **superarse** con disciplina, venta de activos y un plan claro, aunque toma años.
+
+## 10. Fuentes
+Cemex, historia corporativa, informes anuales (2007–2023) y comunicados sobre el acuerdo de financiamiento de 2009 (cemex.com).`,
+k: `**Cemex:** origen en 1906 (Cementos Hidalgo), Cementos Mexicanos desde 1931; global bajo Lorenzo Zambrano (1985–2014). Adquisiciones: Valenciana y Sanson (España, 1992), Southdown (2000), RMC (2005), **Rinker (2007)** con mucha deuda. Integración con la «Cemex Way». **Crisis de 2008–2009:** caída de la construcción, deuda alta; **acuerdo de financiamiento (2009)** por unos 15,000 millones de dólares, venta de activos; recuperó el grado de inversión en 2023.`,
+ch: `Un dueño de dos ferreterías se endeuda para comprar una tercera justo antes de que cierre una fábrica que daba empleo a la colonia. Las ventas caen y debe vender un terreno para pagar al banco. Igual que Cemex, el problema no fue crecer, sino crecer con mucha deuda en mal momento.`,
+gi: `Según sus comunicados, Cemex firmó en agosto de 2009 un acuerdo de financiamiento con sus bancos acreedores que le permitió extender los vencimientos de unos 15,000 millones de dólares de deuda, a cambio de un plan de reducción de deuda que incluyó ventas de activos y emisiones de capital.`,
+e: `Por qué la deuda alta es peligrosa en una industria cíclica (cifras ilustrativas, no de Cemex):
+
+| Concepto | Antes de la crisis | Durante la crisis |
+|---|---|---|
+| EBITDA anual | 4,000 millones de dólares | 2,500 millones de dólares |
+| Deuda neta | 18,000 millones | 18,000 millones |
+| **Deuda neta ÷ EBITDA** | **4.5 veces** | **7.2 veces** |
+| Intereses anuales (al 6 %) | 1,080 millones | 1,080 millones |
+| Intereses como % del EBITDA | 27 % | 43 % |
+
+La deuda no baja cuando caen las ventas. Con un EBITDA 37.5 % menor, el endeudamiento relativo sube de 4.5 a 7.2 veces, y los bancos y los mercados dudan de la capacidad de pago.`,
+r: `Según su historia corporativa, Cemex adquirió la empresa australiana Rinker en 2007; tras la crisis financiera, firmó en 2009 un acuerdo de financiamiento con sus bancos y vendió activos, entre ellos sus operaciones en Australia; en 2023 anunció que había recuperado la calificación de grado de inversión.`,
+f: `Cemex, historia corporativa, informes anuales y comunicados (cemex.com); estudios de caso de escuelas de negocios sobre la internacionalización de Cemex.`,
+err: ["Creer que la expansión de Cemex fracasó: se volvió global y sobrevivió, pero con un costo alto.","Pensar que la deuda baja cuando bajan las ventas.","Ignorar que la industria del cemento es cíclica y regional.","Olvidar que integrar adquisiciones es tan importante como comprarlas."],
+a: `Completa la ficha de radiografía de Cemex en una página, usando su informe anual más reciente para la sección de dinero (ventas, EBITDA, deuda neta y deuda neta ÷ EBITDA). Compara ese indicador con el de la tabla del ejemplo y escribe qué aprendió la empresa de la crisis de 2008.`,
+sol: `Una buena respuesta cita el informe y el año, calcula correctamente la deuda neta ÷ EBITDA y nota que un nivel mucho menor que durante la crisis refleja años de desendeudamiento; la lección principal es la prudencia en el uso de deuda en una industria cíclica.`,
+q: [["¿Con qué compra entró Cemex a Europa en 1992?",["Valenciana y Sanson, en España","Rinker, en Australia","Southdown, en Estados Unidos"],0,"Rinker fue en 2007 y Southdown en 2000."],
+["Una característica de la industria del cemento es que…",["Sus mercados son regionales porque transportarlo por tierra es caro","Se vende igual en todo el mundo por internet","No tiene costos fijos"],0,"Además, es cíclica."],
+{n:1,t:"Una empresa tiene deuda neta de 18,000 millones y su EBITDA baja a 2,500 millones. ¿Cuántas veces es la deuda neta su EBITDA? (un decimal)",a:7.2,tol:0.01,u:"veces",e:"18,000 ÷ 2,500 = 7.2 veces."},
+["¿Cómo enfrentó Cemex su crisis de deuda en 2009?",["Con un acuerdo de financiamiento con sus bancos, venta de activos y emisiones de capital","Dejando de producir cemento","Comprando más empresas con deuda"],0,"Un largo proceso de desendeudamiento."]],
+t: ["Cemex","Industria cíclica","Acuerdo de financiamiento","Grado de inversión","Concreto premezclado"]
+}
+});
