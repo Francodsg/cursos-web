@@ -651,3 +651,737 @@ q: [["Un silo en una empresa es…",["Un área que funciona aislada y no colabor
 t: ["Burocracia","Silo","Decisión reversible","Métodos ágiles","Equipo multifuncional"]
 }
 });
+
+// ===== M24. Gobierno corporativo =====
+Object.assign(window.LECC, {
+"M24-1": {
+s: `Grupo Lupita ya tiene socios: Lupita (52 %), Toño (20 %), el ingeniero Ramírez (8 %) y un fondo de capital privado que compró el 20 % para financiar la expansión. El fondo pide crear un «consejo de administración con consejeros independientes» y un «comité de auditoría». Lupita se siente ofendida: «¿Ahora me van a vigilar en mi propia empresa?».`,
+o: ["Definir qué es el gobierno corporativo y por qué existe.","Identificar los órganos de gobierno de una sociedad: asamblea, consejo, comités y dirección.","Distinguir entre las funciones de dirigir y de vigilar."],
+x: `## Qué es el gobierno corporativo
+El **gobierno corporativo** es el conjunto de **reglas, órganos y prácticas** que definen **quién decide qué** en una empresa, **quién vigila** a quienes deciden y **cómo se rinden cuentas** a los dueños y a otras partes interesadas. Su objetivo es que la empresa se dirija bien, en beneficio de sus accionistas y de su permanencia en el tiempo, y que nadie (ni un directivo ni un accionista poderoso) pueda abusar de su posición.
+
+Una forma sencilla de entenderlo: la **dirección** (el director general y su equipo) **maneja** la empresa; el **consejo de administración** **vigila y orienta** a la dirección; y los **accionistas**, reunidos en **asamblea**, **eligen** al consejo y toman las decisiones más importantes.
+
+## Por qué existe
+En un negocio chico, el dueño dirige y vigila a la vez: no hay nadie más. Pero cuando una empresa crece, aparecen problemas que el gobierno corporativo intenta resolver:
+1. **Separación entre propiedad y control:** los dueños (accionistas) ya no dirigen; contratan directivos. ¿Cómo asegurar que los directivos trabajen para los dueños? Este problema, descrito desde 1932 por Adolf Berle y Gardiner Means en su estudio de las grandes empresas de Estados Unidos, se conoce como el **problema de agencia** (lección M24-6).
+2. **Muchos accionistas con intereses distintos:** mayoritarios y minoritarios, fundadores y fondos. ¿Cómo evitar que el mayoritario abuse de los minoritarios?
+3. **Necesidad de capital:** los inversionistas ponen dinero solo si confían en que la empresa está bien gobernada y en que la información es confiable.
+4. **Permanencia:** la empresa debe sobrevivir a sus fundadores y a sus directores.
+
+## Los órganos de gobierno
+| Órgano | Quién lo forma | Qué hace |
+|---|---|---|
+| Asamblea de accionistas | Todos los accionistas | Elige al consejo, aprueba estados financieros, decide dividendos, cambios de estatutos, fusiones (lección M24-2) |
+| Consejo de administración | Consejeros elegidos por la asamblea | Define la estrategia con la dirección, vigila, nombra y evalúa al director general, aprueba operaciones importantes (lección M24-3) |
+| Comités del consejo | Algunos consejeros, muchos independientes | Auditoría, prácticas societarias, compensación, riesgos, nominación |
+| Director general y alta dirección | Profesionales contratados | Dirigen el día a día y ejecutan la estrategia |
+| Auditor externo | Firma independiente | Opina sobre si los estados financieros son razonables |
+
+En algunos países (como Alemania) existe un sistema de **dos consejos**: uno de vigilancia y otro de dirección. En México, Estados Unidos y la mayoría de Latinoamérica predomina el sistema de **un solo consejo**.
+
+## Los principios de un buen gobierno
+Los códigos de buenas prácticas de distintos países y organismos internacionales (como los **Principios de Gobierno Corporativo del G20 y la OCDE**) coinciden en algunos principios:
+1. **Trato equitativo** a todos los accionistas, incluidos los minoritarios.
+2. **Transparencia:** información financiera y no financiera oportuna y confiable.
+3. **Rendición de cuentas:** la dirección responde ante el consejo y el consejo ante los accionistas.
+4. **Responsabilidad:** respeto a las leyes y a las partes interesadas (empleados, clientes, acreedores, comunidad).
+5. **Independencia:** consejeros que puedan opinar sin conflictos de interés (lección M24-4).
+6. **Equilibrio de poder:** que nadie concentre todo sin contrapesos.
+
+## Gobierno corporativo en empresas que no cotizan
+El gobierno corporativo no es solo para empresas en bolsa. Empresas familiares, empresas con socios o con fondos de inversión también lo necesitan. Un **consejo consultivo** (que da consejos, aunque no tenga poder legal de decidir) puede ser el primer paso para una empresa mediana. En México, el **Código de Principios y Mejores Prácticas de Gobierno Corporativo**, impulsado por el Consejo Coordinador Empresarial, ofrece recomendaciones útiles para empresas de cualquier tamaño (lección M24-8).
+
+## Beneficios de un buen gobierno
+- **Mejores decisiones:** más perspectivas, menos sesgos.
+- **Confianza de inversionistas y bancos:** acceso a capital más barato.
+- **Menos riesgo de fraude y abuso.**
+- **Continuidad:** la empresa no depende de una sola persona.
+- **Valor:** diversos estudios han encontrado relación entre buen gobierno y mayor valor de las empresas, aunque es difícil separar causa y efecto.
+
+## Cuando falla
+Los grandes escándalos corporativos (lección M24-9) casi siempre tienen una falla de gobierno: consejos que no vigilan, auditores que no ven, directivos sin contrapesos, información falsa.
+
+## La reacción de Lupita
+La directora de finanzas le explica a Lupita que el consejo **no es para vigilarla a ella como persona**, sino para proteger a todos los socios (incluida ella) y a la empresa. Con 20 % en manos de un fondo, 8 % de Ramírez y 20 % de Toño, casi la mitad de la empresa es de otros. Además, el día que Lupita se retire, el consejo será el que garantice que Grupo Lupita siga bien dirigido. Lupita acepta formar un consejo de siete miembros con dos independientes y un comité de auditoría.
+
+## Gobierno no es burocracia
+Un buen gobierno corporativo no significa llenar la empresa de juntas y papeles. Significa que las decisiones importantes se tomen con información, por las personas correctas, y que alguien revise lo que se hizo. En una empresa mediana, con un consejo que se reúna cuatro veces al año y un buen comité de auditoría, suele ser suficiente para empezar.`,
+k: `**Gobierno corporativo:** reglas, órganos y prácticas que definen **quién decide, quién vigila y cómo se rinden cuentas**. La **dirección maneja**, el **consejo vigila y orienta**, la **asamblea de accionistas elige** al consejo y aprueba lo más importante. Principios: trato equitativo, transparencia, rendición de cuentas, responsabilidad, independencia y equilibrio de poder.`,
+ch: `Una panadería familiar con tres hermanos como socios crea una junta mensual con un contador externo de confianza que opina sin estar de ningún lado. Es un primer paso de gobierno corporativo.`,
+gi: `Las empresas que cotizan en la Bolsa Mexicana de Valores informan cada año sobre su gobierno corporativo: quiénes integran su consejo, cuántos son independientes, qué comités tienen y cuántas veces sesionaron.`,
+e: `Estructura de gobierno propuesta para Grupo Lupita:
+
+| Órgano | Integrantes | Frecuencia |
+|---|---|---|
+| Asamblea de accionistas | Lupita 52 %, Toño 20 %, fondo 20 %, Ramírez 8 % | Al menos una vez al año |
+| Consejo de administración | 7: Lupita (presidenta), Toño, 2 del fondo, Ramírez, 2 independientes | Cada trimestre |
+| Comité de auditoría | 2 independientes + 1 del fondo | Cada trimestre |
+| Director general | Lupita, por ahora | — |
+| Auditor externo | Firma independiente | Anual |
+
+Independientes: 2 de 7 = **29 %** del consejo.`,
+r: `Los Principios de Gobierno Corporativo del G20 y la OCDE, actualizados en 2023, son una referencia internacional que recomienda, entre otras cosas, trato equitativo a los accionistas, transparencia en la información y un consejo que vigile de forma efectiva a la dirección.`,
+f: `OCDE, «Principios de Gobierno Corporativo del G20 y la OCDE» (2023); A. Berle y G. Means, «The Modern Corporation and Private Property» (1932).`,
+err: ["Creer que el gobierno corporativo es solo para empresas en bolsa.","Ver al consejo como un enemigo del fundador.","Confundir dirigir (la dirección) con vigilar (el consejo).","Formar un consejo solo de amigos y familiares que no opinan.","Pensar que un buen gobierno se logra solo con papeles, sin prácticas reales."],
+a: `Dibuja el organigrama de gobierno de una empresa (real o Grupo Lupita): asamblea → consejo → comités → director general → directivos, más el auditor externo. Junto a cada órgano, escribe dos decisiones que le corresponden.`,
+sol: `Asamblea: elegir consejeros y aprobar dividendos. Consejo: aprobar la estrategia y nombrar al director general. Comité de auditoría: revisar estados financieros y al auditor externo. Director general: ejecutar la estrategia y dirigir al equipo. Auditor externo: opinar sobre los estados financieros.`,
+q: [["En el gobierno corporativo, ¿quién vigila a la dirección?",["El consejo de administración","El proveedor principal","Los clientes"],0,"La dirección maneja y el consejo vigila."],
+["¿Quién elige a los consejeros?",["La asamblea de accionistas","El director general","El auditor externo"],0,"Los dueños eligen al consejo."],
+["El problema de separar propiedad y control fue descrito en 1932 por…",["Berle y Means","Ray Kroc","Michael Porter"],0,"En su estudio de las grandes empresas."],
+["Un principio de buen gobierno es…",["Trato equitativo a todos los accionistas","Que el mayoritario decida sin informar","Ocultar información"],0,"Incluye a los minoritarios."]],
+t: ["Gobierno corporativo","Asamblea de accionistas","Consejo de administración","Rendición de cuentas","Consejo consultivo"]
+},
+"M24-2": {
+s: `Llega la primera asamblea anual de accionistas de Grupo Lupita. Ramírez, con su 8 %, pregunta si puede proponer que se repartan más dividendos. El fondo quiere que sus acciones tengan derecho a veto en la venta de la empresa. Toño pregunta si sus acciones valen lo mismo que las de su mamá. ¿Qué derechos tiene cada accionista y cómo funciona la asamblea?`,
+o: ["Describir los tipos de acciones y los derechos que otorgan.","Explicar cómo funciona la asamblea de accionistas y qué decide.","Reconocer las protecciones de los accionistas minoritarios."],
+x: `## Qué es un accionista
+Un **accionista** es dueño de una o más **acciones** de una sociedad anónima: partes iguales en que se divide su capital (lección M25-1). Ser accionista da **derechos económicos** (participar en las utilidades y en el valor de la empresa) y **derechos políticos** (votar en la asamblea), según el tipo de acción.
+
+## Tipos de accionistas
+- **Fundadores y familias:** suelen tener grandes participaciones y, a menudo, el control.
+- **Inversionistas institucionales:** fondos de pensiones (en México, las Afores), fondos de inversión, aseguradoras, fondos de capital privado.
+- **Inversionistas individuales:** personas que compran acciones en bolsa.
+- **Otras empresas:** que tienen participaciones estratégicas.
+- **El Estado:** en empresas públicas o mixtas.
+- **Empleados:** a través de planes de acciones.
+
+Según su peso, se distingue entre **accionistas mayoritarios** (o de control) y **minoritarios**.
+
+## Tipos de acciones
+- **Acciones ordinarias o comunes:** dan derecho a voto (normalmente un voto por acción) y a dividendos si se decretan.
+- **Acciones preferentes:** suelen tener **prioridad** para recibir dividendos (a veces un dividendo mínimo) o para cobrar si la empresa se liquida, a cambio de **voto limitado** (solo en ciertos temas). Son comunes en inversiones de fondos (lección M19-4).
+- **Acciones con voto limitado o sin voto:** dan derechos económicos pero poco o ningún voto.
+- **Acciones de voto múltiple o de clase dual:** dan más de un voto por acción. Permiten a los fundadores **conservar el control con una participación económica menor**. Son comunes en algunas empresas de tecnología de Estados Unidos (por ejemplo, Alphabet y Meta tienen clases de acciones con distinto número de votos, según sus informes). Las reglas sobre estas acciones varían por país y bolsa.
+- **Series:** en México, muchas empresas emiten acciones en distintas series (por ejemplo, serie A, B, L) con derechos diferentes, que se describen en sus estatutos.
+
+## La asamblea de accionistas
+La **asamblea** es el **órgano supremo** de la sociedad: la reunión de los accionistas donde se toman las decisiones más importantes. En México, la Ley General de Sociedades Mercantiles distingue:
+- **Asamblea ordinaria:** se reúne al menos una vez al año (dentro de los cuatro meses siguientes al cierre del ejercicio). Aprueba los estados financieros y el informe del consejo, elige o ratifica a los consejeros, decide el reparto de utilidades (dividendos) y fija la remuneración de los consejeros.
+- **Asamblea extraordinaria:** para decisiones que cambian la sociedad: modificar los estatutos, aumentar o reducir el capital, fusionarse, transformarse, disolverse, emitir ciertas acciones.
+
+Cada asamblea requiere una **convocatoria** con anticipación y un **orden del día**; se necesita un **quórum** (un porcentaje mínimo de acciones presentes) y ciertas **mayorías** para aprobar. Las decisiones quedan en un **acta**.
+
+En las empresas que cotizan en bolsa, la mayoría de los accionistas votan a través de **representantes** o con instrucciones dadas antes de la asamblea. Los grandes inversionistas institucionales suelen tener políticas de voto y a veces se apoyan en empresas asesoras de voto.
+
+## Los derechos de los minoritarios
+Las leyes protegen a los accionistas minoritarios para que el mayoritario no abuse. En México, la ley establece, entre otros, derechos para accionistas con ciertos porcentajes mínimos (que varían según el tipo de sociedad), como:
+- **Nombrar a un consejero** si se alcanza cierto porcentaje.
+- **Pedir que se convoque** a una asamblea.
+- **Aplazar la votación** de un asunto sobre el que no se tenga suficiente información.
+- **Oponerse judicialmente** a acuerdos de la asamblea.
+- **Ejercer acciones de responsabilidad** contra consejeros.
+Los porcentajes exactos dependen del tipo de sociedad (S.A., S.A.P.I., S.A.B.) y de la ley vigente; los estatutos pueden dar más derechos.
+
+Además, muchos acuerdos entre accionistas (lección M19-3) pactan derechos especiales: vetos, derecho de preferencia, de arrastre y de acompañamiento.
+
+## Los dividendos
+Los **dividendos** son la parte de las utilidades que la asamblea decide **repartir** entre los accionistas, en proporción a sus acciones (salvo que haya acciones con preferencia). La asamblea puede decidir no repartir nada y **reinvertir** todas las utilidades. Un accionista minoritario no puede exigir dividendos si la asamblea legalmente decide reinvertir, aunque puede proponer y votar.
+
+## Las respuestas en Grupo Lupita
+- **Ramírez:** puede proponer más dividendos en la asamblea ordinaria; se decidirá por mayoría. Con 8 %, sus votos no alcanzan, pero tiene derecho a que su propuesta se discuta.
+- **El fondo:** puede pedir derechos de veto, pero deben pactarse en los estatutos o en el convenio entre accionistas, y crear quizá una serie especial de acciones; no es automático.
+- **Toño:** sus acciones son ordinarias, igual que las de Lupita; cada una vale lo mismo y tiene un voto. La diferencia es que Lupita tiene más acciones.
+
+## La política de dividendos
+Muchas empresas fijan una **política de dividendos**: una regla general sobre qué parte de las utilidades se reparte cada año (por ejemplo, entre el 30 % y el 50 %), siempre que la situación financiera lo permita. Tener una política clara ayuda a que los accionistas sepan qué esperar y reduce las discusiones en cada asamblea. Las empresas que necesitan mucho capital para crecer suelen repartir menos; las empresas maduras, con pocas oportunidades de inversión, suelen repartir más.`,
+k: `**Accionista:** dueño de acciones, con **derechos económicos** (dividendos, valor) y **políticos** (voto). Tipos de acciones: **ordinarias**, **preferentes** (prioridad económica, voto limitado), sin voto o de **voto múltiple** (clase dual). **Asamblea ordinaria** (anual: estados financieros, consejo, dividendos) y **extraordinaria** (estatutos, capital, fusiones). La ley protege a los **minoritarios**.`,
+ch: `En una pequeña sociedad de tres amigos que tienen una cafetería, la «asamblea» es una reunión anual donde revisan las cuentas, deciden cuánto reparten de utilidades y lo escriben en un acta firmada por los tres.`,
+gi: `Alphabet tiene varias clases de acciones: según sus informes, las acciones clase B, en manos sobre todo de sus fundadores, tienen diez votos cada una, lo que les da una gran parte de los votos con una proporción menor del capital.`,
+e: `Votos en la asamblea de Grupo Lupita con una propuesta de Ramírez (más dividendos):
+
+| Accionista | % de acciones | Voto |
+|---|---|---|
+| Lupita | 52 % | En contra (prefiere reinvertir) |
+| Toño | 20 % | A favor |
+| Fondo | 20 % | En contra |
+| Ramírez | 8 % | A favor |
+| **Resultado** | | A favor: 28 %; en contra: 72 % → **se rechaza** |
+
+Si Lupita tuviera acciones de voto múltiple (por ejemplo, 3 votos por acción), su control sería aún mayor: 52 × 3 = 156 votos de un total de 156 + 20 + 20 + 8 = 204 → **76 %** de los votos con el 52 % del capital.`,
+r: `Según sus informes anuales ante la Comisión de Bolsa y Valores de Estados Unidos, Alphabet tiene acciones clase A (un voto), clase B (diez votos, principalmente de sus fundadores) y clase C (sin voto); Meta Platforms también tiene una estructura de dos clases de acciones con distinto número de votos.`,
+f: `Alphabet y Meta Platforms, Formulario 10-K; Ley General de Sociedades Mercantiles (México).`,
+err: ["Creer que todas las acciones tienen siempre los mismos derechos.","Pensar que un minoritario puede obligar a repartir dividendos.","Olvidar convocar la asamblea anual y dejar sin aprobar los estados financieros.","No leer los estatutos antes de invertir.","Confundir el porcentaje de capital con el porcentaje de votos cuando hay acciones de distintas clases."],
+a: `Una empresa tiene 1,000 acciones: el fundador tiene 400 de clase B (10 votos cada una) y los inversionistas 600 de clase A (1 voto cada una). Calcula el porcentaje de capital y el porcentaje de votos del fundador. ¿Qué ventajas y riesgos ve un inversionista en esta estructura?`,
+sol: `Capital del fundador: 400 ÷ 1,000 = 40 %. Votos: 400 × 10 = 4,000 de un total de 4,000 + 600 = 4,600 → 87 %. Ventaja: el fundador puede pensar a largo plazo sin presiones. Riesgo: los inversionistas casi no pueden influir ni remover a un fundador que decide mal.`,
+q: [["Las acciones preferentes suelen tener…",["Prioridad en dividendos o en liquidación, con voto limitado","Más votos que todas las demás","Ningún derecho económico"],0,"A cambio de su prioridad, votan menos."],
+["La asamblea ordinaria anual decide, entre otras cosas…",["Aprobar estados financieros y el reparto de dividendos","El menú del día","Los turnos de los empleados"],0,"También elige o ratifica al consejo."],
+["Una fusión o un cambio de estatutos se decide en…",["Asamblea extraordinaria","Junta de cocina","El comité de marketing"],0,"Son decisiones que cambian la sociedad."],
+{n:1,t:"Un fundador tiene 400 acciones de 10 votos y los demás 600 acciones de 1 voto. ¿Qué porcentaje de los votos tiene el fundador? (redondea a entero)",a:87,tol:0.01,u:"%",e:"4,000 ÷ 4,600 = 86.96 % ≈ 87 %."}],
+t: ["Accionista","Acción ordinaria","Acción preferente","Acciones de voto múltiple","Asamblea ordinaria","Asamblea extraordinaria","Accionista minoritario","Dividendo"]
+},
+"M24-3": {
+s: `En la primera sesión del consejo de Grupo Lupita, Lupita presenta el presupuesto y los consejeros independientes hacen preguntas incómodas: «¿Por qué los cafés siguen perdiendo?», «¿Qué riesgos tiene la expansión?», «¿Quién la sustituiría si mañana no pudiera dirigir?». Lupita se pregunta qué es exactamente lo que debe hacer un consejo y qué no.`,
+o: ["Describir las funciones y responsabilidades del consejo de administración.","Explicar el papel de los comités del consejo, en especial el de auditoría y el de prácticas societarias.","Distinguir lo que corresponde al consejo de lo que corresponde a la dirección."],
+x: `## Qué es el consejo de administración
+El **consejo de administración** es el órgano, elegido por los accionistas, que se encarga de **dirigir estratégicamente y vigilar** la empresa. No se ocupa del día a día (eso es tarea del director general y su equipo), sino de que la empresa tenga una buena estrategia, buenos directivos, buenos controles y buena información. En empresas pequeñas puede haber un **administrador único** en lugar de un consejo.
+
+## Las funciones principales
+1. **Estrategia:** revisar, cuestionar y aprobar la estrategia y los planes de largo plazo que propone la dirección.
+2. **Nombrar, evaluar y, si es necesario, remover al director general** (lección M24-5), y aprobar su compensación.
+3. **Vigilar el desempeño:** revisar resultados contra presupuesto y metas.
+4. **Aprobar decisiones importantes:** presupuesto anual, grandes inversiones, adquisiciones, deuda importante, venta de activos relevantes, operaciones con partes relacionadas.
+5. **Control interno y riesgos:** asegurarse de que existan sistemas para identificar y controlar los riesgos y de que la información financiera sea confiable.
+6. **Cumplimiento y ética:** vigilar que la empresa cumpla las leyes y tenga un código de ética efectivo.
+7. **Sucesión:** tener un plan para sustituir al director general y a los directivos clave.
+8. **Rendir cuentas a los accionistas:** presentar informes en la asamblea.
+
+## Los deberes de los consejeros
+Los consejeros tienen responsabilidades legales. En México, la Ley del Mercado de Valores (para las empresas que cotizan) establece dos deberes principales:
+- **Deber de diligencia:** actuar de buena fe, informarse, asistir a las sesiones, pedir la información necesaria y tomar decisiones razonadas.
+- **Deber de lealtad:** actuar en interés de la sociedad, no en el propio ni en el de un grupo de accionistas; abstenerse cuando haya **conflicto de interés**; guardar confidencialidad; no aprovechar oportunidades de negocio de la empresa para sí mismos.
+Si incumplen estos deberes, pueden ser **responsables** por los daños que causen.
+
+## Los comités del consejo
+Para trabajar con más profundidad, el consejo forma **comités** con algunos de sus miembros:
+- **Comité de auditoría:** vigila la información financiera, el control interno, la auditoría interna y externa, y el cumplimiento. Revisa los estados financieros antes de que se aprueben, propone y evalúa al auditor externo y recibe denuncias de irregularidades. Debe estar formado por consejeros independientes (lección M24-4).
+- **Comité de prácticas societarias:** en México, revisa las operaciones con partes relacionadas, la compensación de los directivos, la evaluación del director general y las dispensas a consejeros o directivos para aprovechar oportunidades de negocio. En las empresas que cotizan, también lo integran consejeros independientes.
+- **Comité de compensación o de personas:** sueldos e incentivos de la alta dirección.
+- **Comité de nominación:** propone candidatos a consejeros y al puesto de director general.
+- **Comité de riesgos** o de **sostenibilidad**, según la empresa.
+- **Comité de finanzas y planeación:** inversiones, presupuesto, financiamiento.
+
+En la Ley del Mercado de Valores de México, las funciones de auditoría y de prácticas societarias son **obligatorias** para las sociedades anónimas bursátiles, y pueden ejercerse en uno o más comités.
+
+## Cómo funciona en la práctica
+- **Sesiones:** al menos trimestrales en muchas empresas (en México, la ley pide al menos cuatro sesiones al año a las empresas que cotizan).
+- **Agenda e información previa:** los consejeros deben recibir los materiales con días de anticipación.
+- **Presidente del consejo:** dirige las sesiones. En algunas empresas, el presidente del consejo es también el director general; en otras, son personas distintas para dar más equilibrio.
+- **Secretario:** levanta las actas y cuida que se cumplan las formalidades.
+- **Sesiones privadas:** muchos consejos tienen momentos sin la presencia de la dirección para hablar con libertad.
+- **Evaluación del consejo:** cada año, el consejo revisa su propio funcionamiento.
+
+## Lo que NO debe hacer el consejo
+- **Microgestión:** decidir el color de las servilletas o los turnos de una sucursal. Eso es tarea de la dirección.
+- **Aprobar sin preguntar:** ser un «sello de goma» que firma todo lo que propone el director general.
+- **Ser solo un club de amigos:** un consejo sin diversidad de experiencias ni independencia sirve poco.
+
+## Composición del consejo
+Un buen consejo combina:
+- **Consejeros patrimoniales:** representan a accionistas importantes.
+- **Consejeros relacionados o ejecutivos:** directivos de la empresa (por ejemplo, el director general).
+- **Consejeros independientes:** sin vínculos que afecten su juicio (lección M24-4).
+- **Diversidad** de experiencia (finanzas, operación, tecnología, el sector), de género y de edad.
+
+En México, la Ley del Mercado de Valores establece para las sociedades anónimas bursátiles un consejo de **máximo 21 miembros**, de los cuales **al menos el 25 % deben ser independientes**.
+
+## Las preguntas de los independientes de Grupo Lupita
+Eran exactamente las que debe hacer un buen consejo: sobre el **desempeño** (los cafés), sobre los **riesgos** (la expansión) y sobre la **sucesión** (quién sustituye a Lupita). Lupita entiende que el consejo no le quita poder para dirigir, sino que la obliga a pensar mejor.`,
+k: `**Consejo de administración:** dirige estratégicamente y vigila. Funciones: estrategia, nombrar y evaluar al director general, vigilar el desempeño, aprobar decisiones importantes, control interno, riesgos, cumplimiento, sucesión. Deberes de los consejeros: **diligencia** y **lealtad**. **Comités** clave: **auditoría** y **prácticas societarias** (obligatorios en las S.A.B. de México), compensación, nominación, riesgos.`,
+ch: `Una empresa mediana de muebles invita a su consejo a un contador, una experta en ventas y un empresario retirado. Cada trimestre revisan los números y la estrategia, pero no deciden qué madera comprar: eso lo decide el gerente.`,
+gi: `Las empresas que cotizan en la BMV informan en su reporte anual la composición de su consejo, la proporción de consejeros independientes, los comités que tienen y quién preside cada uno.`,
+e: `Clasificación de decisiones: ¿consejo o dirección? (Grupo Lupita)
+
+| Decisión | ¿Quién decide? |
+|---|---|
+| Aprobar el presupuesto anual | Consejo |
+| Cambiar el horario de una sucursal | Dirección |
+| Comprar una cadena de cafés por 80 millones | Consejo |
+| Contratar a un gerente de sucursal | Dirección |
+| Nombrar o remover al director general | Consejo |
+| Elegir la campaña de publicidad del mes | Dirección |
+| Aprobar un contrato con una empresa de un consejero | Consejo (con el comité de prácticas societarias) |
+| Contratar al auditor externo | Consejo (a propuesta del comité de auditoría) |`,
+r: `La Ley del Mercado de Valores de México establece que el consejo de las sociedades anónimas bursátiles tenga un máximo de 21 consejeros, de los cuales al menos el 25 % deben ser independientes, y que existan comités que desempeñen las funciones de auditoría y de prácticas societarias, integrados por consejeros independientes.`,
+f: `Ley del Mercado de Valores (México), artículos sobre la administración de las sociedades anónimas bursátiles.`,
+err: ["Usar el consejo para decisiones del día a día.","Tener un consejo que aprueba todo sin preguntar.","Que los consejeros no lean la información antes de las sesiones.","No tener comité de auditoría o que lo integren personas sin independencia.","No tener un plan de sucesión del director general."],
+a: `Clasifica estas 12 decisiones según quién las toma (asamblea, consejo o director general): elegir consejeros; aprobar el presupuesto; contratar a un gerente; repartir dividendos; comprar otra empresa grande; cambiar un proveedor de servilletas; nombrar al director general; modificar los estatutos; abrir una sucursal ya presupuestada; aprobar una deuda grande; elegir al auditor externo; lanzar una promoción.`,
+sol: `Asamblea: elegir consejeros, repartir dividendos, modificar estatutos. Consejo: aprobar el presupuesto, comprar otra empresa grande, nombrar al director general, aprobar una deuda grande, elegir al auditor externo. Director general: contratar a un gerente, cambiar un proveedor de servilletas, abrir una sucursal ya presupuestada, lanzar una promoción.`,
+q: [["El deber de lealtad de un consejero implica…",["Actuar en interés de la sociedad y abstenerse en conflictos de interés","Votar siempre con el mayoritario","Aprobar todo lo que pide el director general"],0,"Junto con el deber de diligencia."],
+["El comité de auditoría vigila…",["La información financiera, el control interno y la auditoría","La publicidad","El menú"],0,"Debe estar formado por independientes."],
+["¿Qué porcentaje mínimo de consejeros independientes exige la Ley del Mercado de Valores a las S.A.B. mexicanas?",["25 %","5 %","100 %"],0,"Con un máximo de 21 consejeros."],
+["Un consejo que aprueba todo sin preguntar es…",["Un «sello de goma» que no cumple su función","Un buen consejo","Obligatorio por ley"],0,"Debe cuestionar y vigilar."]],
+t: ["Comité de auditoría","Comité de prácticas societarias","Deber de diligencia","Deber de lealtad","Conflicto de interés","Consejero patrimonial"]
+},
+"M24-4": {
+s: `Para los dos lugares de consejeros independientes, Lupita propone a su compadre (que es su contador desde hace 20 años) y a una amiga que es dueña de la panadería que le surte pan. El fondo rechaza a ambos: «No son independientes». Lupita no entiende: «Son personas honestas, ¿qué más quieren?».`,
+o: ["Definir qué es un consejero independiente y qué lo hace independiente.","Explicar por qué existen y qué aportan al consejo.","Identificar situaciones que afectan la independencia."],
+x: `## Independiente no significa «honesto»
+Un **consejero independiente** es una persona que forma parte del consejo **sin tener vínculos** con la empresa, con sus directivos o con sus accionistas de control que puedan **afectar su juicio**. No se trata de dudar de la honestidad de nadie: se trata de que la persona pueda opinar y votar **sin conflictos**, incluso en contra de lo que quiere el director general o el accionista mayoritario.
+
+El compadre de Lupita puede ser muy honesto, pero es su contador desde hace 20 años: recibe honorarios de la empresa y tiene una relación personal y económica con ella. La amiga es proveedora: si el consejo decide cambiar de proveedor de pan, ella tendría un conflicto evidente.
+
+## Por qué existen
+1. **Proteger a los accionistas minoritarios:** el mayoritario y la dirección pueden tener intereses distintos de los minoritarios. Los independientes vigilan que se trate a todos con equidad (por ejemplo, en operaciones con partes relacionadas).
+2. **Vigilar a la dirección:** el consejo debe evaluar al director general; si todos los consejeros dependen de él, no pueden hacerlo con objetividad.
+3. **Aportar experiencia externa:** traen conocimientos, contactos y perspectivas que la empresa no tiene.
+4. **Dar confianza al mercado:** inversionistas, bancos y reguladores confían más en empresas con consejos independientes.
+5. **Integrar los comités clave:** auditoría y prácticas societarias requieren independencia.
+
+## Qué afecta la independencia
+Las leyes y los códigos establecen criterios. En México, la Ley del Mercado de Valores señala que **no pueden ser** consejeros independientes de una sociedad anónima bursátil, entre otros:
+- Directivos o empleados de la empresa o de su grupo (y quienes lo fueron en el año anterior).
+- Personas con **influencia significativa** o poder de mando en la empresa.
+- Accionistas que formen parte del grupo de control.
+- **Clientes, proveedores, deudores, acreedores, socios, consejeros o empleados** de empresas que sean clientes, proveedores, deudores o acreedores **importantes** de la sociedad (por encima de ciertos porcentajes de sus ventas).
+- **Parientes cercanos** de las personas anteriores.
+- Personas que presten **servicios profesionales** relevantes a la empresa, como sus auditores o asesores.
+
+Los detalles y porcentajes exactos se encuentran en la ley vigente.
+
+Además de los criterios legales, la independencia es una **actitud**: una persona puede cumplir todos los requisitos formales y aun así no atreverse a contradecir al presidente del consejo. Por eso importan también su trayectoria y su carácter.
+
+## Qué aporta un buen independiente
+- **Preguntas incómodas** pero necesarias.
+- **Experiencia** en temas que la empresa necesita (finanzas, tecnología, el mercado, la expansión, el gobierno).
+- **Juicio en conflictos de interés:** por ejemplo, cuando la empresa quiere comprarle algo a una empresa del accionista mayoritario.
+- **Continuidad** en momentos de crisis o de sucesión.
+
+## Los límites de la independencia
+- Un independiente **no conoce la empresa** tan bien como la dirección: depende de la información que recibe. Si la dirección oculta información, el consejo puede ser engañado (como en algunos escándalos, lección M24-9).
+- Su tiempo es limitado: muchos son consejeros de varias empresas.
+- Puede volverse **menos independiente con el tiempo**, si lleva muchos años en el consejo o desarrolla relaciones cercanas con la dirección. Algunos códigos recomiendan limitar la antigüedad.
+- Su remuneración la paga la empresa: si es muy alta, podría temer perder el puesto.
+
+## Cómo se elige a un independiente
+1. Definir **qué experiencia** necesita el consejo (una matriz de habilidades).
+2. Buscar candidatos sin vínculos con la empresa, a menudo con apoyo de empresas de búsqueda o del comité de nominación.
+3. Verificar los **criterios de independencia**.
+4. Proponerlos a la **asamblea**, que los elige y califica su independencia (en México, la asamblea califica la independencia de los consejeros de las S.A.B.).
+5. Darles una **inducción** completa sobre la empresa.
+
+## La nueva propuesta de Grupo Lupita
+Siguiendo los criterios, el comité de nominación (Lupita, un consejero del fondo y Ramírez) busca a dos personas:
+- Una exdirectora de finanzas de una cadena de restaurantes de otra región, que no tiene relación con el grupo: aportará experiencia en finanzas y en franquicias, y presidirá el comité de auditoría.
+- Un exdirector de tecnología de una empresa de comercio electrónico: aportará conocimiento sobre canales digitales y apps.
+El compadre de Lupita sigue siendo contador del grupo y puede asistir al consejo como **invitado** cuando se necesite su opinión técnica, sin voto.
+
+## La remuneración de los consejeros
+Los consejeros, incluidos los independientes, reciben normalmente un pago por su trabajo: una cantidad por sesión o una cantidad anual, que aprueba la asamblea de accionistas. Debe ser suficiente para atraer a personas preparadas y compensar su tiempo y su responsabilidad, pero no tan alta que el consejero dependa económicamente de la empresa y pierda su independencia. Muchas empresas publican en su informe anual cuánto pagan a sus consejeros.
+
+## Diversidad en el consejo
+Un consejo formado por personas con la misma edad, la misma formación y la misma experiencia tiende a pensar igual y a tener los mismos puntos ciegos. Por eso los códigos de buenas prácticas recomiendan **diversidad**: de experiencia profesional, de género, de edad y, en empresas internacionales, de nacionalidad. La diversidad no es un adorno: mejora las preguntas que se hacen en el consejo.`,
+k: `**Consejero independiente:** sin vínculos con la empresa, sus directivos o sus accionistas de control que puedan afectar su juicio. No es lo mismo que «honesto»: es **ausencia de conflictos**. Existen para proteger a los minoritarios, vigilar a la dirección, aportar experiencia y dar confianza. No pueden serlo, entre otros, empleados, accionistas de control, proveedores o clientes importantes, asesores y sus parientes cercanos.`,
+ch: `Un taller familiar de autopartes invita a su consejo consultivo a una exgerente de una armadora que no tiene ningún negocio con el taller. Ella le dice al dueño lo que su contador y sus hijos no se atrevían a decirle.`,
+gi: `En las empresas que cotizan en bolsa, los informes anuales indican qué consejeros son independientes. Los fondos de inversión institucionales suelen revisar esa proporción y la calidad de los independientes antes de votar en las asambleas.`,
+e: `¿Quién puede ser consejero independiente de Grupo Lupita?
+
+| Candidato | ¿Independiente? | Por qué |
+|---|---|---|
+| El compadre, contador del grupo | No | Presta servicios profesionales y tiene relación cercana |
+| La amiga, proveedora de pan | No | Proveedora importante; conflicto de interés |
+| Un exdirector de Tortas Lupita que se fue hace 3 años | Probablemente sí | Ya pasó más del año que marca la ley (revisar otros vínculos) |
+| La hermana de Lupita | No | Pariente de la accionista de control |
+| Una exdirectora de finanzas de otra cadena, sin vínculos | Sí | Sin relación económica ni familiar |
+| Un consultor que cobra al grupo 30 % de sus ingresos | No | Relación económica importante |`,
+r: `La Ley del Mercado de Valores de México establece los supuestos en que una persona no puede ser consejero independiente de una sociedad anónima bursátil, como ser empleado o directivo de la emisora, cliente o proveedor importante, o pariente de quienes ejercen el control, y dispone que la asamblea califique la independencia de los consejeros.`,
+f: `Ley del Mercado de Valores (México), disposiciones sobre consejeros independientes.`,
+err: ["Confundir independencia con honestidad o amistad.","Elegir independientes que tienen negocios con la empresa.","Mantener independientes por décadas sin revisar si siguen siéndolo en la práctica.","No darles la información que necesitan para vigilar.","Elegir independientes sin definir qué experiencia necesita el consejo."],
+a: `Diseña una matriz de habilidades para el consejo de una empresa que conozcas: lista 8 habilidades o experiencias que el consejo debería tener y marca cuáles cubren los consejeros actuales (o imaginarios). Propón el perfil de un consejero independiente que cubra los huecos.`,
+sol: `Una matriz típica incluye: finanzas y auditoría, conocimiento del sector, operación, tecnología y digital, mercadotecnia, legal y gobierno, recursos humanos, experiencia internacional y sostenibilidad. El perfil propuesto debe cubrir las casillas vacías y cumplir los criterios de independencia.`,
+q: [["Un consejero independiente es alguien…",["Sin vínculos que puedan afectar su juicio sobre la empresa","Muy honesto aunque sea proveedor","Que trabaja en la empresa"],0,"Independencia es ausencia de conflictos."],
+["¿Puede ser independiente un proveedor importante de la empresa?",["No, tiene un conflicto de interés","Sí, siempre","Solo los lunes"],0,"Lo excluyen la ley y el sentido común."],
+["Una razón por la que existen los independientes es…",["Proteger a los accionistas minoritarios","Aumentar los costos","Reemplazar al director general"],0,"Y vigilar a la dirección."],
+["Un límite de los independientes es que…",["Dependen de la información que les da la dirección","Lo saben todo de la empresa","No tienen ninguna responsabilidad"],0,"Si se oculta información, pueden ser engañados."]],
+t: ["Consejero independiente","Matriz de habilidades","Comité de nominación"]
+},
+"M24-5": {
+s: `Dos años después, Grupo Lupita contrata a un director general externo, el licenciado Ortega, para que Lupita se dedique a presidir el consejo. Ortega prometió crecer 20 % al año, pero en 18 meses las ventas mismas tiendas bajaron, dos directores renunciaron y hay quejas de los franquiciatarios. Lupita, como presidenta del consejo, se pregunta: «¿Quién decide si Ortega se queda o se va? ¿Y cómo se hace bien?».`,
+o: ["Explicar la relación entre el consejo y el director general.","Describir cómo se elige, evalúa, compensa y, si es necesario, remueve a un director general.","Reconocer la importancia del plan de sucesión."],
+x: `## Una relación de confianza y vigilancia
+La relación entre el **consejo** y el **director general** es el corazón del gobierno corporativo. El consejo **contrata** al director general, le da la **dirección estratégica**, lo **apoya**, lo **evalúa** y, si no da resultados o pierde la confianza, lo **remueve**. El director general, a su vez, **dirige** la empresa, **propone** la estrategia, **informa** al consejo con transparencia y **rinde cuentas**.
+
+Es una relación delicada: el consejo debe **apoyar** al director general (no estorbarlo ni hacerle el trabajo) y al mismo tiempo **vigilarlo** con independencia.
+
+## Elegir al director general
+Es, probablemente, **la decisión más importante** de un consejo. El proceso habitual:
+1. **Definir el perfil:** qué necesita la empresa en esta etapa (crecer, ordenar, internacionalizarse, superar una crisis). No es lo mismo un director para un periodo de expansión que para una reestructura.
+2. **Candidatos internos y externos:** un buen plan de sucesión permite tener candidatos internos preparados; a veces se busca afuera con apoyo de empresas especializadas.
+3. **Evaluación:** entrevistas con varios consejeros, referencias, casos prácticos, evaluación de su liderazgo y valores.
+4. **Decisión del consejo** y negociación de las condiciones.
+5. **Transición:** un periodo de entrega ordenada con el director anterior, si es posible.
+
+Diversos estudios de consultoras han encontrado que los directores generales que vienen de dentro de la empresa suelen tener, en promedio, transiciones más estables, aunque los externos son útiles cuando se necesita un cambio profundo.
+
+## Fijar metas y evaluar
+El consejo debe acordar con el director general **metas claras** para cada año y para el largo plazo:
+- **Financieras:** ventas, utilidad, flujo de efectivo, rendimiento sobre el capital.
+- **Estratégicas:** proyectos clave (por ejemplo, lanzar la franquicia en Estados Unidos).
+- **De personas y cultura:** formación de directivos, clima laboral, rotación.
+- **De clientes y reputación:** satisfacción, quejas, marca.
+- **De cumplimiento y riesgos.**
+
+La **evaluación** se hace al menos una vez al año, normalmente a través del comité de compensación o de prácticas societarias, con la opinión de todos los consejeros y, a veces, de otros directivos. Debe ser una conversación franca: qué salió bien, qué no, qué debe cambiar.
+
+## La compensación del director general
+El consejo aprueba la compensación del director general (lección M23-5). Un buen diseño:
+- Combina **corto y largo plazo**.
+- Liga el bono a **metas medibles** que el director general puede influir.
+- Incluye **incentivos de largo plazo** (acciones u opciones) que se reciben en varios años, para que piense en el futuro de la empresa.
+- Evita incentivos que premien **riesgos excesivos** o la manipulación de resultados de corto plazo.
+- Puede incluir cláusulas de **recuperación** (devolver bonos si después se descubre que los resultados eran falsos).
+
+## Remover al director general
+A veces el consejo concluye que el director general **no es la persona adecuada**: no logra resultados, pierde la confianza del equipo, comete faltas éticas o la empresa necesita otro tipo de liderazgo. Removerlo es una de las tareas más difíciles del consejo. Conviene:
+- **Basarse en hechos** y en la evaluación, no en impresiones.
+- **Actuar a tiempo:** esperar demasiado suele costar más.
+- **Tener un sucesor** (interino o definitivo) listo.
+- **Comunicar** la decisión con cuidado a empleados, inversionistas y clientes.
+- **Respetar el contrato** y la ley.
+
+Hay casos públicos en que los consejos removieron a directores generales muy conocidos (incluso fundadores) por diferencias estratégicas o de confianza. Uno muy comentado fue la salida temporal de Sam Altman de OpenAI en noviembre de 2023: el consejo lo removió y, días después, tras la presión de empleados e inversionistas, fue restituido y el consejo cambió de integrantes, según lo informado públicamente. El caso mostró lo delicada que es esta relación.
+
+## El plan de sucesión
+El consejo debe tener siempre un **plan de sucesión** del director general:
+- **Sucesión de emergencia:** quién toma el cargo si mañana el director general no puede (enfermedad, renuncia repentina).
+- **Sucesión planeada:** cómo se prepara a los candidatos internos durante años.
+Un consejo sin plan de sucesión pone en riesgo a la empresa.
+
+## ¿Presidente del consejo y director general, la misma persona?
+En algunas empresas, una sola persona es presidente del consejo y director general. Tiene la ventaja de la claridad de mando, pero concentra mucho poder: ¿quién vigila al que preside el órgano que debe vigilarlo? Por eso muchos códigos recomiendan **separar** los cargos o, al menos, nombrar un **consejero independiente líder** que coordine a los independientes.
+
+## La decisión sobre Ortega
+El consejo de Grupo Lupita hace la evaluación anual con datos: las ventas mismas tiendas bajaron 4 %, la rotación de directivos se duplicó y las quejas de franquiciatarios aumentaron. En una sesión privada, los consejeros escuchan a Ortega y acuerdan un plan de 6 meses con metas concretas. Al no cumplirse, el consejo decide removerlo, nombra a la directora de operaciones como directora general interina y encarga al comité de nominación la búsqueda del siguiente director, esta vez dando preferencia a candidatos internos que conozcan la cultura del grupo.`,
+k: `El **consejo contrata, orienta, apoya, evalúa y, si es necesario, remueve** al director general; el director general **dirige, propone, informa y rinde cuentas**. Elegir al director general es la decisión más importante del consejo. La evaluación anual usa metas financieras, estratégicas, de personas y de clientes. La compensación combina corto y largo plazo. Siempre debe existir un **plan de sucesión**.`,
+ch: `Una empresa familiar de transporte contrata a un gerente general externo. La familia, como consejo, le fija metas por escrito, lo evalúa cada año y define desde el principio quién lo sustituiría si se va.`,
+gi: `En noviembre de 2023, el consejo de OpenAI removió a su director general, Sam Altman; días después, tras la reacción de empleados e inversionistas, fue restituido y el consejo se reorganizó, según lo informado por la empresa y por la prensa.`,
+e: `Evaluación anual del director general de Grupo Lupita:
+
+| Meta | Peso | Meta acordada | Resultado | Cumplimiento |
+|---|---|---|---|---|
+| Crecimiento de ventas | 30 % | +20 % | +6 % | 30 % |
+| Ventas mismas tiendas | 20 % | +3 % | −4 % | 0 % |
+| Utilidad de operación | 25 % | 60 millones | 51 millones | 85 % |
+| Rotación de directivos | 15 % | Menos de 10 % | 22 % | 0 % |
+| Satisfacción de franquiciatarios | 10 % | 8 de 10 | 6 de 10 | 75 % |
+| **Cumplimiento ponderado** | | | | **37.75 %** |
+
+Cálculo: 0.30 × 30 + 0.20 × 0 + 0.25 × 85 + 0.15 × 0 + 0.10 × 75 = 9 + 0 + 21.25 + 0 + 7.5 = 37.75 %. Muy por debajo de lo esperado.`,
+r: `En noviembre de 2023, el consejo de OpenAI anunció la salida de su director general alegando falta de confianza; tras la renuncia amenazada de cientos de empleados y la intervención de inversionistas, Sam Altman regresó días después y la empresa anunció un nuevo consejo, según los comunicados de la propia empresa.`,
+f: `Comunicados de OpenAI (noviembre de 2023) y cobertura de prensa internacional.`,
+err: ["No tener un plan de sucesión del director general.","Elegir al director general sin definir qué necesita la empresa en esa etapa.","Evaluar al director general por impresiones y no por metas acordadas.","Esperar demasiado para actuar cuando los resultados no llegan.","Diseñar bonos que premien solo resultados de corto plazo."],
+a: `Diseña la evaluación anual del director general de una empresa (real o imaginaria) con 5 metas, sus pesos y sus indicadores. Después, inventa los resultados y calcula el cumplimiento ponderado. ¿Qué decisión tomarías como consejo?`,
+sol: `Una buena evaluación tiene metas medibles con pesos que suman 100 %, mezcla indicadores financieros y no financieros, y la decisión depende del cumplimiento: renovar la confianza, acordar un plan de mejora con plazo o iniciar la sucesión.`,
+q: [["¿Quién nombra y puede remover al director general?",["El consejo de administración","Los clientes","El auditor externo"],0,"Es una de sus funciones principales."],
+["Un plan de sucesión de emergencia sirve para…",["Saber quién toma el cargo si el director general falta de repente","Elegir el menú","Pagar dividendos"],0,"Evita que la empresa quede sin dirección."],
+["Un riesgo de que una misma persona sea presidente del consejo y director general es…",["Que concentre demasiado poder sin contrapesos","Que haya demasiada vigilancia","Que la empresa no tenga director"],0,"Por eso se recomienda separar o tener un independiente líder."],
+{n:1,t:"Un director general cumple 100 % de una meta que pesa 40 %, 50 % de otra que pesa 40 % y 0 % de una que pesa 20 %. ¿Cuál es su cumplimiento ponderado (en %)?",a:60,tol:0,u:"%",e:"0.40 × 100 + 0.40 × 50 + 0.20 × 0 = 40 + 20 + 0 = 60 %."}],
+t: ["Plan de sucesión","Evaluación del director general","Consejero independiente líder","Cláusula de recuperación"]
+},
+"M24-6": {
+s: `El nuevo director general de Grupo Lupita recibe un bono si la utilidad del año supera 60 millones. En noviembre, para alcanzar la meta, recorta el mantenimiento de los locales, pospone la capacitación y presiona a los franquiciatarios para que compren más inventario. La utilidad llega a 61 millones y cobra su bono. Al año siguiente, los locales están deteriorados y las ventas caen. ¿Qué pasó?`,
+o: ["Explicar el problema de agencia entre dueños y directivos.","Identificar comportamientos que surgen cuando los intereses no están alineados.","Describir mecanismos para reducir los conflictos de agencia."],
+x: `## El principal y el agente
+El **problema de agencia** ocurre cuando una persona (el **principal**) encarga a otra (el **agente**) que actúe en su nombre, y el agente tiene **intereses propios** que pueden ser distintos de los del principal, además de **más información** sobre lo que hace. En la empresa:
+- Los **principales** son los **accionistas** (los dueños).
+- Los **agentes** son los **directivos**, a quienes los accionistas, a través del consejo, encargan dirigir la empresa.
+
+Los economistas Michael Jensen y William Meckling analizaron este problema en un artículo muy influyente de **1976**, donde explicaron que los conflictos de agencia generan **costos**: los que se pierden por decisiones contrarias a los dueños y los que se gastan en vigilar y alinear a los directivos.
+
+## Por qué los intereses pueden ser distintos
+- **Horizonte de tiempo:** el directivo puede pensar en sus próximos dos o tres años en el puesto; los dueños, en décadas.
+- **Riesgo:** el directivo puede evitar riesgos razonables (si sale mal, pierde su empleo) o tomar riesgos excesivos (si su bono premia el éxito y no lo castiga el fracaso).
+- **Beneficios personales:** sueldos altos, oficinas lujosas, aviones, «imperios» de empresas grandes que dan prestigio aunque no den utilidades.
+- **Información:** el directivo sabe mucho más que los dueños sobre lo que pasa en la empresa (asimetría de información).
+
+## Comportamientos típicos del problema de agencia
+1. **Cortoplacismo:** sacrificar el futuro para mejorar los números de este año (como el director de Grupo Lupita).
+2. **Construir imperios:** comprar empresas para que la empresa sea más grande, aunque no sea más rentable (lección M22-6).
+3. **Manipular resultados:** mover gastos o ingresos de un periodo a otro, o en casos extremos, falsificar información (lección M24-9).
+4. **Gastos excesivos** en beneficios personales.
+5. **Atrincherarse:** dificultar que el consejo o un comprador lo remueva.
+6. **Aversión al riesgo excesiva:** no invertir en proyectos buenos pero arriesgados.
+
+## Otro problema de agencia: mayoritarios y minoritarios
+En muchas empresas de México y Latinoamérica, el problema más común no es entre dueños y directivos, sino entre el **accionista mayoritario** (que controla la empresa) y los **minoritarios**. El mayoritario puede usar su control para beneficiarse a costa de los demás: por ejemplo, haciendo que la empresa compre caro a otra empresa suya, o nombrando a familiares sin preparación. Por eso son tan importantes el comité de prácticas societarias, la revisión de las **operaciones con partes relacionadas** y los consejeros independientes.
+
+## Mecanismos para reducir los conflictos
+1. **Incentivos alineados:**
+   - Bonos ligados a metas de varios años, no solo de uno.
+   - Pago en **acciones** que se reciben con el tiempo, para que el directivo sea también dueño.
+   - Metas que incluyan indicadores de largo plazo (clientes, personas, inversión).
+   - **Cláusulas de recuperación** si los resultados fueron manipulados.
+2. **Vigilancia:**
+   - Un consejo activo con independientes (lecciones M24-3 y M24-4).
+   - Comité de auditoría y auditoría interna y externa.
+   - Información transparente y oportuna.
+3. **Mercado:**
+   - El **mercado de control corporativo**: si una empresa está mal dirigida, su acción baja y alguien puede comprarla y cambiar a los directivos.
+   - El **mercado laboral de directivos**: la reputación del directivo importa para su carrera.
+4. **Accionistas activos:** inversionistas que votan, opinan y, a veces, presionan públicamente por cambios (se les llama inversionistas activistas).
+5. **Leyes y reguladores:** obligaciones de información, deberes de los consejeros y sanciones.
+6. **Cultura y valores:** directivos que entienden que su trabajo es crear valor para la empresa a largo plazo.
+
+## Los incentivos pueden crear problemas nuevos
+Diseñar incentivos es difícil. Un bono ligado solo a la utilidad del año puede producir cortoplacismo. Uno ligado al precio de la acción puede tentar a manipular la información. Uno ligado a las ventas puede llevar a vender con pérdidas. Por eso se combinan varios indicadores y plazos, y el consejo revisa **cómo** se lograron los resultados, no solo **cuáles** fueron.
+
+## También en pequeño
+El problema de agencia aparece en cualquier tamaño de negocio: el dueño de una taquería que paga al encargado un porcentaje de las ventas puede encontrar que el encargado vende mucho regalando refrescos; el gerente de sucursal que gana por bajar costos puede recortar porciones (lección M20-6).
+
+## Lo que cambia Grupo Lupita
+El consejo rediseña el bono del director general: 40 % por utilidad de operación, 20 % por ventas mismas tiendas, 20 % por satisfacción de clientes y franquiciatarios, 20 % por proyectos estratégicos. La mitad del bono se paga en acciones que se reciben en tres años. Además, si se descubre que los resultados se lograron recortando el mantenimiento obligatorio o manipulando inventarios, el bono puede recuperarse.
+
+## Una pregunta útil para el consejo
+Ante cualquier resultado extraordinario de un directivo, el consejo puede hacerse una pregunta sencilla: «¿Este resultado se podrá repetir el próximo año sin hacer daño a la empresa?». Si la respuesta es no, conviene revisar cómo se logró antes de pagar el bono completo.`,
+k: `**Problema de agencia:** el **agente** (directivo) actúa en nombre del **principal** (accionistas) pero tiene intereses propios y más información. Comportamientos: **cortoplacismo**, construir imperios, manipular resultados, gastos excesivos, atrincherarse. También entre **mayoritarios y minoritarios**. Soluciones: incentivos alineados de largo plazo, pago en acciones, vigilancia del consejo, transparencia, mercado y cultura.`,
+ch: `El dueño de un puesto de jugos le paga al encargado un bono por vender más. El encargado empieza a dar «jugos grandes» al precio de los chicos para vender más vasos. El dueño cambia el bono: ahora es por la utilidad del día, revisando inventario de fruta.`,
+gi: `Michael Jensen y William Meckling publicaron en 1976 el artículo «Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure», una de las bases de la teoría moderna del gobierno corporativo y de los incentivos a directivos.`,
+e: `Efecto del recorte del director general en Grupo Lupita (millones de pesos):
+
+| Concepto | Año 1 (con recorte) | Año 2 (consecuencias) |
+|---|---|---|
+| Ahorro por posponer mantenimiento y capacitación | +6 | — |
+| Utilidad de operación | 61 (meta: 60) | 48 |
+| Bono del director general | 2 | 0 |
+| Reparaciones atrasadas y más caras | — | −9 |
+| Ventas perdidas por locales deteriorados | — | −14 de margen |
+| **Efecto neto para los accionistas en dos años** | | 6 − 9 − 14 − 2 = **−19** |
+
+El director ganó 2 millones de bono; los accionistas perdieron unos 19 millones.`,
+r: `Jensen y Meckling (1976) definieron los costos de agencia como la suma de los gastos de vigilancia del principal, los gastos de garantía del agente y la pérdida residual por decisiones que no maximizan el valor para el principal; su trabajo influyó en la difusión de la compensación en acciones de los directivos.`,
+f: `M. Jensen y W. Meckling, «Theory of the Firm», Journal of Financial Economics (1976).`,
+err: ["Pagar bonos solo por la utilidad de un año.","Revisar qué resultados se lograron sin revisar cómo se lograron.","Ignorar el conflicto entre mayoritarios y minoritarios.","Creer que el pago en acciones resuelve todos los conflictos.","No tener cláusulas para recuperar bonos de resultados manipulados."],
+a: `Diseña el esquema de incentivos de un gerente de sucursal de una cadena (real o imaginaria) para evitar el cortoplacismo. Incluye al menos cuatro indicadores con sus pesos, el plazo de pago y una regla que evite la manipulación.`,
+sol: `Por ejemplo: utilidad de la sucursal 35 %, satisfacción de clientes 25 %, cumplimiento de estándares en auditoría 20 %, rotación del personal 20 %; pago trimestral con una parte diferida al final del año; y una regla de que si una auditoría descubre recortes indebidos (porciones, mantenimiento) se pierde el bono.`,
+q: [["En el problema de agencia de una empresa, el «agente» es…",["El directivo","El accionista","El cliente"],0,"Actúa en nombre de los dueños."],
+["Recortar el mantenimiento para cobrar el bono de este año es un ejemplo de…",["Cortoplacismo","Diversificación","Gobierno corporativo"],0,"Se sacrifica el futuro por los números del año."],
+["En muchas empresas latinoamericanas, un conflicto de agencia frecuente es entre…",["El accionista mayoritario y los minoritarios","Clientes y proveedores","Dos sucursales"],0,"El mayoritario puede beneficiarse a costa de los demás."],
+["Un mecanismo para alinear al directivo con los dueños es…",["Pagarle parte del bono en acciones que recibe en varios años","Pagarle solo un bono diario","No evaluarlo"],0,"Así piensa en el largo plazo."]],
+t: ["Problema de agencia","Principal","Agente","Costos de agencia","Cortoplacismo","Asimetría de información"]
+},
+"M24-7": {
+s: `Lupita tiene 68 años. Sus tres hijos tienen intereses distintos: Toño quiere dirigir el grupo, Ana es médica y no quiere trabajar en la empresa pero sí recibir dividendos, y el menor quiere entrar a trabajar sin experiencia. Ya hay nietos. Lupita teme que, cuando ella falte, la familia se pelee y la empresa se destruya. ¿Cómo gobiernan las familias sus empresas cuando son grandes?`,
+o: ["Explicar los retos de gobierno de las empresas familiares grandes.","Describir el protocolo familiar, el consejo de familia y la asamblea familiar.","Distinguir los órganos de la familia de los órganos de la empresa."],
+x: `## Las empresas familiares en el mundo y en México
+La mayoría de las empresas del mundo son **familiares**: una familia tiene el control y suele participar en su dirección. Esto incluye no solo changarros y pymes, sino también **empresas gigantes**. En México y Latinoamérica, muchas de las empresas más grandes son controladas por familias (por ejemplo, Grupo Bimbo, Grupo Carso, FEMSA, Grupo Elektra, Grupo México, entre otras, según sus informes, con distintos grados de participación familiar). En el mundo hay casos como Walmart (familia Walton), Ford, Samsung o Inditex.
+
+Las empresas familiares tienen ventajas (visión de largo plazo, valores fuertes, compromiso, decisiones rápidas) y riesgos particulares (conflictos familiares, sucesión, nepotismo, mezcla de emociones con negocios).
+
+## El reto de las generaciones
+En la lección M18-4 vimos el modelo de los **tres círculos** (familia, propiedad y empresa). En una empresa grande con varias generaciones, el problema se vuelve más complejo:
+- **Primera generación:** el fundador decide todo.
+- **Segunda generación:** varios hermanos comparten la propiedad; necesitan acuerdos.
+- **Tercera generación y siguientes:** decenas de primos con participaciones pequeñas, intereses muy diversos y, a veces, poca relación con la empresa.
+
+Se suele citar que pocas empresas familiares sobreviven a la tercera generación; aunque las cifras precisas varían según los estudios, el mensaje es claro: **la continuidad no es automática**, hay que construirla.
+
+## Separar los órganos de la familia y los de la empresa
+La clave del gobierno en empresas familiares grandes es **separar** los espacios:
+| Órgano | Ámbito | Qué hace |
+|---|---|---|
+| Asamblea familiar | Familia | Reunión de todos los miembros de la familia (accionistas o no) para informar, convivir y transmitir valores |
+| Consejo de familia | Familia | Grupo pequeño elegido por la familia; redacta y vigila el protocolo, resuelve conflictos familiares, organiza la formación de los jóvenes |
+| Oficina familiar (family office) | Familia | Administra el patrimonio de la familia fuera de la empresa (inversiones, impuestos, asuntos personales) |
+| Asamblea de accionistas | Propiedad | Órgano legal donde votan los accionistas (lección M24-2) |
+| Consejo de administración | Empresa | Gobierna la empresa, con independientes (lección M24-3) |
+| Dirección | Empresa | Dirige el día a día; puede incluir o no a miembros de la familia |
+
+Así, los temas de la familia (quién se casa, quién se pelea, quién quiere dinero) se discuten en los órganos familiares, y los temas de la empresa (estrategia, inversiones, directivos) en el consejo.
+
+## El protocolo familiar
+El **protocolo familiar** es un acuerdo escrito, firmado por los miembros de la familia, que establece las **reglas de la relación** entre la familia y la empresa. Suele incluir:
+- **Valores y misión** de la familia como dueña.
+- **Empleo de familiares:** requisitos para trabajar en la empresa (estudios, experiencia previa fuera, por ejemplo, de 3 a 5 años, proceso de selección igual que para cualquier candidato, evaluación como cualquier empleado).
+- **Sucesión:** cómo se elegirá al próximo director general y al próximo presidente del consejo; puede ser alguien de la familia o externo.
+- **Propiedad:** quién puede ser accionista (por ejemplo, solo descendientes directos), qué pasa con las acciones en un divorcio o una herencia, derecho de preferencia para comprar las acciones de un familiar que quiera vender.
+- **Dividendos:** una política clara (por ejemplo, repartir el 30 % de la utilidad).
+- **Liquidez:** cómo puede un familiar vender sus acciones si las necesita, y a qué precio.
+- **Resolución de conflictos:** mediación, arbitraje.
+- **Formación de las siguientes generaciones.**
+
+El protocolo **no siempre es obligatorio legalmente**; por eso, sus puntos clave suelen llevarse también a los **estatutos** de la sociedad o a un **convenio entre accionistas** para que sean exigibles.
+
+## La sucesión en la empresa familiar grande
+Es el momento más delicado (lección M18-4). Buenas prácticas:
+- Separar **sucesión de la propiedad** (quién hereda las acciones) de **sucesión de la dirección** (quién dirige).
+- Planear con **años de anticipación**.
+- Que el sucesor sea elegido por **capacidad**, no por ser el mayor o el favorito.
+- Considerar a un **director general externo** si nadie de la familia está preparado o interesado; la familia puede seguir como dueña a través del consejo.
+- El fundador debe **soltar** el poder de forma gradual, a menudo pasando a presidir el consejo.
+
+## La empresa familiar en bolsa
+Muchas empresas familiares grandes cotizan en bolsa: la familia conserva el control y otros inversionistas tienen una parte. Esto exige combinar el gobierno familiar con las reglas del mercado de valores (lección M24-8): consejeros independientes, información transparente y trato equitativo a los minoritarios. Grupo Bimbo es un ejemplo de empresa familiar que cotiza en la Bolsa Mexicana de Valores desde 1980, según su historia corporativa.
+
+## El plan de la familia de Lupita
+Con ayuda de un consultor, la familia:
+1. Crea un **consejo de familia** con Lupita, sus tres hijos y un representante de los nietos mayores.
+2. Redacta un **protocolo**: para trabajar en el grupo, se requiere licenciatura y tres años de experiencia fuera; nadie de la familia puede ser jefe directo de otro familiar; la política de dividendos será del 30 % de la utilidad; si alguien quiere vender, los demás tienen preferencia y el precio lo fija un valuador independiente.
+3. Acuerda que **Toño** será candidato a director general, pero el consejo de administración (con independientes) decidirá con una evaluación formal; mientras tanto, se prepara durante dos años.
+4. **Ana** será consejera patrimonial (representando a su rama) sin cargo ejecutivo.
+5. El hijo menor trabajará primero en otra empresa del sector.`,
+k: `En la empresa familiar grande hay que **separar** los órganos de la **familia** (asamblea familiar, **consejo de familia**, oficina familiar) de los de la **propiedad** (asamblea de accionistas) y de la **empresa** (consejo de administración y dirección). El **protocolo familiar** fija reglas sobre empleo de familiares, sucesión, propiedad, dividendos, liquidez y conflictos; sus puntos clave se llevan a los estatutos.`,
+ch: `Tres hermanos que heredaron una ferretería grande firman un acuerdo: solo uno la dirige, con sueldo de mercado; los otros dos reciben dividendos cada año; y si alguno quiere vender su parte, los otros tienen preferencia al precio que fije un valuador.`,
+gi: `Grupo Bimbo, fundado en 1945, cotiza en la Bolsa Mexicana de Valores desde 1980 y mantiene una participación importante de las familias fundadoras, combinando su gobierno familiar con un consejo que incluye consejeros independientes, según su informe anual.`,
+e: `Propiedad de Grupo Lupita en tres generaciones (ficticio, suponiendo partes iguales en cada herencia):
+
+| Generación | Personas | Participación de la familia | Por persona |
+|---|---|---|---|
+| 1.ª (Lupita y Toño padre) | 1 + 1 | 72 % | Lupita 52 %, Toño 20 % |
+| 2.ª (3 hijos heredan el 52 % de Lupita) | 3 | 72 % | Toño 20 % + 17.3 %; Ana 17.3 %; el menor 17.3 % |
+| 3.ª (8 nietos heredan de sus padres) | 8 | 72 % | Entre 4 % y 9 % cada uno |
+
+Con 8 nietos dueños de partes pequeñas, sin un protocolo y un convenio entre accionistas, es muy probable que haya diferencias sobre dividendos, empleo y venta de acciones.`,
+r: `Según su informe anual, Grupo Bimbo es una empresa fundada en 1945 por una familia que mantiene una participación relevante en su capital; su consejo de administración incluye miembros de las familias fundadoras y consejeros independientes, y la empresa cotiza en la Bolsa Mexicana de Valores.`,
+f: `Grupo Bimbo, informe anual integrado e historia corporativa (grupobimbo.com).`,
+err: ["Mezclar temas familiares con decisiones de negocio en el consejo de administración.","Dar puestos a familiares sin preparación ni evaluación.","No planear la sucesión hasta que el fundador falta.","Tener un protocolo que no se lleva a los estatutos ni a acuerdos exigibles.","No dar a los familiares una forma ordenada de vender sus acciones."],
+a: `Redacta cinco reglas de un protocolo familiar para una empresa que conozcas (o para Grupo Lupita): empleo de familiares, sucesión, dividendos, venta de acciones y solución de conflictos. Explica qué problema evita cada una.`,
+sol: `Ejemplos: exigir estudios y experiencia externa para trabajar en la empresa (evita el nepotismo); elegir al director general por evaluación del consejo (evita pleitos de sucesión); fijar una política de dividendos (evita conflictos entre quienes trabajan y quienes no); derecho de preferencia con precio de valuador (evita que entren extraños o que haya abusos); mediación antes de demandas (evita juicios que dañen la empresa).`,
+q: [["El protocolo familiar es…",["Un acuerdo escrito con las reglas de relación entre la familia y la empresa","El acta constitutiva","El menú de la empresa"],0,"Sus puntos clave conviene llevarlos a los estatutos."],
+["El consejo de familia se ocupa de…",["Los temas de la familia como dueña, el protocolo y los conflictos familiares","La estrategia de la empresa","La contabilidad mensual"],0,"Es distinto del consejo de administración."],
+["Una buena práctica para el empleo de familiares es…",["Exigir preparación y experiencia previa fuera de la empresa","Darles el puesto que pidan","Prohibirles cualquier participación"],0,"Y evaluarlos como a cualquier empleado."],
+["En la sucesión de una empresa familiar conviene separar…",["La sucesión de la propiedad de la sucesión de la dirección","El logo de la marca","Las ventas de los costos"],0,"Quien hereda acciones no tiene que dirigir."]],
+t: ["Empresa familiar","Protocolo familiar","Consejo de familia","Asamblea familiar","Oficina familiar"]
+},
+"M24-8": {
+s: `Grupo Lupita evalúa salir a bolsa en unos años (Módulo 25). El abogado explica que, para hacerlo, la empresa tendría que convertirse en una «S.A.B.», cumplir la Ley del Mercado de Valores y seguir el «Código de Mejores Prácticas». Lupita pregunta: «¿Qué nos exigiría la ley que hoy no hacemos?».`,
+o: ["Describir las principales reglas de gobierno corporativo de la Ley del Mercado de Valores para las sociedades anónimas bursátiles.","Explicar el papel del Código de Principios y Mejores Prácticas de Gobierno Corporativo.","Distinguir entre obligaciones legales y recomendaciones voluntarias."],
+x: `## Dos tipos de reglas
+En México, el gobierno corporativo de las empresas se rige por dos tipos de normas:
+1. **Obligatorias (leyes y disposiciones):** la Ley General de Sociedades Mercantiles (para todas las sociedades), la **Ley del Mercado de Valores** (para las empresas que cotizan o que emiten valores) y las disposiciones de la **Comisión Nacional Bancaria y de Valores (CNBV)** y de las bolsas.
+2. **Voluntarias (recomendaciones):** el **Código de Principios y Mejores Prácticas de Gobierno Corporativo**, impulsado por el **Consejo Coordinador Empresarial (CCE)**.
+
+## La Ley del Mercado de Valores (LMV)
+La LMV vigente se publicó en **2005** e introdujo un régimen de gobierno corporativo moderno para las empresas que cotizan en bolsa. Define distintos tipos de sociedades:
+- **S.A.P.I. (sociedad anónima promotora de inversión):** una sociedad anónima con reglas más flexibles que permite acuerdos entre socios (como los que usan los fondos de capital privado) y puede ser un paso previo a la bolsa.
+- **S.A.P.I.B. (sociedad anónima promotora de inversión bursátil):** puede cotizar en bolsa con un régimen de transición, mientras adopta todas las reglas de una S.A.B. en un plazo.
+- **S.A.B. (sociedad anónima bursátil):** la empresa cuyas acciones cotizan en bolsa, con el régimen completo.
+
+## Lo que exige la LMV a una S.A.B. (en lo esencial)
+1. **Consejo de administración:** máximo **21** consejeros, de los cuales **al menos el 25 % deben ser independientes** (lección M24-3). Pueden designarse suplentes.
+2. **Funciones de auditoría y de prácticas societarias**, a cargo de uno o más **comités integrados por consejeros independientes** (con reglas especiales cuando hay un accionista que controla más del 50 %).
+3. **Director general:** responsable de la gestión, conducción y ejecución de los negocios, sujeto a las estrategias, políticas y lineamientos aprobados por el consejo.
+4. **Deberes de diligencia y lealtad** de los consejeros y directivos relevantes, con **responsabilidad** por los daños que causen al incumplirlos (lección M24-3).
+5. **Operaciones con partes relacionadas:** deben ser aprobadas por el consejo con la opinión del comité correspondiente.
+6. **Auditor externo independiente** que dictamine los estados financieros.
+7. **Revelación de información:** reportes trimestrales y anuales, y avisos de **eventos relevantes** (cualquier hecho que pueda influir en el precio de la acción) de forma oportuna.
+8. **Derechos de los minoritarios:** por ejemplo, accionistas con cierto porcentaje pueden designar consejeros, pedir que se convoque una asamblea o ejercer acciones de responsabilidad contra consejeros.
+9. **Prohibición del uso de información privilegiada:** nadie puede comprar o vender acciones aprovechando información que el público no conoce.
+
+Los porcentajes y detalles exactos están en la ley vigente y en las disposiciones de la CNBV, que pueden cambiar.
+
+## El Código de Principios y Mejores Prácticas de Gobierno Corporativo
+El **Consejo Coordinador Empresarial** publicó la primera versión de su **Código de Mejores Prácticas Corporativas en 1999**, y lo ha actualizado varias veces (con una revisión importante en 2018). Sus recomendaciones son **voluntarias** y aplican a empresas de **cualquier tamaño**, coticen o no. Entre otras cosas, recomienda:
+- Que el consejo tenga entre 3 y 15 miembros y una proporción de independientes.
+- Que existan funciones de auditoría, evaluación y compensación, y de finanzas y planeación (con comités o sin ellos, según el tamaño).
+- Que el consejo se reúna al menos cuatro veces al año.
+- Que exista un plan de sucesión.
+- Que se identifiquen y gestionen los riesgos.
+- Que haya un código de ética y canales de denuncia.
+
+Las empresas que cotizan en la Bolsa Mexicana de Valores deben informar **en qué medida siguen** las recomendaciones del Código (un enfoque de «cumplir o explicar»). Es una herramienta muy útil para empresas medianas y familiares que quieren profesionalizarse antes de pensar en la bolsa.
+
+## Otras reglas relevantes
+- **Disposiciones de la CNBV para emisoras:** detallan qué información deben publicar, cuándo y cómo.
+- **Reglamentos de las bolsas** (BMV y BIVA) para listar y mantener las acciones.
+- **Normas de información financiera:** las empresas que cotizan en México presentan sus estados financieros conforme a las **NIIF** (Normas Internacionales de Información Financiera, emitidas por el IASB).
+- **Reglas contra el lavado de dinero, anticorrupción y protección de datos**, aplicables a todas las empresas.
+
+## En otros países
+- **Estados Unidos:** la Ley Sarbanes-Oxley de **2002**, aprobada tras los escándalos de Enron y WorldCom, reforzó la responsabilidad de directores generales y de finanzas sobre la información financiera, los comités de auditoría y la independencia de los auditores.
+- **Reino Unido:** el Informe Cadbury de **1992** fue pionero en recomendar separar los cargos de presidente y director general, y el enfoque de «cumplir o explicar».
+- **España:** Código de Buen Gobierno de las Sociedades Cotizadas de la CNMV.
+- **Colombia, Chile, Perú, Argentina:** códigos de buenas prácticas de sus reguladores de valores, en general con enfoque de «cumplir o explicar».
+
+## Lo que tendría que cambiar Grupo Lupita
+Para convertirse en S.A.B., Grupo Lupita necesitaría, entre otras cosas: adaptar sus estatutos; un consejo con al menos 25 % de independientes (hoy tiene 2 de 7, el 29 %, lo cual ya cumple); comités de auditoría y prácticas societarias **formados solo por independientes**; estados financieros conforme a NIIF y dictaminados; políticas formales para operaciones con partes relacionadas (por ejemplo, la renta de locales de la inmobiliaria del grupo y las compras a la empresa de un consejero); un área de **relación con inversionistas**; y un sistema para informar eventos relevantes. El consultor recomienda empezar por adoptar el Código del CCE durante dos años, como entrenamiento.`,
+k: `En México, la **Ley del Mercado de Valores** (2005) rige a las **S.A.B.** (y a las S.A.P.I. y S.A.P.I.B.): consejo de máximo **21** miembros con al menos **25 % independientes**, funciones de **auditoría** y **prácticas societarias** con independientes, deberes de diligencia y lealtad, aprobación de operaciones con partes relacionadas, auditor externo, revelación de **eventos relevantes** y prohibición de usar **información privilegiada**. El **Código de Principios y Mejores Prácticas** del CCE es voluntario («cumplir o explicar»).`,
+ch: `Una empresa mediana de alimentos que no cotiza adopta voluntariamente el Código de Mejores Prácticas: forma un consejo con dos independientes, se reúne cuatro veces al año y crea un comité de auditoría. Dos años después consigue un crédito con mejores condiciones porque el banco confía más en su información.`,
+gi: `Las empresas que cotizan en la Bolsa Mexicana de Valores entregan cada año un cuestionario sobre el grado de adhesión al Código de Principios y Mejores Prácticas de Gobierno Corporativo, que se puede consultar en la información pública de cada emisora.`,
+e: `Diagnóstico de Grupo Lupita frente a los requisitos principales de una S.A.B.:
+
+| Requisito | Situación actual | ¿Cumple? |
+|---|---|---|
+| Máximo 21 consejeros | 7 | Sí |
+| Al menos 25 % independientes | 2 de 7 = 29 % | Sí |
+| Comité de auditoría solo con independientes | 2 independientes + 1 del fondo | No |
+| Comité de prácticas societarias | No existe | No |
+| Estados financieros conforme a NIIF y dictaminados | Normas mexicanas, dictaminados | Parcial |
+| Política de operaciones con partes relacionadas | No existe | No |
+| Área de relación con inversionistas | No existe | No |
+| Sistema de eventos relevantes | No existe | No |
+
+Cumple 2 de 8 y parcialmente 1. Necesita al menos uno o dos años de preparación.`,
+r: `La Ley del Mercado de Valores vigente en México fue publicada en el Diario Oficial de la Federación el 30 de diciembre de 2005 y estableció el régimen de las sociedades anónimas bursátiles, con requisitos sobre el consejo de administración, los consejeros independientes y los comités de auditoría y prácticas societarias.`,
+f: `Ley del Mercado de Valores (DOF, 30 de diciembre de 2005, con reformas); Consejo Coordinador Empresarial, Código de Principios y Mejores Prácticas de Gobierno Corporativo; Ley Sarbanes-Oxley (EE. UU., 2002); Informe Cadbury (Reino Unido, 1992).`,
+err: ["Creer que el gobierno corporativo solo importa si se va a salir a bolsa.","Cumplir los requisitos en papel sin cambiar las prácticas.","Ignorar las operaciones con partes relacionadas dentro del grupo.","Confundir las recomendaciones voluntarias con obligaciones legales, o al revés.","Usar información privilegiada para comprar o vender acciones."],
+a: `Elige una empresa mexicana que cotice en bolsa. Busca en su informe anual: número de consejeros, porcentaje de independientes, comités que tiene y quién los preside. ¿Cumple con lo que pide la LMV? ¿Qué te llamó la atención?`,
+sol: `La mayoría de las emisoras cumplen el mínimo legal de 25 % de independientes y tienen comités de auditoría y prácticas societarias; algunas superan ampliamente ese mínimo. Llama la atención la diversidad de perfiles, la presencia de familiares en empresas familiares y si el presidente del consejo es también el director general.`,
+q: [["¿Cuál es el número máximo de consejeros de una S.A.B. según la Ley del Mercado de Valores?",["21","5","100"],0,"Con al menos 25 % independientes."],
+["El Código de Principios y Mejores Prácticas del CCE es…",["Un conjunto de recomendaciones voluntarias","Una ley penal","Un reglamento de tránsito"],0,"Las emisoras informan en qué medida lo siguen."],
+["Un «evento relevante» es…",["Un hecho que puede influir en el precio de la acción y debe informarse","Una fiesta de la empresa","Una junta semanal"],0,"Se informa al mercado de forma oportuna."],
+["La Ley Sarbanes-Oxley se aprobó en Estados Unidos en 2002 tras…",["Los escándalos de Enron y WorldCom","La salida a bolsa de Google","La crisis de 2008"],0,"Reforzó la responsabilidad sobre la información financiera."]],
+t: ["Ley del Mercado de Valores","Sociedad anónima bursátil","S.A.P.I.","Código de Principios y Mejores Prácticas","Evento relevante","Información privilegiada","CNBV","NIIF"]
+},
+"M24-9": {
+s: `Toño lee sobre Enron, Wirecard y WeWork, y se sorprende: eran empresas con consejos, auditores y miles de millones de dólares de inversionistas. «¿Cómo nadie se dio cuenta?», pregunta. Lupita, ya como presidenta del consejo, quiere entender qué falló para que no le pase a Grupo Lupita.`,
+o: ["Analizar las fallas de gobierno en los casos de Enron, Wirecard y WeWork, según información pública.","Identificar las señales de alerta comunes en los escándalos corporativos.","Relacionar cada falla con los mecanismos de gobierno estudiados en el módulo."],
+x: `## Caso 1: Enron (Estados Unidos, 2001)
+**Enron** era una empresa de energía de Houston que, en la década de 1990, se transformó en una gran comerciante de energía y otros productos, y llegó a estar entre las empresas más grandes de Estados Unidos por ingresos, según las listas de la época. En **diciembre de 2001** se declaró en quiebra, en lo que entonces fue una de las mayores quiebras de la historia de ese país.
+
+Según las investigaciones públicas (incluido el informe del comité especial de su propio consejo, conocido como Informe Powers, y los juicios posteriores), las fallas incluyeron:
+- **Entidades fuera del balance:** se usaron sociedades especiales, algunas dirigidas por su director de finanzas, para **esconder deudas** y **inflar utilidades**.
+- **Conflictos de interés** del director de finanzas, que obtuvo beneficios personales de esas operaciones, con dispensas aprobadas por el consejo.
+- **Contabilidad agresiva** que reconocía como utilidades ganancias futuras estimadas.
+- **Auditor con conflictos:** la firma Arthur Andersen era su auditora y también le prestaba consultoría por montos importantes; la firma fue condenada en 2002 por obstrucción de la justicia relacionada con documentos de Enron (la condena fue revocada después por la Suprema Corte de Estados Unidos en 2005, pero la firma ya se había desintegrado).
+- **Cultura de presión** por resultados y bonos ligados al precio de la acción.
+Varios de sus directivos fueron condenados. El caso, junto con el de WorldCom (2002), llevó a la **Ley Sarbanes-Oxley** (lección M24-8).
+
+## Caso 2: Wirecard (Alemania, 2020)
+**Wirecard** era una empresa alemana de procesamiento de pagos electrónicos que llegó a formar parte del DAX, el índice de las mayores empresas que cotizan en la bolsa de Fráncfort. En **junio de 2020** reconoció que unos **1,900 millones de euros** que supuestamente tenía en cuentas fiduciarias en Asia **probablemente no existían**. Días después se declaró en insolvencia.
+
+Según la información pública y las investigaciones:
+- Durante años, periodistas (en particular del diario Financial Times) y vendedores en corto habían publicado **señales de alerta** sobre su contabilidad y sus negocios en Asia.
+- En lugar de investigar a fondo, el regulador financiero alemán llegó a **investigar a los periodistas** y prohibió temporalmente las apuestas a la baja contra la acción.
+- Su **auditor** firmó los estados financieros durante años sin confirmar directamente con los bancos la existencia de ese efectivo.
+- El **consejo de supervisión** no logró detectar el problema.
+Su director general fue arrestado y enfrentó juicio; otro directivo huyó. El caso provocó reformas a la supervisión financiera y a las reglas de auditoría en Alemania.
+
+## Caso 3: WeWork (Estados Unidos, 2019)
+**WeWork** rentaba edificios a largo plazo y los subarrendaba como oficinas compartidas por periodos cortos. Recibió miles de millones de dólares de inversionistas, en especial del grupo japonés SoftBank, y en una ronda privada de **enero de 2019** fue valuada en unos **47,000 millones de dólares**, según lo informado públicamente.
+
+En **agosto de 2019** presentó su prospecto para salir a bolsa. Los inversionistas y la prensa analizaron el documento y encontraron, entre otras cosas:
+- **Pérdidas enormes** y un modelo con riesgo: rentas de largo plazo contra ingresos de corto plazo.
+- **Acciones con voto múltiple** que daban al fundador y director general, Adam Neumann, el control de la empresa.
+- **Conflictos de interés:** por ejemplo, la empresa había rentado edificios en los que el fundador tenía participación y le había pagado millones de dólares por los derechos de la marca «We» (pago que después se revirtió).
+- Un consejo con poca capacidad real de vigilar al fundador.
+
+La salida a bolsa se **canceló** en **septiembre de 2019**, Neumann dejó el cargo de director general y SoftBank rescató a la empresa con una valuación muy inferior. WeWork salió a bolsa en 2021 mediante una fusión con una empresa de propósito especial, pero en **noviembre de 2023** se acogió a la protección por quiebra en Estados Unidos, según sus comunicados.
+
+## Lo que tienen en común
+| Señal de alerta | Enron | Wirecard | WeWork |
+|---|---|---|---|
+| Contabilidad o información difícil de entender | Sí | Sí | Sí |
+| Conflictos de interés de directivos | Sí | — | Sí |
+| Director general o fundador sin contrapesos | Parcial | Sí | Sí |
+| Consejo que no cuestionó a fondo | Sí | Sí | Sí |
+| Auditor que no verificó lo esencial | Sí | Sí | — |
+| Señales externas ignoradas (críticos, periodistas) | Sí | Sí | — |
+| Presión extrema por crecimiento o precio de la acción | Sí | Sí | Sí |
+
+## Las lecciones para cualquier empresa
+1. **Si no lo entiendes, pregunta hasta entenderlo:** el consejo debe exigir explicaciones claras de cómo gana dinero la empresa.
+2. **Verifica lo esencial:** el efectivo existe, los clientes existen, las deudas están todas registradas.
+3. **Trata los conflictos de interés con rigor:** operaciones con partes relacionadas aprobadas por independientes, a precios de mercado y reveladas.
+4. **Escucha a los críticos:** las denuncias internas y los cuestionamientos externos son información valiosa, no ataques.
+5. **Auditores independientes de verdad:** sin conflictos y con acceso a todo.
+6. **Contrapesos al poder:** ningún directivo o fundador debe estar por encima del consejo.
+7. **Cultura:** la presión por resultados sin ética termina en fraude.
+
+## Lo que hace Grupo Lupita
+El consejo de Grupo Lupita aprueba tres medidas: (1) un **canal de denuncias** anónimo operado por una empresa externa que reporta directamente al comité de auditoría; (2) una **política de operaciones con partes relacionadas** que exige aprobación del comité de independientes y revelación en el informe anual (incluida la renta de locales a la inmobiliaria del grupo); (3) que el auditor externo **confirme directamente con los bancos** los saldos de todas las cuentas de todas las empresas del grupo, cada año.`,
+k: `**Enron (2001):** entidades fuera del balance para esconder deudas, conflictos del director de finanzas, auditor con conflictos; llevó a la Ley Sarbanes-Oxley. **Wirecard (2020):** 1,900 millones de euros que no existían; señales de alerta ignoradas; auditoría y supervisión fallidas. **WeWork (2019):** valuación de 47,000 millones, salida a bolsa cancelada por pérdidas, control del fundador y conflictos de interés. Lecciones: entender, **verificar**, controlar conflictos, escuchar a los críticos y poner **contrapesos**.`,
+ch: `En una cooperativa de ahorro de un pueblo, el tesorero manejaba solo las cuentas y nadie revisaba los estados del banco. Cuando se fue, faltaba la mitad del dinero. Una simple revisión mensual por otra persona lo habría evitado.`,
+gi: `En junio de 2020, Wirecard, empresa del índice DAX de la bolsa de Fráncfort, reconoció que unos 1,900 millones de euros de su balance probablemente no existían y se declaró en insolvencia días después, en uno de los mayores escándalos contables de Europa.`,
+e: `Cómo una entidad fuera del balance cambia la imagen de una empresa (ilustrativo, millones):
+
+| Concepto | Lo que se presenta | La realidad (consolidando la entidad) |
+|---|---|---|
+| Activos | 1,000 | 1,400 |
+| Deuda | 400 | 900 |
+| Capital | 600 | 500 |
+| Deuda ÷ capital | 400 ÷ 600 = **0.67** | 900 ÷ 500 = **1.8** |
+| Utilidad del año | 80 | 30 |
+
+Al esconder 500 de deuda y 50 de pérdidas en otra entidad, la empresa parece mucho menos endeudada y más rentable de lo que es.`,
+r: `Enron se declaró en quiebra en diciembre de 2001; el informe del comité especial de su consejo (Informe Powers, 2002) describió cómo ciertas sociedades relacionadas permitieron ocultar deudas y reportar utilidades que no existían. WeWork canceló su salida a bolsa en septiembre de 2019 y se acogió al capítulo 11 de la ley de quiebras de Estados Unidos en noviembre de 2023.`,
+f: `Informe Powers sobre Enron (2002); comunicados de Wirecard (junio de 2020) y cobertura del Financial Times; prospecto S-1 de The We Company (agosto de 2019) y comunicados de WeWork (2019 y 2023).`,
+err: ["Aprobar operaciones que el consejo no entiende.","No verificar directamente la existencia del efectivo y de las deudas.","Permitir conflictos de interés de directivos sin revisión independiente.","Ver a los críticos como enemigos en lugar de investigar.","Dejar al fundador o al director general sin contrapesos."],
+a: `Elige uno de los tres casos y escribe una página: qué hacía la empresa, qué falló en su gobierno, qué señales de alerta existían y qué tres mecanismos de este módulo habrían ayudado a evitarlo o a detectarlo antes.`,
+sol: `Una buena respuesta usa hechos públicos con fechas, identifica fallas concretas (contabilidad, conflictos, consejo, auditor, poder concentrado) y las vincula con mecanismos como consejeros independientes, comité de auditoría con verificación directa, política de partes relacionadas, canal de denuncias o separación de cargos.`,
+q: [["Una falla central en el caso Enron fue…",["Usar entidades fuera del balance para esconder deudas","Vender demasiado barato","No tener clientes"],0,"Según el Informe Powers y los juicios."],
+["En 2020, Wirecard reconoció que…",["Unos 1,900 millones de euros de su balance probablemente no existían","Había ganado un premio","Había comprado Google"],0,"Se declaró en insolvencia días después."],
+["Una de las preocupaciones sobre WeWork al intentar salir a bolsa en 2019 fue…",["El control del fundador con acciones de voto múltiple y sus conflictos de interés","Que no tenía oficinas","Que era demasiado rentable"],0,"La salida a bolsa se canceló."],
+["¿Qué ley se aprobó en Estados Unidos tras Enron y WorldCom?",["La Ley Sarbanes-Oxley","La Ley del Mercado de Valores de México","El T-MEC"],0,"En 2002."]],
+t: ["Escándalo corporativo","Entidad fuera del balance","Canal de denuncias","Vendedor en corto","Ley Sarbanes-Oxley"]
+}
+});
