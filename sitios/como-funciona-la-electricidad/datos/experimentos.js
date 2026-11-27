@@ -242,3 +242,58 @@ EXPERIMENTOS.push(
     seguridad: ["La resistencia de 10 Ω se calienta: usa una de al menos 1 W y no la toques mientras funciona.", "No uses pilas de litio."],
     desecho: "Recicla la pila agotada en un punto de recolección." }
 );
+
+// ---------- Nivel 3 (M10) ----------
+EXPERIMENTOS.push(
+  { id: "e-observar-red", t: "Observación guiada: la red de tu calle", mod: "m10", seg: "verde", v: 0, sim: "S13",
+    obj: "Identificar desde la banqueta, sin tocar nada, las partes de la red que llegan a tu casa.",
+    mat: ["Celular con cámara (zoom)", "Libreta", "Un adulto que acompañe"],
+    pasos: ["Desde la banqueta, busca el transformador de poste o de pedestal más cercano y fotografíalo con zoom.", "Sigue con la vista los cables de media tensión (los más altos, sobre aisladores) y los de baja tensión.", "Localiza la acometida que llega a tu casa (aérea o subterránea).", "Ubica el medidor y, si está a la vista, el interruptor principal. No abras ninguna tapa.", "Cuenta los discos de los aisladores de alguna línea grande que veas a lo lejos.", "Dibuja el recorrido en tu libreta, del transformador al tablero."],
+    obs: "Transformador con sus aisladores, tres cables de media tensión, cables trenzados de baja tensión, acometida y medidor.",
+    tabla: ["Elemento", "¿Lo encontraste?", "Descripción"],
+    expl: "Es el último tramo de la red: la media tensión llega al transformador de distribución, que la baja a la tensión de las casas; la acometida la lleva al medidor y de ahí al tablero.",
+    var: ["Compara tu calle con una zona de red subterránea.", "Busca un restaurador o un apartarrayos en los postes."],
+    seguridad: ["Solo observar, desde la banqueta y a distancia.", "Nunca trepes a postes, muros o árboles cercanos a cables.", "Si ves un cable caído o un transformador dañado, aléjate y avisa a la compañía eléctrica."],
+    desecho: "No genera residuos." }
+);
+
+// ---------- Nivel 3 (M11) ----------
+EXPERIMENTOS.push(
+  { id: "e-tablero-mirar", t: "Conoce tu tablero sin abrirlo", mod: "m11", seg: "verde", v: 0, sim: "S14",
+    obj: "Identificar los circuitos y protecciones de tu casa a partir de lo que se ve en el tablero.",
+    mat: ["Linterna", "Libreta o cámara", "Un adulto que acompañe"],
+    pasos: ["Con un adulto, localiza el tablero. Abre solo la puerta exterior si la tiene; nunca quites la tapa que cubre los cables.", "Cuenta los interruptores y anota la corriente grabada en cada uno (15 A, 20 A…).", "Busca si hay un interruptor con botón de prueba (diferencial).", "Lee las etiquetas: ¿qué alimenta cada circuito?", "Si no está rotulado, pide al adulto que apague un interruptor cada vez y comprueben juntos qué se apaga (con el refrigerador desconectado de antemano o por poco tiempo).", "Dibuja el diagrama unifilar: tablero y cada circuito con su interruptor."],
+    obs: "Un interruptor principal, varios termomagnéticos de distinta corriente y, en las instalaciones modernas, uno o varios diferenciales.",
+    tabla: ["Interruptor", "Corriente (A)", "¿Diferencial?", "Qué alimenta"],
+    expl: "Cada circuito derivado tiene un interruptor dimensionado según su cable. Los diferenciales protegen a las personas en las zonas húmedas.",
+    var: ["Calcula con la calculadora C2 la potencia máxima de cada circuito.", "Compara con el tablero de otra casa."],
+    seguridad: ["Solo mirar: nunca quites la tapa interior del tablero ni toques cables o barras.", "Hazlo siempre con un adulto.", "No toques el tablero con las manos mojadas ni descalzo."],
+    desecho: "No genera residuos." },
+  { id: "e-boton-prueba", t: "Prueba el interruptor diferencial", mod: "m11", seg: "verde", v: 0, sim: "S14",
+    obj: "Comprobar que el interruptor diferencial de casa funciona usando su botón de prueba.",
+    mat: ["El tablero de casa (con diferencial)", "Un adulto"],
+    pasos: ["Con un adulto, avisa a la familia de que se cortará la luz de algunos circuitos unos segundos.", "Localiza el interruptor diferencial (tiene un botón marcado «T» o «Prueba»).", "El adulto pulsa el botón de prueba una vez, sin mantenerlo apretado.", "Observa: la palanca del diferencial debe bajar y cortar la corriente de sus circuitos.", "El adulto vuelve a subir la palanca.", "Anota la fecha en el tablero para repetir la prueba cada uno a tres meses."],
+    obs: "El diferencial se dispara de inmediato. Si no se dispara, está dañado.",
+    expl: "El botón crea dentro del diferencial una pequeña fuga simulada entre la fase y el neutro que no pasa por el toroide; el aparato la detecta como una diferencia entre ida y vuelta y corta.",
+    var: ["Si tienes contactos GFCI (con botones TEST y RESET), pruébalos de la misma manera."],
+    seguridad: ["Es el uso previsto del botón, pero hazlo siempre un adulto.", "Si el diferencial no se dispara, no lo uses como si protegiera: llama a un electricista para cambiarlo.", "Ten en cuenta que se apagarán computadoras y otros aparatos de esos circuitos."],
+    desecho: "No genera residuos." },
+  { id: "e-escalera", t: "Maqueta de interruptor de escalera con pila", mod: "m11", seg: "verde", v: 9, sim: "S21",
+    obj: "Construir con una pila y dos conmutadores el circuito que controla una luz desde dos lugares.",
+    mat: ["Pila de 9 V con broche", "LED y resistencia de 470 Ω", "Dos interruptores conmutadores pequeños de tres patas (o hechos con chinchetas y clips)", "Cables", "Cartón"],
+    pasos: ["Monta los dos conmutadores en el cartón, separados.", "Conecta el + de la pila (a través de la resistencia) a la pata central del primer conmutador.", "Une con dos cables (los «viajeros») las patas laterales del primer conmutador con las del segundo.", "Conecta la pata central del segundo conmutador a la patita larga del LED y la patita corta al − de la pila.", "Prueba las cuatro combinaciones de posiciones.", "Dibuja la tabla de verdad."],
+    obs: "El LED enciende cuando los dos conmutadores están «del mismo lado» y se apaga en las otras dos combinaciones; cambiar cualquiera invierte el estado.",
+    tabla: ["Conmutador 1", "Conmutador 2", "LED"],
+    expl: "La corriente solo tiene camino cuando ambos conmutadores eligen el mismo viajero. Es el mismo esquema que en las escaleras de las casas, pero con 9 V.",
+    var: ["Añade un tercer punto de control con un interruptor de cruce (dos conmutadores dobles)."],
+    seguridad: ["Solo con la pila de 9 V: nunca intentes este montaje con la red.", "No juntes los polos de la pila directamente."],
+    desecho: "Guarda los componentes; recicla la pila agotada." },
+  { id: "e-cablear", t: "Cablear un contacto o un apagador de la red", mod: "m11", seg: "rojo", v: 230, sim: "S21",
+    obj: "Conocer el procedimiento que sigue un electricista profesional, solo como explicación.",
+    mat: ["Ninguno: solo la explicación y la simulación S21"],
+    pasos: ["Un electricista corta el circuito en el tablero y lo bloquea o señaliza para que nadie lo reconecte.", "Comprueba con un detector o un multímetro de categoría adecuada que no hay voltaje.", "Identifica fase, neutro y tierra con instrumentos, no por el color.", "Hace las conexiones con el calibre y los conectores correctos, apretando los tornillos al par adecuado.", "Cierra la caja, restablece el circuito y prueba el funcionamiento y el diferencial."],
+    obs: "Un procedimiento sistemático con verificación de ausencia de voltaje antes de tocar nada.",
+    expl: "Trabajar en la red requiere formación, herramientas aisladas, instrumentos certificados y conocer la norma. Un error puede causar electrocución o un incendio meses después.",
+    seguridad: ["Nunca lo hagas tú: es trabajo exclusivo de un electricista calificado.", "Para practicar la lógica de los circuitos usa la simulación S21 o la maqueta de 9 V."],
+    desecho: "No aplica." }
+);
