@@ -106,7 +106,10 @@ function bindQuiz(form, qs, onScore){
 
 // ---------- buscador ----------
 const IDX = [];
-function addIdx(k, t, h, txt, lvl){ IDX.push({k, t, h, txt: String(txt || ""), lvl, nt: norm(t), nx: norm(txt || "")}); }
+// Texto normalizado con palabras separadas por espacios: se busca « término» para coincidir al inicio de palabra
+// («ohm» encuentra «ohmios», pero «pid» no encuentra «rápido»).
+const palabras = s => " " + norm(s).replace(/[^a-z0-9ñ]+/g, " ") + " ";
+function addIdx(k, t, h, txt, lvl){ IDX.push({k, t, h, txt: String(txt || ""), lvl, nt: palabras(t), nx: palabras(txt || "")}); }
 MODS.forEach(m => {
   addIdx("Módulo", `${m.id}. ${m.t}`, H("modulo/" + m.id), [m.d, ...(m.obj || [])].join(" "), m.n);
   m.L.forEach(l => addIdx("Lección", `${l.id.replace("-", ".")} ${l.t}`, H("leccion/" + l.id), [l.p, ...(l.o || []), ...(l.x || []), l.k, l.c ? l.c.t : "", ...(l.er || [])].join(" "), m.n));
@@ -116,10 +119,10 @@ MODS.forEach(m => {
 (X.FALLAS || []).forEach((f, i) => addIdx("Solución de problemas", f.s, H("solucion-de-problemas/" + i), [...f.c, ...f.r].join(" ")));
 T.forEach(t => addIdx("Herramienta", t.t, H("herramientas/" + t.id), t.d));
 function buscar(q){
-  const terms = norm(q).split(/\s+/).filter(w => w.length > 1); if (!terms.length) return [];
+  const terms = palabras(q).trim().split(/\s+/).filter(w => w.length > 1); if (!terms.length) return [];
   return IDX.map(e => { let s = 0;
-    for (const w of terms){ const inT = e.nt.includes(w), inX = e.nx.includes(w); if (!inT && !inX) return null; s += inT ? 10 : 0; if (inX) s += Math.min(5, e.nx.split(w).length - 1); }
-    if (e.nt.includes(terms.join(" "))) s += 15; if (e.k === "Lección") s += 1; return {e, s}; })
+    for (const t of terms){ const w = " " + t; const inT = e.nt.includes(w), inX = e.nx.includes(w); if (!inT && !inX) return null; s += inT ? 10 : 0; if (inX) s += Math.min(5, e.nx.split(w).length - 1); }
+    if (e.nt.includes(" " + terms.join(" "))) s += 15; if (e.k === "Lección") s += 1; return {e, s}; })
     .filter(Boolean).sort((a, b) => b.s - a.s);
 }
 function snippet(txt, q){

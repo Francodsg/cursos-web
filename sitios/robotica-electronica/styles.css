@@ -87,7 +87,10 @@ pre.code{background:var(--code-bg);color:var(--code-ink);padding:.9rem;border-ra
 .codewrap .copy{position:absolute;top:.4rem;right:.4rem;background:#2b3541;color:#fff;border:0;border-radius:5px;padding:.2rem .5rem;cursor:pointer;font-size:.8rem}
 .codewrap .lang{font-size:.75rem;color:var(--muted);margin-bottom:.2rem}
 code{font-family:var(--mono);font-size:.92em;background:var(--soft);padding:.05rem .3rem;border-radius:4px}
-.layout{display:grid;grid-template-columns:240px 1fr;gap:1.4rem;align-items:start}
+.layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:1.4rem;align-items:start}
+.layout > *, .prose, .card, .q, .box{min-width:0}
+main{overflow-wrap:break-word}
+.results .meta{overflow-wrap:anywhere}
 .side{position:sticky;top:4.2rem;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.7rem;max-height:calc(100vh - 5rem);overflow:auto}
 .side summary{font-weight:700;cursor:pointer}
 .side ol{padding-left:1.2rem;margin:.4rem 0;font-size:.9rem}
@@ -145,7 +148,7 @@ textarea{width:100%;min-height:5rem}
 .filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0}
 .tabs a{margin-right:.8rem}
 @media (max-width:860px){
-  .layout{grid-template-columns:1fr}
+  .layout{grid-template-columns:minmax(0,1fr)}
   .side{position:static;max-height:none}
 }
 @media (max-width:760px){
